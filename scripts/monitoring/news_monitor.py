@@ -268,12 +268,34 @@ class NewsMonitor:
     # Summary
     # ------------------------------------------------------------------
 
+    def check_realtime_alerts(self) -> list[dict]:
+        """Check for pending alerts from the real-time news daemon.
+
+        Returns:
+            List of alert dicts from the daemon's pending queue.
+        """
+        try:
+            from scripts.monitoring.realtime_news import pop_pending_alerts
+            return pop_pending_alerts()
+        except Exception as e:
+            logger.warning("Failed to check realtime alerts: %s", e)
+            return []
+
     def get_monitoring_summary(self) -> str:
         """Human-readable summary of all monitored events."""
+        # Check real-time daemon alerts first
+        rt_alerts = self.check_realtime_alerts()
         news = self.check_breaking_news()
         volume = self.check_unusual_volume()
 
         lines = ["📰 News Monitor Summary", "=" * 40]
+
+        if rt_alerts:
+            lines.append(f"\n⚡ REAL-TIME ALERTS ({len(rt_alerts)} items):")
+            for a in rt_alerts:
+                icon = "🔴" if a["urgency"] == "critical" else "🟠"
+                lines.append(f"  {icon} [{a.get('ticker', 'MACRO')}] {a['headline'][:70]}")
+                lines.append(f"      src={a['source']}  keywords={a.get('keywords', [])}")
 
         if news:
             lines.append(f"\n🗞 Breaking News ({len(news)} items):")

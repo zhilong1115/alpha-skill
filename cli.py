@@ -492,6 +492,68 @@ def news(tickers: tuple[str, ...]) -> None:
         click.echo("  No unusual volume detected.")
 
 
+@cli.command("news-daemon")
+@click.argument("action", type=click.Choice(["start", "stop", "status", "alerts"]))
+def news_daemon(action: str) -> None:
+    """Manage real-time news monitoring daemon.
+
+    start  — Launch background daemon (Alpaca WS + RSS + Finnhub)
+    stop   — Stop the running daemon
+    status — Check if daemon is running
+    alerts — Show pending alerts from daemon
+    """
+    from scripts.monitoring.realtime_news import (
+        is_running, read_pid, stop_daemon, run_daemon,
+        pop_pending_alerts, _load_pending,
+    )
+
+    if action == "status":
+        if is_running():
+            click.echo(f"✅ News daemon running (PID={read_pid()})")
+            alerts = _load_pending()
+            click.echo(f"   Pending alerts: {len(alerts)}")
+        else:
+            click.echo("❌ News daemon not running")
+
+    elif action == "stop":
+        if stop_daemon():
+            click.echo("✅ Daemon stopped")
+        else:
+            click.echo("❌ Daemon not running")
+
+    elif action == "alerts":
+        alerts = _load_pending()
+        if alerts:
+            click.echo(f"📰 Pending alerts ({len(alerts)}):")
+            for a in alerts:
+                icon = "🔴" if a["urgency"] == "critical" else "🟠"
+                click.echo(f"  {icon} [{a.get('ticker', 'MACRO')}] {a['headline'][:80]}")
+                click.echo(f"      source={a['source']}  urgency={a['urgency']}  macro={a.get('is_macro', False)}")
+                if a.get("url"):
+                    click.echo(f"      {a['url']}")
+        else:
+            click.echo("  No pending alerts.")
+
+    elif action == "start":
+        if is_running():
+            click.echo(f"⚠️ Daemon already running (PID={read_pid()})")
+            return
+        # Fork to background
+        import subprocess
+        import sys
+        proc = subprocess.Popen(
+            [sys.executable, "-m", "scripts.monitoring.realtime_news"],
+            cwd=str(Path(__file__).parent),
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            start_new_session=True,
+        )
+        click.echo(f"🚀 News daemon started (PID={proc.pid})")
+        click.echo("   Sources: Alpaca WebSocket + RSS (CNBC, Reuters, MarketWatch, Yahoo) + Finnhub")
+        click.echo("   Check status: python cli.py news-daemon status")
+        click.echo("   View alerts:  python cli.py news-daemon alerts")
+
+
 @cli.command("ab-status")
 def ab_status() -> None:
     """Show A/B test comparison: baseline vs judgment strategy."""

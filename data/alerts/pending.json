@@ -1,0 +1,303 @@
+[
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Amazon snaps 9-day losing streak during which it lost more than $450 billion in value",
+    "summary": "Amazon expects to spend $200 billion this year on AI initiatives, the company said when it reported earnings.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "AMZN",
+    "matched_tickers": [
+      "AMZN"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "Tue, 17 Feb 2026 21:24:53 GMT",
+    "url": "https://www.cnbc.com/2026/02/17/amazon-stock-losing-streak.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Palo Alto Networks slumps 6% as third quarter profit guidance falls short",
+    "summary": "The cybersecurity company also said on Tuesday that it's buying Israeli startup Koi",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "guidance"
+    ],
+    "timestamp": "Tue, 17 Feb 2026 22:24:14 GMT",
+    "url": "https://www.cnbc.com/2026/02/17/palo-alto-networks-panw-q2-2026-earnings.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Nvidia is partnering with major Indian VC firms in search for the country's next AI start-ups",
+    "summary": "Nvidia is expanding its partnerships in India, including with venture capital firms, as it bets on the country's AI ecosystem that has drawn massive Big Tech investments.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "partnership"
+    ],
+    "timestamp": "Wed, 18 Feb 2026 03:54:50 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/nvidia-india-ai-vc-data-center-partners.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "CNBC's The China Connection newsletter: Businesses scramble to reach China's growing experiences economy",
+    "summary": "From a new theme park to business partnerships, companies are trying new ways to reach China's consumer ahead of the Lunar New Year.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china",
+      "partnership"
+    ],
+    "timestamp": "Wed, 18 Feb 2026 04:22:26 GMT",
+    "url": "https://www.cnbc.com/2026/02/17/cnbcs-the-china-connection-newsletter-businesses-scramble-to-reach-chinas-growing-experiences-economy.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Japan exports growth surges to over 3-year high, up nearly 17% in January, as shipments to China soar",
+    "summary": "Value of exports to China, Japan's largest trading partner, jumped 32%, after rising 5.6% in December.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china"
+    ],
+    "timestamp": "Wed, 18 Feb 2026 02:14:05 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/japan-trade-data-january-exports-imports.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "IMF urges Japan to keep raising rates, avoid reducing sales tax",
+    "summary": "The recommendation came as dovish Prime Minister Sanae Takaichi's landslide election win heightens market attention to whether she will push back against further rate hikes.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate hike"
+    ],
+    "timestamp": "Wed, 18 Feb 2026 01:29:42 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/imf-urges-japan-to-keep-raising-rates-avoid-reducing-sales-tax.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Meta expands Nvidia deal to use millions of AI chips in data center build-out, including standalone CPUs",
+    "summary": "Meta expands partnership with Nvidia in a deal likely worth tens of billions, for deploying millions of GPUs and new standalone CPUs in AI data centers",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "META",
+    "matched_tickers": [
+      "META",
+      "NVDA"
+    ],
+    "keywords": [
+      "partnership"
+    ],
+    "timestamp": "Tue, 17 Feb 2026 21:54:32 GMT",
+    "url": "https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "The January CPI inflation report is due out Friday morning. Here's what it's expected to show",
+    "summary": "Investors got some good news this week on the state of the labor market, and more may be on the way Friday on inflation.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation",
+      "cpi "
+    ],
+    "timestamp": "Thu, 12 Feb 2026 21:42:46 GMT",
+    "url": "https://www.cnbc.com/2026/02/12/the-january-cpi-inflation-report-is-due-out-friday-morning-heres-what-its-expected-to-show.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Tariff revenue soars more than 300% as U.S. awaits Supreme Court decision",
+    "summary": "The U.S. government in January ran up a smaller deficit than a year ago, while tariff collections surged.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "timestamp": "Thu, 12 Feb 2026 15:14:54 GMT",
+    "url": "https://www.cnbc.com/2026/02/11/tariff-revenue-soars-more-than-300percent-as-us-awaits-supreme-court-decision.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Here are the five key takeaways from the January jobs report",
+    "summary": "The January nonfarm payrolls report beat Wall Street expectations in both job creation and the unemployment rate.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "jobs report",
+      "nonfarm",
+      "unemployment",
+      "beat"
+    ],
+    "timestamp": "Wed, 11 Feb 2026 18:52:37 GMT",
+    "url": "https://www.cnbc.com/2026/02/11/here-are-the-five-key-takeaways-from-the-january-jobs-report.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "U.S. payrolls rose by 130,000 in January, more than expected; unemployment down to 4.3%",
+    "summary": "Job growth was stronger than expected to start 2026, providing some relief to concerns about the state of the U.S. labor market.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "unemployment"
+    ],
+    "timestamp": "Wed, 11 Feb 2026 19:07:05 GMT",
+    "url": "https://www.cnbc.com/2026/02/11/jobs-report-january-2026-.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "The delayed January jobs report will be released Wednesday. Here's what to expect",
+    "summary": "Economists expect that the nonfarm payrolls report should show growth that was nil or not much better during the month.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "jobs report",
+      "nonfarm"
+    ],
+    "timestamp": "Tue, 10 Feb 2026 20:52:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/10/jobs-report-preview-january-2026.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Disappointing holiday season: December retail sales were flat, falling well short of estimate",
+    "summary": "Consumer activity slowed sharply for the December holiday shopping season.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "retail sales"
+    ],
+    "timestamp": "Tue, 10 Feb 2026 16:05:59 GMT",
+    "url": "https://www.cnbc.com/2026/02/10/december-retail-sales-were-flat-missing-expectations.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Layoffs in January were the highest to start a year since 2009, Challenger says",
+    "summary": "With the recent narrative centering on a no-hire, no-fire labor market, the data suggests that the layoff part of the equation could be stepping up.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "timestamp": "Thu, 05 Feb 2026 15:57:40 GMT",
+    "url": "https://www.cnbc.com/2026/02/05/layoff-and-hiring-announcements-hit-their-worst-january-levels-since-2009-challenger-says.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "China's Xi reasserts Taiwan stance in call with Trump, while U.S. president pushes trade",
+    "summary": "Beijing stressed Taiwan is the most important issue while Trump highlights the trade aspects of the bilateral relations.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china"
+    ],
+    "timestamp": "Thu, 05 Feb 2026 03:21:40 GMT",
+    "url": "https://www.cnbc.com/2026/02/05/chinas-xi-taiwan-trump-trade-talks-iran-russia.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "January jobs report will be released on Feb. 11 after shutdown delay",
+    "summary": "The January jobs report delayed by the brief government shutdown will be released next week, the Bureau of Labor Statistics said Wednesday.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "government shutdown"
+    ],
+    "timestamp": "Wed, 04 Feb 2026 18:45:04 GMT",
+    "url": "https://www.cnbc.com/2026/02/04/january-jobs-report-government-shutdown.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Friday's jobs report will be delayed because of the partial government shutdown",
+    "summary": "Following last year's record shutdown, the BLS also was forced to delay a number of its releases.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "government shutdown"
+    ],
+    "timestamp": "Mon, 02 Feb 2026 18:44:43 GMT",
+    "url": "https://www.cnbc.com/2026/02/02/fridays-jobs-report-will-be-delayed-because-of-the-partial-government-shutdown.html"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Nvidia\u2019s new Meta deal may not be great news for these other tech stocks",
+    "summary": "Shares of Broadcom, AMD and Arista fell after Nvidia and Meta announced an expansion of their partnership.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "META",
+    "matched_tickers": [
+      "META",
+      "NVDA"
+    ],
+    "keywords": [
+      "partnership"
+    ],
+    "timestamp": "Wed, 18 Feb 2026 01:01:00 GMT",
+    "url": "https://www.marketwatch.com/story/nvidias-new-meta-deal-may-not-be-great-news-for-these-other-tech-stocks-82b6e4d1?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "China Hits Renewable Milestone, But Coal Isn\u2019t Going Anywhere",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china"
+    ],
+    "timestamp": "2026-02-17T00:00:00Z",
+    "url": "https://finance.yahoo.com/news/china-hits-renewable-milestone-coal-000000368.html"
+  }
+]

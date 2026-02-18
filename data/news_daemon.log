@@ -1,0 +1,55 @@
+2026-02-17 22:39:50,765 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=82940)
+2026-02-17 22:39:50,765 [realtime_news] INFO:    Watching: AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA
+2026-02-17 22:39:50,767 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.sandbox.alpaca.markets/v1beta1/news
+2026-02-17 22:39:50,772 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-17 22:39:50,772 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-17 22:39:51,048 [realtime_news] INFO: Auth response: [{"T":"success","msg":"connected"}]
+2026-02-17 22:39:51,122 [realtime_news] INFO: Subscribe response: [{"T":"error","code":402,"msg":"auth failed"}]
+2026-02-17 22:39:51,122 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-17 22:39:51,151 [realtime_news] INFO: 🚨 ALERT: [critical] AMZN — Amazon snaps 9-day losing streak during which it lost more than $450 billion in 
+2026-02-17 22:39:51,152 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Palo Alto Networks slumps 6% as third quarter profit guidance falls short
+2026-02-17 22:39:51,152 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Nvidia is partnering with major Indian VC firms in search for the country's next
+2026-02-17 22:39:51,152 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CNBC's The China Connection newsletter: Businesses scramble to reach China's gro
+2026-02-17 22:39:51,152 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Japan exports growth surges to over 3-year high, up nearly 17% in January, as sh
+2026-02-17 22:39:51,153 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — IMF urges Japan to keep raising rates, avoid reducing sales tax
+2026-02-17 22:39:51,153 [realtime_news] INFO: 🚨 ALERT: [high] META — Meta expands Nvidia deal to use millions of AI chips in data center build-out, i
+2026-02-17 22:39:51,417 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The January CPI inflation report is due out Friday morning. Here's what it's exp
+2026-02-17 22:39:51,417 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tariff revenue soars more than 300% as U.S. awaits Supreme Court decision
+2026-02-17 22:39:51,417 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Here are the five key takeaways from the January jobs report
+2026-02-17 22:39:51,418 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — U.S. payrolls rose by 130,000 in January, more than expected; unemployment down 
+2026-02-17 22:39:51,418 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The delayed January jobs report will be released Wednesday. Here's what to expec
+2026-02-17 22:39:51,418 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Disappointing holiday season: December retail sales were flat, falling well shor
+2026-02-17 22:39:51,419 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Layoffs in January were the highest to start a year since 2009, Challenger says
+2026-02-17 22:39:51,419 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China's Xi reasserts Taiwan stance in call with Trump, while U.S. president push
+2026-02-17 22:39:51,420 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — January jobs report will be released on Feb. 11 after shutdown delay
+2026-02-17 22:39:51,420 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Friday's jobs report will be delayed because of the partial government shutdown
+2026-02-17 22:39:51,776 [realtime_news] INFO: 🚨 ALERT: [high] META — Nvidia’s new Meta deal may not be great news for these other tech stocks
+2026-02-17 22:40:01,093 [realtime_news] WARNING: WebSocket error: no close frame received or sent. Reconnecting in 1s...
+2026-02-17 22:40:02,096 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.sandbox.alpaca.markets/v1beta1/news
+2026-02-17 22:40:02,397 [realtime_news] INFO: Auth response: [{"T":"success","msg":"connected"}]
+2026-02-17 22:40:02,491 [realtime_news] INFO: Subscribe response: [{"T":"error","code":402,"msg":"auth failed"}]
+2026-02-17 22:40:02,492 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-17 22:40:10,292 [realtime_news] INFO: RSS polling stopped
+2026-02-17 22:40:12,393 [realtime_news] INFO: Alpaca news stream stopped
+2026-02-17 22:40:12,394 [realtime_news] INFO: News daemon shut down
+2026-02-17 22:40:14,239 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=82959)
+2026-02-17 22:40:14,239 [realtime_news] INFO:    Watching: AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA
+2026-02-17 22:40:14,240 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-17 22:40:14,245 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-17 22:40:14,245 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-17 22:40:14,549 [realtime_news] INFO: Auth response: [{"T":"success","msg":"connected"}]
+2026-02-17 22:40:14,690 [realtime_news] INFO: Subscribe response: [{"T":"success","msg":"authenticated"}]
+2026-02-17 22:40:14,690 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-17 22:40:38,223 [realtime_news] INFO: RSS polling stopped
+2026-02-17 22:40:44,779 [realtime_news] INFO: Alpaca news stream stopped
+2026-02-17 22:40:44,780 [realtime_news] INFO: News daemon shut down
+2026-02-17 22:40:46,627 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=82986)
+2026-02-17 22:40:46,627 [realtime_news] INFO:    Watching: AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA
+2026-02-17 22:40:46,629 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-17 22:40:46,633 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-17 22:40:46,634 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-17 22:40:46,898 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-17 22:40:46,974 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-17 22:40:47,050 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-17 22:40:47,050 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-17 22:40:47,487 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China Hits Renewable Milestone, But Coal Isn’t Going Anywhere
