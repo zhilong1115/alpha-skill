@@ -1,0 +1,41 @@
+broker:
+  mode: paper
+  primary: alpaca
+  alpaca:
+    base_url: https://paper-api.alpaca.markets
+
+data:
+  primary: yfinance
+  cache_dir: ./data/cache
+  cache_ttl_hours: 1
+
+universe:
+  type: sp500
+  custom_tickers: []
+  exclude: []
+  min_market_cap: 1.0e9
+  min_avg_volume: 500000
+
+strategies:
+  enabled:
+    - earnings_event
+    - sentiment_momentum
+    - investor_following
+    - momentum_factor
+
+risk:
+  max_position_pct: 5.0
+  max_portfolio_risk_pct: 2.0
+  stop_loss_pct: 8.0
+  daily_drawdown_limit_pct: 3.0
+  total_drawdown_limit_pct: 15.0
+  max_open_positions: 15
+  max_sector_positions: 3
+  min_cash_pct: 20.0
+  max_options_notional_pct: 20.0
+
+notifications:
+  telegram: true
+  daily_report: true
+  trade_alerts: true
+  drawdown_alerts: true
