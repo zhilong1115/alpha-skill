@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "AMD",
+    "original_conviction": 0.335,
+    "adjusted_conviction": 0.335,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[Yahoo Finance] Nvidia and Meta expand GPU team with millions of additional AI c",
+      "[Investor's Business Daily] Stock Market Today: Dow Up 300 Points; Nvidia Jumps,",
+      "[Proactive] AI \u201cdoomsday\u201d trade misreads enterprise reality, says tech-focused b",
+      "[Insider Monkey] Advanced Micro Devices (AMD) Surges on Strong AI Chip and Data ",
+      "[Investor's Business Daily] Dow Jones Futures Rise; Nvidia Gains On Meta AI Deal"
+    ],
+    "timestamp": "2026-02-18T17:11:59.533104+00:00"
+  },
+  "prompt": "## LLM Trade Review: AMD\n\n**Quantitative Signal**: BUY conviction=0.335\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Yahoo Finance] Nvidia and Meta expand GPU team with millions of additional AI chips (2026-02-17T21:15:44Z)\n  - [Investor's Business Daily] Stock Market Today: Dow Up 300 Points; Nvidia Jumps, Amer Sports Glows In New Breakout (Live Coverage) (2026-02-18T16:38:16Z)\n  - [Proactive] AI \u201cdoomsday\u201d trade misreads enterprise reality, says tech-focused broker (2026-02-18T16:30:03Z)\n  - [Insider Monkey] Advanced Micro Devices (AMD) Surges on Strong AI Chip and Data Center Processor Demand (2026-02-18T15:11:40Z)\n  - [Investor's Business Daily] Dow Jones Futures Rise; Nvidia Gains On Meta AI Deal, Rivals Fall (2026-02-18T12:54:23Z)\n  - [MT Newswires] Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Wednesday; Amazon to Rise, Sandisk to Fall (2026-02-18T11:34:50Z)\n  - [24/7 Wall St.] Forget NVIDIA: This is the AI Stock to Buy in 2026 (2026-02-18T10:10:11Z)\n  - [Proactive] Meta's multibillion-dollar Nvidia deal sends a signal the chip giant's rivals can't ignore (2026-02-18T08:30:00Z)\n\n### Price Action\n- Current: $202.41\n- 5-day: -7.1% | 1-month: -10.47%\n- 5d range: $194.83 - $219.65\n\n### Volume\n- Today: 19,687,900 | Avg: 41,411,329 | Ratio: 0.48x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

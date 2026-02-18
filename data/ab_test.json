@@ -2,14 +2,14 @@
   "started_at": "2026-02-18T14:32:31.730121+00:00",
   "initial_capital": 100000,
   "a_label": "Baseline (quant-only)",
-  "a_trades": 3,
+  "a_trades": 101,
   "a_realized_pnl": 0.0,
   "b_label": "Judgment-enhanced",
-  "b_cash": 85530.68975830078,
+  "b_cash": 1.6205601692199707,
   "b_positions": {
     "GOOGL": {
-      "qty": 16,
-      "entry_price": 302.7799987792969,
+      "qty": 32,
+      "entry_price": 303.16990661621094,
       "highest": 302.7799987792969
     },
     "AAPL": {
@@ -21,10 +21,105 @@
       "qty": 26,
       "entry_price": 187.69000244140625,
       "highest": 187.69000244140625
+    },
+    "DTREF": {
+      "qty": 23618,
+      "entry_price": 0.21170000731945038,
+      "highest": 0.21170000731945038
+    },
+    "INTC": {
+      "qty": 108,
+      "entry_price": 46.2599983215332,
+      "highest": 46.2599983215332
+    },
+    "CHRW": {
+      "qty": 27,
+      "entry_price": 182.39999389648438,
+      "highest": 182.39999389648438
+    },
+    "MDT": {
+      "qty": 51,
+      "entry_price": 96.61000061035156,
+      "highest": 96.61000061035156
+    },
+    "ROL": {
+      "qty": 83,
+      "entry_price": 59.900001525878906,
+      "highest": 59.900001525878906
+    },
+    "ALB": {
+      "qty": 28,
+      "entry_price": 173.97999572753906,
+      "highest": 173.97999572753906
+    },
+    "IBKR": {
+      "qty": 66,
+      "entry_price": 75.29000091552734,
+      "highest": 75.29000091552734
+    },
+    "KLAC": {
+      "qty": 3,
+      "entry_price": 1497.0001220703125,
+      "highest": 1497.0001220703125
+    },
+    "EXPD": {
+      "qty": 33,
+      "entry_price": 148.08999633789062,
+      "highest": 148.08999633789062
+    },
+    "CSCO": {
+      "qty": 63,
+      "entry_price": 78.14640045166016,
+      "highest": 78.14640045166016
+    },
+    "GPC": {
+      "qty": 40,
+      "entry_price": 122.81500244140625,
+      "highest": 122.81500244140625
+    },
+    "LUFFF": {
+      "qty": 101832,
+      "entry_price": 0.04910000041127205,
+      "highest": 0.04910000041127205
+    },
+    "GM": {
+      "qty": 59,
+      "entry_price": 83.87999725341797,
+      "highest": 83.87999725341797
+    },
+    "ASTI": {
+      "qty": 732,
+      "entry_price": 6.826000213623047,
+      "highest": 6.826000213623047
+    },
+    "GOOG": {
+      "qty": 16,
+      "entry_price": 304.2049865722656,
+      "highest": 304.2049865722656
+    },
+    "MOOD": {
+      "qty": 118,
+      "entry_price": 42.09000015258789,
+      "highest": 42.09000015258789
+    },
+    "SNDK": {
+      "qty": 3,
+      "entry_price": 614.8250122070312,
+      "highest": 614.8250122070312
+    },
+    "SLV": {
+      "qty": 2,
+      "entry_price": 70.55999755859375,
+      "highest": 70.55999755859375
+    },
+    "SA": {
+      "qty": 1,
+      "entry_price": 33.119998931884766,
+      "highest": 33.119998931884766
     }
   },
-  "b_trades": 3,
+  "b_trades": 23,
   "b_realized_pnl": 0.0,
   "a_vetoed_count": 0,
-  "b_boosted_count": 1
+  "b_boosted_count": 30
 }

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "GOOG",
+    "original_conviction": 0.302,
+    "adjusted_conviction": 0.102,
+    "adjustment": -0.2,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Negative catalyst: downgrade",
+    "news_digest": [
+      "[Yahoo Finance] Meta CEO Mark Zuckerberg set to testify in teen social media add",
+      "[Yahoo Finance Video] Ormat and Google strike geothermal power deal, Rivian down",
+      "[Investing.com] Spotify stock erases 5% gain after Google unveils music AI featu",
+      "[Benzinga] Saving What's Left At The End Of The Month Sounds Sensible. It Might ",
+      "[Investing.com] Uber to invest $100 million in autonomous vehicle charging hubs "
+    ],
+    "timestamp": "2026-02-18T17:11:37.240023+00:00"
+  },
+  "prompt": "## LLM Trade Review: GOOG\n\n**Quantitative Signal**: BUY conviction=0.302\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Yahoo Finance] Meta CEO Mark Zuckerberg set to testify in teen social media addiction suit (2026-02-18T16:50:18Z)\n  - [Yahoo Finance Video] Ormat and Google strike geothermal power deal, Rivian downgraded (2026-02-17T19:05:59Z)\n  - [Investing.com] Spotify stock erases 5% gain after Google unveils music AI feature (2026-02-18T16:51:53Z)\n  - [Benzinga] Saving What's Left At The End Of The Month Sounds Sensible. It Might Be Secretly Sabotaging Your Financial Future, Along With These Habits (2026-02-18T16:45:21Z)\n  - [Investing.com] Uber to invest $100 million in autonomous vehicle charging hubs for robotaxis (2026-02-18T16:38:24Z)\n  - [Zacks] NBIS: A Vertically Integrated AI Infrastructure Powerhouse (2026-02-18T15:28:00Z)\n  - [24/7 Wall St.] Billionaire David Tepper Goes Big on Micron, Meta, and Alphabet in AI All-In (2026-02-18T15:19:32Z)\n  - [Barrons.com] Figma\u2019s Earnings Offer a Shot at a Turnaround as AI Worries Weigh (2026-02-18T15:14:00Z)\n\n### Price Action\n- Current: $304.71\n- 5-day: -4.47% | 1-month: -5.15%\n- 5d range: $296.9 - $321.05\n\n### Volume\n- Today: 6,181,365 | Avg: 24,398,441 | Ratio: 0.25x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

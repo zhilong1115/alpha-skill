@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "INTC",
+    "original_conviction": 0.32,
+    "adjusted_conviction": 0.2,
+    "adjustment": -0.12,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: crash",
+    "news_digest": [
+      "[Yahoo Finance] Nvidia and Meta expand GPU team with millions of additional AI c",
+      "[Motley Fool] Why Palantir Technologies Charged Higher on Wednesday (2026-02-18T",
+      "[Motley Fool] Silver Is Crashing: 3 Reasons to Sell Right Now (2026-02-18T16:50:",
+      "[Motley Fool] What Are the 3 Top Artificial Intelligence (AI) Stocks to Buy Righ",
+      "[Motley Fool] 5 Reasons to Buy Dutch Bros Stock Like There's No Tomorrow (2026-0"
+    ],
+    "timestamp": "2026-02-18T17:11:31.923169+00:00"
+  },
+  "prompt": "## LLM Trade Review: INTC\n\n**Quantitative Signal**: BUY conviction=0.320\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Yahoo Finance] Nvidia and Meta expand GPU team with millions of additional AI chips (2026-02-17T21:15:44Z)\n  - [Motley Fool] Why Palantir Technologies Charged Higher on Wednesday (2026-02-18T17:00:42Z)\n  - [Motley Fool] Silver Is Crashing: 3 Reasons to Sell Right Now (2026-02-18T16:50:00Z)\n  - [Motley Fool] What Are the 3 Top Artificial Intelligence (AI) Stocks to Buy Right Now? (2026-02-18T16:27:00Z)\n  - [Motley Fool] 5 Reasons to Buy Dutch Bros Stock Like There's No Tomorrow (2026-02-18T16:13:00Z)\n  - [Motley Fool] Unum Group Could Soar If These 3 Things Go Right (2026-02-18T15:42:00Z)\n  - [Motley Fool] I Used to Think I Needed $1 Million to Retire Comfortably. Here's What Changed My Mind. (2026-02-18T15:38:00Z)\n  - [Motley Fool] Why Kratos Defense Stock Just Popped (2026-02-18T15:30:20Z)\n\n### Price Action\n- Current: $46.26\n- 5-day: -3.85% | 1-month: -2.2%\n- 5d range: $44.88 - $49.55\n\n### Volume\n- Today: 33,305,572 | Avg: 129,024,884 | Ratio: 0.26x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

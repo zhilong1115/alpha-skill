@@ -1,23 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Vesta Real Estate&#39;s Earnings Outlook",
-    "summary": " ",
-    "symbols": [
-      "VTMX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:02:31Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691569/vesta-real-estates-earnings-outlook"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "KBR Grabs Strategic Petro Rabigh Contract In Saudi Arabia",
     "summary": "KBR (NYSE:KBR) shares are up during Wednesday&#39;s premarket session as the company has secured a significant contract with Rabigh Refining &amp; Petrochemical Company (Petro Rabigh).",
     "symbols": [
@@ -1677,5 +1660,22 @@
     ],
     "timestamp": "2026-02-18T17:03:00Z",
     "url": "https://finance.yahoo.com/news/prominent-miami-resort-files-chapter-170300652.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Reiterates Hold on Wingstop, Maintains $285 Price Target",
+    "summary": "TD Cowen  analyst Andrew M. Charles   reiterates Wingstop (NASDAQ:WING) with a Hold and maintains $285 price target.",
+    "symbols": [
+      "WING"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "timestamp": "2026-02-18T17:12:29Z",
+    "url": "https://www.benzinga.com/news/26/02/50694664/td-cowen-reiterates-hold-on-wingstop-maintains-285-price-target"
   }
 ]

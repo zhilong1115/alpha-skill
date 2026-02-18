@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "PNC",
+    "original_conviction": 0.359,
+    "adjusted_conviction": 0.239,
+    "adjustment": -0.12,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate",
+    "news_digest": [
+      "[Simply Wall St.] Is PNC Financial Services (PNC) Attractive After Recent Share ",
+      "[Barchart] Are Wall Street Analysts Bullish on PNC Financial Services Stock? (20",
+      "[Zacks] PNC Financial's Arm Rolls Out Premier Client for Mass-Affluent Clients (",
+      "[Zacks] What Fueled KEY's NII Expansion in 2025 Despite Easing Rates (2026-02-13",
+      "[Simply Wall St.] Assessing PNC Financial Services Group (PNC) Valuation After I"
+    ],
+    "timestamp": "2026-02-18T17:11:52.125344+00:00"
+  },
+  "prompt": "## LLM Trade Review: PNC\n\n**Quantitative Signal**: BUY conviction=0.359\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Simply Wall St.] Is PNC Financial Services (PNC) Attractive After Recent Share Price Pullback? (2026-02-17T09:07:16Z)\n  - [Barchart] Are Wall Street Analysts Bullish on PNC Financial Services Stock? (2026-02-16T12:38:12Z)\n  - [Zacks] PNC Financial's Arm Rolls Out Premier Client for Mass-Affluent Clients (2026-02-13T16:47:00Z)\n  - [Zacks] What Fueled KEY's NII Expansion in 2025 Despite Easing Rates (2026-02-13T15:34:00Z)\n  - [Simply Wall St.] Assessing PNC Financial Services Group (PNC) Valuation After Its Recent Share Price Momentum (2026-02-12T20:16:08Z)\n  - [StockStory] 3 S&P 500 Stocks with Questionable Fundamentals (2026-02-12T04:38:06Z)\n  - [Zacks] Are You Looking for a High-Growth Dividend Stock? (2026-02-11T16:45:02Z)\n  - [Zacks] Wells Fargo Bets on Credit Cards & Auto Loans to Drive 2026 Growth (2026-02-11T16:00:00Z)\n\n### Price Action\n- Current: $234.07\n- 5-day: -2.6% | 1-month: 6.5%\n- 5d range: $226.37 - $242.57\n\n### Volume\n- Today: 559,849 | Avg: 2,918,088 | Ratio: 0.19x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "HBAN",
+    "original_conviction": 0.379,
+    "adjusted_conviction": 0.259,
+    "adjustment": -0.12,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate, war",
+    "news_digest": [
+      "[Simply Wall St.] Huntington Bancshares Reshapes Wealth Business And Board As Va",
+      "[Simply Wall St.] Is Huntington Bancshares (HBAN) Pricing Look Compelling After ",
+      "[GuruFocus.com] Warner Bros. Discovery Inc: A Key Exit in HOTCHKIS & WILEY's Lat",
+      "[Insider Monkey] JP Morgan Increases Target Price on Huntington Bancshares (HBAN",
+      "[Insider Monkey] Santander (SAN) and Webster Deal Faces Execution Risk, Says Mor"
+    ],
+    "timestamp": "2026-02-18T17:11:46.018736+00:00"
+  },
+  "prompt": "## LLM Trade Review: HBAN\n\n**Quantitative Signal**: BUY conviction=0.379\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Simply Wall St.] Huntington Bancshares Reshapes Wealth Business And Board As Valuation Lags (2026-02-18T15:06:14Z)\n  - [Simply Wall St.] Is Huntington Bancshares (HBAN) Pricing Look Compelling After Regional Bank Sector Reassessment? (2026-02-18T09:15:01Z)\n  - [GuruFocus.com] Warner Bros. Discovery Inc: A Key Exit in HOTCHKIS & WILEY's Latest 13F Filing (2026-02-17T23:04:51Z)\n  - [Insider Monkey] JP Morgan Increases Target Price on Huntington Bancshares (HBAN) to $21 (2026-02-16T16:36:33Z)\n  - [Insider Monkey] Santander (SAN) and Webster Deal Faces Execution Risk, Says Morgan Stanley (2026-02-15T14:11:05Z)\n  - [Zacks] What Fueled KEY's NII Expansion in 2025 Despite Easing Rates (2026-02-13T15:34:00Z)\n  - [Simply Wall St.] Huntington Refreshes Risk Leadership As Category III Oversight Shapes Outlook (2026-02-12T13:12:40Z)\n  - [Simply Wall St.] Huntington Bancshares (NASDAQ:HBAN) Will Pay A Dividend Of $0.155 (2026-02-12T11:31:59Z)\n\n### Price Action\n- Current: $17.73\n- 5-day: -4.68% | 1-month: -0.06%\n- 5d range: $17.07 - $18.74\n\n### Volume\n- Today: 8,026,686 | Avg: 47,305,899 | Ratio: 0.17x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

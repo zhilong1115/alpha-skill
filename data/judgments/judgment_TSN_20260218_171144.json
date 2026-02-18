@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "TSN",
+    "original_conviction": 0.398,
+    "adjusted_conviction": 0.448,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[Bloomberg] America\u2019s Vanishing Cattle Herd Drives 15% Price Hikes for Beef (202",
+      "[Barrons.com] America\u2019s Cattle Crisis: a Shrinking Herd, Soaring Beef Prices, an",
+      "[Simply Wall St.] Tyson Foods Dividend Decision Tested By Weaker Earnings And Ma",
+      "[MarketBeat] MarketBeat Week in Review \u2013 02/02 - 02/06 (2026-02-07T12:00:00Z)",
+      "[MarketBeat] Tyson Foods AGM: Shareholders Elect Directors, Approve Pay Plan, Re"
+    ],
+    "timestamp": "2026-02-18T17:11:44.709941+00:00"
+  },
+  "prompt": "## LLM Trade Review: TSN\n\n**Quantitative Signal**: BUY conviction=0.398\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Bloomberg] America\u2019s Vanishing Cattle Herd Drives 15% Price Hikes for Beef (2026-02-14T15:00:02Z)\n  - [Barrons.com] America\u2019s Cattle Crisis: a Shrinking Herd, Soaring Beef Prices, and Little Relief in Sight (2026-02-13T05:30:00Z)\n  - [Simply Wall St.] Tyson Foods Dividend Decision Tested By Weaker Earnings And Margin Pressures (2026-02-08T13:05:09Z)\n  - [MarketBeat] MarketBeat Week in Review \u2013 02/02 - 02/06 (2026-02-07T12:00:00Z)\n  - [MarketBeat] Tyson Foods AGM: Shareholders Elect Directors, Approve Pay Plan, Reject Waste Lagoon Proposal (2026-02-06T15:10:59Z)\n  - [Zacks] Investors Heavily Search Tyson Foods, Inc. (TSN): Here is What You Need to Know (2026-02-06T14:00:04Z)\n  - [TipRanks] Tyson Foods price target raised to $67 from $63 at JPMorgan (2026-02-04T13:37:30Z)\n  - [Barchart] Tyson Foods Stock: Is Wall Street Bullish or Bearish? (2026-02-04T11:56:03Z)\n\n### Price Action\n- Current: $63.78\n- 5-day: -1.14% | 1-month: 6.74%\n- 5d range: $62.18 - $64.99\n\n### Volume\n- Today: 755,919 | Avg: 3,026,181 | Ratio: 0.25x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

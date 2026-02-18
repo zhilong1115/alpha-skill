@@ -1,0 +1,17 @@
+{
+  "judgment": {
+    "ticker": "ASTI",
+    "original_conviction": 0.394,
+    "adjusted_conviction": 0.314,
+    "adjustment": -0.08,
+    "action": "reduce",
+    "reasoning": "Falling knife: -11.9% in 5 days",
+    "news_digest": [
+      "[TipRanks] Ascent Solar prices 1.8M shares at $5.50 in private placement (2026-0",
+      "[Benzinga] Ascent Solar Partners With Defiant Space To Strengthen Role In Nation",
+      "[TipRanks] Ascent Solar enters teaming agreement with US-based defense solutions"
+    ],
+    "timestamp": "2026-02-18T17:11:36.652407+00:00"
+  },
+  "prompt": "## LLM Trade Review: ASTI\n\n**Quantitative Signal**: BUY conviction=0.394\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [TipRanks] Ascent Solar prices 1.8M shares at $5.50 in private placement (2026-01-27T13:16:32Z)\n  - [Benzinga] Ascent Solar Partners With Defiant Space To Strengthen Role In National Security (2025-09-17T14:05:07Z)\n  - [TipRanks] Ascent Solar enters teaming agreement with US-based defense solutions provider (2025-06-28T13:10:23Z)\n\n### Price Action\n- Current: $6.8\n- 5-day: -11.87% | 1-month: 48.36%\n- 5d range: $5.65 - $9.87\n\n### Volume\n- Today: 921,611 | Avg: 4,457,829 | Ratio: 0.21x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

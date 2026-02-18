@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "CMI",
+    "original_conviction": 0.415,
+    "adjusted_conviction": 0.465,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[Barchart] What Are Wall Street Analysts\u2019 Target Price for Cummins Stock? (2026-",
+      "[Simply Wall St.] Assessing Cummins (CMI) Valuation After Mixed Earnings, Divide",
+      "[StockStory] Atmus Filtration Technologies (NYSE:ATMU) Beats Expectations in Str",
+      "[StockStory] 3 Inflated  Stocks Walking a Fine Line (2026-02-13T04:40:12Z)",
+      "[StockStory] The Top 5 Analyst Questions From Cummins\u2019s Q4 Earnings Call (2026-0"
+    ],
+    "timestamp": "2026-02-18T17:11:41.368567+00:00"
+  },
+  "prompt": "## LLM Trade Review: CMI\n\n**Quantitative Signal**: BUY conviction=0.415\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Barchart] What Are Wall Street Analysts\u2019 Target Price for Cummins Stock? (2026-02-17T08:55:59Z)\n  - [Simply Wall St.] Assessing Cummins (CMI) Valuation After Mixed Earnings, Dividend Update And Ongoing Business Transitions (2026-02-14T08:13:15Z)\n  - [StockStory] Atmus Filtration Technologies (NYSE:ATMU) Beats Expectations in Strong Q4 CY2025 (2026-02-13T12:42:53Z)\n  - [StockStory] 3 Inflated  Stocks Walking a Fine Line (2026-02-13T04:40:12Z)\n  - [StockStory] The Top 5 Analyst Questions From Cummins\u2019s Q4 Earnings Call (2026-02-12T05:40:23Z)\n  - [Simply Wall St.] Cummins Inc. (NYSE:CMI) is largely controlled by institutional shareholders who own 86% of the company (2026-02-10T12:00:21Z)\n  - [Zacks] How to Find Strong Auto-Tires-Trucks Stocks Slated for Positive Earnings Surprises (2026-02-09T14:00:04Z)\n  - [StockStory] Cummins, Belden, and Perma-Fix Shares Are Soaring, What You Need To Know (2026-02-06T21:20:48Z)\n\n### Price Action\n- Current: $599.19\n- 5-day: 0.05% | 1-month: 5.11%\n- 5d range: $580.96 - $608.99\n\n### Volume\n- Today: 375,330 | Avg: 1,089,458 | Ratio: 0.34x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

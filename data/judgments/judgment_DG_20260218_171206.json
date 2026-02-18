@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "DG",
+    "original_conviction": 0.314,
+    "adjusted_conviction": 0.374,
+    "adjustment": 0.06,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat, upgrade; Negative catalyst: downgrade; Healthy trend: +5.0% 5d, +3.3% 1mo",
+    "news_digest": [
+      "[Zacks] Interparfums Q4 Earnings Coming Up: Is There a Beat in Store? (2026-02-1",
+      "[Zacks] Walmart & 3 More Retail Stocks Set to Beat This Earnings Season (2026-02",
+      "[Zacks] Dollar General Corporation (DG) Hit a 52 Week High, Can the Run Continue",
+      "[Zacks] Dollar General (DG) Stock Falls Amid Market Uptick: What Investors Need ",
+      "[Zacks] Dillard's Pre-Q4 Earnings: Is it Wise to Buy the Stock Before Results? ("
+    ],
+    "timestamp": "2026-02-18T17:12:06.531597+00:00"
+  },
+  "prompt": "## LLM Trade Review: DG\n\n**Quantitative Signal**: BUY conviction=0.314\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Interparfums Q4 Earnings Coming Up: Is There a Beat in Store? (2026-02-18T15:40:00Z)\n  - [Zacks] Walmart & 3 More Retail Stocks Set to Beat This Earnings Season (2026-02-18T15:39:00Z)\n  - [Zacks] Dollar General Corporation (DG) Hit a 52 Week High, Can the Run Continue? (2026-02-18T14:15:02Z)\n  - [Zacks] Dollar General (DG) Stock Falls Amid Market Uptick: What Investors Need to Know (2026-02-17T23:15:03Z)\n  - [Zacks] Dillard's Pre-Q4 Earnings: Is it Wise to Buy the Stock Before Results? (2026-02-17T16:47:00Z)\n  - [The Fly] Dollar General downgraded, Dollar Tree upgraded: Wall Street's top analyst calls (2026-02-17T14:43:04Z)\n  - [Simply Wall St.] Is It Too Late To Consider Dollar General (DG) After A 110% One Year Rally? (2026-02-17T14:10:28Z)\n  - [24/7 Wall St.] Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Albemarle, BitGo Holdings, Chevron, Dollar General, Equifax, Shopify, Southwest Airlines, Visa, and More (2026-02-17T12:49:48Z)\n\n### Price Action\n- Current: $153.54\n- 5-day: 5.0% | 1-month: 3.32%\n- 5d range: $144.31 - $155.0\n\n### Volume\n- Today: 938,192 | Avg: 2,785,528 | Ratio: 0.34x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

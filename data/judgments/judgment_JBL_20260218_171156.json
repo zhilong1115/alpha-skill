@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "JBL",
+    "original_conviction": 0.345,
+    "adjusted_conviction": 0.395,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: partnership",
+    "news_digest": [
+      "[Zacks] Qualcomm vs. Sanmina: Which Tech Stock is the Better Buy Now? (2026-02-1",
+      "[StockStory] 3 Unpopular Stocks with Open Questions (2026-02-18T04:34:28Z)",
+      "[Zacks] Jabil (JBL) Laps the Stock Market: Here's Why (2026-02-17T23:15:03Z)",
+      "[Zacks] Can Rising Defense Demand Boost Celestica's Future Growth Prospects? (20",
+      "[Zacks] CLS vs. JBL: Which EMS Stock is a Better Buy Right Now? (2026-02-17T14:3"
+    ],
+    "timestamp": "2026-02-18T17:11:56.556207+00:00"
+  },
+  "prompt": "## LLM Trade Review: JBL\n\n**Quantitative Signal**: BUY conviction=0.345\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Qualcomm vs. Sanmina: Which Tech Stock is the Better Buy Now? (2026-02-18T15:11:00Z)\n  - [StockStory] 3 Unpopular Stocks with Open Questions (2026-02-18T04:34:28Z)\n  - [Zacks] Jabil (JBL) Laps the Stock Market: Here's Why (2026-02-17T23:15:03Z)\n  - [Zacks] Can Rising Defense Demand Boost Celestica's Future Growth Prospects? (2026-02-17T15:03:00Z)\n  - [Zacks] CLS vs. JBL: Which EMS Stock is a Better Buy Right Now? (2026-02-17T14:36:00Z)\n  - [Zacks] Can Sanmina Turn Its Modern Automotive Expertise Into Future Profits? (2026-02-16T15:32:00Z)\n  - [Barchart] Do Wall Street Analysts Like Jabil Stock? (2026-02-16T15:28:34Z)\n  - [Simply Wall St.] Should Jabil\u2019s New Eagle Harbour Semiconductor Partnership Require Action From Jabil (JBL) Investors? (2026-02-15T04:20:15Z)\n\n### Price Action\n- Current: $263.07\n- 5-day: -0.52% | 1-month: 6.22%\n- 5d range: $247.93 - $269.09\n\n### Volume\n- Today: 245,333 | Avg: 956,458 | Ratio: 0.26x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

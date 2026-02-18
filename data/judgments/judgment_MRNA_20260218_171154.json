@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "MRNA",
+    "original_conviction": 0.353,
+    "adjusted_conviction": 0.193,
+    "adjustment": -0.16,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: war; Extended runup: +23.4% in 5 days",
+    "news_digest": [
+      "[Yahoo Finance] Moderna stock surges as FDA reverses course, agrees to review ne",
+      "[Yahoo Finance Video] Berkshire reduces Apple stake, FDA to review Moderna vacci",
+      "[Proactive] Moderna\u2019s investigational flu vaccine moves forward in FDA review (2",
+      "[The Wall Street Journal] Stocks to Watch Wednesday: Sandisk, Moderna, Caesars, ",
+      "[MT Newswires] Moderna Loses Two Defenses in Patent Infringement Case Against Ar"
+    ],
+    "timestamp": "2026-02-18T17:11:54.262226+00:00"
+  },
+  "prompt": "## LLM Trade Review: MRNA\n\n**Quantitative Signal**: BUY conviction=0.353\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Yahoo Finance] Moderna stock surges as FDA reverses course, agrees to review new flu shot (2026-02-18T16:20:43Z)\n  - [Yahoo Finance Video] Berkshire reduces Apple stake, FDA to review Moderna vaccine (2026-02-18T14:43:06Z)\n  - [Proactive] Moderna\u2019s investigational flu vaccine moves forward in FDA review (2026-02-18T16:18:00Z)\n  - [The Wall Street Journal] Stocks to Watch Wednesday: Sandisk, Moderna, Caesars, Kenvue (2026-02-18T16:15:07Z)\n  - [MT Newswires] Moderna Loses Two Defenses in Patent Infringement Case Against Arbutus Biopharma (2026-02-18T16:10:18Z)\n  - [The Wall Street Journal] FDA Reverses Course and Will Now Review Moderna\u2019s Flu Shot (2026-02-18T15:53:00Z)\n  - [Reuters] US FDA reverses course, will review Moderna's revised flu vaccine application (2026-02-18T14:47:34Z)\n  - [Barrons.com] Moderna Says FDA Will Review Flu Vaccine, Reversing Earlier Decision. The Stock Is Rising. (2026-02-18T14:45:00Z)\n\n### Price Action\n- Current: $46.42\n- 5-day: 23.45% | 1-month: 12.89%\n- 5d range: $36.65 - $47.68\n\n### Volume\n- Today: 7,153,615 | Avg: 13,161,800 | Ratio: 0.54x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

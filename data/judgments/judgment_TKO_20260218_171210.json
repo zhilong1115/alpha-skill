@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "TKO",
+    "original_conviction": 0.302,
+    "adjusted_conviction": 0.302,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[Zacks] Earnings Preview: TKO Group Holdings (TKO) Q4 Earnings Expected to Decli",
+      "[Insider Monkey] Roth Capital Raises its Price Target on TKO Group Holdings, Inc",
+      "[Simply Wall St.] Is TKO Group Holdings, Inc. (NYSE:TKO) Expensive For A Reason?",
+      "[TipRanks] UFC, FoodStory Brands partner to create protein bar (2026-02-12T16:05",
+      "[Barchart] Do Wall Street Analysts Like TKO Group Stock? (2026-02-12T14:31:51Z)"
+    ],
+    "timestamp": "2026-02-18T17:12:10.077279+00:00"
+  },
+  "prompt": "## LLM Trade Review: TKO\n\n**Quantitative Signal**: BUY conviction=0.302\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Earnings Preview: TKO Group Holdings (TKO) Q4 Earnings Expected to Decline (2026-02-18T15:00:09Z)\n  - [Insider Monkey] Roth Capital Raises its Price Target on TKO Group Holdings, Inc. (TKO) to $240 and Maintains a Buy Rating (2026-02-18T04:46:09Z)\n  - [Simply Wall St.] Is TKO Group Holdings, Inc. (NYSE:TKO) Expensive For A Reason? A Look At Its Intrinsic Value (2026-02-13T12:00:26Z)\n  - [TipRanks] UFC, FoodStory Brands partner to create protein bar (2026-02-12T16:05:13Z)\n  - [Barchart] Do Wall Street Analysts Like TKO Group Stock? (2026-02-12T14:31:51Z)\n  - [Insider Monkey] Cooper Investors Global Equities Fund\u2019s Views on Its Largest 2025 Contributor: TKO Group Holdings (TKO) (2026-02-11T14:07:46Z)\n  - [Simply Wall St.] TKO Group Holdings, Inc.'s (NYSE:TKO) Stock Is Rallying But Financials Look Ambiguous: Will The Momentum Continue? (2026-02-08T13:00:17Z)\n  - [Simply Wall St.] TKO Uses UFC Good Greek Deal To Extend Year Round Sponsorship Reach (2026-02-02T11:06:24Z)\n\n### Price Action\n- Current: $211.92\n- 5-day: -1.51% | 1-month: 4.0%\n- 5d range: $199.2 - $216.66\n\n### Volume\n- Today: 155,401 | Avg: 819,933 | Ratio: 0.19x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

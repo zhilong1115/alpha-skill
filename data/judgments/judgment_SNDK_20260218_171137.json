@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "SNDK",
+    "original_conviction": 0.441,
+    "adjusted_conviction": 0.401,
+    "adjustment": -0.04,
+    "action": "reduce",
+    "reasoning": "Negative catalyst: debt; Healthy trend: +6.2% 5d, +49.0% 1mo",
+    "news_digest": [
+      "[Motley Fool] What Are the 3 Top Artificial Intelligence (AI) Stocks to Buy Righ",
+      "[The Wall Street Journal] Stocks to Watch Wednesday: Sandisk, Moderna, Caesars, ",
+      "[Barrons.com] Western Digital Dumps Sandisk Stock. What\u2019s Behind the Move. (2026",
+      "[Barrons.com] These Stocks Are Today\u2019s Movers: Nvidia, Palantir, Sandisk, Palo A",
+      "[Investor's Business Daily] The Year's Five Best Stocks Have A Lot Of Memory Ami"
+    ],
+    "timestamp": "2026-02-18T17:11:37.804169+00:00"
+  },
+  "prompt": "## LLM Trade Review: SNDK\n\n**Quantitative Signal**: BUY conviction=0.441\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Motley Fool] What Are the 3 Top Artificial Intelligence (AI) Stocks to Buy Right Now? (2026-02-18T16:27:00Z)\n  - [The Wall Street Journal] Stocks to Watch Wednesday: Sandisk, Moderna, Caesars, Kenvue (2026-02-18T16:15:07Z)\n  - [Barrons.com] Western Digital Dumps Sandisk Stock. What\u2019s Behind the Move. (2026-02-18T14:50:00Z)\n  - [Barrons.com] These Stocks Are Today\u2019s Movers: Nvidia, Palantir, Sandisk, Palo Alto, Analog Devices, Garmin, and More (2026-02-18T12:45:00Z)\n  - [Investor's Business Daily] The Year's Five Best Stocks Have A Lot Of Memory Amid AI Boom (2026-02-18T12:10:46Z)\n  - [Simply Wall St.] Western Digital Sells Sandisk Stake To Cut Debt And Fund AI Storage (2026-02-18T12:09:17Z)\n  - [Simply Wall St.] High Growth Tech Stocks In The US Market February 2026 (2026-02-18T11:38:21Z)\n  - [MT Newswires] Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Wednesday; Amazon to Rise, Sandisk to Fall (2026-02-18T11:34:50Z)\n\n### Price Action\n- Current: $614.2\n- 5-day: 6.17% | 1-month: 49.02%\n- 5d range: $574.5 - $668.0\n\n### Volume\n- Today: 15,253,685 | Avg: 21,885,418 | Ratio: 0.7x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

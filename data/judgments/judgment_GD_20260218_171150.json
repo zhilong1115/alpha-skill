@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "GD",
+    "original_conviction": 0.364,
+    "adjusted_conviction": 0.464,
+    "adjustment": 0.1,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat, dividend hike",
+    "news_digest": [
+      "[Barchart] Do Wall Street Analysts Like General Dynamics Stock? (2026-02-17T14:0",
+      "[Simply Wall St.] How Record Backlog and Dividend Hike At General Dynamics (GD) ",
+      "[Simply Wall St.] Institutional investors in General Dynamics Corporation (NYSE:",
+      "[MarketBeat] Amazon Bets Big on BETA: Why Analysts See 50% Upside (2026-02-13T18",
+      "[24/7 Wall St.] General Dynamics Paid Investors $1.50: Here\u2019s What the Dividend "
+    ],
+    "timestamp": "2026-02-18T17:11:50.143805+00:00"
+  },
+  "prompt": "## LLM Trade Review: GD\n\n**Quantitative Signal**: BUY conviction=0.364\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Barchart] Do Wall Street Analysts Like General Dynamics Stock? (2026-02-17T14:00:40Z)\n  - [Simply Wall St.] How Record Backlog and Dividend Hike At General Dynamics (GD) Has Changed Its Investment Story (2026-02-15T15:12:08Z)\n  - [Simply Wall St.] Institutional investors in General Dynamics Corporation (NYSE:GD) lost 3.5% last week but have reaped the benefits of longer-term growth (2026-02-15T11:00:33Z)\n  - [MarketBeat] Amazon Bets Big on BETA: Why Analysts See 50% Upside (2026-02-13T18:55:00Z)\n  - [24/7 Wall St.] General Dynamics Paid Investors $1.50: Here\u2019s What the Dividend Reveals (2026-02-13T14:35:59Z)\n  - [StockStory] 1 S&P 500 Stock for Long-Term Investors and 2 We Question (2026-02-12T04:33:34Z)\n  - [Motley Fool] Is Northrop Grumman Stock a 2026 Buy After Its 2025 Earnings Beat? (2026-02-11T20:40:00Z)\n  - [Zacks] GE Aerospace Rallies 51.5% in a Year: Is the Stock Still Worth Buying? (2026-02-11T15:05:00Z)\n\n### Price Action\n- Current: $347.1\n- 5-day: -3.87% | 1-month: -5.23%\n- 5d range: $340.09 - $361.42\n\n### Volume\n- Today: 374,099 | Avg: 1,448,248 | Ratio: 0.26x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

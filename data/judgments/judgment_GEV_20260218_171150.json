@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "GEV",
+    "original_conviction": 0.363,
+    "adjusted_conviction": 0.243,
+    "adjustment": -0.12,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate",
+    "news_digest": [
+      "[Motley Fool] 2 Brilliant Energy Stocks to Buy Now and Hold for the Long Term (2",
+      "[Simply Wall St.] GE Vernova (NYSE:GEV) Is Doing The Right Things To Multiply It",
+      "[StockStory] 3 Reasons to Avoid GEV and 1 Stock to Buy Instead (2026-02-16T04:04",
+      "[Insider Monkey] GE Vernova (GEV) is Still Buyable, Says Jim Cramer (2026-02-15T",
+      "[Exec Edge] Terrestrial Energy: Nuclear Disruptor Positioned for Bull Run \u2013 Init"
+    ],
+    "timestamp": "2026-02-18T17:11:50.433407+00:00"
+  },
+  "prompt": "## LLM Trade Review: GEV\n\n**Quantitative Signal**: BUY conviction=0.363\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Motley Fool] 2 Brilliant Energy Stocks to Buy Now and Hold for the Long Term (2026-02-17T21:40:00Z)\n  - [Simply Wall St.] GE Vernova (NYSE:GEV) Is Doing The Right Things To Multiply Its Share Price (2026-02-16T14:00:24Z)\n  - [StockStory] 3 Reasons to Avoid GEV and 1 Stock to Buy Instead (2026-02-16T04:04:09Z)\n  - [Insider Monkey] GE Vernova (GEV) is Still Buyable, Says Jim Cramer (2026-02-15T15:12:27Z)\n  - [Exec Edge] Terrestrial Energy: Nuclear Disruptor Positioned for Bull Run \u2013 Initiation Report (2026-02-12T15:54:52Z)\n  - [Zacks] Zacks Industry Outlook Highlights GE Vernova, Constellation Energy and Montauk Renewables (2026-02-12T14:41:00Z)\n  - [Simply Wall St.] Does GE Vernova (GEV)\u02bcs Expanding Gas Turbine Backlog Quietly Redefine Its Long-Term Power Strategy? (2026-02-12T05:09:43Z)\n  - [Motley Fool] Here's Why GE Vernova Stock Popped Higher Today (Hint: It's Artificial Intelligence Related) (2026-02-11T22:07:57Z)\n\n### Price Action\n- Current: $822.15\n- 5-day: -0.09% | 1-month: 23.05%\n- 5d range: $790.62 - $846.0\n\n### Volume\n- Today: 835,604 | Avg: 3,301,066 | Ratio: 0.25x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

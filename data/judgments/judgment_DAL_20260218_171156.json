@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "DAL",
+    "original_conviction": 0.342,
+    "adjusted_conviction": 0.222,
+    "adjustment": -0.12,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: war",
+    "news_digest": [
+      "[Zacks] Here's Why Delta Air Lines (DAL) is a Strong Momentum Stock (2026-02-18T",
+      "[Simply Wall St.] Delta Air Lines (NYSE:DAL) Posted Healthy Earnings But There A",
+      "[Simply Wall St.] Boeing Gains FTC Approval And Dreamliner Orders Raise Valuatio",
+      "[Barrons.com] Druckenmiller\u2019s Firm Bets on Brazil Stocks, U.S. Financials, and A",
+      "[Zacks] Air Lease Q4 Earnings & Revenues Top Estimates, Improve Year Over Year ("
+    ],
+    "timestamp": "2026-02-18T17:11:56.884451+00:00"
+  },
+  "prompt": "## LLM Trade Review: DAL\n\n**Quantitative Signal**: BUY conviction=0.342\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Here's Why Delta Air Lines (DAL) is a Strong Momentum Stock (2026-02-18T14:50:02Z)\n  - [Simply Wall St.] Delta Air Lines (NYSE:DAL) Posted Healthy Earnings But There Are Some Other Factors To Be Aware Of (2026-02-18T10:57:43Z)\n  - [Simply Wall St.] Boeing Gains FTC Approval And Dreamliner Orders Raise Valuation Questions (2026-02-18T09:14:30Z)\n  - [Barrons.com] Druckenmiller\u2019s Firm Bets on Brazil Stocks, U.S. Financials, and Airlines (2026-02-17T21:01:00Z)\n  - [Zacks] Air Lease Q4 Earnings & Revenues Top Estimates, Improve Year Over Year (2026-02-17T16:51:00Z)\n  - [Zacks] Why Delta Air Lines (DAL) is a Top Value Stock for the Long-Term (2026-02-17T14:40:03Z)\n  - [Zacks] Delta (DAL) Is Considered a Good Investment by Brokers: Is That True? (2026-02-17T14:30:03Z)\n  - [Zacks] Expeditors' Q4 Earnings Coming Up: What's in Store for the Stock? (2026-02-17T13:17:00Z)\n\n### Price Action\n- Current: $71.06\n- 5-day: -5.37% | 1-month: 3.31%\n- 5d range: $67.73 - $76.39\n\n### Volume\n- Today: 3,721,505 | Avg: 8,061,281 | Ratio: 0.46x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

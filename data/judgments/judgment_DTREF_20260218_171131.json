@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "DTREF",
+    "original_conviction": 0.577,
+    "adjusted_conviction": 0.577,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[Simply Wall St.] Assessing Dateline Resources (ASX:DTR) Valuation After A$35 Mi",
+      "[Simply Wall St.] Dateline Resources Limited's (ASX:DTR) top owners are individu",
+      "[Barchart] Save This Critical Stock Watchlist as the Trump Admin Invests in Rare",
+      "[Simply Wall St.] Assessing Dateline Resources (ASX:DTR) Valuation Following Ind",
+      "[Simply Wall St.] Will Recent Index Additions Reveal a Turning Point in Dateline"
+    ],
+    "timestamp": "2026-02-18T17:11:31.568513+00:00"
+  },
+  "prompt": "## LLM Trade Review: DTREF\n\n**Quantitative Signal**: BUY conviction=0.577\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Simply Wall St.] Assessing Dateline Resources (ASX:DTR) Valuation After A$35 Million Placement And Colosseum Project Progress (2026-01-27T09:18:27Z)\n  - [Simply Wall St.] Dateline Resources Limited's (ASX:DTR) top owners are individual investors with 56% stake, while 31% is held by insiders (2025-12-24T05:07:58Z)\n  - [Barchart] Save This Critical Stock Watchlist as the Trump Admin Invests in Rare Earth Metals (2025-10-03T13:20:17Z)\n  - [Simply Wall St.] Assessing Dateline Resources (ASX:DTR) Valuation Following Index Inclusions and Narrowed Annual Net Loss (2025-09-27T13:37:22Z)\n  - [Simply Wall St.] Will Recent Index Additions Reveal a Turning Point in Dateline Resources\u2019 (ASX:DTR) Profit Trajectory? (2025-09-24T11:35:35Z)\n  - [Simply Wall St.] This Dateline Resources Insider Increased Their Holding By 66% Last Year (2025-07-03T20:54:16Z)\n  - [Simply Wall St.] Dateline Resources Limited's (ASX:DTR) market cap rose AU$47m last week; retail investors who hold 51% profited and so did insiders (2025-05-23T20:18:02Z)\n\n### Price Action\n- Current: $0.21\n- 5-day: -3.77% | 1-month: -13.59%\n- 5d range: $0.2 - $0.23\n\n### Volume\n- Today: 22,500 | Avg: 4,710,503 | Ratio: 0.0x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "JNJ",
+    "original_conviction": 0.312,
+    "adjusted_conviction": 0.362,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: dividend hike",
+    "news_digest": [
+      "[The Wall Street Journal] Johnson & Johnson to Invest More Than $1 Billion in Pe",
+      "[Reuters] J&J to invest $1 billion in new Pennsylvania plant amid US manufacturi",
+      "[24/7 Wall St.] Verizon vs Johnson & Johnson: Which Dividend Hike Winner Is the ",
+      "[Zacks] Johnson & Johnson (JNJ) Is a Trending Stock: Facts to Know Before Bettin",
+      "[Simply Wall St.] Is Kenvue (KVUE) Attractively Priced After Spin Off From Johns"
+    ],
+    "timestamp": "2026-02-18T17:12:07.453012+00:00"
+  },
+  "prompt": "## LLM Trade Review: JNJ\n\n**Quantitative Signal**: BUY conviction=0.312\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [The Wall Street Journal] Johnson & Johnson to Invest More Than $1 Billion in Pennsylvania Cell Therapy Factory (2026-02-18T15:44:00Z)\n  - [Reuters] J&J to invest $1 billion in new Pennsylvania plant amid US manufacturing push (2026-02-18T15:21:45Z)\n  - [24/7 Wall St.] Verizon vs Johnson & Johnson: Which Dividend Hike Winner Is the Better Buy? (2026-02-18T14:15:55Z)\n  - [Zacks] Johnson & Johnson (JNJ) Is a Trending Stock: Facts to Know Before Betting on It (2026-02-18T14:00:06Z)\n  - [Simply Wall St.] Is Kenvue (KVUE) Attractively Priced After Spin Off From Johnson & Johnson? (2026-02-18T12:09:13Z)\n  - [24/7 Wall St.] XLV is A $41 Billion Defensive Healthcare Play That Looks Good Until You Compare To The S&P 500 (2026-02-18T10:32:55Z)\n  - [24/7 Wall St.] This State Has More Millionaires Per Capita Than Any Other (2026-02-18T02:21:20Z)\n  - [Benzinga] Jury: Johnson & Johnson Liabile in Case Linking Baby Powder to Cancer (2026-02-17T21:30:19Z)\n\n### Price Action\n- Current: $243.35\n- 5-day: 1.68% | 1-month: 12.1%\n- 5d range: $237.4 - $246.35\n\n### Volume\n- Today: 2,860,847 | Avg: 9,541,083 | Ratio: 0.3x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

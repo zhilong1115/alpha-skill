@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "EXPD",
+    "original_conviction": 0.369,
+    "adjusted_conviction": 0.289,
+    "adjustment": -0.08,
+    "action": "reduce",
+    "reasoning": "Falling knife: -8.7% in 5 days",
+    "news_digest": [
+      "[Zacks] Expeditors' Q4 Earnings Coming Up: What's in Store for the Stock? (2026-",
+      "[Barchart] Expeditors International Stock: Analyst Estimates & Ratings (2026-02-",
+      "[Zacks] Expeditors International (EXPD) Moves 4.2% Higher: Will This Strength La",
+      "[Barrons.com] How a Former Karaoke Company Slammed Freight Stocks and What to Bu",
+      "[Simply Wall St.] Calculating The Fair Value Of Expeditors International of Wash"
+    ],
+    "timestamp": "2026-02-18T17:11:34.909235+00:00"
+  },
+  "prompt": "## LLM Trade Review: EXPD\n\n**Quantitative Signal**: BUY conviction=0.369\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Expeditors' Q4 Earnings Coming Up: What's in Store for the Stock? (2026-02-17T13:17:00Z)\n  - [Barchart] Expeditors International Stock: Analyst Estimates & Ratings (2026-02-16T16:00:22Z)\n  - [Zacks] Expeditors International (EXPD) Moves 4.2% Higher: Will This Strength Last? (2026-02-16T09:51:00Z)\n  - [Barrons.com] How a Former Karaoke Company Slammed Freight Stocks and What to Buy Now (2026-02-13T21:10:00Z)\n  - [Simply Wall St.] Calculating The Fair Value Of Expeditors International of Washington, Inc. (NYSE:EXPD) (2026-02-13T10:19:56Z)\n  - [Barrons.com] Freight Brokers Are the Latest AI Victims. These Other Stocks Look Safe. (2026-02-12T21:29:00Z)\n  - [Barrons.com] Logistics Are Getting Hammered. It's a 'Shoot 1st Ask Questions Later' AI Selloff. (2026-02-12T19:31:59Z)\n  - [Investing.com] C.H. Robinson stock tumbles amid freight sector AI disruption fears (2026-02-12T16:29:07Z)\n\n### Price Action\n- Current: $148.6\n- 5-day: -8.74% | 1-month: -7.89%\n- 5d range: $129.59 - $164.66\n\n### Volume\n- Today: 279,913 | Avg: 1,692,033 | Ratio: 0.17x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

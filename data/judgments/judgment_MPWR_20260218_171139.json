@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "MPWR",
+    "original_conviction": 0.418,
+    "adjusted_conviction": 0.508,
+    "adjustment": 0.09,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat; Healthy trend: +2.5% 5d, +18.3% 1mo",
+    "news_digest": [
+      "[Simply Wall St.] Is It Too Late To Consider Monolithic Power Systems (MPWR) Aft",
+      "[Zacks] Are Computer and Technology Stocks Lagging  Monolithic Power Systems (MP",
+      "[StockStory] 2 Growth Stocks Set to Flourishand 1 We Ignore (2026-02-17T04:32:34",
+      "[MarketBeat] From Aerospace to AI: 3 Names Supercharging Dividends (2026-02-16T1",
+      "[StockStory] 2 Momentum  Stocks Worth Your Attention and 1 We Ignore (2026-02-16"
+    ],
+    "timestamp": "2026-02-18T17:11:39.962325+00:00"
+  },
+  "prompt": "## LLM Trade Review: MPWR\n\n**Quantitative Signal**: BUY conviction=0.418\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Simply Wall St.] Is It Too Late To Consider Monolithic Power Systems (MPWR) After Its Surge To US$1,173? (2026-02-18T09:12:25Z)\n  - [Zacks] Are Computer and Technology Stocks Lagging  Monolithic Power Systems (MPWR) This Year? (2026-02-17T14:40:03Z)\n  - [StockStory] 2 Growth Stocks Set to Flourishand 1 We Ignore (2026-02-17T04:32:34Z)\n  - [MarketBeat] From Aerospace to AI: 3 Names Supercharging Dividends (2026-02-16T18:37:00Z)\n  - [StockStory] 2 Momentum  Stocks Worth Your Attention and 1 We Ignore (2026-02-16T04:39:43Z)\n  - [Simply Wall St.] Monolithic Power Systems Links CFO Transition And Higher Dividend To Margins (2026-02-13T21:13:16Z)\n  - [Insider Monkey] KeyBanc Raises Monolithic Power Systems (MPWR) Price Target on Record Quarterly Revenue (2026-02-13T14:54:58Z)\n  - [StockStory] 2 Volatile Stocks with Exciting Potential and 1 We Question (2026-02-13T04:45:50Z)\n\n### Price Action\n- Current: $1193.84\n- 5-day: 2.48% | 1-month: 18.26%\n- 5d range: $1136.09 - $1225.17\n\n### Volume\n- Today: 108,653 | Avg: 706,150 | Ratio: 0.15x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "AES",
+    "original_conviction": 0.321,
+    "adjusted_conviction": 0.241,
+    "adjustment": -0.08,
+    "action": "reduce",
+    "reasoning": "Negative catalyst: debt",
+    "news_digest": [
+      "[Zacks] 4 Value Stocks to Buy Now Amid AI-Driven Market Volatility (2026-02-18T1",
+      "[Zacks] FirstEnergy Q4 Earnings Top Estimates, Revenues Increase Y/Y (2026-02-18",
+      "[Zacks] OGE Energy (OGE) Surpasses Q4 Earnings Estimates (2026-02-18T12:15:01Z)",
+      "[Zacks] Top 5 Bargain P/B Stocks Investors Should Watch Now (2026-02-18T12:14:00",
+      "[Simply Wall St.] Potential AES Buyout Talks Raise Questions On Renewables Growt"
+    ],
+    "timestamp": "2026-02-18T17:12:03.842529+00:00"
+  },
+  "prompt": "## LLM Trade Review: AES\n\n**Quantitative Signal**: BUY conviction=0.321\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] 4 Value Stocks to Buy Now Amid AI-Driven Market Volatility (2026-02-18T15:45:00Z)\n  - [Zacks] FirstEnergy Q4 Earnings Top Estimates, Revenues Increase Y/Y (2026-02-18T14:26:00Z)\n  - [Zacks] OGE Energy (OGE) Surpasses Q4 Earnings Estimates (2026-02-18T12:15:01Z)\n  - [Zacks] Top 5 Bargain P/B Stocks Investors Should Watch Now (2026-02-18T12:14:00Z)\n  - [Simply Wall St.] Potential AES Buyout Talks Raise Questions On Renewables Growth And Debt (2026-02-17T22:08:14Z)\n  - [Simply Wall St.] Is It Too Late To Consider AES (AES) After A 67% One Year Rally? (2026-02-17T17:13:12Z)\n  - [Zacks] Evergy to Post Q4 Earnings: What to Expect From the Stock? (2026-02-17T17:09:00Z)\n  - [Zacks] Top Wind Energy Stocks Worth Investing Now For Solid Returns (2026-02-17T15:23:00Z)\n\n### Price Action\n- Current: $16.28\n- 5-day: -0.82% | 1-month: 18.12%\n- 5d range: $15.98 - $16.78\n\n### Volume\n- Today: 2,703,497 | Avg: 9,890,933 | Ratio: 0.27x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "TER",
+    "original_conviction": 0.356,
+    "adjusted_conviction": 0.406,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[Investor's Business Daily] The Year's Five Best Stocks Have A Lot Of Memory Ami",
+      "[Simply Wall St.] Teradyne\u2019s AI Test And Robotics Push Fuels Debate On Rich Valu",
+      "[Zacks] Zacks Investment Ideas feature highlights SanDisk, Western Digital and T",
+      "[24/7 Wall St.] Advanced Packaging Is Bringing Sexy Back To AI Investing (2026-0",
+      "[Zacks] Teradyne Surges 88% in Three Months: Time to Buy the Stock? (2026-02-16T"
+    ],
+    "timestamp": "2026-02-18T17:11:53.962863+00:00"
+  },
+  "prompt": "## LLM Trade Review: TER\n\n**Quantitative Signal**: BUY conviction=0.356\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Investor's Business Daily] The Year's Five Best Stocks Have A Lot Of Memory Amid AI Boom (2026-02-18T12:10:46Z)\n  - [Simply Wall St.] Teradyne\u2019s AI Test And Robotics Push Fuels Debate On Rich Valuation (2026-02-17T17:13:26Z)\n  - [Zacks] Zacks Investment Ideas feature highlights SanDisk, Western Digital and Teradyne (2026-02-17T08:56:00Z)\n  - [24/7 Wall St.] Advanced Packaging Is Bringing Sexy Back To AI Investing (2026-02-16T20:20:46Z)\n  - [Zacks] Teradyne Surges 88% in Three Months: Time to Buy the Stock? (2026-02-16T15:41:00Z)\n  - [MarketWatch] These \u2018safer\u2019 chip stocks have boomed this year. Is it too late to buy in? (2026-02-14T14:30:00Z)\n  - [Zacks] These 3 Zacks 'Strong Buy' Stocks Reflect the Hottest S&P 500 Stocks of 2026 (2026-02-13T16:30:00Z)\n  - [Simply Wall St.] Why Teradyne (TER) Is Up 19.5% After AI-Driven Beat, Strong Guidance And New Data Center JV (2026-02-12T20:18:11Z)\n\n### Price Action\n- Current: $318.15\n- 5-day: 1.87% | 1-month: 44.4%\n- 5d range: $300.4 - $327.85\n\n### Volume\n- Today: 1,225,780 | Avg: 3,957,365 | Ratio: 0.31x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "RF",
+    "original_conviction": 0.368,
+    "adjusted_conviction": 0.368,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[StockStory] 2 S&P 500 Stocks for Long-Term Investors and 1 We Avoid (2026-02-18",
+      "[Simply Wall St.] Regions Financial Resets Texas Wealth Push And Governance For ",
+      "[Simply Wall St.] A Look At Regions Financial (RF) Valuation After Recent Share ",
+      "[StockStory] 1 Unpopular Stock That Deserves a Second Chance and 2 We Question (",
+      "[24/7 Wall St.] Banking on Yield? Here\u2019s How We Scored Dime Community Bancshares"
+    ],
+    "timestamp": "2026-02-18T17:11:48.718872+00:00"
+  },
+  "prompt": "## LLM Trade Review: RF\n\n**Quantitative Signal**: BUY conviction=0.368\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [StockStory] 2 S&P 500 Stocks for Long-Term Investors and 1 We Avoid (2026-02-18T04:33:05Z)\n  - [Simply Wall St.] Regions Financial Resets Texas Wealth Push And Governance For Future Growth (2026-02-13T00:23:57Z)\n  - [Simply Wall St.] A Look At Regions Financial (RF) Valuation After Recent Share Price Momentum (2026-02-12T10:14:49Z)\n  - [StockStory] 1 Unpopular Stock That Deserves a Second Chance and 2 We Question (2026-02-10T04:37:18Z)\n  - [24/7 Wall St.] Banking on Yield? Here\u2019s How We Scored Dime Community Bancshares (DCOM) Dividend (2026-02-09T13:51:20Z)\n  - [StockStory] 3 Unpopular Stocks We\u2019re Skeptical Of (2026-02-06T04:44:35Z)\n  - [Simply Wall St.] Regions Financial By-Law Changes Reframe Shareholder Power And Board Oversight (2026-02-05T06:11:12Z)\n  - [Zacks] Are You Looking for a High-Growth Dividend Stock? (2026-02-04T16:45:02Z)\n\n### Price Action\n- Current: $30.01\n- 5-day: -3.16% | 1-month: 9.93%\n- 5d range: $29.3 - $31.53\n\n### Volume\n- Today: 2,412,667 | Avg: 14,357,250 | Ratio: 0.17x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

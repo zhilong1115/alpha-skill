@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "GM",
+    "original_conviction": 0.441,
+    "adjusted_conviction": 0.411,
+    "adjustment": -0.03,
+    "action": "proceed",
+    "reasoning": "Macro risk detected: tariff; Positive catalyst: upgrade; Healthy trend: +4.3% 5d, +5.2% 1mo",
+    "news_digest": [
+      "[Reuters] GM invests in Ontario plant for next-gen trucks (2026-02-18T15:41:38Z)",
+      "[Zacks] GM Stock Up 42% in 6 Months: Worth Holding Onto for More Gains? (2026-02",
+      "[TheStreet] Ford refuses to shy away from EVs despite $19.5 billion cost (2026-0",
+      "[Investor's Business Daily] Magna Stock Revs Nearly 20% In Massive Volume On Ear",
+      "[Zacks] General Motors Company (GM) Is a Trending Stock: Facts to Know Before Be"
+    ],
+    "timestamp": "2026-02-18T17:11:36.330452+00:00"
+  },
+  "prompt": "## LLM Trade Review: GM\n\n**Quantitative Signal**: BUY conviction=0.441\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Reuters] GM invests in Ontario plant for next-gen trucks (2026-02-18T15:41:38Z)\n  - [Zacks] GM Stock Up 42% in 6 Months: Worth Holding Onto for More Gains? (2026-02-18T13:55:00Z)\n  - [TheStreet] Ford refuses to shy away from EVs despite $19.5 billion cost (2026-02-18T05:03:00Z)\n  - [Investor's Business Daily] Magna Stock Revs Nearly 20% In Massive Volume On Earnings; Gets Rating Upgrade (2026-02-17T21:11:25Z)\n  - [Zacks] General Motors Company (GM) Is a Trending Stock: Facts to Know Before Betting on It (2026-02-17T14:00:03Z)\n  - [decrypt] Morning Minute: Harvard Sells Bitcoin for Ethereum (2026-02-17T13:32:31Z)\n  - [StockStory] 2 S&P 500 Stocks to Research Further and 1 We Question (2026-02-17T04:38:03Z)\n  - [Zacks] Will Tariffs Remain a Major Headwind for General Motors in 2026? (2026-02-16T15:19:00Z)\n\n### Price Action\n- Current: $83.92\n- 5-day: 4.26% | 1-month: 5.22%\n- 5d range: $79.08 - $83.93\n\n### Volume\n- Today: 2,896,487 | Avg: 8,895,566 | Ratio: 0.33x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

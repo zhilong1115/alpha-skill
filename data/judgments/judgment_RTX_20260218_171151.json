@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "RTX",
+    "original_conviction": 0.359,
+    "adjusted_conviction": 0.449,
+    "adjustment": 0.09,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat; Healthy trend: +4.1% 5d, +1.5% 1mo",
+    "news_digest": [
+      "[Zacks] Top Analyst Reports for AbbVie, RTX & IBM (2026-02-17T21:13:00Z)",
+      "[24/7 Wall St.] Trump\u2019s America First Agenda Is Pushing Industrial ETFs like XLI",
+      "[Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-0",
+      "[Simply Wall St.] RTX Weighs New Defense Contract And Vietjet Deal For Future Gr",
+      "[Zacks] Strength in Defense & Propulsion Unit Drives GE Aerospace: Can It Sustai"
+    ],
+    "timestamp": "2026-02-18T17:11:51.710586+00:00"
+  },
+  "prompt": "## LLM Trade Review: RTX\n\n**Quantitative Signal**: BUY conviction=0.359\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Top Analyst Reports for AbbVie, RTX & IBM (2026-02-17T21:13:00Z)\n  - [24/7 Wall St.] Trump\u2019s America First Agenda Is Pushing Industrial ETFs like XLI To The Moon (2026-02-17T20:00:02Z)\n  - [Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-02-17T15:57:00Z)\n  - [Simply Wall St.] RTX Weighs New Defense Contract And Vietjet Deal For Future Growth (2026-02-17T14:10:30Z)\n  - [Zacks] Strength in Defense & Propulsion Unit Drives GE Aerospace: Can It Sustain? (2026-02-16T14:53:00Z)\n  - [24/7 Wall St.] General Dynamics Paid Investors $1.50: Here\u2019s What the Dividend Reveals (2026-02-13T14:35:59Z)\n  - [StockStory] 1 Cash-Producing Stock with Promising Prospects and 2 We Brush Off (2026-02-13T04:43:56Z)\n  - [Simply Wall St.] Is It Too Late To Consider RTX (RTX) After A 62.8% One Year Rally? (2026-02-13T00:25:45Z)\n\n### Price Action\n- Current: $203.63\n- 5-day: 4.12% | 1-month: 1.49%\n- 5d range: $195.05 - $206.01\n\n### Volume\n- Today: 1,790,918 | Avg: 6,326,715 | Ratio: 0.28x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

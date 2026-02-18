@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "HCA",
+    "original_conviction": 0.326,
+    "adjusted_conviction": 0.416,
+    "adjustment": 0.09,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat; Healthy trend: +6.2% 5d, +14.3% 1mo",
+    "news_digest": [
+      "[Barchart] Are Wall Street Analysts Predicting HCA Stock Will Climb or Sink? (20",
+      "[Simply Wall St.] HCA Healthcare, Inc.'s (NYSE:HCA) large institutional owners m",
+      "[StockStory] 2 Cash-Producing Stocks to Own for Decades and 1 That Underwhelm (2",
+      "[Motley Fool] 1 Unstoppable Healthcare Stock to Buy and Hold (2026-02-13T17:50:0",
+      "[Zacks] Tenet Healthcare Beats Q4 Earnings: But 2026 EBITDA Margin May Decline ("
+    ],
+    "timestamp": "2026-02-18T17:12:02.697582+00:00"
+  },
+  "prompt": "## LLM Trade Review: HCA\n\n**Quantitative Signal**: BUY conviction=0.326\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Barchart] Are Wall Street Analysts Predicting HCA Stock Will Climb or Sink? (2026-02-17T13:38:43Z)\n  - [Simply Wall St.] HCA Healthcare, Inc.'s (NYSE:HCA) large institutional owners must be happy as stock continues to impress, up 8.6% over the past week (2026-02-16T11:00:48Z)\n  - [StockStory] 2 Cash-Producing Stocks to Own for Decades and 1 That Underwhelm (2026-02-16T04:43:54Z)\n  - [Motley Fool] 1 Unstoppable Healthcare Stock to Buy and Hold (2026-02-13T17:50:00Z)\n  - [Zacks] Tenet Healthcare Beats Q4 Earnings: But 2026 EBITDA Margin May Decline (2026-02-12T16:21:00Z)\n  - [Healthcare Dive] Tenet expects $250M hit from loss of ACA subsidies this year (2026-02-12T12:28:35Z)\n  - [Simply Wall St.] At US$531, Is HCA Healthcare, Inc. (NYSE:HCA) Worth Looking At Closely? (2026-02-12T12:00:09Z)\n  - [Zacks] Will Lower Patient Days Affect Tenet Healthcare's Q4 Earnings? (2026-02-10T17:23:00Z)\n\n### Price Action\n- Current: $532.48\n- 5-day: 6.25% | 1-month: 14.27%\n- 5d range: $496.75 - $552.9\n\n### Volume\n- Today: 243,609 | Avg: 1,203,262 | Ratio: 0.2x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

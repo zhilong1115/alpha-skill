@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "BA",
+    "original_conviction": 0.406,
+    "adjusted_conviction": 0.506,
+    "adjustment": 0.1,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat, acquisition, partnership",
+    "news_digest": [
+      "[Zacks] Is Trending Stock The Boeing Company (BA) a Buy Now? (2026-02-18T14:00:0",
+      "[Simply Wall St.] Boeing Gains FTC Approval And Dreamliner Orders Raise Valuatio",
+      "[Reuters] US FTC finalizes consent order in Boeing acquisition of Spirit AeroSys",
+      "[Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-0",
+      "[The Wall Street Journal] How Jet Engines Are Powering Data Centers (2026-02-17T"
+    ],
+    "timestamp": "2026-02-18T17:11:43.457521+00:00"
+  },
+  "prompt": "## LLM Trade Review: BA\n\n**Quantitative Signal**: BUY conviction=0.406\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Is Trending Stock The Boeing Company (BA) a Buy Now? (2026-02-18T14:00:06Z)\n  - [Simply Wall St.] Boeing Gains FTC Approval And Dreamliner Orders Raise Valuation Questions (2026-02-18T09:14:30Z)\n  - [Reuters] US FTC finalizes consent order in Boeing acquisition of Spirit AeroSystems (2026-02-17T22:01:54Z)\n  - [Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-02-17T15:57:00Z)\n  - [The Wall Street Journal] How Jet Engines Are Powering Data Centers (2026-02-17T10:30:00Z)\n  - [StockStory] FTAI Aviation (FTAI): 3 Reasons We Love This Stock (2026-02-17T04:02:27Z)\n  - [Benzinga] Peter Thiel's Palantir Extends Partnership With Boeing Rival Airbus (2026-02-17T02:31:05Z)\n  - [Simply Wall St.] Boeing Job Shift Spurs Union Concerns And Raises Investor Execution Risks (2026-02-15T14:07:38Z)\n\n### Price Action\n- Current: $240.2\n- 5-day: -1.75% | 1-month: -1.72%\n- 5d range: $235.5 - $246.51\n\n### Volume\n- Today: 1,922,547 | Avg: 7,737,554 | Ratio: 0.25x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

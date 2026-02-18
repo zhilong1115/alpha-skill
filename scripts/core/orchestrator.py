@@ -166,6 +166,19 @@ class TradingOrchestrator:
         if convictions.empty:
             return []
 
+        # Get real positions + account for accurate risk checks
+        try:
+            from scripts.core.executor import get_account, get_positions
+            account = get_account()
+            real_positions = get_positions()
+            portfolio_value = account["portfolio_value"] if account else 100_000
+            # Build position list for risk manager (accumulates during loop)
+            pos_list = [{"ticker": p["ticker"], "market_value": float(p.get("market_value", 0))}
+                        for p in real_positions]
+        except Exception:
+            portfolio_value = 100_000
+            pos_list = []
+
         ideas: list[dict] = []
         for _, row in convictions.iterrows():
             score = row["conviction_score"]
@@ -179,16 +192,19 @@ class TradingOrchestrator:
             except Exception:
                 continue
 
-            # Target: 5% of $100k portfolio
-            qty = int(5000 / price) if price > 0 else 0
+            # Target: 5% of portfolio
+            qty = int(portfolio_value * 0.05 / price) if price > 0 else 0
             if qty <= 0:
                 continue
 
             approved, sized_qty, reason = approve_trade(
-                ticker, "buy", qty, price, 100_000, []
+                ticker, "buy", qty, price, portfolio_value, pos_list
             )
             if not approved:
                 continue
+
+            # Track this planned position for subsequent risk checks
+            pos_list.append({"ticker": ticker, "market_value": sized_qty * price})
 
             ideas.append({
                 "ticker": ticker,

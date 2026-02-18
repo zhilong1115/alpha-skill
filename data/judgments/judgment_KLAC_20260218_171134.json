@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "KLAC",
+    "original_conviction": 0.319,
+    "adjusted_conviction": 0.319,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[Barchart] What Are Wall Street Analysts' Target Price for KLA Corporation Stock",
+      "[Investing.com] This is the most under-owned megacap tech stock, according to Mo",
+      "[Simply Wall St.] Is It Too Late To Consider KLA (KLAC) After A 3x Three-Year Su",
+      "[Zacks] 3 Reasons to Make ASYS Stock a Sell Even After 94% Rise in 6 Months (202",
+      "[Zacks] KLA (KLAC) Is Considered a Good Investment by Brokers: Is That True? (20"
+    ],
+    "timestamp": "2026-02-18T17:11:34.440622+00:00"
+  },
+  "prompt": "## LLM Trade Review: KLAC\n\n**Quantitative Signal**: BUY conviction=0.319\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Barchart] What Are Wall Street Analysts' Target Price for KLA Corporation Stock? (2026-02-18T13:37:17Z)\n  - [Investing.com] This is the most under-owned megacap tech stock, according to Morgan Stanley (2026-02-18T12:27:46Z)\n  - [Simply Wall St.] Is It Too Late To Consider KLA (KLAC) After A 3x Three-Year Surge? (2026-02-17T23:12:46Z)\n  - [Zacks] 3 Reasons to Make ASYS Stock a Sell Even After 94% Rise in 6 Months (2026-02-17T16:15:00Z)\n  - [Zacks] KLA (KLAC) Is Considered a Good Investment by Brokers: Is That True? (2026-02-17T14:30:03Z)\n  - [Insider Monkey] Applied Materials (AMAT) Seen Winning Whether WFE Growth Is Market- or Share-Driven (2026-02-17T12:01:35Z)\n  - [StockStory] 3 Big Reasons to Love KLA Corporation (KLAC) (2026-02-17T04:05:05Z)\n  - [Zacks] Amtech's Weak SFS Demand Continues: Is Profit Growth at Risk? (2026-02-16T16:57:00Z)\n\n### Price Action\n- Current: $1494.84\n- 5-day: 1.9% | 1-month: -1.88%\n- 5d range: $1427.67 - $1502.84\n\n### Volume\n- Today: 223,180 | Avg: 1,318,646 | Ratio: 0.17x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

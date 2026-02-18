@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "TFC",
+    "original_conviction": 0.368,
+    "adjusted_conviction": 0.218,
+    "adjustment": -0.15,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Positive catalyst: upgrade; Negative catalyst: downgrade",
+    "news_digest": [
+      "[Insider Monkey] Truist Lowers PayPal (PYPL) Estimates Due to Slower Volume, Tak",
+      "[Insider Monkey] Collegium Pharmaceutical, Inc. (COLL) Gains Momentum on Jornay ",
+      "[Insider Monkey] Truist Notes Operational Investments For Cytokinetics, Incorpor",
+      "[Simply Wall St.] Why Analysts See The TAT Technologies (NasdaqGM:TATT) Story Ch",
+      "[Insider Monkey] Is Block, Inc. (XYZ) among the Best Bitcoin and Blockchain Stoc"
+    ],
+    "timestamp": "2026-02-18T17:11:49.199378+00:00"
+  },
+  "prompt": "## LLM Trade Review: TFC\n\n**Quantitative Signal**: BUY conviction=0.368\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Insider Monkey] Truist Lowers PayPal (PYPL) Estimates Due to Slower Volume, Take Rate Compression (2026-02-18T14:28:23Z)\n  - [Insider Monkey] Collegium Pharmaceutical, Inc. (COLL) Gains Momentum on Jornay PM, Truist Highlights Robust Pain Portfolio (2026-02-18T09:07:56Z)\n  - [Insider Monkey] Truist Notes Operational Investments For Cytokinetics, Incorporated (CYTK) to Support Short-Term Growth (2026-02-18T06:11:29Z)\n  - [Simply Wall St.] Why Analysts See The TAT Technologies (NasdaqGM:TATT) Story Changing With New Targets And Assumptions (2026-02-18T02:11:30Z)\n  - [Insider Monkey] Is Block, Inc. (XYZ) among the Best Bitcoin and Blockchain Stocks to Invest in? (2026-02-17T14:48:42Z)\n  - [The Fly] Dollar General downgraded, Dollar Tree upgraded: Wall Street's top analyst calls (2026-02-17T14:43:04Z)\n  - [Insider Monkey] ServiceNow, Inc.\u00a0(NOW): Needham Maintains a Buy Rating (2026-02-17T12:31:58Z)\n  - [Insider Monkey] ServiceNow Inc (NOW) Sees Subscription Sales Accelerating in 2026 (2026-02-17T11:04:47Z)\n\n### Price Action\n- Current: $52.62\n- 5-day: -3.83% | 1-month: 7.6%\n- 5d range: $50.95 - $55.19\n\n### Volume\n- Today: 1,326,788 | Avg: 10,945,375 | Ratio: 0.12x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

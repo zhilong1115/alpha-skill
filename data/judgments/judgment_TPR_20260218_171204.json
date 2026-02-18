@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "TPR",
+    "original_conviction": 0.32,
+    "adjusted_conviction": 0.32,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [
+      "[Zacks] 5 Top-Ranked Retail Apparel and Shoe Stocks for a Stable Portfolio (2026",
+      "[Zacks] Zacks.com featured highlights include Boot Barn, Brinker International, ",
+      "[Zacks] BOOT & 3 Other Stocks With Strong Interest Coverage to Buy Now (2026-02-",
+      "[Simply Wall St.] What Is Tapestry, Inc.'s (NYSE:TPR) Share Price Doing? (2026-0",
+      "[Zacks] Buy These 5 Dividend Growth Stocks Amid AI Fear Disrupting Market (2026-"
+    ],
+    "timestamp": "2026-02-18T17:12:04.871112+00:00"
+  },
+  "prompt": "## LLM Trade Review: TPR\n\n**Quantitative Signal**: BUY conviction=0.320\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] 5 Top-Ranked Retail Apparel and Shoe Stocks for a Stable Portfolio (2026-02-18T13:20:00Z)\n  - [Zacks] Zacks.com featured highlights include Boot Barn, Brinker International, Tapestry and Cardinal Health (2026-02-18T09:08:00Z)\n  - [Zacks] BOOT & 3 Other Stocks With Strong Interest Coverage to Buy Now (2026-02-17T15:51:00Z)\n  - [Simply Wall St.] What Is Tapestry, Inc.'s (NYSE:TPR) Share Price Doing? (2026-02-15T12:00:11Z)\n  - [Zacks] Buy These 5 Dividend Growth Stocks Amid AI Fear Disrupting Market (2026-02-13T14:40:00Z)\n  - [24/7 Wall St.] Here Are Friday\u2019s Top Wall Street Analyst Research Calls: Airbnb, AMD, Broadcom, CrowdStrike, Dollar Tree, Medtronic, Pinterest, Rivian, Roku, Tapestry, and More (2026-02-13T13:01:52Z)\n  - [Zacks] Zacks.com featured highlights include Jacobs Solutions, Envista Holdings and and Tapestry (2026-02-12T14:36:00Z)\n  - [StockStory] 5 Insightful Analyst Questions From Tapestry\u2019s Q4 Earnings Call (2026-02-12T05:36:54Z)\n\n### Price Action\n- Current: $155.77\n- 5-day: -0.49% | 1-month: 20.62%\n- 5d range: $150.0 - $158.28\n\n### Volume\n- Today: 503,924 | Avg: 2,631,586 | Ratio: 0.19x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

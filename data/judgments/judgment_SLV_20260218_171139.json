@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "SLV",
+    "original_conviction": 0.425,
+    "adjusted_conviction": 0.345,
+    "adjustment": -0.08,
+    "action": "reduce",
+    "reasoning": "Falling knife: -8.3% in 5 days",
+    "news_digest": [
+      "[MT Newswires] Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday A",
+      "[MT Newswires] Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid",
+      "[24/7 Wall St.] Silver\u2019s Explosive Rally: What Drove the Metal From $29 to $70 a",
+      "[MT Newswires] Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday Amid ",
+      "[24/7 Wall St.] Wait and See, This Great Silver Selloff Is Temporary | SLV (2026"
+    ],
+    "timestamp": "2026-02-18T17:11:39.255420+00:00"
+  },
+  "prompt": "## LLM Trade Review: SLV\n\n**Quantitative Signal**: BUY conviction=0.425\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [MT Newswires] Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of FOMC Meeting Minutes (2026-02-18T13:29:38Z)\n  - [MT Newswires] Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid AI Disruption Fears (2026-02-17T13:52:17Z)\n  - [24/7 Wall St.] Silver\u2019s Explosive Rally: What Drove the Metal From $29 to $70 and What Happens Next (2026-02-16T17:25:34Z)\n  - [MT Newswires] Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday Amid January Consumer Price Inflation Report (2026-02-13T13:59:27Z)\n  - [24/7 Wall St.] Wait and See, This Great Silver Selloff Is Temporary | SLV (2026-02-12T18:37:28Z)\n  - [MT Newswires] Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid New Jobs Data (2026-02-12T13:52:08Z)\n  - [Yahoo Finance Video] 'Normalcy has returned' to metal trade as gold recoups from sell-off (2026-02-12T13:00:37Z)\n  - [MT Newswires] Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Employment Report (2026-02-11T13:26:06Z)\n\n### Price Action\n- Current: $70.56\n- 5-day: -8.27% | 1-month: -18.14%\n- 5d range: $65.14 - $76.99\n\n### Volume\n- Today: 35,097,227 | Avg: 159,033,106 | Ratio: 0.22x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

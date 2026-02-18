@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "HAS",
+    "original_conviction": 0.374,
+    "adjusted_conviction": 0.424,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[StockStory] 5 Must-Read Analyst Questions From Hasbro\u2019s Q4 Earnings Call (2026-",
+      "[Simply Wall St.] Hasbro\u2019s Lumee Venture And AI Push Meet Strong Share Price Mom",
+      "[Simply Wall St.] Why Hasbro (HAS) Is Up 9.2% After Q4 Beat, New Licensing Deals",
+      "[Yahoo Finance Video] AI will boost creativity, cut down on work hours: Hasbro C",
+      "[Barchart] Hasbro Stock Outlook: Is Wall Street Bullish or Bearish? (2026-02-13T"
+    ],
+    "timestamp": "2026-02-18T17:11:47.401778+00:00"
+  },
+  "prompt": "## LLM Trade Review: HAS\n\n**Quantitative Signal**: BUY conviction=0.374\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [StockStory] 5 Must-Read Analyst Questions From Hasbro\u2019s Q4 Earnings Call (2026-02-17T05:34:16Z)\n  - [Simply Wall St.] Hasbro\u2019s Lumee Venture And AI Push Meet Strong Share Price Momentum (2026-02-16T00:21:50Z)\n  - [Simply Wall St.] Why Hasbro (HAS) Is Up 9.2% After Q4 Beat, New Licensing Deals And Capital Return Moves \u2013 And What's Next (2026-02-15T23:08:57Z)\n  - [Yahoo Finance Video] AI will boost creativity, cut down on work hours: Hasbro CEO (2026-02-14T13:00:08Z)\n  - [Barchart] Hasbro Stock Outlook: Is Wall Street Bullish or Bearish? (2026-02-13T14:47:33Z)\n  - [StockStory] 3 S&P 500 Stocks We Steer Clear Of (2026-02-13T04:43:39Z)\n  - [Barrons.com] Hasbro Stock Still Has Room to Run (2026-02-12T19:01:00Z)\n  - [The Daily Upside] Mattel Struggles As Hasbro Wins With Adults (2026-02-12T05:01:00Z)\n\n### Price Action\n- Current: $102.04\n- 5-day: -1.69% | 1-month: 19.36%\n- 5d range: $100.96 - $106.98\n\n### Volume\n- Today: 344,723 | Avg: 2,284,291 | Ratio: 0.15x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "GPC",
+    "original_conviction": 0.317,
+    "adjusted_conviction": 0.087,
+    "adjustment": -0.23,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Positive catalyst: upgrade; Negative catalyst: downgrade; Falling knife: -17.6% in 5 days",
+    "news_digest": [
+      "[The Fly] Palantir upgraded, Workday downgraded: Wall Street's top analyst calls",
+      "[24/7 Wall St.] Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Cad",
+      "[Just Auto] Genuine Parts to split divisions; posts quarterly loss (2026-02-18T1",
+      "[Simply Wall St.] US Stock Market Today: S&P 500 Futures Rise On Cooling Inflati",
+      "[Zacks] Company News for Feb 18, 2026 (2026-02-18T09:51:00Z)"
+    ],
+    "timestamp": "2026-02-18T17:11:35.663950+00:00"
+  },
+  "prompt": "## LLM Trade Review: GPC\n\n**Quantitative Signal**: BUY conviction=0.317\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [The Fly] Palantir upgraded, Workday downgraded: Wall Street's top analyst calls (2026-02-18T14:50:19Z)\n  - [24/7 Wall St.] Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Cadence Design, Crox, Genuine Parts, Kratos Defense, Medtronic, Palantir, StubHub, Transocean, and More (2026-02-18T13:18:22Z)\n  - [Just Auto] Genuine Parts to split divisions; posts quarterly loss (2026-02-18T11:47:47Z)\n  - [Simply Wall St.] US Stock Market Today: S&P 500 Futures Rise On Cooling Inflation And Steady Yields (2026-02-18T10:21:39Z)\n  - [Zacks] Company News for Feb 18, 2026 (2026-02-18T09:51:00Z)\n  - [StockStory] GPC Q4 Deep Dive: Strategic Separation and Cost Headwinds Define Transition Year (2026-02-18T05:30:47Z)\n  - [MT Newswires] Equities Edge Higher as Earnings Season Continues, AI Disruption Worries Persist (2026-02-17T22:18:30Z)\n  - [MT Newswires] US Equity Indexes Moderately Higher Amid Gains in Financials, Technology (2026-02-17T22:03:30Z)\n\n### Price Action\n- Current: $122.58\n- 5-day: -17.65% | 1-month: -8.78%\n- 5d range: $119.36 - $151.57\n\n### Volume\n- Today: 1,041,823 | Avg: 1,299,720 | Ratio: 0.8x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

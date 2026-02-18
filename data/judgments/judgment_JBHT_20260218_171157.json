@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "JBHT",
+    "original_conviction": 0.34,
+    "adjusted_conviction": 0.39,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[FreightWaves] J.B. Hunt \u2018a little bit more positive\u2019 (2026-02-18T15:44:32Z)",
+      "[Barchart] J.B. Hunt Transport Services Stock Outlook: Is Wall Street Bullish or",
+      "[MarketBeat] AI Broke the Trucks: 3 Transports to Buy After the AI Panic (2026-0",
+      "[Simply Wall St.] Is J.B. Hunt (JBHT) Fairly Priced After Recent Share Price Pul",
+      "[Zacks] Here's Why JB Hunt (JBHT) is a Strong Momentum Stock (2026-02-16T14:50:0"
+    ],
+    "timestamp": "2026-02-18T17:11:57.710267+00:00"
+  },
+  "prompt": "## LLM Trade Review: JBHT\n\n**Quantitative Signal**: BUY conviction=0.340\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [FreightWaves] J.B. Hunt \u2018a little bit more positive\u2019 (2026-02-18T15:44:32Z)\n  - [Barchart] J.B. Hunt Transport Services Stock Outlook: Is Wall Street Bullish or Bearish? (2026-02-18T13:12:15Z)\n  - [MarketBeat] AI Broke the Trucks: 3 Transports to Buy After the AI Panic (2026-02-17T16:56:00Z)\n  - [Simply Wall St.] Is J.B. Hunt (JBHT) Fairly Priced After Recent Share Price Pullback And DCF Estimate? (2026-02-17T12:12:50Z)\n  - [Zacks] Here's Why JB Hunt (JBHT) is a Strong Momentum Stock (2026-02-16T14:50:03Z)\n  - [MarketWatch] The stock market is reflecting fears of an AI apocalypse for white-collar jobs (2026-02-14T13:30:00Z)\n  - [Barrons.com] Stock Market Suffers AI-Inspired Meltdown. The Real World Wins Again. (2026-02-13T19:28:00Z)\n  - [FreightWaves] TL stocks take wild ride into, out of Q4 earnings season (2026-02-13T18:22:17Z)\n\n### Price Action\n- Current: $225.15\n- 5-day: -2.35% | 1-month: 11.41%\n- 5d range: $208.86 - $234.82\n\n### Volume\n- Today: 123,443 | Avg: 1,194,902 | Ratio: 0.1x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

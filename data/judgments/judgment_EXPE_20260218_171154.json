@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "EXPE",
+    "original_conviction": 0.352,
+    "adjusted_conviction": 0.322,
+    "adjustment": -0.03,
+    "action": "proceed",
+    "reasoning": "Positive catalyst: beat; Falling knife: -14.9% in 5 days",
+    "news_digest": [
+      "[Zacks] Is EXPEDIA GROUP (EXPE) Stock Undervalued Right Now? (2026-02-18T14:40:0",
+      "[StockStory] ACV Auctions, eBay, Chewy, Expedia, and Chegg Shares Are Falling, W",
+      "[Simply Wall St.] Assessing Expedia Group (EXPE) After A 25% Monthly Drop In Sha",
+      "[Zacks] Down 25.4% in 4 Weeks, Here's Why You Should You Buy the Dip in Expedia ",
+      "[Barrons.com] Tripadvisor Activist Starboard Pushes for Radical Shake-Up Having "
+    ],
+    "timestamp": "2026-02-18T17:11:54.627619+00:00"
+  },
+  "prompt": "## LLM Trade Review: EXPE\n\n**Quantitative Signal**: BUY conviction=0.352\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Is EXPEDIA GROUP (EXPE) Stock Undervalued Right Now? (2026-02-18T14:40:05Z)\n  - [StockStory] ACV Auctions, eBay, Chewy, Expedia, and Chegg Shares Are Falling, What You Need To Know (2026-02-17T20:40:46Z)\n  - [Simply Wall St.] Assessing Expedia Group (EXPE) After A 25% Monthly Drop In Share Price (2026-02-17T15:21:30Z)\n  - [Zacks] Down 25.4% in 4 Weeks, Here's Why You Should You Buy the Dip in Expedia (EXPE) (2026-02-17T14:35:02Z)\n  - [Barrons.com] Tripadvisor Activist Starboard Pushes for Radical Shake-Up Having Built 9% Stake (2026-02-17T08:58:00Z)\n  - [Yahoo Finance UK] How to save money on your Northern Lights holiday (2026-02-17T06:00:49Z)\n  - [Zacks] EXPE Q4 Earnings Beat on Strong B2B and Advertising Growth (2026-02-16T15:11:00Z)\n  - [StockStory] 1 Volatile Stock on Our Buy List and 2 Facing Headwinds (2026-02-16T04:35:54Z)\n\n### Price Action\n- Current: $205.61\n- 5-day: -14.88% | 1-month: -25.7%\n- 5d range: $197.99 - $248.15\n\n### Volume\n- Today: 1,213,744 | Avg: 3,135,821 | Ratio: 0.39x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

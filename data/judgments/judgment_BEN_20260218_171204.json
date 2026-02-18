@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "BEN",
+    "original_conviction": 0.32,
+    "adjusted_conviction": 0.12,
+    "adjustment": -0.2,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Negative catalyst: miss",
+    "news_digest": [
+      "[Insider Monkey] Evercore Reiterates Sell on Franklin Resources (BEN) Amid Mixed",
+      "[Simply Wall St.] Franklin Resources Binance Collateral Program Links Gains To D",
+      "[Insider Monkey] TD Cowen Presented a Bullish Stance on Franklin Resources (BEN)",
+      "[Zacks] TROW's January AUM Rises 1.2% Sequentially: Will the Trend Continue? (20",
+      "[StockStory] The 5 Most Interesting Analyst Questions From Franklin Resources\u2019s "
+    ],
+    "timestamp": "2026-02-18T17:12:04.501268+00:00"
+  },
+  "prompt": "## LLM Trade Review: BEN\n\n**Quantitative Signal**: BUY conviction=0.320\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Insider Monkey] Evercore Reiterates Sell on Franklin Resources (BEN) Amid Mixed Ratings (2026-02-17T13:20:57Z)\n  - [Simply Wall St.] Franklin Resources Binance Collateral Program Links Gains To Digital Assets (2026-02-15T23:09:01Z)\n  - [Insider Monkey] TD Cowen Presented a Bullish Stance on Franklin Resources (BEN) (2026-02-13T14:33:20Z)\n  - [Zacks] TROW's January AUM Rises 1.2% Sequentially: Will the Trend Continue? (2026-02-12T18:12:00Z)\n  - [StockStory] The 5 Most Interesting Analyst Questions From Franklin Resources\u2019s Q4 Earnings Call (2026-02-12T16:00:56Z)\n  - [StockStory] BEN Q4 Deep Dive: Diversified Asset Flows and Strategic Cost Control Highlight Quarter (2026-02-12T16:00:53Z)\n  - [TipRanks] Crypto Currents: Robinhood shares dip on revenue miss (2026-02-12T15:55:30Z)\n  - [Zacks] Franklin Resources & Binance Unveil New Institutional Collateral Plan (2026-02-12T15:41:00Z)\n\n### Price Action\n- Current: $27.98\n- 5-day: -0.66% | 1-month: 9.28%\n- 5d range: $26.73 - $28.32\n\n### Volume\n- Today: 1,040,992 | Avg: 6,368,123 | Ratio: 0.16x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

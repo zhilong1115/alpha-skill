@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "IBKR",
+    "original_conviction": 0.326,
+    "adjusted_conviction": 0.176,
+    "adjustment": -0.15,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Positive catalyst: beat; Negative catalyst: miss",
+    "news_digest": [
+      "[Zacks] Coinbase Global Posts a Soft Q4 Earnings: Here's How to Play the Stock (",
+      "[Motley Fool] The 1 Stock I'd Buy Before Interactive Brokers Group Right Now (20",
+      "[Motley Fool] Stock Market Today, Feb. 11: Robinhood Falls 9% After Revenue Miss",
+      "[Zacks] Is Trending Stock Interactive Brokers Group, Inc. (IBKR) a Buy Now? (202",
+      "[Simply Wall St.] How RRIF Launch and Nano Crypto Futures at Interactive Brokers"
+    ],
+    "timestamp": "2026-02-18T17:11:34.061931+00:00"
+  },
+  "prompt": "## LLM Trade Review: IBKR\n\n**Quantitative Signal**: BUY conviction=0.326\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Coinbase Global Posts a Soft Q4 Earnings: Here's How to Play the Stock (2026-02-16T14:46:00Z)\n  - [Motley Fool] The 1 Stock I'd Buy Before Interactive Brokers Group Right Now (2026-02-15T16:05:00Z)\n  - [Motley Fool] Stock Market Today, Feb. 11: Robinhood Falls 9% After Revenue Miss (2026-02-11T22:27:35Z)\n  - [Zacks] Is Trending Stock Interactive Brokers Group, Inc. (IBKR) a Buy Now? (2026-02-11T14:00:05Z)\n  - [Simply Wall St.] How RRIF Launch and Nano Crypto Futures at Interactive Brokers Group (IBKR) Has Changed Its Investment Story (2026-02-11T10:27:41Z)\n  - [MarketBeat] Interactive Brokers Group's Peterffy: Strong economy, limited rate cuts; pushes prediction markets, crypto (2026-02-11T05:07:31Z)\n  - [Simply Wall St.] Interactive Brokers Expands Crypto Futures And Canadian Retirement Offerings (2026-02-11T05:06:20Z)\n  - [Simply Wall St.] Is It Too Late To Consider Buying Interactive Brokers (IBKR) After Strong Multi\u2011Year Share Gains? (2026-02-10T21:15:07Z)\n\n### Price Action\n- Current: $75.37\n- 5-day: -2.91% | 1-month: 4.68%\n- 5d range: $71.51 - $77.85\n\n### Volume\n- Today: 1,269,745 | Avg: 5,836,654 | Ratio: 0.22x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

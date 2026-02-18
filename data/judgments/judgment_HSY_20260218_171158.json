@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "HSY",
+    "original_conviction": 0.339,
+    "adjusted_conviction": 0.389,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat",
+    "news_digest": [
+      "[Zacks] Hormel Foods Posts Q1 Preliminary Results: What Lies Ahead? (2026-02-18T",
+      "[Zacks] Pricing vs. Volume: Can Colgate Balance Growth in a Soft Market? (2026-0",
+      "[Zacks] HRL's Pricing and Cost Actions to Support Margins in FY26 (2026-02-17T14",
+      "[Simply Wall St.] Hormel Taps Hershey Veteran To Tackle Supply Chain And Margin ",
+      "[Simply Wall St.] Assessing Hershey (HSY) Valuation After A Strong Multi\u2011Month S"
+    ],
+    "timestamp": "2026-02-18T17:11:58.103101+00:00"
+  },
+  "prompt": "## LLM Trade Review: HSY\n\n**Quantitative Signal**: BUY conviction=0.339\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] Hormel Foods Posts Q1 Preliminary Results: What Lies Ahead? (2026-02-18T14:16:00Z)\n  - [Zacks] Pricing vs. Volume: Can Colgate Balance Growth in a Soft Market? (2026-02-17T17:23:00Z)\n  - [Zacks] HRL's Pricing and Cost Actions to Support Margins in FY26 (2026-02-17T14:20:00Z)\n  - [Simply Wall St.] Hormel Taps Hershey Veteran To Tackle Supply Chain And Margin Pressures (2026-02-14T19:08:25Z)\n  - [Simply Wall St.] Assessing Hershey (HSY) Valuation After A Strong Multi\u2011Month Share Price Run (2026-02-14T16:07:12Z)\n  - [Simply Wall St.] Hershey\u2019s Team USA Medals Aim To Lift Brand Relevance And Returns (2026-02-14T10:16:45Z)\n  - [Zacks] When Love Drives Spending: 5 Stock Picks for Valentine's Day (2026-02-13T15:40:00Z)\n  - [Zacks] Flowers Foods Q4 Earnings Beat Estimates, Sales Advance 11% (2026-02-13T14:04:00Z)\n\n### Price Action\n- Current: $220.66\n- 5-day: -2.88% | 1-month: 11.8%\n- 5d range: $214.62 - $231.24\n\n### Volume\n- Today: 737,312 | Avg: 2,349,138 | Ratio: 0.31x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

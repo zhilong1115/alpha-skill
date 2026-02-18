@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "CRL",
+    "original_conviction": 0.358,
+    "adjusted_conviction": 0.208,
+    "adjustment": -0.15,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: fed; Positive catalyst: beat; Falling knife: -17.0% in 5 days",
+    "news_digest": [
+      "[Motley Fool] Charles River (CRL) Earnings Call Transcript (2026-02-18T15:32:20Z",
+      "[Zacks] Here's What Key Metrics Tell Us About Charles River (CRL) Q4 Earnings (2",
+      "[Zacks] CRL Stock Down Despite Q4 Earnings & Revenue Beat, Margins Rise (2026-02",
+      "[Zacks] Charles River Laboratories (CRL) Q4 Earnings and Revenues Surpass Estima",
+      "[MT Newswires] Charles River Q4 Adjusted Earnings, Revenue Decline; New CFO Name"
+    ],
+    "timestamp": "2026-02-18T17:11:52.813385+00:00"
+  },
+  "prompt": "## LLM Trade Review: CRL\n\n**Quantitative Signal**: BUY conviction=0.358\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Motley Fool] Charles River (CRL) Earnings Call Transcript (2026-02-18T15:32:20Z)\n  - [Zacks] Here's What Key Metrics Tell Us About Charles River (CRL) Q4 Earnings (2026-02-18T14:30:06Z)\n  - [Zacks] CRL Stock Down Despite Q4 Earnings & Revenue Beat, Margins Rise (2026-02-18T13:55:00Z)\n  - [Zacks] Charles River Laboratories (CRL) Q4 Earnings and Revenues Surpass Estimates (2026-02-18T13:10:02Z)\n  - [MT Newswires] Charles River Q4 Adjusted Earnings, Revenue Decline; New CFO Named (2026-02-18T12:39:35Z)\n  - [MT Newswires] Stocks Gain Pre-Bell as Investors Await Fed Meeting Minutes (2026-02-18T12:25:10Z)\n  - [Associated Press Finance] Charles River: Q4 Earnings Snapshot (2026-02-18T12:16:48Z)\n  - [StockStory] Charles River Laboratories (CRL) Q4 Earnings: What To Expect (2026-02-17T03:05:10Z)\n\n### Price Action\n- Current: $151.98\n- 5-day: -16.98% | 1-month: -30.11%\n- 5d range: $146.49 - $183.11\n\n### Volume\n- Today: 878,279 | Avg: 938,308 | Ratio: 0.94x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

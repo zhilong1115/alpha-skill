@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "CAH",
+    "original_conviction": 0.414,
+    "adjusted_conviction": 0.384,
+    "adjustment": -0.03,
+    "action": "proceed",
+    "reasoning": "Positive catalyst: beat; Negative catalyst: miss",
+    "news_digest": [
+      "[Zacks] CRL Stock Down Despite Q4 Earnings & Revenue Beat, Margins Rise (2026-02",
+      "[Zacks] Zacks.com featured highlights include Boot Barn, Brinker International, ",
+      "[Zacks] BOOT & 3 Other Stocks With Strong Interest Coverage to Buy Now (2026-02-",
+      "[Zacks] Labcorp Q4 Earnings Beat, Revenues Miss, Stock Down in Pre-Market (2026-",
+      "[Zacks] MDT Stock Up on Q3 Earnings and Revenue Beat, Margins Down (2026-02-17T1"
+    ],
+    "timestamp": "2026-02-18T17:11:42.100989+00:00"
+  },
+  "prompt": "## LLM Trade Review: CAH\n\n**Quantitative Signal**: BUY conviction=0.414\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [Zacks] CRL Stock Down Despite Q4 Earnings & Revenue Beat, Margins Rise (2026-02-18T13:55:00Z)\n  - [Zacks] Zacks.com featured highlights include Boot Barn, Brinker International, Tapestry and Cardinal Health (2026-02-18T09:08:00Z)\n  - [Zacks] BOOT & 3 Other Stocks With Strong Interest Coverage to Buy Now (2026-02-17T15:51:00Z)\n  - [Zacks] Labcorp Q4 Earnings Beat, Revenues Miss, Stock Down in Pre-Market (2026-02-17T15:07:00Z)\n  - [Zacks] MDT Stock Up on Q3 Earnings and Revenue Beat, Margins Down (2026-02-17T14:42:00Z)\n  - [Zacks] Wall Street Analysts See Cardinal (CAH) as a Buy: Should You Invest? (2026-02-17T14:30:02Z)\n  - [Motley Fool] Liberty One Cuts Its Lamb Weston Position in Half With $32 Million Sale (2026-02-16T19:18:02Z)\n  - [Zacks] Bruker's Q4 Earnings Lag Estimates, Margins Contract, Stock Down (2026-02-16T15:05:00Z)\n\n### Price Action\n- Current: $222.64\n- 5-day: 0.76% | 1-month: 5.78%\n- 5d range: $213.75 - $229.15\n\n### Volume\n- Today: 296,480 | Avg: 1,838,122 | Ratio: 0.16x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

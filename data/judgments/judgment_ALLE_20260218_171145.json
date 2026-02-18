@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "ALLE",
+    "original_conviction": 0.385,
+    "adjusted_conviction": 0.155,
+    "adjustment": -0.23,
+    "action": "reduce",
+    "reasoning": "Macro risk detected: rate; Positive catalyst: beat; Negative catalyst: miss; Falling knife: -8.4% in 5 days",
+    "news_digest": [
+      "[StockStory] ALLE Q4 Deep Dive: Weak Americas Residential and Modest Guidance Dr",
+      "[Simply Wall St.] Allegion\u2019s Schlage Aspect Collection Links Design Push With Va",
+      "[GuruFocus.com] Allegion PLC (ALLE) Q4 2025 Earnings Call Highlights: Strong Rev",
+      "[StockStory] Why Allegion (ALLE) Stock Is Trading Lower Today (2026-02-17T19:00:",
+      "[Moby] Allegion plc Q4 2025 Earnings Call Summary (2026-02-17T17:32:04Z)"
+    ],
+    "timestamp": "2026-02-18T17:11:45.521551+00:00"
+  },
+  "prompt": "## LLM Trade Review: ALLE\n\n**Quantitative Signal**: BUY conviction=0.385\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [StockStory] ALLE Q4 Deep Dive: Weak Americas Residential and Modest Guidance Drive Cautious Outlook (2026-02-18T05:33:21Z)\n  - [Simply Wall St.] Allegion\u2019s Schlage Aspect Collection Links Design Push With Valuation Debate (2026-02-18T00:20:04Z)\n  - [GuruFocus.com] Allegion PLC (ALLE) Q4 2025 Earnings Call Highlights: Strong Revenue Growth and Strategic ... (2026-02-17T19:01:41Z)\n  - [StockStory] Why Allegion (ALLE) Stock Is Trading Lower Today (2026-02-17T19:00:58Z)\n  - [Moby] Allegion plc Q4 2025 Earnings Call Summary (2026-02-17T17:32:04Z)\n  - [MarketBeat] Allegion Q4 Earnings Call Highlights (2026-02-17T16:50:15Z)\n  - [Zacks] Allegion's Q4 Earnings Miss Estimates, Revenues Increase Y/Y (2026-02-17T16:15:00Z)\n  - [Motley Fool] Allegion (ALLE) Q4 2025 Earnings Call Transcript (2026-02-17T14:21:27Z)\n\n### Price Action\n- Current: $163.66\n- 5-day: -8.42% | 1-month: 0.71%\n- 5d range: $161.07 - $183.11\n\n### Volume\n- Today: 440,606 | Avg: 922,090 | Ratio: 0.48x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

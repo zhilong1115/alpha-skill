@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "NOC",
+    "original_conviction": 0.317,
+    "adjusted_conviction": 0.457,
+    "adjustment": 0.14,
+    "action": "boost",
+    "reasoning": "Positive catalyst: beat, dividend hike; Healthy trend: +4.2% 5d, +6.8% 1mo",
+    "news_digest": [
+      "[StockStory] 1 S&P 500 Stock with Impressive Fundamentals and 2 We Find Risky (2",
+      "[Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-0",
+      "[Simply Wall St.] Northrop Grumman Board Refresh Sparks Questions On Governance ",
+      "[Barchart] Are Wall Street Analysts Bullish on Northrop Grumman Stock? (2026-02-",
+      "[Barrons.com] Exxon, Walmart, and 9 Other Stocks That Are Soaring Because Cash I"
+    ],
+    "timestamp": "2026-02-18T17:12:06.206177+00:00"
+  },
+  "prompt": "## LLM Trade Review: NOC\n\n**Quantitative Signal**: BUY conviction=0.317\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [StockStory] 1 S&P 500 Stock with Impressive Fundamentals and 2 We Find Risky (2026-02-18T04:32:29Z)\n  - [Zacks] Leidos Holdings Q4 Earnings Beat Estimates, Revenues Decline Y/Y (2026-02-17T15:57:00Z)\n  - [Simply Wall St.] Northrop Grumman Board Refresh Sparks Questions On Governance And Valuation (2026-02-17T11:08:22Z)\n  - [Barchart] Are Wall Street Analysts Bullish on Northrop Grumman Stock? (2026-02-16T13:13:04Z)\n  - [Barrons.com] Exxon, Walmart, and 9 Other Stocks That Are Soaring Because Cash Is King Again (2026-02-13T19:04:00Z)\n  - [24/7 Wall St.] General Dynamics Paid Investors $1.50: Here\u2019s What the Dividend Reveals (2026-02-13T14:35:59Z)\n  - [Simply Wall St.] Northrop Grumman Record Backlog Puts Dividend And Growth Plans In Focus (2026-02-13T06:11:43Z)\n  - [Simply Wall St.] Dividend Hike Amid Softer 2026 Outlook Could Be A Game Changer For Northrop Grumman (NOC) (2026-02-13T02:13:10Z)\n\n### Price Action\n- Current: $711.27\n- 5-day: 4.24% | 1-month: 6.81%\n- 5d range: $674.75 - $712.48\n\n### Volume\n- Today: 176,412 | Avg: 906,810 | Ratio: 0.19x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

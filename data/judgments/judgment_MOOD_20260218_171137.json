@@ -1,0 +1,13 @@
+{
+  "judgment": {
+    "ticker": "MOOD",
+    "original_conviction": 0.308,
+    "adjusted_conviction": 0.308,
+    "adjustment": 0.0,
+    "action": "proceed",
+    "reasoning": "No significant factors \u2014 signal looks clean",
+    "news_digest": [],
+    "timestamp": "2026-02-18T17:11:37.488129+00:00"
+  },
+  "prompt": "## LLM Trade Review: MOOD\n\n**Quantitative Signal**: BUY conviction=0.308\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  (no recent news)\n\n### Price Action\n- Current: $42.09\n- 5-day: -0.4% | 1-month: 1.37%\n- 5d range: $41.18 - $42.45\n\n### Volume\n- Today: 3,823 | Avg: 29,005 | Ratio: 0.13x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}

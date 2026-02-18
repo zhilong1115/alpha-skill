@@ -1,0 +1,19 @@
+{
+  "judgment": {
+    "ticker": "LUV",
+    "original_conviction": 0.334,
+    "adjusted_conviction": 0.384,
+    "adjustment": 0.05,
+    "action": "boost",
+    "reasoning": "Positive catalyst: upgrade",
+    "news_digest": [
+      "[TheStreet] Southwest Airlines fixes the one thing flyers hate most (2026-02-17T",
+      "[MT Newswires] Sector Update: Consumer Stocks Decline Late Afternoon (2026-02-17",
+      "[MT Newswires] Southwest Airlines' Earnings Poised for Upside Amid Key Initiativ",
+      "[Proactive] Southwest Airlines upgraded to 'Buy' by UBS, shares jump (2026-02-17",
+      "[Investor's Business Daily] Southwest Keeps Flying As UBS See Huge Payoff From N"
+    ],
+    "timestamp": "2026-02-18T17:11:59.952472+00:00"
+  },
+  "prompt": "## LLM Trade Review: LUV\n\n**Quantitative Signal**: BUY conviction=0.334\n**Regime**: sideways\n**Signal Reason**: Trade approved.\n\n### Recent News\n  - [TheStreet] Southwest Airlines fixes the one thing flyers hate most (2026-02-17T22:03:00Z)\n  - [MT Newswires] Sector Update: Consumer Stocks Decline Late Afternoon (2026-02-17T21:00:54Z)\n  - [MT Newswires] Southwest Airlines' Earnings Poised for Upside Amid Key Initiatives, UBS Says in Upgrade (2026-02-17T20:23:03Z)\n  - [Proactive] Southwest Airlines upgraded to 'Buy' by UBS, shares jump (2026-02-17T20:13:00Z)\n  - [Investor's Business Daily] Southwest Keeps Flying As UBS See Huge Payoff From New Fees (2026-02-17T19:45:33Z)\n  - [Barrons.com] Southwest Airlines Is Making Much-Needed Changes. Buy the Stock, This Firm Says. (2026-02-17T18:35:00Z)\n  - [GuruFocus.com] Southwest Airlines Shares Jump on Wave of Analyst Upgrades (2026-02-17T16:54:36Z)\n  - [Investing.com] UBS upgrades Southwest, sees earnings boost from seating and bag fee initiatives (2026-02-17T13:26:33Z)\n\n### Price Action\n- Current: $54.81\n- 5-day: 1.05% | 1-month: 29.06%\n- 5d range: $49.8 - $55.11\n\n### Volume\n- Today: 4,867,110 | Avg: 11,391,533 | Ratio: 0.43x\n\n### Your Task\nRead the news headlines carefully. Consider:\n1. Is there a macro catalyst (Fed, tariffs, geopolitics) that the quant model can't see?\n2. Is the Reddit/news sentiment genuine or just noise/hype?\n3. Does the price action confirm or contradict the signal?\n4. Any red flags the model missed?\n\n**Output one of:**\n- PROCEED (conviction unchanged, signal looks clean)\n- BOOST +X.XX (increase conviction, with reason)\n- REDUCE -X.XX (decrease conviction, with reason)\n- VETO (kill the trade entirely, with reason)\n"
+}
