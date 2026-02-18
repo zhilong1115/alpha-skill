@@ -1,193 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "RBC Capital Reiterates Outperform on IDEAYA Biosciences, Maintains $49 Price Target",
-    "summary": "RBC Capital  analyst Leonid Timashev   reiterates IDEAYA Biosciences (NASDAQ:IDYA) with a Outperform and maintains $49 price target.",
-    "symbols": [
-      "IDYA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "timestamp": "2026-02-18T16:00:07Z",
-    "url": "https://www.benzinga.com/news/26/02/50691374/rbc-capital-reiterates-outperform-on-ideaya-biosciences-maintains-49-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Insights into WillScot Mobile Mini&#39;s Upcoming Earnings",
-    "summary": " ",
-    "symbols": [
-      "WSC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:00:57Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691463/insights-into-willscot-mobile-minis-upcoming-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Pool&#39;s Earnings Outlook",
-    "summary": " ",
-    "symbols": [
-      "POOL"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:06Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691477/pools-earnings-outlook"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Etsy&#39;s Earnings: A Preview",
-    "summary": " ",
-    "symbols": [
-      "ETSY"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:16Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691490/etsys-earnings-a-preview"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "A Peek at F&amp;G Annuities &amp; Life&#39;s Future Earnings",
-    "summary": " ",
-    "symbols": [
-      "FG"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:26Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691508/a-peek-at-f-g-annuities-lifes-future-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "A Glimpse of Century Aluminum&#39;s Earnings Potential",
-    "summary": " ",
-    "symbols": [
-      "CENX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:34Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691518/a-glimpse-of-century-aluminums-earnings-potential"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Earnings Preview For ICU Medical",
-    "summary": " ",
-    "symbols": [
-      "ICUI"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:42Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691526/earnings-preview-for-icu-medical"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "An Overview of EPAM Sys&#39;s Earnings",
-    "summary": " ",
-    "symbols": [
-      "EPAM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:01:51Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691536/an-overview-of-epam-syss-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Preview: Dropbox&#39;s Earnings",
-    "summary": " ",
-    "symbols": [
-      "DBX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:02:01Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691545/preview-dropboxs-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Earnings Outlook For Praxis Precision Medicine",
-    "summary": " ",
-    "symbols": [
-      "PRAX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:02:11Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691555/earnings-outlook-for-praxis-precision-medicine"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What to Expect from Opendoor Technologies&#39;s Earnings",
-    "summary": " ",
-    "symbols": [
-      "OPEN"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "timestamp": "2026-02-18T16:02:20Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50691562/what-to-expect-from-opendoor-technologiess-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "Vesta Real Estate&#39;s Earnings Outlook",
     "summary": " ",
     "symbols": [
@@ -1679,5 +1492,190 @@
     ],
     "timestamp": "2026-02-18T17:01:42Z",
     "url": "https://www.benzinga.com/insights/earnings/26/02/50694132/whats-next-sprotts-earnings-preview"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Earnings Preview: Brady",
+    "summary": " ",
+    "symbols": [
+      "BRC"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:01:50Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694142/earnings-preview-brady"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Insights into NICE&#39;s Upcoming Earnings",
+    "summary": " ",
+    "symbols": [
+      "NICE"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:01:59Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694146/insights-into-nices-upcoming-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Earnings Outlook For Transocean",
+    "summary": " ",
+    "symbols": [
+      "RIG"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:02:08Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694157/earnings-outlook-for-transocean"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Centerra Gold&#39;s Earnings Outlook",
+    "summary": " ",
+    "symbols": [
+      "CGAU"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:02:18Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694167/centerra-golds-earnings-outlook"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "What&#39;s Behind The Jump In ImmunityBio Stock?",
+    "summary": "ImmunityBio shares are higher on Wednesday after the European Commission authorized one of its treatments for bladder cancer carcinoma.",
+    "symbols": [
+      "IBRX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "miss"
+    ],
+    "timestamp": "2026-02-18T17:02:21Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50694173/whats-behind-the-jump-in-immunitybio-stock"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BMO Capital Maintains Outperform on Waystar Holding, Lowers Price Target to $30",
+    "summary": "BMO Capital  analyst Sean Dodge   maintains Waystar Holding (NASDAQ:WAY) with a Outperform and lowers the price target from $47 to $30.",
+    "symbols": [
+      "WAY"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "timestamp": "2026-02-18T17:02:27Z",
+    "url": "https://www.benzinga.com/news/26/02/50694176/bmo-capital-maintains-outperform-on-waystar-holding-lowers-price-target-to-30"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "A Look at Floor &amp; Decor Hldgs&#39;s Upcoming Earnings Report",
+    "summary": " ",
+    "symbols": [
+      "FND"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:02:28Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694179/a-look-at-floor-decor-hldgss-upcoming-earnings-report"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "A Glimpse of Universal Display&#39;s Earnings Potential",
+    "summary": " ",
+    "symbols": [
+      "OLED"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "timestamp": "2026-02-18T17:02:38Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50694190/a-glimpse-of-universal-displays-earnings-potential"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "ImmunityBio shares are trading higher after the company announced it received European Commission authorization for ANKTIVA.",
+    "summary": "",
+    "symbols": [
+      "IBRX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "miss"
+    ],
+    "timestamp": "2026-02-18T17:02:52Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50694201/immunitybio-shares-are-trading-higher-after-the-company-announced-it-received-european-commission-au"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Stephens &amp; Co. Reiterates Equal-Weight on Wendy&#39;s, Maintains $8 Price Target",
+    "summary": "Stephens &amp; Co.  analyst Jim Salera   reiterates Wendy&#39;s (NASDAQ:WEN) with a Equal-Weight and maintains $8 price target.",
+    "symbols": [
+      "WEN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "timestamp": "2026-02-18T17:04:13Z",
+    "url": "https://www.benzinga.com/news/26/02/50694281/stephens-co-reiterates-equal-weight-on-wendys-maintains-8-price-target"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Prominent Miami resort files for Chapter 11 bankruptcy",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bankrupt"
+    ],
+    "timestamp": "2026-02-18T17:03:00Z",
+    "url": "https://finance.yahoo.com/news/prominent-miami-resort-files-chapter-170300652.html"
   }
 ]

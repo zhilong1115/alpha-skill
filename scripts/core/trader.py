@@ -109,6 +109,47 @@ class AutoTrader:
             result["errors"].append(f"Scan failed: {e}")
             return result
 
+        # 3.5. Intraday signals — refine timing for top daily candidates
+        try:
+            from scripts.core.intraday_signals import compute_intraday_batch, compute_combined_conviction
+
+            convictions = scan.get("convictions")
+            if convictions is not None and not convictions.empty:
+                # Get top 30 tickers by daily conviction for intraday analysis
+                top_daily = convictions[convictions["conviction_score"] > 0.2].head(30)
+                top_tickers = top_daily["ticker"].tolist()
+
+                if top_tickers:
+                    intra_sigs = compute_intraday_batch(top_tickers, top_n=30)
+                    result["intraday_signals"] = len(intra_sigs)
+
+                    # Update convictions with intraday timing
+                    timing_actions: list[dict] = []
+                    for _, row in top_daily.iterrows():
+                        tk = row["ticker"]
+                        daily_conv = row["conviction_score"]
+                        combined, timing = compute_combined_conviction(daily_conv, intra_sigs, tk)
+                        timing_actions.append({
+                            "ticker": tk,
+                            "daily_conviction": round(daily_conv, 3),
+                            "combined_conviction": combined,
+                            "timing": timing,
+                        })
+                        # Update conviction in scan result
+                        mask = convictions["ticker"] == tk
+                        if mask.any():
+                            convictions.loc[mask, "conviction_score"] = combined
+
+                    result["timing_actions"] = timing_actions
+                    enter_now = [t for t in timing_actions if t["timing"] == "enter_now"]
+                    wait = [t for t in timing_actions if t["timing"] == "wait"]
+                    if enter_now:
+                        logger.info("Intraday ENTER NOW: %s", [t["ticker"] for t in enter_now])
+                    if wait:
+                        logger.info("Intraday WAIT: %s", [t["ticker"] for t in wait])
+        except Exception as e:
+            logger.warning("Intraday signals failed (proceeding with daily only): %s", e)
+
         # 4. Generate trade ideas (pass scan result to avoid re-scanning)
         try:
             ideas = self.orchestrator.generate_trade_ideas(self.conviction_threshold, scan=scan)

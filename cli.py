@@ -492,6 +492,35 @@ def news(tickers: tuple[str, ...]) -> None:
         click.echo("  No unusual volume detected.")
 
 
+@cli.command("intraday")
+@click.argument("tickers", nargs=-1)
+def intraday(tickers: tuple[str, ...]) -> None:
+    """Show intraday signals (VWAP, ORB, momentum, RSI, volume) for tickers."""
+    from scripts.core.intraday_signals import compute_intraday_signals
+
+    if not tickers:
+        tickers = ("AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA")
+
+    click.echo("⏱ Intraday Signals (5-min candles)")
+    click.echo("=" * 60)
+
+    for ticker in tickers:
+        sigs = compute_intraday_signals(ticker.upper())
+        if sigs.empty:
+            click.echo(f"\n  {ticker.upper()}: No intraday data (market closed?)")
+            continue
+        click.echo(f"\n  {ticker.upper()}:")
+        for _, row in sigs.iterrows():
+            score = row["score"]
+            icon = "🟢" if score > 0.2 else "🔴" if score < -0.2 else "⚪"
+            click.echo(f"    {icon} {row['signal_name']:<20} value={row['value']:>8}  score={score:+.3f}")
+
+        # Overall
+        avg = sigs["score"].mean()
+        direction = "BUY" if avg > 0.15 else "SELL" if avg < -0.15 else "NEUTRAL"
+        click.echo(f"    → Avg intraday score: {avg:+.3f} ({direction})")
+
+
 @cli.command("news-daemon")
 @click.argument("action", type=click.Choice(["start", "stop", "status", "alerts"]))
 def news_daemon(action: str) -> None:
