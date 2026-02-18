@@ -749,3 +749,107 @@
 2026-02-18 09:43:27,284 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on MP Materials, Maintains $82 Price Target
 2026-02-18 09:43:43,507 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why Are DoorDash Shares Surging Wednesday?
 2026-02-18 09:43:45,077 [realtime_news] INFO: RSS polling stopped
+2026-02-18 09:43:57,624 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=13786)
+2026-02-18 09:43:57,624 [realtime_news] INFO:    Watching: AAPL, ADM, ALB, AMZN, ASTI, CHRW, CRH, CSCO, DTREF, EXPD, FOX, GM, GOOG, GOOGL, GPC, HAS, IBKR, INTC, KLAC, LUFFF, MCHP, MDT, META, MOOD, MSFT, NEM, NVDA, PFG, RF, ROL, SA, SLV, SNDK, TSLA, TSN, VLO, WMT
+2026-02-18 09:43:57,624 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-18 09:43:57,624 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-18 09:43:57,625 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-18 09:43:57,874 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-18 09:43:57,954 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-18 09:43:58,030 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-18 09:43:58,030 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-18 09:46:54,448 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Compass Pathways, Raises Price Target to 
+2026-02-18 09:47:34,735 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Neutral on Valmont Industries, Raises Price Target to $450
+2026-02-18 09:48:13,428 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Conagra Brands, Raises Price Target to 
+2026-02-18 09:48:38,115 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Neutral on Vulcan Materials, Lowers Price Target to $320
+2026-02-18 09:48:43,181 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dana shares are trading higher. The company reported Q4 financial results and is
+2026-02-18 09:49:04,338 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Devon Energy (DVN) Q4 2025 Earnings Transcript
+2026-02-18 09:49:04,610 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Charles River Laboratories International, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:04,880 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Travel + Leisure Co. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:05,136 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Verisk Analytics, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:05,397 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Sabre Corporation Q4 2025 Earnings Call Summary
+2026-02-18 09:49:05,921 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The Vita Coco Company, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:06,193 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — EnPro Industries, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:06,466 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ferroglobe PLC Q4 2025 Earnings Call Summary
+2026-02-18 09:49:06,733 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OGE Energy Corp. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:06,995 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Marshall’s Rival Stares Down Chapter 11 Bankruptcy
+2026-02-18 09:49:07,264 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PROG Holdings, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:07,525 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Jones Lang LaSalle Incorporated Q4 2025 Earnings Call Summary
+2026-02-18 09:49:07,778 [realtime_news] INFO: 🚨 ALERT: [critical] NEM — Cinemark Holdings, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 09:49:43,023 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Underweight on General Mills, Lowers Price Target to $4
+2026-02-18 09:51:09,929 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ripple, Coinbase Powered Crypto Super PAC Gears Up For Midterms With A War Chest
+2026-02-18 09:51:25,615 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Underweight on Dell Technologies, Lowers Price Target t
+2026-02-18 09:51:43,117 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CarMax shares are trading higher after Baird raised its price target on the stoc
+2026-02-18 09:52:44,436 [realtime_news] INFO: 🚨 ALERT: [high] META — Morgan Stanley Maintains Equal-Weight on Hewlett Packard, Lowers Price Target to
+2026-02-18 09:53:55,646 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Laureate Education, Raises Price Target
+2026-02-18 09:54:21,662 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on Donnelley Financial Solns, Maintains $66 Price Targ
+2026-02-18 09:55:14,638 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Underweight on Leslies, Lowers Price Target to $1
+2026-02-18 09:55:59,619 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on Palo Alto Networks, Lowers Price Target to $190
+2026-02-18 09:56:28,854 [realtime_news] INFO: 🚨 ALERT: [high] SA — Who Says Chinese Investors Can&#39;t Own Bitcoin? Mystery Firm Pours $436 Millio
+2026-02-18 09:56:44,230 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on QuantumScape, Lowers Price Target to $8
+2026-02-18 09:57:35,747 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Glaukos shares are trading higher after multiple analyst firms raised their resp
+2026-02-18 09:57:39,192 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Magna International, Raises Price Targe
+2026-02-18 09:58:02,977 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Snowflake, Lowers Price Target to $270
+2026-02-18 09:58:56,413 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Republic Services, Lowers Price Target 
+2026-02-18 09:59:20,477 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Chevron stock price target resets as oil strategy shifts
+2026-02-18 09:59:58,499 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Krystal Biotech, Raises Price Target to $371
+2026-02-18 10:00:14,601 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on SLM, Lowers Price Target to $29
+2026-02-18 10:00:24,032 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ServisFirst Bancshares Stock Scores RS Rating Upgrade
+2026-02-18 10:00:34,079 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Look Into NRG Energy Inc&#39;s Price Over Earnings
+2026-02-18 10:00:59,594 [realtime_news] INFO: 🚨 ALERT: [critical] WMT — &#39;Worst Paper I&#39;ve Ever Seen&#39;: Kevin Hassett Goes Nuclear On NY Fed P
+2026-02-18 10:01:05,784 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Outlook For PTC Therapeutics
+2026-02-18 10:01:11,952 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Welltower, Raises Price Target to $215
+2026-02-18 10:01:15,622 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Look Ahead: Choice Hotels Intl&#39;s Earnings Forecast
+2026-02-18 10:01:27,817 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Glimpse of GRAIL&#39;s Earnings Potential
+2026-02-18 10:01:35,476 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Valaris&#39;s Earnings: A Preview
+2026-02-18 10:01:38,956 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Autodesk, Lowers Price Target to $315
+2026-02-18 10:01:44,589 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview For Eldorado Gold
+2026-02-18 10:01:54,282 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Outlook For Park Hotels &amp; Resorts
+2026-02-18 10:02:03,817 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Savers Value Village Earnings Preview
+2026-02-18 10:02:12,501 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Glimpse of Talkspace&#39;s Earnings Potential
+2026-02-18 10:02:27,167 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Glimpse of Federal Agricultural&#39;s Earnings Potential
+2026-02-18 10:02:36,773 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Glimpse of Materialise&#39;s Earnings Potential
+2026-02-18 10:02:46,273 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tandem Diabetes Care&#39;s Earnings Outlook
+2026-02-18 10:02:49,182 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Waystar Holding, Lowers Price Target to $35
+2026-02-18 10:03:54,557 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Kenvue, Raises Price Target to $20
+2026-02-18 10:05:26,405 [realtime_news] INFO: 🚨 ALERT: [high] SA — Citigroup Maintains Neutral on RenaissanceRe Holdings, Raises Price Target to $3
+2026-02-18 10:06:39,902 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Cooper-Standard Holdings, Raises Price Target to 
+2026-02-18 10:07:08,103 [realtime_news] INFO: 🚨 ALERT: [high] ALB — Albemarle shares are trading higher after Evercore ISI Group raised its price ta
+2026-02-18 10:07:31,506 [realtime_news] INFO: 🚨 ALERT: [high] GOOG — Anthropic is clashing with the Pentagon over AI use. Here's what each side wants
+2026-02-18 10:08:47,752 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed Vice Chair For Supervision Bowman Says Latest Jobs Report A Bit Strange, Mos
+2026-02-18 10:09:09,143 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Carvana Stock Is Jumping Today: What&#39;s Happening?
+2026-02-18 10:09:13,569 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Acadia Realty Trust, Raises Price Target to $24
+2026-02-18 10:09:35,239 [realtime_news] INFO: 🚨 ALERT: [critical] RF — CACI International Talks AI Tailwind, $2B Electronic Warfare Surge, Reaffirms FY
+2026-02-18 10:09:37,879 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Aker Solutions wins five-year MMO contract from Aker BP
+2026-02-18 10:09:38,469 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Walmart earnings, spending data, and more AI disruptions: What to watch this wee
+2026-02-18 10:09:38,727 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Exclusive-Foreign cars flow to Russia through China, skirting Ukraine war sancti
+2026-02-18 10:09:50,634 [realtime_news] INFO: 🚨 ALERT: [critical] KVUE — Kenvue Analysts Boost Their Forecasts After Upbeat Q4 Earnings
+2026-02-18 10:10:31,084 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Douglas Emmett, Lowers Price Target to $10
+2026-02-18 10:10:41,038 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Texas Capital Downgrades Great Lakes Dredge & Dock Corporation (GLDD) to Hold wi
+2026-02-18 10:11:57,129 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Highwoods Properties, Lowers Price Target to $24
+2026-02-18 10:12:15,161 [realtime_news] INFO: 🚨 ALERT: [high] GPC — Genuine Parts shares are trading lower after multiple analyst firms lowered thei
+2026-02-18 10:12:50,293 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Hudson Pacific Properties, Lowers Price Target to
+2026-02-18 10:13:18,651 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — What&#39;s Going On With L3Harris Stock Today?
+2026-02-18 10:13:27,657 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Toyota Recalls Certain Model Year 2025-2026 Lexus LX 600 Vehicles
+2026-02-18 10:13:50,671 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Hyatt Hotels, Raises Price Target to $195
+2026-02-18 10:15:35,913 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cameco shares are trading higher after GLJ Research raised its price target on t
+2026-02-18 10:15:40,424 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Independence Realty Trust, Lowers Price Target to
+2026-02-18 10:17:11,816 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Centene shares are trading higher after Wells Fargo raised its price target on t
+2026-02-18 10:17:21,314 [realtime_news] INFO: 🚨 ALERT: [high] SA — Citigroup Maintains Buy on Sabra Health Care REIT, Raises Price Target to $24
+2026-02-18 10:18:37,653 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Welltower, Raises Price Target to $245
+2026-02-18 10:18:51,050 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fastly, Inc. (FSLY) Reports Fourth-Quarter Revenue of $172.61 million, Ahead of 
+2026-02-18 10:19:59,523 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Nebius Group shares are trading higher after Compass Point initiated coverage on
+2026-02-18 10:20:53,668 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Lowers its Price Target on The Wendy’s Company (WEN) to $9 and Maintains 
+2026-02-18 10:21:39,772 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Magnolia Oil &amp; Gas, Raises Price Target to $2
+2026-02-18 10:22:49,912 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on DTE Energy, Raises Price Target to $168
+2026-02-18 10:23:42,232 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Ormat Technologies, Raises Price Target to $128
+2026-02-18 10:25:32,636 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Centrus Energy, Lowers Price Target to $225
+2026-02-18 10:27:28,480 [realtime_news] INFO: 🚨 ALERT: [high] SHW — Sherwin-Williams Increases Quarterly Dividend From $0.79 to $0.80 Per Share; Hit
+2026-02-18 10:29:09,588 [realtime_news] INFO: 🚨 ALERT: [high] MOOD — What&#39;s Going On With Moody&#39;s Corporation Stock Today?
+2026-02-18 10:29:45,769 [realtime_news] INFO: 🚨 ALERT: [high] HAS — Starboard Urges Riot To Seize AI Gold Rush Now
+2026-02-18 10:31:04,353 [realtime_news] INFO: 🚨 ALERT: [high] SA — Citigroup Maintains Neutral on Salesforce, Lowers Price Target to $197
+2026-02-18 10:36:11,958 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pinterest Raises Q1 Guidance Following tvScientific Deal
+2026-02-18 10:36:12,584 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — This Dirt Cheap Stock Is Expected to Quadruple Its Earnings This Year
+2026-02-18 10:36:12,839 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The Consumer Shock From Tariffs Isn't Over. When Will Prices Peak?
+2026-02-18 10:36:13,375 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Lowers its Price Target on Tripadvisor, Inc. (TRIP) to $15 and Maintains
+2026-02-18 10:36:13,658 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Amprius Technologies, Inc. (AMPX) Announces a Manufacturing Partnership with Nan
