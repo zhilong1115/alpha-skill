@@ -700,3 +700,38 @@
 2026-02-18 09:04:14,844 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stephens &amp; Co. Reiterates Equal-Weight on Wendy&#39;s, Maintains $8 Price Ta
 2026-02-18 09:08:59,262 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Prominent Miami resort files for Chapter 11 bankruptcy
 2026-02-18 09:12:30,342 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — TD Cowen Reiterates Hold on Wingstop, Maintains $285 Price Target
+2026-02-18 09:13:44,453 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on Axcelis Technologies, Lowers Price Targ
+2026-02-18 09:15:57,711 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on SunCoke Energy, Lowers Price Target to 
+2026-02-18 09:16:39,343 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — QuantumScape Stock Falls 20% In 5 Trading Sessions: What&#39;s Going On?
+2026-02-18 09:18:51,329 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cadence Design Systems Posts Q4 Beat; Analysts See AI As Tailwind, Not Threat
+2026-02-18 09:21:14,776 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Buy on Seanergy Maritime Hldgs, Raises Price Targe
+2026-02-18 09:22:12,104 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on
+2026-02-18 09:22:42,288 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on Tactile Systems Tech, Raises Price Targ
+2026-02-18 09:23:56,521 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on Tripadvisor, Lowers Price Target to $13
+2026-02-18 09:26:51,682 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Buy on Rogers, Raises Price Target to $133
+2026-02-18 09:27:47,278 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Reiterates Buy on Arista Networks, Maintains $185 Price Target
+2026-02-18 09:28:04,314 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Analog Devices Stock Hits 52-Week High Thanks To Data Center Demand
+2026-02-18 09:28:19,301 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Walmart earnings: CEO John Furner set for first earnings report with company mar
+2026-02-18 09:28:32,387 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JIADE LIMITED shares are trading lower. The company announced pricing of a $3 mi
+2026-02-18 09:29:20,187 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — DoorDash Earnings Are Today. It’s All About the Outlook.
+2026-02-18 09:31:53,009 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rush Street Interactive shares are trading higher after multiple analyst firms r
+2026-02-18 09:33:50,865 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Toll Brothers Posts Q1 Beat; Faces Better Demand Trends
+2026-02-18 09:34:12,354 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on NewAmsterdam Pharma Co, Raises Price Target to $48
+2026-02-18 09:36:52,842 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Compass Pathways shares are trading higher after RBC Capital raised its price ta
+2026-02-18 09:37:35,720 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Orion shares are trading higher after multiple analyst firms raised their respec
+2026-02-18 09:38:29,885 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MFA Financial MFA Q4 2025 Earnings Call Transcript
+2026-02-18 09:38:30,405 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Deutsche Bank Maintains Buy on DuPont de Nemours, Raises Price Target to $58
+2026-02-18 09:39:17,257 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Beta Bionics shares are trading lower after multiple analyst firms lowered their
+2026-02-18 09:40:04,894 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Deutsche Bank Maintains Buy on Workday, Lowers Price Target to $190
+2026-02-18 09:41:14,962 [realtime_news] INFO: RSS polling stopped
+2026-02-18 09:41:26,941 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=13609)
+2026-02-18 09:41:26,941 [realtime_news] INFO:    Watching: AAPL, ADM, ALB, AMZN, ASTI, CHRW, CRH, CSCO, DTREF, EXPD, FOX, GM, GOOG, GOOGL, GPC, HAS, IBKR, INTC, KLAC, LUFFF, MCHP, MDT, META, MOOD, MSFT, NEM, NVDA, PFG, RF, ROL, SA, SLV, SNDK, TSLA, TSN, VLO, WMT
+2026-02-18 09:41:26,941 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-18 09:41:26,941 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-18 09:41:26,941 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-18 09:41:27,286 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-18 09:41:27,426 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-18 09:41:27,521 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-18 09:41:27,521 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-18 09:41:57,824 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — TD Cowen Maintains Hold on General Mills, Lowers Price Target to $45
+2026-02-18 09:42:00,266 [realtime_news] INFO: RSS polling stopped

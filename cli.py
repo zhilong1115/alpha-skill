@@ -553,13 +553,28 @@ def news_daemon(action: str) -> None:
     elif action == "alerts":
         alerts = _load_pending()
         if alerts:
-            click.echo(f"📰 Pending alerts ({len(alerts)}):")
-            for a in alerts:
-                icon = "🔴" if a["urgency"] == "critical" else "🟠"
-                click.echo(f"  {icon} [{a.get('ticker', 'MACRO')}] {a['headline'][:80]}")
-                click.echo(f"      source={a['source']}  urgency={a['urgency']}  macro={a.get('is_macro', False)}")
-                if a.get("url"):
-                    click.echo(f"      {a['url']}")
+            buy_alerts = [a for a in alerts if a.get("action_type") == "buy"]
+            sell_alerts = [a for a in alerts if a.get("action_type") == "sell"]
+            monitor_alerts = [a for a in alerts if a.get("action_type", "monitor") == "monitor"]
+
+            click.echo(f"📰 Pending alerts ({len(alerts)}: {len(buy_alerts)} buy, {len(sell_alerts)} sell, {len(monitor_alerts)} monitor)")
+
+            if buy_alerts:
+                click.echo(f"\n  🟢 BUY OPPORTUNITIES ({len(buy_alerts)}):")
+                for a in buy_alerts:
+                    click.echo(f"    [{a.get('ticker', '?')}] {a['headline'][:75]}")
+                    click.echo(f"        sentiment={a.get('sentiment','?')}  keywords={a.get('keywords',[])}  src={a['source']}")
+
+            if sell_alerts:
+                click.echo(f"\n  🔴 SELL WARNINGS ({len(sell_alerts)}):")
+                for a in sell_alerts:
+                    click.echo(f"    [{a.get('ticker', 'MACRO')}] {a['headline'][:75]}")
+                    click.echo(f"        sentiment={a.get('sentiment','?')}  keywords={a.get('keywords',[])}  src={a['source']}")
+
+            if monitor_alerts:
+                click.echo(f"\n  ⚪ MONITOR ({len(monitor_alerts)}):")
+                for a in monitor_alerts[:10]:
+                    click.echo(f"    [{a.get('ticker', 'MACRO')}] {a['headline'][:75]}")
         else:
             click.echo("  No pending alerts.")
 

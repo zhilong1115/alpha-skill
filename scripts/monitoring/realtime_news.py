@@ -174,11 +174,28 @@ def pop_pending_alerts() -> list[dict]:
 # ── News classification ────────────────────────────────────────────
 
 
+BULLISH_KEYWORDS = [
+    "fda approv", "beat", "upgrade", "record revenue", "record profit",
+    "contract win", "partnership", "buyback", "dividend hike",
+    "stock split", "raised guidance", "raises guidance", "strong demand",
+    "blowout", "crush", "exceed", "above expectation", "rate cut",
+    "stimulus", "easing",
+]
+BEARISH_KEYWORDS = [
+    "fda reject", "miss", "downgrade", "guidance cut", "lower guidance",
+    "recall", "fraud", "sec investigat", "bankrupt", "layoff",
+    "data breach", "ceo resign", "ceo fired", "dilut", "offering",
+    "rate hike", "tariff", "sanction", "war ", "invasion", "recession",
+    "default", "crash",
+]
+
+
 def classify_news(headline: str, summary: str = "", symbols: list[str] | None = None) -> dict:
-    """Classify a news item by urgency and relevance.
+    """Classify a news item by urgency, relevance, and sentiment direction.
 
     Returns:
-        Dict with urgency, matched_tickers, is_macro, keywords_hit.
+        Dict with urgency, matched_tickers, is_macro, keywords_hit,
+        sentiment ("bullish"/"bearish"/"neutral"), action_type ("buy"/"sell"/"monitor").
     """
     text = f"{headline} {summary}".lower()
     symbols = [s.upper() for s in (symbols or [])]
@@ -188,6 +205,8 @@ def classify_news(headline: str, summary: str = "", symbols: list[str] | None = 
         "matched_tickers": [],
         "is_macro": False,
         "keywords_hit": [],
+        "sentiment": "neutral",
+        "action_type": "monitor",  # "buy", "sell", "monitor"
     }
 
     # Check macro critical
@@ -237,6 +256,26 @@ def classify_news(headline: str, summary: str = "", symbols: list[str] | None = 
     for name, tk in company_map.items():
         if name in text and tk not in result["matched_tickers"]:
             result["matched_tickers"].append(tk)
+
+    # Sentiment direction
+    bull_hits = [kw for kw in BULLISH_KEYWORDS if kw in text]
+    bear_hits = [kw for kw in BEARISH_KEYWORDS if kw in text]
+    bull_score = len(bull_hits)
+    bear_score = len(bear_hits)
+
+    if bull_score > bear_score:
+        result["sentiment"] = "bullish"
+        if result["urgency"] in ("critical", "high"):
+            # Buy opportunity — use symbols from news even if not in watchlist
+            target_tickers = result["matched_tickers"] or [s for s in symbols if s]
+            if target_tickers:
+                result["action_type"] = "buy"
+                result["matched_tickers"] = target_tickers
+    elif bear_score > bull_score:
+        result["sentiment"] = "bearish"
+        if result["urgency"] in ("critical", "high"):
+            result["action_type"] = "sell"
+    # else neutral, action_type stays "monitor"
 
     return result
 
@@ -340,6 +379,8 @@ async def alpaca_news_stream(
                                     "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
                                     "matched_tickers": classification["matched_tickers"],
                                     "keywords": classification["keywords_hit"],
+                                    "sentiment": classification["sentiment"],
+                                    "action_type": classification["action_type"],
                                     "timestamp": msg.get("created_at", datetime.now(timezone.utc).isoformat()),
                                     "url": msg.get("url", ""),
                                 }
@@ -412,6 +453,8 @@ async def rss_poll_loop(
                             "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
                             "matched_tickers": classification["matched_tickers"],
                             "keywords": classification["keywords_hit"],
+                            "sentiment": classification["sentiment"],
+                            "action_type": classification["action_type"],
                             "timestamp": entry.get("published", datetime.now(timezone.utc).isoformat()),
                             "url": entry.get("link", ""),
                         }
@@ -482,6 +525,8 @@ async def finnhub_poll_loop(
                         "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
                         "matched_tickers": classification["matched_tickers"],
                         "keywords": classification["keywords_hit"],
+                        "sentiment": classification["sentiment"],
+                        "action_type": classification["action_type"],
                         "timestamp": datetime.fromtimestamp(item.get("datetime", 0), tz=timezone.utc).isoformat(),
                         "url": item.get("url", ""),
                     }
