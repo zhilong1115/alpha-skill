@@ -1,11 +1,12 @@
 # Alpha Skill 📈
 
-AI-powered US stock trading agent that combines quantitative signals, sentiment analysis, and multi-agent reasoning for automated trade decisions. Built as an [OpenClaw](https://github.com/openclaw/openclaw) skill.
+AI-powered US stock trading agent that combines quantitative signals, sentiment analysis, real-time news monitoring, and multi-agent reasoning for automated trade decisions. Scans 600+ tickers including S&P 500, Reddit trending stocks, and unusual volume spikes. Built as an [OpenClaw](https://github.com/openclaw/openclaw) skill.
 
 ## Features
 
+- **Full Market Scanning** — 600+ tickers: S&P 500 + Reddit trending (WSB, r/stocks, r/pennystocks, r/shortsqueeze) + unusual volume detection
 - **Technical Signal Engine** — RSI, MACD, Bollinger Bands, SMA crossover, volume anomaly detection
-- **Sentiment Analysis** — Reddit (WSB, r/stocks) scraping + yfinance news sentiment scoring
+- **Sentiment Analysis** — Reddit scraping with ticker discovery + yfinance news sentiment scoring
 - **Event-Driven Strategies** — Earnings surprise detection, pre/post-earnings analysis
 - **Institutional Following** — SEC 13F filing parser, ARK daily trades, congressional trade tracking
 - **Momentum Factor** — 12-1 month momentum ranking with monthly rebalancing
@@ -13,16 +14,18 @@ AI-powered US stock trading agent that combines quantitative signals, sentiment 
 - **Multi-Agent Debate** — Bull vs. bear case synthesis with confidence-weighted verdict
 - **Regime Detection** — Bull/bear/sideways classification with adaptive signal weights
 - **Risk Management** — Position sizing, trailing stops, drawdown limits, sector exposure caps
+- **Automated Trading** — Full scan → decide → execute pipeline with Alpaca (paper/live)
+- **Real-Time News Monitoring** — Breaking news detection, Reddit sentiment shifts, unusual volume alerts
+- **Market Pulse** — SPY, VIX, sector leaders/laggards, regime, breadth dashboard
 - **Backtesting** — Historical strategy backtesting with Sharpe ratio optimization
 - **Signal Efficacy Tracking** — Monitors which signals are actually working over time
-- **Automated Execution** — Paper and live trading via Alpaca API
 
 ## Architecture
 
 ```
 us-stock-trading/
 ├── SKILL.md                      # OpenClaw skill manifest
-├── cli.py                        # Click CLI (11 commands)
+├── cli.py                        # Click CLI (15 commands)
 ├── config.yaml                   # Configuration
 ├── requirements.txt              # Python dependencies
 │
@@ -33,7 +36,8 @@ us-stock-trading/
 │   │   ├── conviction.py         # Weighted signal synthesis → conviction scores
 │   │   ├── risk_manager.py       # Position sizing, limits, stop-loss
 │   │   ├── executor.py           # Alpaca broker integration
-│   │   └── orchestrator.py       # End-to-end trading pipeline
+│   │   ├── orchestrator.py       # End-to-end trading pipeline
+│   │   └── trader.py             # AutoTrader: scan → decide → execute
 │   │
 │   ├── strategies/
 │   │   ├── earnings_event.py     # Earnings-driven signals
@@ -43,25 +47,27 @@ us-stock-trading/
 │   │   └── mean_reversion.py     # Bollinger band + RSI reversion
 │   │
 │   ├── analysis/
-│   │   ├── sentiment_scraper.py  # Reddit public API scraper
+│   │   ├── sentiment_scraper.py  # Reddit scraper + trending ticker discovery
 │   │   ├── news_analyzer.py      # yfinance news sentiment scoring
 │   │   ├── earnings_analyzer.py  # Earnings transcript keyword analysis
 │   │   ├── filing_parser.py      # SEC EDGAR 13F XML parser
-│   │   ├── regime_detector.py    # Market regime classification (HMM-inspired)
+│   │   ├── regime_detector.py    # Market regime classification
 │   │   └── debate.py             # Multi-agent bull/bear debate framework
 │   │
 │   ├── monitoring/
 │   │   ├── portfolio_tracker.py  # Real-time P&L and exposure tracking
 │   │   ├── report_generator.py   # Daily/weekly report generation
 │   │   ├── alert_system.py       # Drawdown, stop-loss, signal alerts
-│   │   └── signal_efficacy.py    # Signal performance tracking
+│   │   ├── signal_efficacy.py    # Signal performance tracking
+│   │   ├── news_monitor.py       # Breaking news + sentiment shift detection
+│   │   └── market_pulse.py       # Market-wide health dashboard
 │   │
 │   ├── backtest/
 │   │   ├── engine.py             # Day-by-day backtesting engine
 │   │   └── optimizer.py          # Random search weight optimization
 │   │
 │   └── utils/
-│       ├── universe.py           # S&P 500 ticker fetcher + custom universe
+│       ├── universe.py           # S&P 500 + Reddit trending + volume screener
 │       └── calendar.py           # Market hours + earnings calendar
 │
 ├── tests/
@@ -72,7 +78,9 @@ us-stock-trading/
 └── data/
     ├── cache/                    # Parquet price data cache
     ├── signals/                  # Signal log for efficacy tracking
-    └── trades/                   # Trade log
+    ├── trades/                   # Trade log
+    ├── news_state.json           # Last-seen news state
+    └── sentiment_state.json      # Last-seen sentiment state
 ```
 
 ## Quick Start
@@ -85,7 +93,7 @@ us-stock-trading/
 ### Installation
 
 ```bash
-git clone https://github.com/zhilongzheng/alpha-skill.git
+git clone https://github.com/zhilong1115/alpha-skill.git
 cd alpha-skill
 
 # Create virtual environment
@@ -119,13 +127,34 @@ Edit `config.yaml` to customize:
 ```bash
 source .venv/bin/activate
 
-# Scan stocks for trading signals
-python cli.py scan AAPL NVDA TSLA MSFT
+# === AUTONOMOUS TRADING ===
+
+# Full market scan (600+ tickers: S&P 500 + Reddit + volume spikes)
+python cli.py scan --universe full
+
+# Automated trading cycle (dry run — shows what would trade)
+python cli.py auto-trade --universe full
+
+# Automated trading cycle (LIVE — actually places orders)
+python cli.py auto-trade --universe full --execute
+
+# === MONITORING ===
+
+# Market pulse: SPY, VIX, sectors, regime
+python cli.py pulse
+
+# Check positions, stops, P&L, alerts
+python cli.py monitor
+
+# Breaking news + Reddit sentiment shifts
+python cli.py news AAPL NVDA TSLA
+
+# === ANALYSIS ===
 
 # Deep-dive analysis on a single ticker
 python cli.py analyze AAPL
 
-# Show all active signals (technical + sentiment + strategy)
+# All active signals for specific tickers
 python cli.py signals AAPL NVDA --period 1y
 
 # Upcoming earnings with surprise data
@@ -134,7 +163,9 @@ python cli.py earnings AAPL MSFT GOOGL
 # Latest institutional/congressional moves
 python cli.py whale-watch
 
-# Execute a trade (with risk checks)
+# === EXECUTION ===
+
+# Manual trade with risk checks
 python cli.py trade buy AAPL 10
 
 # Portfolio overview
@@ -146,6 +177,8 @@ python cli.py risk
 # Generate daily report
 python cli.py report
 
+# === BACKTESTING ===
+
 # Run backtest
 python cli.py backtest AAPL NVDA TSLA --strategy technical --start 2025-06-01 --end 2025-12-31
 
@@ -153,27 +186,55 @@ python cli.py backtest AAPL NVDA TSLA --strategy technical --start 2025-06-01 --
 python cli.py config
 ```
 
-## Signal Pipeline
+### Universe Modes
+
+The `scan` and `auto-trade` commands support `--universe`:
+
+| Mode | Tickers | Speed | Catches |
+|------|---------|-------|---------|
+| `watchlist` (default) | 7 tech stocks | ~10s | AAPL, NVDA, TSLA, MSFT, GOOGL, AMZN, META |
+| `sp500` | 503 | ~3 min | All S&P 500 blue chips |
+| `full` | 600+ | ~5 min | S&P 500 + Reddit trending + unusual volume (catches SPRT, GME-type plays) |
+
+## Trading Pipeline
 
 ```
-┌─────────────┐    ┌──────────────┐    ┌────────────┐    ┌──────────┐    ┌───────────┐
-│  Data Layer  │───▶│   Signals    │───▶│ Conviction │───▶│   Risk   │───▶│ Execution │
-│  (yfinance)  │    │  (5 types)   │    │  (weighted) │    │ (checks) │    │ (Alpaca)  │
-└─────────────┘    └──────────────┘    └────────────┘    └──────────┘    └───────────┘
-                          │                   ▲
-                   ┌──────┴──────┐     ┌──────┴──────┐
-                   │  Strategies │     │   Regime    │
-                   │ (5 modules) │     │  Detector   │
-                   └─────────────┘     └─────────────┘
+Universe Discovery          Signal Generation           Trade Execution
+┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
+│ S&P 500 (503)    │      │ Technical (5)    │      │ Conviction Score │
+│ Reddit WSB (100) │─────▶│ Strategies (5)   │─────▶│ Risk Check       │─────▶ Alpaca
+│ Volume Spikes    │      │ Regime Adjust    │      │ Position Size    │
+└──────────────────┘      └──────────────────┘      └──────────────────┘
+                                  ▲
+                          ┌───────┴────────┐
+                          │ News Monitor   │
+                          │ Reddit Shifts  │
+                          │ Volume Spikes  │
+                          └────────────────┘
 ```
 
-1. **Data** — Fetch OHLCV via yfinance, cache as parquet (configurable TTL)
-2. **Technical Signals** — RSI(14), MACD(12,26,9), Bollinger(20,2), SMA(50/200), Volume Anomaly
-3. **Strategy Signals** — Earnings, sentiment, momentum, mean reversion, institutional following
-4. **Regime Detection** — Classify bull/bear/sideways → adapt signal weights
-5. **Conviction** — Weighted synthesis of all signals → score per ticker `[-1, 1]`
-6. **Risk Check** — Position size, cash reserve, max positions, sector limits, stop-loss
-7. **Execution** — Submit orders to Alpaca (paper or live)
+1. **Universe Discovery** — S&P 500 + Reddit trending tickers + unusual volume screener
+2. **Data** — Fetch OHLCV via yfinance, cache as parquet (configurable TTL)
+3. **Technical Signals** — RSI(14), MACD(12,26,9), Bollinger(20,2), SMA(50/200), Volume Anomaly
+4. **Strategy Signals** — Earnings, sentiment, momentum, mean reversion, institutional following
+5. **Regime Detection** — Classify bull/bear/sideways → adapt signal weights
+6. **Conviction** — Weighted synthesis of all signals → score per ticker `[-1, 1]`
+7. **Risk Check** — Position size, cash reserve, max positions, sector limits, stop-loss
+8. **Execution** — Submit orders to Alpaca (paper or live)
+9. **Monitoring** — Continuous news, sentiment shifts, position health checks
+
+## Autonomous Trading Schedule
+
+When deployed with OpenClaw cron (Mon–Fri):
+
+| Time (PT) | Action | Notification |
+|-----------|--------|-------------|
+| 6:00 AM | 📊 Market pulse + full scan (600+ tickers) | ✅ Telegram |
+| 6:30 AM | 💰 Auto-trade execute | ✅ Telegram |
+| Every 30 min | 📰 News monitoring (holdings + Reddit trending) | ⚠️ Critical only |
+| 8/10/12 AM | 🔍 Position monitor (stops, P&L, alerts) | ⚠️ Alerts only |
+| 12:45 PM | 💰 Pre-close trade | ✅ Telegram |
+| 1:15 PM | 📋 Daily report | ✅ Telegram |
 
 ## Strategies
 
@@ -181,7 +242,7 @@ python cli.py config
 Pre-earnings setup analysis (price action, gap risk) and post-earnings surprise scoring. Compares actual vs estimated EPS via yfinance.
 
 ### Sentiment Momentum
-Scrapes Reddit (WSB, r/stocks) for ticker mentions and sentiment. Combines with yfinance news sentiment. Uses contrarian logic: extreme bullish sentiment → slight bearish signal, and vice versa.
+Scrapes Reddit (WSB, r/stocks, r/pennystocks, r/shortsqueeze) for ticker mentions and sentiment. Combines with yfinance news sentiment. Uses contrarian logic: extreme bullish sentiment → slight bearish signal, and vice versa. Auto-discovers trending tickers.
 
 ### Investor Following
 Parses SEC EDGAR 13F filings to track institutional investors (Berkshire, Bridgewater, etc.). Detects new positions, increases, and exits. Also tracks ARK daily trade CSVs.
@@ -243,11 +304,14 @@ analysis = orch.run_analysis("AAPL")
 
 # Generate filtered trade recommendations
 ideas = orch.generate_trade_ideas(min_conviction=0.3)
+
+# Automated trading cycle
+from scripts.core.trader import AutoTrader
+trader = AutoTrader()
+result = trader.run_trading_cycle()  # Full scan → decide → execute
 ```
 
 ## Multi-Agent Debate
-
-The debate module creates structured bull and bear cases from available data:
 
 ```python
 from scripts.analysis.debate import create_bull_case, create_bear_case, resolve_debate
@@ -256,20 +320,6 @@ bull = create_bull_case("AAPL", signals_df, news, sentiment)
 bear = create_bear_case("AAPL", signals_df, news, sentiment)
 verdict = resolve_debate(bull, bear)
 # → {"verdict": "buy", "confidence": 0.72, "reasoning": "..."}
-```
-
-## OpenClaw Integration
-
-This project is packaged as an OpenClaw skill. To use with OpenClaw:
-
-1. Place the project directory in your OpenClaw skills path
-2. The skill triggers on: "trade stocks", "stock trading", "market analysis", "portfolio", "earnings analysis", "check positions"
-
-Recommended cron schedule for autonomous operation:
-```yaml
-- cron: "0 6 * * 1-5"    # Pre-market scan (6 AM PT)
-- cron: "0 13 * * 1-5"   # Post-close report (1 PM PT / 4 PM ET)
-- cron: "0 9 * * 6"      # Weekly review (Saturday 9 AM)
 ```
 
 ## Testing
@@ -289,13 +339,15 @@ pytest tests/ -v
 - **Analysis**: pandas, numpy, numba
 - **CLI**: Click
 - **Filing Data**: SEC EDGAR API, BeautifulSoup4
+- **Sentiment**: Reddit public JSON API
 
 ## Stats
 
-- **4,138 lines** of Python
+- **5,157 lines** of Python
 - **24 tests**, all passing
-- **30+ Python modules** across 6 packages
-- **11 CLI commands**
+- **35+ Python modules** across 6 packages
+- **15 CLI commands**
+- **600+ tickers** scanned per cycle
 
 ## Disclaimer
 
