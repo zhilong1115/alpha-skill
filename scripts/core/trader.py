@@ -109,9 +109,9 @@ class AutoTrader:
             result["errors"].append(f"Scan failed: {e}")
             return result
 
-        # 4. Generate trade ideas
+        # 4. Generate trade ideas (pass scan result to avoid re-scanning)
         try:
-            ideas = self.orchestrator.generate_trade_ideas(self.conviction_threshold)
+            ideas = self.orchestrator.generate_trade_ideas(self.conviction_threshold, scan=scan)
             result["ideas"] = ideas
         except Exception as e:
             logger.error("Idea generation failed: %s", e)

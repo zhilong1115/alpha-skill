@@ -150,16 +150,18 @@ class TradingOrchestrator:
 
         return result
 
-    def generate_trade_ideas(self, min_conviction: float = 0.3) -> list[dict]:
+    def generate_trade_ideas(self, min_conviction: float = 0.3, scan: dict | None = None) -> list[dict]:
         """Generate actionable trade ideas from a market scan.
 
         Args:
             min_conviction: Minimum conviction score to include.
+            scan: Pre-computed scan result. If None, runs a new scan.
 
         Returns:
             List of trade recommendation dicts.
         """
-        scan = self.run_scan()
+        if scan is None:
+            scan = self.run_scan()
         convictions = scan.get("convictions", pd.DataFrame())
         if convictions.empty:
             return []
