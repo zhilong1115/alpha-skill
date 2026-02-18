@@ -175,11 +175,17 @@ def pop_pending_alerts() -> list[dict]:
 
 
 BULLISH_KEYWORDS = [
-    "fda approv", "beat", "upgrade", "record revenue", "record profit",
-    "contract win", "partnership", "buyback", "dividend hike",
-    "stock split", "raised guidance", "raises guidance", "strong demand",
-    "blowout", "crush", "exceed", "above expectation", "rate cut",
-    "stimulus", "easing",
+    "fda approv", "beat", "beats", "upgrade", "record revenue", "record profit",
+    "contract win", "new contract", "awarded contract", "receives contract",
+    "secures contract", "wins contract", "partnership",
+    "buyback", "dividend hike", "dividend increase",
+    "stock split", "raised guidance", "raises guidance", "raise guidance",
+    "strong demand", "strong growth", "strong earnings",
+    "blowout", "crush", "exceed", "above expectation", "surpass",
+    "rate cut", "cuts rate", "cut rate", "cuts interest", "lower rate",
+    "stimulus", "easing", "dovish",
+    "all-time high", "new high", "soar", "surge", "rally",
+    "billion deal", "million deal", "acquisition of",
 ]
 BEARISH_KEYWORDS = [
     "fda reject", "miss", "downgrade", "guidance cut", "lower guidance",

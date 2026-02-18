@@ -1,74 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Goldman Sachs Maintains Neutral on Mattel, Raises Price Target to $18",
-    "summary": "Goldman Sachs  analyst Stephen Laszczyk   maintains Mattel (NASDAQ:MAT) with a Neutral and raises the price target from $16 to $18.",
-    "symbols": [
-      "MAT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "timestamp": "2026-02-18T16:17:13Z",
-    "url": "https://www.benzinga.com/news/26/02/50692326/goldman-sachs-maintains-neutral-on-mattel-raises-price-target-to-18"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Outperform on RB Global, Raises Price Target to C$146",
-    "summary": "RBC Capital  analyst Sabahat Khan   maintains RB Global (TSX:RBA) with a Outperform and raises the price target from C$137 to C$146.",
-    "symbols": [
-      "TSX:RBA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "timestamp": "2026-02-18T16:18:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50692386/rbc-capital-maintains-outperform-on-rb-global-raises-price-target-to-c-146"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Goldman Sachs Maintains Sell on TC Energy, Raises Price Target to $53",
-    "summary": "Goldman Sachs  analyst John Mackay   maintains TC Energy (NYSE:TRP) with a Sell and raises the price target from $48 to $53.",
-    "symbols": [
-      "TRP"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "timestamp": "2026-02-18T16:18:23Z",
-    "url": "https://www.benzinga.com/news/26/02/50692409/goldman-sachs-maintains-sell-on-tc-energy-raises-price-target-to-53"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "JIADE LIMITED Prices $3M Registered Direct Offering",
-    "summary": "JIADE LIMITED (NASDAQ:JDZG) (the &#34;Company&#34;), today announced that it has entered into an agreement (the &#34;Securities Purchase Agreement&#34;) with several investors for the purchase and sale of 12,000,000 of the Company&#39;s",
-    "symbols": [
-      "JDZG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "offering"
-    ],
-    "timestamp": "2026-02-18T16:18:31Z",
-    "url": "https://www.benzinga.com/news/26/02/50692425/jiade-limited-prices-3m-registered-direct-offering"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "Winmark Q4 EPS $2.69 Misses $2.78 Estimate, Sales $21.086M Beat $20.342M Estimate",
     "summary": "Winmark (NASDAQ:WINA) reported quarterly earnings of $2.69 per share which missed the analyst consensus estimate of $2.78 by 3.24 percent. This is a 3.46 percent increase over earnings of $2.60 per share from the same",
     "symbols": [
@@ -1686,5 +1618,81 @@
     "action_type": "monitor",
     "timestamp": "2026-02-18T17:41:56Z",
     "url": "https://www.benzinga.com/news/26/02/50695827/td-cowen-maintains-hold-on-general-mills-lowers-price-target-to-45"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on Knife River Holding, Raises Price Target to $105",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains Knife River Holding (NYSE:KNF) with a Buy and raises the price target from $95 to $105.",
+    "symbols": [
+      "KNF"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-18T17:42:17Z",
+    "url": "https://www.benzinga.com/news/26/02/50695844/da-davidson-maintains-buy-on-knife-river-holding-raises-price-target-to-105"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Element Solutions shares are trading higher after multiple analyst firms raised their respective price targets on the stock.",
+    "summary": "",
+    "symbols": [
+      "ESI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-18T17:42:55Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50695868/element-solutions-shares-are-trading-higher-after-multiple-analyst-firms-raised-their-respective-pri"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on MP Materials, Maintains $82 Price Target",
+    "summary": "DA Davidson  analyst Matt Summerville   maintains MP Materials (NYSE:MP) with a Buy and maintains $82 price target.",
+    "symbols": [
+      "MP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-18T17:43:25Z",
+    "url": "https://www.benzinga.com/news/26/02/50695897/da-davidson-maintains-buy-on-mp-materials-maintains-82-price-target"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Why Are DoorDash Shares Surging Wednesday?",
+    "summary": "DoorDash Inc (DASH) shares are trading higher on Wednesday as investors position themselves ahead of the company&#39;s fourth-quarter 2025 earnings report, scheduled for release after the market close.",
+    "symbols": [
+      "DASH"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-18T17:43:41Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50695918/why-are-doordash-shares-surging-wednesday"
   }
 ]

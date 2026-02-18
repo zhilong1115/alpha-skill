@@ -735,3 +735,17 @@
 2026-02-18 09:41:27,521 [realtime_news] INFO: ✅ Alpaca news stream connected
 2026-02-18 09:41:57,824 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — TD Cowen Maintains Hold on General Mills, Lowers Price Target to $45
 2026-02-18 09:42:00,266 [realtime_news] INFO: RSS polling stopped
+2026-02-18 09:42:12,198 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=13667)
+2026-02-18 09:42:12,198 [realtime_news] INFO:    Watching: AAPL, ADM, ALB, AMZN, ASTI, CHRW, CRH, CSCO, DTREF, EXPD, FOX, GM, GOOG, GOOGL, GPC, HAS, IBKR, INTC, KLAC, LUFFF, MCHP, MDT, META, MOOD, MSFT, NEM, NVDA, PFG, RF, ROL, SA, SLV, SNDK, TSLA, TSN, VLO, WMT
+2026-02-18 09:42:12,198 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-18 09:42:12,199 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-18 09:42:12,199 [realtime_news] INFO: FINNHUB_API_KEY not set — skipping Finnhub polling
+2026-02-18 09:42:12,497 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-18 09:42:12,600 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-18 09:42:12,701 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-18 09:42:12,702 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-18 09:42:18,809 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on Knife River Holding, Raises Price Target to $105
+2026-02-18 09:42:56,955 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Element Solutions shares are trading higher after multiple analyst firms raised 
+2026-02-18 09:43:27,284 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on MP Materials, Maintains $82 Price Target
+2026-02-18 09:43:43,507 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why Are DoorDash Shares Surging Wednesday?
+2026-02-18 09:43:45,077 [realtime_news] INFO: RSS polling stopped
