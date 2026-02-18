@@ -53,3 +53,623 @@
 2026-02-17 22:40:47,050 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
 2026-02-17 22:40:47,050 [realtime_news] INFO: ✅ Alpaca news stream connected
 2026-02-17 22:40:47,487 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China Hits Renewable Milestone, But Coal Isn’t Going Anywhere
+2026-02-17 22:43:57,071 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Iamgold Q4 Adj. EPS $0.70 Beats $0.59 Estimate, Sales $1.088B Beat $1.084B Estim
+2026-02-17 22:50:54,892 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — S&amp;P 500 Edges Higher: Investor Fear Eases Slightly, Greed Index Remains In &
+2026-02-17 22:52:15,956 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Top Wall Street Forecasters Revamp Garmin Expectations Ahead Of Q4 Earnings
+2026-02-17 22:54:41,395 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — urban-gro (UGRO) Stock Surges Nearly 78% After Hours — Here&#39;s Why
+2026-02-17 22:59:05,260 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — 68% Gap Opens Between Upstart (UPST) Price and Wall Street Targets After Earning
+2026-02-17 23:10:30,133 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Sandisk Prices Secondary Offering Of 5,821,135 Common Shares At $545.00 Per Shar
+2026-02-17 23:11:17,365 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-17 23:11:58,720 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Analog Devices, Celanese And 3 Stocks To Watch Heading Into Wednesday
+2026-02-17 23:13:19,887 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Valaris (VAL) Soars Following Merger News with Transocean
+2026-02-17 23:26:05,974 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Aitech Integrates Teledyne e2v&#39;s QLS1046-Space System-On-Chip Into SP1 Space
+2026-02-17 23:31:06,210 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Court Fines DTE Energy $100 Million Over EES Coke Battery&#39;s Excess Sulfur Di
+2026-02-17 23:36:58,730 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ICL Group Q4 Adj. EPS $0.09 Misses $0.10 Estimate, Sales $1.701B Up From $1.601B
+2026-02-17 23:45:50,116 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-17 23:49:31,012 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, Getty Realty Prices Public Offering Of 4M Common Shares  On Fo
+2026-02-17 23:51:57,019 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Excelerate Energy (EE) Price Target Raised by $9
+2026-02-17 23:53:46,938 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, Portland General Electric Prices 9,467,455 Common Shares At $5
+2026-02-18 00:20:23,844 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Treasury yields nudged higher as investors await Fed meeting minutes
+2026-02-18 00:21:55,733 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, HCW Biologics Prices $1.5M Follow-On Offering Of 2,477,292 Uni
+2026-02-18 00:22:00,963 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why Did Auddia Stock Surge Over 90% Overnight?
+2026-02-18 00:22:02,361 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, HCW Biologics Prices $1.5M Follow-On Offering Of 2.48M Units A
+2026-02-18 00:24:15,614 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, Westlake Epoxy Expands Long-Standing Brenntag Distribution Par
+2026-02-18 00:27:51,152 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, W. P. Carey Prices Forward Public Offering Of 6M Common Shares
+2026-02-18 00:31:43,798 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Reported Earlier, Caterpillar Acquires Australian Mining Software Company RPMGlo
+2026-02-18 00:32:30,999 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, NextActiv And Zeta Global Form Strategic Partnership To Unlock
+2026-02-18 00:33:08,279 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, Sompo Group Signs Long-Term Agreement With Guidewire To Migrat
+2026-02-18 00:33:51,796 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Reported Earlier, Urban-Gro And Flash Sports And Media Complete Merger At $3.23 
+2026-02-18 00:39:09,420 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Reported Earlier, Hormel Foods Posts Preliminary Q1 2026 Net Sales Of $3B, $0.34
+2026-02-18 00:41:44,715 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Reported Earlier, B1BANK And Covecta Launch Multi-Year Agentic AI Partnership To
+2026-02-18 00:43:14,316 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Elbit Systems Secures $277M In Contracts For Advanced UT30MK2 30mm Configurable 
+2026-02-18 00:45:49,175 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 172-year-old bank cuts XRP price target after December upgrade
+2026-02-18 01:10:14,155 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DHT Holdings (DHT) Beats Forecasts in Q4 2025 Results
+2026-02-18 01:15:18,466 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stanley Druckenmiller made a big bet on this country, and it’s already paid off
+2026-02-18 01:17:10,876 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump Unveils $36 Billion In New Projects As Takaichi Lauds &#39;Mutual Benefit,
+2026-02-18 01:17:28,916 [realtime_news] INFO: 🚨 ALERT: [high] TSLA — Jim Farley Says Ford&#39;s Universal EV Platform Is Important To &#39;Win Agains
+2026-02-18 01:59:54,144 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock Market Today: Dow Jones, S&amp;P 500 Futures Jump Ahead Of January FOMC Mi
+2026-02-18 02:04:05,412 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Palo Alto Networks, Lowers Price Target to $200
+2026-02-18 02:05:06,989 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — FTSE 100 Live: Index powers to new highs as inflation falls, defence in demand
+2026-02-18 02:07:08,142 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Palo Alto Networks slumps 6% as third-quarter profit guidance falls short
+2026-02-18 02:08:09,681 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Here’s how strong the S&P 500 performs when inflation is falling rather than ris
+2026-02-18 02:09:18,505 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Reiterates Buy on Palo Alto Networks, Maintains $200 Price Target
+2026-02-18 02:11:12,400 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China’s pricing guidelines to push OEMs to ‘innovation-led competition’
+2026-02-18 02:13:05,973 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Tactile Systems Tech, Raises Price Target to $38
+2026-02-18 02:18:28,578 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — FDA Expands Approval For Staar Surgical&#39;s Popular Implantable Lens
+2026-02-18 02:18:30,808 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Reiterates Buy on Glaukos, Maintains $131 Price Target
+2026-02-18 02:22:08,611 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Upgrades Itron to Outperform, Raises Price Target to $128
+2026-02-18 02:22:22,662 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Brightstar engages GR Engineering as EPC contractor for Laverton plant
+2026-02-18 02:27:36,900 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Reiterates Buy on AtriCure, Maintains $54 Price Target
+2026-02-18 02:29:31,161 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Initiates Coverage On CSW Industrials with Outperform Rating, Announces Pr
+2026-02-18 02:31:31,469 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 'Dismal' China exports add to freight trade slump for nation's biggest port
+2026-02-18 02:32:37,886 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Perplexity Ditches Ads, Targets CEOs, Doctors, Says We &#39;Will Focus More On R
+2026-02-18 02:33:21,789 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Medtronic, Lowers Price Target to $120
+2026-02-18 02:34:43,717 [realtime_news] INFO: 🚨 ALERT: [high] META — Clear Street Initiates Coverage On Evolution Metals &amp; Techs with Buy Rating,
+2026-02-18 02:37:48,352 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Endava Expands Cognition Partnership To Integrate Windsurf And Devin Into Dava.F
+2026-02-18 02:38:23,662 [realtime_news] INFO: 🚨 ALERT: [high] AMZN — Nvidia Deepens India Push As AI Infrastructure Race Heats Up
+2026-02-18 02:42:42,442 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Issued
+2026-02-18 02:43:09,830 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Raymond James Initiates Coverage On Bristow Group with Outperform Rating, Announ
+2026-02-18 02:47:11,392 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Downgrades Masimo to Neutral
+2026-02-18 02:52:52,163 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Glencore H2 Earnings Call Highlights
+2026-02-18 02:52:52,164 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pan African Resources H1 Earnings Call Highlights
+2026-02-18 02:53:04,019 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Raymond James Downgrades Toro to Market Perform
+2026-02-18 02:53:52,486 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Palo Alto Networks slumps 7% as third-quarter profit guidance falls short
+2026-02-18 02:55:30,652 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho Upgrades Palantir Technologies to Outperform, Announces $195 Price Target
+2026-02-18 02:58:59,771 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Roth Capital Initiates Coverage On Modine Manufacturing with Buy Rating, Announc
+2026-02-18 03:01:41,377 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Constellium Q4 EPS $0.80 Beats $0.33 Estimate, Sales $2.201B Beat $1.889B Estima
+2026-02-18 03:02:10,409 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Constellium Earnings Report: Q4 Overview
+2026-02-18 03:02:15,774 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: Fresh Del Monte Produce Q4
+2026-02-18 03:03:35,897 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fresh Del Monte Produce Q4 Adj. EPS $0.70 Beats $0.28 Estimate, Sales $1.020B Be
+2026-02-18 03:04:52,862 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Organigram Agrees To Acquire Sanity For An Upfront Payment Of €113.4M Consisting
+2026-02-18 03:06:07,031 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global E Online Q4 EPS $0.35 Beats $0.31 Estimate, Sales $336.657M Beat $327.942
+2026-02-18 03:06:08,483 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: Global E Online Q4
+2026-02-18 03:06:30,823 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — German Pharma Giant Bayer Proposes $7.25 Billion Settlement Over Monsanto&#39;s 
+2026-02-18 03:07:04,538 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Britain’s BAE Systems sets sights on defense spending boom amid record order bac
+2026-02-18 03:07:07,174 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global E Online Sees Q1 Sales $247.000M-$254.000M vs $231.768M Est
+2026-02-18 03:07:47,701 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global E Online Sees FY2026 Sales $1.211B-$1.271B vs $1.185B Est
+2026-02-18 03:09:03,897 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Global-E Online shares are trading higher after the company reported better-than
+2026-02-18 03:11:03,626 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — KBR And Petro Rabigh Sign Strategic 10-Year General Maintenance Services Contrac
+2026-02-18 03:11:29,099 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Scheduled For February 18, 2026
+2026-02-18 03:13:15,886 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Camtek Q4 Adj. EPS $0.81, Inline, Sales $128.124M Beat $127.122M Estimate
+2026-02-18 03:15:12,881 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The China factor: US pharma group campaigns for increased competitiveness
+2026-02-18 03:15:13,921 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tactile Systems Stock Smashes 52-Week High After Strong Quarter
+2026-02-18 03:15:40,506 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CareTrust REIT Announced New Equity Distribution Agreement With CTR Partnership 
+2026-02-18 03:16:01,299 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Downgrades Genuine Parts to Hold, Lowers Price Target to $127
+2026-02-18 03:17:21,030 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — US Produces More Copper Than It Needs, Beating China On Self-Reliance— But One C
+2026-02-18 03:22:07,417 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — What&#39;s Going On With Redwire Stock On Wednesday?
+2026-02-18 03:27:19,303 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Upgrades Goosehead Insurance to Overweight, Maintains Price Target
+2026-02-18 03:27:30,448 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OGE Energy Q4 EPS $0.34 Beats $0.31 Estimate, Sales $725.800M Beat $626.175M Est
+2026-02-18 03:29:25,140 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OGE Energy Sees FY2026 GAAP EPS $2.38-$2.48 vs $2.42 Est
+2026-02-18 03:29:34,008 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — GLJ Research Reiterates Buy on Cameco, Raises Price Target to $171.2
+2026-02-18 03:30:27,362 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — FTSE 100 Live: Index powers to new highs as CPI falls, miners and defence in dem
+2026-02-18 03:31:13,121 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Cinemark Hldgs Q4 EPS $0.16 Misses $0.35 Estimate, Sales $776.300M Miss $793.927
+2026-02-18 03:31:15,234 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Enpro Q4 Adj. EPS $1.99 Beats $1.91 Estimate, Sales $295.400M Beat $280.967M Est
+2026-02-18 03:31:29,388 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Travel+Leisure Q4 Adj. EPS $1.83 Beats $1.80 Estimate, Sales $1.026B Beat $1.001
+2026-02-18 03:32:09,695 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Cinemark Holdings Q4
+2026-02-18 03:32:14,926 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Travel+Leisure Q4
+2026-02-18 03:33:06,451 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Reiterates Buy on Cadence Design Systems, Maintains $390 Price Target
+2026-02-18 03:33:10,511 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keefe, Bruyette &amp; Woods Maintains Outperform on Goosehead Insurance, Lowers 
+2026-02-18 03:34:03,570 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HF Sinclair Q4 2025 Adj. EPS $1.20 Beats $0.45 Estimate, Sales $6.464B Beat $6.1
+2026-02-18 03:34:29,143 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — VIAVI To Showcase Over 30 Network Testing, Automation And Intelligence Demos Acr
+2026-02-18 03:34:31,424 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fiverr Stock Hits 52-Week Low - Here&#39;s Why
+2026-02-18 03:34:58,144 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Rush Street Interactive, Raises Price Target to $25
+2026-02-18 03:35:31,950 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Monte dei Paschi board greenlights Mediobanca merger and delisting plan
+2026-02-18 03:36:09,002 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — HF Sinclair Q4 Earnings Assessment
+2026-02-18 03:38:57,009 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ternium Q4 EPS $0.62 Misses $0.77 Estimate, Sales $3.775B Beat $3.746B Estimate
+2026-02-18 03:39:33,867 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Downgrades AtriCure to Perform
+2026-02-18 03:40:08,857 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ternium Q4 Earnings Summary &amp; Key Takeaways
+2026-02-18 03:40:36,731 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK interest rate cut expected in March after inflation drop
+2026-02-18 03:40:52,653 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Costamare Q4 Adj. EPS $0.60 Misses $0.74 Estimate, Sales $211.972M Beat $204.000
+2026-02-18 03:42:10,173 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Costamare Q4
+2026-02-18 03:46:32,120 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Sonic Automotive Q4 Adj. EPS $1.52 Beats $1.50 Estimate, Sales $3.871B Miss $3.9
+2026-02-18 03:47:02,015 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OneSpaWorld Holdings Q4 Adj. EPS $0.24 Misses $0.26 Estimate, Sales $242.100M Mi
+2026-02-18 03:48:10,117 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OneSpaWorld Hldgs Q4 Earnings Assessment
+2026-02-18 03:48:17,398 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Sonic Automotive: Q4 Earnings Insights
+2026-02-18 03:48:29,363 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Figure Technology Solutions Upsizes And Prices Secondary Offering of 4,687,500 C
+2026-02-18 03:48:29,366 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OneSpaWorld Hldgs Affirms FY2026 Sales Guidance of $1.010B-$1.030B
+2026-02-18 03:49:38,893 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Iridium Communications, Raises Price Ta
+2026-02-18 03:50:10,703 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Needham Reiterates Buy on NVIDIA, Maintains $240 Price Target
+2026-02-18 03:52:54,690 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Reiterates Buy on Etoro Group, Maintains $58 Price Target
+2026-02-18 03:53:09,836 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Palo Alto Networks, Lowers Price Target t
+2026-02-18 03:53:48,494 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Carrefour 2025 sales grow as profit hit by currency and integration costs
+2026-02-18 03:55:03,328 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Buy on Karyopharm Therapeutics, Maintains $15
+2026-02-18 03:56:08,529 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global Payments Q4 Earnings Report: What Investors Need to Know
+2026-02-18 03:56:16,512 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global Payments Q4 Adj. EPS $3.18 Beats $3.16 Estimate, Sales $2.320B Miss $2.32
+2026-02-18 03:57:01,508 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Cadence Design Systems, Lowers Price Targ
+2026-02-18 03:58:43,408 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Global Payments Board Authorized $2.5B Stock Buyback; Company To Enter $550M Acc
+2026-02-18 03:59:08,753 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Klarna, Lowers Price Target to $23
+2026-02-18 04:01:05,902 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Garmin Q4 Adj. EPS $2.79 Beats $2.40 Estimate, Sales $2.125B Beat $2.018B Estima
+2026-02-18 04:01:17,684 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Vita Coco Q4 EPS $0.09 Misses $0.12 Estimate, Sales $127.787M Beat $116.327M Est
+2026-02-18 04:01:21,873 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Perion Network Q4 Adj. EPS $0.49 Beats $0.21 Estimate, Sales $137.143M Beat $136
+2026-02-18 04:02:09,150 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insulet Q4 Adj. EPS $1.55 Beats $1.45 Estimate, Sales $783.800M Beat $768.691M E
+2026-02-18 04:02:12,480 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: Insulet Q4
+2026-02-18 04:02:13,890 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bausch &amp; Lomb Q4 Adj. EPS $0.32 Misses $0.35 Estimate, Sales $1.405B Beat $1
+2026-02-18 04:02:14,583 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Analog Devices Q1 Adj. EPS $2.46 Beats $2.31 Estimate, Sales $3.160B Beat $3.117
+2026-02-18 04:02:17,068 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bausch &amp; Lomb Earnings Review: Q4 Summary
+2026-02-18 04:02:21,370 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Perion Network Q4 Earnings
+2026-02-18 04:02:22,907 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Moody&#39;s Q4 Adj. EPS $3.64 Beats $3.42 Estimate, Sales $1.889B Beat $1.862B E
+2026-02-18 04:02:25,972 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Bausch &amp; Lomb Q4
+2026-02-18 04:02:30,449 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Vita Coco Q4 Earnings
+2026-02-18 04:02:35,106 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Garmin Q4
+2026-02-18 04:02:55,663 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — KP Tissue Q4 EPS $0.26 Beats $0.25 Estimate, Sales $560.056M Miss $574.513M Esti
+2026-02-18 04:03:05,295 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Jefferies Upgrades Bioage Labs to Buy, Raises Price Target to $62
+2026-02-18 04:03:29,452 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Auddia Stock Surges After Big Merger Deal Announcement
+2026-02-18 04:04:16,410 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Perion Network Maintained Its Existing Share Buyback Program Of Up To $200M
+2026-02-18 04:04:28,650 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — LCI Indus Q4 Adj. EPS $0.89 Beats $0.70 Estimate, Sales $932.700M Beat $898.671M
+2026-02-18 04:04:35,716 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ProPetro Holding Q4 GAAP EPS $0.01 Beats $(0.16) Estimate, Sales $289.675M Beat 
+2026-02-18 04:06:43,720 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Openlane Q4 Adj. EPS $0.25 Misses $0.26 Estimate, Sales $494.300M Beat $472.783M
+2026-02-18 04:07:25,997 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mister Car Wash Q4 Adj. EPS $0.11 Beats $0.10 Estimate, Sales $261.243M Miss $26
+2026-02-18 04:07:52,155 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on Tactile Systems Tech, Raises Price Target 
+2026-02-18 04:08:11,269 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: Openlane Q4
+2026-02-18 04:08:13,383 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Maintains Buy on Genmab, Raises Price Target to $40
+2026-02-18 04:08:16,441 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: Moodys Q4
+2026-02-18 04:08:21,098 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — LCI Industries Q4 Earnings Assessment
+2026-02-18 04:08:25,509 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ProPetro Holding Q4 Earnings Report: What Investors Need to Know
+2026-02-18 04:08:31,994 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Openlane Sees FY2026 Adj EPS $1.24-$1.38 vs $1.38 Est
+2026-02-18 04:09:56,435 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dana Q4 Sales $1.867B Beat $1.861B Estimate
+2026-02-18 04:10:15,594 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dana Sees FY2026 Adj EPS $2.00-$3.00 vs $2.42 Est; Affirms FY2026 Sales Guidance
+2026-02-18 04:10:46,840 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Buy on Entrada Therapeutics, Maintains $20 Pr
+2026-02-18 04:12:09,077 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Mister Car Wash Q4 Earnings Assessment
+2026-02-18 04:12:29,619 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Neutral on Outlook Therapeutics, Maintains $0
+2026-02-18 04:12:34,357 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Neutral on Cadence Design Systems, Lowers Price Target t
+2026-02-18 04:12:42,835 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Mister Car Wash to Go Private in $3.1 Billion Deal, With $7.00 Per Share Offer
+2026-02-18 04:12:53,711 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Altria Reaffirmed FY26 Adjusted EPS Guidance Of $5.56–$5.72, Implying 2.5%–5.5% 
+2026-02-18 04:13:07,947 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir Stock Upgraded to Buy. AI Heavyweight Is ‘In a Category of One,’ Says A
+2026-02-18 04:13:48,553 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Telsey Advisory Group Maintains Outperform on Home Depot, Maintains $410 Price T
+2026-02-18 04:14:26,553 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Charles River Q4 2025 Adj. EPS $2.39 Beats $2.34 Estimate, Sales $994.227M Beat 
+2026-02-18 04:14:30,203 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on Merit Medical Systems, Lowers Price Target
+2026-02-18 04:14:35,475 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Docebo Updates $60M Share Buyback As Intercap May Participate To Maintain 56.6% 
+2026-02-18 04:15:13,457 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — QuickLogic Awarded $13M Contract To Support Continued Development And Demonstrat
+2026-02-18 04:15:26,922 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Telsey Advisory Group Maintains Outperform on Lowe&#39;s Companies, Maintains $2
+2026-02-18 04:16:10,593 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: Charles River Q4
+2026-02-18 04:17:31,803 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Buy on Richtech Robotics, Maintains $6 Price 
+2026-02-18 04:17:52,291 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Verisk Analytics Q4 Adj. EPS $1.82 Beats $1.60 Estimate, Sales $778.800M Beat $7
+2026-02-18 04:18:01,105 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Charles River Expects 2026 Revenue Growth Between At Least Flat To +1.5%
+2026-02-18 04:18:08,849 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Verisk Analytics Q4 Earnings Assessment
+2026-02-18 04:18:09,598 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Telsey Advisory Group Maintains Outperform on TJX Companies, Maintains $170 Pric
+2026-02-18 04:19:44,420 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Docusign, Lowers Price Target to $70
+2026-02-18 04:20:30,820 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Cencora Receives $1.25B Cash and 34.3% Stake in Covetrus-MWI Merger Worth $3.5B
+2026-02-18 04:20:47,592 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Spruce Biosciences Completes Type B Meetings With FDA Regarding Its Upcoming Bio
+2026-02-18 04:21:15,182 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Chicago woman is $240K in debt and about to lose her job. Ramsey Show offers a p
+2026-02-18 04:21:15,183 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Gold price today, Wednesday, February 18: Gold opens below $4,900 ahead of FOMC 
+2026-02-18 04:21:25,594 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Telsey Advisory Group Maintains Market Perform on Arhaus, Maintains $12 Price Ta
+2026-02-18 04:21:39,072 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Guidewire Software, Lowers Price Target to $175
+2026-02-18 04:21:45,836 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Market-Moving News for February 18th
+2026-02-18 04:22:03,380 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Verisk Increases Cash Dividend By 11%, Declares 50-Cent Per Share Dividend Payab
+2026-02-18 04:22:08,806 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pinterest Updates Q1 Revenue Guidance To $958M-$978M And Adjusted EBITDA Guidanc
+2026-02-18 04:22:57,754 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on General Mills, Lowers Price Target to $53
+2026-02-18 04:23:01,850 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Verisk Analytics Sees FY2026 Adj EPS $7.45-$7.75 vs $7.71 Est; Sees Sales $3.190
+2026-02-18 04:23:16,334 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Salesforce, Lowers Price Target to $260
+2026-02-18 04:24:43,018 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on AbbVie, Raises Price Target to $299
+2026-02-18 04:25:05,474 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Howmet Aerospace, Raises Price Target to $275
+2026-02-18 04:25:25,390 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UPDATE: Pinterest Raises Q1 Sales Guidance from $951.000M-$971.000M to $958.000M
+2026-02-18 04:25:32,581 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rosenblatt Upgrades Cadence Design Systems to Buy, Raises Price Target to $360
+2026-02-18 04:27:35,052 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on Amgen, Raises Price Target to $432
+2026-02-18 04:28:31,399 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Glaukos, Raises Price Target to $127
+2026-02-18 04:29:33,221 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Piper Sandler Maintains Overweight on Cogent Biosciences, Raises Price Target to
+2026-02-18 04:30:55,294 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Gemini Space Station, Lowers Price Target to $10
+2026-02-18 04:31:08,769 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Clean Harbors Q4 EPS $1.62 Beats $1.61 Estimate, Sales $1.500B Beat $1.466B Esti
+2026-02-18 04:31:10,609 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rosenblatt Maintains Buy on HIVE Digital Technologies, Lowers Price Target to $4
+2026-02-18 04:31:47,468 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Jones Lang LaSalle Q4 Adj. EPS $8.71 Beats $7.33 Estimate, Sales $7.609B Beat $7
+2026-02-18 04:32:05,291 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Creative Realities Acquires Warrant to Buy 1.73M Common Shares For $200K Held By
+2026-02-18 04:32:09,901 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: PROG Holdings Q4
+2026-02-18 04:32:12,156 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PROG Holdings Q4 Adj. EPS $0.89 Beats $0.59 Estimate, Sales $574.586M Miss $585.
+2026-02-18 04:32:15,413 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Clean Harbors Earnings Report: Q4 Overview
+2026-02-18 04:32:28,646 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — V2X Selected For Seat On Advanced Technology Support Program 5, $25B Multiple-Aw
+2026-02-18 04:33:21,663 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rosenblatt Maintains Buy on CEVA, Maintains $40 Price Target
+2026-02-18 04:34:07,972 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wall Street&#39;s Most Accurate Analysts Give Their Take On 3 Industrials Stocks
+2026-02-18 04:34:54,350 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — SolarEdge Technologies Q4 Adj. EPS $(0.14) Beats $(0.26) Estimate, Sales $335.35
+2026-02-18 04:35:48,110 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — SolarEdge Technologies Sees Q1 Sales $290.000M-$320.000M vs $296.186M Est
+2026-02-18 04:35:56,243 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — D. Boral Capital Maintains Buy on Coya Therapeutics, Maintains $15 Price Target
+2026-02-18 04:35:57,470 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tactile Systems Technology Analysts Raise Their Forecasts After Better-Than-Expe
+2026-02-18 04:36:09,439 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — SolarEdge Technologies Q4 Earnings Report: What Investors Need to Know
+2026-02-18 04:36:29,010 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Chipmaker Analog Devices Posts Accelerating Sales, Earnings Growth
+2026-02-18 04:36:29,011 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Why I'm Loading Up on These 3 High-Dividend ETFs for Passive Income
+2026-02-18 04:36:45,615 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BrightView Landscapes Expands Collaboration With The Villages Over Golf Portfoli
+2026-02-18 04:38:13,193 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — D. Boral Capital Maintains Buy on CervoMed, Maintains $31 Price Target
+2026-02-18 04:38:42,608 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Nayax Announces Global Partnership With Tritium For Single-Card EV Charger Payme
+2026-02-18 04:39:04,207 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — SharonAI Prices $125M Initial Public Offering Of 4.167M Class A Ordinary Shares 
+2026-02-18 04:40:09,462 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Verde Clean Fuels Abandons Costly Plant Builds to Focus on High-Profit Tech Roya
+2026-02-18 04:40:54,193 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Starlab Space Announces Partnership With Helogen To Expand Life Science Research
+2026-02-18 04:41:06,662 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho Maintains Neutral on Celanese, Raises Price Target to $55
+2026-02-18 04:42:18,283 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho Maintains Outperform on DTE Energy, Raises Price Target to $155
+2026-02-18 04:43:11,673 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wellgistics Health Completes Strategic Investment In San Francisco Mental Health
+2026-02-18 04:43:57,439 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Sabre Q4 Adj. EPS $(0.01) Beats $(0.07) Estimate, Sales $666.525M Beat $650.600M
+2026-02-18 04:44:09,620 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Sabre Q4 Earnings Report: What Investors Need to Know
+2026-02-18 04:45:11,241 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — EXCLUSIVE: La Rosa Acquires Remaining Stake In Florida Brokerage
+2026-02-18 04:45:28,992 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — EXCLUSIVE: La Rosa Holdings Acquires Remaining 49% Interest In La Rosa Realty Pr
+2026-02-18 04:46:16,279 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stephens &amp; Co. Maintains Overweight on EQT, Raises Price Target to $71
+2026-02-18 04:46:20,205 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Wingstop Q4 Adj. EPS $1.00 Beats $0.84 Estimate, Sales $175.694M Miss $177.533M 
+2026-02-18 04:47:50,290 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho Maintains Outperform on Element Solutions, Raises Price Target to $35
+2026-02-18 04:48:09,957 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Wingstop Q4 Earnings
+2026-02-18 04:49:07,443 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fusion Fuel Green Signs Agreement To Acquire Controlling Interest In Royal Urani
+2026-02-18 04:49:10,973 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stephens &amp; Co. Maintains Overweight on Knife River Holding, Raises Price Tar
+2026-02-18 04:52:44,290 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mohamed El-Erian Sounds Alarm As China's US Treasury Share Hits 15-Year Low At 7
+2026-02-18 04:54:29,636 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AGM Group Holdings Signs MOU With Amber Premium To Explore Real World Asset Toke
+2026-02-18 04:56:43,001 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Chardan Capital Maintains Buy on Krystal Biotech, Raises Price Target to $323
+2026-02-18 04:57:48,491 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho upgrades Palantir, says AI demand makes recent sell-off ‘unjustifiable’
+2026-02-18 04:58:49,965 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Medtronic’s Q3 2026 revenues reach $9bn on strong PFA demand
+2026-02-18 04:58:49,966 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Palo Alto Falls As Fiscal Q2 Beat, Guidance Underwhelms Amid Acquisitions
+2026-02-18 04:59:46,190 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mizuho Maintains Underperform on Orion, Raises Price Target to $5.25
+2026-02-18 05:01:32,872 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Robinhood Launches $1B Fund To Give Retail Investors Access To Space X, Stripe
+2026-02-18 05:02:49,453 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Outperform on CarMax, Raises Price Target to $48
+2026-02-18 05:03:21,886 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Blackboxstocks Merger Target REalloys Strikes Agreement For Bob Foresman To Join
+2026-02-18 05:03:45,912 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Pluri Subsidiary Puri Biotech Secures Patent Covering 3D Immune Cell Expansion T
+2026-02-18 05:03:59,746 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Beta Bionics, Lowers Price Target to $14
+2026-02-18 05:04:55,571 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Moody’s Posts Higher Profit, Revenue
+2026-02-18 05:05:36,518 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Outperform on Labcorp Hldgs, Raises Price Target to $326
+2026-02-18 05:07:09,326 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Medtronic, Lowers Price Target to $100
+2026-02-18 05:07:30,566 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Brightpick Collaborates With NAPA To Deploy Advanced Automation Technology Acros
+2026-02-18 05:07:53,113 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia Partner Super Micro&#39;s Momentum Drops As Investors Shrug Off Earnings 
+2026-02-18 05:07:57,732 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The 'boomcession': Why Americans feel left behind by a growing economy
+2026-02-18 05:08:11,912 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Outperform on Atmus Filtration Techs, Raises Price Target to $69
+2026-02-18 05:09:27,267 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Builders FirstSource, Lowers Price Target to $125
+2026-02-18 05:10:21,211 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Small Cap Consumer Research Reiterates Buy on Lands&#39; End, Maintains $45 Pric
+2026-02-18 05:11:00,869 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The 'boomcession': Why Americans feel left behind by a growing economy
+2026-02-18 05:11:00,872 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CIBC Upgrades Magna International to Outperformer, Raises Price Target to $76
+2026-02-18 05:11:18,294 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Sensei Biotherapeutics Acquires Faeth Therapeutics In Stock-To-Stock Transaction
+2026-02-18 05:13:20,416 [realtime_news] INFO: 🚨 ALERT: [high] META — Enviri&#39;s Harsco Environmental Division Strikes 10-Year Contract With Lloyds 
+2026-02-18 05:13:27,690 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on CNH Industrial, Raises Price Target to $13
+2026-02-18 05:13:41,440 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Compass Point Initiates Coverage On Nebius Group with Buy Rating, Announces Pric
+2026-02-18 05:14:27,485 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Fluor, Raises Price Target to $48
+2026-02-18 05:14:54,111 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — JBT Marel Segment Realignment Takes Effect In Q4 2025, Company Recasts Historica
+2026-02-18 05:15:11,666 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why Is Palo Alto Networks Stock Falling Today?
+2026-02-18 05:15:15,240 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Liberty Global To Acquire Vodafone 50% Stake In VodafoneZiggo For $1.184B In Cas
+2026-02-18 05:15:42,547 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Outperform on Herc Holdings, Lowers Price Target to $198
+2026-02-18 05:17:04,807 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — La Rosa Holdings shares are trading higher after the company announced it acquir
+2026-02-18 05:17:07,125 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings live: Palo Alto Networks stock sinks after company cuts full-year-forec
+2026-02-18 05:17:07,126 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 10 Companies Churn Out The Biggest Profits In The S&P 500
+2026-02-18 05:17:07,128 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AI Stealth Play Receives Bullish Initiation; Data Center Revenue Expected To Gro
+2026-02-18 05:17:08,465 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Leidos Holdings, Lowers Price Target to $195
+2026-02-18 05:18:26,182 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Sonoco Prods, Raises Price Target to $60
+2026-02-18 05:19:09,104 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — DRDGOLD H1 Earnings Call Highlights
+2026-02-18 05:19:25,991 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Neutral on Kite Realty Gr Trust, Raises Price Target to $27
+2026-02-18 05:19:40,349 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wix, Intuit Expand Partnership To Power Small Business Growth
+2026-02-18 05:23:12,944 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Chipmaker Analog Devices Reports Accelerating Sales, Earnings Growth
+2026-02-18 05:24:32,988 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Moleculin Biotech Reports Preliminary Composite Complete Remission Rate Of 40% I
+2026-02-18 05:25:24,361 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Occidental Petroleum Earnings Are Imminent; These Most Accurate Analysts Revise 
+2026-02-18 05:26:05,962 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Downgrades LuxExperience to Neutral, Lowers Price Target to $10
+2026-02-18 05:27:22,437 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — How To Earn $500 A Month From eBay Stock Ahead Of Q4 Earnings
+2026-02-18 05:28:38,198 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keefe, Bruyette &amp; Woods Maintains Market Perform on Redwood Trust, Raises Pr
+2026-02-18 05:28:49,275 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Walmart, Dollar Stores Beat Traditional Grocers&#39; Reach As Affordability Crun
+2026-02-18 05:30:16,213 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on Albemarle, Raises Price Target to $180
+2026-02-18 05:30:33,636 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Maintains Outperform on IDEAYA Biosciences, Raises Price Target to $52
+2026-02-18 05:31:15,889 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on Ashland, Raises Price Target to $62
+2026-02-18 05:32:42,088 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — USA Housing Starts For Dec. 1.404M Vs 1.310M Est.
+2026-02-18 05:33:23,025 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Caterpillar acquires mining software company RPMGlobal
+2026-02-18 05:34:10,833 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Maintains Outperform on Bed Bath &amp; Beyond, Lowers Price Target to $7
+2026-02-18 05:34:16,504 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — GD Culture Announces $100M Share Buyback
+2026-02-18 05:35:31,688 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Downgrades Transocean to Equal-Weight, Raises Price Target to $6
+2026-02-18 05:35:45,993 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lakeland Indusrtries&#39; California PPE Recon Selected For Newport Beach Fore D
+2026-02-18 05:36:26,795 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ESS Acquires Intellectual Property And Assets Of VoltStorage; Terms Undisclosed
+2026-02-18 05:36:57,247 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Reiterates Outperform on Palo Alto Networks, Maintains $225 Price Target
+2026-02-18 05:37:26,758 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — These are the only recession signals that matter to investors now
+2026-02-18 05:40:22,130 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stephens &amp; Co. Maintains Overweight on Expand Energy, Raises Price Target to
+2026-02-18 05:40:29,020 [realtime_news] INFO: 🚨 ALERT: [critical] META — Jim Cramer's top 10 things to watch in the stock market Wednesday
+2026-02-18 05:40:35,307 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Palo Alto Networks shares are trading lower after the company reported Q2 financ
+2026-02-18 05:40:57,249 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Cadence Design Systems shares are trading higher after the company reported bett
+2026-02-18 05:40:58,279 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — MFA Financial Announces $200M Buyback Program
+2026-02-18 05:44:10,592 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Redbook Retail Sales Index Up 7.2% YoY For Week Ended 2/14/26
+2026-02-18 05:44:14,668 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keybanc Maintains Overweight on Herc Holdings, Lowers Price Target to $190
+2026-02-18 05:44:36,259 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Analog Devices shares are trading higher after the company reported better-than-
+2026-02-18 05:45:18,403 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Moody&#39;s shares are trading higher after the company reported better-than-exp
+2026-02-18 05:45:33,443 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Redbook Retail Sales Index For February 2026 Vs February 2025, 6.8% YoY
+2026-02-18 05:45:51,706 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keybanc Maintains Overweight on Myers Indus, Raises Price Target to $26
+2026-02-18 05:46:25,537 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Humana Commits Over $1.7M Throughout Illinois To Modernize Housing, Support Work
+2026-02-18 05:46:34,511 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Sandisk shares are trading lower after the company announced the pricing of its 
+2026-02-18 05:47:05,870 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Analog Devices&#39; Board Analog Devices Boosts Quarterly Dividend By 11% To $1.
+2026-02-18 05:47:48,092 [realtime_news] INFO: 🚨 ALERT: [high] AAPL — Apple, Ulta Beauty, AstraZeneca And A Real Estate Stock On CNBC&#39;s &#39;Final
+2026-02-18 05:48:12,147 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Liberty Global Q4 Earnings
+2026-02-18 05:48:26,080 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Liberty Global Q4 EPS $(8.60) , Sales $1.231B Beat $1.202B Estimate
+2026-02-18 05:49:11,652 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir Technologies shares are trading higher after the company announced a pa
+2026-02-18 05:50:30,707 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — QT Imaging Q4 2025 Revenue $8.3M; EPS $(0.10)
+2026-02-18 05:50:37,142 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Maintains Market Outperform on AtriCure, Lowers Price Target to $52
+2026-02-18 05:52:41,288 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tactile Systems Technology, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 05:52:41,289 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Beta Bionics, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 05:52:41,290 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — SSR Mining Inc. Q4 2025 Earnings Call Summary
+2026-02-18 05:52:41,291 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Rush Street Interactive, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 05:52:41,292 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The Hackett Group, Inc. Q4 2025 Earnings Call Summary
+2026-02-18 05:52:41,294 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Beneficient Q3 2026 Earnings Call Summary
+2026-02-18 05:52:41,294 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nano Nuclear Energy Inc Q1 2026 Earnings Call Summary
+2026-02-18 05:53:07,181 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Garmin shares are trading higher after the company reported better-than-expected
+2026-02-18 05:54:11,282 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Verisk Analytics shares are trading higher after the company reported better-tha
+2026-02-18 05:55:05,345 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Is Freezing Satoshi&#39;s Coins The Answer To Quantum Threats? It&#39;s Complica
+2026-02-18 05:55:54,389 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global Payments shares are trading higher after the company reported better-than
+2026-02-18 05:56:59,545 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insulet shares are trading higher after the company reported better-than-expecte
+2026-02-18 05:57:45,764 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Oil jumps more than 2% after Vance says Iran ignored key U.S. demand, military s
+2026-02-18 05:57:49,535 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Moderna shares are trading higher after the company announced the FDA will initi
+2026-02-18 05:59:07,398 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Maintains Sector Outperform on Palo Alto Networks, Lowers Price Targe
+2026-02-18 06:00:20,584 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — W. P. Carey shares are trading lower after the company announced a $432 million 
+2026-02-18 06:00:49,108 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Axcelis Technologies shares are trading lower after the company reported Q4 fina
+2026-02-18 06:00:57,955 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Preview: Deere&#39;s Earnings
+2026-02-18 06:01:07,089 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview: Quanta Services
+2026-02-18 06:01:16,418 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Preview Of Southern&#39;s Earnings
+2026-02-18 06:01:25,866 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Look at Newmont&#39;s Upcoming Earnings Report
+2026-02-18 06:01:36,454 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — What&#39;s Next: Fidelity National Finl&#39;s Earnings Preview
+2026-02-18 06:01:45,685 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Examining the Future: TechnipFMC&#39;s Earnings Outlook
+2026-02-18 06:01:55,003 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Exploring Alliant Energy&#39;s Earnings Expectations
+2026-02-18 06:02:02,142 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview: Extra Space Storage
+2026-02-18 06:02:10,772 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Outlook For Comfort Systems USA
+2026-02-18 06:02:19,335 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Peek at Cenovus Energy&#39;s Future Earnings
+2026-02-18 06:02:27,479 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — An Overview of Texas Roadhouse&#39;s Earnings
+2026-02-18 06:02:49,050 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Outperform on Camtek, Raises Price Target to $190
+2026-02-18 06:03:06,292 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ImmunityBio Receives European Commission Authorization For ANKTIVA
+2026-02-18 06:03:06,715 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Jaguar Health Announces One-Time Special Stock Dividend
+2026-02-18 06:03:34,748 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MFA Finl Q4 Adj. EPS $0.27, Inline, Sales $55.481M Beat $54.279M Estimate
+2026-02-18 06:03:50,135 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Downgrades iA Financial to Sector Perform, Maintains Price Target to 
+2026-02-18 06:03:51,663 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Santos’ 2025 net profit falls 34% to $578.6m
+2026-02-18 06:03:51,664 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Billionaire's Prediction: The Market Is Wrong, Fed Will Conduct 'Substantially M
+2026-02-18 06:04:08,265 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Breakdown: MFA Finl Q4
+2026-02-18 06:04:25,439 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dolphin, DealMaker Collaborate To Expand Access To Growth Capital For Consumer P
+2026-02-18 06:05:01,137 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Figure Technology Solutions shares are trading lower after the company announced
+2026-02-18 06:05:30,266 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Outperform on Coca-Cola Europacific, Raises Price T
+2026-02-18 06:05:30,814 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — PureCycle Technologies, TOPPAN Collaborate Over Sustainability In Flexible Films
+2026-02-18 06:05:46,235 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Getty Realty shares are trading lower after the company announced the pricing of
+2026-02-18 06:06:12,841 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Downgrades Masimo to Equal-Weight, Lowers Price Target to $180
+2026-02-18 06:06:46,578 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on Celanese, Raises Price Target to $63
+2026-02-18 06:07:23,873 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — This Palantir Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday
+2026-02-18 06:08:00,937 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Maintains Market Outperform on Goosehead Insurance, Lowers Price Target
+2026-02-18 06:08:25,000 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Underperform on CNO Finl Group, Raises Price Target
+2026-02-18 06:08:32,375 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Downgrades Knife River Holding to Underweight, Raises Price Target t
+2026-02-18 06:08:57,581 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — This Masimo Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Wednesda
+2026-02-18 06:08:59,882 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — WidePoint Announces $1.3M Phase One Contract Award To Its Managed Services Divis
+2026-02-18 06:09:18,104 [realtime_news] INFO: 🚨 ALERT: [high] META — Evolution Metals &amp; Technologies shares are trading higher after Clear Street
+2026-02-18 06:09:45,794 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on General Mills, Lowers Price Target to $45
+2026-02-18 06:09:56,554 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Synchrony Collaborates With Planet DDS For CareCredit Integration
+2026-02-18 06:10:50,090 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tactile Systems Technology shares are trading higher after the company reported 
+2026-02-18 06:11:27,991 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Reiterates Market Outperform on Palo Alto Networks, Maintains $250 Pric
+2026-02-18 06:11:31,390 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Best Buy Co, Lowers Price Target to $70
+2026-02-18 06:12:00,497 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Parsons Subsidiary Sealing Technologies To Be Awarded Joint Cyber Hunt Kit Contr
+2026-02-18 06:12:35,565 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on HASI, Raises Price Target to $44
+2026-02-18 06:13:40,328 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on BioMarin Pharmaceutical, Raises Price Target
+2026-02-18 06:14:02,169 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Sonoco returns to profit in Q4 2025
+2026-02-18 06:14:10,853 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into PROG Holdings Q4 Earnings
+2026-02-18 06:14:12,331 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fiverr International shares are trading lower after the company reported mixed Q
+2026-02-18 06:14:47,087 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Similarweb shares are trading lower after the company reported worse-than-expect
+2026-02-18 06:14:49,401 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Reiterates Market Outperform on Pitney Bowes, Maintains $13 Price Targe
+2026-02-18 06:15:35,922 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Outperform on Ecolab, Raises Price Target to $312
+2026-02-18 06:16:05,071 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Care.com Collaborates With Headspace Over Expansion Of Resources For Family Care
+2026-02-18 06:16:21,939 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — USANA Health Sciences shares are trading higher after the company reported bette
+2026-02-18 06:16:58,014 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BioAge Labs shares are trading higher after Jefferies upgraded the stock from Ho
+2026-02-18 06:17:05,742 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — I’m 72 and started claiming Social Security at 69. Will I get more money if I wo
+2026-02-18 06:17:29,174 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Maintains Market Outperform on Sabra Health Care REIT, Raises Price Tar
+2026-02-18 06:18:10,002 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Goosehead Insurance shares are trading higher after the company reported better-
+2026-02-18 06:19:12,744 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on Empire State Realty Trust, Lowers Price 
+2026-02-18 06:19:32,645 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PROG Holdings shares are trading higher after the company reported better-than-e
+2026-02-18 06:19:45,671 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pitney Bowes shares are trading higher after the company reported better-than-ex
+2026-02-18 06:20:22,662 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — AtriCure shares are trading higher after the company reported better-than-expect
+2026-02-18 06:20:58,998 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on General Mills, Lowers Price Target to $4
+2026-02-18 06:21:18,951 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Centene, Raises Price Target to $44
+2026-02-18 06:22:09,898 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Summary: NewAmsterdam Pharma Co Q4
+2026-02-18 06:22:12,967 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on Globe Life, Raises Price Target to $157
+2026-02-18 06:22:48,329 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Cadence Stock Surges After Q4 Beat, Strong Outlook
+2026-02-18 06:22:53,136 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Humana, Lowers Price Target to $206
+2026-02-18 06:23:30,140 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Downgrades Similarweb to Market Perform
+2026-02-18 06:23:44,956 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — EBay In Focus Ahead Of Q4 Earnings
+2026-02-18 06:23:49,768 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Glaukos, Raises Price Target to $135
+2026-02-18 06:23:51,712 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains In-Line on PPG Indus, Raises Price Target to $128
+2026-02-18 06:24:31,732 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — CORRECTION: PROG Holdings Q4 Adj. EPS $0.74 Beats $0.59 Estimate, Sales $574.586
+2026-02-18 06:25:12,222 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Sonoco Prods, Raises Price Target to $60
+2026-02-18 06:25:32,270 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Outperform on Ultragenyx Pharmaceutical, Lowers Pri
+2026-02-18 06:25:53,090 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Auddia shares are trading higher after the company signed a definitive merger ag
+2026-02-18 06:26:17,572 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Reiterates Market Outperform on Toll Brothers, Maintains $175 Price Tar
+2026-02-18 06:26:48,044 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Evercore ISI Group Maintains Outperform on Waystar Holding, Lowers Price Target 
+2026-02-18 06:27:03,825 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Vulcan Materials, Lowers Price Target to $
+2026-02-18 06:28:07,444 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Cadence Design Systems, Lowers Price Target 
+2026-02-18 06:29:30,561 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Beta Bionics, Lowers Price Target to $22
+2026-02-18 06:29:38,280 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Autodesk, Lowers Price Target to $365
+2026-02-18 06:29:39,005 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Medtronic Analysts Cut Their Forecasts After Q3 Earnings
+2026-02-18 06:29:51,509 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Reiterates Market Outperform on Sixth Street Specialty, Maintains $25 P
+2026-02-18 06:30:54,963 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Caesars Entertainment, Lowers Price Target to $36
+2026-02-18 06:31:43,376 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on General Mills, Lowers Price Target to $50
+2026-02-18 06:32:26,367 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on Infosys, Lowers Price Target to $17
+2026-02-18 06:32:41,497 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ericsson Signs Multi-Year Collaboration With University Of Toronto Over Innovati
+2026-02-18 06:33:15,800 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on Leidos Holdings, Lowers Price Target to $205
+2026-02-18 06:33:27,932 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Workday, Lowers Price Target to $255
+2026-02-18 06:33:34,170 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Visionary Holdings&#39; Visionary Health Technology Forms Three New Regional Sub
+2026-02-18 06:34:04,996 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on Onto Innovation, Raises Price Target to $215
+2026-02-18 06:34:44,065 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Reiterates Market Underperform on Upstart Holdings, Maintains $20 Price
+2026-02-18 06:34:46,234 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — What&#39;s Going On With Palantir Stock Wednesday?
+2026-02-18 06:35:01,358 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Palo Alto Networks, Lowers Price Target to $185
+2026-02-18 06:35:24,066 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Salesforce, Lowers Price Target to $235
+2026-02-18 06:35:47,572 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Sunoco, Raises Price Target to $64
+2026-02-18 06:36:31,673 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on USA Compression Partners, Raises Price Target to $30
+2026-02-18 06:37:33,821 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Valmont Industries, Raises Price Target to $501
+2026-02-18 06:38:20,375 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Maintains Sector Outperform on Capstone Copper, Lowers Price Target t
+2026-02-18 06:38:25,206 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — BMO Capital Expresses Concern Over DraftKings’ (DKNG) 2026 Guidance, Prediction 
+2026-02-18 06:38:25,207 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Guggenheim Notes Chipotle’s (CMG) Conservative 2026 Guidance, Valuation Gap
+2026-02-18 06:38:47,319 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Downgrades Workday to Market Perform
+2026-02-18 06:40:24,160 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Maintains Sector Perform on Toromont Industries, Raises Price Target 
+2026-02-18 06:43:05,384 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Upgrades Rush Street Interactive to Market Outperform, Announces $24 Pr
+2026-02-18 06:43:40,343 [realtime_news] INFO: 🚨 ALERT: [high] META — NVIDIA Stock Rises After Multiyear Strategic Partnership With Meta
+2026-02-18 06:44:36,801 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Initiates Coverage On AeroVironment with Neutral Rating, Announces Price Tar
+2026-02-18 06:46:48,557 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Initiates Coverage On Kratos Defense &amp; Security with Neutral Rating, Ann
+2026-02-18 06:48:26,983 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Garmin Board Plans 17% Quarterly Dividend Hike To $1.05/Share
+2026-02-18 06:48:39,591 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dow Gains 100 Points; Analog Devices Posts Upbeat Q1 Earnings
+2026-02-18 06:49:15,740 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Bank of Montreal, Raises Price Target to C$206
+2026-02-18 06:50:37,026 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hassett says authors of New York Fed tariff study should be disciplined: 'Worst 
+2026-02-18 06:51:11,157 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citizens Maintains Market Outperform on Caesars Entertainment, Lowers Price Targ
+2026-02-18 06:51:40,875 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Bank of Nova Scotia, Raises Price Target to C$118
+2026-02-18 06:51:45,846 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Garmin Replaces Previous Buyback Plan with New $500M Repurchase Program Through 
+2026-02-18 06:52:29,890 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Cava Group, Raises Price Target to $69
+2026-02-18 06:53:58,015 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Coca-Cola Europacific, Raises Price Target to $118
+2026-02-18 06:54:48,847 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on CareTrust REIT, Raises Price Target to $48
+2026-02-18 06:54:59,532 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CIMG FY 2025 Revenue $10.3M, Up 433% Year-On-Year; Net Loss Decreased By 45.5%
+2026-02-18 06:57:15,780 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Canadian Imperial Bank, Raises Price Target to C$139
+2026-02-18 06:57:43,780 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Housing starts jump to highest level in five months, showing momentum going into
+2026-02-18 06:57:43,975 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — EnPro (NPO) Q4 2025 Earnings Call Transcript
+2026-02-18 06:57:43,976 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Vita Coco (COCO) Q4 2025 Earnings Call Transcript
+2026-02-18 06:58:05,302 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Enlight Renewable Energy, Raises Price Target to $93
+2026-02-18 07:00:13,093 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Transcript: Farmer Bros Q2 2026 Earnings Conference Call
+2026-02-18 07:00:25,857 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Medifast Q4 2025 Earnings Call Transcript
+2026-02-18 07:00:25,993 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Full Transcript: JELD-WEN Holding Q4 2025 Earnings Call
+2026-02-18 07:00:38,308 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on Alpine Income Property Tr, Raises Price Targ
+2026-02-18 07:00:46,240 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hassett says authors of New York Fed tariff study should be disciplined: 'Worst 
+2026-02-18 07:00:46,844 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir upgraded, Workday downgraded: Wall Street's top analyst calls
+2026-02-18 07:00:58,526 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — An Overview of First Majestic Silver&#39;s Earnings
+2026-02-18 07:01:13,099 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Exploring Insmed&#39;s Earnings Expectations
+2026-02-18 07:01:15,943 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Maintains Buy on Uber Technologies, Lowers Price Target to $125
+2026-02-18 07:01:22,959 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview For Madrigal Pharmaceuticals
+2026-02-18 07:01:33,421 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Teck Resources Earnings Preview
+2026-02-18 07:01:34,047 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Kenvue, Raises Price Target to $19
+2026-02-18 07:01:42,445 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Outlook For Wayfair
+2026-02-18 07:01:51,745 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview: Copart
+2026-02-18 07:02:01,218 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview For DT Midstream
+2026-02-18 07:02:10,144 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Targa Resources&#39;s Upcoming Earnings
+2026-02-18 07:02:19,820 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Global Payments Issues Strong Profit Outlook, Unveils $2.5 Billion Stock Buyback
+2026-02-18 07:02:20,027 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Exploring Onto Innovation&#39;s Earnings Expectations
+2026-02-18 07:02:30,897 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Exploring Evergy&#39;s Earnings Expectations
+2026-02-18 07:02:40,315 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights Ahead: Live Nation Entertainment&#39;s Quarterly Earnings
+2026-02-18 07:03:12,308 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Maintains Buy on PepGen, Raises Price Target to $7
+2026-02-18 07:06:15,008 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on National Bank of Canada, Raises Price Target to C$191
+2026-02-18 07:06:52,834 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Chevron vs. ExxonMobil: Which Oil Dividend Giant Is the Better Buy for Income In
+2026-02-18 07:06:53,366 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Caesars Entertainment, Lowers Price Target to
+2026-02-18 07:08:46,318 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Orion, Raises Price Target to $6.5
+2026-02-18 07:08:54,651 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 'This Is Insane,' 'Ramsey Show' Host Says As Couple Taking Home $20K A Month Pay
+2026-02-18 07:09:56,196 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Reiterates Buy on Elastic, Maintains $116 Price Target
+2026-02-18 07:10:13,719 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Ovintiv, Raises Price Target to $58
+2026-02-18 07:10:13,771 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — FDA Grants Breakthrough Status To Johnson &amp; Johnson&#39;s Cancer Drug For Ad
+2026-02-18 07:10:39,528 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Digital Realty Trust, Raises Price Target to 
+2026-02-18 07:10:55,915 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Oil jumps 3% after Vance says Iran ignored key U.S. demand, military strikes on 
+2026-02-18 07:11:17,738 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Rush Enterprises, Raises Price Target to $73
+2026-02-18 07:11:37,174 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Reiterates Buy on IDEAYA Biosciences, Maintains $50 Price Target
+2026-02-18 07:11:48,494 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — L3Harris Technologies Gets General Dynamics Electric Boat&#39;s Order To Deliver
+2026-02-18 07:11:57,638 [realtime_news] INFO: 🚨 ALERT: [high] GOOGL — Alphabet (GOOG) Rallies on YouTube Ad Growth and Double-Digit Cloud Revenue Gain
+2026-02-18 07:12:31,426 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Equinix, Raises Price Target to $1087
+2026-02-18 07:14:21,130 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — OLB Group Commences ~$3M Offering Of Common Shares, Warrants
+2026-02-18 07:14:29,937 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Royal Bank of Canada, Raises Price Target to C$257
+2026-02-18 07:15:37,674 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on First Industrial Realty, Raises Price Target 
+2026-02-18 07:15:51,982 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on SSR Mining, Raises Price Target to C$51
+2026-02-18 07:17:18,649 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on SSR Mining, Raises Price Target to $37
+2026-02-18 07:18:20,401 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Wingstop Posts Upbeat Q4 Earnings, Joins Caesars Entertainment, Garmin, Sabre An
+2026-02-18 07:19:02,765 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on Goosehead Insurance, Lowers Price Target to 
+2026-02-18 07:20:37,248 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Toronto-Dominion Bank, Raises Price Target to C$139
+2026-02-18 07:21:42,489 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Rexford Industrial Realty, Lowers Price Targe
+2026-02-18 07:21:57,974 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Reiterates Buy on Workday, Maintains $285 Price Target
+2026-02-18 07:22:08,145 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Travel plus Leisure TNL Earnings Call Transcript
+2026-02-18 07:22:42,342 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Activist Investor Nelson Peltz Says Wendy&#39;s Is &#39;Undervalued&#39;, Lookin
+2026-02-18 07:23:21,124 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on Safehold, Raises Price Target to $17
+2026-02-18 07:23:35,527 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Booking Holdings Likely To Report Higher Q4 Revenue; These Most Accurate Analyst
+2026-02-18 07:24:40,496 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on AtriCure, Lowers Price Target to $55
+2026-02-18 07:26:20,085 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Genuine Parts, Lowers Price Target to $135
+2026-02-18 07:26:45,892 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on SoFi Technologies, Lowers Price Target to $2
+2026-02-18 07:27:52,553 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Sprouts Farmers Market, Lowers Price Target to $75
+2026-02-18 07:29:15,763 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OGE Energy (OGE) Q4 2025 Earnings Call Transcript
+2026-02-18 07:29:18,835 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Teva Pharmaceutical Indus, Raises Price Targe
+2026-02-18 07:29:49,700 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Somnigroup International, Lowers Price Target to $115
+2026-02-18 07:31:53,355 [realtime_news] INFO: 🚨 ALERT: [high] META — Major indexes are trading higher as investors await Fed meeting minutes. Strengt
+2026-02-18 07:32:13,635 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Downgrades Gemini Space Station to Neutral, Lowers Price Targe
+2026-02-18 07:35:12,559 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Caesars Entertainment, Lowers Price Target to $
+2026-02-18 07:36:20,218 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on General Mills, Lowers Price Target to $46
+2026-02-18 07:36:22,671 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PROG Holdings (PRG) Q4 2025 Earnings Transcript
+2026-02-18 07:37:27,342 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Initiates Coverage On Mirum Pharmaceuticals with Outperform Rating, 
+2026-02-18 07:37:38,698 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Waystar Holding, Lowers Price Target to $38
+2026-02-18 07:37:45,760 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on HealthEquity, Lowers Price Target to $110
+2026-02-18 07:38:56,046 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Incyte, Raises Price Target to $117
+2026-02-18 07:39:33,694 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Republic Services shares are trading lower after the company reported worse-than
+2026-02-18 07:39:51,815 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Reiterates Outperform on CEVA, Lowers Price Target to $30
+2026-02-18 07:40:19,288 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Cenovus Energy, Raises Price Target to $31
+2026-02-18 07:40:30,600 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on McKesson, Raises Price Target to $1050
+2026-02-18 07:41:18,961 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Medtronic, Raises Price Target to $118
+2026-02-18 07:41:30,932 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — SanDisk Stock Fights Back From Early Losses After Offering
+2026-02-18 07:41:41,908 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Cenovus Energy, Raises Price Target to C$31
+2026-02-18 07:41:59,210 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on National Energy Services, Raises Price Target t
+2026-02-18 07:43:14,699 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Nutrien, Raises Price Target to $70
+2026-02-18 07:43:30,013 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Charles River (CRL) Earnings Call Transcript
+2026-02-18 07:43:30,014 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — What China Partnerships Would Mean for Ford Stock.
+2026-02-18 07:43:53,415 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on PG&amp;E, Raises Price Target to $23
+2026-02-18 07:43:59,049 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — XRP Ledger Launches &#39;Members-Only&#39; Exchange For Banks, But XRP Can&#39;t
+2026-02-18 07:44:39,793 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Sprouts Farmers Market, Lowers Price Target to 
+2026-02-18 07:45:24,633 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on CNH Industrial, Raises Price Target to $16
+2026-02-18 07:45:33,651 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Waystar Holding, Lowers Price Target to $36
+2026-02-18 07:46:58,259 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on Itron, Raises Price Target to $133
+2026-02-18 07:49:49,745 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on MongoDB, Lowers Price Target to $425
+2026-02-18 07:51:39,199 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on Rush Street Interactive, Raises Price Target
+2026-02-18 07:52:21,168 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Compass Pathways, Raises Price Target to $22
+2026-02-18 07:55:06,906 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Sector Perform on EastGroup Properties, Raises Price Targe
+2026-02-18 07:55:42,840 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings live: Wingstop stock surges on Q4 earnings beat, Garmin spikes, Analog 
+2026-02-18 08:00:08,485 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Reiterates Outperform on IDEAYA Biosciences, Maintains $49 Price Tar
+2026-02-18 08:00:58,942 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into WillScot Mobile Mini&#39;s Upcoming Earnings
+2026-02-18 08:01:07,911 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pool&#39;s Earnings Outlook
+2026-02-18 08:01:17,709 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Etsy&#39;s Earnings: A Preview
+2026-02-18 08:01:27,575 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Peek at F&amp;G Annuities &amp; Life&#39;s Future Earnings
+2026-02-18 08:01:35,278 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — A Glimpse of Century Aluminum&#39;s Earnings Potential
+2026-02-18 08:01:44,283 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Preview For ICU Medical
+2026-02-18 08:01:53,066 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — An Overview of EPAM Sys&#39;s Earnings
+2026-02-18 08:02:02,904 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Preview: Dropbox&#39;s Earnings
+2026-02-18 08:02:12,445 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings Outlook For Praxis Precision Medicine
+2026-02-18 08:02:22,214 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — What to Expect from Opendoor Technologies&#39;s Earnings
+2026-02-18 08:02:32,430 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Vesta Real Estate&#39;s Earnings Outlook
+2026-02-18 08:04:05,461 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — KBR Grabs Strategic Petro Rabigh Contract In Saudi Arabia
+2026-02-18 08:04:28,444 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Knife River Holding, Raises Price Target to 
+2026-02-18 08:04:32,225 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — DoorDash Stock Moves Higher Ahead Of Q4 Earnings
+2026-02-18 08:04:51,929 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Earnings live: Wingstop stock surges on Q4 earnings beat, Garmin spikes, Analog 
+2026-02-18 08:04:51,930 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Amrize Q4 Earnings Call Highlights
+2026-02-18 08:04:51,931 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Verisk Analytics Q4 Earnings Call Highlights
+2026-02-18 08:04:51,932 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Sabre Q4 Earnings Call Highlights
+2026-02-18 08:05:52,036 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on Snowflake, Lowers Price Target to $250
+2026-02-18 08:06:24,735 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Leidos Holdings, Lowers Price Target to $215
+2026-02-18 08:06:28,172 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Itau Unibanco Holding, Raises Price Target to 
+2026-02-18 08:06:53,961 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MKS Q4 Earnings Call Highlights
+2026-02-18 08:07:03,500 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Snap&#39;s Direct Revenue Business Reaches $1B Annualized Revenue Run Rate as Su
+2026-02-18 08:08:11,109 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Labcorp Hldgs, Raises Price Target to $330
+2026-02-18 08:09:25,407 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Loar Holdings, Lowers Price Target to $90
+2026-02-18 08:09:27,321 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Valmont Industries, Raises Price Target to $51
+2026-02-18 08:09:57,615 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Snap's direct revenue hits $1 billion annualized run rate as subscribers top 25 
+2026-02-18 08:11:16,432 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Reiterates Outperform on Louisiana-Pacific, Maintains $104 Price Tar
+2026-02-18 08:12:04,953 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Agnico Eagle Mines, Lowers Price Target to C$321
+2026-02-18 08:13:43,853 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Reiterates Outperform on Palo Alto Networks, Maintains $220 Price Ta
+2026-02-18 08:13:47,404 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Agnico Eagle Mines, Lowers Price Target to $235
+2026-02-18 08:15:16,194 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Underweight on Alarm.com Holdings, Lowers Price Target to $4
+2026-02-18 08:15:55,633 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Goldman Sachs Maintains Buy on Coca-Cola Europacific, Raises Price Target to $11
+2026-02-18 08:16:43,774 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on RB Global, Raises Price Target to $146
+2026-02-18 08:17:05,181 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — CHCT Reports Earnings
+2026-02-18 08:17:14,428 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Goldman Sachs Maintains Neutral on Mattel, Raises Price Target to $18
+2026-02-18 08:18:03,743 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on RB Global, Raises Price Target to C$146
+2026-02-18 08:18:25,147 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Goldman Sachs Maintains Sell on TC Energy, Raises Price Target to $53
+2026-02-18 08:18:33,306 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JIADE LIMITED Prices $3M Registered Direct Offering
+2026-02-18 08:19:01,061 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Winmark Q4 EPS $2.69 Misses $2.78 Estimate, Sales $21.086M Beat $20.342M Estimat
+2026-02-18 08:19:52,063 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Federal Trade Commission Finalizes Consent Order In Boeing-Spirit Deal
+2026-02-18 08:20:12,036 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Alkami Technology, Lowers Price Target to $22
+2026-02-18 08:20:28,294 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Lennar Stake Lifts Opendoor Stock Before Earnings
+2026-02-18 08:20:31,414 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Goldman Sachs Maintains Buy on Waystar Holding, Lowers Price Target to $38
+2026-02-18 08:20:47,972 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Sector Perform on Vulcan Materials, Lowers Price Target to
+2026-02-18 08:21:21,228 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Allegion, Lowers Price Target to $180
+2026-02-18 08:22:19,635 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Caesars Entertainment, Lowers Price Target to 
+2026-02-18 08:23:12,476 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OneSpaWorld (OSW) Q4 2025 Earnings Call Transcript
+2026-02-18 08:23:12,477 [realtime_news] INFO: 🚨 ALERT: [critical] META — Nvidia Jumps On Meta Deal With Earnings Ahead; Is Nvidia A Buy Now?
+2026-02-18 08:23:12,478 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Similarweb (SMWB) Q4 2025 Earnings Call Transcript
+2026-02-18 08:24:22,627 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Callaway Golf, Lowers Price Target to $15
+2026-02-18 08:25:19,527 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on CI&amp;T, Lowers Price Target to $6
+2026-02-18 08:26:15,169 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lowe’s begins layoffs in North Carolina, plans 600 job cuts
+2026-02-18 08:26:35,290 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Columbus McKinnon, Lowers Price Target to $27
+2026-02-18 08:28:24,751 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Downgrades Eldorado Gold to Sector Perform, Raises Price Target to $
+2026-02-18 08:30:45,540 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Norwegian Cruise Line Option Alert: May 15 $25 Calls at the Ask: 3215 @ $2.75 vs
+2026-02-18 08:32:03,845 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Globant, Lowers Price Target to $68
+2026-02-18 08:33:27,216 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Grid Dynamics Holdings, Lowers Price Target to
+2026-02-18 08:33:53,580 [realtime_news] INFO: 🚨 ALERT: [high] MSFT — Canadian Tire Partners With Microsoft To Develop Custom Retail Intelligence Plat
+2026-02-18 08:34:23,567 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — IAMGOLD (IAG) Q4 2025 Earnings Call Transcript
+2026-02-18 08:34:24,094 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Maintains Outperform on Palo Alto Networks, Lowers Price Target to $220
+2026-02-18 08:34:33,350 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Gibson Energy, Raises Price Target to C$30
+2026-02-18 08:34:43,813 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on LegalZoom.com, Lowers Price Target to $11
+2026-02-18 08:34:46,672 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Interactive Strength  To Acquire Ergatta Through A Combination Of Cash, Debt, St
+2026-02-18 08:36:21,450 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Medtronic, Lowers Price Target to $100
+2026-02-18 08:36:30,495 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Jamieson Wellness, Raises Price Target to C$
+2026-02-18 08:37:07,467 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on Equity Lifestyle Props, Raises Price Target 
+2026-02-18 08:37:33,138 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Ncino, Lowers Price Target to $16
+2026-02-18 08:38:33,073 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Q2 Holdings, Lowers Price Target to $75
+2026-02-18 08:39:12,688 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on Element Solutions, Raises Price Target to $3
+2026-02-18 08:39:32,756 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Rexford Industrial Realty, Lowers Price Target to
+2026-02-18 08:39:55,715 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palo Alto Networks&#39; Stock Slides On Limited Q2 Upside, Analysts Blame Too Ma
+2026-02-18 08:41:37,299 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on PPL, Raises Price Target to $41
+2026-02-18 08:42:32,483 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Upgrades Stubhub Holdings to Neutral, Lowers Price Target to $9
+2026-02-18 08:43:27,372 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fitness Wearable Boom Drives Record Profits For Garmin
+2026-02-18 08:43:42,307 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on RB Global, Raises Price Target to $140
+2026-02-18 08:44:59,120 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — &#39;U.S. Arms Sale to Taiwan in Limbo Amid Pressure Campaign From China&#39;- W
+2026-02-18 08:45:36,664 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DA Davidson Maintains Buy on Walmart, Maintains $135 Price Target
+2026-02-18 08:46:07,534 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Market Perform on Goosehead Insurance, Lowers Price Target
+2026-02-18 08:47:37,579 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The Andersons ANDE Q4 2025 Earnings Transcript
+2026-02-18 08:47:37,580 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Genco GNK Q4 2025 Earnings Call Transcript
+2026-02-18 08:48:37,979 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on Palo Alto Networks, Lowers Price Target to $
+2026-02-18 08:49:54,909 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — &#39;US refiners Phillips 66, Citgo seek to buy crude directly from Venezuela, s
+2026-02-18 08:52:42,324 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Amrize (AMRZ) Q4 2025 Earnings Call Transcript

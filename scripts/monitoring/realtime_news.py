@@ -43,6 +43,36 @@ DAEMON_LOG_FILE = PROJECT_ROOT / "data" / "news_daemon.log"
 
 DEFAULT_WATCHLIST = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"]
 
+
+def get_dynamic_watchlist() -> list[str]:
+    """Build watchlist dynamically: defaults + current Alpaca positions.
+
+    This ensures any stock we hold is always monitored for breaking news.
+    """
+    watchlist = set(DEFAULT_WATCHLIST)
+
+    # Add current positions from Alpaca
+    try:
+        from scripts.core.executor import get_positions
+        positions = get_positions()
+        for pos in positions:
+            tk = pos.get("ticker", "").upper()
+            if tk:
+                watchlist.add(tk)
+    except Exception:
+        pass
+
+    # Add virtual (A/B test) positions
+    try:
+        from scripts.core.ab_tracker import load_state
+        ab = load_state()
+        for tk in ab.b_positions:
+            watchlist.add(tk.upper())
+    except Exception:
+        pass
+
+    return sorted(watchlist)
+
 # Macro keywords that affect the whole market (not ticker-specific)
 MACRO_CRITICAL = [
     "federal reserve", "fed rate", "rate hike", "rate cut", "fomc",
@@ -188,12 +218,12 @@ def classify_news(headline: str, summary: str = "", symbols: list[str] | None = 
                 result["urgency"] = "high"
                 result["keywords_hit"].append(kw)
 
-    # Match tickers
-    watchlist_set = set(DEFAULT_WATCHLIST)
+    # Match tickers (dynamic watchlist includes positions)
+    watchlist_set = set(get_dynamic_watchlist())
     result["matched_tickers"] = [s for s in symbols if s in watchlist_set]
 
     # Also check headline for ticker mentions
-    for tk in DEFAULT_WATCHLIST:
+    for tk in watchlist_set:
         if tk.lower() in text or tk in headline.upper():
             if tk not in result["matched_tickers"]:
                 result["matched_tickers"].append(tk)
@@ -532,7 +562,7 @@ async def run_daemon(watchlist: Optional[list[str]] = None) -> None:
     from dotenv import load_dotenv
     load_dotenv(PROJECT_ROOT / ".env")
 
-    watchlist = watchlist or DEFAULT_WATCHLIST
+    watchlist = watchlist or get_dynamic_watchlist()
     seen = _load_seen()
     stop_event = asyncio.Event()
 

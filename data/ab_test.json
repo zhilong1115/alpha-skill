@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-02-18T14:32:31.730121+00:00",
+  "initial_capital": 100000,
+  "a_label": "Baseline (quant-only)",
+  "a_trades": 3,
+  "a_realized_pnl": 0.0,
+  "b_label": "Judgment-enhanced",
+  "b_cash": 85530.68975830078,
+  "b_positions": {
+    "GOOGL": {
+      "qty": 16,
+      "entry_price": 302.7799987792969,
+      "highest": 302.7799987792969
+    },
+    "AAPL": {
+      "qty": 18,
+      "entry_price": 263.6050109863281,
+      "highest": 263.6050109863281
+    },
+    "NVDA": {
+      "qty": 26,
+      "entry_price": 187.69000244140625,
+      "highest": 187.69000244140625
+    }
+  },
+  "b_trades": 3,
+  "b_realized_pnl": 0.0,
+  "a_vetoed_count": 0,
+  "b_boosted_count": 1
+}
