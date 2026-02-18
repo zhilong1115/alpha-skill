@@ -184,57 +184,71 @@ def apply_rule_based_judgment(
 
     headlines_lower = " ".join(headlines).lower()
 
-    # Macro shocks → big adjustment
+    # Regime-adaptive penalty scaling (less aggressive in bull markets)
+    regime_scale = {"BULL": 0.5, "SIDEWAYS": 1.0, "BEAR": 1.3, "VOLATILE": 1.2}.get(regime, 1.0)
+
+    # --- News-based adjustments ---
     macro_hits = [kw for kw in critical_keywords if kw in headlines_lower]
     if macro_hits:
-        # Macro news detected — reduce conviction for buys, boost for sells
         if side == "buy":
-            adjustment -= 0.15
+            adjustment -= 0.12 * regime_scale
             reasons.append(f"Macro risk detected: {', '.join(macro_hits[:3])}")
         else:
             adjustment += 0.10
             reasons.append(f"Macro catalyst supports sell: {', '.join(macro_hits[:3])}")
 
-    # Positive catalysts
+    # Positive catalysts — BOOSTED: more generous, regime-aware
     pos_hits = [kw for kw in positive_catalysts if kw in headlines_lower]
     if pos_hits and side == "buy":
-        adjustment += 0.08
-        reasons.append(f"Positive catalyst: {', '.join(pos_hits[:2])}")
+        boost = 0.10 if regime in ("BULL", "SIDEWAYS") else 0.05
+        if len(pos_hits) >= 2:
+            boost += 0.05  # multiple positive catalysts = strong signal
+        adjustment += boost
+        reasons.append(f"Positive catalyst: {', '.join(pos_hits[:3])}")
 
     # Negative catalysts
     neg_hits = [kw for kw in negative_catalysts if kw in headlines_lower]
     if neg_hits and side == "buy":
-        adjustment -= 0.10
+        adjustment -= 0.08 * regime_scale
         reasons.append(f"Negative catalyst: {', '.join(neg_hits[:2])}")
 
-    # --- Volume confirmation ---
+    # --- Volume confirmation (now can boost) ---
     vol_ratio = vi.get("ratio", 1.0)
-    if vol_ratio > 3.0:
-        # Extreme volume — something is happening
-        reasons.append(f"Extreme volume {vol_ratio}x — conviction {'confirmed' if conviction > 0.4 else 'uncertain'}")
-        if conviction > 0.4:
-            adjustment += 0.05
-        else:
-            adjustment -= 0.05  # high volume + low conviction = dangerous
-
-    # --- Price action divergence ---
     change_5d = pa.get("5d_change_pct", 0)
-    if side == "buy" and change_5d < -5:
-        # Falling knife warning
-        adjustment -= 0.08
-        reasons.append(f"Falling knife: {change_5d}% in 5 days")
-    elif side == "buy" and change_5d > 10:
-        # Chasing a runup
-        adjustment -= 0.05
-        reasons.append(f"Chasing runup: already +{change_5d}% in 5 days")
 
-    # --- Regime adjustment ---
+    if vol_ratio > 2.0:
+        if conviction > 0.35 and change_5d > 0:
+            # High volume + positive price + decent conviction = momentum confirmation
+            adjustment += 0.06
+            reasons.append(f"Volume confirms momentum: {vol_ratio:.1f}x vol, +{change_5d:.1f}% 5d")
+        elif conviction <= 0.35 and vol_ratio > 3.0:
+            adjustment -= 0.05
+            reasons.append(f"High volume but weak conviction: {vol_ratio:.1f}x vol")
+
+    # --- Price action: momentum confirmation (NEW — can boost) ---
+    change_1mo = pa.get("1mo_change_pct", 0)
+    if side == "buy":
+        if 2 < change_5d < 8 and change_1mo > 0:
+            # Healthy uptrend — not chasing, not falling
+            adjustment += 0.04
+            reasons.append(f"Healthy trend: +{change_5d:.1f}% 5d, +{change_1mo:.1f}% 1mo")
+        elif change_5d < -8:
+            adjustment -= 0.08
+            reasons.append(f"Falling knife: {change_5d:.1f}% in 5 days")
+        elif change_5d > 12:
+            adjustment -= 0.04
+            reasons.append(f"Extended runup: +{change_5d:.1f}% in 5 days")
+
+    # --- Regime adjustment (softened for BULL) ---
     if regime == "VOLATILE" and side == "buy":
-        adjustment -= 0.05
-        reasons.append("Volatile regime — reducing buy conviction")
+        adjustment -= 0.04
+        reasons.append("Volatile regime — slight caution")
     elif regime == "BEAR" and side == "buy":
-        adjustment -= 0.08
+        adjustment -= 0.06
         reasons.append("Bear regime — caution on longs")
+    elif regime == "BULL" and side == "buy" and not macro_hits and not neg_hits:
+        adjustment += 0.03
+        reasons.append("Bull regime — trend tailwind")
 
     # Compute final
     adjusted = max(0.0, min(1.0, conviction + adjustment))

@@ -311,6 +311,26 @@ def backtest(tickers: tuple[str, ...], start: str, end: str, strategy: str, capi
             click.echo(f"  {icon} {t['date']} {t['side'].upper()} {t['qty']} {t['ticker']} @ ${t['price']:.2f}")
 
 
+@cli.command("backtest-compare")
+@click.argument("tickers", nargs=-1)
+@click.option("--start", default="2023-01-01", help="Start date (YYYY-MM-DD)")
+@click.option("--end", default="2025-12-31", help="End date (YYYY-MM-DD)")
+@click.option("--capital", default=100000, type=float, help="Initial capital")
+def backtest_compare(tickers: tuple[str, ...], start: str, end: str, capital: float) -> None:
+    """Compare baseline vs LLM judgment strategy on historical data."""
+    from scripts.backtest.judgment_backtest import run_comparison_backtest
+
+    if not tickers:
+        tickers = ("AAPL", "NVDA", "TSLA", "GOOGL", "MSFT", "AMZN", "META")
+        click.echo(f"Using default tickers: {', '.join(tickers)}")
+
+    click.echo(f"⏳ Running comparison backtest: {start} → {end} | ${capital:,.0f}")
+    click.echo("   This may take a few minutes...")
+
+    result = run_comparison_backtest(list(tickers), start, end, capital)
+    click.echo(result.summary())
+
+
 @cli.command("whale-watch")
 @click.argument("tickers", nargs=-1)
 def whale_watch(tickers: tuple[str, ...]) -> None:
@@ -470,6 +490,23 @@ def news(tickers: tuple[str, ...]) -> None:
             )
     else:
         click.echo("  No unusual volume detected.")
+
+
+@cli.command("ab-status")
+def ab_status() -> None:
+    """Show A/B test comparison: baseline vs judgment strategy."""
+    from scripts.core.ab_tracker import load_state, get_ab_summary
+    state = load_state()
+    click.echo(get_ab_summary(state))
+
+
+@cli.command("ab-reset")
+@click.confirmation_option(prompt="Reset A/B test data?")
+def ab_reset() -> None:
+    """Reset A/B test tracking data."""
+    from scripts.core.ab_tracker import ABState, save_state
+    save_state(ABState(started_at=__import__("datetime").datetime.now().isoformat()))
+    click.echo("✅ A/B test data reset.")
 
 
 @cli.command()

@@ -119,6 +119,8 @@ class AutoTrader:
             return result
 
         # 4.5. LLM Judgment Layer — subjective review of trade candidates
+        #      Also tracks A/B test: baseline ideas vs judgment-filtered ideas
+        baseline_ideas = [dict(i) for i in ideas]  # snapshot before judgment
         try:
             from scripts.analysis.llm_judge import review_trade_ideas
             regime = scan.get("regime", {}).get("regime", "SIDEWAYS") if isinstance(scan.get("regime"), dict) else "SIDEWAYS"
@@ -133,6 +135,29 @@ class AutoTrader:
         except Exception as e:
             logger.warning("LLM judgment layer failed (proceeding without): %s", e)
             result["judgment_applied"] = False
+
+        # 4.6. A/B Test Tracking — mirror judgment trades in virtual portfolio
+        try:
+            from scripts.core.ab_tracker import (
+                load_state as load_ab, save_state as save_ab,
+                process_trade_ideas_ab, execute_virtual_trade, log_ab_trade,
+            )
+            ab = load_ab()
+            divergence = process_trade_ideas_ab(baseline_ideas, ideas, ab)
+            result["ab_divergences"] = divergence
+
+            # Execute judgment-filtered ideas in virtual portfolio B
+            for idea in ideas:
+                price = idea.get("price", 0)
+                qty = idea.get("qty", 0)
+                if price > 0 and qty > 0:
+                    execute_virtual_trade(ab, idea["ticker"], idea.get("side", "buy"), qty, price)
+
+            # Log baseline trades to A count
+            ab.a_trades += len(baseline_ideas)
+            save_ab(ab)
+        except Exception as e:
+            logger.warning("A/B tracking failed (non-fatal): %s", e)
 
         # 5. Evaluate and trade
         try:
