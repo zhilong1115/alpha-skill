@@ -199,3 +199,49 @@ class TradingOrchestrator:
             })
 
         return ideas
+
+    # ------------------------------------------------------------------
+    # Sprint 5: Automated trading integration
+    # ------------------------------------------------------------------
+
+    def run_auto_trade(self, execute: bool = False, tickers: Optional[list[str]] = None) -> dict:
+        """Full automated trading cycle.
+
+        Args:
+            execute: If True, actually place orders. Otherwise dry-run.
+            tickers: Optional ticker list to trade.
+
+        Returns:
+            Dict with mode and results.
+        """
+        from scripts.core.trader import AutoTrader
+
+        trader = AutoTrader()
+        if not execute:
+            ideas = self.generate_trade_ideas()
+            return {"mode": "dry_run", "ideas": ideas}
+        return trader.run_trading_cycle(tickers)
+
+    def run_monitor(self) -> dict:
+        """Quick health check on all positions."""
+        from scripts.core.trader import AutoTrader
+
+        trader = AutoTrader()
+        return trader.monitor_positions()
+
+    def run_news_check(self, tickers: Optional[list[str]] = None) -> dict:
+        """Check for breaking news and events.
+
+        Args:
+            tickers: Optional list of tickers to check.
+
+        Returns:
+            Dict with news, sentiment_shifts, volume_events.
+        """
+        from scripts.monitoring.news_monitor import NewsMonitor
+
+        monitor = NewsMonitor(watchlist=tickers)
+        news = monitor.check_breaking_news(tickers)
+        sentiment = monitor.check_reddit_sentiment_shift(tickers)
+        volume = monitor.check_unusual_volume(tickers)
+        return {"news": news, "sentiment_shifts": sentiment, "volume_events": volume}

@@ -312,5 +312,133 @@ def whale_watch(tickers: tuple[str, ...]) -> None:
             click.echo(f"  {ticker}: Error — {e}")
 
 
+@cli.command("auto-trade")
+@click.argument("tickers", nargs=-1)
+@click.option("--execute/--dry-run", default=False, help="Actually execute trades (default: dry run)")
+def auto_trade(tickers: tuple[str, ...], execute: bool) -> None:
+    """Run automated trading cycle: scan → decide → execute."""
+    from scripts.core.trader import AutoTrader
+
+    trader = AutoTrader()
+    ticker_list = list(tickers) if tickers else None
+
+    if execute:
+        click.echo("🚀 LIVE MODE — executing real trades!")
+        result = trader.run_trading_cycle(ticker_list)
+    else:
+        click.echo("🧪 DRY RUN — no orders will be placed.")
+        from scripts.core.orchestrator import TradingOrchestrator
+        orch = TradingOrchestrator()
+        ideas = orch.generate_trade_ideas()
+        result = {"mode": "dry_run", "ideas": ideas}
+
+    if result.get("mode") == "dry_run":
+        ideas = result.get("ideas", [])
+        if ideas:
+            click.echo(f"\n📋 {len(ideas)} trade ideas:")
+            for idea in ideas:
+                click.echo(
+                    f"  🟢 BUY {idea['qty']} {idea['ticker']} @ ${idea['price']:.2f} "
+                    f"(conviction={idea['conviction']:.3f}) — {idea.get('reason', '')}"
+                )
+        else:
+            click.echo("\n  No trade ideas above conviction threshold.")
+    else:
+        actions = result.get("actions_taken", [])
+        click.echo(f"\n✅ Cycle complete: {len(actions)} actions taken.")
+        for a in actions:
+            click.echo(f"  {a.get('type', '')} {a.get('ticker', '')} qty={a.get('qty', 0)}")
+        errors = result.get("errors", [])
+        if errors:
+            click.echo(f"\n⚠️ Errors: {len(errors)}")
+            for e in errors:
+                click.echo(f"  {e}")
+
+
+@cli.command()
+@click.argument("tickers", nargs=-1)
+def monitor(tickers: tuple[str, ...]) -> None:
+    """Check positions, stops, and alerts."""
+    from scripts.core.trader import AutoTrader
+
+    trader = AutoTrader()
+    result = trader.monitor_positions()
+
+    positions = result.get("positions", [])
+    click.echo("=" * 50)
+    click.echo("POSITION MONITOR")
+    click.echo("=" * 50)
+
+    if not positions:
+        click.echo("  No open positions.")
+    else:
+        click.echo(f"  {len(positions)} positions | Total P&L: ${result.get('total_pnl', 0):,.2f}")
+        for pos in positions:
+            pnl = float(pos.get("unrealized_pl", 0))
+            icon = "🟢" if pnl >= 0 else "🔴"
+            click.echo(
+                f"  {icon} {pos['ticker']:<8} {int(float(pos.get('qty', 0)))} shares "
+                f"@ ${float(pos.get('current_price', 0)):.2f}  P&L: ${pnl:,.2f}"
+            )
+
+    stops = result.get("stop_status", [])
+    if stops:
+        click.echo(f"\n🛑 Stop-Loss Status:")
+        for s in stops:
+            click.echo(
+                f"  {s['ticker']:<8} stop=${s['stop']:.2f}  "
+                f"distance={s['distance_pct']:.1f}%"
+            )
+
+    alerts = result.get("alerts", [])
+    if alerts:
+        from scripts.monitoring.alert_system import format_alert
+        click.echo(f"\n⚠️ Alerts ({len(alerts)}):")
+        for a in alerts:
+            click.echo(f"  {format_alert(a)}")
+
+
+@cli.command()
+@click.argument("tickers", nargs=-1)
+def news(tickers: tuple[str, ...]) -> None:
+    """Check breaking news and sentiment shifts."""
+    from scripts.monitoring.news_monitor import NewsMonitor
+
+    ticker_list = list(tickers) if tickers else None
+    monitor = NewsMonitor(watchlist=ticker_list)
+
+    click.echo("📰 Checking news...")
+    news_events = monitor.check_breaking_news(ticker_list)
+
+    if news_events:
+        click.echo(f"\n🗞 Breaking News ({len(news_events)} items):")
+        for ev in news_events[:15]:
+            icon = {"critical": "🔴", "high": "🟠", "medium": "🟡"}.get(ev["urgency"], "⚪")
+            click.echo(f"  {icon} [{ev['ticker']}] {ev['headline'][:80]}")
+            click.echo(f"      urgency={ev['urgency']}  sentiment={ev['sentiment']:+.2f}  source={ev['source']}")
+    else:
+        click.echo("\n  No breaking news found.")
+
+    click.echo("\n📊 Checking unusual volume...")
+    volume = monitor.check_unusual_volume(ticker_list)
+    if volume:
+        for v in volume:
+            click.echo(
+                f"  ⚡ {v['ticker']}: {v['ratio']:.1f}x avg volume, "
+                f"price {v['price_change_pct']:+.1f}%"
+            )
+    else:
+        click.echo("  No unusual volume detected.")
+
+
+@cli.command()
+def pulse() -> None:
+    """Market pulse: SPY, VIX, sectors, regime."""
+    from scripts.monitoring.market_pulse import MarketPulse
+
+    mp = MarketPulse()
+    click.echo(mp.format_pulse())
+
+
 if __name__ == "__main__":
     cli()
