@@ -44,12 +44,32 @@ class AutoTrader:
     # Main cycle
     # ------------------------------------------------------------------
 
-    def run_trading_cycle(self, tickers: Optional[list[str]] = None) -> dict:
+    def run_trading_cycle(
+        self,
+        tickers: Optional[list[str]] = None,
+        universe: str = "full",
+    ) -> dict:
         """Full trading cycle: scan → decide → execute → report.
+
+        Args:
+            tickers: Explicit ticker list. If None, uses *universe*.
+            universe: One of "watchlist", "sp500", "full". Only used when
+                *tickers* is None.
 
         Returns:
             dict with keys: actions_taken, signals_count, alerts, positions_updated, ideas
         """
+        if tickers is None:
+            if universe == "full":
+                from scripts.utils.universe import get_full_universe
+                u = get_full_universe()
+                tickers = u["all_unique"]
+                logger.info("Full universe: %d tickers", len(tickers))
+            elif universe == "sp500":
+                from scripts.utils.universe import get_sp500_tickers
+                tickers = get_sp500_tickers()
+                logger.info("S&P 500 universe: %d tickers", len(tickers))
+            # else watchlist — leave tickers=None for orchestrator default
         self.actions_log = []
         result: dict = {
             "timestamp": datetime.utcnow().isoformat(),

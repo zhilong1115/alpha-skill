@@ -130,6 +130,97 @@ def scrape_reddit_mentions(
     return pd.DataFrame(results)
 
 
+def discover_trending_tickers(
+    subreddits: list[str] | None = None,
+    min_mentions: int = 3,
+) -> list[dict]:
+    """Discover which tickers are trending on Reddit right now.
+
+    Unlike scrape_reddit_mentions (which scores known tickers), this
+    DISCOVERS new tickers from post titles.
+
+    Args:
+        subreddits: Subreddits to scan.
+        min_mentions: Minimum mentions to include.
+
+    Returns:
+        List of dicts sorted by mention count:
+        {ticker, mentions, subreddits_found_in, sample_titles, sentiment_hint}
+    """
+    import re
+    from collections import defaultdict
+
+    if subreddits is None:
+        subreddits = ["wallstreetbets", "stocks", "pennystocks", "shortsqueeze"]
+
+    # Common words to filter out
+    STOP_WORDS = {
+        "I", "A", "AM", "PM", "AN", "AS", "AT", "BE", "BY", "DO", "GO", "HE", "IF",
+        "IN", "IS", "IT", "ME", "MY", "NO", "OF", "OK", "ON", "OR", "SO", "TO", "UP",
+        "US", "WE", "CEO", "CFO", "CTO", "COO", "IPO", "ETF", "SEC", "FDA", "EPS",
+        "ATH", "DD", "YOLO", "FOMO", "IMO", "TIL", "PSA", "FYI", "LOL", "OMG",
+        "THE", "AND", "FOR", "ARE", "BUT", "NOT", "YOU", "ALL", "CAN", "HAD", "HER",
+        "WAS", "ONE", "OUR", "OUT", "HAS", "HIS", "HOW", "ITS", "MAY", "NEW", "NOW",
+        "OLD", "SEE", "WAY", "WHO", "DID", "GET", "GOT", "LET", "SAY", "SHE", "TOO",
+        "USE", "RUN", "WIN", "BIG", "TOP", "LOW", "HIGH", "JUST", "VERY",
+        "EDIT", "TLDR", "LMAO", "WHAT", "WITH", "THIS", "THAT", "FROM", "THEM",
+        "THEN", "THAN", "WHEN", "WILL", "MORE", "MOST", "SOME", "BEEN", "HAVE",
+        "EACH", "MAKE", "LIKE", "LONG", "LOOK", "MANY", "OVER", "SUCH", "TAKE",
+        "ONLY", "ALSO", "BACK", "YEAR", "INTO", "YOUR", "NEXT", "FREE", "BEST",
+        "GOOD", "WELL", "EVEN", "HERE", "MUCH", "STILL", "KEEP", "HOLD",
+        "SELL", "BUY", "CALL", "PUTS", "PUT", "GAIN", "LOSS", "MOVE", "PLAY",
+        "RIP", "PUMP", "DUMP", "MOON", "BEAR", "BULL", "OPEN", "DOWN",
+    }
+
+    ticker_re = re.compile(r'\$([A-Z]{2,5})\b|(?<![a-zA-Z])([A-Z]{2,5})(?![a-zA-Z])')
+
+    # {ticker: {mentions, subreddits, titles}}
+    ticker_data: dict[str, dict] = defaultdict(lambda: {
+        "mentions": 0, "subreddits": set(), "titles": []
+    })
+
+    for sub in subreddits:
+        url = f"https://www.reddit.com/r/{sub}/hot.json"
+        try:
+            resp = requests.get(url, headers=HEADERS, params={"limit": 50}, timeout=10)
+            if resp.status_code != 200:
+                time.sleep(REQUEST_DELAY)
+                continue
+            data = resp.json()
+            for child in data.get("data", {}).get("children", []):
+                title = child.get("data", {}).get("title", "")
+                matches = ticker_re.findall(title)
+                for dollar, bare in matches:
+                    t = dollar or bare
+                    if t in STOP_WORDS:
+                        continue
+                    td = ticker_data[t]
+                    td["mentions"] += 1
+                    td["subreddits"].add(sub)
+                    if len(td["titles"]) < 3:
+                        td["titles"].append(title[:100])
+        except Exception:
+            pass
+        time.sleep(REQUEST_DELAY)
+
+    results = []
+    for ticker, info in ticker_data.items():
+        if info["mentions"] >= min_mentions:
+            # Quick sentiment hint from titles
+            combined = " ".join(info["titles"])
+            hint = _score_text(combined)
+            results.append({
+                "ticker": ticker,
+                "mentions": info["mentions"],
+                "subreddits_found_in": sorted(info["subreddits"]),
+                "sample_titles": info["titles"],
+                "sentiment_hint": round(hint, 3),
+            })
+
+    results.sort(key=lambda x: x["mentions"], reverse=True)
+    return results
+
+
 def compute_sentiment_score(
     mentions: int, avg_sentiment: float, momentum: float
 ) -> float:

@@ -16,14 +16,36 @@ def cli() -> None:
 
 @cli.command()
 @click.argument("tickers", nargs=-1)
+@click.option("--universe", "universe_mode", type=click.Choice(["watchlist", "sp500", "full"]), default="watchlist",
+              help="Universe: watchlist (7 stocks), sp500, full (sp500+reddit+volume)")
 @click.option("--period", default="1y", help="Data period (e.g. 1y, 6mo, 5d)")
-def scan(tickers: tuple[str, ...], period: str) -> None:
-    """Scan tickers for trading signals."""
+def scan(tickers: tuple[str, ...], universe_mode: str, period: str) -> None:
+    """Scan tickers for trading signals.
+
+    --universe watchlist: default 7 tech stocks (fast)
+    --universe sp500: full S&P 500 (3-5 min)
+    --universe full: S&P 500 + Reddit trending + volume spikes (5-8 min)
+    """
     from scripts.core.data_pipeline import get_price_data
     from scripts.core.signal_engine import compute_signals
     from scripts.core.conviction import compute_conviction
 
-    if not tickers:
+    if tickers:
+        pass  # use provided tickers
+    elif universe_mode == "sp500":
+        from scripts.utils.universe import get_sp500_tickers
+        tickers = tuple(get_sp500_tickers())
+        click.echo(f"📡 Scanning {len(tickers)} S&P 500 tickers...")
+    elif universe_mode == "full":
+        from scripts.utils.universe import get_full_universe
+        u = get_full_universe()
+        tickers = tuple(u["all_unique"])
+        click.echo(
+            f"📡 Scanning {len(tickers)} tickers "
+            f"(S&P 500 + {len(u['reddit_trending'])} Reddit trending "
+            f"+ {len(u['volume_spikes'])} volume spikes)..."
+        )
+    else:
         tickers = ("AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA")
         click.echo(f"No tickers specified. Scanning defaults: {', '.join(tickers)}")
 
@@ -49,10 +71,12 @@ def scan(tickers: tuple[str, ...], period: str) -> None:
     if all_signals:
         combined = pd.concat(all_signals, ignore_index=True)
         conviction = compute_conviction(combined)
+        conviction = conviction.sort_values("conviction_score", ascending=False)
+        top_n = min(20, len(conviction))
         click.echo("\n" + "=" * 50)
-        click.echo("CONVICTION SCORES")
+        click.echo(f"TOP {top_n} CONVICTION SCORES (of {len(conviction)} scanned)")
         click.echo("=" * 50)
-        for _, row in conviction.iterrows():
+        for _, row in conviction.head(top_n).iterrows():
             score = row["conviction_score"]
             indicator = "🟢" if score > 0.2 else "🔴" if score < -0.2 else "⚪"
             click.echo(f"  {indicator} {row['ticker']:<8} {score:+.3f}")
@@ -314,13 +338,30 @@ def whale_watch(tickers: tuple[str, ...]) -> None:
 
 @cli.command("auto-trade")
 @click.argument("tickers", nargs=-1)
+@click.option("--universe", "universe_mode", type=click.Choice(["watchlist", "sp500", "full"]), default="full",
+              help="Universe: watchlist, sp500, full (default)")
 @click.option("--execute/--dry-run", default=False, help="Actually execute trades (default: dry run)")
-def auto_trade(tickers: tuple[str, ...], execute: bool) -> None:
+def auto_trade(tickers: tuple[str, ...], universe_mode: str, execute: bool) -> None:
     """Run automated trading cycle: scan → decide → execute."""
     from scripts.core.trader import AutoTrader
 
     trader = AutoTrader()
-    ticker_list = list(tickers) if tickers else None
+    if tickers:
+        ticker_list = list(tickers)
+    elif universe_mode == "sp500":
+        from scripts.utils.universe import get_sp500_tickers
+        ticker_list = get_sp500_tickers()
+        click.echo(f"📡 Using S&P 500 universe: {len(ticker_list)} tickers")
+    elif universe_mode == "full":
+        from scripts.utils.universe import get_full_universe
+        u = get_full_universe()
+        ticker_list = u["all_unique"]
+        click.echo(
+            f"📡 Using full universe: {len(ticker_list)} tickers "
+            f"(S&P 500 + {len(u['reddit_trending'])} Reddit + {len(u['volume_spikes'])} volume)"
+        )
+    else:
+        ticker_list = None
 
     if execute:
         click.echo("🚀 LIVE MODE — executing real trades!")
