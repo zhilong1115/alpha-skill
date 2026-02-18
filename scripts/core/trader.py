@@ -118,6 +118,22 @@ class AutoTrader:
             result["errors"].append(f"Idea generation failed: {e}")
             return result
 
+        # 4.5. LLM Judgment Layer — subjective review of trade candidates
+        try:
+            from scripts.analysis.llm_judge import review_trade_ideas
+            regime = scan.get("regime", {}).get("regime", "SIDEWAYS") if isinstance(scan.get("regime"), dict) else "SIDEWAYS"
+            original_count = len(ideas)
+            ideas = review_trade_ideas(ideas, regime=regime)
+            result["ideas"] = ideas
+            vetoed = original_count - len(ideas)
+            if vetoed > 0:
+                logger.info("LLM judgment vetoed %d/%d ideas", vetoed, original_count)
+            result["judgment_applied"] = True
+            result["ideas_vetoed"] = vetoed
+        except Exception as e:
+            logger.warning("LLM judgment layer failed (proceeding without): %s", e)
+            result["judgment_applied"] = False
+
         # 5. Evaluate and trade
         try:
             executed = self.evaluate_and_trade(ideas)

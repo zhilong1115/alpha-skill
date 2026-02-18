@@ -473,6 +473,52 @@ def news(tickers: tuple[str, ...]) -> None:
 
 
 @cli.command()
+@click.argument("tickers", nargs=-1)
+@click.option("--regime", default=None, help="Override regime (BULL/BEAR/SIDEWAYS/VOLATILE)")
+def judge(tickers: tuple[str, ...], regime: str | None) -> None:
+    """LLM subjective review of trade candidates.
+
+    Gathers news, price action, volume for each ticker and applies
+    judgment adjustments to conviction scores.
+    """
+    from scripts.analysis.llm_judge import gather_context, apply_rule_based_judgment, build_judgment_prompt
+    from scripts.analysis.regime_detector import detect_regime_detailed
+
+    if not tickers:
+        # Use top ideas from a scan
+        from scripts.core.orchestrator import TradingOrchestrator
+        orch = TradingOrchestrator()
+        ideas = orch.generate_trade_ideas(0.3)
+        if not ideas:
+            click.echo("No trade candidates to review.")
+            return
+        tickers_to_review = [(i["ticker"], i["conviction"], i.get("side", "buy"), i.get("reason", "")) for i in ideas]
+    else:
+        tickers_to_review = [(t.upper(), 0.5, "buy", "manual review") for t in tickers]
+
+    if regime is None:
+        ri = detect_regime_detailed()
+        regime = ri["regime"]
+
+    click.echo(f"🧠 LLM Judgment Layer | Regime: {regime}")
+    click.echo("=" * 60)
+
+    for ticker, conv, side, reason in tickers_to_review:
+        ctx = gather_context(ticker)
+        j = apply_rule_based_judgment(ticker, conv, side, ctx, regime)
+        prompt = build_judgment_prompt(ticker, conv, side, reason, ctx, regime)
+
+        icon = {"proceed": "✅", "boost": "🟢", "reduce": "🟡", "veto": "🔴"}[j.action]
+        click.echo(f"\n{icon} {ticker} — {j.action.upper()}")
+        click.echo(f"  Conviction: {j.original_conviction:.3f} → {j.adjusted_conviction:.3f} ({j.adjustment:+.3f})")
+        click.echo(f"  Reasoning: {j.reasoning}")
+        if j.news_digest:
+            click.echo(f"  News ({len(j.news_digest)}):")
+            for h in j.news_digest[:3]:
+                click.echo(f"    • {h}")
+
+
+@cli.command()
 def pulse() -> None:
     """Market pulse: SPY, VIX, sectors, regime."""
     from scripts.monitoring.market_pulse import MarketPulse
