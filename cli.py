@@ -81,6 +81,13 @@ def scan(tickers: tuple[str, ...], universe_mode: str, period: str) -> None:
             indicator = "🟢" if score > 0.2 else "🔴" if score < -0.2 else "⚪"
             click.echo(f"  {indicator} {row['ticker']:<8} {score:+.3f}")
 
+        # Save top picks for intraday smart universe
+        top_picks = conviction[conviction["conviction_score"] > 0.3].head(30)["ticker"].tolist()
+        if top_picks:
+            from scripts.utils.universe import save_premarket_picks
+            save_premarket_picks(top_picks)
+            click.echo(f"\n💾 Saved {len(top_picks)} picks (>0.3) for intraday smart universe")
+
 
 @cli.command()
 def portfolio() -> None:
@@ -358,8 +365,8 @@ def whale_watch(tickers: tuple[str, ...]) -> None:
 
 @cli.command("auto-trade")
 @click.argument("tickers", nargs=-1)
-@click.option("--universe", "universe_mode", type=click.Choice(["watchlist", "sp500", "full"]), default="full",
-              help="Universe: watchlist, sp500, full (default)")
+@click.option("--universe", "universe_mode", type=click.Choice(["watchlist", "sp500", "full", "smart"]), default="smart",
+              help="Universe: watchlist, sp500, full, smart (default)")
 @click.option("--execute/--dry-run", default=False, help="Actually execute trades (default: dry run)")
 def auto_trade(tickers: tuple[str, ...], universe_mode: str, execute: bool) -> None:
     """Run automated trading cycle: scan → decide → execute."""
@@ -372,6 +379,15 @@ def auto_trade(tickers: tuple[str, ...], universe_mode: str, execute: bool) -> N
         from scripts.utils.universe import get_sp500_tickers
         ticker_list = get_sp500_tickers()
         click.echo(f"📡 Using S&P 500 universe: {len(ticker_list)} tickers")
+    elif universe_mode == "smart":
+        from scripts.utils.universe import get_smart_universe
+        u = get_smart_universe()
+        ticker_list = u["all_unique"]
+        click.echo(
+            f"🧠 Smart universe: {len(ticker_list)} tickers "
+            f"({len(u['positions'])} positions + {len(u['news_tickers'])} news + "
+            f"{len(u['premarket_picks'])} premarket + {len(u['reddit_hot'])} reddit)"
+        )
     elif universe_mode == "full":
         from scripts.utils.universe import get_full_universe
         u = get_full_universe()
@@ -668,6 +684,182 @@ def pulse() -> None:
 
     mp = MarketPulse()
     click.echo(mp.format_pulse())
+
+
+# ==================================================================
+# V2: Intraday Trading
+# ==================================================================
+
+@cli.command("day-scan")
+def day_scan() -> None:
+    """Scan for intraday trade candidates (gaps, volume, catalysts)."""
+    from scripts.intraday.scanner import get_intraday_candidates
+
+    candidates = get_intraday_candidates(top_n=15)
+    if not candidates:
+        click.echo("No intraday candidates found.")
+        return
+
+    click.echo(f"\n{'='*60}")
+    click.echo(f"INTRADAY CANDIDATES ({len(candidates)})")
+    click.echo(f"{'='*60}")
+    for c in candidates:
+        catalyst = "📰" if c.get("has_catalyst") else "  "
+        direction = "🟢" if c.get("direction") == "long" else "🔴"
+        click.echo(
+            f"  {direction} {catalyst} {c['ticker']:<6} "
+            f"gap={c.get('gap_pct', 0):+.1f}%  "
+            f"vol={c.get('volume_ratio', 0):.1f}x  "
+            f"score={c.get('intraday_score', 0):.3f}"
+        )
+
+
+@cli.command("day-trade")
+@click.option("--execute/--dry-run", default=False, help="Execute real trades")
+def day_trade(execute: bool) -> None:
+    """Run intraday trading cycle: scan → signal → trade → manage."""
+    from scripts.intraday.trader import IntradayTrader
+
+    trader = IntradayTrader()
+    if execute:
+        click.echo("🚀 LIVE INTRADAY MODE")
+    else:
+        click.echo("🔍 DRY RUN MODE")
+
+    result = trader.run_cycle(execute=execute)
+
+    click.echo(f"\n📊 Cycle Result:")
+    click.echo(f"  Phase: {result.get('phase', '?')}")
+    click.echo(f"  Open positions: {result.get('open_positions', 0)}")
+    click.echo(f"  Candidates found: {result.get('candidates_found', 0)}")
+    click.echo(f"  Recommendations: {result.get('recommendations', 0)}")
+    click.echo(f"  Realized P&L: ${result.get('realized_pnl', 0):.2f}")
+
+    for action in result.get("position_actions", []):
+        click.echo(f"  📌 Closed {action['ticker']}: ${action.get('pnl', 0):+.2f} ({action.get('reason', '')})")
+
+    for trade in result.get("trades", []):
+        status = trade.get("status", "?")
+        click.echo(
+            f"  {'✅' if status == 'executed' else '📋'} {trade['side'].upper()} "
+            f"{trade['qty']} {trade['ticker']} @ ${trade['price']:.2f} "
+            f"(score={trade.get('combined_score', 0):.2f}) [{status}]"
+        )
+
+
+@cli.command("day-status")
+def day_status() -> None:
+    """Show intraday trading status and P&L."""
+    from scripts.intraday.trader import IntradayTrader
+
+    trader = IntradayTrader()
+    status = trader.get_status()
+
+    click.echo(f"\n{'='*60}")
+    click.echo(f"INTRADAY STATUS — {status.get('date', 'today')}")
+    click.echo(f"{'='*60}")
+    click.echo(f"  Trades: {status.get('round_trips', 0)} round-trips ({status.get('winners', 0)}W / {status.get('losers', 0)}L)")
+    click.echo(f"  Win rate: {status.get('win_rate', 0):.1f}%")
+    click.echo(f"  Realized P&L: ${status.get('realized_pnl', 0):.2f}")
+    click.echo(f"  Unrealized P&L: ${status.get('unrealized_pnl', 0):.2f}")
+    click.echo(f"  Total P&L: ${status.get('total_pnl', 0):.2f}")
+
+    if status.get("stopped_early"):
+        click.echo("  ⚠️ STOPPED EARLY — daily loss limit hit")
+
+    for p in status.get("open_positions", []):
+        icon = "🟢" if p["pnl"] > 0 else "🔴"
+        click.echo(
+            f"  {icon} {p['ticker']:<6} {p['qty']}x @ ${p['entry']:.2f} → "
+            f"${p['current']:.2f} ({p['pnl_pct']:+.1f}%) "
+            f"stop=${p['stop']:.2f} target=${p['target']:.2f}"
+        )
+
+
+@cli.command("day-close")
+@click.confirmation_option(prompt="Close ALL intraday positions?")
+def day_close() -> None:
+    """Force close all intraday positions."""
+    from scripts.intraday.trader import IntradayTrader
+
+    trader = IntradayTrader()
+    result = trader.manage_positions()
+    for action in result.get("actions", []):
+        click.echo(f"  Closed {action['ticker']}: ${action.get('pnl', 0):+.2f}")
+    click.echo("All intraday positions closed.")
+
+
+# ==================================================================
+# V2: Swing Recommendations
+# ==================================================================
+
+@cli.command("swing-recommend")
+@click.option("--universe", type=click.Choice(["watchlist", "sp500", "full"]), default="full")
+@click.option("--top", "top_n", default=5, help="Number of recommendations")
+def swing_recommend(universe: str, top_n: int) -> None:
+    """Generate daily swing trade recommendations."""
+    from scripts.swing.recommender import generate_recommendations, format_recommendation_message
+
+    if universe == "full":
+        from scripts.utils.universe import get_full_universe
+        u = get_full_universe()
+        tickers = u["all_unique"]
+        click.echo(f"📡 Scanning {len(tickers)} tickers...")
+    elif universe == "sp500":
+        from scripts.utils.universe import get_sp500_tickers
+        tickers = get_sp500_tickers()
+        click.echo(f"📡 Scanning {len(tickers)} S&P 500 tickers...")
+    else:
+        tickers = None
+
+    recs = generate_recommendations(tickers=tickers, top_n=top_n)
+    msg = format_recommendation_message(recs)
+    click.echo(msg)
+
+
+@cli.command("swing-add")
+@click.argument("ticker")
+@click.argument("qty", type=int)
+@click.argument("price", type=float)
+@click.option("--stop", "stop_loss", type=float, default=None, help="Stop-loss price")
+@click.option("--target", type=float, default=None, help="Target price")
+@click.option("--notes", default="", help="Notes")
+def swing_add(ticker: str, qty: int, price: float, stop_loss: float | None,
+              target: float | None, notes: str) -> None:
+    """Add a position to swing portfolio tracking."""
+    from scripts.swing.tracker import add_position
+
+    pos = add_position(ticker, qty, price, stop_loss, target, notes)
+    click.echo(f"✅ Added {qty} {ticker.upper()} @ ${price:.2f}")
+    if stop_loss:
+        click.echo(f"   🛑 Stop: ${stop_loss:.2f}")
+    if target:
+        click.echo(f"   🎯 Target: ${target:.2f}")
+
+
+@cli.command("swing-remove")
+@click.argument("ticker")
+@click.option("--price", "exit_price", type=float, default=None, help="Exit price")
+@click.option("--reason", default="manual close", help="Reason for closing")
+def swing_remove(ticker: str, exit_price: float | None, reason: str) -> None:
+    """Remove a position from swing portfolio (sold)."""
+    from scripts.swing.tracker import remove_position
+
+    result = remove_position(ticker, exit_price, reason)
+    if result:
+        pnl = result.get("pnl")
+        click.echo(f"✅ Closed {ticker.upper()}" + (f" — P&L: ${pnl:+.2f}" if pnl else ""))
+    else:
+        click.echo(f"❌ {ticker.upper()} not found in swing portfolio")
+
+
+@cli.command("swing-status")
+def swing_status() -> None:
+    """Show swing portfolio status with live prices."""
+    from scripts.swing.tracker import get_portfolio_status, format_status_message
+
+    status = get_portfolio_status()
+    click.echo(format_status_message(status))
 
 
 if __name__ == "__main__":

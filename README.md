@@ -1,113 +1,60 @@
 # Alpha Skill 📈
 
-AI-powered US stock trading agent with **dual-layer signals** (daily + intraday), **LLM judgment**, **real-time news**, and **automated execution**. Scans 600+ tickers (S&P 500 + Reddit trending + volume spikes), trades every 30 minutes during market hours via Alpaca paper/live trading. Built as an [OpenClaw](https://github.com/openclaw/openclaw) skill.
+AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (automated on Alpaca) + **Swing recommendations** (for manual trading on Robinhood). Real-time market scanning via Alpaca Screener API, news-driven catalysts, and strict intraday risk management. Built as an [OpenClaw](https://github.com/openclaw/openclaw) skill.
+
+## Architecture: Two Independent Modes
+
+### Mode A: Intraday Day Trading (Alpaca, Automated)
+- **Full market scanning** via Alpaca Screener API — top gainers, losers, most active stocks across entire market
+- **5-minute candle signals**: VWAP, Opening Range Breakout, momentum slope, RSI, volume profile
+- **Catalyst-driven**: gaps >2%, unusual volume, breaking news
+- **Strict risk**: max 5 positions, 2% stop-loss, 4% take-profit, 1% daily loss cap
+- **12:45 PM PT hard close** — all positions liquidated, no overnight holds
+- Target: 3-8 selective trades/day
+
+### Mode B: Swing Recommendations (Robinhood, Manual)
+- Daily morning scan of S&P 500 + Reddit trending + volume spikes (600+ tickers)
+- Top 3-5 picks with conviction score, target price, stop-loss, risk/reward ratio
+- Portfolio tracking: monitors your positions, alerts on stop-loss/target hits
+- Daily signals: RSI, MACD, Bollinger Bands, SMA crossovers, volume anomaly
 
 ## Features
 
-### Signal Engine (Dual-Layer)
-- **Daily Signals** — RSI, MACD, Bollinger Bands, SMA crossover, volume anomaly
-- **Intraday Signals** — VWAP deviation, Opening Range Breakout, 5-min momentum, intraday RSI, volume profile
-- **Combined Conviction** — 60% daily (direction) + 40% intraday (timing) → enter_now / wait / exit_now / hold
+### Intraday Scanner (3 Sources)
+- **Alpaca Screener API** — Real-time market-wide: top gainers, losers, most active
+- **Gap Scanner** — Pre-market gaps >2% from liquid universe (~150 stocks)
+- **News Daemon** — Alpaca WebSocket (sub-second) + RSS feeds (CNBC, Reuters, MarketWatch, Yahoo Finance)
+
+### Signal Engines
+- **Daily Signals** — RSI, MACD, Bollinger Bands, SMA crossover, volume anomaly (for swing)
+- **Intraday Signals** — VWAP deviation, ORB breakout, 5-min momentum, RSI(14), relative volume (for day trading)
 
 ### LLM Judgment Layer
-- Reads news headlines, price action, and volume for each trade candidate
-- Adjusts conviction: BOOST / REDUCE / VETO with reasoning
+- Rule-based heuristics: macro shocks, catalysts, falling knives, volume confirmation
 - Regime-adaptive: less aggressive in bull markets, more cautious in bear
-- Rule-based heuristics for macro shocks (Fed, tariffs, war), catalysts, falling knives
+- Actions: PROCEED / BOOST / REDUCE / VETO
 
-### Real-Time News Daemon
-- **Alpaca WebSocket** — Sub-second latency, Benzinga news stream
-- **RSS Feeds** — CNBC, Reuters, MarketWatch, Yahoo Finance (60s polling)
-- **Finnhub REST** — General market news (120s polling, optional)
-- **Bidirectional Signals** — Buy opportunities (FDA approvals, earnings beats, rate cuts) AND sell warnings (macro shocks, fraud, downgrades)
-- **Dynamic Watchlist** — Auto-includes current holdings + A/B test positions
+### Risk Management
 
-### A/B Test Framework
-- Parallel tracking: Strategy A (quant-only on Alpaca) vs Strategy B (quant + judgment, virtual portfolio)
-- Logs all divergences: vetoed, boosted, reduced trades
-- Persistent state with real-time comparison dashboard
+#### Intraday Risk
+| Control | Value |
+|---------|-------|
+| Max positions | 5 |
+| Position size | 10% of portfolio |
+| Stop-loss | 2% per trade |
+| Take-profit | 4% per trade (2:1 R/R) |
+| Daily loss cap | 1% of portfolio |
+| Hard close | 12:45 PM PT |
 
-### Trading Infrastructure
-- **Full Market Scanning** — 600+ tickers: S&P 500 + Reddit trending + unusual volume
-- **30-Minute Trading Cycles** — Active trading throughout market hours
-- **Sentiment Analysis** — Reddit scraping + yfinance news sentiment
-- **Event-Driven Strategies** — Earnings, momentum, mean reversion, institutional following
-- **Multi-Agent Debate** — Bull vs. bear case synthesis
-- **Regime Detection** — Bull/bear/sideways/volatile with adaptive weights
-- **Risk Management** — Position sizing, trailing stops, drawdown limits, cumulative tracking
-- **Backtesting** — Historical comparison: baseline vs judgment-enhanced strategy
-
-## Architecture
-
-```
-us-stock-trading/
-├── cli.py                        # Click CLI (20 commands)
-├── config.yaml                   # Configuration
-├── requirements.txt              # Python dependencies
-│
-├── scripts/
-│   ├── core/
-│   │   ├── data_pipeline.py      # yfinance data fetcher with parquet caching
-│   │   ├── signal_engine.py      # Daily technical indicator computation
-│   │   ├── intraday_signals.py   # 5-min VWAP, ORB, momentum, RSI, volume profile
-│   │   ├── conviction.py         # Weighted signal synthesis → conviction scores
-│   │   ├── risk_manager.py       # Position sizing, limits, stop-loss
-│   │   ├── executor.py           # Alpaca broker integration
-│   │   ├── orchestrator.py       # End-to-end trading pipeline
-│   │   ├── trader.py             # AutoTrader: scan → intraday → judge → risk → execute
-│   │   └── ab_tracker.py         # A/B test: baseline vs judgment comparison
-│   │
-│   ├── strategies/
-│   │   ├── earnings_event.py     # Earnings-driven signals
-│   │   ├── sentiment_momentum.py # Reddit/news → contrarian/momentum
-│   │   ├── investor_following.py # 13F/ARK/congressional following
-│   │   ├── momentum_factor.py    # 12-1 month momentum factor
-│   │   └── mean_reversion.py     # Bollinger + RSI reversion
-│   │
-│   ├── analysis/
-│   │   ├── llm_judge.py          # LLM subjective judgment layer
-│   │   ├── sentiment_scraper.py  # Reddit scraper + trending tickers
-│   │   ├── news_analyzer.py      # yfinance news sentiment
-│   │   ├── earnings_analyzer.py  # Earnings keyword analysis
-│   │   ├── filing_parser.py      # SEC EDGAR 13F parser
-│   │   ├── regime_detector.py    # Market regime classification
-│   │   └── debate.py             # Multi-agent bull/bear debate
-│   │
-│   ├── monitoring/
-│   │   ├── realtime_news.py      # News daemon: Alpaca WS + RSS + Finnhub
-│   │   ├── news_monitor.py       # Breaking news + sentiment shifts
-│   │   ├── market_pulse.py       # Market-wide health dashboard
-│   │   ├── portfolio_tracker.py  # P&L tracking
-│   │   ├── report_generator.py   # Daily/weekly reports
-│   │   ├── alert_system.py       # Drawdown, stop-loss, signal alerts
-│   │   └── signal_efficacy.py    # Signal performance tracking
-│   │
-│   ├── backtest/
-│   │   ├── engine.py             # Day-by-day backtesting engine
-│   │   ├── judgment_backtest.py  # Comparison: baseline vs judgment-enhanced
-│   │   └── optimizer.py          # Random search weight optimization
-│   │
-│   └── utils/
-│       ├── universe.py           # S&P 500 + Reddit trending + volume screener
-│       └── calendar.py           # Market hours + earnings calendar
-│
-├── tests/                        # 24 tests, all passing
-└── data/
-    ├── cache/                    # Parquet price data cache
-    ├── alerts/                   # Real-time news daemon alerts
-    ├── judgments/                 # LLM judgment logs
-    ├── trades/                   # Trade cycle logs
-    └── ab_test.json              # A/B test state
-```
+#### Swing Risk (Recommendation-level)
+| Control | Value |
+|---------|-------|
+| Min R/R ratio | 1.5:1 |
+| Min conviction | 0.4 |
+| Stop-loss | Below 20-day low |
+| Target | Near resistance / +10% |
 
 ## Quick Start
-
-### Prerequisites
-
-- Python 3.13+
-- [Alpaca](https://alpaca.markets/) account (free, paper trading supported)
-
-### Installation
 
 ```bash
 git clone https://github.com/zhilong1115/alpha-skill.git
@@ -115,14 +62,9 @@ cd alpha-skill
 python3.13 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-### Configuration
-
-```bash
 cp .env.example .env
 # Add: ALPACA_API_KEY, ALPACA_SECRET_KEY
-# Optional: FINNHUB_API_KEY (for extra news source)
+# Optional: FINNHUB_API_KEY
 ```
 
 ## CLI Commands
@@ -130,139 +72,156 @@ cp .env.example .env
 ```bash
 source .venv/bin/activate
 
-# === TRADING ===
-python cli.py auto-trade --universe full --execute  # Full cycle: scan → judge → trade
-python cli.py auto-trade --universe full             # Dry run
-python cli.py scan --universe full                    # Signal scan only
-python cli.py trade buy AAPL 10                       # Manual trade
+# === INTRADAY DAY TRADING ===
+python cli.py day-scan                          # Scan: Alpaca screener + gaps + news
+python cli.py day-trade --execute               # Full cycle: scan → signal → trade
+python cli.py day-trade                         # Dry run
+python cli.py day-status                        # Today's trades, P&L, open positions
+python cli.py day-close                         # Force close all positions
 
-# === JUDGMENT ===
-python cli.py judge AAPL NVDA TSLA                    # LLM judgment review
-python cli.py judge                                    # Review top candidates from scan
-
-# === INTRADAY ===
-python cli.py intraday AAPL GOOGL NVDA                # 5-min intraday signals
+# === SWING RECOMMENDATIONS ===
+python cli.py swing-recommend --universe sp500  # Generate daily top 5 picks
+python cli.py swing-add AAPL 10 185.50 --stop 178 --target 205  # Track a position
+python cli.py swing-remove AAPL --price 200     # Record a sale
+python cli.py swing-status                      # Portfolio status + alerts
 
 # === NEWS ===
-python cli.py news-daemon start                        # Start real-time news daemon
-python cli.py news-daemon status                       # Check daemon status
-python cli.py news-daemon alerts                       # View pending alerts (buy/sell/monitor)
-python cli.py news-daemon stop                         # Stop daemon
-python cli.py news AAPL NVDA                           # Manual news check
+python cli.py news-daemon start                 # Start real-time daemon
+python cli.py news-daemon alerts                # View pending alerts
+python cli.py news-daemon status                # Check daemon
+python cli.py news-daemon stop                  # Stop daemon
 
-# === A/B TEST ===
-python cli.py ab-status                                # Compare baseline vs judgment strategy
-python cli.py ab-reset                                 # Reset A/B tracking
+# === SCANNING & ANALYSIS ===
+python cli.py scan --universe full              # Full signal scan (600+ tickers)
+python cli.py pulse                             # Market dashboard: SPY, VIX, regime
+python cli.py analyze AAPL                      # Deep-dive analysis
+python cli.py judge AAPL NVDA                   # LLM judgment review
+python cli.py signals AAPL                      # All active signals
 
-# === MONITORING ===
-python cli.py pulse                                    # Market dashboard
-python cli.py monitor                                  # Position health check
-python cli.py portfolio                                # Current positions + P&L
-
-# === ANALYSIS ===
-python cli.py analyze AAPL                             # Deep-dive analysis
-python cli.py signals AAPL --period 1y                 # All active signals
-python cli.py earnings AAPL MSFT                       # Earnings data
-python cli.py whale-watch                              # Institutional moves
+# === PORTFOLIO & MONITORING ===
+python cli.py portfolio                         # Alpaca positions + P&L
+python cli.py monitor                           # Position health check
+python cli.py report                            # Daily report
 
 # === BACKTESTING ===
-python cli.py backtest AAPL NVDA --start 2025-06-01 --end 2025-12-31
-python cli.py backtest-compare AAPL NVDA TSLA GOOGL MSFT AMZN META \
-  --start 2022-01-01 --end 2025-12-31                 # Baseline vs judgment comparison
+python cli.py backtest AAPL --start 2025-06-01
+python cli.py backtest-compare AAPL NVDA TSLA --start 2022-01-01
 
-# === OTHER ===
-python cli.py risk                                     # Risk dashboard
-python cli.py report                                   # Daily report
-python cli.py config                                   # View configuration
+# === LEGACY ===
+python cli.py auto-trade --universe smart --execute  # V1 swing trading (deprecated)
+python cli.py ab-status                         # A/B test comparison
+```
+
+## Architecture
+
+```
+us-stock-trading/
+├── cli.py                          # Click CLI (28 commands)
+├── config.yaml
+├── DESIGN_V2.md                    # V2 architecture design doc
+│
+├── scripts/
+│   ├── intraday/                   # 🆕 V2: Day trading system
+│   │   ├── scanner.py             # Alpaca Screener API + gap scan + news catalysts
+│   │   ├── signals.py             # 5-min: VWAP, ORB, momentum, RSI, volume
+│   │   ├── risk.py                # 5 pos max, 1% daily cap, 2% stop, hard close
+│   │   └── trader.py             # Full lifecycle: scan → signal → execute → manage
+│   │
+│   ├── swing/                      # 🆕 V2: Swing recommendations
+│   │   ├── recommender.py         # Daily picks: conviction + target + stop + R/R
+│   │   └── tracker.py            # Track Robinhood positions, alert on stops/targets
+│   │
+│   ├── core/
+│   │   ├── signal_engine.py       # Daily technical signals
+│   │   ├── conviction.py          # Weighted conviction scoring
+│   │   ├── risk_manager.py        # Position sizing & limits
+│   │   ├── executor.py            # Alpaca broker integration
+│   │   ├── orchestrator.py        # Pipeline orchestration
+│   │   ├── trader.py              # AutoTrader (V1, legacy)
+│   │   ├── data_pipeline.py       # yfinance + parquet cache
+│   │   ├── intraday_signals.py    # V1 intraday (legacy)
+│   │   └── ab_tracker.py          # A/B test framework
+│   │
+│   ├── analysis/
+│   │   ├── llm_judge.py           # LLM judgment layer
+│   │   ├── regime_detector.py     # Bull/bear/sideways detection
+│   │   ├── sentiment_scraper.py   # Reddit scraping
+│   │   ├── news_analyzer.py       # News sentiment
+│   │   └── debate.py              # Bull vs bear debate
+│   │
+│   ├── monitoring/
+│   │   ├── realtime_news.py       # Daemon: Alpaca WS + RSS + Finnhub
+│   │   ├── market_pulse.py        # Market dashboard
+│   │   └── portfolio_tracker.py   # P&L tracking
+│   │
+│   ├── strategies/                 # Earnings, momentum, mean reversion, sentiment
+│   ├── backtest/                   # Backtesting engines
+│   └── utils/
+│       └── universe.py            # S&P 500 + Reddit + volume + smart universe
+│
+├── tests/                          # 24 tests
+└── data/
+    ├── intraday_state.json         # Today's day trades
+    ├── intraday_history/           # Daily archives
+    ├── swing_portfolio.json        # Robinhood position tracking
+    ├── alerts/pending.json         # News daemon alerts
+    ├── premarket_picks.json        # Morning scan top picks
+    └── cache/                      # Price data cache
 ```
 
 ## Trading Pipeline
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    TRADING CYCLE (every 30 min)              │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Universe (600+)                                            │
-│  S&P 500 + Reddit + Volume                                  │
-│       │                                                     │
-│       ▼                                                     │
-│  Daily Signals (direction)                                  │
-│  RSI, MACD, Bollinger, SMA, Volume                         │
-│       │                                                     │
-│       ▼                                                     │
-│  Intraday Signals (timing)           Real-Time News         │
-│  VWAP, ORB, Momentum, RSI, Vol      Alpaca WS + RSS        │
-│       │                                    │                │
-│       ▼                                    ▼                │
-│  Combined Conviction              News Classification       │
-│  60% daily + 40% intraday        bullish → BUY signal       │
-│       │                          bearish → SELL signal       │
-│       ▼                                    │                │
-│  LLM Judgment Layer ◄─────────────────────┘                │
-│  Read news + price action + volume                          │
-│  → PROCEED / BOOST / REDUCE / VETO                         │
-│       │                                                     │
-│       ▼                                                     │
-│  Risk Manager (cumulative tracking)                         │
-│  15 positions max, 20% cash reserve, 5% per position       │
-│       │                                                     │
-│       ▼                                                     │
-│  Execute on Alpaca ──── Track in A/B Test                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────┐  ┌──────────────────────────────────┐
+│    INTRADAY (Alpaca, Auto)       │  │    SWING (Robinhood, Manual)     │
+├──────────────────────────────────┤  ├──────────────────────────────────┤
+│                                  │  │                                  │
+│  Alpaca Screener API             │  │  Full Universe (600+)            │
+│  Gainers / Losers / Most Active  │  │  S&P 500 + Reddit + Volume      │
+│       │                          │  │       │                          │
+│       ▼                          │  │       ▼                          │
+│  + Gap Scanner + News Catalysts  │  │  Daily Signals (RSI, MACD, BB)  │
+│       │                          │  │       │                          │
+│       ▼                          │  │       ▼                          │
+│  5-min Signals                   │  │  Conviction Scoring              │
+│  VWAP, ORB, Momentum, RSI       │  │  + LLM Judgment                  │
+│       │                          │  │       │                          │
+│       ▼                          │  │       ▼                          │
+│  Intraday Risk                   │  │  Top 5 Recommendations           │
+│  5 max, 2% stop, 1% daily cap   │  │  Target / Stop / R:R ratio       │
+│       │                          │  │       │                          │
+│       ▼                          │  │       ▼                          │
+│  Execute on Alpaca               │  │  → Telegram to Zhilong           │
+│  Close by 12:45 PM              │  │  → Track positions + alerts       │
+│                                  │  │                                  │
+└──────────────────────────────────┘  └──────────────────────────────────┘
 ```
 
-## Autonomous Schedule (Mon–Fri)
+## Autonomous Schedule (Mon–Fri PT)
 
-| Time (PT) | Action | Notification |
-|-----------|--------|-------------|
-| 5:50 AM | 🚀 Start news daemon (Alpaca WS + RSS) | Silent |
-| 6:00 AM | 📊 Market pulse + full scan | ✅ Telegram |
-| 6:00 AM – 12:30 PM | 💰 **Auto-trade every 30 min** | ✅ When trades execute |
-| Every 5 min | 📰 News monitor (buy/sell signals) | ⚠️ Critical only |
-| 8/10/12 AM | 🔍 Position monitor | ⚠️ Alerts only |
-| 1:15 PM | 📋 Daily report + A/B comparison | ✅ Telegram |
-| 1:30 PM | 🛑 Stop news daemon | Silent |
-
-## Risk Controls
-
-| Control | Default | Action on Breach |
-|---------|---------|-----------------|
-| Max position size | 5% of portfolio | Size down or reject |
-| Max open positions | 15 | Reject new buys |
-| Minimum cash reserve | 20% | Reject buys |
-| Trailing stop-loss | 8% | Auto-exit |
-| Daily drawdown limit | 3% | Halt trading |
-| Total drawdown limit | 15% | Halt + alert |
-
-## Backtesting: Baseline vs Judgment
-
-```bash
-python cli.py backtest-compare AAPL NVDA TSLA GOOGL MSFT AMZN META \
-  --start 2022-01-01 --end 2022-12-31
-```
-
-| Period | Environment | Baseline | + Judgment | Drawdown Improvement |
-|--------|------------|----------|------------|---------------------|
-| 2022 | 🐻 Bear | -5.83% | **-5.03%** | ✅ +0.79% |
-| 2023-25 | 🐂 Bull | +27.54% | +25.43% | — |
-| 2020-25 | 🔄 Full cycle | +57.65% | +40.71% | ✅ +0.33% |
-
-Judgment layer adds value in bear markets (risk reduction), slightly costs in bull markets (over-caution). A/B testing in live trading validates real-world performance.
+| Time | Action | Mode |
+|------|--------|------|
+| 5:50 AM | Start news daemon | Shared |
+| 6:00 AM | Market pulse + Swing recommendations + Day scan | Both |
+| 7:00 AM – 12:30 PM | **Intraday trading every 15 min** | Intraday |
+| 12:45 PM | **Hard close all day positions** | Intraday |
+| 1:15 PM | Daily report (intraday P&L + swing status) | Both |
+| 1:15 PM | Stop news daemon | Shared |
+| 9:00 PM | Swing portfolio check | Swing |
+| 9:00 PM / 3:00 AM | Polymarket monitoring | Other |
+| 10:00 PM | Polymarket market scan | Other |
 
 ## Stats
 
-- **~7,000+ lines** of Python
+- **~8,000+ lines** of Python
 - **24 tests**, all passing
-- **45+ Python modules** across 7 packages
-- **20 CLI commands**
-- **600+ tickers** scanned per cycle
+- **28 CLI commands**
+- **Alpaca Screener API** — real-time full-market scanning
 - **3 news sources** (Alpaca WebSocket, RSS ×5, Finnhub)
 
 ## Disclaimer
 
-This software is for educational and research purposes. Trading stocks involves risk of financial loss. Paper trade extensively before using real money. Past backtesting performance does not guarantee future results.
+Educational and research purposes only. Trading stocks involves risk of financial loss. Paper trade extensively before using real money. Past performance does not guarantee future results.
 
 ## License
 

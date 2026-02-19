@@ -275,6 +275,99 @@ def get_full_universe() -> dict:
     return result
 
 
+def save_premarket_picks(tickers: list[str]) -> None:
+    """Save pre-market scan top picks for intraday smart universe."""
+    import json
+    picks_path = Path(__file__).resolve().parents[2] / "data" / "premarket_picks.json"
+    picks_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(picks_path, "w") as f:
+        json.dump({"tickers": tickers, "date": _dt.now().strftime("%Y-%m-%d"), "updated": _dt.now().isoformat()}, f)
+    print(f"[universe] Saved {len(tickers)} pre-market picks")
+
+
+def get_smart_universe() -> dict:
+    """Build a focused intraday universe (~30-80 tickers) from 4 sources:
+
+    1. Current Alpaca positions (may sell)
+    2. News alert tickers (breaking news)
+    3. Pre-market scan top picks (saved from morning scan)
+    4. Reddit trending (catch GME-style YOLO plays)
+
+    Returns:
+        Dict with keys: positions, news_tickers, premarket_picks, reddit_hot, all_unique
+    """
+    import json
+
+    data_dir = Path(__file__).resolve().parents[2] / "data"
+
+    # 1. Current positions
+    position_tickers = []
+    try:
+        from scripts.core.executor import get_positions
+        positions = get_positions()
+        position_tickers = [p["ticker"] for p in positions]
+        print(f"[smart] Positions: {len(position_tickers)} tickers")
+    except Exception as e:
+        print(f"[smart] Could not fetch positions: {e}")
+
+    # 2. News alert tickers (from daemon)
+    news_tickers = []
+    try:
+        alerts_path = data_dir / "alerts" / "pending.json"
+        if alerts_path.exists():
+            alerts = json.loads(alerts_path.read_text())
+            # Only recent alerts (last 2 hours) with actionable sentiment
+            from datetime import datetime, timezone, timedelta
+            cutoff = datetime.now(timezone.utc) - timedelta(hours=2)
+            for a in alerts:
+                try:
+                    ts = datetime.fromisoformat(a["timestamp"].replace("Z", "+00:00"))
+                    if ts > cutoff and a.get("action_type") in ("buy", "sell"):
+                        syms = a.get("symbols", [])
+                        if a.get("ticker") and a["ticker"] != "MACRO":
+                            syms.append(a["ticker"])
+                        news_tickers.extend(syms)
+                except Exception:
+                    continue
+            news_tickers = list(set(news_tickers))
+            print(f"[smart] News alerts: {len(news_tickers)} tickers")
+    except Exception as e:
+        print(f"[smart] Could not read news alerts: {e}")
+
+    # 3. Pre-market picks (saved from morning scan)
+    premarket_picks = []
+    try:
+        picks_path = data_dir / "premarket_picks.json"
+        if picks_path.exists():
+            picks_data = json.loads(picks_path.read_text())
+            if picks_data.get("date") == _dt.now().strftime("%Y-%m-%d"):
+                premarket_picks = picks_data.get("tickers", [])
+                print(f"[smart] Pre-market picks: {len(premarket_picks)} tickers")
+            else:
+                print("[smart] Pre-market picks stale (different date), skipping")
+    except Exception as e:
+        print(f"[smart] Could not read premarket picks: {e}")
+
+    # 4. Reddit trending (top 20, quick scan)
+    reddit_hot = []
+    try:
+        reddit_hot = get_reddit_trending_tickers(limit=20)
+        print(f"[smart] Reddit hot: {len(reddit_hot)} tickers")
+    except Exception as e:
+        print(f"[smart] Reddit scan failed: {e}")
+
+    all_unique = sorted(set(position_tickers + news_tickers + premarket_picks + reddit_hot))
+    print(f"[smart] Total smart universe: {len(all_unique)} tickers")
+
+    return {
+        "positions": position_tickers,
+        "news_tickers": news_tickers,
+        "premarket_picks": premarket_picks,
+        "reddit_hot": reddit_hot,
+        "all_unique": all_unique,
+    }
+
+
 def get_universe(universe_type: Optional[str] = None) -> list[str]:
     """Return configured stock universe.
 
