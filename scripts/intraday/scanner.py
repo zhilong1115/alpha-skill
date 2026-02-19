@@ -21,11 +21,16 @@ logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
-# Minimum requirements for intraday candidates
+# Minimum requirements for intraday candidates (V2.1: tightened)
 MIN_AVG_VOLUME = 500_000   # shares/day
 MIN_PRICE = 5.0
-MIN_GAP_PCT = 2.0          # % gap from previous close
-MIN_VOLUME_RATIO = 2.0     # vs 20-day average
+MIN_GAP_PCT = 3.0          # % gap from previous close (was 2.0)
+MIN_VOLUME_RATIO = 2.0     # pre-market volume vs 20-day average
+MIN_MARKET_CAP = 1_000_000_000  # $1B minimum market cap
+MAX_CANDIDATES = 8         # Return top 8 instead of flooding with 30+
+
+# Catalyst types that get priority scoring
+PRIORITY_CATALYSTS = {"earnings_beat", "upgrade", "contract", "fda_approval", "acquisition"}
 
 
 def _alpaca_headers() -> dict:
@@ -36,6 +41,24 @@ def _alpaca_headers() -> dict:
         "APCA-API-KEY-ID": os.getenv("ALPACA_API_KEY", ""),
         "APCA-API-SECRET-KEY": os.getenv("ALPACA_SECRET_KEY", ""),
     }
+
+
+def _get_market_cap(ticker: str) -> float:
+    """Get market cap for a ticker. Returns 0 if unavailable."""
+    try:
+        info = yf.Ticker(ticker).info
+        return float(info.get("marketCap", 0) or 0)
+    except Exception:
+        return 0
+
+
+def _passes_market_cap_filter(ticker: str) -> bool:
+    """Check if ticker meets minimum market cap requirement ($1B)."""
+    cap = _get_market_cap(ticker)
+    if cap > 0 and cap < MIN_MARKET_CAP:
+        logger.debug("Filtered %s: market cap $%.0fM < $1B", ticker, cap / 1e6)
+        return False
+    return True  # Pass if cap unknown (don't block on data failure)
 
 
 def scan_market_movers(top_n: int = 20) -> dict:
@@ -226,8 +249,14 @@ def scan_news_catalysts() -> list[dict]:
     return catalysts
 
 
-def get_intraday_candidates(top_n: int = 10) -> list[dict]:
+def get_intraday_candidates(top_n: int = 8) -> list[dict]:
     """Combine Alpaca screener + gap scan + news catalysts into ranked candidate list.
+
+    V2.1 changes:
+    - Market cap filter: min $1B, exclude penny stocks
+    - Pre-market gap filter: only stocks gapping >3% with volume > 2x avg
+    - Catalyst priority: earnings beat, upgrades, contracts score higher
+    - Max candidates: top 8 (was 10-30+)
 
     Uses 3 sources:
     1. Alpaca Screener API — real-time market-wide gainers/losers/most-active
@@ -235,8 +264,9 @@ def get_intraday_candidates(top_n: int = 10) -> list[dict]:
     3. News daemon alerts — catalyst-driven opportunities
 
     Returns:
-        Ranked list of intraday trade candidates with scores.
+        Ranked list of intraday trade candidates with scores (max 8).
     """
+    top_n = min(top_n, MAX_CANDIDATES)  # V2.1: hard cap at 8
     candidates = {}
 
     # 1. Alpaca Screener (real-time, market-wide — the best source)
@@ -337,8 +367,28 @@ def get_intraday_candidates(top_n: int = 10) -> list[dict]:
                 "direction": "long" if cat.get("sentiment") == "bullish" else "short",
             }
 
+    # V2.1: Apply market cap filter (min $1B, exclude penny stocks)
+    filtered = {}
+    for t, c in candidates.items():
+        price = c.get("current", c.get("price", 0))
+        if price and price < MIN_PRICE:
+            logger.debug("Filtered %s: price $%.2f < $%.2f", t, price, MIN_PRICE)
+            continue
+        if not _passes_market_cap_filter(t):
+            continue
+        filtered[t] = c
+    logger.info("After market cap filter: %d → %d candidates", len(candidates), len(filtered))
+
+    # V2.1: Boost score for priority catalysts
+    for t, c in filtered.items():
+        if c.get("has_catalyst"):
+            # Check if catalyst type is high-priority
+            cat_type = c.get("action_type", "")
+            if cat_type in PRIORITY_CATALYSTS:
+                c["intraday_score"] = round(c["intraday_score"] + 0.2, 3)
+
     # Sort by score
-    ranked = sorted(candidates.values(), key=lambda x: x["intraday_score"], reverse=True)
+    ranked = sorted(filtered.values(), key=lambda x: x["intraday_score"], reverse=True)
     return ranked[:top_n]
 
 

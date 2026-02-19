@@ -96,7 +96,7 @@ Alpaca Screener API (full market) ─→ Gap Scanner ─→ News Catalysts
               5-min Signals (VWAP, ORB, momentum) ◄──────┘
                           │
                           ▼
-              Intraday Risk (5 max, 2% stop, 1% daily)
+              Intraday Risk V2.1 (5 max, 2% stop, $500 daily cap, staged entry)
                           │
                           ▼
               Execute on Alpaca ──→ Hard close 12:45 PM

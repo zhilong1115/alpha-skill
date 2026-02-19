@@ -45,14 +45,17 @@ def compute_vwap(df: pd.DataFrame) -> pd.Series:
     return vwap
 
 
-def compute_opening_range(df: pd.DataFrame, bars: int = 3) -> dict:
-    """Calculate Opening Range (first N bars = first 15min for 5min candles).
+def compute_opening_range(df: pd.DataFrame, bars: int = 1) -> dict:
+    """Calculate Opening Range Breakout (ORB) on first N bars.
+
+    V2.1: Changed to 1 bar (5-min opening range) for tighter breakout detection.
+    Only signals breakout when price closes above range high (not just touches).
 
     Returns:
         Dict with or_high, or_low, or_mid, is_breakout_long, is_breakout_short.
     """
     if len(df) < bars + 1:
-        return {"or_high": None, "or_low": None}
+        return {"or_high": None, "or_low": None, "or_complete": False}
 
     opening_bars = df.iloc[:bars]
     or_high = float(opening_bars["High"].max())
@@ -64,8 +67,9 @@ def compute_opening_range(df: pd.DataFrame, bars: int = 3) -> dict:
         "or_high": or_high,
         "or_low": or_low,
         "or_mid": or_mid,
-        "is_breakout_long": current > or_high,
-        "is_breakout_short": current < or_low,
+        "or_complete": len(df) > bars,  # V2.1: opening range must be complete before trading
+        "is_breakout_long": current > or_high and len(df) > bars,
+        "is_breakout_short": current < or_low and len(df) > bars,
         "distance_from_or_high_pct": round((current - or_high) / or_high * 100, 2) if or_high else 0,
     }
 
@@ -113,6 +117,35 @@ def compute_relative_volume(df: pd.DataFrame) -> float:
     return round(current_vol / avg_vol, 2) if avg_vol > 0 else 1.0
 
 
+def compute_volume_confirmation(df: pd.DataFrame, lookback: int = 5, threshold: float = 1.5) -> bool:
+    """V2.1: Check if entry bar volume > threshold × average of last N bars.
+
+    Args:
+        df: OHLCV DataFrame.
+        lookback: Number of bars to average.
+        threshold: Multiplier (1.5x = confirmation).
+
+    Returns:
+        True if current bar volume confirms the move.
+    """
+    if len(df) < lookback + 1:
+        return False
+    avg_vol = df["Volume"].iloc[-(lookback + 1):-1].mean()
+    current_vol = float(df["Volume"].iloc[-1])
+    return current_vol > avg_vol * threshold if avg_vol > 0 else False
+
+
+def is_chasing_vwap(current: float, vwap_val: float, max_distance_pct: float = 2.0) -> bool:
+    """V2.1: Check if price is too far above VWAP (chasing).
+
+    Don't buy if price already >2% above VWAP.
+    """
+    if vwap_val <= 0:
+        return False
+    distance_pct = (current - vwap_val) / vwap_val * 100
+    return distance_pct > max_distance_pct
+
+
 def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dict:
     """Compute all intraday signals for a ticker.
 
@@ -148,32 +181,54 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
     # 5. Relative volume
     rel_vol = compute_relative_volume(df)
 
-    # --- Combined Score ---
+    # 6. V2.1: Volume confirmation (entry bar > 1.5x 5-bar avg)
+    vol_confirmed = compute_volume_confirmation(df, lookback=5, threshold=1.5)
+
+    # 7. V2.1: Chasing check (don't buy if >2% above VWAP)
+    chasing = is_chasing_vwap(current, vwap_val, max_distance_pct=2.0)
+
+    # --- Combined Score (V2.1: stricter entry requirements) ---
     score = 0.0
     signals_detail = []
+    entry_blocked = False
+    block_reasons = []
 
-    # VWAP signal: above VWAP = bullish, below = bearish
-    if vwap_distance_pct > 0.5:
-        score += 0.15
+    # V2.1 HARD REQUIREMENTS for long entry:
+    # 1. Price must be above VWAP
+    # 2. ORB must be complete and broken out
+    # 3. Volume must confirm
+    # 4. Must not be chasing
+
+    # VWAP signal: above VWAP = bullish (REQUIRED for longs)
+    if vwap_distance_pct > 0.3:
+        score += 0.2
         signals_detail.append("above VWAP (+)")
-    elif vwap_distance_pct < -0.5:
-        score -= 0.15
+    elif vwap_distance_pct < -0.3:
+        score -= 0.2
         signals_detail.append("below VWAP (-)")
+        block_reasons.append("below VWAP")
 
-    # ORB breakout
-    if orb.get("is_breakout_long"):
-        score += 0.25
-        signals_detail.append("ORB breakout long (++)")
-    elif orb.get("is_breakout_short"):
-        score -= 0.25
-        signals_detail.append("ORB breakdown (--)")
+    # ORB breakout (V2.1: must wait for opening range to complete)
+    if orb.get("or_complete"):
+        if orb.get("is_breakout_long"):
+            score += 0.3
+            signals_detail.append("ORB breakout long (++)")
+        elif orb.get("is_breakout_short"):
+            score -= 0.3
+            signals_detail.append("ORB breakdown (--)")
+            block_reasons.append("ORB breakdown")
+        else:
+            signals_detail.append("within opening range (neutral)")
+            block_reasons.append("no ORB breakout")
+    else:
+        block_reasons.append("opening range not complete")
 
     # RSI
     if rsi > 70:
-        score -= 0.1  # Overbought, caution for longs
+        score -= 0.1
         signals_detail.append(f"RSI overbought {rsi:.0f}")
     elif rsi < 30:
-        score += 0.1  # Oversold, potential bounce
+        score += 0.1
         signals_detail.append(f"RSI oversold {rsi:.0f}")
 
     # Momentum
@@ -184,10 +239,28 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
         score -= 0.2
         signals_detail.append(f"momentum down {momentum:+.3f}")
 
-    # Volume confirmation
-    if rel_vol > 2.0:
-        score += 0.1 * (1 if score > 0 else -1)  # Confirms direction
-        signals_detail.append(f"high volume {rel_vol:.1f}x")
+    # V2.1: Volume confirmation (REQUIRED)
+    if vol_confirmed:
+        score += 0.15 * (1 if score > 0 else -1)
+        signals_detail.append(f"volume confirmed {rel_vol:.1f}x ✓")
+    else:
+        block_reasons.append("low volume (no confirmation)")
+        signals_detail.append(f"volume weak {rel_vol:.1f}x ✗")
+
+    # V2.1: No chasing check
+    if chasing:
+        entry_blocked = True
+        block_reasons.append(f"chasing: {vwap_distance_pct:+.1f}% above VWAP")
+        signals_detail.append(f"CHASING blocked ({vwap_distance_pct:+.1f}% > VWAP)")
+        score = min(score, 0)  # Cap score at 0 if chasing
+
+    # V2.1: For long signals, require VWAP + ORB + volume
+    direction = "long" if score > 0.1 else "short" if score < -0.1 else "neutral"
+    if direction == "long" and (vwap_distance_pct < 0 or not vol_confirmed or not orb.get("is_breakout_long")):
+        # Demote to neutral if missing confirmations
+        if not orb.get("is_breakout_long") or vwap_distance_pct < 0:
+            direction = "neutral"
+            score = score * 0.3  # Heavily penalize unconfirmed signals
 
     return {
         "ticker": ticker,
@@ -198,8 +271,12 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
         "rsi": round(rsi, 1),
         "momentum": momentum,
         "relative_volume": rel_vol,
+        "volume_confirmed": vol_confirmed,
+        "chasing": chasing,
+        "entry_blocked": entry_blocked,
+        "block_reasons": block_reasons,
         "score": round(score, 3),
-        "direction": "long" if score > 0.1 else "short" if score < -0.1 else "neutral",
+        "direction": direction,
         "signals": signals_detail,
     }
 

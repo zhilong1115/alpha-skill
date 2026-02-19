@@ -12,14 +12,21 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 STATE_FILE = DATA_DIR / "intraday_state.json"
 
-# Risk parameters
-MAX_POSITIONS = 5
-MAX_POSITION_PCT = 10.0        # % of portfolio per trade
-MAX_DAILY_LOSS_PCT = 1.0       # % of portfolio — stop trading if hit
+# Risk parameters (V2.1: tightened from Day 1 review)
+MAX_POSITIONS = 5              # Max simultaneous (was effectively 10)
+MAX_POSITION_PCT = 6.5         # % of portfolio per trade (was 10%, now 5-8% range → 6.5% default)
+MAX_DAILY_LOSS_DOLLARS = 500   # Absolute daily loss cap in dollars (was % based ~$1000)
+MAX_DAILY_LOSS_PCT = 0.5       # % of portfolio — stop trading if hit (backup to dollar cap)
 STOP_LOSS_PCT = 2.0            # per-trade stop loss
 TAKE_PROFIT_PCT = 4.0          # per-trade take profit (2:1 R/R)
 HARD_CLOSE_HOUR = 12           # PT hour to start closing (12:45 PM)
 HARD_CLOSE_MINUTE = 45
+
+# V2.1: Dead zone — no new entries during this window (ET)
+DEAD_ZONE_START_HOUR_ET = 10   # 10:30 AM ET
+DEAD_ZONE_START_MIN_ET = 30
+DEAD_ZONE_END_HOUR_ET = 11     # 11:30 AM ET
+DEAD_ZONE_END_MIN_ET = 30
 
 
 def _load_state() -> dict:
@@ -50,8 +57,26 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2, default=str))
 
 
+def _is_dead_zone() -> bool:
+    """Check if current time is in the dead zone (10:30-11:30 AM ET).
+
+    V2.1: No new entries during this low-volume, choppy period.
+    """
+    from datetime import timezone, timedelta
+    now = datetime.now(timezone(timedelta(hours=-5)))  # ET
+    current_minutes = now.hour * 60 + now.minute
+    start = DEAD_ZONE_START_HOUR_ET * 60 + DEAD_ZONE_START_MIN_ET
+    end = DEAD_ZONE_END_HOUR_ET * 60 + DEAD_ZONE_END_MIN_ET
+    return start <= current_minutes <= end
+
+
 def can_trade(state: dict, portfolio_value: float) -> tuple[bool, str]:
     """Check if we're allowed to take new trades.
+
+    V2.1 changes:
+    - Daily loss cap: -$500 absolute (was -$1000 / 1%)
+    - Dead zone: no entries 10:30-11:30 AM ET
+    - Max 5 positions (enforced)
 
     Returns:
         (allowed, reason)
@@ -59,8 +84,15 @@ def can_trade(state: dict, portfolio_value: float) -> tuple[bool, str]:
     if state.get("stopped_trading"):
         return False, f"Trading stopped: {state.get('stop_reason', 'daily loss limit')}"
 
-    # Daily loss check
-    max_loss = portfolio_value * MAX_DAILY_LOSS_PCT / 100
+    # V2.1: Dead zone check (10:30-11:30 AM ET)
+    if _is_dead_zone():
+        return False, "Dead zone (10:30-11:30 AM ET): no new entries"
+
+    # V2.1: Daily loss check — use both absolute dollar cap and % cap
+    max_loss_dollars = MAX_DAILY_LOSS_DOLLARS
+    max_loss_pct = portfolio_value * MAX_DAILY_LOSS_PCT / 100
+    max_loss = min(max_loss_dollars, max_loss_pct)  # Use the tighter limit
+
     if state["realized_pnl"] < -max_loss:
         state["stopped_trading"] = True
         state["stop_reason"] = f"Daily loss limit hit: ${state['realized_pnl']:.2f} (max -${max_loss:.2f})"

@@ -36,14 +36,18 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 
 ### Risk Management
 
-#### Intraday Risk
+#### Intraday Risk (V2.1)
 | Control | Value |
 |---------|-------|
 | Max positions | 5 |
-| Position size | 10% of portfolio |
+| Position size | 5-8% of portfolio (6.5% default) |
 | Stop-loss | 2% per trade |
 | Take-profit | 4% per trade (2:1 R/R) |
-| Daily loss cap | 1% of portfolio |
+| Daily loss cap | -$500 (or 0.5% of portfolio) |
+| Dead zone | No entries 10:30-11:30 AM ET |
+| Staged entry | Buy 1/2, add 1/2 at +0.5% |
+| Trailing stop | Move to breakeven at +1.5% |
+| Time exit | Close after 2h if <1% gain |
 | Hard close | 12:45 PM PT |
 
 #### Swing Risk (Recommendation-level)

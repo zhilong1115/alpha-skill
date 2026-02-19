@@ -1,0 +1,210 @@
+{
+  "date": "2026-02-19",
+  "trades": [
+    {
+      "ticker": "CDNL",
+      "side": "buy",
+      "qty": 319,
+      "price": 31.059999465942383,
+      "value": 9908.13982963562,
+      "timestamp": "2026-02-19T15:00:14.516648"
+    },
+    {
+      "ticker": "DE",
+      "side": "buy",
+      "qty": 15,
+      "price": 649.489990234375,
+      "value": 9742.349853515625,
+      "timestamp": "2026-02-19T15:00:14.911470"
+    },
+    {
+      "ticker": "RELY",
+      "side": "buy",
+      "qty": 587,
+      "price": 16.871999740600586,
+      "value": 9903.863847732544,
+      "timestamp": "2026-02-19T15:00:15.310345"
+    },
+    {
+      "ticker": "MPT",
+      "side": "buy",
+      "qty": 1565,
+      "price": 6.332600116729736,
+      "value": 9910.519182682037,
+      "timestamp": "2026-02-19T15:00:15.696763"
+    },
+    {
+      "ticker": "CF",
+      "side": "buy",
+      "qty": 95,
+      "price": 104.18000030517578,
+      "value": 9897.1000289917,
+      "timestamp": "2026-02-19T15:00:16.083745"
+    },
+    {
+      "ticker": "CF",
+      "side": "sell",
+      "qty": 95,
+      "entry_price": 104.18000030517578,
+      "exit_price": 102.02149963378906,
+      "pnl": -205.06,
+      "pnl_pct": -2.07,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T15:00:16.083615",
+      "timestamp": "2026-02-19T15:15:10.694598"
+    },
+    {
+      "ticker": "AHMA",
+      "side": "buy",
+      "qty": 1118,
+      "price": 8.875,
+      "value": 9922.25,
+      "timestamp": "2026-02-19T15:15:16.433989"
+    },
+    {
+      "ticker": "AHMA",
+      "side": "sell",
+      "qty": 1118,
+      "entry_price": 8.875,
+      "exit_price": 8.669500350952148,
+      "pnl": -229.75,
+      "pnl_pct": -2.32,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T15:15:16.433808",
+      "timestamp": "2026-02-19T15:30:09.627892"
+    },
+    {
+      "ticker": "TALK",
+      "side": "buy",
+      "qty": 1969,
+      "price": 5.025000095367432,
+      "value": 9894.225187778473,
+      "timestamp": "2026-02-19T15:30:15.444401"
+    },
+    {
+      "ticker": "MPT",
+      "side": "sell",
+      "qty": 1565,
+      "entry_price": 6.332600116729736,
+      "exit_price": 6.15500020980835,
+      "pnl": -277.94,
+      "pnl_pct": -2.8,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T15:00:15.696647",
+      "timestamp": "2026-02-19T15:45:09.146334"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "buy",
+      "qty": 307,
+      "price": 31.809999465942383,
+      "value": 9765.669836044312,
+      "timestamp": "2026-02-19T15:45:15.606557"
+    },
+    {
+      "ticker": "RELY",
+      "side": "sell",
+      "qty": 587,
+      "entry_price": 16.871999740600586,
+      "exit_price": 17.799999237060547,
+      "pnl": 544.74,
+      "pnl_pct": 5.5,
+      "reason": "take_profit",
+      "hold_time": "2026-02-19T15:00:15.310225",
+      "timestamp": "2026-02-19T16:02:58.237340"
+    },
+    {
+      "ticker": "RELY",
+      "side": "buy",
+      "qty": 552,
+      "price": 17.799999237060547,
+      "value": 9825.599578857422,
+      "timestamp": "2026-02-19T16:03:03.608274"
+    },
+    {
+      "ticker": "TALK",
+      "side": "sell",
+      "qty": 1969,
+      "entry_price": 5.025000095367432,
+      "exit_price": 4.900000095367432,
+      "pnl": -246.12,
+      "pnl_pct": -2.49,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T15:30:15.444234",
+      "timestamp": "2026-02-19T16:30:09.509743"
+    },
+    {
+      "ticker": "BAND",
+      "side": "buy",
+      "qty": 605,
+      "price": 16.174999237060547,
+      "value": 9785.87453842163,
+      "timestamp": "2026-02-19T16:30:17.111561"
+    },
+    {
+      "ticker": "BAND",
+      "side": "sell",
+      "qty": 605,
+      "entry_price": 16.174999237060547,
+      "exit_price": 15.630000114440918,
+      "pnl": -329.72,
+      "pnl_pct": -3.37,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T16:30:17.111341",
+      "timestamp": "2026-02-19T17:45:08.950394"
+    },
+    {
+      "ticker": "RELY",
+      "side": "sell",
+      "qty": 552,
+      "entry_price": 17.799999237060547,
+      "exit_price": 17.354999542236328,
+      "pnl": -245.64,
+      "pnl_pct": -2.5,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-19T16:03:03.608066",
+      "timestamp": "2026-02-19T18:00:08.990255"
+    },
+    {
+      "ticker": "CDNL",
+      "side": "sell",
+      "qty": 319,
+      "entry_price": 31.059999465942383,
+      "exit_price": 32.31999969482422,
+      "pnl": 401.94,
+      "pnl_pct": 4.06,
+      "reason": "take_profit",
+      "hold_time": "2026-02-19T15:00:14.516517",
+      "timestamp": "2026-02-19T19:45:20.401980"
+    },
+    {
+      "ticker": "DE",
+      "side": "sell",
+      "qty": 15,
+      "entry_price": 649.489990234375,
+      "exit_price": 658.1599731445312,
+      "pnl": 130.05,
+      "pnl_pct": 1.33,
+      "reason": "hard_close_eod",
+      "hold_time": "2026-02-19T15:00:14.911366",
+      "timestamp": "2026-02-19T20:45:23.253118"
+    },
+    {
+      "ticker": "SMCI",
+      "side": "sell",
+      "qty": 307,
+      "entry_price": 31.809999465942383,
+      "exit_price": 31.885000228881836,
+      "pnl": 23.03,
+      "pnl_pct": 0.24,
+      "reason": "hard_close_eod",
+      "hold_time": "2026-02-19T15:45:15.606391",
+      "timestamp": "2026-02-19T20:45:27.072394"
+    }
+  ],
+  "open_positions": {},
+  "realized_pnl": -434.4699999999999,
+  "total_trades": 20,
+  "stopped_trading": true,
+  "stop_reason": "Daily loss limit hit: $-989.49 (max -$975.08)"
+}
