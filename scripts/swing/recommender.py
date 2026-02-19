@@ -68,8 +68,35 @@ def generate_recommendations(
     except Exception:
         pass
 
-    # 4. Conviction scoring
+    # 4. Reddit buzz boost
+    reddit_buzz = {}
+    try:
+        from scripts.analysis.sentiment_scraper import discover_trending_tickers
+        trending = discover_trending_tickers(min_mentions=3)
+        for t in trending:
+            ticker = t["ticker"]
+            mentions = t["mentions"]
+            reddit_buzz[ticker] = mentions
+        logger.info("Reddit buzz: %d trending tickers (top: %s)",
+                    len(reddit_buzz),
+                    ", ".join(f"{t['ticker']}({t['mentions']})" for t in trending[:5]))
+    except Exception as e:
+        logger.warning("Reddit buzz scan failed: %s", e)
+
+    # 5. Conviction scoring
     convictions = compute_conviction(combined, weights)
+
+    # Apply Reddit buzz boost: +0.05 per 3 mentions, capped at +0.15
+    if reddit_buzz:
+        def _apply_buzz(row):
+            mentions = reddit_buzz.get(row["ticker"], 0)
+            if mentions >= 3:
+                boost = min(mentions / 3 * 0.05, 0.15)
+                return row["conviction_score"] + boost
+            return row["conviction_score"]
+        convictions["conviction_score"] = convictions.apply(_apply_buzz, axis=1)
+        convictions["reddit_mentions"] = convictions["ticker"].map(lambda t: reddit_buzz.get(t, 0))
+
     convictions = convictions[convictions["conviction_score"] >= min_conviction]
     convictions = convictions.sort_values("conviction_score", ascending=False)
 
@@ -132,9 +159,16 @@ def generate_recommendations(
             elif from_52w_high < -30:
                 reasons.append(f"远低于52周高点 ({from_52w_high:+.1f}%)，可能超跌")
 
+            mentions = reddit_buzz.get(ticker, 0)
+            if mentions >= 5:
+                reasons.insert(0, f"🔥 Reddit热门 ({mentions}次提及)")
+            elif mentions >= 3:
+                reasons.append(f"📢 Reddit关注 ({mentions}次提及)")
+
             recs.append({
                 "ticker": ticker,
                 "conviction": round(score, 3),
+                "reddit_mentions": mentions,
                 "current_price": current,
                 "target_price": target,
                 "target_pct": target_pct,

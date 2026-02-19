@@ -1,77 +1,5 @@
 [
   {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Acadia Realty Trust, Raises Price Target to $24",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Acadia Realty Trust (NYSE:AKR) with a Buy and raises the price target from $23 to $24.",
-    "symbols": [
-      "AKR"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:09:12Z",
-    "url": "https://www.benzinga.com/news/26/02/50697153/citigroup-maintains-buy-on-acadia-realty-trust-raises-price-target-to-24"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "CACI International Talks AI Tailwind, $2B Electronic Warfare Surge, Reaffirms FY Guidance at TD Cowen",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "RF",
-    "matched_tickers": [
-      "RF"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-17T09:07:51Z",
-    "url": "https://finance.yahoo.com/news/caci-international-talks-ai-tailwind-090751193.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Aker Solutions wins five-year MMO contract from Aker BP",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-17T09:17:05Z",
-    "url": "https://finance.yahoo.com/news/aker-solutions-wins-five-mmo-091705009.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Walmart earnings, spending data, and more AI disruptions: What to watch this week",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-15T12:57:12Z",
-    "url": "https://finance.yahoo.com/news/walmart-earnings-spending-data-and-more-ai-disruptions-what-to-watch-this-week-125712762.html"
-  },
-  {
     "source": "rss:Yahoo_Finance",
     "headline": "Exclusive-Foreign cars flow to Russia through China, skirting Ukraine war sanctions",
     "summary": "",
@@ -1898,5 +1826,75 @@
     "action_type": "buy",
     "timestamp": "2026-02-17T14:50:00Z",
     "url": "https://finance.yahoo.com/news/vanguard-says-bond-etf-could-145000694.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Pinterest Stock Is Deeply Oversold on Earnings Selloff. Should You Buy the Dip?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T14:57:32Z",
+    "url": "https://finance.yahoo.com/news/pinterest-stock-deeply-oversold-earnings-145732596.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "A white-collar jobs recession? The signs are everywhere",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "recession"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-17T14:52:50Z",
+    "url": "https://finance.yahoo.com/news/white-collar-jobs-recession-signs-145250259.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Saipem to acquire Deep Value Driller drill-ship for $272.5m",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:04:40Z",
+    "url": "https://finance.yahoo.com/news/saipem-acquire-deep-value-driller-150440685.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "DraftKings Stock Is Oversold on Earnings Plunge. Should You Buy the Dip?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:08:44Z",
+    "url": "https://finance.yahoo.com/news/draftkings-stock-oversold-earnings-plunge-150844421.html"
   }
 ]
