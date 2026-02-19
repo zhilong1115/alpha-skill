@@ -1,277 +1,5 @@
 [
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Exclusive-Foreign cars flow to Russia through China, skirting Ukraine war sanctions",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "sanction",
-      "war "
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-17T07:14:40Z",
-    "url": "https://finance.yahoo.com/news/exclusive-foreign-cars-flow-russia-053235390.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Kenvue Analysts Boost Their Forecasts After Upbeat Q4 Earnings",
-    "summary": " ",
-    "symbols": [
-      "KVUE"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "KVUE",
-    "matched_tickers": [
-      "KVUE"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-18T18:09:49Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/02/50697197/kenvue-analysts-boost-their-forecasts-after-upbeat-q4-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Douglas Emmett, Lowers Price Target to $10",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Douglas Emmett (NYSE:DEI) with a Neutral and lowers the price target from $12 to $10.",
-    "symbols": [
-      "DEI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:10:27Z",
-    "url": "https://www.benzinga.com/news/26/02/50697246/citigroup-maintains-neutral-on-douglas-emmett-lowers-price-target-to-10"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Texas Capital Downgrades Great Lakes Dredge & Dock Corporation (GLDD) to Hold with a $17 Price Target",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "downgrade",
-      "price target"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-17T09:51:10Z",
-    "url": "https://finance.yahoo.com/news/texas-capital-downgrades-great-lakes-095110519.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Highwoods Properties, Lowers Price Target to $24",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Highwoods Properties (NYSE:HIW) with a Neutral and lowers the price target from $30 to $24.",
-    "symbols": [
-      "HIW"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:11:55Z",
-    "url": "https://www.benzinga.com/news/26/02/50697321/citigroup-maintains-neutral-on-highwoods-properties-lowers-price-target-to-24"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Genuine Parts shares are trading lower after multiple analyst firms lowered their respective price targets on the stock.",
-    "summary": "",
-    "symbols": [
-      "GPC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "GPC",
-    "matched_tickers": [
-      "GPC"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:12:13Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50697338/genuine-parts-shares-are-trading-lower-after-multiple-analyst-firms-lowered-their-respective-price-t"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Hudson Pacific Properties, Lowers Price Target to $7",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Hudson Pacific Properties (NYSE:HPP) with a Neutral and lowers the price target from $13.3 to $7.",
-    "symbols": [
-      "HPP"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:12:48Z",
-    "url": "https://www.benzinga.com/news/26/02/50697363/citigroup-maintains-neutral-on-hudson-pacific-properties-lowers-price-target-to-7"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With L3Harris Stock Today?",
-    "summary": "L3Harris shares rose Wednesday after it won a major submarine communications production award, building on momentum from its recent THAAD propulsion contract.",
-    "symbols": [
-      "LHX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:13:16Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50697381/whats-going-on-with-l3harris-stock-today"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Toyota Recalls Certain Model Year 2025-2026 Lexus LX 600 Vehicles",
-    "summary": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2025-2026-lexus-lx-600-vehicles/",
-    "symbols": [
-      "TM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "recall"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-18T18:13:25Z",
-    "url": "https://www.benzinga.com/news/26/02/50697386/toyota-recalls-certain-model-year-2025-2026-lexus-lx-600-vehicles"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Hyatt Hotels, Raises Price Target to $195",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Hyatt Hotels (NYSE:H) with a Buy and raises the price target from $167 to $195.",
-    "symbols": [
-      "H"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:13:49Z",
-    "url": "https://www.benzinga.com/news/26/02/50697419/citigroup-maintains-buy-on-hyatt-hotels-raises-price-target-to-195"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Cameco shares are trading higher after GLJ Research raised its price target on the stock from $100 to $171.2.",
-    "summary": "",
-    "symbols": [
-      "CCJ"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:15:34Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50697480/cameco-shares-are-trading-higher-after-glj-research-raised-its-price-target-on-the-stock-from-100-to"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Independence Realty Trust, Lowers Price Target to $18",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Independence Realty Trust (NYSE:IRT) with a Neutral and lowers the price target from $19.5 to $18.",
-    "symbols": [
-      "IRT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:15:38Z",
-    "url": "https://www.benzinga.com/news/26/02/50697485/citigroup-maintains-neutral-on-independence-realty-trust-lowers-price-target-to-18"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Centene shares are trading higher after Wells Fargo raised its price target on the stock from $43 to $44.",
-    "summary": "",
-    "symbols": [
-      "CNC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:17:07Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50697534/centene-shares-are-trading-higher-after-wells-fargo-raised-its-price-target-on-the-stock-from-43-to"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Sabra Health Care REIT, Raises Price Target to $24",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Sabra Health Care REIT (NASDAQ:SBRA) with a Buy and raises the price target from $21 to $24.",
-    "symbols": [
-      "SBRA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T18:17:19Z",
-    "url": "https://www.benzinga.com/news/26/02/50697545/citigroup-maintains-buy-on-sabra-health-care-reit-raises-price-target-to-24"
-  },
-  {
     "source": "alpaca:benzinga",
     "headline": "Citigroup Maintains Buy on Welltower, Raises Price Target to $245",
     "summary": "Citigroup  analyst Nick Joseph   maintains Welltower (NYSE:WELL) with a Buy and raises the price target from $215 to $245.",
@@ -1896,5 +1624,245 @@
     "action_type": "monitor",
     "timestamp": "2026-02-17T15:08:44Z",
     "url": "https://finance.yahoo.com/news/draftkings-stock-oversold-earnings-plunge-150844421.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Infosys Stock Is Rising. It Just Unveiled This AI Partnership With Anthropic.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "partnership"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:09:00Z",
+    "url": "https://www.barrons.com/articles/infosys-stock-ai-partnership-anthropic-f68f6a06?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "The \u2018New Housing Crisis\u2019 Isn\u2019t New. What It Means If You\u2019re Buying or Selling.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "housing"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:10:00Z",
+    "url": "https://www.barrons.com/articles/housing-crisis-home-buyers-sellers-ea22a52a?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Week ahead: AI sell-off, Fed minutes, and Q4 GDP to shape Wall Street",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "gdp "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:16:00Z",
+    "url": "https://finance.yahoo.com/news/week-ahead-ai-sell-off-151600662.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "HIVE (HIVE) Q3 2026 Earnings Call Transcript",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:15:57Z",
+    "url": "https://finance.yahoo.com/news/hive-hive-q3-2026-earnings-151557220.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Waystar (WAY) Q4 2025 Earnings Call Transcript",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:20:47Z",
+    "url": "https://finance.yahoo.com/news/waystar-way-q4-2025-earnings-152047935.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Fed\u2019s Goolsbee Says Future Rate Cuts Depend on Inflation Progress",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-17T15:28:00Z",
+    "url": "https://www.wsj.com/articles/feds-goolsbee-says-future-rate-cuts-depend-on-inflation-progress-3addc4e0?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Eric Trump invests in Israeli drone maker XTEND's merger with Florida construction firm",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "merger"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:51:37Z",
+    "url": "https://finance.yahoo.com/news/eric-trump-invests-israeli-drone-155137967.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "EToro Stock Is Jumping. Earnings Surprised Despite Crypto Slump.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:37:00Z",
+    "url": "https://www.barrons.com/articles/etoro-earnings-stock-price-01bc0a38?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Fed's Goolsbee: 'Several' rate cuts possible this year if inflation gets on track to 2%",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:54:34Z",
+    "url": "https://finance.yahoo.com/news/feds-goolsbee-several-rate-cuts-155434893.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Donnelley Financial (DFIN) Earnings Transcript",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:30:59Z",
+    "url": "https://finance.yahoo.com/news/donnelley-financial-dfin-earnings-transcript-153059886.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "NeoGenomics Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:42:02Z",
+    "url": "https://finance.yahoo.com/news/neogenomics-q4-earnings-call-highlights-154202538.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "National Energy Services Reunited Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:42:03Z",
+    "url": "https://finance.yahoo.com/news/national-energy-services-reunited-q4-154203843.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Labcorp (LH) Q4 2025 Earnings Call Transcript",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:53:53Z",
+    "url": "https://finance.yahoo.com/news/labcorp-lh-q4-2025-earnings-155353508.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "eToro shares surge on fourth quarter earnings beat",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-17T15:50:00Z",
+    "url": "https://finance.yahoo.com/news/etoro-shares-surge-fourth-quarter-155000821.html"
   }
 ]

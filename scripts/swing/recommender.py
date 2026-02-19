@@ -118,18 +118,73 @@ def generate_recommendations(
             low_52w = float(df["Low"].min())
             avg_vol = float(df["Volume"].rolling(20).mean().iloc[-1])
 
-            # Support/resistance levels
-            recent_low = float(df["Low"].iloc[-20:].min())
-            recent_high = float(df["High"].iloc[-20:].max())
+            # --- ATR for volatility-based sizing ---
+            tr = pd.concat([
+                df["High"] - df["Low"],
+                (df["High"] - df["Close"].shift()).abs(),
+                (df["Low"] - df["Close"].shift()).abs(),
+            ], axis=1).max(axis=1)
+            atr14 = float(tr.rolling(14).mean().iloc[-1])
+            atr_pct = atr14 / current * 100  # ATR as % of price
 
-            # Calculate target (next resistance) and stop (below support)
-            stop_loss = round(recent_low * 0.98, 2)  # 2% below recent low
+            # --- Support: ATR-based stop (1.5x ATR below current) ---
+            recent_low = float(df["Low"].iloc[-20:].min())
+            atr_stop = current - 1.5 * atr14
+            # Use the tighter of: 2% below recent low, or 1.5x ATR
+            stop_loss = round(max(recent_low * 0.98, atr_stop), 2)
+            # But never closer than 1% (avoid stop hunting)
+            if stop_loss > current * 0.99:
+                stop_loss = round(current * 0.97, 2)
             stop_loss_pct = round((current - stop_loss) / current * 100, 1)
 
-            # Target: based on recent range or 10% upside
-            range_target = recent_high * 1.02
-            pct_target = current * 1.10
-            target = round(min(range_target, pct_target), 2)
+            # --- Target: multi-level resistance scan ---
+            # Collect potential resistance levels above current price
+            resistance_levels = []
+            recent_high_20 = float(df["High"].iloc[-20:].max())
+            recent_high_50 = float(df["High"].iloc[-50:].max()) if len(df) >= 50 else recent_high_20
+            sma200 = float(df["Close"].rolling(200).mean().iloc[-1]) if len(df) >= 200 else None
+
+            # Level 1: 20-day high
+            if recent_high_20 > current * 1.01:
+                resistance_levels.append(("20日高点", recent_high_20))
+            # Level 2: 50-day high
+            if recent_high_50 > current * 1.01 and recent_high_50 != recent_high_20:
+                resistance_levels.append(("50日高点", recent_high_50))
+            # Level 3: SMA200 (if above current)
+            if sma200 and sma200 > current * 1.01:
+                resistance_levels.append(("200日均线", sma200))
+            # Level 4: 52-week high
+            if high_52w > current * 1.05:
+                resistance_levels.append(("52周高点", high_52w))
+            # Level 5: Round number above (e.g., $100, $150, $200)
+            round_levels = [n for n in range(int(current / 10) * 10 + 10,
+                                              int(current / 10) * 10 + 60, 10)
+                           if n > current * 1.02]
+            if round_levels:
+                resistance_levels.append(("整数关口", float(round_levels[0])))
+
+            # ATR-based target: 2.5x ATR above entry (volatility-adjusted)
+            atr_target = current + 2.5 * atr14
+            resistance_levels.append(("ATR目标(2.5x)", atr_target))
+
+            # R-multiple target: ensure at least 2:1 R/R
+            risk_distance = current - stop_loss
+            r_target = current + 2.5 * risk_distance
+            resistance_levels.append(("2.5R目标", r_target))
+
+            # Pick the nearest resistance above current (but at least 3% up)
+            valid_targets = [(name, lvl) for name, lvl in resistance_levels
+                            if lvl > current * 1.03]
+            valid_targets.sort(key=lambda x: x[1])
+
+            if valid_targets:
+                target_name, target = valid_targets[0]
+            else:
+                # Fallback: ATR-based
+                target_name = "ATR目标"
+                target = atr_target
+
+            target = round(target, 2)
             target_pct = round((target - current) / current * 100, 1)
 
             # Risk/reward ratio
@@ -139,7 +194,18 @@ def generate_recommendations(
 
             # Only recommend if R/R >= 1.5
             if rr_ratio < 1.5:
-                continue
+                # Try next resistance level for better R/R
+                for name, lvl in valid_targets[1:]:
+                    reward2 = lvl - current
+                    rr2 = round(reward2 / risk, 2) if risk > 0 else 0
+                    if rr2 >= 1.5:
+                        target = round(lvl, 2)
+                        target_pct = round((target - current) / current * 100, 1)
+                        target_name = name
+                        rr_ratio = rr2
+                        break
+                else:
+                    continue  # No target gives R/R >= 1.5
 
             # Determine reasoning
             reasons = []
@@ -169,6 +235,9 @@ def generate_recommendations(
                 "ticker": ticker,
                 "conviction": round(score, 3),
                 "reddit_mentions": mentions,
+                "atr": round(atr14, 2),
+                "atr_pct": round(atr_pct, 1),
+                "target_basis": target_name,
                 "current_price": current,
                 "target_price": target,
                 "target_pct": target_pct,
@@ -211,12 +280,14 @@ def format_recommendation_message(recs: list[dict]) -> str:
 
     for i, r in enumerate(recs, 1):
         reasons_str = " | ".join(r["reasons"][:2]) if r["reasons"] else "综合信号"
+        target_basis = r.get("target_basis", "")
+        atr_pct = r.get("atr_pct", 0)
         lines.extend([
-            f"**{i}. {r['ticker']}** — Conviction {r['conviction']:.2f}",
+            f"**{i}. {r['ticker']}** — Conviction {r['conviction']:.2f} (ATR {atr_pct:.1f}%)",
             f"   💰 现价 ${r['current_price']:.2f}",
-            f"   🎯 目标 ${r['target_price']:.2f} (+{r['target_pct']:.1f}%)",
+            f"   🎯 目标 ${r['target_price']:.2f} (+{r['target_pct']:.1f}%) [{target_basis}]",
             f"   🛑 止损 ${r['stop_loss']:.2f} (-{r['stop_loss_pct']:.1f}%)",
-            f"   ⚖️ 风险回报比 {r['risk_reward']:.1f}:1",
+            f"   ⚖️ R/R {r['risk_reward']:.1f}:1",
             f"   📝 {reasons_str}",
             "",
         ])
