@@ -862,5 +862,66 @@ def swing_status() -> None:
     click.echo(format_status_message(status))
 
 
+# ==================================================================
+# Crypto Trading (Conservative Mode + Alpaca)
+# ==================================================================
+
+@cli.command("crypto-scan")
+def crypto_scan() -> None:
+    """Scan BTC/ETH/SOL for Conservative mode signals."""
+    from scripts.crypto.crypto_trader import scan_all, format_scan_results
+    results = scan_all()
+    click.echo(format_scan_results(results))
+
+
+@cli.command("crypto-trade")
+@click.option("--execute/--dry-run", default=False, help="Execute real trades (default: dry run)")
+def crypto_trade(execute: bool) -> None:
+    """Execute crypto trades based on Conservative signals."""
+    from scripts.crypto.crypto_trader import execute_trades
+
+    mode = "🚀 LIVE" if execute else "🧪 DRY RUN"
+    click.echo(f"{mode} — Crypto Conservative Trading")
+    click.echo("=" * 55)
+
+    actions = execute_trades(dry_run=not execute)
+    for a in actions:
+        click.echo(f"  {a.get('symbol', '?')}: {a.get('action', '?')}")
+        if a.get("signal"):
+            click.echo(f"    Signal: {a['signal']} | Count: {a.get('count', '?')}/4 | Regime: {a.get('regime', '?')}")
+        if a.get("current") is not None:
+            click.echo(f"    Current: ${a['current']:,.0f} → Target: ${a.get('target', 0):,.0f}")
+        if a.get("reason"):
+            click.echo(f"    Reason: {a['reason']}")
+
+
+@cli.command("crypto-status")
+def crypto_status() -> None:
+    """Show current crypto positions and P&L."""
+    from scripts.crypto.crypto_monitor import get_portfolio_status, format_status
+    status = get_portfolio_status()
+    click.echo(format_status(status))
+
+
+@cli.command("crypto-close")
+@click.argument("symbol")
+@click.option("--yes", "-y", is_flag=True, help="Skip confirmation")
+def crypto_close(symbol: str, yes: bool) -> None:
+    """Close a crypto position. Symbol: BTC, ETH, or SOL."""
+    from scripts.crypto.alpaca_crypto import close_crypto_position
+
+    full_symbol = f"{symbol.upper()}/USD"
+    click.echo(f"Closing {full_symbol}...")
+    if not yes and not click.confirm(f"Close entire {full_symbol} position?"):
+        click.echo("Cancelled.")
+        return
+
+    result = close_crypto_position(full_symbol)
+    if result:
+        click.echo(f"✅ Close order placed: {result['id']} — {result['status']}")
+    else:
+        click.echo(f"❌ Failed to close {full_symbol}")
+
+
 if __name__ == "__main__":
     cli()

@@ -1985,3 +1985,46 @@
 2026-02-19 12:47:59,939 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(20800 bytes read, 2067 more expected)
 2026-02-19 12:49:00,048 [realtime_news] INFO: 🚨 ALERT: [high] MOOD — UBS Maintains Neutral on Moodys, Lowers Price Target to $490
 2026-02-19 12:49:10,029 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(18200 bytes read, 4522 more expected)
+2026-02-19 12:50:41,960 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on HP, Lowers Price Target to $20
+2026-02-19 12:51:07,686 [realtime_news] INFO: 🚨 ALERT: [high] DE — UBS Maintains Buy on Amplitude, Lowers Price Target to $10
+2026-02-19 12:51:32,648 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(18616 bytes read, 4172 more expected)
+2026-02-19 12:53:02,387 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Fiverr Intl, Lowers Price Target to $13
+2026-02-19 12:54:36,734 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Element Solutions, Raises Price Target to $43
+2026-02-19 12:55:11,394 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(21753 bytes read, 969 more expected)
+2026-02-19 12:55:32,020 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Toll Brothers, Raises Price Target to $198
+2026-02-19 12:57:06,088 [realtime_news] INFO: 🚨 ALERT: [high] DE — UBS Maintains Neutral on TFI International, Raises Price Target to $110
+2026-02-19 12:57:57,089 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Sonoco Prods, Raises Price Target to $62
+2026-02-19 12:58:51,705 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Sonoco Surges to 52-Week High After Earnings: More Upside or a Pullback Ahead?
+2026-02-19 12:58:54,384 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Verisk downplays AI disruption fears as quarterly profit beats estimates
+2026-02-19 12:58:56,791 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Celanese, Raises Price Target to $56
+2026-02-19 13:01:28,384 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Dana, Raises Price Target to $40
+2026-02-19 13:02:09,854 [realtime_news] INFO: 🚨 ALERT: [critical] DE — LegalZoom.com Q4 Adj. EPS $0.17 Misses $0.18 Estimate, Sales $190.266M Beat $184
+2026-02-19 13:02:18,962 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Perdoceo Education Q4 Adj. EPS $0.59 Beats $0.54 Estimate, Sales $211.639M Beat 
+2026-02-19 13:02:20,929 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Ardelyx Q4 EPS $0.00 Misses $0.01 Estimate, Sales $125.215M Beat $118.134M Estim
+2026-02-19 13:02:24,406 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Travere Therapeutics Q4 Adj. EPS $0.37 Beats $(0.04) Estimate, Sales $129.689M M
+2026-02-19 13:02:30,601 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(22147 bytes read, 1227 more expected)
+2026-02-19 13:02:33,547 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Carter&#39;s, Raises Price Target to $40
+2026-02-19 13:02:40,674 [realtime_news] INFO: 🚨 ALERT: [high] DE — PTC Therapeutics Q4 EPS $(1.67) Misses $0.07 Estimate, Sales $164.677M Miss $276
+2026-02-19 13:02:53,679 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Howard Hughes Holdings Q4 EPS $0.10 Beats $0.04 Estimate, Sales $624.449M Beat $
+2026-02-19 13:02:57,718 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Vesta Real Estate Q4 FFO $0.05 Beats $0.04 Estimate, Sales $70.300M Miss $72.414
+2026-02-19 13:03:05,599 [realtime_news] INFO: 🚨 ALERT: [high] SA — GRAIL Q4 EPS $(2.44) Beats $(2.73) Estimate, Sales $43.597M Miss $43.600M Estima
+2026-02-19 13:03:35,824 [realtime_news] INFO: 🚨 ALERT: [high] DE — UBS Maintains Buy on Analog Devices, Raises Price Target to $430
+2026-02-19 13:03:37,620 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Sprouts Farmers Market Q4 EPS $0.92 Beats $0.89 Estimate, Sales $2.149B Miss $2.
+2026-02-19 13:03:39,651 [realtime_news] INFO: 🚨 ALERT: [critical] SA — American Coastal Q4 Adj. EPS $0.52 Beats $0.42 Estimate, Sales $76.375M Miss $77
+2026-02-19 13:03:42,540 [realtime_news] WARNING: RSS feed Yahoo_Finance error: IncompleteRead(22100 bytes read, 1274 more expected)
+2026-02-19 13:03:55,678 [realtime_news] INFO: 🚨 ALERT: [critical] SA — PTC Therapeutics shares are trading lower after the company reported worse-than-
+2026-02-19 13:04:02,580 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Texas Roadhouse Q4 EPS $1.28 Misses $1.53 Estimate, Sales $1.482B Miss $1.498B E
+2026-02-19 13:04:13,986 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Texas Roadhouse Earnings Report: Q4 Overview
+2026-02-19 13:04:19,457 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — American Coastal Earnings Review: Q4 Summary
+2026-02-19 13:04:24,258 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Insights into Sprouts Farmers Market Q4 Earnings
+2026-02-19 13:04:26,359 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Alarm.com Holdings Q4 Adj. EPS $0.72 Beats $0.64 Estimate, Sales $261.657M Beat 
+2026-02-19 13:04:29,442 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — GRAIL: Q4 Earnings Insights
+2026-02-19 13:04:34,379 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Corporacion Inmobiliaria Earnings Report: Q4 Overview
+2026-02-19 13:04:36,535 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Mister Car Wash, Raises Price Target to $7
+2026-02-19 13:04:39,812 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Ardelyx Q4 Earnings Report: What Investors Need to Know
+2026-02-19 13:04:44,541 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Travere Therapeutics Q4 Earnings Report: What Investors Need to Know
+2026-02-19 13:04:44,542 [realtime_news] WARNING: RSS feed CNBC_Top error: Remote end closed connection without response
+2026-02-19 13:04:49,287 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Howard Hughes Holdings Earnings Review: Q4 Summary
+2026-02-19 13:05:04,649 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Akamai Techs Q4 Adj. EPS $1.84 Beats $1.75 Estimate, Sales $1.095B Beat $1.076B 
+2026-02-19 13:05:06,787 [realtime_news] INFO: 🚨 ALERT: [critical] DE — Dropbox Q4 Adj. EPS $0.68 Beats $0.67 Estimate, Sales $636.200M Beat $628.667M E
+2026-02-19 13:05:18,024 [realtime_news] INFO: 🚨 ALERT: [high] DE — LegalZoom.com Announces $100M Increase To Buyback Plan

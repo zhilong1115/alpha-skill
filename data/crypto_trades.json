@@ -1,0 +1,20 @@
+[
+  {
+    "id": "70ca69fc-aef3-4f24-907f-8980cc30c797",
+    "symbol": "BTC/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 100,
+    "qty": null,
+    "created_at": "2026-02-19 21:03:26.514037+00:00",
+    "logged_at": "2026-02-19T13:03:26.804211"
+  },
+  {
+    "id": "1c3f1c01-fb92-454d-9274-0c8428d3472b",
+    "symbol": "BTC/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-19 21:03:37.661104+00:00",
+    "logged_at": "2026-02-19T13:03:37.958640"
+  }
+]

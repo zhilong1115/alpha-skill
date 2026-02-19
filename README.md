@@ -12,6 +12,15 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 - **12:45 PM PT hard close** — all positions liquidated, no overnight holds
 - Target: 3-8 selective trades/day
 
+### Mode C: Crypto Trading (Alpaca Paper, Conservative)
+- **Symbols**: BTC/USD, ETH/USD, SOL/USD on Alpaca paper trading
+- **Strategy**: Conservative E+G Hybrid — TSI, OBV+EMA9, WaveTrend, USDT.D TSI scored against SMA200 regime
+- **Position sizing**: Bull regime 4/4=50%, 3/4=30%, 2/4=15% | Bear regime 4/4=30%, 3/4=15%, 2/4=0%
+- **Capital**: $50K allocation (of $100K paper account), max $25K per coin
+- **Risk**: 5% stop-loss, 4H MA120 hard stop, no leverage
+- **Commands**: `crypto-scan`, `crypto-trade`, `crypto-status`, `crypto-close`
+- 24/7 trading (crypto markets never close)
+
 ### Mode B: Swing Recommendations (Robinhood, Manual)
 - Daily morning scan of S&P 500 + Reddit trending + volume spikes (600+ tickers)
 - Top 3-5 picks with conviction score, target price, stop-loss, risk/reward ratio

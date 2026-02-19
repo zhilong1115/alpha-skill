@@ -1,796 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Truist Securities Maintains Buy on IQVIA Holdings, Lowers Price Target to $245",
-    "summary": "Truist Securities  analyst Jailendra Singh   maintains IQVIA Holdings (NYSE:IQV) with a Buy and lowers the price target from $290 to $245.",
-    "symbols": [
-      "IQV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:00:11Z",
-    "url": "https://www.benzinga.com/news/26/02/50728661/truist-securities-maintains-buy-on-iqvia-holdings-lowers-price-target-to-245"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "A Look Into Chipotle Mexican Grill Inc&#39;s Price Over Earnings",
-    "summary": " ",
-    "symbols": [
-      "CMG"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:00:28Z",
-    "url": "https://www.benzinga.com/insights/news/26/02/50728681/a-look-into-chipotle-mexican-grill-incs-price-over-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Buy on Fluor, Raises Price Target to $60",
-    "summary": "DA Davidson  analyst Brent Thielman   maintains Fluor (NYSE:FLR) with a Buy and raises the price target from $55 to $60.",
-    "symbols": [
-      "FLR"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:00:40Z",
-    "url": "https://www.benzinga.com/news/26/02/50728695/da-davidson-maintains-buy-on-fluor-raises-price-target-to-60"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Truist Securities Maintains Buy on Insulet, Lowers Price Target to $360",
-    "summary": "Truist Securities  analyst Richard Newitter   maintains Insulet (NASDAQ:PODD) with a Buy and lowers the price target from $390 to $360.",
-    "symbols": [
-      "PODD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:01:45Z",
-    "url": "https://www.benzinga.com/news/26/02/50728767/truist-securities-maintains-buy-on-insulet-lowers-price-target-to-360"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Neutral on Franklin Electric, Raises Price Target to $100",
-    "summary": "DA Davidson  analyst Matt Summerville   maintains Franklin Electric (NASDAQ:FELE) with a Neutral and raises the price target from $90 to $100.",
-    "symbols": [
-      "FELE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:02:28Z",
-    "url": "https://www.benzinga.com/news/26/02/50728794/da-davidson-maintains-neutral-on-franklin-electric-raises-price-target-to-100"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Truist Securities Maintains Buy on Vulcan Materials, Raises Price Target to $360",
-    "summary": "Truist Securities  analyst Keith Hughes   maintains Vulcan Materials (NYSE:VMC) with a Buy and raises the price target from $320 to $360.",
-    "symbols": [
-      "VMC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:02:59Z",
-    "url": "https://www.benzinga.com/news/26/02/50728823/truist-securities-maintains-buy-on-vulcan-materials-raises-price-target-to-360"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Stocks Fall, Oil Hits 7-Month High As Trump Weighs Iran Strike: What&#39;s Moving Markets Thursday?",
-    "summary": "Stocks slipped Thursday as Trump comments on Iran lifted oil prices, boosting energy shares while financials and tech lagged midday Thursday.",
-    "symbols": [
-      "BKNG",
-      "CAR",
-      "COLD",
-      "CORT",
-      "CVNA",
-      "DASH",
-      "DE",
-      "DIA",
-      "EBAY",
-      "EPAM",
-      "ETSY",
-      "FIG",
-      "IWM",
-      "MPW",
-      "OMC",
-      "OXY",
-      "PWR",
-      "QQQ",
-      "VOO",
-      "W",
-      "WMT",
-      "XLE",
-      "XLF",
-      "YETI"
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:03:07Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50728828/stock-market-news-thursday-oil-price-iran-earnings-movers-wall-street"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Truist Securities Maintains Buy on Wingstop, Raises Price Target to $374",
-    "summary": "Truist Securities  analyst Jake Bartlett   maintains Wingstop (NASDAQ:WING) with a Buy and raises the price target from $365 to $374.",
-    "symbols": [
-      "WING"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:04:31Z",
-    "url": "https://www.benzinga.com/news/26/02/50728884/truist-securities-maintains-buy-on-wingstop-raises-price-target-to-374"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Truist Securities Maintains Hold on eBay, Raises Price Target to $94",
-    "summary": "Truist Securities  analyst Youssef Squali   maintains eBay (NASDAQ:EBAY) with a Hold and raises the price target from $92 to $94.",
-    "symbols": [
-      "EBAY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:05:46Z",
-    "url": "https://www.benzinga.com/news/26/02/50728965/truist-securities-maintains-hold-on-ebay-raises-price-target-to-94"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Neutral on Wabash National, Maintains $11 Price Target",
-    "summary": "DA Davidson  analyst Michael Shlisky   maintains Wabash National (NYSE:WNC) with a Neutral and maintains $11 price target.",
-    "symbols": [
-      "WNC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:05:47Z",
-    "url": "https://www.benzinga.com/news/26/02/50728967/da-davidson-maintains-neutral-on-wabash-national-maintains-11-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Buy on National Bank Holdings, Maintains $48 Price Target",
-    "summary": "DA Davidson  analyst Jeff Rulis   maintains National Bank Holdings (NYSE:NBHC) with a Buy and maintains $48 price target.",
-    "symbols": [
-      "NBHC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:07:39Z",
-    "url": "https://www.benzinga.com/news/26/02/50729049/da-davidson-maintains-buy-on-national-bank-holdings-maintains-48-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Keefe, Bruyette &amp; Woods Upgrades Neptune Insurance Hldgs to Outperform, Lowers Price Target to $25",
-    "summary": "Keefe, Bruyette &amp; Woods  analyst Tommy McJoynt   upgrades Neptune Insurance Hldgs (NYSE:NP) from Market Perform to Outperform and lowers the price target from $26 to $25.",
-    "symbols": [
-      "NP"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T18:07:50Z",
-    "url": "https://www.benzinga.com/news/26/02/50729060/keefe-bruyette-woods-upgrades-neptune-insurance-hldgs-to-outperform-lowers-price-target-to-25"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Carnival Stock Is Falling Thursday: What&#39;s Driving The Action?",
-    "summary": "Carnival Corp (NYSE: CCL) shares are trading lower Thursday afternoon as crude oil held near six-month highs, rekindling worries about rising fuel costs for the cruise operator.",
-    "symbols": [
-      "CCL"
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "crude oil"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:09:48Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50729107/carnival-stock-is-falling-thursday-whats-driving-the-action"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Buy on AvePoint, Lowers Price Target to $18",
-    "summary": "DA Davidson  analyst Rudy Kessinger   maintains AvePoint (NASDAQ:AVPT) with a Buy and lowers the price target from $20 to $18.",
-    "symbols": [
-      "AVPT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:12:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50729180/da-davidson-maintains-buy-on-avepoint-lowers-price-target-to-18"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Congressman Has Sold Nvidia Stock Each Year Since 2022, Missing Out On 631% Gain",
-    "summary": "A congressman has disclosed selling the same Magnificent Seven stock every year since 2022, potentially missing out on some huge profits.",
-    "symbols": [
-      "NVDA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "NVDA",
-    "matched_tickers": [
-      "NVDA",
-      "SA"
-    ],
-    "keywords": [
-      "miss",
-      "profit"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T18:13:08Z",
-    "url": "https://www.benzinga.com/news/politics/26/02/50729223/congressman-has-sold-nvidia-stock-each-year-since-2022-missing-out-on-631-gain"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "UBS Cite Efficient Capital Allocation and Rising Profits in Viatris Inc. (VTRS) Upgrade",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "profit"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-18T08:54:02Z",
-    "url": "https://finance.yahoo.com/news/ubs-cite-efficient-capital-allocation-085402690.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Bernstein Maintains Outperform on DoorDash, Lowers Price Target to $270",
-    "summary": "Bernstein  analyst Nikhil Devnani   maintains DoorDash (NASDAQ:DASH) with a Outperform and lowers the price target from $285 to $270.",
-    "symbols": [
-      "DASH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:18:14Z",
-    "url": "https://www.benzinga.com/news/26/02/50729351/bernstein-maintains-outperform-on-doordash-lowers-price-target-to-270"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Bernstein Maintains Market Perform on Textron, Raises Price Target to $108",
-    "summary": "Bernstein  analyst Douglas Harned   maintains Textron (NYSE:TXT) with a Market Perform and raises the price target from $94 to $108.",
-    "symbols": [
-      "TXT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:19:40Z",
-    "url": "https://www.benzinga.com/news/26/02/50729379/bernstein-maintains-market-perform-on-textron-raises-price-target-to-108"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "JIADE To Raise $3 Million Via New Equity Offering",
-    "summary": "The company announced a pricing of $3 million for the offering, involving the sale of 12,000,000 Class A ordinary shares.",
-    "symbols": [
-      "JDZG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "offering"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T18:20:35Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50729424/jiade-to-raise-3-million-via-new-equity-offering"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Bernstein Maintains Outperform on TKO Group Holdings, Raises Price Target to $250",
-    "summary": "Bernstein  analyst Ian Moore   maintains TKO Group Holdings (NYSE:TKO) with a Outperform and raises the price target from $230 to $250.",
-    "symbols": [
-      "TKO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:21:32Z",
-    "url": "https://www.benzinga.com/news/26/02/50729454/bernstein-maintains-outperform-on-tko-group-holdings-raises-price-target-to-250"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With Rivian Automotive Stock Thursday?",
-    "summary": "Rivian stock down after Q4 earnings, analysts react. Mixed reactions from analysts, with stock at Hold rating. CEO &amp; CFO sell shares.",
-    "symbols": [
-      "ISCV",
-      "PBD",
-      "QCLN",
-      "RIVN",
-      "TSLA"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "TSLA",
-    "matched_tickers": [
-      "TSLA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:23:33Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50729539/whats-going-on-with-rivian-automotive-stock-thursday"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Initiates Coverage On Lear with Buy Rating, Announces Price Target of $170",
-    "summary": "Benchmark  analyst Mickey Legg   initiates coverage on Lear (NYSE:LEA) with a Buy rating and announces Price Target of $170.",
-    "symbols": [
-      "LEA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:25:49Z",
-    "url": "https://www.benzinga.com/news/26/02/50729601/benchmark-initiates-coverage-on-lear-with-buy-rating-announces-price-target-of-170"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With LKQ Corporation Stock Today?",
-    "summary": "LKQ shares tick higher despite an EPS miss as revenue beat expectations, but restructuring costs and below-consensus 2026 guidance tempered optimism.",
-    "symbols": [
-      "LKQ"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:27:33Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50729653/whats-going-on-with-lkq-corporation-stock-today"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Visa To Acquire Argentina&#39;s Prisma, Newpay From Advent",
-    "summary": "Advent International, a leading global private equity investor, announced on Thursday, that it has entered into a definitive agreement to sell Prisma and Newpay to Visa Inc (V).",
-    "symbols": [
-      "V"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:29:10Z",
-    "url": "https://www.benzinga.com/m-a/26/02/50729683/visa-to-acquire-argentinas-prisma-newpay-from-advent"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on Booking Holdings, Lowers Price Target to $5600",
-    "summary": "Benchmark  analyst Daniel Kurnos   maintains Booking Holdings (NASDAQ:BKNG) with a Buy and lowers the price target from $6400 to $5600.",
-    "symbols": [
-      "BKNG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:31:36Z",
-    "url": "https://www.benzinga.com/news/26/02/50729759/benchmark-maintains-buy-on-booking-holdings-lowers-price-target-to-5600"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on eBay, Raises Price Target to $115",
-    "summary": "Benchmark  analyst Daniel Kurnos   maintains eBay (NASDAQ:EBAY) with a Buy and raises the price target from $110 to $115.",
-    "symbols": [
-      "EBAY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:32:53Z",
-    "url": "https://www.benzinga.com/news/26/02/50729787/benchmark-maintains-buy-on-ebay-raises-price-target-to-115"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on DoorDash, Raises Price Target to $285",
-    "summary": "Benchmark  analyst Mark Zgutowicz   maintains DoorDash (NASDAQ:DASH) with a Buy and raises the price target from $280 to $285.",
-    "symbols": [
-      "DASH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:34:24Z",
-    "url": "https://www.benzinga.com/news/26/02/50729825/benchmark-maintains-buy-on-doordash-raises-price-target-to-285"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on Global E Online, Raises Price Target to $60",
-    "summary": "Benchmark  analyst Mark Zgutowicz   maintains Global E Online (NASDAQ:GLBE) with a Buy and raises the price target from $52 to $60.",
-    "symbols": [
-      "GLBE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:35:57Z",
-    "url": "https://www.benzinga.com/news/26/02/50729852/benchmark-maintains-buy-on-global-e-online-raises-price-target-to-60"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With Occidental Petroleum Shares On Thursday?",
-    "summary": "Occidental Petroleum shares jumped after it reported capital-efficient 2026 guidance, and robust cash flow.",
-    "symbols": [
-      "KNTK",
-      "OXY"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL",
-      "DE"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:36:26Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50729870/whats-going-on-with-occidental-petroleum-shares-on-thursday"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on Halozyme Therapeutics, Raises Price Target to $90",
-    "summary": "Benchmark  analyst Robert Wasserman   maintains Halozyme Therapeutics (NASDAQ:HALO) with a Buy and raises the price target from $75 to $90.",
-    "symbols": [
-      "HALO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:38:50Z",
-    "url": "https://www.benzinga.com/news/26/02/50729924/benchmark-maintains-buy-on-halozyme-therapeutics-raises-price-target-to-90"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Benchmark Maintains Buy on LCI Industries, Raises Price Target to $175",
-    "summary": "Benchmark  analyst Michael Albanese   maintains LCI Industries (NYSE:LCII) with a Buy and raises the price target from $130 to $175.",
-    "symbols": [
-      "LCII"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "ALB",
-    "matched_tickers": [
-      "ALB"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:41:22Z",
-    "url": "https://www.benzinga.com/news/26/02/50730001/benchmark-maintains-buy-on-lci-industries-raises-price-target-to-175"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Daiwa Capital Upgrades T-Mobile US to Outperform, Raises Price Target to $240",
-    "summary": "Daiwa Capital  analyst Jonathan Kees   upgrades T-Mobile US (NASDAQ:TMUS) from Neutral to Outperform and raises the price target from $230 to $240.",
-    "symbols": [
-      "TMUS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T18:42:54Z",
-    "url": "https://www.benzinga.com/news/26/02/50730035/daiwa-capital-upgrades-t-mobile-us-to-outperform-raises-price-target-to-240"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "GTX Shares Lower on Cautious FY26 Automotive Production Outlook",
-    "summary": "Garrett Motion stock dipped in premarket trading after the company beat EPS estimates but offered cautious guidance.",
-    "symbols": [
-      "GTX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "GTX",
-    "matched_tickers": [
-      "GTX"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T18:43:42Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50730060/garrett-motion-shares-lower-on-cautious-fy26-automotive-production-outlook"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "\ud83d\udcf9 The Consumer Shock From Tariffs Isn't Over. When Will Prices Peak?",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-18T08:29:31Z",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-18-2026/card/-the-consumer-shock-from-tariffs-isn-t-over-when-will-prices-peak--BTm3hdtQQN0BEOjgWnpO?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Daiwa Capital Upgrades Verizon Communications to Buy, Raises Price Target to $58",
-    "summary": "Daiwa Capital  analyst Jonathan Kees   upgrades Verizon Communications (NYSE:VZ) from Outperform to Buy and raises the price target from $48 to $58.",
-    "symbols": [
-      "VZ"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T18:45:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50730108/daiwa-capital-upgrades-verizon-communications-to-buy-raises-price-target-to-58"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "HSBC Upgrades QuantumScape to Hold, Lowers Price Target to $8.3",
-    "summary": "HSBC  analyst Laisha Zaack   upgrades QuantumScape (NASDAQ:QS) from Reduce to Hold and lowers the price target from $10.5 to $8.3.",
-    "symbols": [
-      "QS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T18:48:04Z",
-    "url": "https://www.benzinga.com/news/26/02/50730169/hsbc-upgrades-quantumscape-to-hold-lowers-price-target-to-8-3"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "D. Boral Capital Downgrades Geovax Labs to Hold",
-    "summary": "D. Boral Capital  analyst Jason Kolbert   downgrades Geovax Labs (NASDAQ:GOVX) from Buy to Hold.",
-    "symbols": [
-      "GOVX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "downgrade"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T18:50:23Z",
-    "url": "https://www.benzinga.com/news/26/02/50730230/d-boral-capital-downgrades-geovax-labs-to-hold"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "HSBC Initiates Coverage On PicS with Buy Rating, Announces Price Target of $21",
-    "summary": "HSBC  analyst Neha Agarwala   initiates coverage on PicS (NASDAQ:PICS) with a Buy rating and announces Price Target of $21.",
-    "symbols": [
-      "PICS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:50:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50730243/hsbc-initiates-coverage-on-pics-with-buy-rating-announces-price-target-of-21"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "Needham Downgrades Alight to Hold",
     "summary": "Needham  analyst Kyle Peterson   downgrades Alight (NYSE:ALIT) from Buy to Hold.",
     "symbols": [
@@ -2019,5 +1229,774 @@
     "action_type": "monitor",
     "timestamp": "2026-02-19T20:48:56Z",
     "url": "https://www.benzinga.com/news/26/02/50733641/ubs-maintains-neutral-on-moodys-lowers-price-target-to-490"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on HP, Lowers Price Target to $20",
+    "summary": "UBS  analyst David Vogt   maintains HP (NYSE:HPQ) with a Neutral and lowers the price target from $26 to $20.",
+    "symbols": [
+      "HPQ"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:50:19Z",
+    "url": "https://www.benzinga.com/news/26/02/50733689/ubs-maintains-neutral-on-hp-lowers-price-target-to-20"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Amplitude, Lowers Price Target to $10",
+    "summary": "UBS  analyst Taylor McGinnis   maintains Amplitude (NASDAQ:AMPL) with a Buy and lowers the price target from $13 to $10.",
+    "symbols": [
+      "AMPL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:51:04Z",
+    "url": "https://www.benzinga.com/news/26/02/50733708/ubs-maintains-buy-on-amplitude-lowers-price-target-to-10"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Fiverr Intl, Lowers Price Target to $13",
+    "summary": "UBS  analyst Joshua Chan   maintains Fiverr Intl (NYSE:FVRR) with a Neutral and lowers the price target from $25 to $13.",
+    "symbols": [
+      "FVRR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:52:58Z",
+    "url": "https://www.benzinga.com/news/26/02/50733793/ubs-maintains-neutral-on-fiverr-intl-lowers-price-target-to-13"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Element Solutions, Raises Price Target to $43",
+    "summary": "UBS  analyst Joshua Spector   maintains Element Solutions (NYSE:ESI) with a Buy and raises the price target from $34 to $43.",
+    "symbols": [
+      "ESI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:54:33Z",
+    "url": "https://www.benzinga.com/news/26/02/50733839/ubs-maintains-buy-on-element-solutions-raises-price-target-to-43"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Toll Brothers, Raises Price Target to $198",
+    "summary": "UBS  analyst John Lovallo   maintains Toll Brothers (NYSE:TOL) with a Buy and raises the price target from $181 to $198.",
+    "symbols": [
+      "TOL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:55:28Z",
+    "url": "https://www.benzinga.com/news/26/02/50733885/ubs-maintains-buy-on-toll-brothers-raises-price-target-to-198"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on TFI International, Raises Price Target to $110",
+    "summary": "UBS  analyst Thomas Wadewitz   maintains TFI International (NYSE:TFII) with a Neutral and raises the price target from $101 to $110.",
+    "symbols": [
+      "TFII"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:57:02Z",
+    "url": "https://www.benzinga.com/news/26/02/50733927/ubs-maintains-neutral-on-tfi-international-raises-price-target-to-110"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Sonoco Prods, Raises Price Target to $62",
+    "summary": "UBS  analyst Anojja Shah   maintains Sonoco Prods (NYSE:SON) with a Neutral and raises the price target from $48 to $62.",
+    "symbols": [
+      "SON"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:57:53Z",
+    "url": "https://www.benzinga.com/news/26/02/50733953/ubs-maintains-neutral-on-sonoco-prods-raises-price-target-to-62"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Sonoco Surges to 52-Week High After Earnings: More Upside or a Pullback Ahead?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-18T12:45:15Z",
+    "url": "https://finance.yahoo.com/news/sonoco-surges-52-week-high-124515061.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Verisk downplays AI disruption fears as quarterly profit beats estimates",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "beat",
+      "profit"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-18T12:56:47Z",
+    "url": "https://finance.yahoo.com/news/verisk-quarterly-profit-beats-estimates-125647738.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Celanese, Raises Price Target to $56",
+    "summary": "UBS  analyst Joshua Spector   maintains Celanese (NYSE:CE) with a Neutral and raises the price target from $50 to $56.",
+    "symbols": [
+      "CE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T20:58:52Z",
+    "url": "https://www.benzinga.com/news/26/02/50733990/ubs-maintains-neutral-on-celanese-raises-price-target-to-56"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Dana, Raises Price Target to $40",
+    "summary": "UBS  analyst Joseph Spak   maintains Dana (NYSE:DAN) with a Buy and raises the price target from $35 to $40.",
+    "symbols": [
+      "DAN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:01:24Z",
+    "url": "https://www.benzinga.com/news/26/02/50734151/ubs-maintains-buy-on-dana-raises-price-target-to-40"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "LegalZoom.com Q4 Adj. EPS $0.17 Misses $0.18 Estimate, Sales $190.266M Beat $184.802M Estimate",
+    "summary": "LegalZoom.com (NASDAQ:LZ) reported quarterly earnings of $0.17 per share which missed the analyst consensus estimate of $0.18 by 3.95 percent. This is a 10.53 percent decrease over earnings of $0.19 per share from the",
+    "symbols": [
+      "LZ"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:02:05Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734190/legalzoom-com-q4-adj-eps-0-17-misses-0-18-estimate-sales-190-266m-beat-184-802m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Perdoceo Education Q4 Adj. EPS $0.59 Beats $0.54 Estimate, Sales $211.639M Beat $210.000M Estimate",
+    "summary": "Perdoceo Education (NASDAQ:PRDO) reported quarterly earnings of $0.59 per share which beat the analyst consensus estimate of $0.54 by 9.26 percent. This is a 18 percent increase over earnings of $0.50 per share from the",
+    "symbols": [
+      "PRDO"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:02:15Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734199/perdoceo-education-q4-adj-eps-0-59-beats-0-54-estimate-sales-211-639m-beat-210-000m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ardelyx Q4 EPS $0.00 Misses $0.01 Estimate, Sales $125.215M Beat $118.134M Estimate",
+    "summary": "Ardelyx (NASDAQ:ARDX) reported quarterly earnings of $0.00 per share which missed the analyst consensus estimate of $0.01 by 85.71 percent. This is a 95 percent decrease over earnings of $0.02 per share from the same",
+    "symbols": [
+      "ARDX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:02:15Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734198/ardelyx-q4-eps-0-00-misses-0-01-estimate-sales-125-215m-beat-118-134m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Travere Therapeutics Q4 Adj. EPS $0.37 Beats $(0.04) Estimate, Sales $129.689M Miss $144.823M Estimate",
+    "summary": "Travere Therapeutics (NASDAQ:TVTX) reported quarterly earnings of $0.37 per share which beat the analyst consensus estimate of $(0.04) by 1002.44 percent. This is a 178.72 percent increase over losses of $(0.47) per",
+    "symbols": [
+      "TVTX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:02:21Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734206/travere-therapeutics-q4-adj-eps-0-37-beats-0-04-estimate-sales-129-689m-miss-144-823m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Carter&#39;s, Raises Price Target to $40",
+    "summary": "UBS  analyst Jay Sole   maintains Carter&#39;s (NYSE:CRI) with a Neutral and raises the price target from $33 to $40.",
+    "symbols": [
+      "CRI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:02:30Z",
+    "url": "https://www.benzinga.com/news/26/02/50734222/ubs-maintains-neutral-on-carters-raises-price-target-to-40"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "PTC Therapeutics Q4 EPS $(1.67) Misses $0.07 Estimate, Sales $164.677M Miss $276.665M Estimate",
+    "summary": "PTC Therapeutics (NASDAQ:PTCT) reported quarterly losses of $(1.67) per share which missed the analyst consensus estimate of $0.07 by 2419.44 percent. This is a 96.47 percent decrease over losses of $(0.85) per share",
+    "symbols": [
+      "PTCT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-19T21:02:37Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734229/ptc-therapeutics-q4-eps-1-67-misses-0-07-estimate-sales-164-677m-miss-276-665m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Howard Hughes Holdings Q4 EPS $0.10 Beats $0.04 Estimate, Sales $624.449M Beat $614.000M Estimate",
+    "summary": "Howard Hughes Holdings (NYSE:HHH) reported quarterly earnings of $0.10 per share which beat the analyst consensus estimate of $0.04 by 150 percent. This is a 96.92 percent decrease over earnings of $3.25 per share from",
+    "symbols": [
+      "HHH"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:02:50Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734240/howard-hughes-holdings-q4-eps-0-10-beats-0-04-estimate-sales-624-449m-beat-614-000m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Vesta Real Estate Q4 FFO $0.05 Beats $0.04 Estimate, Sales $70.300M Miss $72.414M Estimate",
+    "summary": "Vesta Real Estate (NYSE:VTMX) reported quarterly earnings of $0.05 per share which beat the analyst consensus estimate of $0.04 by 9.52 percent. This is a 4.17 percent decrease over earnings of $0.05 per share from the",
+    "symbols": [
+      "VTMX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:02:54Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734245/vesta-real-estate-q4-ffo-0-05-beats-0-04-estimate-sales-70-300m-miss-72-414m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "GRAIL Q4 EPS $(2.44) Beats $(2.73) Estimate, Sales $43.597M Miss $43.600M Estimate",
+    "summary": "GRAIL (NASDAQ:GRAL) reported quarterly losses of $(2.44) per share which beat the analyst consensus estimate of $(2.73) by 10.62 percent. This is a 15.57 percent increase over losses of $(2.89) per share from the same",
+    "symbols": [
+      "GRAL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:03:02Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734254/grail-q4-eps-2-44-beats-2-73-estimate-sales-43-597m-miss-43-600m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Analog Devices, Raises Price Target to $430",
+    "summary": "UBS  analyst Timothy Arcuri   maintains Analog Devices (NASDAQ:ADI) with a Buy and raises the price target from $400 to $430.",
+    "symbols": [
+      "ADI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:03:32Z",
+    "url": "https://www.benzinga.com/news/26/02/50734288/ubs-maintains-buy-on-analog-devices-raises-price-target-to-430"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Sprouts Farmers Market Q4 EPS $0.92 Beats $0.89 Estimate, Sales $2.149B Miss $2.153B Estimate",
+    "summary": "Sprouts Farmers Market (NASDAQ:SFM) reported quarterly earnings of $0.92 per share which beat the analyst consensus estimate of $0.89 by 3.37 percent. This is a 16.46 percent increase over earnings of $0.79 per share",
+    "symbols": [
+      "SFM"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:03:33Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734290/sprouts-farmers-market-q4-eps-0-92-beats-0-89-estimate-sales-2-149b-miss-2-153b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "American Coastal Q4 Adj. EPS $0.52 Beats $0.42 Estimate, Sales $76.375M Miss $77.932M Estimate",
+    "summary": "American Coastal (NASDAQ:ACIC) reported quarterly earnings of $0.52 per share which beat the analyst consensus estimate of $0.42 by 23.81 percent. This is a 333.33 percent increase over earnings of $0.12 per share from",
+    "symbols": [
+      "ACIC"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:03:35Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734292/american-coastal-q4-adj-eps-0-52-beats-0-42-estimate-sales-76-375m-miss-77-932m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "PTC Therapeutics shares are trading lower after the company reported worse-than-expected Q4 financial results and issued FY26 sales guidance below estimates.",
+    "summary": "",
+    "symbols": [
+      "PTCT"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "guidance"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:03:52Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50734331/ptc-therapeutics-shares-are-trading-lower-after-the-company-reported-worse-than-expected-q4-financia"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Texas Roadhouse Q4 EPS $1.28 Misses $1.53 Estimate, Sales $1.482B Miss $1.498B Estimate",
+    "summary": "Texas Roadhouse (NASDAQ:TXRH) reported quarterly earnings of $1.28 per share which missed the analyst consensus estimate of $1.53 by 16.23 percent. This is a 26.01 percent decrease over earnings of $1.73 per share from",
+    "symbols": [
+      "TXRH"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-19T21:03:59Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734344/texas-roadhouse-q4-eps-1-28-misses-1-53-estimate-sales-1-482b-miss-1-498b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Texas Roadhouse Earnings Report: Q4 Overview",
+    "summary": " ",
+    "symbols": [
+      "TXRH"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:10Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734370/texas-roadhouse-earnings-report-q4-overview"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "American Coastal Earnings Review: Q4 Summary",
+    "summary": " ",
+    "symbols": [
+      "ACIC"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:16Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734381/american-coastal-earnings-review-q4-summary"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Insights into Sprouts Farmers Market Q4 Earnings",
+    "summary": " ",
+    "symbols": [
+      "SFM"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:21Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734393/insights-into-sprouts-farmers-market-q4-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Alarm.com Holdings Q4 Adj. EPS $0.72 Beats $0.64 Estimate, Sales $261.657M Beat $250.815M Estimate",
+    "summary": "Alarm.com Holdings (NASDAQ:ALRM) reported quarterly earnings of $0.72 per share which beat the analyst consensus estimate of $0.64 by 12.32 percent. This is a 24.14 percent increase over earnings of $0.58 per share from",
+    "symbols": [
+      "ALRM"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:04:23Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734398/alarm-com-holdings-q4-adj-eps-0-72-beats-0-64-estimate-sales-261-657m-beat-250-815m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "GRAIL: Q4 Earnings Insights",
+    "summary": " ",
+    "symbols": [
+      "GRAL"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:26Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734403/grail-q4-earnings-insights"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Corporacion Inmobiliaria Earnings Report: Q4 Overview",
+    "summary": " ",
+    "symbols": [
+      "VTMX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:31Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734412/corporacion-inmobiliaria-earnings-report-q4-overview"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Mister Car Wash, Raises Price Target to $7",
+    "summary": "UBS  analyst Michael Lasser   maintains Mister Car Wash (NASDAQ:MCW) with a Neutral and raises the price target from $6.25 to $7.",
+    "symbols": [
+      "MCW"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:33Z",
+    "url": "https://www.benzinga.com/news/26/02/50734422/ubs-maintains-neutral-on-mister-car-wash-raises-price-target-to-7"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ardelyx Q4 Earnings Report: What Investors Need to Know",
+    "summary": " ",
+    "symbols": [
+      "ARDX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:36Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734431/ardelyx-q4-earnings-report-what-investors-need-to-know"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Travere Therapeutics Q4 Earnings Report: What Investors Need to Know",
+    "summary": " ",
+    "symbols": [
+      "TVTX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:41Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734448/travere-therapeutics-q4-earnings-report-what-investors-need-to-know"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Howard Hughes Holdings Earnings Review: Q4 Summary",
+    "summary": " ",
+    "symbols": [
+      "HHH"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T21:04:46Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50734461/howard-hughes-holdings-earnings-review-q4-summary"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Akamai Techs Q4 Adj. EPS $1.84 Beats $1.75 Estimate, Sales $1.095B Beat $1.076B Estimate",
+    "summary": "Akamai Techs (NASDAQ:AKAM) reported quarterly earnings of $1.84 per share which beat the analyst consensus estimate of $1.75 by 4.84 percent. This is a 10.84 percent increase over earnings of $1.66 per share from the",
+    "symbols": [
+      "AKAM"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:04:51Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734473/akamai-techs-q4-adj-eps-1-84-beats-1-75-estimate-sales-1-095b-beat-1-076b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Dropbox Q4 Adj. EPS $0.68 Beats $0.67 Estimate, Sales $636.200M Beat $628.667M Estimate",
+    "summary": "Dropbox (NASDAQ:DBX) reported quarterly earnings of $0.68 per share which beat the analyst consensus estimate of $0.67 by 0.89 percent. This is a 6.85 percent decrease over earnings of $0.73 per share from the same",
+    "symbols": [
+      "DBX"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:04:55Z",
+    "url": "https://www.benzinga.com/news/earnings/26/02/50734482/dropbox-q4-adj-eps-0-68-beats-0-67-estimate-sales-636-200m-beat-628-667m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "LegalZoom.com Announces $100M Increase To Buyback Plan",
+    "summary": "LegalZoom.com, Inc. (Nasdaq: LZ), a leading online platform for legal services, today announced results for its fourth quarter and year ended December\u00a031, 2025.Announces $100 million increase to share repurchase",
+    "symbols": [
+      "LZ"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T21:05:11Z",
+    "url": "https://www.benzinga.com/news/26/02/50734570/legalzoom-com-announces-100m-increase-to-buyback-plan"
   }
 ]
