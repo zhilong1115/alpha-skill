@@ -794,7 +794,7 @@ def day_close() -> None:
 # ==================================================================
 
 @cli.command("swing-recommend")
-@click.option("--universe", type=click.Choice(["watchlist", "sp500", "full"]), default="full")
+@click.option("--universe", type=click.Choice(["watchlist", "sp500", "social", "full"]), default="social")
 @click.option("--top", "top_n", default=5, help="Number of recommendations")
 def swing_recommend(universe: str, top_n: int) -> None:
     """Generate daily swing trade recommendations."""
@@ -804,7 +804,12 @@ def swing_recommend(universe: str, top_n: int) -> None:
         from scripts.utils.universe import get_full_universe
         u = get_full_universe()
         tickers = u["all_unique"]
-        click.echo(f"📡 Scanning {len(tickers)} tickers...")
+        click.echo(f"📡 Scanning {len(tickers)} tickers (full)...")
+    elif universe == "social":
+        from scripts.utils.universe import get_social_universe
+        u = get_social_universe()
+        tickers = u["all_unique"]
+        click.echo(f"📡 Scanning {len(tickers)} tickers (SP100 + Reddit + meme)...")
     elif universe == "sp500":
         from scripts.utils.universe import get_sp500_tickers
         tickers = get_sp500_tickers()

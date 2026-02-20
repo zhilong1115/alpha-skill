@@ -275,6 +275,75 @@ def get_full_universe() -> dict:
     return result
 
 
+def get_sp100_tickers() -> list[str]:
+    """Return S&P 100 (OEX) tickers — large-cap blue chips."""
+    try:
+        import io
+        import requests as _req
+        url = "https://en.wikipedia.org/wiki/S%26P_100"
+        resp = _req.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        resp.raise_for_status()
+        tables = pd.read_html(io.StringIO(resp.text))
+        df = tables[2] if len(tables) > 2 else tables[0]
+        for col in df.columns:
+            if "symbol" in col.lower() or "ticker" in col.lower():
+                tickers = df[col].tolist()
+                return sorted([t.replace(".", "-") for t in tickers if isinstance(t, str)])
+        # Fallback: first column
+        tickers = df.iloc[:, 0].tolist()
+        return sorted([str(t).replace(".", "-") for t in tickers if isinstance(t, str) and len(t) <= 5])
+    except Exception as e:
+        print(f"[universe] Error fetching S&P 100: {e}, using hardcoded fallback")
+        return _SP100_FALLBACK
+
+
+# Hardcoded fallback in case Wikipedia fetch fails
+_SP100_FALLBACK = [
+    "AAPL", "ABBV", "ABT", "ACN", "ADBE", "AIG", "AMGN", "AMT", "AMZN", "AVGO",
+    "AXP", "BA", "BAC", "BK", "BKNG", "BLK", "BMY", "BRK-B", "C", "CAT",
+    "CHTR", "CL", "CMCSA", "COF", "COP", "COST", "CRM", "CSCO", "CVS", "CVX",
+    "DE", "DHR", "DIS", "DOW", "DUK", "EMR", "EXC", "F", "FDX", "GD",
+    "GE", "GILD", "GM", "GOOG", "GOOGL", "GS", "HD", "HON", "IBM", "INTC",
+    "INTU", "ISRG", "JNJ", "JPM", "KHC", "KO", "LIN", "LLY", "LMT", "LOW",
+    "MA", "MCD", "MDLZ", "MDT", "MET", "META", "MMM", "MO", "MRK", "MS",
+    "MSFT", "NEE", "NFLX", "NKE", "NOW", "NVDA", "ORCL", "PEP", "PFE", "PG",
+    "PM", "PYPL", "QCOM", "RTX", "SBUX", "SCHW", "SO", "SPG", "T", "TGT",
+    "TMO", "TMUS", "TSLA", "TXN", "UNH", "UNP", "UPS", "USB", "V", "VZ",
+    "WFC", "WMT", "XOM",
+]
+
+
+def get_social_universe() -> dict:
+    """Get social-aware universe: SP100 + Reddit trending + meme watchlist.
+
+    ~150-200 tickers. Covers blue chips + social/meme momentum stocks.
+    Much faster than full SP500 while catching 10x opportunities.
+    """
+    now = _time.time()
+
+    print("[universe] Building social universe (SP100 + Reddit + meme)...")
+
+    sp100 = get_sp100_tickers()
+    print(f"[universe] S&P 100: {len(sp100)} tickers")
+
+    reddit = get_reddit_trending_tickers()
+    print(f"[universe] Reddit trending: {len(reddit)} tickers")
+
+    # HOT_WATCHLIST already defined above — meme stocks, small caps, etc.
+    hot = list(HOT_WATCHLIST)
+    print(f"[universe] Meme/hot watchlist: {len(hot)} tickers")
+
+    all_unique = sorted(set(sp100 + reddit + hot))
+    print(f"[universe] Total unique: {len(all_unique)} tickers")
+
+    return {
+        "sp100": sp100,
+        "reddit_trending": reddit,
+        "hot_watchlist": hot,
+        "all_unique": all_unique,
+    }
+
+
 def save_premarket_picks(tickers: list[str]) -> None:
     """Save pre-market scan top picks for intraday smart universe."""
     import json

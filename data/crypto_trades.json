@@ -16,5 +16,35 @@
     "status": "OrderStatus.PENDING_NEW",
     "created_at": "2026-02-19 21:03:37.661104+00:00",
     "logged_at": "2026-02-19T13:03:37.958640"
+  },
+  {
+    "id": "98e15fa9-912f-483b-b49b-2274855f1b2b",
+    "symbol": "BTC/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 15000.0,
+    "qty": null,
+    "created_at": "2026-02-19 21:10:38.367757+00:00",
+    "logged_at": "2026-02-19T13:10:38.545336"
+  },
+  {
+    "id": "b4d461f0-d306-474a-8f96-bd832a66a6ff",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 7500.0,
+    "qty": null,
+    "created_at": "2026-02-19 21:10:48.426108+00:00",
+    "logged_at": "2026-02-19T13:10:48.603122"
+  },
+  {
+    "id": "8e9cdfba-f323-4e28-bfb9-984709f3e021",
+    "symbol": "SOL/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 7500.0,
+    "qty": null,
+    "created_at": "2026-02-19 21:10:56.760225+00:00",
+    "logged_at": "2026-02-19T13:10:56.939854"
   }
 ]

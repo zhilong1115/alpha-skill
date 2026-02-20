@@ -65,11 +65,15 @@ def _now_et() -> datetime:
 def get_time_weight() -> float:
     """Return position size multiplier based on current ET time window.
 
-    9:30-10:30 = 1.5x (power hour)
-    10:30-11:30 = 1.0x
-    11:30-14:00 = 0.0 (midday dead zone — no new positions)
-    14:00-15:00 = 0.8x (afternoon pickup)
+    9:30-10:30 = 1.5x (power hour — best signals)
+    10:30-11:30 = 1.0x (still good)
+    11:30-13:00 = 0.3x (midday chop — reduced, not blocked)
+    13:00-15:00 = 0.8x (afternoon session)
     15:00-15:45 = 0.0 (approaching close — no new positions)
+
+    Note: We hard close at 12:45 PM PST = 15:45 ET, so the full
+    afternoon window is available. Midday is reduced (0.3x) not
+    fully blocked, since our trading day ends at 1 PM PST anyway.
     """
     now = _now_et()
     t = now.time()
@@ -78,10 +82,10 @@ def get_time_weight() -> float:
         return 1.5
     elif time(10, 30) <= t < time(11, 30):
         return 1.0
-    elif time(11, 30) <= t < time(14, 0):
-        return 0.0  # Midday dead zone
-    elif time(14, 0) <= t < time(15, 0):
-        return 0.8
+    elif time(11, 30) <= t < time(13, 0):
+        return 0.3  # Midday chop — reduced but not blocked
+    elif time(13, 0) <= t < time(15, 0):
+        return 0.8  # Afternoon session
     else:
         return 0.0  # Before market or approaching close
 

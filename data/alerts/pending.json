@@ -1,10 +1,73 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Needham Downgrades Alight to Hold",
-    "summary": "Needham  analyst Kyle Peterson   downgrades Alight (NYSE:ALIT) from Buy to Hold.",
+    "headline": "President Trump Says Methods Stronger Than IEEPA Tariffs Exist",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
     "symbols": [
-      "ALIT"
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:26:31Z",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/02/50759229/president-trump-says-methods-stronger-than-ieepa-tariffs-exist"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Blackstone, Lowers Price Target to $137",
+    "summary": "UBS  analyst Michael Brown   maintains Blackstone (NYSE:BX) with a Neutral and lowers the price target from $171 to $137.",
+    "symbols": [
+      "BX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:28:28Z",
+    "url": "https://www.benzinga.com/news/26/02/50759273/ubs-maintains-neutral-on-blackstone-lowers-price-target-to-137"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump Says Tariffs Have Given Us Strong National Security; Other Alternatives Will Be Used On Tariffs;  Could Be We Take In More Money; I Am Allowed To Impose An Embargo; I Could Do Anything I Want To Do But I Can&#39;t Charge Any Money",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:30:58Z",
+    "url": "https://www.benzinga.com/news/26/02/50759328/president-trump-says-tariffs-have-given-us-strong-national-security-other-alternatives-will-be-used"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Workday, Lowers Price Target to $200",
+    "summary": "TD Cowen  analyst J. Derrick Wood   maintains Workday (NASDAQ:WDAY) with a Buy and lowers the price target from $280 to $200.",
+    "symbols": [
+      "WDAY"
     ],
     "urgency": "high",
     "is_macro": false,
@@ -13,51 +76,278 @@
       "DE"
     ],
     "keywords": [
-      "downgrade"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T18:52:58Z",
-    "url": "https://www.benzinga.com/news/26/02/50730325/needham-downgrades-alight-to-hold"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Matrix Capital Markets acquired by Citizens Financial",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
+      "price target"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-18T08:56:23Z",
-    "url": "https://finance.yahoo.com/news/matrix-capital-markets-acquired-citizens-085623408.html"
+    "timestamp": "2026-02-20T18:31:50Z",
+    "url": "https://www.benzinga.com/news/26/02/50759356/td-cowen-maintains-buy-on-workday-lowers-price-target-to-200"
   },
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "Weak LTL market shrinks TFI International LTL revenue",
+    "headline": "Cheniere Energy (LNG) Gains Upgrade Amid Sector Headwinds",
     "summary": "",
     "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "upgrade"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-19T08:40:57Z",
+    "url": "https://finance.yahoo.com/news/cheniere-energy-lng-gains-upgrade-084057800.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Walmart, Raises Price Target to $145",
+    "summary": "TD Cowen  analyst Oliver Chen   maintains Walmart (NASDAQ:WMT) with a Buy and raises the price target from $136 to $145.",
+    "symbols": [
+      "WMT"
+    ],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "revenue"
+      "price target"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-18T08:54:45Z",
-    "url": "https://finance.yahoo.com/news/weak-ltl-market-shrinks-tfi-085445203.html"
+    "timestamp": "2026-02-20T18:33:18Z",
+    "url": "https://www.benzinga.com/news/26/02/50759421/td-cowen-maintains-buy-on-walmart-raises-price-target-to-145"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Trump\u2019s tariff loss is a win for your relationship",
+    "summary": "The Supreme Court decision just made \u2018money talks\u2019 with your partner a lot less stressful.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 18:33:00 GMT",
+    "url": "https://www.marketwatch.com/story/tariff-proof-your-partnership-how-couples-can-turn-economic-hurdles-into-financial-wins-971134e9?mod=mw_rss_topstories"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Needham Maintains Buy on Talkspace, Raises Price Target to $6",
-    "summary": "Needham  analyst Ryan MacDonald   maintains Talkspace (NASDAQ:TALK) with a Buy and raises the price target from $5 to $6.",
+    "headline": "UBS Maintains Neutral on Brookfield Asset Mgmt, Lowers Price Target to C$72",
+    "summary": "UBS  analyst Michael Brown   maintains Brookfield Asset Mgmt (TSX:BAM) with a Neutral and lowers the price target from C$80 to C$72.",
+    "symbols": [
+      "TSX:BAM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "GM",
+    "matched_tickers": [
+      "GM"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:35:09Z",
+    "url": "https://www.benzinga.com/news/26/02/50759455/ubs-maintains-neutral-on-brookfield-asset-mgmt-lowers-price-target-to-c-72"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump Says I Will Go In A Stronger Direction Now; Cites Trade Expansion Act; Cites 1974 Trade Act; Supreme Court Made My Ability To Impose Tariffs More Powerful; Income Coming In From Tariffs Will Increase; The Supreme Court Didn&#39;t Overrule Tariffs, Just The Use Of IEEPA",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SPY",
+    "matched_tickers": [
+      "SPY",
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:35:18Z",
+    "url": "https://www.benzinga.com/general/macro-notification/26/02/50759465/president-trump-says-i-will-go-in-a-stronger-direction-now-cites-trade-expansion-act-c"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Carlyle Group, Lowers Price Target to $65",
+    "summary": "UBS  analyst Michael Brown   maintains Carlyle Group (NASDAQ:CG) with a Buy and lowers the price target from $81 to $65.",
+    "symbols": [
+      "CG"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:37:02Z",
+    "url": "https://www.benzinga.com/news/26/02/50759503/ubs-maintains-buy-on-carlyle-group-lowers-price-target-to-65"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump Says Effective Now, All National Security Tariffs Under Section 301 Remain In Place; 10% Global Tariff To Be Imposed On Top Of Other Tariffs",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SPY",
+    "matched_tickers": [
+      "SPY",
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:37:10Z",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/02/50759516/president-trump-says-effective-now-all-national-security-tariffs-under-section-30"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Sell on Dropbox, Lowers Price Target to $23",
+    "summary": "UBS  analyst Seth Gilbert   maintains Dropbox (NASDAQ:DBX) with a Sell and lowers the price target from $27 to $23.",
+    "symbols": [
+      "DBX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:39:43Z",
+    "url": "https://www.benzinga.com/news/26/02/50759575/ubs-maintains-sell-on-dropbox-lowers-price-target-to-23"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump Says I Don&#39;t Need To Ask Congress For Tariffs",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SPY",
+    "matched_tickers": [
+      "SPY",
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:39:51Z",
+    "url": "https://www.benzinga.com/news/26/02/50759585/president-trump-says-i-dont-need-to-ask-congress-for-tariffs"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Etsy, Lowers Price Target to $53",
+    "summary": "UBS  analyst Chris Kuntarich   maintains Etsy (NYSE:ETSY) with a Neutral and lowers the price target from $74 to $53.",
+    "symbols": [
+      "ETSY"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:41:31Z",
+    "url": "https://www.benzinga.com/news/26/02/50759641/ubs-maintains-neutral-on-etsy-lowers-price-target-to-53"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Adding these stocks to your 401(k) could protect against crises like a war with Iran",
+    "summary": "Subverting the conventional wisdom that the only stock exposure you need is in the broad indexes.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "DE",
+    "matched_tickers": [
+      "DE"
+    ],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 18:39:00 GMT",
+    "url": "https://www.marketwatch.com/story/adding-these-stocks-to-your-401-k-could-protect-against-crises-like-war-with-iran-b802dd88?mod=mw_rss_topstories"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Tenaris, Raises Price Target to $59",
+    "summary": "TD Cowen  analyst Marc Bianchi   maintains Tenaris (NYSE:TS) with a Buy and raises the price target from $48 to $59.",
+    "symbols": [
+      "TS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:42:34Z",
+    "url": "https://www.benzinga.com/news/26/02/50759666/td-cowen-maintains-buy-on-tenaris-raises-price-target-to-59"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Five9, Lowers Price Target to $22",
+    "summary": "UBS  analyst Taylor McGinnis   maintains Five9 (NASDAQ:FIVN) with a Buy and lowers the price target from $30 to $22.",
+    "symbols": [
+      "FIVN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:43:28Z",
+    "url": "https://www.benzinga.com/news/26/02/50759688/ubs-maintains-buy-on-five9-lowers-price-target-to-22"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Talkspace, Raises Price Target to $9",
+    "summary": "TD Cowen  analyst Charles Rhyee   maintains Talkspace (NASDAQ:TALK) with a Buy and raises the price target from $6 to $9.",
     "symbols": [
       "TALK"
     ],
@@ -70,15 +360,15 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T18:56:37Z",
-    "url": "https://www.benzinga.com/news/26/02/50730389/needham-maintains-buy-on-talkspace-raises-price-target-to-6"
+    "timestamp": "2026-02-20T18:44:07Z",
+    "url": "https://www.benzinga.com/news/26/02/50759706/td-cowen-maintains-buy-on-talkspace-raises-price-target-to-9"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Barrington Research Maintains Outperform on Grand Canyon Education, Maintains $230 Price Target",
-    "summary": "Barrington Research  analyst Alexander Paris   maintains Grand Canyon Education (NASDAQ:LOPE) with a Outperform and maintains $230 price target.",
+    "headline": "UBS Maintains Neutral on Floor &amp; Decor Hldgs, Lowers Price Target to $70",
+    "summary": "UBS  analyst Michael Lasser   maintains Floor &amp; Decor Hldgs (NYSE:FND) with a Neutral and lowers the price target from $74 to $70.",
     "symbols": [
-      "LOPE"
+      "FND"
     ],
     "urgency": "high",
     "is_macro": false,
@@ -91,13 +381,1286 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T18:57:32Z",
-    "url": "https://www.benzinga.com/news/26/02/50730416/barrington-research-maintains-outperform-on-grand-canyon-education-maintains-230-price-target"
+    "timestamp": "2026-02-20T18:45:03Z",
+    "url": "https://www.benzinga.com/news/26/02/50759729/ubs-maintains-neutral-on-floor-decor-hldgs-lowers-price-target-to-70"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Needham Maintains Buy on Endava, Lowers Price Target to $7",
-    "summary": "Needham  analyst Neha Agarwala   maintains Endava (NYSE:DAVA) with a Buy and lowers the price target from $9 to $7.",
+    "headline": "TD Cowen Maintains Buy on Guardant Health, Raises Price Target to $135",
+    "summary": "TD Cowen  analyst Dan Brennan   maintains Guardant Health (NASDAQ:GH) with a Buy and raises the price target from $130 to $135.",
+    "symbols": [
+      "GH"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:47:21Z",
+    "url": "https://www.benzinga.com/news/26/02/50759780/td-cowen-maintains-buy-on-guardant-health-raises-price-target-to-135"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Hamilton Lane, Lowers Price Target to $150",
+    "summary": "UBS  analyst Michael Brown   maintains Hamilton Lane (NASDAQ:HLNE) with a Buy and lowers the price target from $184 to $150.",
+    "symbols": [
+      "HLNE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:47:25Z",
+    "url": "https://www.benzinga.com/news/26/02/50759781/ubs-maintains-buy-on-hamilton-lane-lowers-price-target-to-150"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on Molson Coors Beverage, Lowers Price Target to $43",
+    "summary": "TD Cowen  analyst Robert Moskow   maintains Molson Coors Beverage (NYSE:TAP) with a Hold and lowers the price target from $47 to $43.",
+    "symbols": [
+      "TAP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:48:47Z",
+    "url": "https://www.benzinga.com/news/26/02/50759831/td-cowen-maintains-hold-on-molson-coors-beverage-lowers-price-target-to-43"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on KKR, Lowers Price Target to $125",
+    "summary": "UBS  analyst Michael Brown   maintains KKR (NYSE:KKR) with a Buy and lowers the price target from $168 to $125.",
+    "symbols": [
+      "KKR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:49:22Z",
+    "url": "https://www.benzinga.com/news/26/02/50759849/ubs-maintains-buy-on-kkr-lowers-price-target-to-125"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on JM Smucker, Raises Price Target to $112",
+    "summary": "TD Cowen  analyst Robert Moskow   maintains JM Smucker (NYSE:SJM) with a Hold and raises the price target from $105 to $112.",
+    "symbols": [
+      "SJM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:50:02Z",
+    "url": "https://www.benzinga.com/news/26/02/50759875/td-cowen-maintains-hold-on-jm-smucker-raises-price-target-to-112"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump, Asked If U.S. Has To Refund Tariff Revenue, Says We&#39;ll End Up Being In Court For Next Five Years; 10% Global Tariffs For A Period Of About 5 Months",
+    "summary": "https://www.youtube.com/watch?v=Hr4ql_ejTns",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SPY",
+    "matched_tickers": [
+      "SPY",
+      "DE",
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T18:50:29Z",
+    "url": "https://www.benzinga.com/general/macro-notification/26/02/50759898/president-trump-asked-if-u-s-has-to-refund-tariff-revenue-says-well-end-up-being-in-co"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Klarna, Lowers Price Target to $20",
+    "summary": "UBS  analyst Timothy Chiodo   maintains Klarna (NYSE:KLAR) with a Buy and lowers the price target from $46 to $20.",
+    "symbols": [
+      "KLAR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:51:29Z",
+    "url": "https://www.benzinga.com/news/26/02/50759956/ubs-maintains-buy-on-klarna-lowers-price-target-to-20"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on Floor &amp; Decor Hldgs, Lowers Price Target to $75",
+    "summary": "TD Cowen  analyst Max Rakhlenko   maintains Floor &amp; Decor Hldgs (NYSE:FND) with a Hold and lowers the price target from $80 to $75.",
+    "symbols": [
+      "FND"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:51:49Z",
+    "url": "https://www.benzinga.com/news/26/02/50759971/td-cowen-maintains-hold-on-floor-decor-hldgs-lowers-price-target-to-75"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on PepsiCo, Raises Price Target to $165",
+    "summary": "TD Cowen  analyst Robert Moskow   maintains PepsiCo (NASDAQ:PEP) with a Hold and raises the price target from $162 to $165.",
+    "symbols": [
+      "PEP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:54:24Z",
+    "url": "https://www.benzinga.com/news/26/02/50760015/td-cowen-maintains-hold-on-pepsico-raises-price-target-to-165"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on LegalZoom.com, Lowers Price Target to $8",
+    "summary": "UBS  analyst Stephen Ju   maintains LegalZoom.com (NASDAQ:LZ) with a Neutral and lowers the price target from $12 to $8.",
+    "symbols": [
+      "LZ"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:54:33Z",
+    "url": "https://www.benzinga.com/news/26/02/50760026/ubs-maintains-neutral-on-legalzoom-com-lowers-price-target-to-8"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "The biggest purchase in life now seems unaffordable \u2014 and that\u2019s putting consumers in a sour mood",
+    "summary": "Americans are gloomy about spending despite encouraging inflation and unemployment trends.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MOOD",
+    "matched_tickers": [
+      "MOOD"
+    ],
+    "keywords": [
+      "inflation",
+      "unemployment"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 20 Feb 2026 18:51:00 GMT",
+    "url": "https://www.marketwatch.com/story/the-biggest-purchase-in-life-now-seems-unaffordable-and-thats-putting-consumers-in-a-sour-mood-30d0ba3e?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Centrica Earnings Slide as Investments Drive Strategic Reset",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T08:49:56Z",
+    "url": "https://finance.yahoo.com/news/centrica-earnings-slide-investments-drive-084956791.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on Church &amp; Dwight Co, Raises Price Target to $112",
+    "summary": "TD Cowen  analyst Robert Moskow   maintains Church &amp; Dwight Co (NYSE:CHD) with a Hold and raises the price target from $99 to $112.",
+    "symbols": [
+      "CHD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:55:35Z",
+    "url": "https://www.benzinga.com/news/26/02/50760058/td-cowen-maintains-hold-on-church-dwight-co-raises-price-target-to-112"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Blue Owl Capital, Lowers Price Target to $12",
+    "summary": "UBS  analyst Michael Brown   maintains Blue Owl Capital (NYSE:OWL) with a Neutral and lowers the price target from $16.5 to $12.",
+    "symbols": [
+      "OWL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:56:02Z",
+    "url": "https://www.benzinga.com/news/26/02/50760076/ubs-maintains-neutral-on-blue-owl-capital-lowers-price-target-to-12"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Home Construction Rebound Looks Shaky, Says Analyst",
+    "summary": "Housing starts rose 6.2% in December 2025, but Bank of America Securities is skeptical, citing a 7.3% decline compared to last year.",
+    "symbols": [
+      "HOMZ",
+      "ITB",
+      "NAIL",
+      "PKB"
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "housing"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:56:07Z",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/02/50760080/home-construction-rebound-looks-shaky-says-analyst"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Edison Intl, Raises Price Target to $83",
+    "summary": "TD Cowen  analyst Shelby Tucker   maintains Edison Intl (NYSE:EIX) with a Buy and raises the price target from $71 to $83.",
+    "symbols": [
+      "EIX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:57:15Z",
+    "url": "https://www.benzinga.com/news/26/02/50760124/td-cowen-maintains-buy-on-edison-intl-raises-price-target-to-83"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on TPG, Lowers Price Target to $60",
+    "summary": "UBS  analyst Michael Brown   maintains TPG (NASDAQ:TPG) with a Buy and lowers the price target from $83 to $60.",
+    "symbols": [
+      "TPG"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T18:58:30Z",
+    "url": "https://www.benzinga.com/news/26/02/50760182/ubs-maintains-buy-on-tpg-lowers-price-target-to-60"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump announces new 10% global tariff after raging over Supreme Court loss",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 18:58:11 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Unum Gr, Lowers Price Target to $81",
+    "summary": "UBS  analyst Michael Ward   maintains Unum Gr (NYSE:UNM) with a Neutral and lowers the price target from $85 to $81.",
+    "symbols": [
+      "UNM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:00:22Z",
+    "url": "https://www.benzinga.com/news/26/02/50760248/ubs-maintains-neutral-on-unum-gr-lowers-price-target-to-81"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "A Look Into MercadoLibre Inc&#39;s Price Over Earnings",
+    "summary": " ",
+    "symbols": [
+      "MELI"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:00:37Z",
+    "url": "https://www.benzinga.com/insights/news/26/02/50760262/a-look-into-mercadolibre-incs-price-over-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "What to Expect from Easterly Government Props&#39;s Earnings",
+    "summary": " ",
+    "symbols": [
+      "DEA"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:00:50Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760275/what-to-expect-from-easterly-government-propss-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Myriad Genetics&#39;s Earnings: A Preview",
+    "summary": " ",
+    "symbols": [
+      "MYGN"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:02Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760288/myriad-geneticss-earnings-a-preview"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Insights Ahead: Tennant&#39;s Quarterly Earnings",
+    "summary": " ",
+    "symbols": [
+      "TNC"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:11Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760301/insights-ahead-tennants-quarterly-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Earnings Preview For Lincoln Educational Servs",
+    "summary": " ",
+    "symbols": [
+      "LINC"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:22Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760319/earnings-preview-for-lincoln-educational-servs"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Visteon, Lowers Price Target to $120",
+    "summary": "UBS  analyst Joseph Spak   maintains Visteon (NASDAQ:VC) with a Buy and lowers the price target from $130 to $120.",
+    "symbols": [
+      "VC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:31Z",
+    "url": "https://www.benzinga.com/news/26/02/50760329/ubs-maintains-buy-on-visteon-lowers-price-target-to-120"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "A Preview Of Freightos&#39;s Earnings",
+    "summary": " ",
+    "symbols": [
+      "CRGO"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:32Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760330/a-preview-of-freightoss-earnings"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "2 Dividend Stocks to Hold for the Next 5 Years",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:05:00Z",
+    "url": "https://finance.yahoo.com/news/2-dividend-stocks-hold-next-090500234.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Rio Tinto falls after reporting flat earnings amid mining sell-off",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:03:00Z",
+    "url": "https://finance.yahoo.com/news/rio-tinto-falls-reporting-flat-090300818.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Backblaze&#39;s Earnings: A Preview",
+    "summary": " ",
+    "symbols": [
+      "BLZE"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:41Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760334/backblazes-earnings-a-preview"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "A Preview Of Offerpad Solutions&#39;s Earnings",
+    "summary": " ",
+    "symbols": [
+      "OPAD"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:50Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760343/a-preview-of-offerpad-solutionss-earnings"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Earnings Preview For DMC Glb",
+    "summary": " ",
+    "symbols": [
+      "BOOM"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:01:59Z",
+    "url": "https://www.benzinga.com/insights/earnings/26/02/50760351/earnings-preview-for-dmc-glb"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Retailers could win big on a repeal of Trump\u2019s tariffs. Here\u2019s why the stocks aren\u2019t rising.",
+    "summary": "Target, Nike and Hasbro stand to be big beneficiaries as the SCOTUS ruling could lower costs, analysts say, but stocks of retail giants like Walmart and Costco fell.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 19:00:00 GMT",
+    "url": "https://www.marketwatch.com/story/retailers-could-be-big-winners-in-a-repeal-of-trumps-tariffs-heres-why-the-stocks-arent-rising-224ed022?mod=mw_rss_topstories"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Neutral on Veeva Systems, Lowers Price Target to $200",
+    "summary": "UBS  analyst Karl Keirstead   maintains Veeva Systems (NYSE:VEEV) with a Neutral and lowers the price target from $280 to $200.",
+    "symbols": [
+      "VEEV"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:03:00Z",
+    "url": "https://www.benzinga.com/news/26/02/50760403/ubs-maintains-neutral-on-veeva-systems-lowers-price-target-to-200"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Trump Slams Supreme Court, Unveils New 10% Global Tariff",
+    "summary": "President Donald Trump blasted the Supreme Court&#39;s ruling blocking his tariff powers, unveiled a new 10% global tariff under Section 122.",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T19:04:25Z",
+    "url": "https://www.benzinga.com/news/politics/26/02/50760475/trump-replies-to-supreme-court-decision-tariffs"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Saba Capital Management, Cox Capital Partners Issue Notice To Blue Owl Capital Corporation II, Blue Owl Technology Income Corp., Blue Owl Credit Income Corp. For Commencing Tender Offer To Acquire Part Of Their Outstanding Shares In Cash",
+    "summary": "Saba Capital Management, L.P. (together with certain of its affiliates, &#34;Saba&#34;) and Cox Capital Partners (&#34;Cox&#34;) (together with Saba, the &#34;Purchasers&#34;) today disclosed that they provided notice to Blue Owl Capital",
+    "symbols": [
+      "OBDC",
+      "OWL"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:06:20Z",
+    "url": "https://www.benzinga.com/news/26/02/50760569/saba-capital-management-cox-capital-partners-issue-notice-to-blue-owl-capital-corporation-ii-blue-ow"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Neutral on Quanta Services, Raises Price Target to $575",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains Quanta Services (NYSE:PWR) with a Neutral and raises the price target from $450 to $575.",
+    "symbols": [
+      "PWR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:06:22Z",
+    "url": "https://www.benzinga.com/news/26/02/50760570/da-davidson-maintains-neutral-on-quanta-services-raises-price-target-to-575"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Beaten-down software stocks RingCentral and Five9 rally as earnings quell some AI concerns",
+    "summary": "Software stocks have been in sell-off mode in recent weeks on fears that new AI tools will uproot their longstanding business models.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Fri, 20 Feb 2026 19:03:10 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/ringcentral-ring-five9-fivn-rally-ai-sell-off.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on EQT, Raises Price Target to $70",
+    "summary": "TD Cowen  analyst Robert Hodges   maintains EQT (NYSE:EQT) with a Buy and raises the price target from $65 to $70.",
+    "symbols": [
+      "EQT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:10:24Z",
+    "url": "https://www.benzinga.com/news/26/02/50760696/td-cowen-maintains-buy-on-eqt-raises-price-target-to-70"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Charles River, Lowers Price Target to $235",
+    "summary": "TD Cowen  analyst Charles Rhyee   maintains Charles River (NYSE:CRL) with a Buy and lowers the price target from $251 to $235.",
+    "symbols": [
+      "CRL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:11:43Z",
+    "url": "https://www.benzinga.com/news/26/02/50760774/td-cowen-maintains-buy-on-charles-river-lowers-price-target-to-235"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Brixmor Property Group, Raises Price Target to $33",
+    "summary": "JP Morgan  analyst Michael Mueller   maintains Brixmor Property Group (NYSE:BRX) with a Overweight and raises the price target from $30 to $33.",
+    "symbols": [
+      "BRX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:11:59Z",
+    "url": "https://www.benzinga.com/news/26/02/50760788/jp-morgan-maintains-overweight-on-brixmor-property-group-raises-price-target-to-33"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Fat Brands sued by lender over cash use during bankruptcy",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bankrupt"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-19T09:24:00Z",
+    "url": "https://finance.yahoo.com/news/fat-brands-sued-lender-over-092400296.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on Appian, Lowers Price Target to $30",
+    "summary": "TD Cowen  analyst Derrick Wood   maintains Appian (NASDAQ:APPN) with a Hold and lowers the price target from $35 to $30.",
+    "symbols": [
+      "APPN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:13:12Z",
+    "url": "https://www.benzinga.com/news/26/02/50760836/td-cowen-maintains-hold-on-appian-lowers-price-target-to-30"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "S&P 500 rises, Dow jumps 200 points in volatile trading after Supreme Court knocks down Trump\u2019s emergency tariffs: Live updates",
+    "summary": "Traders reacted to the latest gross domestic product report, which badly missed estimates.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff",
+      "emergency"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 19:13:26 GMT",
+    "url": "https://www.cnbc.com/2026/02/19/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on American Electric Power, Raises Price Target to $141",
+    "summary": "TD Cowen  analyst Shelby Tucker   maintains American Electric Power (NASDAQ:AEP) with a Buy and raises the price target from $137 to $141.",
+    "symbols": [
+      "AEP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:14:22Z",
+    "url": "https://www.benzinga.com/news/26/02/50760883/td-cowen-maintains-buy-on-american-electric-power-raises-price-target-to-141"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Hold on Akamai Technologies, Lowers Price Target to $100",
+    "summary": "TD Cowen  analyst Michael Elias   maintains Akamai Technologies (NASDAQ:AKAM) with a Hold and lowers the price target from $104 to $100.",
+    "symbols": [
+      "AKAM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:15:32Z",
+    "url": "https://www.benzinga.com/news/26/02/50760929/td-cowen-maintains-hold-on-akamai-technologies-lowers-price-target-to-100"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on CF Industries Holdings, Raises Price Target to $94",
+    "summary": "JP Morgan  analyst Jeffrey Zekauskas   maintains CF Industries Holdings (NYSE:CF) with a Neutral and raises the price target from $80 to $94.",
+    "symbols": [
+      "CF"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:16:04Z",
+    "url": "https://www.benzinga.com/news/26/02/50760945/jp-morgan-maintains-neutral-on-cf-industries-holdings-raises-price-target-to-94"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "S&P 500 rises, Dow jumps 100 points in volatile trading after Supreme Court knocks down Trump\u2019s emergency tariffs: Live updates",
+    "summary": "Traders reacted to the latest gross domestic product report, which badly missed estimates.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff",
+      "emergency"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 19:14:43 GMT",
+    "url": "https://www.cnbc.com/2026/02/19/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Snowflake, Lowers Price Target to $270",
+    "summary": "TD Cowen  analyst Bill Katz   maintains Snowflake (NYSE:SNOW) with a Buy and lowers the price target from $300 to $270.",
+    "symbols": [
+      "SNOW"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:16:45Z",
+    "url": "https://www.benzinga.com/news/26/02/50760969/td-cowen-maintains-buy-on-snowflake-lowers-price-target-to-270"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "S&P 500 jumps in volatile trading after Supreme Court knocks down Trump\u2019s emergency tariffs: Live updates",
+    "summary": "Traders reacted to the latest gross domestic product report, which badly missed estimates.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff",
+      "emergency"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 19:17:09 GMT",
+    "url": "https://www.cnbc.com/2026/02/19/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "TD Cowen Maintains Buy on Domo, Lowers Price Target to $9",
+    "summary": "TD Cowen  analyst Derrick Wood   maintains Domo (NASDAQ:DOMO) with a Buy and lowers the price target from $16 to $9.",
+    "symbols": [
+      "DOMO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:17:54Z",
+    "url": "https://www.benzinga.com/news/26/02/50761011/td-cowen-maintains-buy-on-domo-lowers-price-target-to-9"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "U.S. Treasury Secretary Bessent Says Treasury&#39;s Estimates Show Use Of Section 122 Authority, Combined With Potentially Enhanced Section 232 And Section 301 Tariffs Will Result In Virtually Unchanged Tariff Revenue In 2026",
+    "summary": "https://www.youtube.com/watch?v=mUYa9dWplZw",
+    "symbols": [
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T19:20:17Z",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/02/50761071/u-s-treasury-secretary-bessent-says-treasurys-estimates-show-use-of-section-122-a"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Guardant Health, Raises Price Target to $130",
+    "summary": "JP Morgan  analyst Casey Woodring   maintains Guardant Health (NASDAQ:GH) with a Overweight and raises the price target from $120 to $130.",
+    "symbols": [
+      "GH"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:21:06Z",
+    "url": "https://www.benzinga.com/news/26/02/50761094/jp-morgan-maintains-overweight-on-guardant-health-raises-price-target-to-130"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on HCA Healthcare, Raises Price Target to $535",
+    "summary": "JP Morgan  analyst Benjamin Rossi   maintains HCA Healthcare (NYSE:HCA) with a Neutral and raises the price target from $420 to $535.",
+    "symbols": [
+      "HCA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:23:55Z",
+    "url": "https://www.benzinga.com/news/26/02/50761141/jp-morgan-maintains-neutral-on-hca-healthcare-raises-price-target-to-535"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Supreme Court says Trump's tariffs aren't legal. These stocks should benefit most",
+    "summary": "Home Depot, Nike and Target are a few of the stocks that could rise on the Supreme Court's decision to strike down some of Trump's tariffs, per Wells Fargo.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 17:36:27 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/supreme-court-says-trumps-tariffs-arent-legal-these-stocks-should-benefit-most.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Philippine Central Bank Delivers Another Rate Cut as Economy Slows",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:39:00Z",
+    "url": "https://www.wsj.com/articles/philippine-central-bank-delivers-another-rate-cut-as-economy-slows-4546ff68?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on Host Hotels &amp; Resorts, Raises Price Target to $21",
+    "summary": "JP Morgan  analyst Daniel Politzer   maintains Host Hotels &amp; Resorts (NASDAQ:HST) with a Neutral and raises the price target from $20 to $21.",
+    "symbols": [
+      "HST"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:30:01Z",
+    "url": "https://www.benzinga.com/news/26/02/50761306/jp-morgan-maintains-neutral-on-host-hotels-resorts-raises-price-target-to-21"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Walmart CFO Warns Of &#39;Hiring Recession&#39; As GDP Disappoints \u2014 Is A 2026 Recession Coming?",
+    "summary": "Walmart CFO warns of hiring recession, trade uncertainty and rising student loan delinquencies. Q4 GDP print confirms sluggish economy.",
+    "symbols": [
+      "NVDA",
+      "PLTR",
+      "WMT"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA",
+      "SA"
+    ],
+    "keywords": [
+      "recession"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T19:31:08Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/02/50761357/walmart-cfo-warns-of-hiring-recession-as-gdp-disappoints-is-a-2026-recession-coming"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Live Nation Entertainment, Raises Price Target to $180",
+    "summary": "JP Morgan  analyst David Karnovsky   maintains Live Nation Entertainment (NYSE:LYV) with a Overweight and raises the price target from $170 to $180.",
+    "symbols": [
+      "LYV"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:32:01Z",
+    "url": "https://www.benzinga.com/news/26/02/50761376/jp-morgan-maintains-overweight-on-live-nation-entertainment-raises-price-target-to-180"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Nutrien, Raises Price Target to $78",
+    "summary": "JP Morgan  analyst Jeffrey Zekauskas   maintains Nutrien (NYSE:NTR) with a Overweight and raises the price target from $68 to $78.",
+    "symbols": [
+      "NTR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:33:35Z",
+    "url": "https://www.benzinga.com/news/26/02/50761440/jp-morgan-maintains-overweight-on-nutrien-raises-price-target-to-78"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on UL Solutions, Raises Price Target to $88",
+    "summary": "JP Morgan  analyst Andrew Steinerman   maintains UL Solutions (NYSE:ULS) with a Neutral and raises the price target from $84 to $88.",
+    "symbols": [
+      "ULS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:37:16Z",
+    "url": "https://www.benzinga.com/news/26/02/50761545/jp-morgan-maintains-neutral-on-ul-solutions-raises-price-target-to-88"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on Doximity, Lowers Price Target to $33",
+    "summary": "JP Morgan  analyst Alexei Gogolev   maintains Doximity (NYSE:DOCS) with a Neutral and lowers the price target from $40 to $33.",
+    "symbols": [
+      "DOCS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:39:11Z",
+    "url": "https://www.benzinga.com/news/26/02/50761623/jp-morgan-maintains-neutral-on-doximity-lowers-price-target-to-33"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "BDO UK and Ireland merger moves forward after partner vote",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "merger"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:48:51Z",
+    "url": "https://finance.yahoo.com/news/bdo-uk-ireland-merger-moves-094851123.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on Dropbox, Lowers Price Target to $25",
+    "summary": "JP Morgan  analyst Mark Murphy   maintains Dropbox (NASDAQ:DBX) with a Neutral and lowers the price target from $29 to $25.",
+    "symbols": [
+      "DBX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:40:54Z",
+    "url": "https://www.benzinga.com/news/26/02/50761685/jp-morgan-maintains-neutral-on-dropbox-lowers-price-target-to-25"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Traders brace for Trump's new tariff plan, possible Iran attack and Nvidia earnings",
+    "summary": "Investors will assess the Supreme Court's tariff decision and look ahead to Nvidia's latest financial results.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "tariff",
+      "earnings"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 19:34:08 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/stock-market-next-week-outlook-for-feb-23-27-2026-.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Elastic, Lowers Price Target to $98",
+    "summary": "JP Morgan  analyst Brian Essex   maintains Elastic (NYSE:ESTC) with a Overweight and lowers the price target from $113 to $98.",
+    "symbols": [
+      "ESTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "ASTI",
+    "matched_tickers": [
+      "ASTI"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:42:55Z",
+    "url": "https://www.benzinga.com/news/26/02/50761742/jp-morgan-maintains-overweight-on-elastic-lowers-price-target-to-98"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Zurich Insurance Earnings Rise on Growth Across Business Lines",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:58:00Z",
+    "url": "https://www.wsj.com/business/earnings/zurich-insurance-earnings-rise-on-growth-across-business-lines-62b4c656?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "2 No-Brainer Dividend Stocks to Buy Right Now",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:50:00Z",
+    "url": "https://finance.yahoo.com/news/2-no-brainer-dividend-stocks-095000154.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Neutral on Endava, Lowers Price Target to $9",
+    "summary": "JP Morgan  analyst Puneet Jain   maintains Endava (NYSE:DAVA) with a Neutral and lowers the price target from $10 to $9.",
     "symbols": [
       "DAVA"
     ],
@@ -110,254 +1673,52 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T18:58:32Z",
-    "url": "https://www.benzinga.com/news/26/02/50730449/needham-maintains-buy-on-endava-lowers-price-target-to-7"
+    "timestamp": "2026-02-20T19:45:03Z",
+    "url": "https://www.benzinga.com/news/26/02/50761803/jp-morgan-maintains-neutral-on-endava-lowers-price-target-to-9"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Walmart Stock May Take Breather After Q4 Earnings: Analyst Says Retailer Showed &#39;Solid Fundamentals&#39;",
-    "summary": "A Walmart analyst thinks the stock could take a breather after strong gains before Q4 results. Here&#39;s why the long-term bull case could still be in play.",
-    "symbols": [
-      "WMT"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:59:29Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/02/50730472/walmart-stock-may-take-breather-after-q4-earnings-analyst-says-retailer-showed-solid-fundamentals"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Barrington Research Maintains Outperform on Kadant, Maintains $380 Price Target",
-    "summary": "Barrington Research  analyst Gary Prestopino   maintains Kadant (NYSE:KAI) with a Outperform and maintains $380 price target.",
-    "symbols": [
-      "KAI"
-    ],
+    "source": "rss:Yahoo_Finance",
+    "headline": "Ryder Q4 operating revenue flat year over year",
+    "summary": "",
+    "symbols": [],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T18:59:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50730473/barrington-research-maintains-outperform-on-kadant-maintains-380-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wheels Up Experience Awarded Contract From The Dept Of Defense; Contract Valued At $57,527,763.86",
-    "summary": "https://sam.gov/opp/4e443dce559749bfa06a5c835aaa0074/view#award",
-    "symbols": [
-      "UP"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "contract"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T19:01:14Z",
-    "url": "https://www.benzinga.com/news/26/02/50730557/wheels-up-experience-awarded-contract-from-the-dept-of-defense-contract-valued-at-57-527-763-86"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Profusa Receives Multiple Purchase Orders From Lumee, Raises FY 2026 Revenue Guidance From $0.5M-$2.0M To $1.5M-$3.0M",
-    "summary": "",
-    "symbols": [
-      "PFSA"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:02:19Z",
-    "url": "https://www.benzinga.com/news/26/02/50730591/profusa-receives-multiple-purchase-orders-from-lumee-raises-fy-2026-revenue-guidance-from-0-5m-2-0m"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Coca-Cola Raises The Quarterly Cash Dividend From $0.51 To $0.53",
-    "summary": "The Board of Directors of The Coca-Cola Company today announced the election of a new company officer and the approval of the company&#39;s 64th consecutive annual dividend increase.The company is raising the quarterly",
-    "symbols": [
-      "KO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T19:03:43Z",
-    "url": "https://www.benzinga.com/news/26/02/50730643/coca-cola-raises-the-quarterly-cash-dividend-from-0-51-to-0-53"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Crude Oil Gains 2%; Walmart Posts Upbeat Earnings",
-    "summary": " ",
-    "symbols": [
-      "ALIT",
-      "CISS",
-      "KLAR",
-      "MBRX",
-      "RELY",
-      "TALK",
-      "WMT"
-    ],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "crude oil",
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T19:07:35Z",
-    "url": "https://www.benzinga.com/markets/market-summary/26/02/50730769/crude-oil-gains-2-walmart-posts-upbeat-earnings"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Stock Market Crash in 2026? Bad News About President Trump's Tariffs and a Warning From the Federal Reserve Explain Why It's Possible.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "federal reserve",
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-18T09:04:00Z",
-    "url": "https://finance.yahoo.com/news/stock-market-crash-2026-bad-090400684.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Amazon surpasses Walmart in annual revenue for first time, as both chase AI-fueled growth",
-    "summary": "The shuffle underscores the rivalry between the two retailers, particularly as Walmart expands its advertising and third-party marketplace businesses.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "AMZN"
-    ],
     "keywords": [
       "revenue"
     ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Thu, 19 Feb 2026 19:04:10 GMT",
-    "url": "https://www.cnbc.com/2026/02/19/amazon-revenue-passes-walmart-earnings-reports.html"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-19T09:50:00Z",
+    "url": "https://finance.yahoo.com/news/ryder-q4-operating-revenue-flat-095000237.html"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Profusa shares are trading lower. The company announced it received several purchase orders for the Lumee tissue oxygen monitoring system and raised its FY26 revenue guidance.",
-    "summary": "",
+    "headline": "As Trump Threatens Iran With &#39;Really Bad&#39; Consequences, Gold And Polymarket Odds Surge",
+    "summary": "Trump&#39;s executive order imposing 10% tariff on top of existing tariffs collides with Supreme Court ruling. Polymarket gives 77% chance gold reaches $5,500 by June 30th.",
     "symbols": [
-      "PFSA"
+      "GLD",
+      "GS"
     ],
     "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:25:57Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50731278/profusa-shares-are-trading-lower-the-company-announced-it-received-several-purchase-orders-for-the-l"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "OXY-Clean: Buffett&#39;s Favourite Oil Rig Scrubs $6 Billion In Debt Off The Books",
-    "summary": "Occidental cuts $5.8B in debt after selling OxyChem to Berkshire and raises its dividend, boosting investor focus on Buffett&#39;s stake.",
-    "symbols": [
-      "BRK",
-      "OXY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:33:43Z",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/02/50731462/oxy-clean-buffetts-favourite-oil-rig-scrubs-6-billion-in-debt-off-the-books"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Royal Caribbean Slides Amid Oil Price Increase, Insider Sales",
-    "summary": "Royal Caribbean Cruises Ltd (NYSE:RCL) shares are trading lower Thursday afternoon as crude hovers near six-month highs.",
-    "symbols": [
-      "RCL"
-    ],
-    "urgency": "high",
     "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
+    "ticker": "MACRO",
+    "matched_tickers": [],
     "keywords": [
-      "oil price"
+      "tariff"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T19:39:33Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50731577/royal-caribbean-slides-amid-oil-price-increase-insider-sales"
+    "timestamp": "2026-02-20T19:47:22Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/02/50761877/as-trump-threatens-iran-with-really-bad-consequences-gold-and-polymarket-odds-surge"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Hackett Group shares are trading lower after Barrington Research lowered its price target on the stock from $27 to $17.",
-    "summary": "",
+    "headline": "JP Morgan Maintains Overweight on EPAM Systems, Lowers Price Target to $183",
+    "summary": "JP Morgan  analyst Tien-Tsin Huang   maintains EPAM Systems (NYSE:EPAM) with a Overweight and lowers the price target from $215 to $183.",
     "symbols": [
-      "HCKT"
+      "EPAM"
     ],
     "urgency": "high",
     "is_macro": false,
@@ -368,55 +1729,15 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T19:39:40Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50731581/hackett-group-shares-are-trading-lower-after-barrington-research-lowered-its-price-target-on-the-sto"
+    "timestamp": "2026-02-20T19:47:35Z",
+    "url": "https://www.benzinga.com/news/26/02/50761882/jp-morgan-maintains-overweight-on-epam-systems-lowers-price-target-to-183"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Perspective Therapeutics shares are trading higher after Piper Sandler initiated coverage on the stock with Overweight rating and announced a $16 price target.",
-    "summary": "",
+    "headline": "JP Morgan Maintains Neutral on Etsy, Lowers Price Target to $58",
+    "summary": "JP Morgan  analyst Bryan Smilek   maintains Etsy (NYSE:ETSY) with a Neutral and lowers the price target from $65 to $58.",
     "symbols": [
-      "CATX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:40:58Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50731619/perspective-therapeutics-shares-are-trading-higher-after-piper-sandler-initiated-coverage-on-the-sto"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Stock Index Futures Climb as AI Jitters Ease, FOMC Minutes and U.S. Economic Data in Focus",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "fomc"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T11:28:02Z",
-    "url": "https://finance.yahoo.com/news/stock-index-futures-climb-ai-112802930.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Fiverr Intl shares are trading lower after multiple analyst firms lowered their respective price targets on the stock.",
-    "summary": "",
-    "symbols": [
-      "FVRR"
+      "ETSY"
     ],
     "urgency": "high",
     "is_macro": false,
@@ -427,290 +1748,101 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T19:45:15Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50731717/fiverr-intl-shares-are-trading-lower-after-multiple-analyst-firms-lowered-their-respective-price-tar"
+    "timestamp": "2026-02-20T19:49:41Z",
+    "url": "https://www.benzinga.com/news/26/02/50761949/jp-morgan-maintains-neutral-on-etsy-lowers-price-target-to-58"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Joby Stock Shows Death Cross \u2014 But Pentagon Hypersonic Deal Changes Narrative",
-    "summary": "Joby (JOBY) stock shows a Death Cross and is down sharply, even as Pentagon hypersonic funding and defense partnerships expand its long-term market opportunity.",
+    "headline": "AIxCrypto Holdings Signs Strategic Partnership Agreement With Pinnacle Real Estate Group To Establish Web2\u2013Web3 Deployment Framework For Real-World Assets",
+    "summary": "AIxCrypto Holdings, Inc. (NASDAQ:AIXC) (&#34;AIxC&#34; or the &#34;Company&#34;), a technology company focused on Embodied AI (EAI) infrastructure, today announced the signing of a strategic partnership agreement with Pinnacle Real",
     "symbols": [
-      "JOBY",
-      "LHX"
+      "AIXC"
     ],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "DE",
+    "ticker": "AIXC",
     "matched_tickers": [
-      "DE"
+      "AIXC"
     ],
     "keywords": [
       "partnership"
     ],
     "sentiment": "bullish",
     "action_type": "buy",
-    "timestamp": "2026-02-19T19:46:00Z",
-    "url": "https://www.benzinga.com/trading-ideas/technicals/26/02/50731736/joby-stock-shows-death-cross-but-pentagon-hypersonic-deal-changes-narrative"
+    "timestamp": "2026-02-20T19:50:58Z",
+    "url": "https://www.benzinga.com/news/26/02/50761994/aixcrypto-holdings-signs-strategic-partnership-agreement-with-pinnacle-real-estate-group-to-establis"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Citigroup Upgrades ZIM Integrated Shipping to Neutral, Raises Price Target to $31.8",
-    "summary": "Citigroup  analyst Chloe Fu   upgrades ZIM Integrated Shipping (NYSE:ZIM) from Sell to Neutral and raises the price target from $11.5 to $31.8.",
+    "headline": "Bitcoin, Ethereum, XRP, Dogecoin Stable, But Bulls Must Watch One Key Level",
+    "summary": "Bitcoin remained steady around the $67,000 mark, largely unaffected by the Supreme Court ruling against President Donald Trump&#39;s global tariff policy.",
     "symbols": [
-      "ZIM"
+      "BTCUSD",
+      "DOGEUSD",
+      "ETHUSD",
+      "SHIBUSD",
+      "SOLUSD",
+      "XRPUSD"
     ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T19:47:23Z",
-    "url": "https://www.benzinga.com/news/26/02/50731771/citigroup-upgrades-zim-integrated-shipping-to-neutral-raises-price-target-to-31-8"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "IMCD Shares Plunge After Dividend Cut, Revenue Fall",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "revenue",
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T09:53:00Z",
-    "url": "https://www.wsj.com/business/earnings/imcd-shares-plunge-after-dividend-cut-revenue-fall-95d94678?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Mueller Industries Raises Quarterly Dividend From $0.25 To $0.35/Share",
-    "summary": "Mueller Industries, Inc. (NYSE:MLI) has announced a double digit increase to its quarterly dividend.The Board of Directors has declared a regular quarterly cash dividend of $.35 per share, to be paid on March 27, 2026 to",
-    "symbols": [
-      "MLI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:48:35Z",
-    "url": "https://www.benzinga.com/news/26/02/50731815/mueller-industries-raises-quarterly-dividend-from-0-25-to-0-35share"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Palo Alto Networks, Lowers Price Target to $210",
-    "summary": "Citigroup  analyst Fatima Boolani   maintains Palo Alto Networks (NASDAQ:PANW) with a Buy and lowers the price target from $235 to $210.",
-    "symbols": [
-      "PANW"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:49:15Z",
-    "url": "https://www.benzinga.com/news/26/02/50731843/citigroup-maintains-buy-on-palo-alto-networks-lowers-price-target-to-210"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Booking Holdings, Lowers Price Target to $6250",
-    "summary": "Citigroup  analyst Ronald Josey   maintains Booking Holdings (NASDAQ:BKNG) with a Buy and lowers the price target from $6500 to $6250.",
-    "symbols": [
-      "BKNG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:50:42Z",
-    "url": "https://www.benzinga.com/news/26/02/50731882/citigroup-maintains-buy-on-booking-holdings-lowers-price-target-to-6250"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Trump to decide whether to attack Iran in next 10 days \u2014 oil prices rise",
-    "summary": "The U.S. has launched a major military buildup in the Middle East is it threatens Iran with potential military strikes.",
-    "symbols": [],
-    "urgency": "high",
+    "urgency": "critical",
     "is_macro": true,
-    "ticker": "DE",
+    "ticker": "BTCUSD",
     "matched_tickers": [
-      "DE"
+      "BTCUSD",
+      "ETHUSD",
+      "SOLUSD"
     ],
     "keywords": [
-      "oil price"
+      "tariff"
     ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Thu, 19 Feb 2026 19:50:57 GMT",
-    "url": "https://www.cnbc.com/2026/02/19/trump-to-decide-whether-to-attack-iran-in-next-10-days-oil-prices-jump.html"
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-20T19:51:38Z",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50762021/bitcoin-ethereum-xrp-dogecoin-stable-but-bulls-must-watch-one-key-level"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Insulet, Lowers Price Target to $345",
-    "summary": "Citigroup  analyst Joanne Wuensch   maintains Insulet (NASDAQ:PODD) with a Buy and lowers the price target from $380 to $345.",
-    "symbols": [
-      "PODD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:52:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50731938/citigroup-maintains-buy-on-insulet-lowers-price-target-to-345"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Bel Fuse shares are trading higher after Needham raised its price target on the stock from $212 to $250.",
-    "summary": "",
-    "symbols": [
-      "BELFB"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:53:45Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50731959/bel-fuse-shares-are-trading-higher-after-needham-raised-its-price-target-on-the-stock-from-212-to-25"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on MKS, Raises Price Target to $295",
-    "summary": "Citigroup  analyst Atif Malik   maintains MKS (NASDAQ:MKSI) with a Buy and raises the price target from $185 to $295.",
-    "symbols": [
-      "MKSI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:53:52Z",
-    "url": "https://www.benzinga.com/news/26/02/50731970/citigroup-maintains-buy-on-mks-raises-price-target-to-295"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Palo Alto\u2019s Guidance Overshadows Strong Earnings. Its Stock Is Down.",
-    "summary": "",
+    "source": "rss:MarketWatch",
+    "headline": "Nvidia options are priced for a perfect earnings outlook. These are your smarter trades.",
+    "summary": "Earnings reports will flood the market next week. Could this be the juice the S&amp;P 500 needs?",
     "symbols": [],
     "urgency": "critical",
     "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings",
-      "guidance"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T09:55:00Z",
-    "url": "https://www.barrons.com/articles/palo-alto-earnings-stock-price-ad0014c0?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on CNH Industrial, Raises Price Target to $15",
-    "summary": "Citigroup  analyst Kyle Menges   maintains CNH Industrial (NYSE:CNH) with a Buy and raises the price target from $12 to $15.",
-    "symbols": [
-      "CNH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:55:08Z",
-    "url": "https://www.benzinga.com/news/26/02/50732000/citigroup-maintains-buy-on-cnh-industrial-raises-price-target-to-15"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Element Solutions shares are trading higher after Keybanc raised its price target on the stock from $34 to $36.",
-    "summary": "",
-    "symbols": [
-      "ESI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T19:55:28Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50732010/element-solutions-shares-are-trading-higher-after-keybanc-raised-its-price-target-on-the-stock-from"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Healthy Returns: FDA chief Marty Makary on compounded GLP-1s, vaccines and China",
-    "summary": "Makary helms the FDA in the midst of a contentious stretch for the agency, defined by massive staff and budget cuts and sweeping changes to vaccine policy.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "DE",
+    "ticker": "NVDA",
     "matched_tickers": [
-      "DE"
+      "NVDA"
     ],
     "keywords": [
-      "china"
+      "earnings"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Thu, 19 Feb 2026 19:52:04 GMT",
-    "url": "https://www.cnbc.com/2026/02/19/healthy-returns-fda-chief-marty-makary-on-glp-1-copies-vaccines-china.html"
+    "timestamp": "Fri, 20 Feb 2026 19:51:00 GMT",
+    "url": "https://www.marketwatch.com/story/nvidia-options-are-priced-for-a-perfect-earnings-outlook-these-are-your-smarter-trades-4cac5291?mod=mw_rss_topstories"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "A Look Into Corning Inc&#39;s Price Over Earnings",
-    "summary": " ",
+    "headline": "JP Morgan Maintains Neutral on Floor &amp; Decor Hldgs, Lowers Price Target to $78",
+    "summary": "JP Morgan  analyst Christopher Horvers   maintains Floor &amp; Decor Hldgs (NYSE:FND) with a Neutral and lowers the price target from $85 to $78.",
     "symbols": [
-      "GLW"
+      "FND"
     ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-20T19:53:20Z",
+    "url": "https://www.benzinga.com/news/26/02/50762070/jp-morgan-maintains-neutral-on-floor-decor-hldgs-lowers-price-target-to-78"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Rio Tinto H2 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
     "urgency": "critical",
     "is_macro": false,
     "ticker": "MACRO",
@@ -720,15 +1852,15 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T20:00:20Z",
-    "url": "https://www.benzinga.com/insights/news/26/02/50732125/a-look-into-corning-incs-price-over-earnings"
+    "timestamp": "2026-02-19T10:04:24Z",
+    "url": "https://finance.yahoo.com/news/rio-tinto-h2-earnings-call-100424547.html"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Herc Holdings, Lowers Price Target to $185",
-    "summary": "Citigroup  analyst Kyle Menges   maintains Herc Holdings (NYSE:HRI) with a Buy and lowers the price target from $195 to $185.",
+    "headline": "JP Morgan Maintains Overweight on iRhythm Holdings, Lowers Price Target to $215",
+    "summary": "JP Morgan  analyst Allen Gong   maintains iRhythm Holdings (NASDAQ:IRTC) with a Overweight and lowers the price target from $240 to $215.",
     "symbols": [
-      "HRI"
+      "IRTC"
     ],
     "urgency": "high",
     "is_macro": false,
@@ -739,254 +1871,18 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T20:00:39Z",
-    "url": "https://www.benzinga.com/news/26/02/50732147/citigroup-maintains-buy-on-herc-holdings-lowers-price-target-to-185"
+    "timestamp": "2026-02-20T19:55:37Z",
+    "url": "https://www.benzinga.com/news/26/02/50762142/jp-morgan-maintains-overweight-on-irhythm-holdings-lowers-price-target-to-215"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on IDEAYA Biosciences, Raises Price Target to $65",
-    "summary": "Citigroup  analyst Yigal Nochomovitz   maintains IDEAYA Biosciences (NASDAQ:IDYA) with a Buy and raises the price target from $64 to $65.",
-    "symbols": [
-      "IDYA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:01:45Z",
-    "url": "https://www.benzinga.com/news/26/02/50732199/citigroup-maintains-buy-on-ideaya-biosciences-raises-price-target-to-65"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Tempus AI shares are trading higher after Mizuho initiated coverage on the stock with a Outperform rating and announced a $100 price target.",
-    "summary": "",
-    "symbols": [
-      "TEM"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:03:07Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50732265/tempus-ai-shares-are-trading-higher-after-mizuho-initiated-coverage-on-the-stock-with-a-outperform-r"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Pilgrim&#39;s Subsidiary Just Bare Passes $1B In Annual Retail Sales, Reaches 45% Annual Growth Rate In 2025",
-    "summary": "",
-    "symbols": [
-      "PPC"
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "retail sales"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:03:37Z",
-    "url": "https://www.benzinga.com/news/26/02/50732293/pilgrims-subsidiary-just-bare-passes-1b-in-annual-retail-sales-reaches-45-annual-growth-rate-in-2025"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Herbalife, Raises Price Target to $21",
-    "summary": "Citigroup  analyst Chasen Bender   maintains Herbalife (NYSE:HLF) with a Buy and raises the price target from $17 to $21.",
-    "symbols": [
-      "HLF"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:03:41Z",
-    "url": "https://www.benzinga.com/news/26/02/50732297/citigroup-maintains-buy-on-herbalife-raises-price-target-to-21"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Sonoco Prods, Raises Price Target to $70",
-    "summary": "Citigroup  analyst Anthony Pettinari   maintains Sonoco Prods (NYSE:SON) with a Buy and raises the price target from $52 to $70.",
-    "symbols": [
-      "SON"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:05:13Z",
-    "url": "https://www.benzinga.com/news/26/02/50732358/citigroup-maintains-buy-on-sonoco-prods-raises-price-target-to-70"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on The Cheesecake Factory, Raises Price Target to $74",
-    "summary": "Citigroup  analyst Jon Tower   maintains The Cheesecake Factory (NASDAQ:CAKE) with a Buy and raises the price target from $72 to $74.",
-    "symbols": [
-      "CAKE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:07:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50732446/citigroup-maintains-buy-on-the-cheesecake-factory-raises-price-target-to-74"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Jack In The Box, Raises Price Target to $24",
-    "summary": "Citigroup  analyst Jon Tower   maintains Jack In The Box (NASDAQ:JACK) with a Neutral and raises the price target from $23 to $24.",
-    "symbols": [
-      "JACK"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:08:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50732480/citigroup-maintains-neutral-on-jack-in-the-box-raises-price-target-to-24"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "SSR Mining shares are trading higher after UBS raised its price target on the stock from $36 to $37.",
-    "summary": "",
-    "symbols": [
-      "SSRM"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:08:31Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50732499/ssr-mining-shares-are-trading-higher-after-ubs-raised-its-price-target-on-the-stock-from-36-to-37"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Empire State Realty Trust, Lowers Price Target to $7",
-    "summary": "Citigroup  analyst Nick Joseph   maintains Empire State Realty Trust (NYSE:ESRT) with a Neutral and lowers the price target from $8 to $7.",
-    "symbols": [
-      "ESRT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:09:21Z",
-    "url": "https://www.benzinga.com/news/26/02/50732529/citigroup-maintains-neutral-on-empire-state-realty-trust-lowers-price-target-to-7"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Celanese, Raises Price Target to $75",
-    "summary": "Citigroup  analyst Patrick Cunningham   maintains Celanese (NYSE:CE) with a Buy and raises the price target from $63 to $75.",
-    "symbols": [
-      "CE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:10:12Z",
-    "url": "https://www.benzinga.com/news/26/02/50732554/citigroup-maintains-buy-on-celanese-raises-price-target-to-75"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Huntsman, Raises Price Target to $14",
-    "summary": "Citigroup  analyst Patrick Cunningham   maintains Huntsman (NYSE:HUN) with a Neutral and raises the price target from $12 to $14.",
-    "symbols": [
-      "HUN"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:11:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50732589/citigroup-maintains-neutral-on-huntsman-raises-price-target-to-14"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Klarna Hits $1 Billion Revenue \u2014 But IPO Story Now Faces Legal Test",
-    "summary": "Klarna stock plunged despite record $1 billion revenue, as rising credit costs &amp; an IPO lawsuit deadline raise investor concerns.",
+    "headline": "JP Morgan Maintains Overweight on Klarna, Lowers Price Target to $20",
+    "summary": "JP Morgan  analyst Tien-Tsin Huang   maintains Klarna (NYSE:KLAR) with a Overweight and lowers the price target from $40 to $20.",
     "symbols": [
       "KLAR"
     ],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:11:44Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50732614/klarna-hits-1-billion-revenue-but-ipo-story-now-faces-legal-test"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on Kohl&#39;s, Lowers Price Target to $20",
-    "summary": "Citigroup  analyst Paul Lejuez   maintains Kohl&#39;s (NYSE:KSS) with a Neutral and lowers the price target from $23 to $20.",
-    "symbols": [
-      "KSS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
@@ -994,876 +1890,36 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T20:12:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50732629/citigroup-maintains-neutral-on-kohls-lowers-price-target-to-20"
+    "timestamp": "2026-02-20T19:57:03Z",
+    "url": "https://www.benzinga.com/news/26/02/50762169/jp-morgan-maintains-overweight-on-klarna-lowers-price-target-to-20"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Buy on Enbridge, Raises Price Target to C$77",
-    "summary": "Citigroup  analyst Spiro Dounis   maintains Enbridge (TSX:ENB) with a Buy and raises the price target from C$75 to C$77.",
-    "symbols": [
-      "TSX:ENB"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:15:39Z",
-    "url": "https://www.benzinga.com/news/26/02/50732718/citigroup-maintains-buy-on-enbridge-raises-price-target-to-c-77"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Meritage Homes Increases Quarterly Dividend From $0.43 To $0.48/Share",
-    "summary": "",
-    "symbols": [
-      "MTH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:16:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50732744/meritage-homes-increases-quarterly-dividend-from-0-43-to-0-48share"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Citigroup Maintains Neutral on TC Energy, Raises Price Target to C$86",
-    "summary": "Citigroup  analyst Spiro Dounis   maintains TC Energy (TSX:TRP) with a Neutral and raises the price target from C$82 to C$86.",
-    "symbols": [
-      "TSX:TRP"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:16:41Z",
-    "url": "https://www.benzinga.com/news/26/02/50732765/citigroup-maintains-neutral-on-tc-energy-raises-price-target-to-c-86"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Galiano Gold shares are trading higher after HC Wainwright &amp; Co. raised its price target on the stock from $3.2 to $4.25.",
-    "summary": "",
-    "symbols": [
-      "GAU"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:31:25Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50733156/galiano-gold-shares-are-trading-higher-after-hc-wainwright-co-raised-its-price-target-on-the-stock-f"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Martin Marietta Material Files Prospectus For Offering Mixed Shelf; Terms Not Disclosed",
-    "summary": "SEC.",
-    "symbols": [
-      "MLM"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "offering"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T20:39:18Z",
-    "url": "https://www.benzinga.com/news/26/02/50733354/martin-marietta-material-files-prospectus-for-offering-mixed-shelf-terms-not-disclosed"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Goldman Sachs Is Pounding the Table on This 1 Rare Earths Stock: New Price Target Implies 50% Upside",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T12:30:02Z",
-    "url": "https://finance.yahoo.com/news/goldman-sachs-pounding-table-1-123002083.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on eBay, Raises Price Target to $96",
-    "summary": "UBS  analyst Stephen Ju   maintains eBay (NASDAQ:EBAY) with a Neutral and raises the price target from $93 to $96.",
-    "symbols": [
-      "EBAY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:44:19Z",
-    "url": "https://www.benzinga.com/news/26/02/50733483/ubs-maintains-neutral-on-ebay-raises-price-target-to-96"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Global Payments, Raises Price Target to $87",
-    "summary": "UBS  analyst Timothy Chiodo   maintains Global Payments (NYSE:GPN) with a Neutral and raises the price target from $80 to $87.",
-    "symbols": [
-      "GPN"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:45:23Z",
-    "url": "https://www.benzinga.com/news/26/02/50733512/ubs-maintains-neutral-on-global-payments-raises-price-target-to-87"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on DoorDash, Lowers Price Target to $240",
-    "summary": "UBS  analyst Lloyd Walmsley   maintains DoorDash (NASDAQ:DASH) with a Neutral and lowers the price target from $245 to $240.",
-    "symbols": [
-      "DASH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:46:30Z",
-    "url": "https://www.benzinga.com/news/26/02/50733558/ubs-maintains-neutral-on-doordash-lowers-price-target-to-240"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Booking Holdings, Lowers Price Target to $6485",
-    "summary": "UBS  analyst Stephen Ju   maintains Booking Holdings (NASDAQ:BKNG) with a Buy and lowers the price target from $6608 to $6485.",
-    "symbols": [
-      "BKNG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:47:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50733592/ubs-maintains-buy-on-booking-holdings-lowers-price-target-to-6485"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "These stocks can insulate investors from AI risk \u2014 and they pay dividends, says Jenny Harrington",
-    "summary": "Dividend stocks are outperforming this year.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Thu, 19 Feb 2026 20:42:01 GMT",
-    "url": "https://www.cnbc.com/2026/02/19/these-dividend-stocks-can-insulate-investors-from-ai-risk-says-jenny-harrington.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Moodys, Lowers Price Target to $490",
-    "summary": "UBS  analyst Alex Kramm   maintains Moodys (NYSE:MCO) with a Neutral and lowers the price target from $515 to $490.",
-    "symbols": [
-      "MCO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MOOD",
-    "matched_tickers": [
-      "MOOD"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:48:56Z",
-    "url": "https://www.benzinga.com/news/26/02/50733641/ubs-maintains-neutral-on-moodys-lowers-price-target-to-490"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on HP, Lowers Price Target to $20",
-    "summary": "UBS  analyst David Vogt   maintains HP (NYSE:HPQ) with a Neutral and lowers the price target from $26 to $20.",
-    "symbols": [
-      "HPQ"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:50:19Z",
-    "url": "https://www.benzinga.com/news/26/02/50733689/ubs-maintains-neutral-on-hp-lowers-price-target-to-20"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Amplitude, Lowers Price Target to $10",
-    "summary": "UBS  analyst Taylor McGinnis   maintains Amplitude (NASDAQ:AMPL) with a Buy and lowers the price target from $13 to $10.",
-    "symbols": [
-      "AMPL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:51:04Z",
-    "url": "https://www.benzinga.com/news/26/02/50733708/ubs-maintains-buy-on-amplitude-lowers-price-target-to-10"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Fiverr Intl, Lowers Price Target to $13",
-    "summary": "UBS  analyst Joshua Chan   maintains Fiverr Intl (NYSE:FVRR) with a Neutral and lowers the price target from $25 to $13.",
-    "symbols": [
-      "FVRR"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:52:58Z",
-    "url": "https://www.benzinga.com/news/26/02/50733793/ubs-maintains-neutral-on-fiverr-intl-lowers-price-target-to-13"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Element Solutions, Raises Price Target to $43",
-    "summary": "UBS  analyst Joshua Spector   maintains Element Solutions (NYSE:ESI) with a Buy and raises the price target from $34 to $43.",
-    "symbols": [
-      "ESI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:54:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50733839/ubs-maintains-buy-on-element-solutions-raises-price-target-to-43"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Toll Brothers, Raises Price Target to $198",
-    "summary": "UBS  analyst John Lovallo   maintains Toll Brothers (NYSE:TOL) with a Buy and raises the price target from $181 to $198.",
-    "symbols": [
-      "TOL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:55:28Z",
-    "url": "https://www.benzinga.com/news/26/02/50733885/ubs-maintains-buy-on-toll-brothers-raises-price-target-to-198"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on TFI International, Raises Price Target to $110",
-    "summary": "UBS  analyst Thomas Wadewitz   maintains TFI International (NYSE:TFII) with a Neutral and raises the price target from $101 to $110.",
-    "symbols": [
-      "TFII"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:57:02Z",
-    "url": "https://www.benzinga.com/news/26/02/50733927/ubs-maintains-neutral-on-tfi-international-raises-price-target-to-110"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Sonoco Prods, Raises Price Target to $62",
-    "summary": "UBS  analyst Anojja Shah   maintains Sonoco Prods (NYSE:SON) with a Neutral and raises the price target from $48 to $62.",
-    "symbols": [
-      "SON"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T20:57:53Z",
-    "url": "https://www.benzinga.com/news/26/02/50733953/ubs-maintains-neutral-on-sonoco-prods-raises-price-target-to-62"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Sonoco Surges to 52-Week High After Earnings: More Upside or a Pullback Ahead?",
-    "summary": "",
+    "source": "rss:MarketWatch",
+    "headline": "Supreme Court rejects Trump\u2019s tariffs. The president is already rolling out new ones.",
+    "summary": "The U.S. Supreme Court said President Trump exceeded his authority in using a 1977 law to justify a large swath of his tariffs, but that does not mean he\u2019s now unable to slap tariffs on other countries\u2019 products.",
     "symbols": [],
     "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
+    "is_macro": true,
+    "ticker": "ROL",
     "matched_tickers": [
-      "DE"
+      "ROL",
+      "SA"
     ],
     "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-18T12:45:15Z",
-    "url": "https://finance.yahoo.com/news/sonoco-surges-52-week-high-124515061.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Verisk downplays AI disruption fears as quarterly profit beats estimates",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "beat",
-      "profit"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-18T12:56:47Z",
-    "url": "https://finance.yahoo.com/news/verisk-quarterly-profit-beats-estimates-125647738.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Celanese, Raises Price Target to $56",
-    "summary": "UBS  analyst Joshua Spector   maintains Celanese (NYSE:CE) with a Neutral and raises the price target from $50 to $56.",
-    "symbols": [
-      "CE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
+      "tariff"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T20:58:52Z",
-    "url": "https://www.benzinga.com/news/26/02/50733990/ubs-maintains-neutral-on-celanese-raises-price-target-to-56"
+    "timestamp": "Fri, 20 Feb 2026 19:09:00 GMT",
+    "url": "https://www.marketwatch.com/story/supreme-court-rejects-trumps-tariffs-heres-what-the-president-could-try-to-use-instead-c09ec3fa?mod=mw_rss_topstories"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Dana, Raises Price Target to $40",
-    "summary": "UBS  analyst Joseph Spak   maintains Dana (NYSE:DAN) with a Buy and raises the price target from $35 to $40.",
-    "symbols": [
-      "DAN"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:01:24Z",
-    "url": "https://www.benzinga.com/news/26/02/50734151/ubs-maintains-buy-on-dana-raises-price-target-to-40"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "LegalZoom.com Q4 Adj. EPS $0.17 Misses $0.18 Estimate, Sales $190.266M Beat $184.802M Estimate",
-    "summary": "LegalZoom.com (NASDAQ:LZ) reported quarterly earnings of $0.17 per share which missed the analyst consensus estimate of $0.18 by 3.95 percent. This is a 10.53 percent decrease over earnings of $0.19 per share from the",
-    "symbols": [
-      "LZ"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:02:05Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734190/legalzoom-com-q4-adj-eps-0-17-misses-0-18-estimate-sales-190-266m-beat-184-802m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Perdoceo Education Q4 Adj. EPS $0.59 Beats $0.54 Estimate, Sales $211.639M Beat $210.000M Estimate",
-    "summary": "Perdoceo Education (NASDAQ:PRDO) reported quarterly earnings of $0.59 per share which beat the analyst consensus estimate of $0.54 by 9.26 percent. This is a 18 percent increase over earnings of $0.50 per share from the",
-    "symbols": [
-      "PRDO"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:02:15Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734199/perdoceo-education-q4-adj-eps-0-59-beats-0-54-estimate-sales-211-639m-beat-210-000m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Ardelyx Q4 EPS $0.00 Misses $0.01 Estimate, Sales $125.215M Beat $118.134M Estimate",
-    "summary": "Ardelyx (NASDAQ:ARDX) reported quarterly earnings of $0.00 per share which missed the analyst consensus estimate of $0.01 by 85.71 percent. This is a 95 percent decrease over earnings of $0.02 per share from the same",
-    "symbols": [
-      "ARDX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:02:15Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734198/ardelyx-q4-eps-0-00-misses-0-01-estimate-sales-125-215m-beat-118-134m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Travere Therapeutics Q4 Adj. EPS $0.37 Beats $(0.04) Estimate, Sales $129.689M Miss $144.823M Estimate",
-    "summary": "Travere Therapeutics (NASDAQ:TVTX) reported quarterly earnings of $0.37 per share which beat the analyst consensus estimate of $(0.04) by 1002.44 percent. This is a 178.72 percent increase over losses of $(0.47) per",
-    "symbols": [
-      "TVTX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:02:21Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734206/travere-therapeutics-q4-adj-eps-0-37-beats-0-04-estimate-sales-129-689m-miss-144-823m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Carter&#39;s, Raises Price Target to $40",
-    "summary": "UBS  analyst Jay Sole   maintains Carter&#39;s (NYSE:CRI) with a Neutral and raises the price target from $33 to $40.",
-    "symbols": [
-      "CRI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:02:30Z",
-    "url": "https://www.benzinga.com/news/26/02/50734222/ubs-maintains-neutral-on-carters-raises-price-target-to-40"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "PTC Therapeutics Q4 EPS $(1.67) Misses $0.07 Estimate, Sales $164.677M Miss $276.665M Estimate",
-    "summary": "PTC Therapeutics (NASDAQ:PTCT) reported quarterly losses of $(1.67) per share which missed the analyst consensus estimate of $0.07 by 2419.44 percent. This is a 96.47 percent decrease over losses of $(0.85) per share",
-    "symbols": [
-      "PTCT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T21:02:37Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734229/ptc-therapeutics-q4-eps-1-67-misses-0-07-estimate-sales-164-677m-miss-276-665m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Howard Hughes Holdings Q4 EPS $0.10 Beats $0.04 Estimate, Sales $624.449M Beat $614.000M Estimate",
-    "summary": "Howard Hughes Holdings (NYSE:HHH) reported quarterly earnings of $0.10 per share which beat the analyst consensus estimate of $0.04 by 150 percent. This is a 96.92 percent decrease over earnings of $3.25 per share from",
-    "symbols": [
-      "HHH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:02:50Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734240/howard-hughes-holdings-q4-eps-0-10-beats-0-04-estimate-sales-624-449m-beat-614-000m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Vesta Real Estate Q4 FFO $0.05 Beats $0.04 Estimate, Sales $70.300M Miss $72.414M Estimate",
-    "summary": "Vesta Real Estate (NYSE:VTMX) reported quarterly earnings of $0.05 per share which beat the analyst consensus estimate of $0.04 by 9.52 percent. This is a 4.17 percent decrease over earnings of $0.05 per share from the",
-    "symbols": [
-      "VTMX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:02:54Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734245/vesta-real-estate-q4-ffo-0-05-beats-0-04-estimate-sales-70-300m-miss-72-414m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "GRAIL Q4 EPS $(2.44) Beats $(2.73) Estimate, Sales $43.597M Miss $43.600M Estimate",
-    "summary": "GRAIL (NASDAQ:GRAL) reported quarterly losses of $(2.44) per share which beat the analyst consensus estimate of $(2.73) by 10.62 percent. This is a 15.57 percent increase over losses of $(2.89) per share from the same",
-    "symbols": [
-      "GRAL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "beat",
-      "miss"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:03:02Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734254/grail-q4-eps-2-44-beats-2-73-estimate-sales-43-597m-miss-43-600m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Buy on Analog Devices, Raises Price Target to $430",
-    "summary": "UBS  analyst Timothy Arcuri   maintains Analog Devices (NASDAQ:ADI) with a Buy and raises the price target from $400 to $430.",
-    "symbols": [
-      "ADI"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:03:32Z",
-    "url": "https://www.benzinga.com/news/26/02/50734288/ubs-maintains-buy-on-analog-devices-raises-price-target-to-430"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Sprouts Farmers Market Q4 EPS $0.92 Beats $0.89 Estimate, Sales $2.149B Miss $2.153B Estimate",
-    "summary": "Sprouts Farmers Market (NASDAQ:SFM) reported quarterly earnings of $0.92 per share which beat the analyst consensus estimate of $0.89 by 3.37 percent. This is a 16.46 percent increase over earnings of $0.79 per share",
+    "headline": "JP Morgan Maintains Neutral on Sprouts Farmers Market, Lowers Price Target to $77",
+    "summary": "JP Morgan  analyst Thomas Palmer   maintains Sprouts Farmers Market (NASDAQ:SFM) with a Neutral and lowers the price target from $88 to $77.",
     "symbols": [
       "SFM"
     ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:03:33Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734290/sprouts-farmers-market-q4-eps-0-92-beats-0-89-estimate-sales-2-149b-miss-2-153b-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "American Coastal Q4 Adj. EPS $0.52 Beats $0.42 Estimate, Sales $76.375M Miss $77.932M Estimate",
-    "summary": "American Coastal (NASDAQ:ACIC) reported quarterly earnings of $0.52 per share which beat the analyst consensus estimate of $0.42 by 23.81 percent. This is a 333.33 percent increase over earnings of $0.12 per share from",
-    "symbols": [
-      "ACIC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:03:35Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734292/american-coastal-q4-adj-eps-0-52-beats-0-42-estimate-sales-76-375m-miss-77-932m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "PTC Therapeutics shares are trading lower after the company reported worse-than-expected Q4 financial results and issued FY26 sales guidance below estimates.",
-    "summary": "",
-    "symbols": [
-      "PTCT"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:03:52Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50734331/ptc-therapeutics-shares-are-trading-lower-after-the-company-reported-worse-than-expected-q4-financia"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Texas Roadhouse Q4 EPS $1.28 Misses $1.53 Estimate, Sales $1.482B Miss $1.498B Estimate",
-    "summary": "Texas Roadhouse (NASDAQ:TXRH) reported quarterly earnings of $1.28 per share which missed the analyst consensus estimate of $1.53 by 16.23 percent. This is a 26.01 percent decrease over earnings of $1.73 per share from",
-    "symbols": [
-      "TXRH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-19T21:03:59Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734344/texas-roadhouse-q4-eps-1-28-misses-1-53-estimate-sales-1-482b-miss-1-498b-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Texas Roadhouse Earnings Report: Q4 Overview",
-    "summary": " ",
-    "symbols": [
-      "TXRH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:10Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734370/texas-roadhouse-earnings-report-q4-overview"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "American Coastal Earnings Review: Q4 Summary",
-    "summary": " ",
-    "symbols": [
-      "ACIC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:16Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734381/american-coastal-earnings-review-q4-summary"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Insights into Sprouts Farmers Market Q4 Earnings",
-    "summary": " ",
-    "symbols": [
-      "SFM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:21Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734393/insights-into-sprouts-farmers-market-q4-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Alarm.com Holdings Q4 Adj. EPS $0.72 Beats $0.64 Estimate, Sales $261.657M Beat $250.815M Estimate",
-    "summary": "Alarm.com Holdings (NASDAQ:ALRM) reported quarterly earnings of $0.72 per share which beat the analyst consensus estimate of $0.64 by 12.32 percent. This is a 24.14 percent increase over earnings of $0.58 per share from",
-    "symbols": [
-      "ALRM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:04:23Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734398/alarm-com-holdings-q4-adj-eps-0-72-beats-0-64-estimate-sales-261-657m-beat-250-815m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "GRAIL: Q4 Earnings Insights",
-    "summary": " ",
-    "symbols": [
-      "GRAL"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:26Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734403/grail-q4-earnings-insights"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Corporacion Inmobiliaria Earnings Report: Q4 Overview",
-    "summary": " ",
-    "symbols": [
-      "VTMX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:31Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734412/corporacion-inmobiliaria-earnings-report-q4-overview"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UBS Maintains Neutral on Mister Car Wash, Raises Price Target to $7",
-    "summary": "UBS  analyst Michael Lasser   maintains Mister Car Wash (NASDAQ:MCW) with a Neutral and raises the price target from $6.25 to $7.",
-    "symbols": [
-      "MCW"
-    ],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
@@ -1873,130 +1929,7 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:33Z",
-    "url": "https://www.benzinga.com/news/26/02/50734422/ubs-maintains-neutral-on-mister-car-wash-raises-price-target-to-7"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Ardelyx Q4 Earnings Report: What Investors Need to Know",
-    "summary": " ",
-    "symbols": [
-      "ARDX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:36Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734431/ardelyx-q4-earnings-report-what-investors-need-to-know"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Travere Therapeutics Q4 Earnings Report: What Investors Need to Know",
-    "summary": " ",
-    "symbols": [
-      "TVTX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:41Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734448/travere-therapeutics-q4-earnings-report-what-investors-need-to-know"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Howard Hughes Holdings Earnings Review: Q4 Summary",
-    "summary": " ",
-    "symbols": [
-      "HHH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-19T21:04:46Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50734461/howard-hughes-holdings-earnings-review-q4-summary"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Akamai Techs Q4 Adj. EPS $1.84 Beats $1.75 Estimate, Sales $1.095B Beat $1.076B Estimate",
-    "summary": "Akamai Techs (NASDAQ:AKAM) reported quarterly earnings of $1.84 per share which beat the analyst consensus estimate of $1.75 by 4.84 percent. This is a 10.84 percent increase over earnings of $1.66 per share from the",
-    "symbols": [
-      "AKAM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:04:51Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734473/akamai-techs-q4-adj-eps-1-84-beats-1-75-estimate-sales-1-095b-beat-1-076b-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Dropbox Q4 Adj. EPS $0.68 Beats $0.67 Estimate, Sales $636.200M Beat $628.667M Estimate",
-    "summary": "Dropbox (NASDAQ:DBX) reported quarterly earnings of $0.68 per share which beat the analyst consensus estimate of $0.67 by 0.89 percent. This is a 6.85 percent decrease over earnings of $0.73 per share from the same",
-    "symbols": [
-      "DBX"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:04:55Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50734482/dropbox-q4-adj-eps-0-68-beats-0-67-estimate-sales-636-200m-beat-628-667m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "LegalZoom.com Announces $100M Increase To Buyback Plan",
-    "summary": "LegalZoom.com, Inc. (Nasdaq: LZ), a leading online platform for legal services, today announced results for its fourth quarter and year ended December\u00a031, 2025.Announces $100 million increase to share repurchase",
-    "symbols": [
-      "LZ"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "DE",
-    "matched_tickers": [
-      "DE"
-    ],
-    "keywords": [
-      "buyback"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-19T21:05:11Z",
-    "url": "https://www.benzinga.com/news/26/02/50734570/legalzoom-com-announces-100m-increase-to-buyback-plan"
+    "timestamp": "2026-02-20T20:00:09Z",
+    "url": "https://www.benzinga.com/news/26/02/50762263/jp-morgan-maintains-neutral-on-sprouts-farmers-market-lowers-price-target-to-77"
   }
 ]
