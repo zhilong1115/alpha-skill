@@ -379,13 +379,20 @@ def get_intraday_candidates(top_n: int = 8) -> list[dict]:
         filtered[t] = c
     logger.info("After market cap filter: %d → %d candidates", len(candidates), len(filtered))
 
-    # V2.1: Boost score for priority catalysts
+    # V2.2: Catalyst verification — penalize no-catalyst gaps, boost catalysts
     for t, c in filtered.items():
         if c.get("has_catalyst"):
-            # Check if catalyst type is high-priority
+            # Boost for having catalyst
             cat_type = c.get("action_type", "")
             if cat_type in PRIORITY_CATALYSTS:
                 c["intraday_score"] = round(c["intraday_score"] + 0.2, 3)
+            else:
+                c["intraday_score"] = round(c["intraday_score"] + 0.1, 3)
+        else:
+            # V2.2: No catalyst → 50% score penalty for gap stocks
+            if abs(c.get("gap_pct", 0)) >= MIN_GAP_PCT:
+                c["intraday_score"] = round(c["intraday_score"] * 0.5, 3)
+                logger.debug("No catalyst penalty for %s (gap %.1f%%): score halved", t, c.get("gap_pct", 0))
 
     # Sort by score
     ranked = sorted(filtered.values(), key=lambda x: x["intraday_score"], reverse=True)

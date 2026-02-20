@@ -108,6 +108,33 @@ def compute_momentum_slope(series: pd.Series, bars: int = 5) -> float:
     return round(slope / avg_price * 100, 4) if avg_price > 0 else 0.0
 
 
+def compute_atr(df: pd.DataFrame, period: int = 14) -> float:
+    """Calculate Average True Range for position sizing and stops.
+
+    Args:
+        df: OHLCV DataFrame.
+        period: ATR lookback period (default 14).
+
+    Returns:
+        ATR value in dollars. Returns 0.0 if insufficient data.
+    """
+    if len(df) < period + 1:
+        return 0.0
+
+    high = df["High"]
+    low = df["Low"]
+    prev_close = df["Close"].shift(1)
+
+    tr = pd.concat([
+        high - low,
+        (high - prev_close).abs(),
+        (low - prev_close).abs(),
+    ], axis=1).max(axis=1)
+
+    atr = tr.rolling(period).mean().iloc[-1]
+    return float(atr) if pd.notna(atr) else 0.0
+
+
 def compute_relative_volume(df: pd.DataFrame) -> float:
     """Current bar volume vs session average."""
     if len(df) < 2:
@@ -181,10 +208,13 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
     # 5. Relative volume
     rel_vol = compute_relative_volume(df)
 
-    # 6. V2.1: Volume confirmation (entry bar > 1.5x 5-bar avg)
+    # 6. ATR (V2.2: for dynamic stop-loss/take-profit)
+    atr = compute_atr(df, period=14)
+
+    # 7. V2.1: Volume confirmation (entry bar > 1.5x 5-bar avg)
     vol_confirmed = compute_volume_confirmation(df, lookback=5, threshold=1.5)
 
-    # 7. V2.1: Chasing check (don't buy if >2% above VWAP)
+    # 8. V2.1: Chasing check (don't buy if >2% above VWAP)
     chasing = is_chasing_vwap(current, vwap_val, max_distance_pct=2.0)
 
     # --- Combined Score (V2.1: stricter entry requirements) ---
@@ -273,6 +303,7 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
         "relative_volume": rel_vol,
         "volume_confirmed": vol_confirmed,
         "chasing": chasing,
+        "atr": round(atr, 4),
         "entry_blocked": entry_blocked,
         "block_reasons": block_reasons,
         "score": round(score, 3),

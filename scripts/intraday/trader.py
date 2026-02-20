@@ -1,9 +1,13 @@
 """Intraday trader: execute day trades on Alpaca with full lifecycle management.
 
-V2.1 changes:
-- Staged entry: buy 1/2 position, add other 1/2 only if +0.5% in our favor
-- Trailing stop: after +1.5% gain, move stop to breakeven
-- Time-based exit: close positions open >2 hours with <1% gain
+V2.2 changes:
+- ATR-based stops/targets from signal engine
+- Partial take-profit at 1R (sell half, move stop to breakeven)
+- Trailing stop for remaining position after partial TP
+- Per-symbol re-entry limits and consecutive loss circuit breaker
+- Bid-ask spread filter before entry
+- Hard close at 15:45 ET
+- Staged entry retained from V2.1
 """
 
 from __future__ import annotations
@@ -62,59 +66,38 @@ class IntradayTrader:
         return None
 
     def run_scan(self) -> dict:
-        """Pre-market / intraday scan for candidates.
-
-        Returns:
-            Dict with candidates, signals, and recommendations.
-        """
+        """Pre-market / intraday scan for candidates."""
         self._get_account()
         candidates = get_intraday_candidates(top_n=15)
         if not candidates:
             return {"candidates": [], "recommendations": []}
 
-        # Enrich with intraday signals
         ranked = rank_candidates(candidates)
 
-        # Filter: only strong setups
         recommendations = []
         for r in ranked:
             score = r.get("combined_score", 0)
             signal_score = r.get("signal_score", 0)
 
-            # Need combined score > 0.3 AND directional signal
-            if score < 0.3:
-                continue
-            if abs(signal_score) < 0.1:
+            if score < 0.3 or abs(signal_score) < 0.1:
                 continue
 
             direction = r.get("trade_direction", "neutral")
-            if direction == "neutral":
-                continue
-
-            # Only long for now (short selling is complex)
-            if direction == "short":
+            if direction in ("neutral", "short"):
                 continue
 
             recommendations.append(r)
 
         return {
             "candidates": ranked,
-            "recommendations": recommendations[:5],  # Max 5 recommendations
+            "recommendations": recommendations[:5],
             "scan_time": datetime.utcnow().isoformat(),
         }
 
     def execute_trades(self, recommendations: list[dict], dry_run: bool = False) -> list[dict]:
         """Execute trades from recommendations.
 
-        V2.1: Staged entry — buy 1/2 position first. The other 1/2 is added
-        only when manage_positions detects +0.5% gain (see _check_staged_adds).
-
-        Args:
-            recommendations: Ranked trade candidates.
-            dry_run: If True, simulate without executing.
-
-        Returns:
-            List of executed trade details.
+        V2.2: ATR-based stops, spread filter, per-symbol limits.
         """
         self._get_account()
         executed = []
@@ -122,17 +105,25 @@ class IntradayTrader:
         for rec in recommendations:
             ticker = rec["ticker"]
 
-            # V2.1: Check if signals have entry blocked (chasing, no confirmation)
+            # V2.1: Check if signals have entry blocked
             signals = rec.get("intraday_signals", {})
             if signals.get("entry_blocked"):
                 logger.info("Entry blocked for %s: %s", ticker, signals.get("block_reasons", []))
                 continue
 
-            # Risk check
-            allowed, reason = risk_mgr.can_trade(self.state, self._portfolio_value)
+            # V2.2: Bid-ask spread filter
+            spread_ok, spread_pct = risk_mgr.check_spread(ticker)
+            if not spread_ok:
+                logger.info("Spread too wide for %s: %.2f%% > %.2f%%", ticker, spread_pct, risk_mgr.MAX_SPREAD_PCT)
+                continue
+
+            # Risk check (V2.2: pass ticker for per-symbol limits)
+            allowed, reason = risk_mgr.can_trade(self.state, self._portfolio_value, ticker=ticker)
             if not allowed:
                 logger.info("Trade blocked for %s: %s", ticker, reason)
-                break
+                if "Daily loss" in reason or "Trading stopped" in reason:
+                    break  # Stop all trading
+                continue  # Skip this ticker only
 
             # Skip if already have position
             if ticker in self.state.get("open_positions", {}):
@@ -143,9 +134,12 @@ class IntradayTrader:
             if price is None:
                 continue
 
-            # Size position
+            # V2.2: Get ATR from signals for dynamic stops
+            atr = signals.get("atr", 0.0)
+
+            # Size position (V2.2: pass ATR)
             qty, stop_price, target_price = risk_mgr.size_position(
-                ticker, price, self._portfolio_value, self.state
+                ticker, price, self._portfolio_value, self.state, atr=atr
             )
             if qty <= 0:
                 continue
@@ -166,6 +160,8 @@ class IntradayTrader:
                 "value": round(trade_value, 2),
                 "stop_loss": stop_price,
                 "take_profit": target_price,
+                "atr": atr,
+                "spread_pct": spread_pct,
                 "combined_score": rec.get("combined_score", 0),
                 "signal_score": rec.get("signal_score", 0),
                 "gap_pct": gap_pct,
@@ -184,10 +180,11 @@ class IntradayTrader:
                 trade_info["status"] = "executed"
                 trade_info["order_id"] = order.get("id", "")
 
-                # Record staged position
+                # Record position (V2.2: include ATR)
                 risk_mgr.record_open_position(
                     self.state, ticker, stage1_qty, price, stop_price, target_price,
-                    reason=f"stage1, score={rec.get('combined_score', 0):.2f}, gap={gap_pct:+.1f}%"
+                    reason=f"stage1, score={rec.get('combined_score', 0):.2f}, gap={gap_pct:+.1f}%",
+                    atr=atr,
                 )
                 # V2.1: Track staged entry metadata
                 self.state["open_positions"][ticker]["staged"] = True
@@ -202,8 +199,8 @@ class IntradayTrader:
                 })
 
                 executed.append(trade_info)
-                logger.info("Stage 1: Bought %d/%d %s @ $%.2f (stop=%.2f, target=%.2f)",
-                           stage1_qty, qty, ticker, price, stop_price, target_price)
+                logger.info("Stage 1: Bought %d/%d %s @ $%.2f (stop=%.2f, target=%.2f, ATR=%.2f)",
+                           stage1_qty, qty, ticker, price, stop_price, target_price, atr)
 
             except Exception as e:
                 trade_info["status"] = "error"
@@ -214,10 +211,7 @@ class IntradayTrader:
         return executed
 
     def _check_staged_adds(self, current_prices: dict[str, float]) -> list[dict]:
-        """V2.1: Check if any stage-1 positions should get their stage-2 add.
-
-        Add 2nd half only if position is +0.5% in our favor.
-        """
+        """V2.1: Check if any stage-1 positions should get their stage-2 add."""
         adds = []
         for ticker, pos in list(self.state.get("open_positions", {}).items()):
             if not pos.get("staged") or pos.get("stage", 1) >= 2:
@@ -237,11 +231,10 @@ class IntradayTrader:
                     from scripts.core.executor import place_order
                     place_order(ticker, "buy", stage2_qty)
 
-                    # Update position
                     total_qty = pos["qty"] + stage2_qty
-                    # Weighted average entry price
                     avg_entry = (pos["entry_price"] * pos["qty"] + price * stage2_qty) / total_qty
                     pos["qty"] = total_qty
+                    pos["original_qty"] = total_qty  # V2.2: update for partial TP
                     pos["entry_price"] = round(avg_entry, 2)
                     pos["stage"] = 2
                     pos["staged"] = False
@@ -260,8 +253,11 @@ class IntradayTrader:
         return adds
 
     def _check_trailing_stops(self, current_prices: dict[str, float]) -> None:
-        """V2.1: After +1.5% gain, move stop to breakeven."""
+        """V2.1: After +1.5% gain, move stop to breakeven (for non-partial-TP positions)."""
         for ticker, pos in self.state.get("open_positions", {}).items():
+            if pos.get("partial_tp_done"):
+                continue  # V2.2: handled by trailing stop in risk_mgr
+
             price = current_prices.get(ticker)
             if price is None:
                 continue
@@ -269,7 +265,7 @@ class IntradayTrader:
             gain_pct = (price - pos["entry_price"]) / pos["entry_price"] * 100
             if gain_pct >= TRAILING_STOP_TRIGGER_PCT and pos["stop_price"] < pos["entry_price"]:
                 old_stop = pos["stop_price"]
-                pos["stop_price"] = pos["entry_price"]  # Move to breakeven
+                pos["stop_price"] = pos["entry_price"]
                 logger.info("Trailing stop: %s moved stop $%.2f → $%.2f (breakeven, gain +%.1f%%)",
                            ticker, old_stop, pos["entry_price"], gain_pct)
                 risk_mgr.save_state(self.state)
@@ -306,23 +302,42 @@ class IntradayTrader:
 
         return exits
 
+    def _check_partial_tp(self, current_prices: dict[str, float]) -> list[dict]:
+        """V2.2: Execute partial take-profit at 1R."""
+        actions = risk_mgr.check_partial_tp(self.state, current_prices)
+        executed = []
+
+        for action in actions:
+            ticker = action["ticker"]
+            sell_qty = action["sell_qty"]
+
+            try:
+                from scripts.core.executor import place_order
+                place_order(ticker, "sell", sell_qty)
+
+                price = current_prices[ticker]
+                risk_mgr.apply_partial_tp(self.state, ticker, sell_qty, price)
+                executed.append(action)
+                logger.info("Partial TP: sold %d %s @ $%.2f (+%.1f%%)",
+                           sell_qty, ticker, price, action["gain_pct"])
+            except Exception as e:
+                logger.error("Partial TP failed for %s: %s", ticker, e)
+
+        return executed
+
     def manage_positions(self) -> dict:
-        """Check open positions for stop-loss, take-profit, staged adds, trailing stops, and hard close.
+        """Check open positions: stops, targets, partial TP, trailing stops, hard close.
 
-        V2.1 additions:
-        - Staged entry adds (stage 2 at +0.5%)
-        - Trailing stop to breakeven at +1.5%
-        - Time-based exit: >2 hours with <1% gain
-
-        Returns:
-            Dict with actions taken.
+        V2.2 additions:
+        - Partial take-profit at 1R (sell half, stop to breakeven)
+        - ATR trailing stop for remaining after partial TP
         """
         self._get_account()
         actions = []
 
-        # Check hard close time
+        # Check hard close time (V2.2: 15:45 ET)
         if risk_mgr.should_hard_close():
-            logger.info("Hard close time — closing all positions")
+            logger.info("Hard close time (15:45 ET) — closing all positions")
             for ticker in list(self.state.get("open_positions", {}).keys()):
                 result = self._close_position(ticker, "hard_close_eod")
                 if result:
@@ -342,15 +357,23 @@ class IntradayTrader:
             if price:
                 current_prices[ticker] = price
 
-        # V2.1: Check trailing stops (move to breakeven at +1.5%)
+        # V2.2: Check partial take-profit (at 1R)
+        partial_tps = self._check_partial_tp(current_prices)
+        for pt in partial_tps:
+            actions.append(pt)
+
+        # V2.2: Update trailing stops for positions after partial TP
+        risk_mgr.update_trailing_stops(self.state, current_prices)
+
+        # V2.1: Check trailing stops (move to breakeven at +1.5% for non-partial-TP)
         self._check_trailing_stops(current_prices)
 
-        # V2.1: Check staged adds (add 2nd half at +0.5%)
+        # V2.1: Check staged adds
         staged_adds = self._check_staged_adds(current_prices)
         for add in staged_adds:
             actions.append(add)
 
-        # V2.1: Check time-based exits (>2h with <1% gain)
+        # V2.1: Check time-based exits
         time_exits = self._check_time_exits(current_prices)
         for te in time_exits:
             result = self._close_position(te["ticker"], te["reason"])
@@ -370,7 +393,6 @@ class IntradayTrader:
         """Close a single position."""
         price = self._get_current_price(ticker)
         if price is None:
-            # Try to close via Alpaca directly
             try:
                 from scripts.core.executor import close_position as alpaca_close
                 alpaca_close(ticker)
@@ -379,7 +401,6 @@ class IntradayTrader:
                 logger.error("Failed to close %s: %s", ticker, e)
                 return None
 
-        # Close on Alpaca
         pos = self.state.get("open_positions", {}).get(ticker)
         if not pos:
             return None
@@ -397,14 +418,7 @@ class IntradayTrader:
             return None
 
     def run_cycle(self, execute: bool = False) -> dict:
-        """Full intraday cycle: scan → signal → trade → manage.
-
-        Args:
-            execute: If True, actually place orders.
-
-        Returns:
-            Cycle result summary.
-        """
+        """Full intraday cycle: scan → signal → trade → manage."""
         self._get_account()
         self.state = risk_mgr._load_state()
 
@@ -415,7 +429,7 @@ class IntradayTrader:
             "realized_pnl": self.state.get("realized_pnl", 0),
         }
 
-        # 1. Manage existing positions first (stops, targets, hard close)
+        # 1. Manage existing positions first
         manage_result = self.manage_positions()
         result["position_actions"] = manage_result.get("actions", [])
 
@@ -451,7 +465,6 @@ class IntradayTrader:
         self.state = risk_mgr._load_state()
         summary = risk_mgr.get_daily_summary(self.state)
 
-        # Get current P&L for open positions
         open_pnl = 0.0
         open_details = []
         for ticker, pos in self.state.get("open_positions", {}).items():
@@ -469,9 +482,12 @@ class IntradayTrader:
                     "pnl_pct": round(pnl_pct, 2),
                     "stop": pos["stop_price"],
                     "target": pos["target_price"],
+                    "partial_tp_done": pos.get("partial_tp_done", False),
                 })
 
         summary["open_positions"] = open_details
         summary["unrealized_pnl"] = round(open_pnl, 2)
         summary["total_pnl"] = round(summary["realized_pnl"] + open_pnl, 2)
+        summary["consecutive_losses"] = self.state.get("consecutive_losses", 0)
+        summary["time_weight"] = risk_mgr.get_time_weight()
         return summary
