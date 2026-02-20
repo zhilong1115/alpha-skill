@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 # Add crypto-trading skill to path for indicator imports
-_SKILL_SCRIPTS = "/opt/homebrew/lib/node_modules/openclaw/skills/crypto-trading/scripts"
+_SKILL_SCRIPTS = "/Users/zhilongzheng/Projects/alpha-crypto-skill/scripts"
 if _SKILL_SCRIPTS not in sys.path:
     sys.path.insert(0, _SKILL_SCRIPTS)
 

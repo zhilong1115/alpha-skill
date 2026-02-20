@@ -1,0 +1,9 @@
+{
+  "last_signals": {
+    "BTC/USD": "BUY",
+    "ETH/USD": "HOLD",
+    "SOL/USD": "BUY"
+  },
+  "alert_mode": true,
+  "last_check": "2026-02-20T15:37:03.039186-08:00"
+}

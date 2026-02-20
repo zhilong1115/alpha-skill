@@ -928,5 +928,24 @@ def crypto_close(symbol: str, yes: bool) -> None:
         click.echo(f"❌ Failed to close {full_symbol}")
 
 
+@cli.command("crypto-check")
+@click.option("--dry-run", is_flag=True, help="Don't execute trades, just show signals")
+@click.option("--json-out", "json_out", is_flag=True, help="Output JSON")
+def crypto_check(dry_run: bool, json_out: bool) -> None:
+    """Lightweight crypto signal check — zero LLM tokens. Auto-executes trades on signal change."""
+    from scripts.crypto.monitor_daemon import run_check, format_report
+    import json as _json
+
+    result = run_check(auto_execute=not dry_run)
+
+    if json_out:
+        click.echo(_json.dumps(result, indent=2, default=str))
+    else:
+        report = format_report(result)
+        click.echo(report)
+        if result["alert_mode"]:
+            click.echo("\n🔔 ALERT MODE — indicators near key levels")
+
+
 if __name__ == "__main__":
     cli()
