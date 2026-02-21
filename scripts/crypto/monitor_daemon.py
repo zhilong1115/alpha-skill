@@ -37,6 +37,9 @@ from scripts.crypto.alpaca_crypto import (
     get_crypto_positions, SUPPORTED_SYMBOLS,
 )
 
+# Execution backend: "alpaca" or "hyperliquid"
+EXECUTION_BACKEND = os.environ.get("CRYPTO_BACKEND", "alpaca")
+
 
 # Thresholds for "alert mode" (indicators approaching flip)
 TSI_ALERT_ZONE = 10      # within ±10 of the ±40 threshold
@@ -82,6 +85,41 @@ def check_proximity_to_thresholds(analysis: dict) -> list[str]:
             alerts.append(f"{symbol} WT={wt1:.1f} 接近超买区(+60)")
     
     return alerts
+
+
+def _check_hyperliquid_positions() -> list[dict]:
+    """Check Hyperliquid positions for stop-loss and signal changes."""
+    try:
+        from scripts.crypto.hyperliquid import connect, get_positions, get_account_info, MAX_DRAWDOWN
+        connect(testnet=True)
+        positions = get_positions()
+        account = get_account_info()
+        alerts = []
+
+        for pos in positions:
+            pnl_pct = pos.get("return_on_equity", 0)
+            if pnl_pct <= -0.05:
+                alerts.append(
+                    f"🚨 HL {pos['symbol']} {pos['side']} 触发止损! ROE={pnl_pct*100:.1f}%"
+                )
+
+        # Check account-level drawdown
+        state_file = DATA_DIR / "hl_high_water_mark.json"
+        if state_file.exists():
+            import json as _json
+            try:
+                data = _json.loads(state_file.read_text())
+                dd = data.get("drawdown", 0)
+                if dd >= MAX_DRAWDOWN * 0.8:  # Alert at 80% of kill threshold
+                    alerts.append(
+                        f"⚠️ HL Drawdown {dd*100:.1f}% approaching circuit breaker ({MAX_DRAWDOWN*100:.0f}%)"
+                    )
+            except Exception:
+                pass
+
+        return alerts
+    except Exception as e:
+        return [f"⚠️ HL check failed: {e}"]
 
 
 def run_check(auto_execute: bool = True) -> dict:
@@ -138,6 +176,13 @@ def run_check(auto_execute: bool = True) -> dict:
             alerts = check_proximity_to_thresholds(a)
             result["proximity_alerts"].extend(alerts)
     
+    # 2b. Check Hyperliquid positions if backend is hyperliquid
+    if EXECUTION_BACKEND == "hyperliquid":
+        hl_alerts = _check_hyperliquid_positions()
+        if hl_alerts:
+            result["stop_loss_alerts"].extend(hl_alerts)
+            result["status"] = "HL_ALERT"
+
     # 3. Determine alert mode
     result["alert_mode"] = bool(result["proximity_alerts"]) or bool(result["signal_changes"])
     

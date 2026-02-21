@@ -928,6 +928,119 @@ def crypto_close(symbol: str, yes: bool) -> None:
         click.echo(f"❌ Failed to close {full_symbol}")
 
 
+# ==================================================================
+# Hyperliquid Perps Trading
+# ==================================================================
+
+@cli.command("hl-status")
+@click.option("--mainnet", is_flag=True, help="Use mainnet (default: testnet)")
+def hl_status(mainnet: bool) -> None:
+    """Show Hyperliquid account, positions, and PnL."""
+    from scripts.crypto.hyperliquid import connect, get_account_info, get_positions, SUPPORTED_SYMBOLS, get_price
+
+    connect(testnet=not mainnet)
+    info = get_account_info()
+    env = "⚠️ MAINNET" if not info["testnet"] else "TESTNET"
+
+    click.echo(f"\n{'='*55}")
+    click.echo(f"⚡ HYPERLIQUID STATUS ({env})")
+    click.echo(f"{'='*55}")
+    click.echo(f"  Address:    {info['address']}")
+    click.echo(f"  Acct Value: ${info['account_value']:,.2f}")
+    click.echo(f"  Margin Used:${info['total_margin_used']:,.2f}")
+    click.echo(f"  Withdrawable:${info['withdrawable']:,.2f}")
+
+    positions = get_positions()
+    if positions:
+        click.echo(f"\n  📊 Positions ({len(positions)}):")
+        for p in positions:
+            pnl = p["unrealized_pnl"]
+            icon = "🟢" if pnl >= 0 else "🔴"
+            click.echo(
+                f"    {icon} {p['symbol']} {p['side'].upper()} "
+                f"{p['size']} @ ${p.get('entry_price', 0):,.2f} "
+                f"| PnL: ${pnl:,.2f} ({p['return_on_equity']*100:+.1f}%) "
+                f"| Lev: {p['leverage']}x"
+            )
+            if p.get("liquidation_price"):
+                click.echo(f"       Liq: ${p['liquidation_price']:,.2f}")
+    else:
+        click.echo("\n  No open positions.")
+
+    click.echo(f"\n  💰 Prices:")
+    for sym in SUPPORTED_SYMBOLS:
+        try:
+            price = get_price(sym)
+            click.echo(f"    {sym}: ${price:,.2f}")
+        except Exception:
+            click.echo(f"    {sym}: N/A")
+
+
+@cli.command("hl-trade")
+@click.option("--execute/--dry-run", default=False, help="Execute real trades (default: dry run)")
+@click.option("--mainnet", is_flag=True, help="Use mainnet (default: testnet)")
+def hl_trade(execute: bool, mainnet: bool) -> None:
+    """Run Conservative signals → execute on Hyperliquid."""
+    from scripts.crypto.hyperliquid_trader import analyze_and_trade, format_trade_results
+
+    mode = "🚀 LIVE" if execute else "🧪 DRY RUN"
+    env = "MAINNET" if mainnet else "TESTNET"
+    click.echo(f"{mode} — Hyperliquid Conservative Trading ({env})")
+
+    actions = analyze_and_trade(dry_run=not execute, testnet=not mainnet)
+    click.echo(format_trade_results(actions))
+
+
+@cli.command("hl-close")
+@click.argument("symbol")
+@click.option("--mainnet", is_flag=True, help="Use mainnet")
+@click.option("--yes", "-y", is_flag=True, help="Skip confirmation")
+def hl_close(symbol: str, mainnet: bool, yes: bool) -> None:
+    """Close a Hyperliquid position. Symbol: BTC, ETH, or SOL."""
+    from scripts.crypto.hyperliquid import connect, close_position
+
+    connect(testnet=not mainnet)
+    symbol = symbol.upper()
+
+    if not yes and not click.confirm(f"Close entire {symbol} position?"):
+        click.echo("Cancelled.")
+        return
+
+    result = close_position(symbol)
+    if result.get("action") == "no_position":
+        click.echo(f"❌ No open position for {symbol}")
+    else:
+        click.echo(f"✅ Closed {symbol}: {result.get('result', '')}")
+
+
+@cli.command("hl-funding")
+@click.option("--mainnet", is_flag=True, help="Use mainnet")
+def hl_funding(mainnet: bool) -> None:
+    """Show current Hyperliquid funding rates."""
+    from scripts.crypto.hyperliquid import connect, get_all_funding_rates
+
+    connect(testnet=not mainnet)
+    rates = get_all_funding_rates()
+
+    click.echo(f"\n{'='*55}")
+    click.echo("⚡ HYPERLIQUID FUNDING RATES")
+    click.echo(f"{'='*55}")
+
+    if not rates:
+        click.echo("  No funding rate data available.")
+        return
+
+    for sym, r in rates.items():
+        ann = r["annualized_pct"]
+        icon = "🔴" if ann > 20 else "🟢" if ann < -20 else "⚪"
+        click.echo(
+            f"  {icon} {sym:<5} "
+            f"Hourly: {r['hourly']*100:+.4f}%  "
+            f"Daily: {r['daily']*100:+.3f}%  "
+            f"Annual: {ann:+.1f}%"
+        )
+
+
 @cli.command("crypto-check")
 @click.option("--dry-run", is_flag=True, help="Don't execute trades, just show signals")
 @click.option("--json-out", "json_out", is_flag=True, help="Output JSON")
