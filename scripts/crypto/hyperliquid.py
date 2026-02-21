@@ -37,7 +37,8 @@ MAX_POSITION_MARGIN_PCT = 0.30  # 30% of account as margin per position
 # Module-level state
 _info: Info | None = None
 _exchange: Exchange | None = None
-_account_address: str | None = None
+_account_address: str | None = None  # API wallet address (for signing)
+_master_address: str | None = None   # Main account address (for queries)
 _is_testnet: bool = True
 
 
@@ -67,6 +68,26 @@ def _get_private_key() -> str:
     )
 
 
+def _get_master_address() -> str | None:
+    """Load master (main) account address from Keychain or env.
+    
+    The master address is the Hyperliquid account that authorized the API wallet.
+    Needed for querying balance/positions (funds live on master, not API wallet).
+    """
+    try:
+        result = subprocess.run(
+            ["security", "find-generic-password", "-a", "hyperliquid-master-address", "-w"],
+            capture_output=True, text=True, timeout=5,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip()
+    except Exception:
+        pass
+
+    addr = os.getenv("HYPERLIQUID_MASTER_ADDRESS", "")
+    return addr if addr else None
+
+
 def connect(private_key: str | None = None, testnet: bool = True) -> tuple[Info, Exchange]:
     """Connect to Hyperliquid. Returns (Info, Exchange) clients.
 
@@ -74,7 +95,7 @@ def connect(private_key: str | None = None, testnet: bool = True) -> tuple[Info,
         private_key: Ethereum private key. Auto-loaded from Keychain if None.
         testnet: Use testnet (default True). Set False for mainnet.
     """
-    global _info, _exchange, _account_address, _is_testnet
+    global _info, _exchange, _account_address, _master_address, _is_testnet
 
     if private_key is None:
         private_key = _get_private_key()
@@ -88,11 +109,18 @@ def connect(private_key: str | None = None, testnet: bool = True) -> tuple[Info,
     account = eth_account.Account.from_key(private_key)
     _account_address = account.address
 
+    # Master address: the main Hyperliquid account that authorized this API wallet.
+    # API wallet signs trades, but balance/positions are on the master account.
+    _master_address = _get_master_address()
+
     _info = Info(api_url, skip_ws=True)
+    # API wallet trades on behalf of master account — do NOT use vault_address
+    # (vault_address is for Hyperliquid Vaults, not regular accounts)
     _exchange = Exchange(account, api_url)
 
     env_label = "TESTNET" if testnet else "⚠️ MAINNET"
-    logger.info(f"Connected to Hyperliquid {env_label} as {_account_address}")
+    query_addr = _master_address or _account_address
+    logger.info(f"Connected to Hyperliquid {env_label} | API wallet: {_account_address} | Master: {query_addr}")
     return _info, _exchange
 
 
@@ -104,19 +132,41 @@ def _ensure_connected() -> tuple[Info, Exchange]:
 
 
 def get_account_info() -> dict:
-    """Get account balance, margin, and positions summary."""
+    """Get account balance, margin, and positions summary.
+    
+    Handles Unified Account mode: checks both perps margin and spot USDC balance.
+    """
     info, _ = _ensure_connected()
-    state = info.user_state(_account_address)
+    query_addr = _master_address or _account_address
+    state = info.user_state(query_addr)
     summary = state.get("marginSummary", {})
     positions = state.get("assetPositions", [])
 
+    perps_value = float(summary.get("accountValue", 0))
+    
+    # Also check spot USDC balance (Unified Account keeps funds in spot)
+    spot_usdc = 0.0
+    try:
+        spot_state = info.spot_user_state(query_addr)
+        for bal in spot_state.get("balances", []):
+            if bal.get("coin") == "USDC":
+                spot_usdc = float(bal.get("total", 0))
+                break
+    except Exception as e:
+        logger.debug(f"Could not fetch spot balance: {e}")
+
+    # Total available = perps account value + spot USDC
+    total_value = perps_value + spot_usdc
+
     return {
-        "address": _account_address,
+        "address": query_addr,
         "testnet": _is_testnet,
-        "account_value": float(summary.get("accountValue", 0)),
+        "account_value": total_value,
+        "perps_value": perps_value,
+        "spot_usdc": spot_usdc,
         "total_margin_used": float(summary.get("totalMarginUsed", 0)),
         "total_ntl_pos": float(summary.get("totalNtlPos", 0)),
-        "withdrawable": float(summary.get("withdrawable", 0)),
+        "withdrawable": float(summary.get("withdrawable", 0)) + spot_usdc,
         "num_positions": len([p for p in positions if float(p["position"]["szi"]) != 0]),
         "timestamp": datetime.now(PT).isoformat(),
     }
@@ -125,7 +175,7 @@ def get_account_info() -> dict:
 def get_positions() -> list[dict]:
     """Get current open positions with PnL."""
     info, _ = _ensure_connected()
-    state = info.user_state(_account_address)
+    state = info.user_state(_master_address or _account_address)
     positions = []
 
     for pos_data in state.get("assetPositions", []):
@@ -333,7 +383,7 @@ def set_stop_loss(symbol: str, trigger_price: float) -> dict:
         is_buy=is_buy,
         sz=size,
         limit_px=trigger_price,
-        order_type={"trigger": {"triggerPx": str(trigger_price), "isMarket": True, "tpsl": "sl"}},
+        order_type={"trigger": {"triggerPx": float(trigger_price), "isMarket": True, "tpsl": "sl"}},
         reduce_only=True,
     )
 
@@ -360,7 +410,7 @@ def set_take_profit(symbol: str, trigger_price: float) -> dict:
         is_buy=is_buy,
         sz=size,
         limit_px=trigger_price,
-        order_type={"trigger": {"triggerPx": str(trigger_price), "isMarket": True, "tpsl": "tp"}},
+        order_type={"trigger": {"triggerPx": float(trigger_price), "isMarket": True, "tpsl": "tp"}},
         reduce_only=True,
     )
 
@@ -434,13 +484,17 @@ def _check_drawdown_circuit_breaker(current_value: float) -> None:
 
 
 def _round_price(symbol: str, price: float) -> float:
-    """Round price to appropriate precision for the symbol."""
+    """Round price to appropriate tick size for Hyperliquid.
+    
+    Tick sizes (from Hyperliquid docs):
+    BTC: $1.0, ETH: $0.10, SOL: $0.01
+    """
     if symbol == "BTC":
-        return round(price, 1)  # $0.1 precision
+        return round(price, 0)   # $1 tick
     elif symbol == "ETH":
-        return round(price, 2)  # $0.01 precision
+        return round(price, 1)   # $0.10 tick
     else:
-        return round(price, 4)  # $0.0001 for SOL etc.
+        return round(price, 2)   # $0.01 tick for SOL etc.
 
 
 def _round_size(symbol: str, size: float) -> float:

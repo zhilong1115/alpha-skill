@@ -1,0 +1,185 @@
+[
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00152,
+    "price": 68538.1,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "err",
+      "response": "Vault not registered: 0xdf5031d5df19ff6cb6fc4fd9f55dce5eed236a03"
+    },
+    "timestamp": "2026-02-20T17:04:14.500090-08:00",
+    "logged_at": "2026-02-20T17:04:14.500373-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0263,
+    "price": 1984.2,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "err",
+      "response": "Vault not registered: 0xdf5031d5df19ff6cb6fc4fd9f55dce5eed236a03"
+    },
+    "timestamp": "2026-02-20T17:04:18.399772-08:00",
+    "logged_at": "2026-02-20T17:04:18.400297-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 1.225,
+    "price": 85.3364,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "err",
+      "response": "Vault not registered: 0xdf5031d5df19ff6cb6fc4fd9f55dce5eed236a03"
+    },
+    "timestamp": "2026-02-20T17:04:22.153025-08:00",
+    "logged_at": "2026-02-20T17:04:22.153517-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.001,
+    "price": 68520.9,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "err",
+      "response": "Vault not registered: 0xdf5031d5df19ff6cb6fc4fd9f55dce5eed236a03"
+    },
+    "timestamp": "2026-02-20T17:04:52.306883-08:00",
+    "logged_at": "2026-02-20T17:04:52.307367-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.001,
+    "price": 68520.9,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Price must be divisible by tick size. asset=0"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-20T17:05:17.071729-08:00",
+    "logged_at": "2026-02-20T17:05:17.072346-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.001,
+    "price": 68513.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.001",
+                "avgPx": "67835.0",
+                "oid": 325903566734
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-20T17:06:11.085883-08:00",
+    "logged_at": "2026-02-20T17:06:11.086537-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00083,
+    "price": 68515.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00083",
+                "avgPx": "67837.0",
+                "oid": 325903670248
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-20T17:06:28.984088-08:00",
+    "logged_at": "2026-02-20T17:06:28.984684-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0315,
+    "price": 1983.9,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0315",
+                "avgPx": "1964.3",
+                "oid": 325903704911
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-20T17:06:34.872418-08:00",
+    "logged_at": "2026-02-20T17:06:34.872883-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 1.466,
+    "price": 85.32,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-20T17:06:40.696647-08:00",
+    "logged_at": "2026-02-20T17:06:40.697109-08:00"
+  }
+]
