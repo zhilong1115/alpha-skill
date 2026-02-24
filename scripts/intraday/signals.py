@@ -217,7 +217,10 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
     # 8. V2.1: Chasing check (don't buy if >2% above VWAP)
     chasing = is_chasing_vwap(current, vwap_val, max_distance_pct=2.0)
 
-    # --- Combined Score (V2.1: stricter entry requirements) ---
+    # --- Combined Score (V2.3: continuous scoring for better differentiation) ---
+    # V2.3: Replaced binary thresholds with continuous/scaled scoring.
+    # Old system: most signals gave flat ±0.2/0.3, causing many ties at 0.60.
+    # New system: scores scale with signal strength for much better candidate ranking.
     score = 0.0
     signals_detail = []
     entry_blocked = False
@@ -229,22 +232,29 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
     # 3. Volume must confirm
     # 4. Must not be chasing
 
-    # VWAP signal: above VWAP = bullish (REQUIRED for longs)
-    if vwap_distance_pct > 0.3:
-        score += 0.2
-        signals_detail.append("above VWAP (+)")
-    elif vwap_distance_pct < -0.3:
-        score -= 0.2
-        signals_detail.append("below VWAP (-)")
+    # VWAP signal: continuous scoring based on distance (V2.3)
+    # Closer to VWAP = weaker signal; further = stronger (up to cap)
+    if vwap_distance_pct > 0.1:
+        # Scale: 0.1% → 0.05, 0.5% → 0.13, 1.0% → 0.20, 2.0% → 0.25 (capped)
+        vwap_score = min(vwap_distance_pct / 8.0, 0.25)
+        score += vwap_score
+        signals_detail.append(f"above VWAP +{vwap_distance_pct:.1f}% (+{vwap_score:.3f})")
+    elif vwap_distance_pct < -0.1:
+        vwap_score = max(vwap_distance_pct / 8.0, -0.25)
+        score += vwap_score
+        signals_detail.append(f"below VWAP {vwap_distance_pct:+.1f}% ({vwap_score:+.3f})")
         block_reasons.append("below VWAP")
 
-    # ORB breakout (V2.1: must wait for opening range to complete)
+    # ORB breakout: continuous scoring based on breakout distance (V2.3)
     if orb.get("or_complete"):
+        or_dist = orb.get("distance_from_or_high_pct", 0)
         if orb.get("is_breakout_long"):
-            score += 0.3
-            signals_detail.append("ORB breakout long (++)")
+            # Scale breakout strength: 0.1% above → 0.15, 1% → 0.30, 2%+ → 0.35
+            orb_score = min(0.15 + or_dist / 10.0, 0.35)
+            score += orb_score
+            signals_detail.append(f"ORB breakout +{or_dist:.1f}% (+{orb_score:.3f})")
         elif orb.get("is_breakout_short"):
-            score -= 0.3
+            score -= 0.30
             signals_detail.append("ORB breakdown (--)")
             block_reasons.append("ORB breakdown")
         else:
@@ -253,26 +263,28 @@ def compute_intraday_signals(ticker: str, df: pd.DataFrame | None = None) -> dic
     else:
         block_reasons.append("opening range not complete")
 
-    # RSI
-    if rsi > 70:
-        score -= 0.1
-        signals_detail.append(f"RSI overbought {rsi:.0f}")
-    elif rsi < 30:
-        score += 0.1
-        signals_detail.append(f"RSI oversold {rsi:.0f}")
+    # RSI: continuous scoring (V2.3) — not just overbought/oversold
+    # Maps RSI to score: 20→+0.15, 30→+0.08, 50→0, 70→-0.08, 80→-0.15
+    rsi_score = (50 - rsi) / 200.0  # linear: ±0.25 at extremes
+    rsi_score = max(min(rsi_score, 0.15), -0.15)
+    if abs(rsi_score) > 0.02:
+        score += rsi_score
+        signals_detail.append(f"RSI {rsi:.0f} ({rsi_score:+.3f})")
 
-    # Momentum
-    if momentum > 0.05:
-        score += 0.2
-        signals_detail.append(f"momentum up {momentum:+.3f}")
-    elif momentum < -0.05:
-        score -= 0.2
-        signals_detail.append(f"momentum down {momentum:+.3f}")
+    # Momentum: continuous scoring (V2.3) — proportional to slope
+    if abs(momentum) > 0.01:
+        # Scale: 0.05 → 0.10, 0.10 → 0.20, 0.20+ → 0.25 (capped)
+        mom_score = max(min(momentum * 1.25, 0.25), -0.25)
+        score += mom_score
+        signals_detail.append(f"momentum {momentum:+.4f} ({mom_score:+.3f})")
 
-    # V2.1: Volume confirmation (REQUIRED)
+    # Volume: continuous scoring based on relative volume (V2.3)
     if vol_confirmed:
-        score += 0.15 * (1 if score > 0 else -1)
-        signals_detail.append(f"volume confirmed {rel_vol:.1f}x ✓")
+        # Higher rel_vol = stronger signal: 1.5x→0.10, 3x→0.18, 5x+→0.20
+        vol_score = min((rel_vol - 1.0) / 20.0, 0.20)
+        vol_score = max(vol_score, 0.08)  # minimum if confirmed
+        score += vol_score * (1 if score > 0 else -1)
+        signals_detail.append(f"volume {rel_vol:.1f}x confirmed (+{vol_score:.3f}) ✓")
     else:
         block_reasons.append("low volume (no confirmation)")
         signals_detail.append(f"volume weak {rel_vol:.1f}x ✗")
@@ -333,10 +345,16 @@ def rank_candidates(candidates: list[dict]) -> list[dict]:
         if signals.get("error"):
             continue
 
-        # Combine scanner score with signal score
+        # V2.3: Weighted combination with more factors for better differentiation.
+        # Old: 50/50 scanner/signal → many ties. New: weighted multi-factor.
         scanner_score = candidate.get("intraday_score", 0)
         signal_score = signals.get("score", 0)
-        combined = scanner_score * 0.5 + abs(signal_score) * 0.5
+        vol_factor = min(signals.get("relative_volume", 1.0) / 5.0, 0.2)  # 0-0.2 bonus
+        momentum_factor = min(abs(signals.get("momentum", 0)) * 2, 0.15)  # 0-0.15 bonus
+        combined = (scanner_score * 0.35
+                    + abs(signal_score) * 0.40
+                    + vol_factor * 0.15
+                    + momentum_factor * 0.10)
 
         enriched.append({
             **candidate,

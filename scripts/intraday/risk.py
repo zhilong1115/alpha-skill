@@ -39,6 +39,13 @@ ATR_TARGET_MULTIPLIER = 3.0   # target = entry + 3.0 * ATR (1:2 R/R)
 FALLBACK_STOP_PCT = 2.0       # fallback if ATR unavailable
 FALLBACK_TARGET_PCT = 4.0
 
+# V2.3: Minimum stop distance floor (fixes too-tight stops on low-ATR stocks like F)
+MIN_STOP_PCT = 0.5            # minimum stop = 0.5% of entry price
+MAX_STOP_PCT = 5.0            # maximum stop = 5% (sanity cap)
+
+# V2.3: Last entry cutoff — no new positions within this many minutes of hard close
+LAST_ENTRY_MINUTES_BEFORE_CLOSE = 90  # 1.5 hours before 15:45 ET = no entry after 14:15 ET
+
 # V2.2: Re-entry limits
 MAX_TRADES_PER_SYMBOL = 2     # max trades per ticker per day
 REENTRY_SIZE_FACTOR = 0.5     # half size after loss on same ticker
@@ -239,6 +246,15 @@ def can_trade(state: dict, portfolio_value: float, ticker: str | None = None) ->
     if tw <= 0:
         return False, "Time window closed (weight=0): no new entries now"
 
+    # V2.3: No new entries within 1.5h of hard close (14:15 ET for 15:45 close).
+    # Ensures enough time for the trade to play out before forced liquidation.
+    now = _now_et()
+    hard_close_dt = now.replace(hour=HARD_CLOSE_HOUR_ET, minute=HARD_CLOSE_MINUTE_ET, second=0, microsecond=0)
+    minutes_to_close = (hard_close_dt - now).total_seconds() / 60
+    if 0 < minutes_to_close < LAST_ENTRY_MINUTES_BEFORE_CLOSE:
+        return False, (f"Too close to hard close: {minutes_to_close:.0f} min left "
+                       f"(need >{LAST_ENTRY_MINUTES_BEFORE_CLOSE} min)")
+
     # V2.2: Consecutive loss pause
     pause_until = state.get("loss_pause_until")
     if pause_until:
@@ -310,6 +326,23 @@ def size_position(ticker: str, price: float, portfolio_value: float,
     else:
         stop_distance = price * FALLBACK_STOP_PCT / 100
         target_distance = price * FALLBACK_TARGET_PCT / 100
+
+    # V2.3: Enforce minimum and maximum stop distance as % of price.
+    # Fixes too-tight stops on low-volatility / low-price stocks (e.g. F @ $14,
+    # 5min ATR ~$0.03 → 0.2% stop is way too tight; floor at 0.5%).
+    min_stop_distance = price * MIN_STOP_PCT / 100
+    max_stop_distance = price * MAX_STOP_PCT / 100
+    if stop_distance < min_stop_distance:
+        logger.info("Stop floor: %s ATR stop $%.3f < min $%.3f (%.1f%%), using floor",
+                     ticker, stop_distance, min_stop_distance, MIN_STOP_PCT)
+        stop_distance = min_stop_distance
+        # Scale target proportionally to maintain R:R ratio
+        target_distance = max(target_distance, stop_distance * (ATR_TARGET_MULTIPLIER / ATR_STOP_MULTIPLIER))
+    elif stop_distance > max_stop_distance:
+        logger.info("Stop cap: %s stop $%.3f > max $%.3f (%.1f%%), using cap",
+                     ticker, stop_distance, max_stop_distance, MAX_STOP_PCT)
+        stop_distance = max_stop_distance
+        target_distance = stop_distance * (ATR_TARGET_MULTIPLIER / ATR_STOP_MULTIPLIER)
 
     stop_price = round(price - stop_distance, 2)
     target_price = round(price + target_distance, 2)

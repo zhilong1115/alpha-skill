@@ -390,24 +390,49 @@ class IntradayTrader:
         return {"actions": actions, "reason": "monitoring"}
 
     def _close_position(self, ticker: str, reason: str) -> dict | None:
-        """Close a single position."""
-        price = self._get_current_price(ticker)
-        if price is None:
-            try:
-                from scripts.core.executor import close_position as alpaca_close
-                alpaca_close(ticker)
-                return risk_mgr.close_position(self.state, ticker, 0, reason=reason + " (price unknown)")
-            except Exception as e:
-                logger.error("Failed to close %s: %s", ticker, e)
-                return None
+        """Close a single position.
 
+        V2.3: Uses Alpaca's close_position API for hard closes (more reliable than
+        place_order sell). Also verifies the position is actually closed by polling
+        Alpaca, fixing a bug where local state was cleared but position persisted.
+        """
         pos = self.state.get("open_positions", {}).get(ticker)
         if not pos:
             return None
 
+        price = self._get_current_price(ticker) or 0
+
         try:
-            from scripts.core.executor import place_order
-            place_order(ticker, "sell", pos["qty"])
+            # V2.3: Prefer close_position API (liquidates entire position atomically)
+            # over place_order("sell", qty) which can fail if qty doesn't match Alpaca's
+            from scripts.core.executor import _get_client
+            client = _get_client()
+            if client is not None:
+                try:
+                    client.close_position(ticker)
+                    logger.info("Alpaca close_position API called for %s", ticker)
+                except Exception as e:
+                    # Fallback to sell order if close_position fails
+                    logger.warning("close_position API failed for %s, trying sell order: %s", ticker, e)
+                    from scripts.core.executor import place_order
+                    place_order(ticker, "sell", pos["qty"])
+            else:
+                from scripts.core.executor import place_order
+                place_order(ticker, "sell", pos["qty"])
+
+            # V2.3: Wait briefly and verify position is actually closed
+            import time as _time
+            _time.sleep(1)
+            try:
+                from scripts.core.executor import get_positions
+                remaining = [p for p in get_positions() if p["ticker"] == ticker and p["qty"] > 0]
+                if remaining:
+                    logger.warning("Position %s still open after close attempt! qty=%s. "
+                                   "NOT removing from local state.", ticker, remaining[0]["qty"])
+                    return None  # Don't clear local state — position still exists
+            except Exception as verify_err:
+                logger.warning("Could not verify close for %s: %s", ticker, verify_err)
+
             result = risk_mgr.close_position(self.state, ticker, price, reason=reason)
             if result:
                 logger.info("Closed %s @ $%.2f, P&L: $%.2f (%s)",

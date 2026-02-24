@@ -46,5 +46,123 @@
     "qty": null,
     "created_at": "2026-02-19 21:10:56.760225+00:00",
     "logged_at": "2026-02-19T13:10:56.939854"
+  },
+  {
+    "id": "3dd12b5a-995e-446f-a185-fd30ce20e1c5",
+    "symbol": "BTC/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 7500.0,
+    "qty": null,
+    "created_at": "2026-02-22 16:45:23.234659+00:00",
+    "logged_at": "2026-02-22T08:45:23.432230"
+  },
+  {
+    "id": "97533b91-2633-42eb-b78e-f129f1109eff",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 7500.0,
+    "qty": null,
+    "created_at": "2026-02-22 16:45:31.374641+00:00",
+    "logged_at": "2026-02-22T08:45:31.567814"
+  },
+  {
+    "id": "f5b79c7b-0c06-414b-9a90-408e28be2c0f",
+    "symbol": "SOL/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 15000.0,
+    "qty": null,
+    "created_at": "2026-02-22 16:45:39.443555+00:00",
+    "logged_at": "2026-02-22T08:45:39.827885"
+  },
+  {
+    "id": "e73fde65-ecd9-40c9-9309-853ec3e599be",
+    "symbol": "BTC/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 168.19982700000037,
+    "qty": null,
+    "created_at": "2026-02-22 22:00:23.514794+00:00",
+    "logged_at": "2026-02-22T14:00:23.714245"
+  },
+  {
+    "id": "87976061-572a-462c-aa58-176eba214b99",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": 173.59833999999955,
+    "qty": null,
+    "created_at": "2026-02-22 22:00:31.564365+00:00",
+    "logged_at": "2026-02-22T14:00:31.774875"
+  },
+  {
+    "id": "19cf116f-61c4-4909-8e14-6fd3c40fddf7",
+    "symbol": "SOL/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": null,
+    "qty": 85.3485372855692,
+    "created_at": "2026-02-22 22:00:36.051833+00:00",
+    "logged_at": "2026-02-22T14:00:36.238395"
+  },
+  {
+    "id": "6e8fc89b-db92-47fa-aa6b-44ad8825177e",
+    "symbol": "BTC/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-23 00:30:20.592403+00:00",
+    "logged_at": "2026-02-22T16:30:20.877346"
+  },
+  {
+    "id": "87d41809-5d53-42f0-8c60-521b5388a6e9",
+    "symbol": "SOL/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "notional": null,
+    "qty": 84.22452739209601,
+    "created_at": "2026-02-23 00:30:28.006942+00:00",
+    "logged_at": "2026-02-22T16:30:28.363994"
+  },
+  {
+    "id": "878f9491-30b7-4672-ad15-f98e9e77ce27",
+    "symbol": "ETH/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-23 01:00:23.157059+00:00",
+    "logged_at": "2026-02-22T17:00:23.342447"
+  },
+  {
+    "id": "fb22e731-7a31-4f1d-89ec-93695ad1ba0a",
+    "symbol": "SOL/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-23 01:00:28.664551+00:00",
+    "logged_at": "2026-02-22T17:00:29.113106"
+  },
+  {
+    "id": "649eda78-1965-4d52-83c5-44e0a5987e89",
+    "symbol": "BTC/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-24 11:25:19.471039+00:00",
+    "logged_at": "2026-02-24T03:25:19.652998"
+  },
+  {
+    "id": "b9892dc9-eabc-4f43-ab43-ceca74931577",
+    "symbol": "ETH/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-24 11:25:23.638440+00:00",
+    "logged_at": "2026-02-24T03:25:23.821824"
+  },
+  {
+    "id": "88348131-4c02-4faf-8d77-5a3da38743f4",
+    "symbol": "SOL/USD",
+    "side": "sell",
+    "status": "OrderStatus.PENDING_NEW",
+    "created_at": "2026-02-24 11:25:27.637613+00:00",
+    "logged_at": "2026-02-24T03:25:27.813172"
   }
 ]

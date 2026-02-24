@@ -1,0 +1,82 @@
+{
+  "date": "2026-02-23",
+  "trades": [
+    {
+      "ticker": "AMT",
+      "side": "buy",
+      "qty": 24,
+      "price": 189.49000549316406,
+      "value": 4547.7601318359375,
+      "timestamp": "2026-02-23T15:18:13.626287"
+    },
+    {
+      "ticker": "JNJ",
+      "side": "buy",
+      "qty": 3,
+      "price": 246.77000427246094,
+      "value": 740.3100128173828,
+      "timestamp": "2026-02-23T16:32:05.910315"
+    },
+    {
+      "ticker": "JNJ",
+      "side": "sell",
+      "qty": 3,
+      "entry_price": 246.77000427246094,
+      "exit_price": 246.0198974609375,
+      "pnl": -2.25,
+      "pnl_pct": -0.3,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-23T16:32:05.909188",
+      "timestamp": "2026-02-23T17:00:23.667647"
+    },
+    {
+      "ticker": "LLY",
+      "side": "buy",
+      "qty": 1,
+      "price": 1063.1600341796875,
+      "value": 1063.1600341796875,
+      "timestamp": "2026-02-23T17:03:50.428035"
+    },
+    {
+      "ticker": "AMT",
+      "side": "sell",
+      "qty": 49,
+      "entry_price": 190.03,
+      "exit_price": 190.10000610351562,
+      "pnl": 3.43,
+      "pnl_pct": 0.04,
+      "reason": "hard_close_eod",
+      "hold_time": "2026-02-23T15:18:13.625088",
+      "timestamp": "2026-02-23T22:11:12.051731"
+    },
+    {
+      "ticker": "LLY",
+      "side": "sell",
+      "qty": 1,
+      "entry_price": 1063.1600341796875,
+      "exit_price": 1058.510009765625,
+      "pnl": -4.65,
+      "pnl_pct": -0.44,
+      "reason": "hard_close_eod",
+      "hold_time": "2026-02-23T17:03:50.427218",
+      "timestamp": "2026-02-23T22:11:15.757623"
+    }
+  ],
+  "open_positions": {},
+  "realized_pnl": -3.47,
+  "total_trades": 6,
+  "stopped_trading": false,
+  "stop_reason": null,
+  "symbol_trade_counts": {
+    "JNJ": 1,
+    "AMT": 1,
+    "LLY": 1
+  },
+  "symbol_last_result": {
+    "JNJ": "loss",
+    "AMT": "win",
+    "LLY": "loss"
+  },
+  "consecutive_losses": 1,
+  "loss_pause_until": null
+}
