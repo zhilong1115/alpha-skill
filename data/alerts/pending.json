@@ -1,157 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on Zscaler, Lowers Price Target to $220",
-    "summary": "TD Cowen  analyst Shaul Eyal   maintains Zscaler (NASDAQ:ZS) with a Buy and lowers the price target from $260 to $220.",
-    "symbols": [
-      "ZS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:52:43Z",
-    "url": "https://www.benzinga.com/news/26/02/50940781/td-cowen-maintains-buy-on-zscaler-lowers-price-target-to-220"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Hut 8, Raises Price Target to $70",
-    "summary": "Canaccord Genuity  analyst Joseph Vafi   maintains Hut 8 (NASDAQ:HUT) with a Buy and raises the price target from $62 to $70.",
-    "symbols": [
-      "HUT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:54:06Z",
-    "url": "https://www.benzinga.com/news/26/02/50940834/canaccord-genuity-maintains-buy-on-hut-8-raises-price-target-to-70"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Middleby, Raises Price Target to $203",
-    "summary": "Canaccord Genuity  analyst Brian McNamara   maintains Middleby (NASDAQ:MIDD) with a Buy and raises the price target from $187 to $203.",
-    "symbols": [
-      "MIDD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:56:00Z",
-    "url": "https://www.benzinga.com/news/26/02/50940875/canaccord-genuity-maintains-buy-on-middleby-raises-price-target-to-203"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Stocks will get early March test with high stakes jobs report next week",
-    "summary": "Investors parsing through what to make of the economic outlook will watch the nonfarm payrolls report carefully.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL"
-    ],
-    "keywords": [
-      "jobs report",
-      "nonfarm"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:43:14 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/stocks-will-get-early-march-test-with-high-stakes-jobs-report-next-week.html"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Trump suggests military attack on Iran is still on the table, boosting oil prices",
-    "summary": "Oil prices were up sharply Friday after President Donald Trump reportedly suggested that a U.S. military strike on Iran is still being considered after a deal to end Tehran\u2019s nuclear ambitions didn\u2019t materialize this week.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:55:00 GMT",
-    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427?mod=mw_rss_topstories"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Perrigo, Lowers Price Target to $17",
-    "summary": "Canaccord Genuity  analyst Susan Anderson   maintains Perrigo (NYSE:PRGO) with a Buy and lowers the price target from $20 to $17.",
-    "symbols": [
-      "PRGO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:59:59Z",
-    "url": "https://www.benzinga.com/news/26/02/50940958/canaccord-genuity-maintains-buy-on-perrigo-lowers-price-target-to-17"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Forvis Mazars revenue rises 11% to $5.7bn in FY24\u201325",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T08:58:47Z",
-    "url": "https://finance.yahoo.com/news/forvis-mazars-revenue-rises-11-085847591.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Marathon's Richards Says Private Credit Software Defaults Could Hit 15%",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "default"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-26T08:57:49Z",
-    "url": "https://finance.yahoo.com/video/marathons-richards-says-private-credit-085749070.html"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "A Look Into Merck &amp; Co Inc&#39;s Price Over Earnings",
     "summary": " ",
     "symbols": [
@@ -2048,5 +1897,164 @@
     "action_type": "buy",
     "timestamp": "2026-02-27T20:37:38Z",
     "url": "https://www.benzinga.com/markets/private-markets/26/02/50945001/apollos-mfic-slashes-dividend-marks-down-assets-announces-100m-buyback"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Palantir\u2019s stock nabs another upgrade, with its valuation now less of a \u2018struggle\u2019",
+    "summary": "Palantir Technologies\u2019 stock has been a fan favorite among retail investors. Now, Wall Street analysts are warming to the software company\u2019s story.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "upgrade"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:37:00 GMT",
+    "url": "https://www.marketwatch.com/story/palantirs-stock-nabs-another-upgrade-with-its-valuation-now-less-of-a-struggle-e354edf5?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Howden Joinery Group H2 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:53:06Z",
+    "url": "https://finance.yahoo.com/news/howden-joinery-group-h2-earnings-105306080.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Man Group H2 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:53:06Z",
+    "url": "https://finance.yahoo.com/news/man-group-h2-earnings-call-105306523.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "&#39;Apollo Said to Net $250 Million in Paper Profits on xAI Debt&#39; - Bloomberg News",
+    "summary": "https://www.bloomberg.com/news/articles/2026-02-27/apollo-said-to-net-250-million-in-paper-profits-on-xai-debt",
+    "symbols": [
+      "APO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:43:49Z",
+    "url": "https://www.benzinga.com/news/26/02/50945243/apollo-said-to-net-250-million-in-paper-profits-on-xai-debt-bloomberg-news"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Snowflake Stock Loses Steam After Earnings Beat",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T11:00:00Z",
+    "url": "https://www.barrons.com/articles/snowflake-earnings-stock-price-07238aa6?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "finnhub",
+    "headline": "Palantir\u2019s stock nabs another upgrade, with its valuation now less of a \u2018struggle\u2019",
+    "summary": "Palantir Technologies\u2019 stock has been a fan favorite among retail investors. Now, Wall Street analysts are warming to the software company\u2019s story.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "upgrade"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:37:00+00:00",
+    "url": "https://www.marketwatch.com/story/palantirs-stock-nabs-another-upgrade-with-its-valuation-now-less-of-a-struggle-e354edf5"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "President Trump Posts On Truth Social &#34;I am directing EVERY Federal Agency in the United States Government to IMMEDIATELY CEASE all use of Anthropic&#39;s technology. We don&#39;t need it, we don&#39;t want it, and will not do business with them again! There will be a Six Month phase out period for Agencies like the Department of War who are using Anthropic&#39;s products, at various levels. Anthropic better get their act together, and be helpful during this phase out period...&#34;",
+    "summary": "https://truthsocial.com/@realDonaldTrump/posts/116144552969293195",
+    "symbols": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "SPY"
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "AMZN",
+    "matched_tickers": [
+      "AMZN",
+      "GOOG",
+      "GOOGL",
+      "MSFT",
+      "NVDA"
+    ],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T20:50:43Z",
+    "url": "https://www.benzinga.com/news/26/02/50945522/president-trump-posts-on-truth-social-i-am-directing-every-federal-agency-in-the-united-states-gover"
+  },
+  {
+    "source": "finnhub",
+    "headline": "Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst says",
+    "summary": "Oil prices were climbing on Friday, shaking off losses from the previous session, as markets get increasingly nervous about delays in reaching a deal to end Tehran\u2019s nuclear ambitions.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-27T15:07:00+00:00",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427"
   }
 ]

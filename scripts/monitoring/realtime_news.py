@@ -156,11 +156,53 @@ def _save_pending(alerts: list[dict]) -> None:
 
 
 def add_alert(alert: dict) -> None:
-    """Add a new alert to the pending queue."""
+    """Add a new alert to the pending queue and notify the agent for critical/high."""
     pending = _load_pending()
     pending.append(alert)
     _save_pending(pending)
     logger.info("🚨 ALERT: [%s] %s — %s", alert.get("urgency", "?"), alert.get("ticker", "MACRO"), alert.get("headline", "")[:80])
+
+    # Notify Alpha agent directly for actionable news
+    if alert.get("urgency") in ("critical", "high"):
+        _notify_agent(alert)
+
+
+def _notify_agent(alert: dict) -> None:
+    """Send breaking news alert to Alpha's session via openclaw agent command."""
+    import subprocess
+
+    urgency = alert.get("urgency", "unknown").upper()
+    ticker = alert.get("ticker", "MACRO")
+    headline = alert.get("headline", "")[:200]
+    sentiment = alert.get("sentiment", "neutral")
+    action = alert.get("action_type", "monitor")
+    tickers = ", ".join(alert.get("matched_tickers", [])) or "N/A"
+    source = alert.get("source", "unknown")
+
+    msg = (
+        f"🚨 BREAKING NEWS [{urgency}]\n"
+        f"Headline: {headline}\n"
+        f"Tickers: {tickers} | Sentiment: {sentiment} | Suggested: {action}\n"
+        f"Source: {source}\n\n"
+        f"Review this and decide if any action is needed on our positions or watchlist."
+    )
+
+    try:
+        result = subprocess.run(
+            [
+                "openclaw", "agent",
+                "--agent", "alpha",
+                "--session-id", "5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca",  # Alpha group chat
+                "--message", msg,
+            ],
+            capture_output=True, text=True, timeout=30,
+        )
+        if result.returncode == 0:
+            logger.info("✅ Agent notified: [%s] %s", urgency, ticker)
+        else:
+            logger.warning("Agent notification failed (rc=%d): %s", result.returncode, result.stderr[:200])
+    except Exception as e:
+        logger.warning("Failed to notify agent: %s", e)
 
 
 def pop_pending_alerts() -> list[dict]:

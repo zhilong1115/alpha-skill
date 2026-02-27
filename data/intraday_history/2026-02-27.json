@@ -1,0 +1,106 @@
+{
+  "date": "2026-02-27",
+  "trades": [
+    {
+      "ticker": "SA",
+      "side": "buy",
+      "qty": 79,
+      "price": 39.064998626708984,
+      "value": 3086.1348915100098,
+      "timestamp": "2026-02-27T15:45:25.295708"
+    },
+    {
+      "ticker": "ARLO",
+      "side": "buy",
+      "qty": 196,
+      "price": 15.710000038146973,
+      "value": 3079.1600074768066,
+      "timestamp": "2026-02-27T16:01:37.546698"
+    },
+    {
+      "ticker": "CRM",
+      "side": "buy",
+      "qty": 4,
+      "price": 192.78500366210938,
+      "value": 771.1400146484375,
+      "timestamp": "2026-02-27T16:30:30.327593"
+    },
+    {
+      "ticker": "SNPS",
+      "side": "buy",
+      "qty": 2,
+      "price": 413.3399963378906,
+      "value": 826.6799926757812,
+      "timestamp": "2026-02-27T17:00:32.889416"
+    },
+    {
+      "ticker": "NFLX",
+      "side": "buy",
+      "qty": 26,
+      "price": 94.7249984741211,
+      "value": 2462.8499603271484,
+      "timestamp": "2026-02-27T18:00:30.394138"
+    },
+    {
+      "ticker": "MRK",
+      "side": "buy",
+      "qty": 20,
+      "price": 123.00599670410156,
+      "value": 2460.1199340820312,
+      "timestamp": "2026-02-27T18:00:31.410730"
+    },
+    {
+      "ticker": "ARLO",
+      "side": "sell",
+      "qty": 197,
+      "entry_price": 15.8,
+      "exit_price": 15.850000381469727,
+      "pnl": 9.85,
+      "pnl_pct": 0.32,
+      "reason": "time_exit (3.0h, +0.3%)",
+      "hold_time": "2026-02-27T16:01:37.544901",
+      "timestamp": "2026-02-27T19:00:11.206432"
+    },
+    {
+      "ticker": "SNPS",
+      "side": "sell",
+      "qty": 2,
+      "entry_price": 413.3399963378906,
+      "exit_price": 410.4100036621094,
+      "pnl": -5.86,
+      "pnl_pct": -0.71,
+      "reason": "time_exit (2.2h, -0.7%)",
+      "hold_time": "2026-02-27T17:00:32.887573",
+      "timestamp": "2026-02-27T19:15:11.003999"
+    },
+    {
+      "ticker": "MRK",
+      "side": "sell",
+      "qty": 30,
+      "entry_price": 123.54,
+      "exit_price": 123.6500015258789,
+      "pnl": 3.3,
+      "pnl_pct": 0.09,
+      "reason": "stop_loss",
+      "hold_time": "2026-02-27T18:00:31.409085",
+      "timestamp": "2026-02-27T19:30:11.318953"
+    }
+  ],
+  "open_positions": {},
+  "realized_pnl": 105.18404602050767,
+  "total_trades": 9,
+  "stopped_trading": false,
+  "stop_reason": null,
+  "symbol_trade_counts": {
+    "ARLO": 1,
+    "SNPS": 1,
+    "MRK": 1
+  },
+  "symbol_last_result": {
+    "ARLO": "win",
+    "SNPS": "loss",
+    "MRK": "win"
+  },
+  "consecutive_losses": 0,
+  "loss_pause_until": null
+}

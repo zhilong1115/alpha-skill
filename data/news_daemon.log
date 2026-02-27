@@ -8053,3 +8053,18 @@
 2026-02-27 12:35:11,085 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump Threatens Countries Against Playing 'Games' With Supreme Court Ruling: Can
 2026-02-27 12:35:11,335 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Bitcoin Price Rose Close to $70,000. What Nvidia Earnings Mean for Cryptos.
 2026-02-27 12:37:39,890 [realtime_news] INFO: 🚨 ALERT: [high] GM — Apollo&#39;s MFIC Slashes Dividend, Marks Down Assets, Announces $100M Buyback
+2026-02-27 12:40:16,916 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir’s stock nabs another upgrade, with its valuation now less of a ‘struggl
+2026-02-27 12:41:18,557 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Howden Joinery Group H2 Earnings Call Highlights
+2026-02-27 12:41:18,818 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Man Group H2 Earnings Call Highlights
+2026-02-27 12:43:51,097 [realtime_news] INFO: 🚨 ALERT: [high] SA — &#39;Apollo Said to Net $250 Million in Paper Profits on xAI Debt&#39; - Bloombe
+2026-02-27 12:44:22,310 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Snowflake Stock Loses Steam After Earnings Beat
+2026-02-27 12:49:10,794 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir’s stock nabs another upgrade, with its valuation now less of a ‘struggl
+2026-02-27 12:50:45,390 [realtime_news] INFO: 🚨 ALERT: [critical] AMZN — President Trump Posts On Truth Social &#34;I am directing EVERY Federal Agency i
+2026-02-27 12:51:38,512 [realtime_news] INFO: Finnhub polling stopped
+2026-02-27 12:51:38,512 [realtime_news] INFO: RSS polling stopped
+2026-02-27 12:51:51,814 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=77533)
+2026-02-27 12:51:51,814 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-27 12:51:51,814 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-27 12:51:51,815 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-27 12:51:51,815 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-27 12:51:52,805 [realtime_news] INFO: 🚨 ALERT: [high] SA — Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst 
