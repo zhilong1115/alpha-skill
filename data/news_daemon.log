@@ -8068,3 +8068,49 @@
 2026-02-27 12:51:51,815 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
 2026-02-27 12:51:51,815 [realtime_news] INFO: Finnhub polling started (interval=120s)
 2026-02-27 12:51:52,805 [realtime_news] INFO: 🚨 ALERT: [high] SA — Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst 
+2026-02-27 12:51:59,906 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 12:52:00,163 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-27 12:52:04,252 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:52:04,800 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Dow tumbles 600 points after hot inflation report, mounting concerns about AI im
+2026-02-27 12:52:14,246 [realtime_news] INFO: ✅ Agent notified: [HIGH] NVDA
+2026-02-27 12:52:14,498 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-27 12:52:20,352 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 12:52:20,615 [realtime_news] WARNING: WebSocket error: timed out during opening handshake. Reconnecting in 1s...
+2026-02-27 12:52:21,740 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-02-27 12:52:28,641 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:52:28,899 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-27 12:52:33,306 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:52:33,307 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-27 12:52:33,770 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil prices climb to a 7-month high as Trump signals military attack on Iran is s
+2026-02-27 12:52:39,055 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:52:39,303 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Software stocks fall as Block’s big job cuts stoke further AI fears
+2026-02-27 12:52:45,831 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:52:45,832 [realtime_news] WARNING: WebSocket error: timed out during opening handshake. Reconnecting in 2s...
+2026-02-27 12:52:46,626 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump’s Secret Weapon in the Rare Earth War
+2026-02-27 12:52:50,455 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:52:52,228 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Inflation is caused by ‘too much government spending,’ affirms Elon Musk. Here’s
+2026-02-27 12:52:55,494 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:52:55,496 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-27 12:52:56,127 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-27 12:52:56,264 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-27 12:52:56,368 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-27 12:52:56,369 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-27 12:54:48,540 [realtime_news] INFO: RSS polling stopped
+2026-02-27 12:54:48,540 [realtime_news] INFO: Finnhub polling stopped
+2026-02-27 12:54:56,786 [realtime_news] INFO: Alpaca news stream stopped
+2026-02-27 12:54:56,789 [realtime_news] INFO: News daemon shut down
+2026-02-27 12:54:59,991 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=77978)
+2026-02-27 12:54:59,991 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-27 12:54:59,991 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-27 12:54:59,991 [realtime_news] INFO: RSS polling started (interval=60s, 5 feeds)
+2026-02-27 12:54:59,991 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-27 12:55:01,040 [realtime_news] INFO: 🚨 ALERT: [high] SA — Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst 
+2026-02-27 12:55:01,304 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-27 12:55:01,784 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Dow tumbles 600 points after hot inflation report, mounting concerns about AI im
+2026-02-27 12:55:02,054 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-27 12:55:03,344 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-02-27 12:55:03,601 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-27 12:55:04,064 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil prices climb to a 7-month high as Trump signals military attack on Iran is s
+2026-02-27 12:55:04,326 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Software stocks fall as Block’s big job cuts stoke further AI fears
+2026-02-27 12:55:04,347 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-27 12:55:04,716 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump’s Secret Weapon in the Rare Earth War

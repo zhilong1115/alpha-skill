@@ -168,41 +168,53 @@ def add_alert(alert: dict) -> None:
 
 
 def _notify_agent(alert: dict) -> None:
-    """Send breaking news alert to Alpha's session via openclaw agent command."""
-    import subprocess
+    """Send breaking news to Alpha agent session via openclaw agent command.
+    
+    Runs in a background thread to avoid blocking the async event loop.
+    Breaking news is rare (1-5/day) so the cost per agent turn (~$0.05) is fine.
+    """
+    import threading
 
-    urgency = alert.get("urgency", "unknown").upper()
-    ticker = alert.get("ticker", "MACRO")
-    headline = alert.get("headline", "")[:200]
-    sentiment = alert.get("sentiment", "neutral")
-    action = alert.get("action_type", "monitor")
-    tickers = ", ".join(alert.get("matched_tickers", [])) or "N/A"
-    source = alert.get("source", "unknown")
+    def _send():
+        import subprocess
 
-    msg = (
-        f"🚨 BREAKING NEWS [{urgency}]\n"
-        f"Headline: {headline}\n"
-        f"Tickers: {tickers} | Sentiment: {sentiment} | Suggested: {action}\n"
-        f"Source: {source}\n\n"
-        f"Review this and decide if any action is needed on our positions or watchlist."
-    )
+        urgency = alert.get("urgency", "unknown").upper()
+        headline = alert.get("headline", "")[:200]
+        sentiment = alert.get("sentiment", "neutral")
+        action = alert.get("action_type", "monitor")
+        tickers = ", ".join(alert.get("matched_tickers", [])) or "N/A"
+        source = alert.get("source", "unknown")
 
-    try:
-        result = subprocess.run(
-            [
-                "openclaw", "agent",
-                "--agent", "alpha",
-                "--session-id", "5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca",  # Alpha group chat
-                "--message", msg,
-            ],
-            capture_output=True, text=True, timeout=30,
+        msg = (
+            f"🚨 BREAKING NEWS [{urgency}]\n"
+            f"Headline: {headline}\n"
+            f"Tickers: {tickers} | Sentiment: {sentiment} | Suggested: {action}\n"
+            f"Source: {source}\n\n"
+            f"Review this and decide if any action is needed on our positions or watchlist."
         )
-        if result.returncode == 0:
-            logger.info("✅ Agent notified: [%s] %s", urgency, ticker)
-        else:
-            logger.warning("Agent notification failed (rc=%d): %s", result.returncode, result.stderr[:200])
-    except Exception as e:
-        logger.warning("Failed to notify agent: %s", e)
+
+        try:
+            result = subprocess.run(
+                [
+                    "openclaw", "agent",
+                    "--agent", "alpha",
+                    "--session-id", "5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca",
+                    "--message", msg,
+                    "--deliver",
+                ],
+                capture_output=True, text=True, timeout=60,
+            )
+            if result.returncode == 0:
+                logger.info("✅ Agent notified: [%s] %s", urgency, alert.get("ticker", "MACRO"))
+            else:
+                logger.warning("Agent notification failed (rc=%d): %s",
+                             result.returncode, result.stderr[:200])
+        except Exception as e:
+            logger.warning("Failed to notify agent: %s", e)
+
+    # Run in thread to not block async loop
+    t = threading.Thread(target=_send, daemon=True)
+    t.start()
 
 
 def pop_pending_alerts() -> list[dict]:

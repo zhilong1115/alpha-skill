@@ -1,348 +1,5 @@
 [
   {
-    "source": "alpaca:benzinga",
-    "headline": "A Look Into Merck &amp; Co Inc&#39;s Price Over Earnings",
-    "summary": " ",
-    "symbols": [
-      "MRK"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MRK",
-    "matched_tickers": [
-      "MRK"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:00:32Z",
-    "url": "https://www.benzinga.com/insights/news/26/02/50940986/a-look-into-merck-co-incs-price-over-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Upgrades Southwest Airlines to Buy, Raises Price Target to $66",
-    "summary": "TD Cowen  analyst Tom Fitzgerald    upgrades Southwest Airlines (NYSE:LUV) from Hold to Buy and raises the price target from $50 to $66.",
-    "symbols": [
-      "LUV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "LUV",
-    "matched_tickers": [
-      "LUV"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T19:00:55Z",
-    "url": "https://www.benzinga.com/news/26/02/50941019/td-cowen-upgrades-southwest-airlines-to-buy-raises-price-target-to-66"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Earnings Preview: BRC",
-    "summary": " ",
-    "symbols": [
-      "BRCC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:04Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941032/earnings-preview-brc"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Preview: Gaia&#39;s Earnings",
-    "summary": " ",
-    "symbols": [
-      "GAIA"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:14Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941037/preview-gaias-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Uncovering Potential: Compugen&#39;s Earnings Preview",
-    "summary": " ",
-    "symbols": [
-      "CGEN"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:26Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941051/uncovering-potential-compugens-earnings-preview"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Mobile Infrastructure&#39;s Earnings: A Preview",
-    "summary": " ",
-    "symbols": [
-      "BEEP"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:36Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941061/mobile-infrastructures-earnings-a-preview"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "A Look at OFS Capital&#39;s Upcoming Earnings Report",
-    "summary": " ",
-    "symbols": [
-      "OFS"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:47Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941066/a-look-at-ofs-capitals-upcoming-earnings-report"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "A Look at WhiteHorse Finance&#39;s Upcoming Earnings Report",
-    "summary": " ",
-    "symbols": [
-      "WHF"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:01:57Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941077/a-look-at-whitehorse-finances-upcoming-earnings-report"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Examining the Future: CPS Technologies&#39;s Earnings Outlook",
-    "summary": " ",
-    "symbols": [
-      "CPSH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:02:09Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50941091/examining-the-future-cps-technologiess-earnings-outlook"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on Block, Raises Price Target to $95",
-    "summary": "TD Cowen  analyst Tom Fitzgerald    maintains Block (NYSE:XYZ) with a Buy and raises the price target from $91 to $95.",
-    "symbols": [
-      "XYZ"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:02:27Z",
-    "url": "https://www.benzinga.com/news/26/02/50941116/td-cowen-maintains-buy-on-block-raises-price-target-to-95"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Privia Health Gr, Raises Price Target to $35",
-    "summary": "Canaccord Genuity  analyst Richard Close   maintains Privia Health Gr (NASDAQ:PRVA) with a Buy and raises the price target from $34 to $35.",
-    "symbols": [
-      "PRVA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:02:40Z",
-    "url": "https://www.benzinga.com/news/26/02/50941137/canaccord-genuity-maintains-buy-on-privia-health-gr-raises-price-target-to-35"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Block Axes 4,000 Jobs, Lifts 2026 Outlook",
-    "summary": "Block (SQ) shares jump 15% on strong Q4 earnings and a massive 4,000-job cut. Analysts raise price targets as AI restructuring takes hold.",
-    "symbols": [
-      "XYZ"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:03:34Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/26/02/50941185/block-axes-4000-jobs-lifts-2026-outlook"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on Arhaus, Lowers Price Target to $12",
-    "summary": "TD Cowen  analyst Max Rakhlenko   maintains Arhaus (NASDAQ:ARHS) with a Buy and lowers the price target from $13 to $12.",
-    "symbols": [
-      "ARHS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:03:49Z",
-    "url": "https://www.benzinga.com/news/26/02/50941198/td-cowen-maintains-buy-on-arhaus-lowers-price-target-to-12"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on AvePoint, Lowers Price Target to $16",
-    "summary": "TD Cowen  analyst Derrick Wood   maintains AvePoint (NASDAQ:AVPT) with a Buy and lowers the price target from $17 to $16.",
-    "symbols": [
-      "AVPT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:04:57Z",
-    "url": "https://www.benzinga.com/news/26/02/50941276/td-cowen-maintains-buy-on-avepoint-lowers-price-target-to-16"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "United\u2019s stock and other airline shares get a reality check from rising oil prices, market jitters",
-    "summary": "United Airlines\u2019 stock was leading S&amp;P 500 index decliners on Friday and heading for its worst drop in 10 months, with other airline stocks also seeing steep declines amid rising oil futures prices and increased market jitters.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 19:03:00 GMT",
-    "url": "https://www.marketwatch.com/story/uniteds-stock-and-other-airline-shares-get-a-reality-check-from-rising-oil-prices-market-jitters-2b6adfd0?mod=mw_rss_topstories"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on Butterfly Network, Raises Price Target to $6",
-    "summary": "TD Cowen  analyst Joshua Jennings   maintains Butterfly Network (NYSE:BFLY) with a Buy and raises the price target from $4.5 to $6.",
-    "symbols": [
-      "BFLY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:06:34Z",
-    "url": "https://www.benzinga.com/news/26/02/50941370/td-cowen-maintains-buy-on-butterfly-network-raises-price-target-to-6"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Hiscox 2025 earnings rise on broad-based growth",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T09:13:10Z",
-    "url": "https://finance.yahoo.com/news/hiscox-2025-earnings-rise-broad-091310577.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on NuScale Power, Lowers Price Target to $25",
-    "summary": "Canaccord Genuity  analyst George Gianarikas   maintains NuScale Power (NYSE:SMR) with a Buy and lowers the price target from $60 to $25.",
-    "symbols": [
-      "SMR"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:07:18Z",
-    "url": "https://www.benzinga.com/news/26/02/50941416/canaccord-genuity-maintains-buy-on-nuscale-power-lowers-price-target-to-25"
-  },
-  {
     "source": "rss:Yahoo_Finance",
     "headline": "\ud83c\udfa7 Where to Listen to Nvidia\u2019s Earnings Call",
     "summary": "",
@@ -2056,5 +1713,327 @@
     "action_type": "buy",
     "timestamp": "2026-02-27T15:07:00+00:00",
     "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:17:48 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dow tumbles 600 points after hot inflation report, mounting concerns about AI impact: Live updates",
+    "summary": "The S&amp;P 500 and the Nasdaq Composite slid on Thursday, dragged lower by Nvidia shares.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:36:03 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
+    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
+    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation",
+      "gdp ",
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
+    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Oil prices climb to a 7-month high as Trump signals military attack on Iran is still on the table",
+    "summary": "Oil prices finished Friday at their highest level in roughly seven months, as President Trump reportedly suggested a U.S. military strike on Iran is still being considered following fruitless nuclear talks with Tehran.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:22:00 GMT",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
+    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 19:55:00 GMT",
+    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Trump\u2019s Secret Weapon in the Rare Earth War",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-26T11:00:00Z",
+    "url": "https://finance.yahoo.com/news/trump-secret-weapon-rare-earth-110000371.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Inflation is caused by \u2018too much government spending,\u2019 affirms Elon Musk. Here\u2019s what he likes for wealth protection",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T12:00:00Z",
+    "url": "https://finance.yahoo.com/news/inflation-caused-too-much-government-120000281.html"
+  },
+  {
+    "source": "finnhub",
+    "headline": "Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst says",
+    "summary": "Oil prices were climbing on Friday, shaking off losses from the previous session, as markets get increasingly nervous about delays in reaching a deal to end Tehran\u2019s nuclear ambitions.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-27T15:07:00+00:00",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:17:48 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dow tumbles 600 points after hot inflation report, mounting concerns about AI impact: Live updates",
+    "summary": "The S&amp;P 500 and the Nasdaq Composite slid on Thursday, dragged lower by Nvidia shares.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:36:03 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
+    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
+    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation",
+      "gdp ",
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
+    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Oil prices climb to a 7-month high as Trump signals military attack on Iran is still on the table",
+    "summary": "Oil prices finished Friday at their highest level in roughly seven months, as President Trump reportedly suggested a U.S. military strike on Iran is still being considered following fruitless nuclear talks with Tehran.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:22:00 GMT",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
+    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 19:55:00 GMT",
+    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Trump\u2019s Secret Weapon in the Rare Earth War",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-26T11:00:00Z",
+    "url": "https://finance.yahoo.com/news/trump-secret-weapon-rare-earth-110000371.html"
   }
 ]
