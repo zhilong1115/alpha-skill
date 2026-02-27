@@ -1,768 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Wells Fargo Maintains Overweight on Autodesk, Lowers Price Target to $350",
-    "summary": "Wells Fargo  analyst Michael Turrin   maintains Autodesk (NASDAQ:ADSK) with a Overweight and lowers the price target from $365 to $350.",
-    "symbols": [
-      "ADSK"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:10:55Z",
-    "url": "https://www.benzinga.com/news/26/02/50939072/wells-fargo-maintains-overweight-on-autodesk-lowers-price-target-to-350"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Sector Perform on TopBuild, Raises Price Target to $433",
-    "summary": "RBC Capital  analyst Mike Dahl   maintains TopBuild (NYSE:BLD) with a Sector Perform and raises the price target from $410 to $433.",
-    "symbols": [
-      "BLD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:11:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50939088/rbc-capital-maintains-sector-perform-on-topbuild-raises-price-target-to-433"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Li Bang International shares are trading lower after it announced its wholly-owned subsidiary will acquire a 51% stake in food distributor Yufengyuan.",
-    "summary": "",
-    "symbols": [
-      "LBGJ"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:11:54Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50939120/li-bang-international-shares-are-trading-lower-after-it-announced-its-wholly-owned-subsidiary-will-a"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Nearly 1 in 5 eligible filers miss this 'valuable' tax credit, IRS says \u2014 how it can boost refunds",
-    "summary": "Nearly 1 in 5 eligible taxpayers miss the earned income tax credit, which is worth thousands of dollars, according to the IRS. Here's what to know.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 17:57:26 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/earned-income-tax-credit-eligibility-2025.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Outperform on VSE, Raises Price Target to $250",
-    "summary": "RBC Capital  analyst Ken Herbert   maintains VSE (NASDAQ:VSEC) with a Outperform and raises the price target from $225 to $250.",
-    "symbols": [
-      "VSEC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:12:14Z",
-    "url": "https://www.benzinga.com/news/26/02/50939145/rbc-capital-maintains-outperform-on-vse-raises-price-target-to-250"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wells Fargo Maintains Overweight on Sempra, Raises Price Target to $113",
-    "summary": "Wells Fargo  analyst Shahriar Pourreza   maintains Sempra (NYSE:SRE) with a Overweight and raises the price target from $112 to $113.",
-    "symbols": [
-      "SRE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:12:19Z",
-    "url": "https://www.benzinga.com/news/26/02/50939151/wells-fargo-maintains-overweight-on-sempra-raises-price-target-to-113"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wells Fargo Maintains Overweight on Vistra, Lowers Price Target to $234",
-    "summary": "Wells Fargo  analyst Shahriar Pourreza   maintains Vistra (NYSE:VST) with a Overweight and lowers the price target from $236 to $234.",
-    "symbols": [
-      "VST"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:13:09Z",
-    "url": "https://www.benzinga.com/news/26/02/50939196/wells-fargo-maintains-overweight-on-vistra-lowers-price-target-to-234"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wells Fargo Maintains Overweight on Public Service Enterprise, Raises Price Target to $94",
-    "summary": "Wells Fargo  analyst Shahriar Pourreza   maintains Public Service Enterprise (NYSE:PEG) with a Overweight and raises the price target from $92 to $94.",
-    "symbols": [
-      "PEG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:14:50Z",
-    "url": "https://www.benzinga.com/news/26/02/50939264/wells-fargo-maintains-overweight-on-public-service-enterprise-raises-price-target-to-94"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Rhythm Pharmaceuticals Says In Addition, Offering Of Up To 2.4M Shares Of Common Stock By Selling Stockholders",
-    "summary": "-SEC Filing",
-    "symbols": [
-      "RYTM"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "offering"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-26T22:57:38Z",
-    "url": "https://www.benzinga.com/news/26/02/50916416/rhythm-pharmaceuticals-says-in-addition-offering-of-up-to-2-4m-shares-of-common-stock-by-selling-sto"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Outperform on Viridian Therapeutics, Lowers Price Target to $42",
-    "summary": "RBC Capital  analyst Lisa Walter   maintains Viridian Therapeutics (NASDAQ:VRDN) with a Outperform and lowers the price target from $45 to $42.",
-    "symbols": [
-      "VRDN"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:15:41Z",
-    "url": "https://www.benzinga.com/news/26/02/50939328/rbc-capital-maintains-outperform-on-viridian-therapeutics-lowers-price-target-to-42"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Shares of banking companies are trading lower as the industry faces potential losses related to the collapse of Market Financial Solutions. January PPI figures, concerns about AI disruption in consumer lending and Nvidia&#39;s Q1 results may also contribute to weakness.",
-    "summary": "",
-    "symbols": [
-      "ABCB",
-      "ASB",
-      "AUB",
-      "AX",
-      "BAC",
-      "BANC",
-      "BBAR",
-      "BBT",
-      "BBVA",
-      "BCS",
-      "BKU",
-      "BMA",
-      "BMO",
-      "BNKU",
-      "BOH",
-      "BPOP",
-      "BSAC",
-      "C",
-      "CATY",
-      "CCB",
-      "CFG",
-      "COLB",
-      "CUBI",
-      "EBC",
-      "EWBC",
-      "FBK",
-      "FBNC",
-      "FBP",
-      "FHN",
-      "FIBK",
-      "FITB",
-      "FLG",
-      "FNB",
-      "FRME",
-      "FULT",
-      "GBCI",
-      "HBAN",
-      "HIFS",
-      "HOMB",
-      "HWC",
-      "ING",
-      "JPM",
-      "KB",
-      "KEY",
-      "LOB",
-      "LYG",
-      "MTB",
-      "NWG",
-      "ONB",
-      "OZK",
-      "PFS",
-      "PNC",
-      "PNFP",
-      "RF",
-      "RNST",
-      "SAN",
-      "SBCF",
-      "SFBS",
-      "SFNC",
-      "SHG",
-      "SSB",
-      "SUPV",
-      "TBBK",
-      "TCBI",
-      "TFC",
-      "TRMK",
-      "UBSI",
-      "UCB",
-      "UMBF",
-      "USB",
-      "VLY",
-      "WAL",
-      "WF",
-      "WFC",
-      "WTFC",
-      "ZION"
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "NVDA",
-    "matched_tickers": [
-      "NVDA"
-    ],
-    "keywords": [
-      "ppi "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:16:42Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50939360/shares-of-banking-companies-are-trading-lower-as-the-industry-faces-potential-losses-related-to-the"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With Rigetti Computing (RGTI) Stock Friday?",
-    "summary": "Rigetti Computing shares are tumbling on Friday as it\u00a0prepares to report\u00a0its earnings next week, amid a broader sell-off in the tech sector.",
-    "symbols": [
-      "IONQ",
-      "QBTS",
-      "RGTI"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:17:20Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50939385/whats-going-on-with-rigetti-computing-rgti-stock-friday"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Outperform on Zscaler, Lowers Price Target to $205",
-    "summary": "RBC Capital  analyst Matthew Hedberg   maintains Zscaler (NASDAQ:ZS) with a Outperform and lowers the price target from $250 to $205.",
-    "symbols": [
-      "ZS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:18:52Z",
-    "url": "https://www.benzinga.com/news/26/02/50939423/rbc-capital-maintains-outperform-on-zscaler-lowers-price-target-to-205"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Maintains Outperform on argenx, Lowers Price Target to $890",
-    "summary": "RBC Capital  analyst Luca Issi   maintains argenx (NASDAQ:ARGX) with a Outperform and lowers the price target from $925 to $890.",
-    "symbols": [
-      "ARGX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:24:34Z",
-    "url": "https://www.benzinga.com/news/26/02/50939578/rbc-capital-maintains-outperform-on-argenx-lowers-price-target-to-890"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Initiates Coverage On Neurogene with Buy Rating, Announces Price Target of $200",
-    "summary": "Canaccord Genuity  analyst Whitney Ijem   initiates coverage on Neurogene (NASDAQ:NGNE) with a Buy rating and announces Price Target of $200.",
-    "symbols": [
-      "NGNE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:27:44Z",
-    "url": "https://www.benzinga.com/news/26/02/50939688/canaccord-genuity-initiates-coverage-on-neurogene-with-buy-rating-announces-price-target-of-200"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Hikma Pharma tumbles on softer guidance as buyback fails to soften pill",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "guidance"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T08:33:00Z",
-    "url": "https://finance.yahoo.com/news/hikma-pharma-tumbles-softer-guidance-083300337.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Downgrades MannKind to Sector Perform, Lowers Price Target to $3.5",
-    "summary": "RBC Capital  analyst Douglas Miehm   downgrades MannKind (NASDAQ:MNKD) from Outperform to Sector Perform and lowers the price target from $7.5 to $3.5.",
-    "symbols": [
-      "MNKD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "downgrade",
-      "price target"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:31:31Z",
-    "url": "https://www.benzinga.com/news/26/02/50939862/rbc-capital-downgrades-mannkind-to-sector-perform-lowers-price-target-to-3-5"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Arbe Robotics, Lowers Price Target to $1.25",
-    "summary": "Canaccord Genuity  analyst George Gianarikas   maintains Arbe Robotics (NASDAQ:ARBE) with a Buy and lowers the price target from $1.75 to $1.25.",
-    "symbols": [
-      "ARBE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:32:05Z",
-    "url": "https://www.benzinga.com/news/26/02/50939892/canaccord-genuity-maintains-buy-on-arbe-robotics-lowers-price-target-to-1-25"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "LSEG CEO Says \u00a33 Billion Buyback Is 'Right Amount'",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "buyback"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-26T08:37:18Z",
-    "url": "https://finance.yahoo.com/video/lseg-ceo-says-3-billion-083718696.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "RBC Capital Downgrades Chemed to Sector Perform, Lowers Price Target to $422",
-    "summary": "RBC Capital  analyst Ben Hendrix   downgrades Chemed (NYSE:CHE) from Outperform to Sector Perform and lowers the price target from $572 to $422.",
-    "symbols": [
-      "CHE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "downgrade",
-      "price target"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:36:12Z",
-    "url": "https://www.benzinga.com/news/26/02/50940025/rbc-capital-downgrades-chemed-to-sector-perform-lowers-price-target-to-422"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Hold on Definitive Healthcare, Lowers Price Target to $3",
-    "summary": "Canaccord Genuity  analyst David Hynes   maintains Definitive Healthcare (NASDAQ:DH) with a Hold and lowers the price target from $4 to $3.",
-    "symbols": [
-      "DH"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:36:35Z",
-    "url": "https://www.benzinga.com/news/26/02/50940046/canaccord-genuity-maintains-hold-on-definitive-healthcare-lowers-price-target-to-3"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With SoFi Technologies Stock Friday?",
-    "summary": "SoFi stock (SOFI) dips 7.5% amid market pullback despite beating Q4 earnings. See analyst ratings, technical trends, and 2026 growth outlook.",
-    "symbols": [
-      "BLK",
-      "BMNR",
-      "BX",
-      "CHYM",
-      "HOOD",
-      "SCHW",
-      "SOFI"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "BLK",
-    "matched_tickers": [
-      "BLK",
-      "BMNR",
-      "BX",
-      "CHYM",
-      "HOOD",
-      "SCHW",
-      "SOFI"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T18:37:03Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50940076/whats-going-on-with-sofi-technologies-stock-friday"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "&#39;Warner Bros Chief Revenue And Strategy Officer Bruce Campbell Says In Townhall, Co Signed Agreement With Paramount As Of This Morning&#39;",
-    "summary": "\u00a0- Reuters Exclusive\u00a0",
-    "symbols": [
-      "PSKY",
-      "WBD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:38:08Z",
-    "url": "https://www.benzinga.com/m-a/26/02/50940128/warner-bros-chief-revenue-and-strategy-officer-bruce-campbell-says-in-townhall-co-signed-agreement-w"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Rothschild &amp; Co Upgrades Live Nation Entertainment to Buy, Raises Price Target to $193",
-    "summary": "Rothschild &amp; Co  analyst Ed Vyvyan   upgrades Live Nation Entertainment (NYSE:LYV) from Neutral to Buy and raises the price target from $166 to $193.",
-    "symbols": [
-      "LYV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "LYV",
-    "matched_tickers": [
-      "LYV"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T18:38:38Z",
-    "url": "https://www.benzinga.com/news/26/02/50940159/rothschild-co-upgrades-live-nation-entertainment-to-buy-raises-price-target-to-193"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Seaport Global Maintains Buy on Wolverine World Wide, Raises Price Target to $28",
-    "summary": "Seaport Global  analyst Mitch Kummetz   maintains Wolverine World Wide (NYSE:WWW) with a Buy and raises the price target from $24 to $28.",
-    "symbols": [
-      "WWW"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:40:39Z",
-    "url": "https://www.benzinga.com/news/26/02/50940251/seaport-global-maintains-buy-on-wolverine-world-wide-raises-price-target-to-28"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on DoubleVerify Holdings, Lowers Price Target to $16",
-    "summary": "Canaccord Genuity  analyst Maria Ripps   maintains DoubleVerify Holdings (NYSE:DV) with a Buy and lowers the price target from $18 to $16.",
-    "symbols": [
-      "DV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:41:20Z",
-    "url": "https://www.benzinga.com/news/26/02/50940273/canaccord-genuity-maintains-buy-on-doubleverify-holdings-lowers-price-target-to-16"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "2 Consumer Dividend Stocks to Buy for High-Yield Dividend Growth",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T08:45:00Z",
-    "url": "https://finance.yahoo.com/news/2-consumer-dividend-stocks-buy-084500283.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Bank, Private-Equity Stock Rout Deepens As AI Fears Mount: What&#39;s Moving Markets Friday?",
-    "summary": "A sharp banking selloff gripped Wall Street on Friday, compounding a week dominated by concerns over artificial intelligence-driven economic disruption. Hotter-than-expected producer price data added pressure, clouding the Federal Reserve&#39;s rate-cut path.",
-    "symbols": [
-      "APO",
-      "ARES",
-      "BAC",
-      "BTCUSD",
-      "BX",
-      "C",
-      "DELL",
-      "DIA",
-      "DUOL",
-      "DV",
-      "ESTC",
-      "FIG",
-      "FLUT",
-      "GS",
-      "IWM",
-      "JEF",
-      "KKR",
-      "MS",
-      "NFLX",
-      "NVDA",
-      "OWL",
-      "PSKY",
-      "QQQ",
-      "SPY",
-      "VOO",
-      "WAL",
-      "WBD",
-      "WFC",
-      "XLE",
-      "XLK",
-      "XRAY",
-      "XYZ",
-      "ZS"
-    ],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "NFLX",
-    "matched_tickers": [
-      "NFLX",
-      "NVDA"
-    ],
-    "keywords": [
-      "federal reserve"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:42:40Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50940309/stock-market-news-today-banks-private-equity-selloffs-netflix-paramount-skydance"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "MDJM LTD Announces Pricing Of $2.5M Registered Direct Offering Of 24.6M Shares At A Price Of $0.1015/Share",
-    "summary": "MDJM LTD (NASDAQ:UOKA) (the &#34;Company&#34; or &#34;MDJM&#34;), an integrated global culture innovation company, today announced the sale of an aggregate of 24,600,000 Class A ordinary shares (the &#34;Ordinary Shares&#34;) in a registered",
-    "symbols": [
-      "UOKA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "offering"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:43:16Z",
-    "url": "https://www.benzinga.com/news/26/02/50940342/mdjm-ltd-announces-pricing-of-2-5m-registered-direct-offering-of-24-6m-shares-at-a-price-of-0-1015sh"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Stock Market Today: Dow Jones, S&amp;P 500 Future Drop Ahead Of January Wholesale Inflation Print\u2014 Netflix, Block, Rocket Lab In Focus (CORRECTED)",
-    "summary": "Editor\u2019s Note: This article has been updated to reflect Zscaler\u2019s upwardly revised fiscal 2026 revenue guidance.\n\n\n\nU.S. stock futures fell on Friday after a mixed close on Thursday. Futures of the major benchmark indices were negative.",
-    "symbols": [
-      "BTCUSD",
-      "DELL",
-      "NFLX",
-      "PSKY",
-      "QQQ",
-      "RKLB",
-      "SPY",
-      "WBD",
-      "XYZ",
-      "ZS"
-    ],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "NFLX",
-    "matched_tickers": [
-      "NFLX",
-      "SA"
-    ],
-    "keywords": [
-      "inflation",
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:43:27Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50920740/stock-market-today-dow-jones-sp-500-future-drop-ahead-of-january-wholesale-inflation-print-netflix-block-rocket-lab-in-focus"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wolfe Research Upgrades Honeywell Intl to Outperform, Announces $293 Price Target",
-    "summary": "Wolfe Research  analyst Nigel Coe   upgrades Honeywell Intl (NASDAQ:HON) from Peer Perform to Outperform and announces $293 price target.",
-    "symbols": [
-      "HON"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "HON",
-    "matched_tickers": [
-      "HON"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T18:43:36Z",
-    "url": "https://www.benzinga.com/news/26/02/50940364/wolfe-research-upgrades-honeywell-intl-to-outperform-announces-293-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "ZScaler Stock Drops After Q2 Earnings, Raised Revenue Outlook (CORRECTED)",
-    "summary": "Here&#39;s a look inside the Q2 earnings report from ZScaler.",
-    "symbols": [
-      "ZS"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:43:49Z",
-    "url": "https://www.benzinga.com/markets/earnings/26/02/50915508/zscaler-stock-drops-after-q2-earnings-lowered-revenue-guidance"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "Flutter Entertainment Posts Downbeat Q4 Results, Joins Zscaler, Elastic And Other Big Stocks Moving Lower In Friday&#39;s Pre-Market Session (CORRECTED)",
     "summary": " ",
     "symbols": [
@@ -2090,5 +1328,680 @@
     "action_type": "monitor",
     "timestamp": "2026-02-27T19:49:11Z",
     "url": "https://www.benzinga.com/news/26/02/50942885/da-davidson-maintains-neutral-on-salesforce-lowers-price-target-to-200"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Trump\u2019s Secret Weapon in the Rare Earth War",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-26T11:00:00Z",
+    "url": "https://finance.yahoo.com/news/trump-secret-weapon-rare-earth-110000371.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Flutter Plunges 14.5% On Revenue Miss As Prediction Market Threat Grows",
+    "summary": "Flutter Entertainment (NYSE: FLUT) faces competition from prediction markets like Kalshi and Polymarket in the US sports betting market, causing a decline in stock value despite CEO downplaying the threat.",
+    "symbols": [
+      "CHDN",
+      "CME",
+      "DKNG",
+      "FLUT",
+      "PENN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "miss",
+      "revenue"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T19:53:02Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/02/50943050/flutter-plunges-14-5-on-revenue-miss-as-prediction-market-threat-grows"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Rolls-Royce Plans $12 Billion Buyback, Raises 2028 Targets",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "ROL",
+    "matched_tickers": [
+      "ROL"
+    ],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-26T09:58:00Z",
+    "url": "https://www.wsj.com/business/earnings/rolls-royce-plans-12-billion-buyback-raises-2028-targets-1ab1ff87?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "E W Scripps shares are trading higher after Benchmark raised its price target on the stock from $8 to $10.",
+    "summary": "",
+    "symbols": [
+      "SSP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:54:58Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943125/e-w-scripps-shares-are-trading-higher-after-benchmark-raised-its-price-target-on-the-stock-from-8-to"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Telsey Advisory Group Maintains Market Perform on Arhaus, Lowers Price Target to $11",
+    "summary": "Telsey Advisory Group  analyst Cristina Fernandez   maintains Arhaus (NASDAQ:ARHS) with a Market Perform and lowers the price target from $12 to $11.",
+    "symbols": [
+      "ARHS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:55:32Z",
+    "url": "https://www.benzinga.com/news/26/02/50943147/telsey-advisory-group-maintains-market-perform-on-arhaus-lowers-price-target-to-11"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Arhaus shares are trading lower after multiple analyst firms lowered their respective price targets on the stock.",
+    "summary": "",
+    "symbols": [
+      "ARHS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:56:19Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943170/arhaus-shares-are-trading-lower-after-multiple-analyst-firms-lowered-their-respective-price-targets"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Northwest Natural Holding shares are trading higher after the company reported a Q4 Adj EPS beat.",
+    "summary": "",
+    "symbols": [
+      "NWN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "NWN",
+    "matched_tickers": [
+      "NWN"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-27T19:56:45Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943194/northwest-natural-holding-shares-are-trading-higher-after-the-company-reported-a-q4-adj-eps-beat"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
+    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 19:55:00 GMT",
+    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e?mod=mw_rss_topstories"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Telsey Advisory Group Maintains Market Perform on Bath &amp; Body Works, Raises Price Target to $23",
+    "summary": "Telsey Advisory Group  analyst Dana Telsey   maintains Bath &amp; Body Works (NYSE:BBWI) with a Market Perform and raises the price target from $17 to $23.",
+    "symbols": [
+      "BBWI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:57:45Z",
+    "url": "https://www.benzinga.com/news/26/02/50943247/telsey-advisory-group-maintains-market-perform-on-bath-body-works-raises-price-target-to-23"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Via Transportation shares are trading lower. The company reported Q4 financial results and issued Q1, FY26 sales guidance.",
+    "summary": "",
+    "symbols": [
+      "VIA"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "guidance"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:59:02Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943285/via-transportation-shares-are-trading-lower-the-company-reported-q4-financial-results-and-issued-q1"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Telsey Advisory Group Maintains Market Perform on FIGS, Raises Price Target to $15",
+    "summary": "Telsey Advisory Group  analyst Dana Telsey   maintains FIGS (NYSE:FIGS) with a Market Perform and raises the price target from $9 to $15.",
+    "symbols": [
+      "FIGS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:00:08Z",
+    "url": "https://www.benzinga.com/news/26/02/50943331/telsey-advisory-group-maintains-market-perform-on-figs-raises-price-target-to-15"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "United\u2019s stock is having its worst day in months on rising oil prices, market jitters",
+    "summary": "United Airlines\u2019 stock was leading S&amp;P 500 index decliners on Friday and heading for its worst drop in 10 months, with other airline stocks also seeing steep declines amid rising oil futures prices and increased market jitters.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 19:58:00 GMT",
+    "url": "https://www.marketwatch.com/story/uniteds-stock-and-other-airline-shares-get-a-reality-check-from-rising-oil-prices-market-jitters-2b6adfd0?mod=mw_rss_topstories"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Sweetgreen shares are trading lower after multiple analyst firms lowered their respective price targets on the stock.",
+    "summary": "",
+    "symbols": [
+      "SG"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:00:51Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943376/sweetgreen-shares-are-trading-lower-after-multiple-analyst-firms-lowered-their-respective-price-targ"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "ENGIE to acquire UK Power Networks for $14.2bn",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:05:24Z",
+    "url": "https://finance.yahoo.com/news/engie-acquire-uk-power-networks-100524513.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Telsey Advisory Group Maintains Outperform on Vital Farms, Lowers Price Target to $35",
+    "summary": "Telsey Advisory Group  analyst Sarang Vora   maintains Vital Farms (NASDAQ:VITL) with a Outperform and lowers the price target from $50 to $35.",
+    "symbols": [
+      "VITL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:02:00Z",
+    "url": "https://www.benzinga.com/news/26/02/50943456/telsey-advisory-group-maintains-outperform-on-vital-farms-lowers-price-target-to-35"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Sprout Social shares are trading lower after multiple analyst firms lowered their respective price targets on the stock.",
+    "summary": "",
+    "symbols": [
+      "SPT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:02:00Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50943457/sprout-social-shares-are-trading-lower-after-multiple-analyst-firms-lowered-their-respective-price-t"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Stocks Muted Before the Open as Investors Digest Nvidia Earnings, U.S.-Iran Talks in Focus",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T11:30:03Z",
+    "url": "https://finance.yahoo.com/news/stocks-muted-open-investors-digest-113003562.html"
+  },
+  {
+    "source": "finnhub",
+    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
+    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T19:55:00+00:00",
+    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Telsey Advisory Group Maintains Market Perform on Wolverine World Wide, Raises Price Target to $22",
+    "summary": "Telsey Advisory Group  analyst Dana Telsey   maintains Wolverine World Wide (NYSE:WWW) with a Market Perform and raises the price target from $18 to $22.",
+    "symbols": [
+      "WWW"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:06:31Z",
+    "url": "https://www.benzinga.com/news/26/02/50943719/telsey-advisory-group-maintains-market-perform-on-wolverine-world-wide-raises-price-target-to-22"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Rosenblatt Maintains Buy on Applied Optoelectronics, Raises Price Target to $125",
+    "summary": "Rosenblatt  analyst Mike Genovese   maintains Applied Optoelectronics (NASDAQ:AAOI) with a Buy and raises the price target from $50 to $125.",
+    "symbols": [
+      "AAOI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:10:48Z",
+    "url": "https://www.benzinga.com/news/26/02/50943886/rosenblatt-maintains-buy-on-applied-optoelectronics-raises-price-target-to-125"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Rosenblatt Maintains Buy on Adtran Holdings, Raises Price Target to $16",
+    "summary": "Rosenblatt  analyst Mike Genovese   maintains Adtran Holdings (NASDAQ:ADTN) with a Buy and raises the price target from $11 to $16.",
+    "symbols": [
+      "ADTN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:13:58Z",
+    "url": "https://www.benzinga.com/news/26/02/50944010/rosenblatt-maintains-buy-on-adtran-holdings-raises-price-target-to-16"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "The Trend Is Your Friend: 7 Charts Most Investors Are Missing",
+    "summary": "Record streaks, rare rotations and historic divergences are emerging across global markets. From international equities and precious metals to energy, value stocks and mega-caps, here are seven charts quietly reshaping market leadership.",
+    "symbols": [
+      "ACWX",
+      "APO",
+      "EEM",
+      "EWY",
+      "IWD",
+      "IWF",
+      "MSFT",
+      "OIH",
+      "XLE",
+      "XLK"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MSFT",
+    "matched_tickers": [
+      "MSFT",
+      "META"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T20:14:25Z",
+    "url": "https://www.benzinga.com/markets/equities/26/02/50944038/trend-is-your-friend-7-charts-most-investors-are-probably-missing"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dow tumbles 600 points after hot inflation report, mounting concerns about AI impact: Live updates",
+    "summary": "The S&amp;P 500 and the Nasdaq Composite slid on Thursday, dragged lower by Nvidia shares.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:14:52 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Shares of companies within the broader financial sector are trading lower amid overall market weakness due to January PPI figures, concerns about AI disruption in consumer lending and Nvidia&#39;s Q1 results. The sector may be reacting to concerns that banking companies may face potential losses related to the collapse of Market Financial Solutions.",
+    "summary": "",
+    "symbols": [
+      "ALLY",
+      "AMP",
+      "APO",
+      "ARCC",
+      "ARES",
+      "AXP",
+      "BAM",
+      "BCH",
+      "BEN",
+      "BFH",
+      "BLK",
+      "BN",
+      "BX",
+      "CG",
+      "CM",
+      "COF",
+      "CRBG",
+      "DB",
+      "DOMH",
+      "DOO",
+      "ENVA",
+      "EQH",
+      "EVR",
+      "FCNCA",
+      "FFIN",
+      "FUTU",
+      "GS",
+      "HLI",
+      "HOOD",
+      "IBKR",
+      "ITUB",
+      "IVZ",
+      "JEF",
+      "JXN",
+      "KKR",
+      "LAZ",
+      "LC",
+      "LMND",
+      "LNC",
+      "LPLA",
+      "MC",
+      "MET",
+      "MFIC",
+      "MS",
+      "NTRS",
+      "OWL",
+      "PIPR",
+      "PRU",
+      "RJF",
+      "ROOT",
+      "SF",
+      "SLM",
+      "SOFI",
+      "STEP",
+      "STT",
+      "SYF",
+      "TCPC",
+      "UNM",
+      "UPST",
+      "VOYA"
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "IBKR",
+    "matched_tickers": [
+      "IBKR",
+      "NVDA"
+    ],
+    "keywords": [
+      "ppi "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:17:15Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50944175/shares-of-companies-within-the-broader-financial-sector-are-trading-lower-amid-overall-market-weakne"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "The bond market has been doing something strange despite a hot inflation report",
+    "summary": "Worries over the destructive impact of artificial intelligence on the U.S.  economy were sweeping through the $30 trillion bond market on Friday.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:15:00 GMT",
+    "url": "https://www.marketwatch.com/story/the-bond-market-has-been-doing-something-strange-despite-a-hot-inflation-report-8670c7da?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "LSEG Unveils \u00a33 Billion Buyback as Elliott Pushes for Change",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:27:24Z",
+    "url": "https://finance.yahoo.com/news/lseg-unveils-3-billion-buyback-081600035.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:17:48 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Inflation is caused by \u2018too much government spending,\u2019 affirms Elon Musk. Here\u2019s what he likes for wealth protection",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T12:00:00Z",
+    "url": "https://finance.yahoo.com/news/inflation-caused-too-much-government-120000281.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Rosenblatt Maintains Buy on TeraWulf, Raises Price Target to $23",
+    "summary": "Rosenblatt  analyst Chris Brendler   maintains TeraWulf (NASDAQ:WULF) with a Buy and raises the price target from $20 to $23.",
+    "symbols": [
+      "WULF"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:21:08Z",
+    "url": "https://www.benzinga.com/news/26/02/50944332/rosenblatt-maintains-buy-on-terawulf-raises-price-target-to-23"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Warner Bros. Terminated Merger Agreement With Netflix; Debt Commitments Terminated Too; Paramount Skydance Paid $2.8B Termination Fee To Netflix",
+    "summary": "SEC.",
+    "symbols": [
+      "NFLX",
+      "PSKY",
+      "WBD"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "merger"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:21:27Z",
+    "url": "https://www.benzinga.com/news/26/02/50944350/warner-bros-terminated-merger-agreement-with-netflix-debt-commitments-terminated-too-paramount-skyda"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Oil prices climb to a 7-month high as Trump signals military attack on Iran is still on the table",
+    "summary": "Oil prices finished Friday at their highest level in roughly seven months, as President Trump reportedly suggested a U.S. military strike on Iran is still being considered following fruitless nuclear talks with Tehran.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:22:00 GMT",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "S4BT acquires HotelHub to expand global corporate hotel booking operations",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:37:58Z",
+    "url": "https://finance.yahoo.com/news/s4bt-acquires-hotelhub-expand-global-103758917.html"
   }
 ]
