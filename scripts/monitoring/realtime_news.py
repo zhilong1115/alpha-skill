@@ -709,6 +709,107 @@ def stop_daemon() -> bool:
 # ── Main async runner ─────────────────────────────────────────────
 
 
+# ── On-chain whale monitoring (free, no API key) ─────────────────
+
+
+# Thresholds for whale alerts (in USD)
+WHALE_THRESHOLD_USD = 5_000_000  # $5M+ transactions trigger alert
+BTC_WHALE_THRESHOLD_BTC = 100    # or 100+ BTC
+
+
+async def whale_monitor_loop(
+    seen: set[str],
+    stop_event: asyncio.Event,
+    interval: int = 120,
+) -> None:
+    """Monitor BTC mempool for whale-sized transactions.
+
+    Uses blockchain.info free API (no key required).
+    Polls every `interval` seconds for large unconfirmed BTC transactions.
+    """
+    import urllib.request
+
+    logger.info("🐋 Whale monitor started (interval=%ds, threshold=$%dM / %d BTC)",
+                interval, WHALE_THRESHOLD_USD // 1_000_000, BTC_WHALE_THRESHOLD_BTC)
+
+    while not stop_event.is_set():
+        try:
+            # Fetch unconfirmed BTC transactions
+            url = "https://blockchain.info/unconfirmed-transactions?format=json"
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            resp = await asyncio.get_event_loop().run_in_executor(
+                None, lambda: urllib.request.urlopen(req, timeout=15)
+            )
+            data = json.loads(resp.read())
+
+            for tx in data.get("txs", []):
+                tx_hash = tx.get("hash", "")
+                nid = f"whale:btc:{tx_hash[:16]}"
+                if nid in seen:
+                    continue
+
+                # Calculate total output value
+                total_sat = sum(o.get("value", 0) for o in tx.get("out", []))
+                total_btc = total_sat / 1e8
+
+                if total_btc < BTC_WHALE_THRESHOLD_BTC:
+                    continue
+
+                seen.add(nid)
+
+                # Estimate USD value (use a rough price, will be close enough)
+                try:
+                    price_resp = await asyncio.get_event_loop().run_in_executor(
+                        None, lambda: urllib.request.urlopen(
+                            urllib.request.Request("https://blockchain.info/ticker",
+                                                   headers={"User-Agent": "Mozilla/5.0"}),
+                            timeout=5
+                        )
+                    )
+                    price_data = json.loads(price_resp.read())
+                    btc_price = price_data.get("USD", {}).get("last", 65000)
+                except Exception:
+                    btc_price = 65000  # fallback
+
+                total_usd = total_btc * btc_price
+
+                if total_usd < WHALE_THRESHOLD_USD:
+                    continue
+
+                # Determine if it's going to/from exchange (simplified)
+                headline = f"🐋 BTC Whale: {total_btc:,.1f} BTC (${total_usd/1e6:,.1f}M) transferred"
+
+                alert = {
+                    "source": "whale:blockchain.info",
+                    "headline": headline,
+                    "summary": f"Transaction hash: {tx_hash[:32]}... | {total_btc:,.2f} BTC = ${total_usd:,.0f}",
+                    "symbols": ["BTC"],
+                    "urgency": "high",
+                    "is_macro": False,
+                    "is_crypto": True,
+                    "ticker": "BTC",
+                    "matched_tickers": ["BTC"],
+                    "keywords": ["whale transfer"],
+                    "sentiment": "neutral",  # Direction unknown without address attribution
+                    "action_type": "monitor",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "url": f"https://blockchain.info/tx/{tx_hash}",
+                }
+                add_alert(alert)
+                logger.info("🐋 Whale detected: %s", headline)
+
+        except Exception as e:
+            logger.warning("Whale monitor error: %s", e)
+
+        _save_seen(seen)
+        try:
+            await asyncio.wait_for(stop_event.wait(), timeout=interval)
+        except asyncio.TimeoutError:
+            pass
+
+    logger.info("Whale monitor stopped")
+
+
 async def run_daemon(watchlist: Optional[list[str]] = None) -> None:
     """Run all news sources concurrently."""
     from dotenv import load_dotenv
@@ -734,6 +835,7 @@ async def run_daemon(watchlist: Optional[list[str]] = None) -> None:
         asyncio.create_task(alpaca_news_stream(watchlist, seen, stop_event)),
         asyncio.create_task(rss_poll_loop(watchlist, seen, stop_event, interval=60)),
         asyncio.create_task(finnhub_poll_loop(watchlist, seen, stop_event, interval=120)),
+        asyncio.create_task(whale_monitor_loop(seen, stop_event, interval=120)),
     ]
 
     try:
