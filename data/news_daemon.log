@@ -8114,3 +8114,49 @@
 2026-02-27 12:55:04,326 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Software stocks fall as Block’s big job cuts stoke further AI fears
 2026-02-27 12:55:04,347 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
 2026-02-27 12:55:04,716 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump’s Secret Weapon in the Rare Earth War
+2026-02-27 12:55:06,247 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Inflation is caused by ‘too much government spending,’ affirms Elon Musk. Here’s
+2026-02-27 12:55:06,259 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-27 12:55:06,495 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-27 12:55:06,495 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-27 12:55:07,909 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 12:55:11,699 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:55:13,846 [realtime_news] INFO: ✅ Agent notified: [HIGH] NVDA
+2026-02-27 12:55:17,650 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 12:55:20,106 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:55:23,462 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:55:30,220 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:55:31,948 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:55:34,800 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 12:55:37,787 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 12:59:37,562 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Tigress Financial Maintains Buy on Snap-on, Raises Price Target to $445
+2026-02-27 12:59:41,482 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 13:00:24,120 [realtime_news] INFO: Finnhub polling stopped
+2026-02-27 13:00:24,120 [realtime_news] INFO: RSS polling stopped
+2026-02-27 13:00:33,793 [realtime_news] INFO: Alpaca news stream stopped
+2026-02-27 13:00:33,796 [realtime_news] INFO: News daemon shut down
+2026-02-27 13:00:36,749 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=78512)
+2026-02-27 13:00:36,749 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-27 13:00:36,749 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-27 13:00:36,749 [realtime_news] INFO: RSS polling started (interval=60s, 9 feeds)
+2026-02-27 13:00:36,750 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-27 13:00:37,482 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Palantir’s stock nabs another upgrade, with its valuation now less of a ‘struggl
+2026-02-27 13:00:37,749 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The bond market has been doing something strange despite a hot inflation report
+2026-02-27 13:00:37,989 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Software stocks fall as Block’s big job cuts stoke further AI fears
+2026-02-27 13:00:38,843 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — United’s stock and other airline shares get a reality check from rising oil pric
+2026-02-27 13:00:39,101 [realtime_news] INFO: 🚨 ALERT: [high] SA — 10-year yield falls below 4% on stagflation risk following hot producer prices r
+2026-02-27 13:00:40,940 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Here's what drove big moves in our top and bottom stocks over the past month
+2026-02-27 13:00:41,927 [realtime_news] INFO: 🚨 ALERT: [high] SA — Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst 
+2026-02-27 13:00:41,982 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 13:00:42,442 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-27 13:00:42,944 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Dow tumbles 600 points after hot inflation report, mounting concerns about AI im
+2026-02-27 13:00:43,199 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-27 13:00:43,456 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-27 13:00:43,708 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Traders may rotate into Bitcoin if UBS’ bearish US stocks view comes true
+2026-02-27 13:00:43,967 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Crypto Biz: A Bitcoin treasury shareholder revolt
+2026-02-27 13:00:44,718 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citi and Morgan Stanley expand bitcoin and crypto custody, trading and tokenizat
+2026-02-27 13:00:44,957 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finan
+2026-02-27 13:00:45,027 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 13:00:45,204 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK
+2026-02-27 13:00:45,699 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Figure Technology stock crashes 20% following mixed Q4 earnings
+2026-02-27 13:00:46,204 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin' rebound cancelled as U.S. stocks fall, gold surges, amid mounting macro
+2026-02-27 13:00:46,446 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Vitalik Buterin reveals his bold new plan to fix Ethereum’s scaling problem

@@ -1,391 +1,6 @@
 [
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "\ud83c\udfa7 Where to Listen to Nvidia\u2019s Earnings Call",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "NVDA",
-    "matched_tickers": [
-      "NVDA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T09:13:38Z",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-26-2026/card/-where-to-listen-to-nvidia-s-earnings-call-VKfrqtkOkr2jXyJoAiFa?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "As 2025 Sales and Profits Plunge in Puma\u2019s \u2018Reset,\u2019 Executives Emphasize the Future",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "profit"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T09:09:17Z",
-    "url": "https://finance.yahoo.com/news/2025-sales-profits-plunge-puma-090917848.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "HC Wainwright &amp; Co. Maintains Buy on CG Oncology, Raises Price Target to $80",
-    "summary": "HC Wainwright &amp; Co.  analyst Andres Y. Maldonado   maintains CG Oncology (NASDAQ:CGON) with a Buy and raises the price target from $75 to $80.",
-    "symbols": [
-      "CGON"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:10:17Z",
-    "url": "https://www.benzinga.com/news/26/02/50941507/hc-wainwright-co-maintains-buy-on-cg-oncology-raises-price-target-to-80"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Zscaler, Lowers Price Target to $275",
-    "summary": "Canaccord Genuity  analyst Kingsley Crane   maintains Zscaler (NASDAQ:ZS) with a Buy and lowers the price target from $340 to $275.",
-    "symbols": [
-      "ZS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:11:24Z",
-    "url": "https://www.benzinga.com/news/26/02/50941565/canaccord-genuity-maintains-buy-on-zscaler-lowers-price-target-to-275"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Needham Maintains Buy on Docebo, Lowers Price Target to $31",
-    "summary": "Needham  analyst Ryan MacDonald   maintains Docebo (NASDAQ:DCBO) with a Buy and lowers the price target from $38 to $31.",
-    "symbols": [
-      "DCBO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:11:43Z",
-    "url": "https://www.benzinga.com/news/26/02/50941587/needham-maintains-buy-on-docebo-lowers-price-target-to-31"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Needham Maintains Buy on Xenon Pharmaceuticals, Raises Price Target to $58",
-    "summary": "Needham  analyst Serge Belanger   maintains Xenon Pharmaceuticals (NASDAQ:XENE) with a Buy and raises the price target from $55 to $58.",
-    "symbols": [
-      "XENE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:13:31Z",
-    "url": "https://www.benzinga.com/news/26/02/50941662/needham-maintains-buy-on-xenon-pharmaceuticals-raises-price-target-to-58"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Behind The Drop In Microsoft Stock?",
-    "summary": "Microsoft shares are falling Friday as it works to reaffirm its OpenAI partnership after not being included in latest funding announcement.",
-    "symbols": [
-      "MSFT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MSFT",
-    "matched_tickers": [
-      "MSFT"
-    ],
-    "keywords": [
-      "partnership"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T19:14:07Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50941689/whats-behind-the-drop-in-microsoft-stock"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Oil prices rise as Trump signals military attack on Iran is still on the table",
-    "summary": "Oil prices were up sharply Friday after President Donald Trump reportedly suggested that a U.S. military strike on Iran is still being considered after a deal to end Tehran\u2019s nuclear ambitions didn\u2019t materialize this week.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:55:00 GMT",
-    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427?mod=mw_rss_topstories"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Needham Maintains Buy on Globant, Lowers Price Target to $60",
-    "summary": "Needham  analyst Mayank Tandon   maintains Globant (NYSE:GLOB) with a Buy and lowers the price target from $80 to $60.",
-    "symbols": [
-      "GLOB"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:15:50Z",
-    "url": "https://www.benzinga.com/news/26/02/50941768/needham-maintains-buy-on-globant-lowers-price-target-to-60"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Hold on Cable One, Lowers Price Target to $142",
-    "summary": "TD Cowen  analyst Gregory Williams   maintains Cable One (NYSE:CABO) with a Hold and lowers the price target from $260 to $142.",
-    "symbols": [
-      "CABO"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:18:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50941820/td-cowen-maintains-hold-on-cable-one-lowers-price-target-to-142"
-  },
-  {
-    "source": "finnhub",
-    "headline": "United\u2019s stock and other airline shares get a reality check from rising oil prices, market jitters",
-    "summary": "United Airlines\u2019 stock was leading S&P 500 index decliners on Friday and heading for its worst drop in 10 months, with other airline stocks also seeing steep declines amid rising oil futures prices and increased market jitters.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:03:00+00:00",
-    "url": "https://www.marketwatch.com/story/uniteds-stock-and-other-airline-shares-get-a-reality-check-from-rising-oil-prices-market-jitters-2b6adfd0"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Buy on Carlyle Group, Raises Price Target to $67",
-    "summary": "TD Cowen  analyst Bill Katz   maintains Carlyle Group (NASDAQ:CG) with a Buy and raises the price target from $65 to $67.",
-    "symbols": [
-      "CG"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:19:17Z",
-    "url": "https://www.benzinga.com/news/26/02/50941880/td-cowen-maintains-buy-on-carlyle-group-raises-price-target-to-67"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Buy on EMCOR Group, Raises Price Target to $900",
-    "summary": "DA Davidson  analyst Brent Thielman   maintains EMCOR Group (NYSE:EME) with a Buy and raises the price target from $800 to $900.",
-    "symbols": [
-      "EME"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:20:17Z",
-    "url": "https://www.benzinga.com/news/26/02/50941913/da-davidson-maintains-buy-on-emcor-group-raises-price-target-to-900"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With Novavax Stock On Friday?",
-    "summary": "Novavax reported a fourth-quarter profit, guides 2026 revenue between $230 million and $270 million.",
-    "symbols": [
-      "NVAX",
-      "SNY"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue",
-      "profit"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:20:35Z",
-    "url": "https://www.benzinga.com/markets/earnings/26/02/50941936/whats-going-on-with-novavax-stock-on-friday"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Tevogen Strikes Letter Of Intent To Mull Potential Takeover Of Unnamed Contract Research Organization",
-    "summary": "Tevogen (&#34;Tevogen Bio Holdings Inc.&#34; or &#34;Company&#34;) (NASDAQ:TVGN) today announced that it has entered into a signed, non-exclusive, non-binding Letter of Intent (&#34;LoI&#34;) to evaluate a potential transaction with\u00a0a",
-    "symbols": [
-      "TVGN"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:21:49Z",
-    "url": "https://www.benzinga.com/news/26/02/50941974/tevogen-strikes-letter-of-intent-to-mull-potential-takeover-of-unnamed-contract-research-organizatio"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "MDJM Ltd. shares are trading lower after the company priced a $2.5 million registered direct offering.",
-    "summary": "",
-    "symbols": [
-      "UOKA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "offering"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T19:23:43Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50942037/mdjm-ltd-shares-are-trading-lower-after-the-company-priced-a-2-5-million-registered-direct-offering"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Buy on Sterling Infrastructure, Raises Price Target to $500",
-    "summary": "DA Davidson  analyst Brent Thielman   maintains Sterling Infrastructure (NASDAQ:STRL) with a Buy and raises the price target from $460 to $500.",
-    "symbols": [
-      "STRL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:25:04Z",
-    "url": "https://www.benzinga.com/news/26/02/50942082/da-davidson-maintains-buy-on-sterling-infrastructure-raises-price-target-to-500"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "DA Davidson Maintains Neutral on FS Bancorp, Raises Price Target to $46",
-    "summary": "DA Davidson  analyst Jeff Rulis   maintains FS Bancorp (NASDAQ:FSBW) with a Neutral and raises the price target from $45 to $46.",
-    "symbols": [
-      "FSBW"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T19:30:04Z",
-    "url": "https://www.benzinga.com/news/26/02/50942212/da-davidson-maintains-neutral-on-fs-bancorp-raises-price-target-to-46"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Live Nation Entertainment shares are trading higher after Rothschild &amp; Co upgraded the stock from Neutral to Buy rating and raised its price target from $166 to $193.",
-    "summary": "",
-    "symbols": [
-      "LYV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "LYV",
-    "matched_tickers": [
-      "LYV"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T19:30:04Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50942213/live-nation-entertainment-shares-are-trading-higher-after-rothschild-co-upgraded-the-stock-from-neut"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "WPP Overhauls Structure, Slashes Dividend in Turnaround Plan",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T09:39:00Z",
-    "url": "https://www.wsj.com/business/earnings/wpp-overhauls-structure-slashes-dividend-in-turnaround-plan-c103801d?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
     "headline": "John Lewis Partnership exits build-to-rent to refocus on retail \u2013 report",
     "summary": "",
     "symbols": [],
@@ -2035,5 +1650,389 @@
     "action_type": "sell",
     "timestamp": "2026-02-26T11:00:00Z",
     "url": "https://finance.yahoo.com/news/trump-secret-weapon-rare-earth-110000371.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Inflation is caused by \u2018too much government spending,\u2019 affirms Elon Musk. Here\u2019s what he likes for wealth protection",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T12:00:00Z",
+    "url": "https://finance.yahoo.com/news/inflation-caused-too-much-government-120000281.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Tigress Financial Maintains Buy on Snap-on, Raises Price Target to $445",
+    "summary": "Tigress Financial  analyst Ivan Feinseth   maintains Snap-on (NYSE:SNA) with a Buy and raises the price target from $405 to $445.",
+    "symbols": [
+      "SNA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:59:36Z",
+    "url": "https://www.benzinga.com/news/26/02/50945860/tigress-financial-maintains-buy-on-snap-on-raises-price-target-to-445"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Palantir\u2019s stock nabs another upgrade, with its valuation now less of a \u2018struggle\u2019",
+    "summary": "Palantir Technologies\u2019 stock has been a fan favorite among retail investors. Now, Wall Street analysts are warming to the software company\u2019s story.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "upgrade",
+      "upgrade"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:37:00+00:00",
+    "url": "https://www.marketwatch.com/story/palantirs-stock-nabs-another-upgrade-with-its-valuation-now-less-of-a-struggle-e354edf5"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "The bond market has been doing something strange despite a hot inflation report",
+    "summary": "Worries over the destructive impact of artificial intelligence on the U.S.  economy were sweeping through the $30 trillion bond market on Friday.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:15:00+00:00",
+    "url": "https://www.marketwatch.com/story/the-bond-market-has-been-doing-something-strange-despite-a-hot-inflation-report-8670c7da"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
+    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T19:55:00+00:00",
+    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "United\u2019s stock and other airline shares get a reality check from rising oil prices, market jitters",
+    "summary": "United Airlines\u2019 stock was leading S&P 500 index decliners on Friday and heading for its worst drop in 10 months, with other airline stocks also seeing steep declines amid rising oil futures prices and increased market jitters.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:03:00+00:00",
+    "url": "https://www.marketwatch.com/story/uniteds-stock-and-other-airline-shares-get-a-reality-check-from-rising-oil-prices-market-jitters-2b6adfd0"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "10-year yield falls below 4% on stagflation risk following hot producer prices reading",
+    "summary": "U.S. Treasury yields were lower on Friday as investors reacted to wholesale inflation that came in above Wall Street estimates.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "inflation",
+      "treasury yield"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:39:35+00:00",
+    "url": "https://www.cnbc.com/2026/02/27/us-treasury-yields-investors-await-wholesale-inflation-reading.html"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Here's what drove big moves in our top and bottom stocks over the past month",
+    "summary": "Since the Club's January Meeting, Wall Street has navigated earnings season, concerns about AI, and speculation on the Fed's next rate move.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T16:24:41+00:00",
+    "url": "https://www.cnbc.com/2026/02/27/what-drove-big-moves-in-our-top-and-bottom-stocks-over-the-past-month.html"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Jump in oil prices may reflect worry about Iran delays on nuclear deal, analyst says",
+    "summary": "Oil prices were climbing on Friday, shaking off losses from the previous session, as markets get increasingly nervous about delays in reaching a deal to end Tehran\u2019s nuclear ambitions.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-27T15:07:00+00:00",
+    "url": "https://www.marketwatch.com/story/jump-in-oil-prices-may-be-reflecting-worry-about-iran-delays-on-nuclear-deal-analyst-says-3eb2b427"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:17:48 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dow tumbles 600 points after hot inflation report, mounting concerns about AI impact: Live updates",
+    "summary": "The S&amp;P 500 and the Nasdaq Composite slid on Thursday, dragged lower by Nvidia shares.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 20:36:03 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
+    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Traders may rotate into Bitcoin if UBS\u2019 bearish US stocks view comes true",
+    "summary": "A UBS report dinged US stocks for being \u201covervalued\u201d suggesting that better investment opportunities exist outside of US markets. Is this the next rally catalyst for Bitcoin?",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:27:43+00:00",
+    "url": "https://cointelegraph.com/news/traders-may-rotate-into-bitcoin-if-ubs-bearish-us-stocks-view-comes-true?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Crypto Biz: A Bitcoin treasury shareholder revolt",
+    "summary": "Bitcoin treasury companies face investor backlash as stablecoin issuers post strong earnings and legacy payment giants navigate mounting pressure.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin",
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:16:27+00:00",
+    "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-treasury-shareholder-revolt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Citi and Morgan Stanley expand bitcoin and crypto custody, trading and tokenization efforts",
+    "summary": "",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:19:18+00:00",
+    "url": "https://www.coindesk.com/business/2026/02/27/citi-and-morgan-stanley-expand-bitcoin-and-crypto-custody-trading-and-tokenization-efforts"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined",
+    "summary": "Analysts dispute claims of a daily Jane Street Bitcoin dump as spot Bitcoin ETFs post three days of inflows and DeFi debates shift to real revenue.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin",
+      "revenue"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T19:00:00+00:00",
+    "url": "https://cointelegraph.com/news/analysts-reject-jane-street-dump-claims-bitcoin-etf-inflows-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK",
+    "summary": "Bitcoin\u2019s attempt to top $70,000 stalled throughout the week, but analysts believe that the short-term downside will be limited. Will altcoins hold on to their weekly gains?",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:41:44+00:00",
+    "url": "https://cointelegraph.com/news/price-predictions-2-27-btc-eth-xrp-bnb-sol-doge-bch-ada-hype-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Figure Technology stock crashes 20% following mixed Q4 earnings",
+    "summary": "The blockchain-based lending platform beat revenue estimates but fell short on earnings, even as annual profit reached $134 million.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T17:44:27+00:00",
+    "url": "https://cointelegraph.com/news/figure-technology-solutions-stock-post-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Bitcoin' rebound cancelled as U.S. stocks fall, gold surges, amid mounting macro risks",
+    "summary": "",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T17:09:10+00:00",
+    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-rebound-cancelled-as-u-s-stocks-fall-gold-surges-amid-mounting-macro-risks"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Vitalik Buterin reveals his bold new plan to fix Ethereum\u2019s scaling problem",
+    "summary": "",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "ethereum"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T16:32:14+00:00",
+    "url": "https://www.coindesk.com/tech/2026/02/27/vitalik-buterin-reveals-his-bold-new-plan-to-fix-ethereum-s-scaling-problem"
   }
 ]

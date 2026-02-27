@@ -86,7 +86,27 @@ MACRO_HIGH = [
     "oil price", "crude oil", "opec", "china", "treasury yield",
 ]
 
-# Ticker-specific urgency keywords
+# Crypto-specific urgency keywords
+CRYPTO_CRITICAL = [
+    "sec sues", "sec charges", "sec lawsuit", "binance shut", "tether depeg",
+    "usdt depeg", "usdc depeg", "stablecoin depeg", "exchange hack",
+    "rug pull", "exploit", "flash crash", "bitcoin etf reject",
+    "bitcoin ban", "crypto ban", "mt. gox", "ftx", "celsius",
+    "bitcoin etf approv", "ethereum etf", "solana etf",
+]
+CRYPTO_HIGH = [
+    "bitcoin", "btc ", "ethereum", "eth ", "solana", "sol ",
+    "crypto regulation", "crypto bill", "stablecoin bill",
+    "whale alert", "whale transfer", "large transfer",
+    "defi hack", "bridge hack", "protocol exploit",
+    "halving", "merge", "upgrade", "hard fork",
+    "binance", "coinbase", "kraken",
+    "blackrock crypto", "fidelity crypto", "grayscale",
+    "mining", "hashrate", "difficulty",
+    "funding rate", "liquidation", "open interest",
+]
+
+# Ticker-specific urgency keywords (stocks)
 TICKER_CRITICAL = [
     "earnings", "guidance", "fda approv", "fda reject", "acquire",
     "merger", "bankrupt", "fraud", "sec investigat", "recall",
@@ -99,11 +119,17 @@ TICKER_HIGH = [
 ]
 
 RSS_FEEDS = [
+    # US Stock / Macro
     ("CNBC_Top", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
     ("CNBC_Markets", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
     ("MarketWatch", "https://feeds.marketwatch.com/marketwatch/topstories"),
     ("Reuters_Biz", "https://feeds.reuters.com/reuters/businessNews"),
     ("Yahoo_Finance", "https://finance.yahoo.com/news/rssindex"),
+    # Crypto
+    ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+    ("CoinTelegraph", "https://cointelegraph.com/rss"),
+    ("TheBlock", "https://www.theblock.co/rss.xml"),
+    ("Decrypt", "https://decrypt.co/feed"),
 ]
 
 ALPACA_WS_URL = "wss://stream.data.alpaca.markets/v1beta1/news"
@@ -247,6 +273,10 @@ BEARISH_KEYWORDS = [
     "data breach", "ceo resign", "ceo fired", "dilut", "offering",
     "rate hike", "tariff", "sanction", "war ", "invasion", "recession",
     "default", "crash",
+    # Crypto bearish
+    "sec sues", "sec charges", "exchange hack", "rug pull", "exploit",
+    "depeg", "flash crash", "crypto ban", "whale dump", "liquidation",
+    "mt. gox distribut", "ftx creditor",
 ]
 
 
@@ -285,7 +315,22 @@ def classify_news(headline: str, summary: str = "", symbols: list[str] | None = 
                 result["is_macro"] = True
                 result["keywords_hit"].append(kw)
 
-    # Check ticker-specific
+    # Check crypto critical
+    for kw in CRYPTO_CRITICAL:
+        if kw in text:
+            result["urgency"] = "critical"
+            result["is_crypto"] = True
+            result["keywords_hit"].append(kw)
+
+    # Check crypto high
+    if result["urgency"] not in ("critical",):
+        for kw in CRYPTO_HIGH:
+            if kw in text:
+                result["urgency"] = "high"
+                result["is_crypto"] = True
+                result["keywords_hit"].append(kw)
+
+    # Check ticker-specific (stocks)
     for kw in TICKER_CRITICAL:
         if kw in text:
             result["urgency"] = "critical"
@@ -556,41 +601,43 @@ async def finnhub_poll_loop(
 
     while not stop_event.is_set():
         try:
-            url = f"https://finnhub.io/api/v1/news?category=general&token={api_key}"
-            req = urllib.request.Request(url)
-            resp = await asyncio.get_event_loop().run_in_executor(
-                None, urllib.request.urlopen, req
-            )
-            data = json.loads(resp.read())
+            # Fetch both general and crypto news
+            for category in ["general", "crypto"]:
+                url = f"https://finnhub.io/api/v1/news?category={category}&token={api_key}"
+                req = urllib.request.Request(url)
+                resp = await asyncio.get_event_loop().run_in_executor(
+                    None, urllib.request.urlopen, req
+                )
+                data = json.loads(resp.read())
 
-            for item in data[:20]:
-                headline = item.get("headline", "")
-                summary = item.get("summary", "")
-                nid = _news_id(headline, "finnhub")
+                for item in data[:20]:
+                    headline = item.get("headline", "")
+                    summary = item.get("summary", "")
+                    nid = _news_id(headline, f"finnhub:{category}")
 
-                if nid in seen:
-                    continue
-                seen.add(nid)
+                    if nid in seen:
+                        continue
+                    seen.add(nid)
 
-                classification = classify_news(headline, summary, item.get("related", "").split(","))
+                    classification = classify_news(headline, summary, item.get("related", "").split(","))
 
-                if classification["urgency"] in ("critical", "high"):
-                    alert = {
-                        "source": "finnhub",
-                        "headline": headline,
-                        "summary": summary[:300],
-                        "symbols": item.get("related", "").split(","),
-                        "urgency": classification["urgency"],
-                        "is_macro": classification["is_macro"],
-                        "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
-                        "matched_tickers": classification["matched_tickers"],
-                        "keywords": classification["keywords_hit"],
-                        "sentiment": classification["sentiment"],
-                        "action_type": classification["action_type"],
-                        "timestamp": datetime.fromtimestamp(item.get("datetime", 0), tz=timezone.utc).isoformat(),
-                        "url": item.get("url", ""),
-                    }
-                    add_alert(alert)
+                    if classification["urgency"] in ("critical", "high"):
+                        alert = {
+                            "source": f"finnhub:{category}",
+                            "headline": headline,
+                            "summary": summary[:300],
+                            "symbols": item.get("related", "").split(","),
+                            "urgency": classification["urgency"],
+                            "is_macro": classification["is_macro"],
+                            "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
+                            "matched_tickers": classification["matched_tickers"],
+                            "keywords": classification["keywords_hit"],
+                            "sentiment": classification["sentiment"],
+                            "action_type": classification["action_type"],
+                            "timestamp": datetime.fromtimestamp(item.get("datetime", 0), tz=timezone.utc).isoformat(),
+                            "url": item.get("url", ""),
+                        }
+                        add_alert(alert)
 
         except Exception as e:
             logger.warning("Finnhub poll error: %s", e)
