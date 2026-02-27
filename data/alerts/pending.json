@@ -1,159 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Flutter Entertainment Posts Downbeat Q4 Results, Joins Zscaler, Elastic And Other Big Stocks Moving Lower In Friday&#39;s Pre-Market Session (CORRECTED)",
-    "summary": " ",
-    "symbols": [
-      "AIV",
-      "AMBA",
-      "AMPH",
-      "CRWV",
-      "DNA",
-      "DUOL",
-      "EBS",
-      "ESTC",
-      "FLUT",
-      "FTRE",
-      "PGNY",
-      "SPT",
-      "WLDN",
-      "ZS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "ASTI",
-    "matched_tickers": [
-      "ASTI"
-    ],
-    "keywords": [
-      "beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T18:45:29Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/02/50924910/flutter-entertainment-posts-downbeat-q4-results-joins-zscaler-elastic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Zelman &amp; Assoc Upgrades American Woodmark to Neutral, Announces $54 Price Target",
-    "summary": "Zelman &amp; Assoc   upgrades American Woodmark (NASDAQ:AMWD) from Underperform to Neutral and announces $54 price target.",
-    "symbols": [
-      "AMWD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "AMWD",
-    "matched_tickers": [
-      "AMWD"
-    ],
-    "keywords": [
-      "upgrade",
-      "price target"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T18:45:59Z",
-    "url": "https://www.benzinga.com/news/26/02/50940468/zelman-assoc-upgrades-american-woodmark-to-neutral-announces-54-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Buy on Elastic, Lowers Price Target to $90",
-    "summary": "Canaccord Genuity  analyst Kingsley Crane   maintains Elastic (NYSE:ESTC) with a Buy and lowers the price target from $115 to $90.",
-    "symbols": [
-      "ESTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "ASTI",
-    "matched_tickers": [
-      "ASTI"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:46:21Z",
-    "url": "https://www.benzinga.com/news/26/02/50940493/canaccord-genuity-maintains-buy-on-elastic-lowers-price-target-to-90"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Dell Earnings, Inflation and Consumer-Confidence Data: Still to Come This Week",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation",
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T08:49:20Z",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-26-2026/card/dell-earnings-inflation-and-consumer-confidence-data-still-to-come-this-week-Y3tVM0Qw686aM6wxLX1C?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Wedbush Downgrades NCR Atleos to Neutral, Raises Price Target to $50.4",
-    "summary": "Wedbush  analyst Antoine Legault   downgrades NCR Atleos (NYSE:NATL) from Outperform to Neutral and raises the price target from $45 to $50.4.",
-    "symbols": [
-      "NATL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "downgrade",
-      "price target"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:47:48Z",
-    "url": "https://www.benzinga.com/news/26/02/50940580/wedbush-downgrades-ncr-atleos-to-neutral-raises-price-target-to-50-4"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Canaccord Genuity Maintains Hold on Globant, Lowers Price Target to $50",
-    "summary": "Canaccord Genuity  analyst Luke Morison   maintains Globant (NYSE:GLOB) with a Hold and lowers the price target from $70 to $50.",
-    "symbols": [
-      "GLOB"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:49:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50940652/canaccord-genuity-maintains-hold-on-globant-lowers-price-target-to-50"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "TD Cowen Maintains Hold on Warner Bros. Discovery, Raises Price Target to $26",
-    "summary": "TD Cowen  analyst Doug Creutz   maintains Warner Bros. Discovery (NASDAQ:WBD) with a Hold and raises the price target from $22 to $26.",
-    "symbols": [
-      "WBD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:51:10Z",
-    "url": "https://www.benzinga.com/news/26/02/50940743/td-cowen-maintains-hold-on-warner-bros-discovery-raises-price-target-to-26"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "TD Cowen Maintains Buy on Zscaler, Lowers Price Target to $220",
     "summary": "TD Cowen  analyst Shaul Eyal   maintains Zscaler (NASDAQ:ZS) with a Buy and lowers the price target from $260 to $220.",
     "symbols": [
@@ -2003,5 +1850,203 @@
     "action_type": "monitor",
     "timestamp": "2026-02-26T10:37:58Z",
     "url": "https://finance.yahoo.com/news/s4bt-acquires-hotelhub-expand-global-103758917.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "AI capex and the \u2018wealth effect\u2019 from tech stocks (like Nvidia) now drive one-third of U.S. GDP growth, top analysts say",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA",
+      "NVDA"
+    ],
+    "keywords": [
+      "gdp "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:41:37Z",
+    "url": "https://finance.yahoo.com/news/ai-capex-wealth-effect-tech-104137387.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "U.S. Federal Communications Commission Approved Charter Communications&#39; $34.5B Acquisition Of Cox Enterprises&#39; Residential Cable, Commercial Fiber, And Managed It And Cloud Businesses",
+    "summary": "https://www.fcc.gov/document/fcc-approves-charter-cox-combination",
+    "symbols": [
+      "CHTR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:28:20Z",
+    "url": "https://www.benzinga.com/m-a/26/02/50944620/u-s-federal-communications-commission-approved-charter-communications-34-5b-acquisition-of-cox-enter"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Shares of companies within the broader technology sector are trading lower amid overall market weakness following hotter-than-expected January PPI figures, concerns over AI disruption and Nvidia&#39;s Q1 results.",
+    "summary": "",
+    "symbols": [
+      "ALAB",
+      "APLD",
+      "APP",
+      "BOXL",
+      "CIFR",
+      "CORZ",
+      "CORZW",
+      "CORZZ",
+      "CRDO",
+      "CRM",
+      "CRWD",
+      "CSIQ",
+      "DDOG",
+      "DUOT",
+      "ENPH",
+      "EVLVW",
+      "FN",
+      "GTLB",
+      "IMTE",
+      "INFY",
+      "IONQ",
+      "IREN",
+      "IVDAW",
+      "JBL",
+      "KVYO",
+      "LCFYW",
+      "LPL",
+      "MDB",
+      "MOBXW",
+      "MPWR",
+      "NET",
+      "NTNX",
+      "NVDA",
+      "NVNIW",
+      "NVTS",
+      "ONDS",
+      "ORCL",
+      "OSS",
+      "OUSTZ",
+      "PGY",
+      "QUBT",
+      "RBRK",
+      "RCAT",
+      "RGTI",
+      "RGTIW",
+      "RXT",
+      "SEDG",
+      "SHOP",
+      "SMX",
+      "SNOW",
+      "TEAM",
+      "TER",
+      "TTMI",
+      "U",
+      "VYX",
+      "WDAY",
+      "WLDSW",
+      "XTKG",
+      "ZBRA",
+      "ZEPP",
+      "ZETA"
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "ppi "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:30:31Z",
+    "url": "https://www.benzinga.com/wiim/26/02/50944736/shares-of-companies-within-the-broader-technology-sector-are-trading-lower-amid-overall-market-weakn"
+  },
+  {
+    "source": "finnhub",
+    "headline": "The bond market has been doing something strange despite a hot inflation report",
+    "summary": "Worries over the destructive impact of artificial intelligence on the U.S.  economy were sweeping through the $30 trillion bond market on Friday.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T20:15:00+00:00",
+    "url": "https://www.marketwatch.com/story/the-bond-market-has-been-doing-something-strange-despite-a-hot-inflation-report-8670c7da"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Trump Threatens Countries Against Playing 'Games' With Supreme Court Ruling: Can Face 'A Much Higher Tariff'",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-26T10:45:58Z",
+    "url": "https://finance.yahoo.com/news/trump-threatens-countries-against-playing-104558877.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Bitcoin Price Rose Close to $70,000. What Nvidia Earnings Mean for Cryptos.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "NVDA",
+    "matched_tickers": [
+      "NVDA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-26T10:47:00Z",
+    "url": "https://www.barrons.com/articles/bitcoin-price-cryptos-nvidia-xrp-9c7904fa?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Apollo&#39;s MFIC Slashes Dividend, Marks Down Assets, Announces $100M Buyback",
+    "summary": "MidCap Financial reduced its dividend and re-evaulated its assets due to challenges in segments of its loan portfolio.",
+    "symbols": [
+      "APO",
+      "MFIC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "GM",
+    "matched_tickers": [
+      "GM"
+    ],
+    "keywords": [
+      "dividend",
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-27T20:37:38Z",
+    "url": "https://www.benzinga.com/markets/private-markets/26/02/50945001/apollos-mfic-slashes-dividend-marks-down-assets-announces-100m-buyback"
   }
 ]
