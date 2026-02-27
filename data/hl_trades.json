@@ -181,5 +181,1177 @@
     },
     "timestamp": "2026-02-20T17:06:40.696647-08:00",
     "logged_at": "2026-02-20T17:06:40.697109-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0457,
+    "price": 2089.1,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0457",
+                "avgPx": "2068.5",
+                "oid": 330050886771
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:35:09.498873-08:00",
+    "logged_at": "2026-02-25T12:35:09.499578-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 1.058,
+    "price": 90.23,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:35:12.927893-08:00",
+    "logged_at": "2026-02-25T12:35:12.928571-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 1.1,
+    "price": 90.18,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "1.1",
+                "avgPx": "89.291",
+                "oid": 330051327047
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:35:41.761922-08:00",
+    "logged_at": "2026-02-25T12:35:41.762662-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0284,
+    "price": 2091.2,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0284",
+                "avgPx": "2070.6",
+                "oid": 330054678965
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:40:13.302888-08:00",
+    "logged_at": "2026-02-25T12:40:13.303643-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.61,
+    "price": 90.56,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.61",
+                "avgPx": "89.671",
+                "oid": 330054742065
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:40:17.523513-08:00",
+    "logged_at": "2026-02-25T12:40:17.524126-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0162,
+    "price": 2095.9,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0051",
+                "avgPx": "2075.1",
+                "oid": 330067406988
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:55:14.347387-08:00",
+    "logged_at": "2026-02-25T12:55:14.348139-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.38,
+    "price": 90.59,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T12:55:18.036496-08:00",
+    "logged_at": "2026-02-25T12:55:18.037198-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0127,
+    "price": 2094.7,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=1"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:10:13.017788-08:00",
+    "logged_at": "2026-02-25T13:10:13.018614-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.414,
+    "price": 90.59,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:10:16.908517-08:00",
+    "logged_at": "2026-02-25T13:10:16.909206-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0126,
+    "price": 2094.3,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=1"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:25:14.048397-08:00",
+    "logged_at": "2026-02-25T13:25:14.049187-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.412,
+    "price": 90.63,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:25:17.746998-08:00",
+    "logged_at": "2026-02-25T13:25:17.747648-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0157,
+    "price": 2140.5,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0054",
+                "avgPx": "2119.4",
+                "oid": 330105937139
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:40:13.333042-08:00",
+    "logged_at": "2026-02-25T13:40:13.333865-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.5,
+    "price": 91.8,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:40:18.043392-08:00",
+    "logged_at": "2026-02-25T13:40:18.044094-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.461,
+    "price": 90.97,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T13:55:14.533318-08:00",
+    "logged_at": "2026-02-25T13:55:14.533711-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.009,
+    "price": 2131.9,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=1"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:10:13.428049-08:00",
+    "logged_at": "2026-02-25T14:10:13.428910-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.478,
+    "price": 91.24,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:10:17.392583-08:00",
+    "logged_at": "2026-02-25T14:10:17.393309-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.461,
+    "price": 90.84,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:25:13.839965-08:00",
+    "logged_at": "2026-02-25T14:25:13.841737-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.461,
+    "price": 90.81,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:25:23.883441-08:00",
+    "logged_at": "2026-02-25T14:25:23.884322-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.436,
+    "price": 90.17,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:40:13.831239-08:00",
+    "logged_at": "2026-02-25T14:40:13.832207-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.426,
+    "price": 89.93,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:40:24.266811-08:00",
+    "logged_at": "2026-02-25T14:40:24.267247-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.407,
+    "price": 89.79,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:40:35.598184-08:00",
+    "logged_at": "2026-02-25T14:40:35.598457-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.398,
+    "price": 89.47,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:55:12.021006-08:00",
+    "logged_at": "2026-02-25T14:55:12.022892-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.402,
+    "price": 89.59,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T14:55:22.352250-08:00",
+    "logged_at": "2026-02-25T14:55:22.353150-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.418,
+    "price": 89.98,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:10:12.120297-08:00",
+    "logged_at": "2026-02-25T15:10:12.121221-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.382,
+    "price": 89.32,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:25:11.712913-08:00",
+    "logged_at": "2026-02-25T15:25:11.714771-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.345,
+    "price": 88.33,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:40:12.615303-08:00",
+    "logged_at": "2026-02-25T15:40:12.616205-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.32,
+    "price": 88.14,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:42:43.994519-08:00",
+    "logged_at": "2026-02-25T15:42:43.995455-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.329,
+    "price": 88.16,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:46:03.749654-08:00",
+    "logged_at": "2026-02-25T15:46:03.750133-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.322,
+    "price": 88.09,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Order has invalid size."
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:46:22.387845-08:00",
+    "logged_at": "2026-02-25T15:46:22.388899-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.33,
+    "price": 88.1,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:47:05.772495-08:00",
+    "logged_at": "2026-02-25T15:47:05.773421-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.32,
+    "price": 88.06,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T15:47:16.455958-08:00",
+    "logged_at": "2026-02-25T15:47:16.456465-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.001,
+    "price": 68488.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=0"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T16:03:29.885684-08:00",
+    "logged_at": "2026-02-25T16:03:29.886625-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00101,
+    "price": 68555.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=0"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T16:03:53.323020-08:00",
+    "logged_at": "2026-02-25T16:03:53.323995-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00102,
+    "price": 68666.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=0"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-25T16:11:21.432282-08:00",
+    "logged_at": "2026-02-25T16:11:21.434249-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00094,
+    "price": 68045.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00094",
+                "avgPx": "67372.0",
+                "oid": 331317800943
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T13:40:11.475331-08:00",
+    "logged_at": "2026-02-26T13:40:11.477420-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.98,
+    "price": 86.78,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.52",
+                "avgPx": "85.925",
+                "oid": 331317850480
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T13:40:18.657786-08:00",
+    "logged_at": "2026-02-26T13:40:18.658935-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.46,
+    "price": 86.86,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.01",
+                "avgPx": "85.991",
+                "oid": 331327035761
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T13:55:16.078755-08:00",
+    "logged_at": "2026-02-26T13:55:16.080841-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.45,
+    "price": 86.87,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T14:10:12.367860-08:00",
+    "logged_at": "2026-02-26T14:10:12.370033-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.45,
+    "price": 86.85,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T14:40:13.833070-08:00",
+    "logged_at": "2026-02-26T14:40:13.835198-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.45,
+    "price": 86.94,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.01",
+                "avgPx": "86.082",
+                "oid": 331360667048
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T14:55:12.509632-08:00",
+    "logged_at": "2026-02-26T14:55:12.510821-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.44,
+    "price": 87.49,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "error": "Insufficient margin to place order. asset=5"
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T18:40:12.932354-08:00",
+    "logged_at": "2026-02-26T18:40:12.935022-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.44,
+    "price": 88.24,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.02",
+                "avgPx": "87.377",
+                "oid": 331575980562
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T19:55:11.708039-08:00",
+    "logged_at": "2026-02-26T19:55:11.710950-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.43,
+    "price": 88.56,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.04",
+                "avgPx": "87.69",
+                "oid": 331589291206
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T20:10:13.058796-08:00",
+    "logged_at": "2026-02-26T20:10:13.061694-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.4,
+    "price": 88.78,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.02",
+                "avgPx": "87.905",
+                "oid": 331603969013
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-26T20:25:12.611269-08:00",
+    "logged_at": "2026-02-26T20:25:12.613586-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.68,
+    "price": 83.21,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.26",
+                "avgPx": "82.381",
+                "oid": 332036798608
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-27T05:40:15.122537-08:00",
+    "logged_at": "2026-02-27T05:40:15.125554-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.43,
+    "price": 83.89,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.04",
+                "avgPx": "83.027",
+                "oid": 332051578863
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-27T05:55:13.841141-08:00",
+    "logged_at": "2026-02-27T05:55:13.842382-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0283,
+    "price": 1954.7,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0283",
+                "avgPx": "1935.7",
+                "oid": 332197523123
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-27T08:12:33.882893-08:00",
+    "logged_at": "2026-02-27T08:12:33.885815-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.37,
+    "price": 82.86,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.37",
+                "avgPx": "82.037",
+                "oid": 332197647623
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-27T08:12:40.002873-08:00",
+    "logged_at": "2026-02-27T08:12:40.004126-08:00"
   }
 ]

@@ -38,7 +38,7 @@ from scripts.crypto.alpaca_crypto import (
 )
 
 # Execution backend: "alpaca" or "hyperliquid"
-EXECUTION_BACKEND = os.environ.get("CRYPTO_BACKEND", "alpaca")
+EXECUTION_BACKEND = os.environ.get("CRYPTO_BACKEND", "hyperliquid")
 
 
 # Thresholds for "alert mode" (indicators approaching flip)
@@ -91,7 +91,7 @@ def _check_hyperliquid_positions() -> list[dict]:
     """Check Hyperliquid positions for stop-loss and signal changes."""
     try:
         from scripts.crypto.hyperliquid import connect, get_positions, get_account_info, MAX_DRAWDOWN
-        connect(testnet=True)
+        connect(testnet=False)
         positions = get_positions()
         account = get_account_info()
         alerts = []
@@ -188,8 +188,13 @@ def run_check(auto_execute: bool = True) -> dict:
     
     # 4. Auto-execute if signals changed and auto_execute is on
     if auto_execute and (result["signal_changes"] or result["stop_loss_alerts"]):
-        actions = execute_trades(dry_run=False)
-        result["actions"] = actions
+        if EXECUTION_BACKEND == "hyperliquid":
+            from scripts.crypto.hyperliquid_trader import analyze_and_trade
+            actions = analyze_and_trade(dry_run=False, testnet=False)
+            result["actions"] = actions
+        else:
+            actions = execute_trades(dry_run=False)
+            result["actions"] = actions
     
     # 5. Save state
     state["last_signals"] = new_signals

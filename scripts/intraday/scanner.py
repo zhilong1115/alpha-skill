@@ -341,8 +341,32 @@ def get_intraday_candidates(top_n: int = 8) -> list[dict]:
             }
     logger.info("After gap scan: %d total candidates", len(candidates))
 
-    # 3. News catalysts
+    # 3. News catalysts (combine news daemon + Finnhub news)
     catalysts = scan_news_catalysts()
+
+    # Finnhub: add earnings-day tickers as high-priority catalysts
+    try:
+        from scripts.analysis.finnhub_client import get_todays_earnings
+        earnings_tickers = set(get_todays_earnings())
+        logger.info("Finnhub earnings today: %d tickers", len(earnings_tickers))
+        # Add earnings tickers not already in candidates as news-catalyst entries
+        for t in earnings_tickers:
+            if t in candidates or t in {c["ticker"] for c in catalysts}:
+                # Already found — just mark earnings flag
+                if t in candidates:
+                    candidates[t]["has_earnings_today"] = True
+                    candidates[t]["has_catalyst"] = True
+            # Fetch Finnhub sentiment for candidate tickers
+        for t in list(candidates.keys())[:8]:  # limit API calls
+            if t in earnings_tickers:
+                candidates[t]["has_earnings_today"] = True
+                candidates[t]["has_catalyst"] = True
+                candidates[t]["intraday_score"] = round(candidates[t].get("intraday_score", 0) + 0.25, 3)
+            # Note: news_sentiment API requires paid plan (403 on free tier), skipping
+    except Exception as e:
+        logger.warning("Finnhub enrichment failed: %s", e)
+        earnings_tickers = set()
+
     news_tickers = {c["ticker"] for c in catalysts}
     logger.info("News catalysts: %d tickers", len(news_tickers))
 

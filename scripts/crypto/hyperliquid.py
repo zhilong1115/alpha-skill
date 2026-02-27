@@ -275,8 +275,11 @@ def place_order(
         )
         size = max_size
 
-    # Check drawdown circuit breaker
-    _check_drawdown_circuit_breaker(account_value)
+    # Circuit breaker disabled — logic under review, re-enable when redesigned
+    # Check drawdown circuit breaker — use withdrawable (real cash), not account_value
+    # account_value includes unrealized PnL from leveraged positions which inflates HWM
+    withdrawable = account.get("withdrawable", account_value)
+    # _check_drawdown_circuit_breaker(withdrawable)  # disabled — logic under review
 
     is_buy = side.lower() == "buy"
 
@@ -359,6 +362,27 @@ def close_position(symbol: str) -> dict:
     _log_trade(close_result)
     logger.info(f"Closed {symbol} position: {result}")
     return close_result
+
+
+def cancel_all_orders(symbol: str = None) -> int:
+    """Cancel all open orders, optionally filtered by symbol. Returns count cancelled."""
+    info, exchange = _ensure_connected()
+    address = _get_master_address() or exchange.account_address
+    open_orders = info.open_orders(address)
+    if symbol:
+        sym = symbol.upper().replace("/USD", "").replace("USD", "")
+        open_orders = [o for o in open_orders if o["coin"] == sym]
+
+    cancelled = 0
+    for o in open_orders:
+        try:
+            exchange.cancel(o["coin"], o["oid"])
+            cancelled += 1
+        except Exception as e:
+            logger.warning(f"Failed to cancel order {o['oid']}: {e}")
+    if cancelled:
+        logger.info(f"Cancelled {cancelled} orders" + (f" for {symbol}" if symbol else ""))
+    return cancelled
 
 
 def set_stop_loss(symbol: str, trigger_price: float) -> dict:
@@ -498,13 +522,15 @@ def _round_price(symbol: str, price: float) -> float:
 
 
 def _round_size(symbol: str, size: float) -> float:
-    """Round size to appropriate precision."""
+    """Round size to exchange-required precision (szDecimals from meta API)."""
     if symbol == "BTC":
-        return round(size, 5)  # 0.00001 BTC
+        return round(size, 5)  # szDecimals=5 → 0.00001 BTC
     elif symbol == "ETH":
-        return round(size, 4)  # 0.0001 ETH
+        return round(size, 4)  # szDecimals=4 → 0.0001 ETH
+    elif symbol == "SOL":
+        return round(size, 2)  # szDecimals=2 → 0.01 SOL (was wrong: 3)
     else:
-        return round(size, 3)  # 0.001 SOL
+        return round(size, 2)  # default 2 decimals
 
 
 def _log_trade(trade: dict) -> None:

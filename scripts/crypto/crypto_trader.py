@@ -18,7 +18,7 @@ if _SKILL_SCRIPTS not in sys.path:
     sys.path.insert(0, _SKILL_SCRIPTS)
 
 from indicators import calc_all_indicators, _binary_signals
-from conservative import score_conservative, get_signal, BULL_SIZING, BEAR_SIZING
+from aggressive import score_aggressive, get_signal
 
 from scripts.crypto.alpaca_crypto import (
     get_crypto_positions, get_crypto_exposure, get_crypto_buying_power,
@@ -46,13 +46,25 @@ def analyze_symbol(symbol: str) -> dict:
 
     df = calc_all_indicators(df)
     last = df.iloc[-1]
-    signal, count, regime, target_pos, details = get_signal(last)
+    signal, score, regime, details = get_signal(last)
+
+    # Aggressive mode: tiered sizing by signal strength
+    # Stronger signal = larger position, enables adding on strength
+    bullish_count = score // 25  # 0-4
+    if signal == "BUY":
+        # 2/4 → 15%, 3/4 → 22.5%, 4/4 → 30%
+        target_pos = bullish_count * 0.075  # 2→15%, 3→22.5%, 4→30%
+        target_pos = min(target_pos, 0.30)  # cap at 30%
+    elif signal == "HOLD":
+        target_pos = 0.15  # maintain small position
+    else:
+        target_pos = 0.0
 
     return {
         "symbol": symbol,
         "price": last["close"],
         "signal": signal,
-        "bullish_count": count,
+        "bullish_count": score // 25,  # backwards compat: 0-4
         "regime": regime,
         "target_position_pct": target_pos,
         "target_notional": target_pos * CRYPTO_ALLOCATION,

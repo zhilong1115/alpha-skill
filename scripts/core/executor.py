@@ -109,11 +109,43 @@ def place_order(
         raise ValueError(f"Order type '{order_type}' not yet supported. Use 'market'.")
 
     order = client.submit_order(request)
-    return {
+    result = {
         "id": str(order.id),
         "ticker": order.symbol,
         "side": order.side.value,
         "qty": str(order.qty),
         "type": order.type.value,
         "status": order.status.value,
+        "filled_avg_price": None,
     }
+
+    # Wait for fill and get actual fill price
+    if order_type == "market":
+        import time as _time
+        for _ in range(10):  # Poll up to 5s
+            _time.sleep(0.5)
+            try:
+                updated = client.get_order_by_id(str(order.id))
+                if updated.status.value == "filled":
+                    result["status"] = "filled"
+                    result["filled_avg_price"] = float(updated.filled_avg_price)
+                    result["filled_qty"] = str(updated.filled_qty)
+                    break
+            except Exception:
+                pass
+
+    return result
+
+
+def get_order_fill_price(order_id: str) -> Optional[float]:
+    """Get the filled average price for a completed order."""
+    client = _get_client()
+    if client is None:
+        return None
+    try:
+        order = client.get_order_by_id(order_id)
+        if order.filled_avg_price:
+            return float(order.filled_avg_price)
+    except Exception:
+        pass
+    return None

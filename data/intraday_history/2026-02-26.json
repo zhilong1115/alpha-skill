@@ -1,0 +1,84 @@
+{
+  "date": "2026-02-26",
+  "trades": [
+    {
+      "ticker": "USO",
+      "side": "buy",
+      "qty": 38,
+      "price": 79.9800033569336,
+      "value": 3039.2401275634766,
+      "timestamp": "2026-02-26T15:30:26.204648"
+    },
+    {
+      "ticker": "BFH",
+      "side": "buy",
+      "qty": 11,
+      "price": 78.30999755859375,
+      "value": 861.4099731445312,
+      "timestamp": "2026-02-26T16:30:25.311801"
+    },
+    {
+      "ticker": "NFLX",
+      "side": "buy",
+      "qty": 10,
+      "price": 84.43900299072266,
+      "value": 844.3900299072266,
+      "timestamp": "2026-02-26T16:45:29.601772"
+    },
+    {
+      "ticker": "GOLF",
+      "side": "buy",
+      "qty": 9,
+      "price": 101.52999877929688,
+      "value": 913.7699890136719,
+      "timestamp": "2026-02-26T17:30:31.386636"
+    },
+    {
+      "ticker": "USO",
+      "side": "sell",
+      "qty": 77,
+      "entry_price": 80.31,
+      "exit_price": 81.00250244140625,
+      "pnl": 53.32,
+      "pnl_pct": 0.86,
+      "reason": "time_exit (2.2h, +0.9%)",
+      "hold_time": "2026-02-26T15:30:26.202909",
+      "timestamp": "2026-02-26T17:45:09.720833"
+    },
+    {
+      "ticker": "GOLF",
+      "side": "sell",
+      "qty": 14,
+      "entry_price": 101.86,
+      "exit_price": 102.83000183105469,
+      "pnl": 13.58,
+      "pnl_pct": 0.95,
+      "reason": "take_profit",
+      "hold_time": "2026-02-26T17:30:31.384852",
+      "timestamp": "2026-02-26T18:46:10.707511"
+    },
+    {
+      "ticker": "SA",
+      "side": "buy",
+      "qty": 64,
+      "price": 38.179901123046875,
+      "value": 2443.513671875,
+      "timestamp": "2026-02-26T18:46:33.203674"
+    }
+  ],
+  "open_positions": {},
+  "realized_pnl": 80.383154296875,
+  "total_trades": 7,
+  "stopped_trading": false,
+  "stop_reason": null,
+  "symbol_trade_counts": {
+    "USO": 1,
+    "GOLF": 1
+  },
+  "symbol_last_result": {
+    "USO": "win",
+    "GOLF": "win"
+  },
+  "consecutive_losses": 0,
+  "loss_pause_until": null
+}

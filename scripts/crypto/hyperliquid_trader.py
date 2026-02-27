@@ -27,13 +27,23 @@ if _PROJECT_ROOT not in sys.path:
 from scripts.crypto.hyperliquid import (
     connect, get_account_info, get_positions, get_price,
     place_order, close_position, set_stop_loss, set_leverage,
+    cancel_all_orders,
     SUPPORTED_SYMBOLS, MAX_LEVERAGE,
 )
 
 # Map Hyperliquid symbols to Alpaca-style for data fetching
 HL_TO_ALPACA = {"BTC": "BTC/USD", "ETH": "ETH/USD", "SOL": "SOL/USD"}
 
-STOP_LOSS_PCT = 0.05       # 5% stop-loss from entry
+STOP_LOSS_PCT = 0.05       # 5% stop-loss from entry (legacy, used as fallback)
+STRUCTURAL_SL_MAX_PCT = 0.15  # Max stop-loss distance (safety floor)
+STRUCTURAL_SL_MIN_PCT = 0.05  # Min stop-loss distance
+
+# Key support levels for structural stop-loss
+KEY_LEVELS = {
+    "ETH": [2500, 2400, 2300, 2200, 2100, 2000, 1900, 1800, 1700, 1600, 1500],
+    "SOL": [100, 95, 90, 85, 80, 75, 70, 65, 60, 55, 50],
+    "BTC": [100000, 95000, 90000, 85000, 80000, 75000, 70000, 65000, 60000],
+}
 TAKE_PROFIT_PCT = 0.15     # 15% take-profit
 DEFAULT_LEVERAGE = 3
 MAX_MARGIN_PER_POSITION = 0.30  # 30% of account as margin
@@ -74,6 +84,13 @@ def analyze_and_trade(dry_run: bool = True, testnet: bool = True) -> list[dict]:
 
     account = get_account_info()
     account_value = account["account_value"]
+    # Use withdrawable (real USDC) for sizing — account_value is inflated by leverage
+    withdrawable = account.get("withdrawable", account_value)
+    margin_used = account.get("total_margin_used", 0)
+    sizing_base = withdrawable  # Size based on real USDC, not leverage-inflated account_value
+    # Hyperliquid reserves part of withdrawable for maintenance margin on losing positions.
+    # If margin_used > withdrawable, no room for new orders (exchange will reject).
+    can_open_new = withdrawable > margin_used
     if account_value <= 0:
         return [{"action": "error", "reason": "Account has no value"}]
 
@@ -82,7 +99,7 @@ def analyze_and_trade(dry_run: bool = True, testnet: bool = True) -> list[dict]:
 
     for symbol in SUPPORTED_SYMBOLS:
         try:
-            action = _process_symbol(symbol, account_value, pos_map, dry_run)
+            action = _process_symbol(symbol, sizing_base, pos_map, dry_run, can_open_new=can_open_new)
             actions.append(action)
         except Exception as e:
             logger.error(f"Error processing {symbol}: {e}")
@@ -92,9 +109,13 @@ def analyze_and_trade(dry_run: bool = True, testnet: bool = True) -> list[dict]:
 
 
 def _process_symbol(
-    symbol: str, account_value: float, pos_map: dict, dry_run: bool
+    symbol: str, account_value: float, pos_map: dict, dry_run: bool, can_open_new: bool = True
 ) -> dict:
-    """Process a single symbol: analyze signal, determine action, execute."""
+    """Process a single symbol: analyze signal, determine action, execute.
+
+    account_value = withdrawable (real free USDC). Used for target position sizing.
+    can_open_new = False when margin_used > withdrawable (Hyperliquid will reject new orders).
+    """
     # Get signal
     analysis = _get_signal(symbol)
     if analysis.get("error"):
@@ -144,16 +165,28 @@ def _process_symbol(
             result["execution"] = close_result
     elif target_side and not pos:
         # Open new position
-        if target_size > 0:
+        if not can_open_new:
+            result["action"] = "skip"
+            result["reason"] = f"No margin (margin_used > withdrawable)"
+        elif target_size > 0:
             side = "buy" if target_side == "long" else "sell"
             result["action"] = f"OPEN_{target_side.upper()}"
             if not dry_run:
                 order_result = place_order(
                     symbol, side, target_size, leverage=DEFAULT_LEVERAGE
                 )
-                result["execution"] = order_result
-                # Set stop-loss
-                _set_position_stop_loss(symbol, target_side, current_price)
+                statuses = (order_result.get("result", {})
+                            .get("response", {})
+                            .get("data", {})
+                            .get("statuses", [{}]))
+                err = statuses[0].get("error", "") if statuses else ""
+                if err:
+                    result["action"] = "skip"
+                    result["reason"] = f"Order rejected: {err}"
+                    logger.warning(f"{symbol}: OPEN rejected — {err}")
+                else:
+                    result["execution"] = order_result
+                    _set_position_stop_loss(symbol, target_side, current_price)
         else:
             result["action"] = "skip"
             result["reason"] = "Target size too small"
@@ -171,30 +204,47 @@ def _process_symbol(
                 result["execution"] = order_result
                 _set_position_stop_loss(symbol, target_side, current_price)
         else:
-            # Same direction — check size difference
-            size_diff = target_size - current_size
-            pct_diff = abs(size_diff) / current_size if current_size > 0 else 1.0
+            # Same direction — compare current vs target as % of withdrawable
+            # account_value here = withdrawable (real USDC)
+            current_pct = current_notional / account_value if account_value > 0 else 0
+            target_pct_notional = target_margin_pct * DEFAULT_LEVERAGE  # e.g., 0.225 * 3 = 0.675
+            pct_gap = target_pct_notional - current_pct  # positive = under target, need to add
 
-            if pct_diff < 0.1:  # Within 10%, skip
-                result["action"] = "hold"
-            elif size_diff > 0:
-                result["action"] = f"INCREASE_{target_side.upper()}"
-                if not dry_run:
-                    side = "buy" if target_side == "long" else "sell"
-                    order_result = place_order(
-                        symbol, side, abs(size_diff), leverage=DEFAULT_LEVERAGE
-                    )
-                    result["execution"] = order_result
-                    _set_position_stop_loss(symbol, target_side, current_price)
+            result["current_alloc_pct"] = round(current_pct * 100, 1)
+            result["target_alloc_pct"] = round(target_pct_notional * 100, 1)
+
+            if pct_gap >= 0.10 and can_open_new:
+                # Under target by ≥10 percentage points AND signal got stronger → add
+                additional_notional = pct_gap * account_value
+                add_size = round(additional_notional / current_price, 6)
+                required_margin = additional_notional / DEFAULT_LEVERAGE
+                if account_value >= required_margin * 1.5:
+                    result["action"] = f"INCREASE_{target_side.upper()}"
+                    if not dry_run:
+                        side = "buy" if target_side == "long" else "sell"
+                        order_result = place_order(
+                            symbol, side, add_size, leverage=DEFAULT_LEVERAGE
+                        )
+                        statuses = (order_result.get("result", {})
+                                    .get("response", {})
+                                    .get("data", {})
+                                    .get("statuses", [{}]))
+                        err = statuses[0].get("error", "") if statuses else ""
+                        if err:
+                            result["action"] = "hold"
+                            result["reason"] = f"Increase rejected: {err}"
+                            logger.warning(f"{symbol}: INCREASE rejected — {err}")
+                        else:
+                            result["execution"] = order_result
+                            _set_position_stop_loss(symbol, target_side, current_price)
+                else:
+                    result["action"] = "hold"
+                    result["reason"] = f"Insufficient withdrawable for add (need ${required_margin*1.5:.1f})"
             else:
-                result["action"] = f"DECREASE_{target_side.upper()}"
-                if not dry_run:
-                    # Partial close — reduce only
-                    side = "sell" if target_side == "long" else "buy"
-                    order_result = place_order(
-                        symbol, side, abs(size_diff), leverage=DEFAULT_LEVERAGE
-                    )
-                    result["execution"] = order_result
+                # At or above target % → hold, never force-reduce
+                result["action"] = "hold"
+                if pct_gap < 0:
+                    result["reason"] = f"Over target ({current_pct*100:.0f}% > {target_pct_notional*100:.0f}% of withdrawable)"
     else:
         result["action"] = "flat"
 
@@ -210,7 +260,8 @@ def _signal_to_position(signal: str, target_pct: float) -> tuple[str | None, flo
     if signal == "BUY" and target_pct > 0:
         return "long", target_pct
     elif signal == "SELL":
-        # Conservative SELL = close long, don't short (too risky for Conservative mode)
+        # TODO: re-enable shorting when trend is clear
+        # return "short", MAX_MARGIN_PER_POSITION * 0.5
         return None, 0
     elif signal == "HOLD" and target_pct > 0:
         return "long", target_pct
@@ -218,16 +269,88 @@ def _signal_to_position(signal: str, target_pct: float) -> tuple[str | None, flo
         return None, 0
 
 
-def _set_position_stop_loss(symbol: str, side: str, entry_price: float) -> None:
-    """Set exchange-level stop-loss 5% from entry."""
+def _find_swing_low(symbol: str, entry_price: float, lookback_days: int = 60) -> float | None:
+    """Find the most recent swing low within -5% to -20% of entry price."""
     try:
-        if side == "long":
-            sl_price = entry_price * (1 - STOP_LOSS_PCT)
-        else:
-            sl_price = entry_price * (1 + STOP_LOSS_PCT)
+        import ccxt
+        exchange = ccxt.coinbase()
+        pair = f"{symbol}/USDT"
+        ohlcv = exchange.fetch_ohlcv(pair, '1d', limit=lookback_days + 5)
+        if len(ohlcv) < 5:
+            return None
+
+        min_price = entry_price * (1 - 0.20)  # -20%
+        max_price = entry_price * (1 - STRUCTURAL_SL_MIN_PCT)  # -5%
+
+        # Find swing lows (local minima with >3% bounce)
+        candidates = []
+        for i in range(1, len(ohlcv) - 1):
+            low = ohlcv[i][3]
+            if low < ohlcv[i-1][3] and low < ohlcv[i+1][3]:
+                if min_price <= low <= max_price:
+                    candidates.append(low)
+
+        # Return the highest (most conservative) swing low in range
+        return max(candidates) if candidates else None
+    except Exception as e:
+        logger.warning(f"Failed to fetch swing low for {symbol}: {e}")
+        return None
+
+
+def _find_key_level(symbol: str, entry_price: float) -> float | None:
+    """Find the nearest key support level below entry within acceptable range."""
+    levels = KEY_LEVELS.get(symbol, [])
+    min_price = entry_price * (1 - STRUCTURAL_SL_MAX_PCT)
+    max_price = entry_price * (1 - STRUCTURAL_SL_MIN_PCT)
+
+    valid = [l for l in levels if min_price <= l <= max_price]
+    return max(valid) if valid else None
+
+
+def _compute_structural_stop(symbol: str, side: str, entry_price: float) -> float:
+    """Compute structural stop-loss: max(swing_low, key_level, safety_floor).
+    
+    For longs: finds support below entry.
+    For shorts: mirrors logic above entry (inverted).
+    """
+    if side == "short":
+        # For shorts, simple percentage-based for now
+        return entry_price * (1 + STOP_LOSS_PCT)
+
+    # Safety floor: -15% max
+    safety_floor = entry_price * (1 - STRUCTURAL_SL_MAX_PCT)
+
+    swing_low = _find_swing_low(symbol, entry_price) or 0
+    key_level = _find_key_level(symbol, entry_price) or 0
+
+    # Take the highest (most conservative) of the three
+    sl_price = max(swing_low, key_level, safety_floor)
+
+    logger.info(
+        f"Structural SL for {symbol}: swing_low=${swing_low:,.2f}, "
+        f"key_level=${key_level:,.2f}, safety=${safety_floor:,.2f} → stop=${sl_price:,.2f} "
+        f"({(1 - sl_price/entry_price)*100:.1f}% from entry)"
+    )
+    return sl_price
+
+
+def _set_position_stop_loss(symbol: str, side: str, entry_price: float) -> None:
+    """Set exchange-level stop-loss using structural support levels.
+    
+    Uses max(swing_low, key_level, entry*0.85) for longs.
+    Cancels existing orders first.
+    """
+    try:
+        sl_price = _compute_structural_stop(symbol, side, entry_price)
+
+        # Cancel existing stop orders for this symbol before placing new one
+        cancelled = cancel_all_orders(symbol)
+        if cancelled:
+            logger.info(f"Cancelled {cancelled} existing orders for {symbol} before setting new stop")
 
         set_stop_loss(symbol, sl_price)
-        logger.info(f"Stop-loss set for {symbol} at ${sl_price:,.2f} ({STOP_LOSS_PCT*100:.0f}% from ${entry_price:,.2f})")
+        pct = abs(sl_price - entry_price) / entry_price * 100
+        logger.info(f"Stop-loss set for {symbol} at ${sl_price:,.2f} ({pct:.1f}% from ${entry_price:,.2f})")
     except Exception as e:
         logger.error(f"Failed to set stop-loss for {symbol}: {e}")
 

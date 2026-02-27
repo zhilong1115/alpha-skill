@@ -313,9 +313,13 @@ class IntradayTrader:
 
             try:
                 from scripts.core.executor import place_order
-                place_order(ticker, "sell", sell_qty)
+                order = place_order(ticker, "sell", sell_qty)
 
-                price = current_prices[ticker]
+                # Use actual fill price if available, fall back to snapshot
+                fill_price = None
+                if order and order.get("filled_avg_price"):
+                    fill_price = order["filled_avg_price"]
+                price = fill_price or current_prices[ticker]
                 risk_mgr.apply_partial_tp(self.state, ticker, sell_qty, price)
                 executed.append(action)
                 logger.info("Partial TP: sold %d %s @ $%.2f (+%.1f%%)",
@@ -423,6 +427,9 @@ class IntradayTrader:
             # V2.3: Wait briefly and verify position is actually closed
             import time as _time
             _time.sleep(1)
+
+            # V2.4: Get actual fill price from Alpaca for accurate P&L
+            actual_price = price  # fallback to snapshot
             try:
                 from scripts.core.executor import get_positions
                 remaining = [p for p in get_positions() if p["ticker"] == ticker and p["qty"] > 0]
@@ -433,7 +440,29 @@ class IntradayTrader:
             except Exception as verify_err:
                 logger.warning("Could not verify close for %s: %s", ticker, verify_err)
 
-            result = risk_mgr.close_position(self.state, ticker, price, reason=reason)
+            # Try to get the actual close price from Alpaca's recent orders
+            try:
+                from scripts.core.executor import _get_client
+                ac = _get_client()
+                if ac:
+                    from alpaca.trading.requests import GetOrdersRequest
+                    from alpaca.trading.enums import QueryOrderStatus
+                    req = GetOrdersRequest(
+                        status=QueryOrderStatus.CLOSED,
+                        symbols=[ticker],
+                        limit=5,
+                    )
+                    recent_orders = ac.get_orders(req)
+                    for o in recent_orders:
+                        if o.side.value == "sell" and o.status.value == "filled" and o.filled_avg_price:
+                            actual_price = float(o.filled_avg_price)
+                            logger.info("Using Alpaca fill price for %s: $%.2f (snapshot was $%.2f)",
+                                       ticker, actual_price, price)
+                            break
+            except Exception as fill_err:
+                logger.warning("Could not get fill price for %s, using snapshot: %s", ticker, fill_err)
+
+            result = risk_mgr.close_position(self.state, ticker, actual_price, reason=reason)
             if result:
                 logger.info("Closed %s @ $%.2f, P&L: $%.2f (%s)",
                            ticker, price, result["pnl"], reason)
