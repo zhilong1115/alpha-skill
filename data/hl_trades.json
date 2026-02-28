@@ -1353,5 +1353,83 @@
     },
     "timestamp": "2026-02-27T08:12:40.002873-08:00",
     "logged_at": "2026-02-27T08:12:40.004126-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "action": "close",
+    "side": "sell",
+    "size": 0.00094,
+    "price": 62243.0,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00094",
+                "avgPx": "63505.3",
+                "oid": 332964383724
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-28T02:10:35.381565-08:00",
+    "logged_at": "2026-02-28T02:10:35.384501-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "action": "close",
+    "side": "sell",
+    "size": 0.0283,
+    "price": 1813.6,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0283",
+                "avgPx": "1850.6",
+                "oid": 332964434260
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-28T02:10:41.791210-08:00",
+    "logged_at": "2026-02-28T02:10:41.792430-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "action": "close",
+    "side": "sell",
+    "size": 0.67,
+    "price": 76.49,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.67",
+                "avgPx": "78.057",
+                "oid": 332964508968
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-02-28T02:10:48.600686-08:00",
+    "logged_at": "2026-02-28T02:10:48.601943-08:00"
   }
 ]

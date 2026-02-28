@@ -8386,3 +8386,1107 @@
 2026-02-27 14:49:21,842 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid s
 2026-02-27 14:49:22,609 [realtime_news] INFO: 🚨 ALERT: [high] SA — ‘We like it more,’ Bernstein says after Figure posts 156% jump in Q4 profit
 2026-02-27 14:49:24,095 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI
+2026-02-27 14:49:31,550 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 14:49:43,808 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 14:49:50,149 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 14:49:55,963 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 14:49:58,324 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 14:50:01,074 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 14:50:05,977 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 14:50:08,469 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 14:50:10,574 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 14:50:12,063 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: finnhub:crypto\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:12,308 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Bitcoin to $30K? Analysts debate when and at what price BTC will bottom\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: finnhub:crypto\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:13,038 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%\nTickers: N/A | Sentiment: bearish | Suggested: sell\nSource: rss:CNBC_Markets\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:13,295 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [CRITICAL]\nHeadline: UK inflation cools markedly in January, boosting odds of Bank of England rate cut\nTickers: N/A | Sentiment: bullish | Suggested: monitor\nSource: rss:CNBC_Markets\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:13,938 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Trump warned ‘sometimes you have to’ use force on Friday. Oil markets now see high odds of a U.S. strike on Iran.\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:MarketWatch\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:14,172 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: United’s stock had its worst day in months on rising oil prices, market jitters\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:MarketWatch\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:14,683 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Software stocks fall as Block’s big job cuts stoke further AI fears\nTickers: N/A | Sentiment: bearish | Suggested: sell\nSource: rss:MarketWatch\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:15,871 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: This High-Yield Dividend Stock Is Powering a New Generation of Data Centers\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:Yahoo_Finance\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:16,362 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [CRITICAL]\nHeadline: IonQ Earnings Beat, Guidance Above Views. Quantum Firm Targets Q4 2026 Milestone.\nTickers: N/A | Sentiment: bullish | Suggested: monitor\nSource: rss:Yahoo_Finance\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:17,369 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [CRITICAL]\nHeadline: Zoom Posts a Rare Quarterly Earnings Miss, but Underlying Fundamentals Remain Strong\nTickers: N/A | Sentiment: bearish | Suggested: sell\nSource: rss:Yahoo_Finance\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:18,008 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', "🚨 BREAKING NEWS [HIGH]\nHeadline: U.S. Senate Democrats asked Treasury, DOJ to probe Binance's illicit finance controls\nTickers: ROL | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinDesk\n\nReview this and decide if any action is needed on our positions or watchlist.", '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:18,251 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Coinbase’s head of litigation says states are “gaslighting” on prediction markets\nTickers: SA | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinDesk\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:18,506 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: The worst may lie ahead. Bitcoin chart revisits historic pattern.\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinDesk\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:18,756 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Bitcoin falls with ether, solana while decred, AI-linked tokens advance\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinDesk\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:19,013 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: U.S. spot bitcoin ETFs set for biggest week in 6 after adding $1.1 billion in three days\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinDesk\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:19,681 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Bitcoin price slump versus gold’s gains highlights evolving crypto market\nTickers: GM, SA | Sentiment: bullish | Suggested: buy\nSource: rss:CoinTelegraph\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:19,947 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Three Solana data points highlight resilience, but is SOL undervalued?\nTickers: N/A | Sentiment: bullish | Suggested: monitor\nSource: rss:CoinTelegraph\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:20,196 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinTelegraph\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:20,688 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: Bitcoin to $30K? Analysts debate when and at what price BTC will bottom\nTickers: N/A | Sentiment: neutral | Suggested: monitor\nSource: rss:CoinTelegraph\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:21,139 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: SEC is seeking to regain crypto ground following ‘missed opportunity,’ Chairman Atkins says\nTickers: SA | Sentiment: bearish | Suggested: sell\nSource: rss:TheBlock\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:21,633 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [CRITICAL]\nHeadline: Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft\nTickers: SA | Sentiment: bullish | Suggested: buy\nSource: rss:TheBlock\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:21,882 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [CRITICAL]\nHeadline: Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns\nTickers: SA | Sentiment: bearish | Suggested: sell\nSource: rss:TheBlock\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:22,650 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING NEWS [HIGH]\nHeadline: ‘We like it more,’ Bernstein says after Figure posts 156% jump in Q4 profit\nTickers: SA | Sentiment: neutral | Suggested: monitor\nSource: rss:TheBlock\n\nReview this and decide if any action is needed on our positions or watchlist.', '--deliver']' timed out after 60 seconds
+2026-02-27 14:50:24,137 [realtime_news] WARNING: Failed to notify agent: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', "🚨 BREAKING NEWS [HIGH]\nHeadline: Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI\nTickers: N/A | Sentiment: bearish | Suggested: sell\nSource: rss:Decrypt\n\nReview this and decide if any action is needed on our positions or watchlist.", '--deliver']' timed out after 60 seconds
+2026-02-27 14:53:13,306 [realtime_news] INFO: 🚨 ALERT: [high] GM — Bitcoin price slump versus gold’s gains highlights evolving crypto market
+2026-02-27 14:53:13,562 [realtime_news] INFO: 🚨 ALERT: [high] ROL — U.S. Senate Democrats asked Treasury, DOJ to probe Binance's illicit finance con
+2026-02-27 14:53:13,814 [realtime_news] INFO: 🚨 ALERT: [high] SA — Coinbase’s head of litigation says states are “gaslighting” on prediction market
+2026-02-27 14:53:16,560 [realtime_news] INFO: ✅ Agent notified: [HIGH] GM
+2026-02-27 14:53:18,671 [realtime_news] INFO: ✅ Agent notified: [HIGH] ROL
+2026-02-27 14:53:20,912 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 14:55:34,200 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia crushes Q4 earnings, AI boom lifts crypto market
+2026-02-27 14:55:34,731 [realtime_news] INFO: 🚨 ALERT: [high] SA — Salesforce Eases AI Fears With Strong Outlook and Big Buybacks
+2026-02-27 14:55:41,212 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 14:55:43,585 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 14:57:14,011 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.3 BTC ($6.9M) transferred
+2026-02-27 14:57:14,013 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.3 BTC ($6.9M) transferred
+2026-02-27 14:57:19,571 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:01:52,129 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Reported earlier, Subsea 7 Affirms FY2026 Sales Guidance of $7.000B-$7.400B
+2026-02-27 15:01:56,092 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 15:03:18,858 [realtime_news] INFO: 🚨 ALERT: [critical] ASND — Ascendis Pharma Receives FDA Approval For YUVIWEL For Children With Achondroplas
+2026-02-27 15:03:23,442 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] ASND
+2026-02-27 15:04:54,953 [realtime_news] INFO: 🚨 ALERT: [high] SA — Coinbase’s head of litigation says states are 'gaslighting' on prediction market
+2026-02-27 15:04:59,255 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 15:07:16,061 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 258.3 BTC ($17.0M) transferred
+2026-02-27 15:07:16,061 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 258.3 BTC ($17.0M) transferred
+2026-02-27 15:07:20,573 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:08:00,702 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Supertanker Market Heats Up With War Premium Back in Play
+2026-02-27 15:08:00,954 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — American Bitcoin 2025 earnings: ABTC revenue jumps 22% in Q4, treasury hits 6,00
+2026-02-27 15:08:04,826 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:08:08,396 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:09:16,532 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 2,837.3 BTC ($186.6M) transferred
+2026-02-27 15:09:16,532 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 2,837.3 BTC ($186.6M) transferred
+2026-02-27 15:09:21,504 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:12:14,293 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Newell Brands leans on tariff playbook again in 2026
+2026-02-27 15:12:17,591 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:20:31,079 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Solana trading platform employees accused of insider trading using sensitive cus
+2026-02-27 15:20:31,323 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Netflix's Ad Revenue Is Expected to Surge 100% to $3 Billion: Is This the Best S
+2026-02-27 15:20:31,580 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Circle Stock Is Soaring on Earnings, and 1 Analyst Thinks It Can Still Gain 260%
+2026-02-27 15:20:35,717 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 15:20:38,538 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 15:20:42,025 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:23:37,923 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin mining stocks slide as bitcoin fails to clear $70,000
+2026-02-27 15:23:44,907 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 15:31:22,100 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.9 BTC ($7.0M) transferred
+2026-02-27 15:31:22,100 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.9 BTC ($7.0M) transferred
+2026-02-27 15:31:27,395 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:33:58,047 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — AI boom propels Nvidia to record $215B in annual revenue
+2026-02-27 15:34:01,296 [realtime_news] INFO: ✅ Agent notified: [HIGH] NVDA
+2026-02-27 15:37:23,800 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 287.0 BTC ($18.9M) transferred
+2026-02-27 15:37:23,801 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 287.0 BTC ($18.9M) transferred
+2026-02-27 15:37:27,979 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:40:08,880 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — FedEx, Costco, Goodyear: Companies Race to Get Tariff Money Back
+2026-02-27 15:40:09,174 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Millrose (MRP) Q4 2025 Earnings Call Transcript
+2026-02-27 15:40:15,983 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:40:19,528 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:41:24,642 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 108.9 BTC ($7.2M) transferred
+2026-02-27 15:41:24,642 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 108.9 BTC ($7.2M) transferred
+2026-02-27 15:41:29,240 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:43:25,183 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 138.7 BTC ($9.1M) transferred
+2026-02-27 15:43:25,184 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 138.7 BTC ($9.1M) transferred
+2026-02-27 15:43:28,732 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 15:50:33,148 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nexstar (NXST) Q4 2025 Earnings Call Transcript
+2026-02-27 15:50:33,412 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Market Yawns as Nvidia Reports Record Earnings. Should Investors Be Worried?
+2026-02-27 15:50:37,033 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 15:50:39,401 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 15:57:46,455 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Why Did Nvidia Stock Crash Today After Blowout Earnings?
+2026-02-27 15:57:50,209 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 16:00:53,708 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Middleby (MIDD) Q4 2025 Earnings Call Transcript
+2026-02-27 16:00:59,092 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:02:58,755 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Wolverine (WWW) Q4 2025 Earnings Call Transcript
+2026-02-27 16:02:59,014 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Shake Shack Inc. Q4 2025 Earnings Call Summary
+2026-02-27 16:03:04,378 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:03:06,581 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:26:41,802 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin Miner Tied to Trumps Pummeled by Crypto Crash
+2026-02-27 16:26:45,611 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 16:33:54,726 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Royal Bank of Canada Earnings Lifted by Personal Banking, Markets Growth
+2026-02-27 16:33:54,996 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — My Recent RAM Upgrade Just Quadrupled in Price. Here's Why I'm Not Mad.
+2026-02-27 16:33:55,492 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Soleno Therapeutics, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 16:33:58,523 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:34:01,525 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 16:34:05,195 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:34:57,604 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Certara Q4 Earnings Call Highlights
+2026-02-27 16:34:57,859 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — D-Wave Quantum Inc. Q4 2025 Earnings Call Summary
+2026-02-27 16:35:01,020 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:35:03,511 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:39:05,200 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Vistra (VST) Q4 2025 Earnings Call Transcript
+2026-02-27 16:39:05,466 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — BioCryst Pharmaceuticals Q4 Earnings Call Highlights
+2026-02-27 16:39:05,721 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Codere Online Luxembourg Q4 Earnings Call Highlights
+2026-02-27 16:39:05,980 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Warner Bros. Discovery, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 16:39:09,010 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:39:14,728 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:39:18,503 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:39:20,865 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:47:20,524 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — OneDigital Acquires $1.4B San Francisco RIA, $330M North Carolina-based Firm
+2026-02-27 16:47:20,826 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Shake Shack’s Earnings Explosion Sends Shares Soaring
+2026-02-27 16:47:24,166 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] ROL
+2026-02-27 16:47:27,224 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:50:28,121 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Celsius Rockets Higher After Blowout Q4 Earnings Report
+2026-02-27 16:50:31,383 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:53:33,996 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Vistra’s 2026 Guidance Reinforces Its Multi-Year Growth Path
+2026-02-27 16:53:34,245 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Loar Holdings (LOAR) Q4 2025 Earnings Transcript
+2026-02-27 16:53:34,488 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Papa Johns announces 300 store closures and 7% corporate layoffs
+2026-02-27 16:53:37,874 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:53:40,221 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 16:53:42,854 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 16:59:44,974 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Privia Health Group, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 16:59:48,884 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:01:48,839 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — eBay layoffs today: 6% of jobs cut days after buying Depop from Etsy
+2026-02-27 17:01:49,087 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Spine Surgery Gear Maker Rises On Strong Earnings Outlook
+2026-02-27 17:01:52,783 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:01:56,165 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:10:07,017 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Crescent Capital BDC (CCAP) Earnings Transcript
+2026-02-27 17:10:07,517 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Green Brick (GRBK) Earnings Call Transcript
+2026-02-27 17:10:07,764 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — C3.ai Plummets 20% After Earnings. Should You Buy the Dip in AI Stock Now?
+2026-02-27 17:10:11,832 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:10:14,541 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:10:19,800 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:16:19,512 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PSEG (PEG) Q4 2025 Earnings Call Transcript
+2026-02-27 17:16:19,888 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Star Bulk (SBLK) Q4 2025 Earnings Call Transcript
+2026-02-27 17:16:24,160 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:16:26,448 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:19:48,818 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 287.8 BTC ($19.0M) transferred
+2026-02-27 17:19:48,819 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 287.8 BTC ($19.0M) transferred
+2026-02-27 17:19:52,107 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 17:25:37,098 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hormel (HRL) Q1 2026 Earnings Call Transcript
+2026-02-27 17:25:37,360 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Krispy Kreme Crushes Q4 Earnings in Sweet Turnaround
+2026-02-27 17:25:37,599 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pennant Group (PNTG) Earnings Call Transcript
+2026-02-27 17:25:40,938 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:25:44,658 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:25:49,113 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:27:42,023 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Camping World (CWH) Q4 2025 Earnings Transcript
+2026-02-27 17:27:42,296 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Summit Hotel (INN) Earnings Call Transcript
+2026-02-27 17:27:42,541 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Forget the Quantum Hype Cycle: IonQ's Earnings Just Proved the Business Is Real
+2026-02-27 17:27:47,073 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:27:50,703 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 164.5 BTC ($10.8M) transferred
+2026-02-27 17:27:50,703 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 164.5 BTC ($10.8M) transferred
+2026-02-27 17:27:50,811 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:27:53,900 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:27:56,455 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 17:31:50,252 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — TETRA (TTI) Q4 2025 Earnings Call Transcript
+2026-02-27 17:31:50,515 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PENN (PENN) Q4 2025 Earnings Call Transcript
+2026-02-27 17:31:51,266 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Diverse Revenue Mix Sparks Optimism Around The PNC Financial Services Group, Inc
+2026-02-27 17:31:54,045 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:31:56,613 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:31:59,398 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:33:52,536 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 120.0 BTC ($7.9M) transferred
+2026-02-27 17:33:52,537 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 120.0 BTC ($7.9M) transferred
+2026-02-27 17:33:58,746 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 17:35:53,049 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 258.1 BTC ($17.0M) transferred
+2026-02-27 17:35:53,050 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 258.1 BTC ($17.0M) transferred
+2026-02-27 17:35:57,384 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 17:44:14,145 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Just Set It and Forget It With These Dividend Stocks
+2026-02-27 17:44:14,636 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — What Do Further Rate Cuts Mean for Wells Fargo & Company (WFC)
+2026-02-27 17:44:17,954 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:44:20,695 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:45:18,391 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Trump’s New Tariff Threat Makes This Vanguard ETF Best for the ‘Sell-America’ Tr
+2026-02-27 17:45:21,936 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 17:49:56,041 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 283.2 BTC ($18.6M) transferred
+2026-02-27 17:49:56,042 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 283.2 BTC ($18.6M) transferred
+2026-02-27 17:49:59,772 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 17:54:35,821 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Recursion Pharmaceuticals (RXRX) Hits Clinical Milestones as 2025 Revenue Grows 
+2026-02-27 17:54:36,332 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UWM Holdings (UWMC) Achieves Record Loan Volume and $945M Q4 Revenue
+2026-02-27 17:54:36,868 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iovance Biotherapeutics (IOVA) Reports 61% Annual Revenue Growth Driven by Amtag
+2026-02-27 17:54:40,438 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:54:44,107 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:54:47,452 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:58:43,904 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Big banks retreated from mortgages after the 2008 housing market crash—now this 
+2026-02-27 17:58:44,152 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Solana ETF Inflows Hit 2.5 Month High — Why Is Price Still Subdued?
+2026-02-27 17:58:47,863 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 17:58:51,835 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:01:49,927 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — 158-year-old bank 'neutral' on Circle despite earnings beat
+2026-02-27 18:01:50,205 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Trump Brothers' American Bitcoin Mining Firm Reports $59 Million Q4 Loss
+2026-02-27 18:01:51,000 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Geron (GERN) 2025 Revenue Surges to $183.6M Driven by RYTELO Commercial Success
+2026-02-27 18:01:57,607 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:02:00,843 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:02:03,839 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:05:59,752 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 107.4 BTC ($7.1M) transferred
+2026-02-27 18:05:59,752 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 107.4 BTC ($7.1M) transferred
+2026-02-27 18:06:03,332 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:07:02,786 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Trump Brothers’ Bitcoin Miner Posts Quarterly Loss
+2026-02-27 18:07:04,064 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Celsius (CELH) Q4 2025 Earnings Call Transcript
+2026-02-27 18:07:06,984 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:07:18,246 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:08:07,967 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Morgan Stanley applies for OCC bank charter to custody crypto
+2026-02-27 18:08:14,301 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:14:18,890 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — FTAI (FTAI) Q4 2025 Earnings Call Transcript
+2026-02-27 18:14:19,152 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dorman (DORM) Q4 2025 Earnings Call Transcript
+2026-02-27 18:14:23,356 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:14:26,660 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:20:31,755 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — GoodRx (GDRX) Q4 2025 Earnings Call Transcript
+2026-02-27 18:20:36,455 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:28:06,040 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Morgan Stanley applies for OCC bank charter to custody crypto
+2026-02-27 18:28:06,953 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.6 BTC ($7.0M) transferred
+2026-02-27 18:28:06,956 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.6 BTC ($7.0M) transferred
+2026-02-27 18:28:07,060 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.6 BTC ($7.0M) transferred
+2026-02-27 18:28:07,060 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.6 BTC ($7.0M) transferred
+2026-02-27 18:28:09,967 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:28:12,589 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:28:17,148 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:29:47,847 [realtime_news] INFO: 🚨 ALERT: [high] SA — Tim Cook, Jensen Huang, Lisa Su Were Reportedly Warned Of Potential China Move O
+2026-02-27 18:29:53,803 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 18:30:07,844 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.5 BTC ($7.0M) transferred
+2026-02-27 18:30:07,845 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.5 BTC ($7.0M) transferred
+2026-02-27 18:30:11,252 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:31:51,576 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Thryv (THRY) Q4 2025 Earnings Call Transcript
+2026-02-27 18:31:51,842 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mortgage rates below 6% bring fresh hope to the housing market
+2026-02-27 18:31:52,094 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Shenandoah (SHEN) Q4 2025 Earnings Call Transcript
+2026-02-27 18:31:55,646 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:31:58,668 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:32:01,156 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:33:56,551 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Generate caps a strong month for biotech IPOs with $400M offering
+2026-02-27 18:33:56,802 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin fans latch on to ‘ridiculous’ Jane Street conspiracy to explain price sl
+2026-02-27 18:34:01,188 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:34:04,683 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:34:08,750 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.4 BTC ($6.9M) transferred
+2026-02-27 18:34:08,751 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.4 BTC ($6.9M) transferred
+2026-02-27 18:34:12,527 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:36:09,243 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 170.5 BTC ($11.2M) transferred
+2026-02-27 18:36:09,243 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 170.5 BTC ($11.2M) transferred
+2026-02-27 18:36:12,697 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 18:41:09,006 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Primo Brands (PRMB) Q4 2025 Earnings Transcript
+2026-02-27 18:41:09,751 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Intuit expects profit below estimates on higher marketing spend during US tax se
+2026-02-27 18:41:13,391 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:41:16,480 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:47:20,969 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Eos Energy Enterprises Q4 Earnings Call Highlights
+2026-02-27 18:47:21,956 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Charles River Associates Q4 Earnings Call Highlights
+2026-02-27 18:47:22,205 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — LGBTQ+ dating app Grindr beats revenue estimates, bets on AI to drive growth
+2026-02-27 18:47:25,498 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:47:28,519 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:47:33,669 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 18:51:29,330 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Stock market today: S&P 500, Nasdaq retreat as Nvidia falls 5% despite stellar e
+2026-02-27 18:51:29,817 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Coupang swings to loss as data breach dents Q4; sees muted near-term growth
+2026-02-27 18:51:34,976 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 18:51:37,626 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:53:34,608 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — JPMorgan Gives Bold Nvidia Stock Price Target, But Market’s Not Buying It
+2026-02-27 18:53:34,882 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Perimeter Solutions (PRM) Earnings Transcript
+2026-02-27 18:53:35,140 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Treasury Yields Decline Ahead of U.S. Producer Price Data
+2026-02-27 18:53:39,848 [realtime_news] INFO: ✅ Agent notified: [HIGH] NVDA
+2026-02-27 18:53:42,380 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 18:53:45,373 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 19:09:02,248 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Celsius CEO Discusses Doubling Sales, Soaring Stock
+2026-02-27 19:09:06,362 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 19:12:07,694 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Playtika (PLTK) Q4 2025 Earnings Call Transcript
+2026-02-27 19:12:11,630 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:14:11,618 [realtime_news] INFO: 🚨 ALERT: [high] SA — What the stock market is saying about the housing market
+2026-02-27 19:14:11,866 [realtime_news] INFO: 🚨 ALERT: [high] SA — Why Salesforce’s $50 Billion Buyback Didn’t Save The Stock
+2026-02-27 19:14:12,368 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Intuit Guidance Misses Estimates. CEO Says AI Isn’t a Threat.
+2026-02-27 19:14:15,542 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 19:14:18,736 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 19:14:22,884 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 19:26:35,236 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Integra LifeSciences (IART) Earnings Transcript
+2026-02-27 19:26:35,480 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — FTI Consulting, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:26:35,740 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — KBR (KBR) Q4 2025 Earnings Call Transcript
+2026-02-27 19:26:35,982 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ACI Worldwide, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:26:36,247 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Collegium Pharmaceutical, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:26:36,500 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ligand Pharma (LGND) Earnings Call Transcript
+2026-02-27 19:26:36,758 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Acme United Corporation Q4 2025 Earnings Call Summary
+2026-02-27 19:26:37,003 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hormel Foods Corporation Q1 2026 Earnings Call Summary
+2026-02-27 19:26:40,908 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:26:45,794 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:26:49,279 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:26:51,627 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:26:55,921 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:26:59,223 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:27:02,359 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:27:06,941 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:31:45,966 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Heron Therapeutics, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:31:46,467 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nomad Foods Limited Q4 2025 Earnings Call Summary
+2026-02-27 19:31:46,713 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CoreCivic Stock Down This Past Year, but One Fund Took a $5 Million Stake Amid 2
+2026-02-27 19:31:46,972 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Celsius Holdings, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:31:47,247 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — KBR, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:31:48,002 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ecovyst Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:31:48,250 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Global Net Lease, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:31:50,273 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:31:59,956 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:32:03,078 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 19:32:05,801 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:32:08,938 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:32:11,807 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:32:14,403 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:36:56,837 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — The Marcus Corporation Q4 2025 Earnings Call Summary
+2026-02-27 19:36:57,086 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Peter Schiff: If You Invested $10,000 In Bitcoin In 2021, You'd Be Down $900—But
+2026-02-27 19:36:57,582 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — NexPoint Real Estate Finance, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:36:57,835 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Playtika Holding Corp. Q4 2025 Earnings Call Summary
+2026-02-27 19:36:58,343 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bentley Systems, Incorporated Q4 2025 Earnings Call Summary
+2026-02-27 19:36:58,585 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Gold Inches Up as Traders Eye US Tariffs and Iran Nuclear Talks
+2026-02-27 19:36:58,835 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — NovoCure Limited Q4 2025 Earnings Call Summary
+2026-02-27 19:37:01,910 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:37:05,636 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 19:37:08,599 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:37:11,847 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:37:14,705 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:37:27,492 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:37:47,971 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:42:08,210 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Schneider Electric Stock Jumps on Strong Earnings and AI Data Center Growth
+2026-02-27 19:42:08,712 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ACM Research, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:42:11,932 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:42:25,232 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.7 BTC ($7.0M) transferred
+2026-02-27 19:42:25,232 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.7 BTC ($7.0M) transferred
+2026-02-27 19:42:51,695 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:42:55,026 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 19:46:15,675 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Public Service Enterprise Group Incorporated Q4 2025 Earnings Call Summary
+2026-02-27 19:46:15,931 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Perrigo Company plc Q4 2025 Earnings Call Summary
+2026-02-27 19:46:16,172 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PENN Entertainment, Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:46:16,425 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia Slide Shows Investors’ Lukewarm Reception of Strong Earnings
+2026-02-27 19:46:16,940 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Dow Jones Futures Rise; Nvidia Climbs In Buy Zone After Strong Earnings, Guidanc
+2026-02-27 19:46:17,680 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Payoneer Global Inc. Q4 2025 Earnings Call Summary
+2026-02-27 19:46:27,674 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:46:31,510 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:46:49,228 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:46:56,123 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 19:47:05,903 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 19:47:09,395 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 19:53:29,497 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — NCR Voyix Reports Revenue, Adjusted EBITDA & EPS Gains for Q4
+2026-02-27 19:53:29,761 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Shake Shack Shares Rise 7% on Revenue, New Stores
+2026-02-27 19:53:30,983 [realtime_news] INFO: 🚨 ALERT: [critical] SA — These Stocks Are Today’s Movers: Nvidia, Sandisk, Paramount, IonQ, D-Wave Quantu
+2026-02-27 19:53:39,616 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 19:53:45,117 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 19:53:49,520 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 20:03:48,801 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — One Fund Bet $5 Million on Enovis Stock Last Quarter. Shares Surged 14% Post-Ear
+2026-02-27 20:03:53,306 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 20:15:09,465 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia’s Market Cap Posts Biggest Drop Since March 2025—Despite Blowout Earnings
+2026-02-27 20:15:13,703 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 20:22:34,759 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 105.1 BTC ($6.9M) transferred
+2026-02-27 20:22:34,760 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 105.1 BTC ($6.9M) transferred
+2026-02-27 20:22:39,193 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 20:23:22,714 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock of FanDuel Parent Falls on Earnings Miss. The CEO Blames a Less Exciting N
+2026-02-27 20:23:22,992 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Tesla Stock Falls. What Nvidia’s Earnings Mean for the EV Maker’s Robots.
+2026-02-27 20:23:26,795 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 20:23:29,794 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 20:25:26,964 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6
+2026-02-27 20:25:39,532 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 20:34:42,385 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Warner Bros. Earnings Report Falls Short. What It Means for the Netflix Takeover
+2026-02-27 20:34:46,437 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 20:36:39,341 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 20:36:39,341 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 20:36:43,636 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 20:36:46,246 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Intuit’s quarterly earnings top estimates but soft guidance dissapoints
+2026-02-27 20:36:46,491 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — This Struggling Auto Maker’s Earnings Revealed a Big Loss. Why the Results Are L
+2026-02-27 20:36:46,732 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Qnity Stock Rises After Earnings Beat. Why It Can Ride the AI Chips Wave in 2026
+2026-02-27 20:36:50,825 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 20:36:53,375 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 20:36:56,888 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 20:38:39,750 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 108.8 BTC ($7.1M) transferred
+2026-02-27 20:38:39,751 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 108.8 BTC ($7.1M) transferred
+2026-02-27 20:38:43,412 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 20:40:40,531 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 20:40:40,532 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 20:40:51,411 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 20:44:41,534 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 283.9 BTC ($18.6M) transferred
+2026-02-27 20:44:41,535 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 283.9 BTC ($18.6M) transferred
+2026-02-27 20:44:49,459 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 20:47:05,336 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Betting giant Flutter forecasts 2026 profit far below estimates on US challenges
+2026-02-27 20:47:09,326 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 20:48:07,011 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Acushnet (GOLF) Q4 2025 Earnings Call Transcript
+2026-02-27 20:48:10,425 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 20:56:21,319 [realtime_news] INFO: 🚨 ALERT: [high] SA — MP Materials Revenue Falls After Halting Rare Earth Sales to China
+2026-02-27 20:56:25,464 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 21:00:28,838 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — D-Wave Quantum Stock Rises on Earnings. Why a Revenue Miss Doesn’t Seem to Matte
+2026-02-27 21:00:35,000 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:00:44,958 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 100.3 BTC ($6.6M) transferred
+2026-02-27 21:00:44,959 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 100.3 BTC ($6.6M) transferred
+2026-02-27 21:00:48,882 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 21:02:42,619 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6
+2026-02-27 21:02:46,774 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 21:05:38,371 [realtime_news] INFO: 🚨 ALERT: [critical] GM — Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin
+2026-02-27 21:05:42,244 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] GM
+2026-02-27 21:09:45,058 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Krispy Kreme announces further refranchising plans after Q4 revenue declines
+2026-02-27 21:09:49,094 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 21:10:00,892 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Blackstone CEO Schwarzman Earns Over $1.2 Billion In 2025 Amid Record Profits
+2026-02-27 21:10:05,196 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 21:10:47,385 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — H2O America Q4 Earnings Call Highlights
+2026-02-27 21:10:47,641 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MannKind Q4 Earnings Call Highlights
+2026-02-27 21:10:47,894 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Middleby Q4 Earnings Call Highlights
+2026-02-27 21:10:56,267 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:11:01,165 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:11:04,163 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:14:55,742 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Why the S&P 500 was doomed to fall when Nvidia plunged after its earnings
+2026-02-27 21:15:00,508 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 21:24:11,468 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock Market Today, Feb. 26: Nu Holdings Drops After Investors React to Earnings
+2026-02-27 21:24:11,728 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hot Spinoff Qnity Electronics Crushes Q4 Earnings Estimates
+2026-02-27 21:24:16,740 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:24:19,953 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:26:47,952 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin
+2026-02-27 21:26:51,984 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 21:26:52,017 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 21:26:52,021 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.8 BTC ($6.9M) transferred
+2026-02-27 21:26:59,667 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 21:29:21,544 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Duolingo Sees Slower Revenue Growth Ahead in Shift to Growing User Base
+2026-02-27 21:29:21,799 [realtime_news] INFO: 🚨 ALERT: [critical] SA — IonQ Stock Jumps 22% on Earnings. Quantum Pure Play Is at ‘Inflection Point,’ CE
+2026-02-27 21:29:26,381 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 21:29:29,524 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 21:33:29,138 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Block Stock Pops as Jack Dorsey's Bitcoin, Payments Company Dumps 4,000 Jobs
+2026-02-27 21:33:29,429 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia Earnings Beat Lifts AI Crypto Tokens and Stocks
+2026-02-27 21:33:29,675 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock Market Today, Feb. 26: IonQ Surges After Revenue and 2026 Guidance Exceed 
+2026-02-27 21:33:34,092 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 21:33:38,437 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 21:33:42,093 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:43:50,432 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ACM Research Stock Tumbles On Q4 Earnings Miss
+2026-02-27 21:43:50,692 [realtime_news] INFO: 🚨 ALERT: [high] ROL — Analysis-As Trump reins in China tech curbs, Beijing's export controls come of a
+2026-02-27 21:43:56,585 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:44:00,213 [realtime_news] INFO: ✅ Agent notified: [HIGH] ROL
+2026-02-27 21:46:56,270 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Brink’s to Acquire NCR Atleos in $4 Billion Deal in Combo of ATM Players
+2026-02-27 21:46:56,529 [realtime_news] INFO: 🚨 ALERT: [high] SA — Monster Beverage Posts Higher Fourth-Quarter Profit as Energy Drink Sales Rise
+2026-02-27 21:47:00,633 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:47:04,642 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 21:47:59,074 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Expensify Q4 Earnings Call Highlights
+2026-02-27 21:48:08,156 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 21:57:15,918 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Puma Biotech (PBYI) Earnings Call Transcript
+2026-02-27 21:57:20,380 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:02:28,714 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ambarella (AMBA) Q4 2026 Earnings Call Transcript
+2026-02-27 22:02:33,773 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:05:36,122 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MDxHealth (MDXH) Q4 2025 Earnings Call Transcript
+2026-02-27 22:05:40,367 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:09:44,627 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nerdy (NRDY) Q4 2025 Earnings Call Transcript
+2026-02-27 22:09:44,948 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Strategic Education (STRA) Earnings Transcript
+2026-02-27 22:09:49,702 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:09:56,426 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:11:12,122 [realtime_news] INFO: 🚨 ALERT: [high] SA — Russia-Ukraine Local Ceasefire Enables Zaporizhzhia Nuclear Plant Power Line Rep
+2026-02-27 22:11:16,592 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 22:16:59,647 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ora Banda posts record $336.3m half-year revenue as EBITDA more than doubles
+2026-02-27 22:16:59,897 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Figure (FIGR) Q4 2025 Earnings Call Transcript
+2026-02-27 22:17:03,998 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 22:17:06,453 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:25:15,286 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Progyny (PGNY) Q4 2025 Earnings Call Transcript
+2026-02-27 22:25:19,690 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:26:18,313 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Solventum (SOLV) Q4 2025 Earnings Call Transcript
+2026-02-27 22:26:19,067 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Binance cannot arbitrate customer claims over crypto losses, US judge rules
+2026-02-27 22:26:22,972 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:26:28,864 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 22:29:07,295 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 101.7 BTC ($6.6M) transferred
+2026-02-27 22:29:07,295 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 101.7 BTC ($6.6M) transferred
+2026-02-27 22:29:12,175 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 22:34:33,997 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — SoundHound AI (SOUN) Q4 2025 Earnings Transcript
+2026-02-27 22:34:34,526 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dell (DELL) Q4 2026 Earnings Call Transcript
+2026-02-27 22:34:38,555 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:34:43,269 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:39:10,304 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 112.4 BTC ($7.2M) transferred
+2026-02-27 22:39:10,305 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 112.4 BTC ($7.2M) transferred
+2026-02-27 22:39:15,136 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 22:39:43,550 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Jack in the Box's Revenue and Sales Are Down. Here Are 3 Key Takeaways From Its 
+2026-02-27 22:39:44,052 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PRA Group (PRAA) Q4 2025 Earnings Call Transcript
+2026-02-27 22:39:48,644 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-27 22:39:52,511 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:42:04,915 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Gene Munster Questions Nvidia Selloff After Blowout Earnings: &#39;Will Fundamen
+2026-02-27 22:42:08,484 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] NVDA
+2026-02-27 22:49:13,689 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 674.4 BTC ($43.1M) transferred
+2026-02-27 22:49:13,690 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 674.4 BTC ($43.1M) transferred
+2026-02-27 22:49:13,787 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 106.9 BTC ($6.8M) transferred
+2026-02-27 22:49:13,789 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 106.9 BTC ($6.8M) transferred
+2026-02-27 22:49:13,915 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 149.1 BTC ($9.5M) transferred
+2026-02-27 22:49:13,915 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 149.1 BTC ($9.5M) transferred
+2026-02-27 22:49:18,975 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 22:49:23,736 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 22:49:27,006 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 22:51:03,823 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — How to buy ethereum — and what to know before you do
+2026-02-27 22:51:04,410 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Marathon Digital (MARA) Earnings Call Transcript
+2026-02-27 22:51:18,369 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 22:51:22,228 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:53:08,143 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Personalis (PSNL) Q4 2025 Earnings Call Transcript
+2026-02-27 22:53:12,380 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 22:57:16,041 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin slides under $64,000 as U.S. and Israel launch strikes on Iran
+2026-02-27 22:57:43,834 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:01:16,560 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,952.8 BTC ($123.5M) transferred
+2026-02-27 23:01:16,561 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,952.8 BTC ($123.5M) transferred
+2026-02-27 23:01:22,508 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 23:01:23,009 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ambarella Q4 Earnings Call Highlights
+2026-02-27 23:01:23,801 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Adobe Inc. (ADBE)’s Upside Potential at 71% Despite Recent Price Target Reductio
+2026-02-27 23:01:24,295 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Alignment Healthcare Q4 Earnings Call Highlights
+2026-02-27 23:01:24,544 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Argus Research Cuts Price Target on Gen Digital Inc. (GEN) Citing Impact From Te
+2026-02-27 23:01:24,805 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Trims Price Target on EPAM Systems, Inc. (EPAM) to $160, Keeps Eq
+2026-02-27 23:01:25,055 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Benchmark Cuts GoDaddy Inc. (GDDY)’s Price Target To $210, Maintains Buy Rating
+2026-02-27 23:01:25,548 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Applied Optoelectronics Q4 Earnings Call Highlights
+2026-02-27 23:01:26,066 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CGI Inc. (GIB) Lands $64 Million Contract To Modernize EPA’s Financial Managemen
+2026-02-27 23:01:26,799 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:01:30,097 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:01:33,640 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:01:36,377 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:01:39,817 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:01:43,040 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:01:47,148 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:01:52,912 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:02:28,547 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran
+2026-02-27 23:02:33,435 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:03:30,655 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PureCycle (PCT) Q4 2025 Earnings Call Transcript
+2026-02-27 23:03:36,733 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:13:48,374 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Airgain Q4 Earnings Call Highlights
+2026-02-27 23:13:48,644 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Autodesk Q4 Earnings Call Highlights
+2026-02-27 23:13:52,798 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:13:56,011 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:15:51,912 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — Pentagon-Anthropic AI standoff is real-time testing balance of power in future o
+2026-02-27 23:15:57,478 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] ROL
+2026-02-27 23:18:58,776 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — OpenAI wins defense contract hours after government ditches Anthropic
+2026-02-27 23:19:03,925 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:21:02,036 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ADB President on Tariff Uncertainty, BOJ Policy
+2026-02-27 23:21:06,819 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:26:11,754 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 1 Magnificent Dividend Stock Down 35% to Buy and Hold Forever
+2026-02-27 23:26:12,033 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bitcoin Headed For Worst Month In 4 Years: 'Either It's Dead Or Dollar Cost Aver
+2026-02-27 23:26:16,265 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:26:21,072 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 23:27:13,957 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — OpenAI wins defense contract hours after government ditches Anthropic
+2026-02-27 23:27:14,242 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran
+2026-02-27 23:27:19,341 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:27:23,211 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:31:17,947 [realtime_news] INFO: 🚨 ALERT: [high] SA — Peter Schiff Says &#39;Dollars Win&#39; Over Bitcoin As BTC Hovers Near $65,000:
+2026-02-27 23:31:22,737 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 23:33:24,932 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 113.4 BTC ($7.2M) transferred
+2026-02-27 23:33:24,933 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 113.4 BTC ($7.2M) transferred
+2026-02-27 23:33:29,579 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 23:37:26,186 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 100.0 BTC ($6.4M) transferred
+2026-02-27 23:37:26,187 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 100.0 BTC ($6.4M) transferred
+2026-02-27 23:37:30,539 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-27 23:38:36,275 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — MARA Shares Rise After Bitcoin Miner Strikes AI Data Center Deal
+2026-02-27 23:38:43,004 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:49:58,516 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Cytek Biosciences Q4 Earnings Call Highlights
+2026-02-27 23:50:03,457 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:54:07,350 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — AvePoint Q4 Earnings Call Highlights
+2026-02-27 23:54:07,666 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Baldwin Insurance Group Q4 Earnings Call Highlights
+2026-02-27 23:54:07,929 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Raises its Price Target on Targa Resources Corp. (TRGP) to $242 an
+2026-02-27 23:54:08,206 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Raises its Price Target on Global Payments Inc. (GPN) to $97 and Mai
+2026-02-27 23:54:08,501 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Raises its Price Target on Vulcan Materials Company (VMC) to $360 and Mai
+2026-02-27 23:54:08,952 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Raises its Price Target on A. O. Smith Corporation (AOS) to $69 fr
+2026-02-27 23:54:09,225 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Argus Upgrades Deckers Outdoor Corporation (DECK) to Buy from Hold
+2026-02-27 23:54:12,160 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:54:15,636 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-27 23:54:19,094 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 23:54:22,094 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:54:28,161 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:54:32,695 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-27 23:54:36,376 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-27 23:59:32,999 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 453.9 BTC ($29.0M) transferred
+2026-02-27 23:59:33,000 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 453.9 BTC ($29.0M) transferred
+2026-02-27 23:59:38,482 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:03:30,641 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Caris Life Sciences Q4 Earnings Call Highlights
+2026-02-28 00:03:30,920 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Raises the Price Target on Quanta Services, Inc. (PWR) to $643 and Mainta
+2026-02-28 00:03:31,177 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Lowers its Price Target on Insulet Corporation (PODD) to $360 and Maintai
+2026-02-28 00:03:31,755 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Raises its Price Target on Edison International (EIX) to $68 from
+2026-02-28 00:03:32,010 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Raises its Price Target on FirstEnergy Corp. (FE) to $56 and Maintain
+2026-02-28 00:03:40,706 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 00:03:46,765 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:03:50,341 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:03:55,997 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:04:00,380 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:11:48,603 [realtime_news] INFO: 🚨 ALERT: [high] SA — OpenAI CSO Slams Elon Musk's xAI's Trade Secret Case After Court Dismissal: 'It 
+2026-02-28 00:11:48,932 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Yuan Snaps Rising Streak After China Cuts Cost to Short Currency
+2026-02-28 00:11:53,450 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 00:11:58,326 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:13:26,566 [realtime_news] INFO: 🚨 ALERT: [high] SA — &#39;Iran&#39;s State Television Announces That Iran&#39;s Armed Forces Were Get
+2026-02-28 00:13:40,118 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 00:19:01,464 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Is Salesforce Stock a Buy After a Strong Earnings Report?
+2026-02-28 00:19:06,524 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-28 00:25:16,813 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bitcoin price drops to $63K as US, Israel bomb Iran
+2026-02-28 00:25:21,576 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 00:28:21,811 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Steve Cohen's Point72 scoops up $336M in blue-chip dividend stock
+2026-02-28 00:28:29,023 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:37:37,369 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Figure Technology Solutions Q4 Earnings Call Highlights
+2026-02-28 00:37:43,691 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 136.3 BTC ($8.7M) transferred
+2026-02-28 00:37:43,692 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 136.3 BTC ($8.7M) transferred
+2026-02-28 00:37:44,591 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 00:37:48,062 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:39:41,384 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Wedbush Cautious on Best Buy (BBY) Ahead of Q4 Earnings
+2026-02-28 00:39:42,384 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Definitive Healthcare Q4 Earnings Call Highlights
+2026-02-28 00:39:42,900 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Strong US Chicken Profits Led to BMO Capital’s Target Price Increase on Pilgrim’
+2026-02-28 00:39:45,938 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 00:39:49,191 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 00:39:52,462 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:41:44,639 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 135.2 BTC ($8.6M) transferred
+2026-02-28 00:41:44,640 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 135.2 BTC ($8.6M) transferred
+2026-02-28 00:41:56,900 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:43:45,371 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.0 BTC ($6.6M) transferred
+2026-02-28 00:43:45,372 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.0 BTC ($6.6M) transferred
+2026-02-28 00:43:50,731 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — ICF International Q4 Earnings Call Highlights
+2026-02-28 00:43:56,241 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:44:01,410 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 00:45:46,176 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.9 BTC ($6.7M) transferred
+2026-02-28 00:45:46,177 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.9 BTC ($6.7M) transferred
+2026-02-28 00:45:50,235 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:47:47,087 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 197.4 BTC ($12.6M) transferred
+2026-02-28 00:47:47,088 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 197.4 BTC ($12.6M) transferred
+2026-02-28 00:47:50,995 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:49:48,027 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 168.8 BTC ($10.7M) transferred
+2026-02-28 00:49:48,028 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 168.8 BTC ($10.7M) transferred
+2026-02-28 00:49:52,675 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:51:38,639 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bitcoin price drops to $63K as US, Israel bomb Iran
+2026-02-28 00:51:43,586 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 00:53:49,077 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 156.3 BTC ($9.9M) transferred
+2026-02-28 00:53:49,078 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 156.3 BTC ($9.9M) transferred
+2026-02-28 00:53:49,182 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 208.5 BTC ($13.2M) transferred
+2026-02-28 00:53:49,182 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 208.5 BTC ($13.2M) transferred
+2026-02-28 00:53:53,107 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:53:58,523 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:55:12,766 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — U.S. Embassy In Qatar Issues Duck And Cover Warning To U.S. Citizens Until Furth
+2026-02-28 00:55:19,337 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:55:49,674 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 136.3 BTC ($8.7M) transferred
+2026-02-28 00:55:49,675 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 136.3 BTC ($8.7M) transferred
+2026-02-28 00:55:53,885 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 00:56:11,827 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Korea’s $1T Pension Fund Grew Its Bitcoin Bet — Then Crashed Harder
+2026-02-28 00:56:16,298 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:57:14,081 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Washington's Nightmare: Why America's AI Future Is Stuck On A Small Island Near 
+2026-02-28 00:57:14,595 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Veteran analyst revamps AMD price target following big news
+2026-02-28 00:57:19,437 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 00:57:23,431 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:01:20,985 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says ‘massive’ strike against Iran underway — bitcoin plunge offers a glim
+2026-02-28 01:01:27,900 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:03:09,863 [realtime_news] INFO: 🚨 ALERT: [high] SA — &#39;Qatar&#39;s Defence Ministry Is Saying That An Iranian Missile Has Been Int
+2026-02-28 01:03:14,903 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:03:41,062 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says ‘massive’ strike against Iran underway — bitcoin plunge offers a glim
+2026-02-28 01:03:47,072 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:03:47,420 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Smoke Seen From Bahrain&#39;s Juffair Area Housing U.S. Navy Base
+2026-02-28 01:03:51,938 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:08:32,956 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Lowers Humana (HUM) Price Target amid Questions on Margin Expansion Out
+2026-02-28 01:08:33,483 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — US stocks sink and oil prices rise as worries about AI, inflation and possible w
+2026-02-28 01:08:33,732 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — National Bank Raises Bank of Montreal (BMO) Price Target While Maintaining Secto
+2026-02-28 01:08:34,014 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Lowers MercadoLibre (MELI) Price Target amid Ongoing Investment Spending
+2026-02-28 01:08:34,301 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China Moves to Tame Yuan Rally by Slashing Shorting Costs
+2026-02-28 01:08:34,550 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AMD and Nutanix Announce Strategic Partnership to Build Open AI Infrastructure P
+2026-02-28 01:08:35,057 [realtime_news] INFO: 🚨 ALERT: [high] SA — Cantor Fitzgerald Raises Global Payments (GPN) Price Target, Says Q4 Cleared Key
+2026-02-28 01:08:35,564 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OPKO Health Q4 Earnings Call Highlights
+2026-02-28 01:08:37,807 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:08:43,278 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:08:47,694 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:08:55,116 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:08:59,005 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:09:02,868 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:09:05,748 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:09:09,512 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:10:40,219 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PureCycle Technologies Q4 Earnings Call Highlights
+2026-02-28 01:10:40,472 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Baird Upgrades KeyCorp (KEY) after Decline in Regional Bank Stocks
+2026-02-28 01:10:40,724 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pacira BioSciences Q4 Earnings Call Highlights
+2026-02-28 01:10:45,308 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:10:48,267 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:10:52,153 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:16:11,446 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bahrain Says Service Center Of U.S. Fifth Fleet Subjected To Missile Attack
+2026-02-28 01:16:23,451 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:17:52,914 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Opera Q4 Earnings Call Highlights
+2026-02-28 01:17:56,537 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:23:22,513 [realtime_news] INFO: 🚨 ALERT: [high] SA — OPEC+ May Consider Larger Oil Output Hike After U.S., Israel Attack On Iran; OPE
+2026-02-28 01:23:28,676 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:27:07,533 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says U.S. military has begun major combat operations in Iran, Bahrain says
+2026-02-28 01:27:13,273 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:39:28,941 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Oportun Financial Q4 Earnings Call Highlights
+2026-02-28 01:39:33,964 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:44:37,293 [realtime_news] INFO: 🚨 ALERT: [high] SA — BASF Swings to Net Profit on Accelerated Cost Savings
+2026-02-28 01:44:37,775 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Baird Lowers Workday (WDAY) Price Target after Reduced 2027 Guidance
+2026-02-28 01:44:42,287 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 01:44:46,172 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 01:46:02,343 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 157.0 BTC ($10.0M) transferred
+2026-02-28 01:46:02,344 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 157.0 BTC ($10.0M) transferred
+2026-02-28 01:46:06,262 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 01:48:03,386 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 101.5 BTC ($6.5M) transferred
+2026-02-28 01:48:03,386 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 101.5 BTC ($6.5M) transferred
+2026-02-28 01:48:07,567 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 01:51:49,308 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CEVA (CEVA) Posts Record Q4 Revenue on Strong Licensing and Wi-Fi Growth
+2026-02-28 01:51:49,830 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Five9 (FIVN) Reports Strong Revenue Growth Fueled by 50% Jump in Enterprise AI
+2026-02-28 01:51:50,087 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ZoomInfo (GTM) Drives Profitability Through Upmarket Strategy and AI Innovation
+2026-02-28 01:51:55,389 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:51:59,812 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:52:03,778 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 01:52:19,240 [realtime_news] INFO: 🚨 ALERT: [high] SA — UAE Intercepts Several Iranian Missiles; UAE Says This Attack Is A Flagrant Viol
+2026-02-28 01:52:24,800 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 02:03:11,075 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Birkenstock Holding (BIRK) FQ1 2026 Earnings, Here’s What You Need to Know
+2026-02-28 02:03:15,774 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 02:09:23,309 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Will Bitcoin Price Fall Below $10,000? Wikipedia Founder Under Fire After Slammi
+2026-02-28 02:09:23,839 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Berkshire Earnings, Inflation and Consumer-Confidence Data: Still to Come This W
+2026-02-28 02:09:28,506 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:09:32,538 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 02:11:27,306 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says ‘massive’ strike against Iran underway — bitcoin tumble points to roc
+2026-02-28 02:11:27,720 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Block’s Mass Layoffs Put Jack Dorsey on the Hook for $68 Million Party
+2026-02-28 02:11:31,693 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 02:11:36,409 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:13:31,235 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iran strikes will likely boost defense stocks — but here’s what will keep the ca
+2026-02-28 02:13:35,739 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:17:55,998 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iran strikes will likely boost defense stocks — but here’s what will keep the ca
+2026-02-28 02:18:00,970 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:21:45,177 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Bitcoin, Ethereum, XRP Fall as Cryptos Unwind Gains. Blame Nvidia.
+2026-02-28 02:21:50,683 [realtime_news] INFO: ✅ Agent notified: [HIGH] NVDA
+2026-02-28 02:26:54,769 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin could see further downside risks as Iran attacks U.S. bases across Middl
+2026-02-28 02:26:59,707 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:37:12,792 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WSP cautions against ‘AI hysteria’ on Q4 earnings call
+2026-02-28 02:37:13,314 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CoreWeave slides as surging capex, backlog risks overshadow small revenue beat
+2026-02-28 02:37:17,818 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 02:37:21,381 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:42:15,136 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 204.4 BTC ($13.1M) transferred
+2026-02-28 02:42:15,136 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 204.4 BTC ($13.1M) transferred
+2026-02-28 02:42:20,935 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 02:44:24,946 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — British Airways Owner IAG Posts Higher Net Profit, Revenue Amid Strong Travel De
+2026-02-28 02:44:25,218 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dell expects AI server revenue to double in fiscal 2027 on data center boom
+2026-02-28 02:44:25,785 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rathbones shares rise 5% as wealth manager reports surge in statutory profit
+2026-02-28 02:44:29,059 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:44:32,152 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:44:36,867 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:49:33,849 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says ‘massive’ strike against Iran underway — bitcoin plunge offers a glim
+2026-02-28 02:49:43,229 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 02:52:39,111 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Melrose shares slide 13% despite strong 2025 results and dividend boost
+2026-02-28 02:52:44,566 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 02:57:48,476 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Playtika Q4 Earnings Call Highlights
+2026-02-28 02:57:48,738 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PRA Group Q4 Earnings Call Highlights
+2026-02-28 02:57:48,994 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PubMatic Q4 Earnings Call Highlights
+2026-02-28 02:57:53,658 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 02:57:57,456 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 02:58:01,150 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 03:00:54,295 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin sets up potential short squeeze as funding plunges to -6%
+2026-02-28 03:01:01,715 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:01:56,069 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Swiss Re Shares Jump After Reinsurer Tops Up Returns With $1 Billion Buyback
+2026-02-28 03:02:00,189 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:09:08,338 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Brinks to acquire NCR Atleos in $6.6 billion deal
+2026-02-28 03:09:08,603 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Magnet Wars: How the U.S. Plans to Break China’s Grip on Rare Earths
+2026-02-28 03:09:15,872 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 03:09:21,943 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:16:21,292 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Flutter shares tumble 12% after cautious 2026 guidance disappoints
+2026-02-28 03:16:21,552 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ethereum Strawmap: Can ETH Become the ‘High-Speed Internet of Value’?
+2026-02-28 03:16:22,794 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fortuna Mining (FSM) Reports Significant High Grade Exploration Results at Diamb
+2026-02-28 03:16:23,300 [realtime_news] INFO: 🚨 ALERT: [high] SA — Taseko Mines (TGB) Achieves Record 2025 Revenue Supported by Strong Copper and M
+2026-02-28 03:16:27,812 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-28 03:16:30,928 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:16:36,606 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:16:39,882 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 03:22:34,389 [realtime_news] INFO: 🚨 ALERT: [critical] GM — Gains in core segments propel 2025 earnings growth for AXA
+2026-02-28 03:22:39,691 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] GM
+2026-02-28 03:24:38,434 [realtime_news] INFO: 🚨 ALERT: [high] SA — The U.S. and Israel attack Iran. Bitcoin and oil offer a glimpse at how markets 
+2026-02-28 03:24:44,274 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 03:26:26,455 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 154.0 BTC ($9.9M) transferred
+2026-02-28 03:26:26,456 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 154.0 BTC ($9.9M) transferred
+2026-02-28 03:26:41,617 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — U.S. strikes on Iran will likely boost defense stocks. Here’s what will keep the
+2026-02-28 03:26:55,042 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 03:26:59,542 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:28:27,010 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 3,258.6 BTC ($208.9M) transferred
+2026-02-28 03:28:27,011 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 3,258.6 BTC ($208.9M) transferred
+2026-02-28 03:28:32,705 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 03:32:27,963 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 170.1 BTC ($10.9M) transferred
+2026-02-28 03:32:27,964 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 170.1 BTC ($10.9M) transferred
+2026-02-28 03:32:32,796 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 03:33:55,034 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Allianz 2025 profit increases on P&C growth
+2026-02-28 03:34:01,326 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:42:30,187 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 03:42:30,187 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 03:42:35,024 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 03:43:10,188 [realtime_news] INFO: 🚨 ALERT: [high] SA — Canada Goose (GOOS): Strong Q3 Revenue Growth Driven by D2C and Wholesale Channe
+2026-02-28 03:43:10,438 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dell Technologies Stock Jumps on Strong Earnings. AI Demand Boosts Revenue.
+2026-02-28 03:43:10,950 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lionsgate Studios (LION ) Reports Record Library Revenue and Franchise Success f
+2026-02-28 03:43:14,409 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 03:43:20,072 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 03:43:23,968 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:44:30,459 [realtime_news] WARNING: Whale monitor error: HTTP Error 502: Bad Gateway
+2026-02-28 03:52:15,934 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin sets up potential short squeeze as funding plunges to -6%
+2026-02-28 03:52:16,191 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin could see further downside risks as Iran attacks U.S. bases across Middl
+2026-02-28 03:52:21,872 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:52:25,331 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 03:59:36,284 [realtime_news] WARNING: WebSocket error: sent 1011 (internal error) keepalive ping timeout; no close frame received. Reconnecting in 1s...
+2026-02-28 03:59:37,287 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 03:59:37,291 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 2s...
+2026-02-28 03:59:39,293 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 03:59:39,297 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 4s...
+2026-02-28 03:59:43,299 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 03:59:43,302 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 8s...
+2026-02-28 03:59:51,305 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 03:59:51,309 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 16s...
+2026-02-28 04:00:07,311 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 04:00:07,315 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 32s...
+2026-02-28 04:00:17,343 [realtime_news] WARNING: Finnhub poll error: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-02-28 04:00:33,841 [realtime_news] WARNING: Whale monitor error: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-02-28 04:00:39,317 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 04:00:39,321 [realtime_news] WARNING: WebSocket error: [Errno 8] nodename nor servname provided, or not known. Reconnecting in 60s...
+2026-02-28 04:01:39,331 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 04:01:40,166 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-28 04:01:40,272 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-28 04:01:40,510 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-28 04:01:40,511 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-28 04:02:17,354 [realtime_news] WARNING: Finnhub poll error: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-02-28 04:02:33,877 [realtime_news] WARNING: Whale monitor error: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-02-28 04:02:40,535 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Any chance the Fed cuts rates this year is ‘evaporating before our very eyes’ as
+2026-02-28 04:02:40,934 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — OPEC+ Expected to Resume Output Hikes at Sunday Meeting
+2026-02-28 04:02:41,173 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — IonQ (IONQ) Soars 21.7% on Revenue Beat; Eyes 73-88% Growth Outlook
+2026-02-28 04:02:42,500 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Warby Parker (WRBY) Soars 17.8% on First Swing to Profits
+2026-02-28 04:02:42,979 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Primo Brands (PRMB) Rockets 15% on Swing to Profits
+2026-02-28 04:02:44,538 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bentley (BSY) Soars 14% on Earnings Blowout, Upbeat Outlook
+2026-02-28 04:02:49,283 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-28 04:02:54,928 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:03:04,496 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:03:11,351 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:03:14,799 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:03:21,748 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:04:52,067 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — China Central Bank Moves to Tame Yuan Rally
+2026-02-28 04:04:56,665 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:13:04,489 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Chime Financial (CHYM) Surges 13.6% as Firm Eyes Swing to Profits This Year
+2026-02-28 04:13:04,735 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Figs (FIGS) Hits New High on Stellar Earnings, Double-Digit Growth Outlook
+2026-02-28 04:13:05,227 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Magnite (MGNI) Climbs 12.6% on Strong Earnings, Buyback Plan
+2026-02-28 04:13:10,985 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:13:15,257 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:13:19,158 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:16:37,359 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 04:16:37,360 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 04:16:41,749 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:18:20,396 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Any chance the Fed cuts rates this year is ‘evaporating before our very eyes’ as
+2026-02-28 04:18:25,168 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-28 04:20:38,291 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 122.5 BTC ($7.8M) transferred
+2026-02-28 04:20:38,292 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 122.5 BTC ($7.8M) transferred
+2026-02-28 04:20:38,371 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 258.4 BTC ($16.5M) transferred
+2026-02-28 04:20:38,373 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 258.4 BTC ($16.5M) transferred
+2026-02-28 04:20:42,956 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:20:46,303 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:24:39,181 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 4,528.1 BTC ($289.8M) transferred
+2026-02-28 04:24:39,182 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 4,528.1 BTC ($289.8M) transferred
+2026-02-28 04:24:45,167 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:26:27,637 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Eureka Lithium acquires Cabin Lake and Tyee Projects in Canada
+2026-02-28 04:26:32,678 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:28:40,128 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 715.5 BTC ($45.8M) transferred
+2026-02-28 04:28:40,129 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 715.5 BTC ($45.8M) transferred
+2026-02-28 04:28:44,778 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:34:41,470 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 299.5 BTC ($19.2M) transferred
+2026-02-28 04:34:41,471 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 299.5 BTC ($19.2M) transferred
+2026-02-28 04:34:41,576 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,588.5 BTC ($101.7M) transferred
+2026-02-28 04:34:41,576 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,588.5 BTC ($101.7M) transferred
+2026-02-28 04:34:46,627 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:34:51,505 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:36:42,031 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 127.7 BTC ($8.2M) transferred
+2026-02-28 04:36:42,032 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 127.7 BTC ($8.2M) transferred
+2026-02-28 04:36:46,407 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:36:48,910 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Dell Technologies (DELL) Climbs 22% on Earnings Blowout, Dividend Hike
+2026-02-28 04:36:49,169 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RC Fornax, Helix Exploration, EMV Capital, Pantheon International, GDP Infrastru
+2026-02-28 04:36:54,533 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:36:59,924 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:40:42,883 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 04:40:42,884 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.4 BTC ($6.7M) transferred
+2026-02-28 04:40:48,594 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:44:01,657 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bank of America Maintains Buy on Synchrony Financial (SYF) Following Partnership
+2026-02-28 04:44:01,907 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dentsply (XRAY) Rebounds 15.5% on Share Buyback
+2026-02-28 04:44:06,948 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:44:11,203 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:46:44,138 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 172.2 BTC ($11.0M) transferred
+2026-02-28 04:46:44,139 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 172.2 BTC ($11.0M) transferred
+2026-02-28 04:46:48,983 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:47:06,533 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hippo Q4 Earnings Call Highlights
+2026-02-28 04:47:06,785 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hudson Pacific Properties Q4 Earnings Call Highlights
+2026-02-28 04:47:07,019 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — HNI Q4 Earnings Call Highlights
+2026-02-28 04:47:12,279 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:47:16,982 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:47:20,347 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:48:44,566 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 170.0 BTC ($10.9M) transferred
+2026-02-28 04:48:44,567 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 170.0 BTC ($10.9M) transferred
+2026-02-28 04:48:51,319 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 04:56:22,889 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — S&P Futures Slip Amid Risk Aversion, U.S. PPI Data on Tap
+2026-02-28 04:56:23,848 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fermi (FRMI) Loses 8% to Profit-Taking After 31% Jump
+2026-02-28 04:56:24,560 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Zoom (ZM) Nosedives 11.6% After Earnings
+2026-02-28 04:56:24,800 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — DigitalOcean (DOCN) Sheds 8.45% on Profit-Taking After Record High
+2026-02-28 04:56:25,038 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — FS KKR (FSK) Falls Sharply on 31% Dividend Cut
+2026-02-28 04:56:28,908 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:56:33,106 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:56:36,853 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 04:57:01,232 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 04:57:05,734 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:00:32,478 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nu Holdings (NU) Falls 9.5% After Earnings
+2026-02-28 05:00:33,200 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Shift4 Payments (FOUR) Falls to 2-Year Low as Profits Plunge 65%
+2026-02-28 05:00:33,694 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin's five-month slide: Why BTC is set for worst losing streak since 2018
+2026-02-28 05:00:38,307 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 05:00:42,821 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:00:48,209 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:02:37,120 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Can China just steal America’s AI brain that’s costing trillions to develop?
+2026-02-28 05:02:37,861 [realtime_news] INFO: 🚨 ALERT: [high] SA — Why institutions still prefer Ethereum despite faster blockchains
+2026-02-28 05:02:42,127 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:02:46,424 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 05:18:32,896 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Can China just steal America’s AI brain that’s costing trillions to develop?
+2026-02-28 05:18:40,764 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:22:11,508 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018
+2026-02-28 05:22:17,730 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:26:34,853 [realtime_news] INFO: 🚨 ALERT: [high] SA — Why institutions still prefer Ethereum despite faster blockchains
+2026-02-28 05:26:40,334 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 05:32:55,343 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 204.6 BTC ($13.1M) transferred
+2026-02-28 05:32:55,344 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 204.6 BTC ($13.1M) transferred
+2026-02-28 05:33:00,562 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:34:30,620 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Berkshire Hathaway operating earnings fell nearly 30% in Warren Buffett's final 
+2026-02-28 05:34:34,858 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] SA
+2026-02-28 05:38:57,499 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 138.2 BTC ($8.8M) transferred
+2026-02-28 05:38:57,500 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 138.2 BTC ($8.8M) transferred
+2026-02-28 05:39:03,395 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:41:45,170 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — 11 US senators request federal probe into Binance’s sanctions compliance
+2026-02-28 05:41:50,182 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] ROL
+2026-02-28 05:46:59,140 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 171.9 BTC ($11.0M) transferred
+2026-02-28 05:46:59,141 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 171.9 BTC ($11.0M) transferred
+2026-02-28 05:46:59,232 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 153.8 BTC ($9.9M) transferred
+2026-02-28 05:46:59,234 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 153.8 BTC ($9.9M) transferred
+2026-02-28 05:47:04,795 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:47:09,125 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:48:59,824 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 257.8 BTC ($16.6M) transferred
+2026-02-28 05:48:59,824 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 257.8 BTC ($16.6M) transferred
+2026-02-28 05:49:04,471 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:52:04,425 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — MercadoLibre Shares Sink. Is the Stock a Buy as Revenue Growth Remains Robust?
+2026-02-28 05:52:08,514 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 05:52:40,227 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — 11 US senators request federal probe into Binance’s sanctions compliance
+2026-02-28 05:52:45,401 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] ROL
+2026-02-28 05:53:02,987 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 169.9 BTC ($11.0M) transferred
+2026-02-28 05:53:02,988 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 169.9 BTC ($11.0M) transferred
+2026-02-28 05:53:03,072 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 119.7 BTC ($7.7M) transferred
+2026-02-28 05:53:03,072 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 119.7 BTC ($7.7M) transferred
+2026-02-28 05:53:10,366 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 05:53:15,135 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 06:01:04,779 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 258.2 BTC ($16.9M) transferred
+2026-02-28 06:01:04,779 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 258.2 BTC ($16.9M) transferred
+2026-02-28 06:01:10,126 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 06:01:18,498 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ‘Can’t sell house’ searches are higher now than during the 2008 housing crisis
+2026-02-28 06:01:23,697 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:03:22,393 [realtime_news] INFO: 🚨 ALERT: [high] SA — Buying Bitcoin? Hold for at least three years to avoid losses, data says
+2026-02-28 06:03:27,095 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 06:07:30,702 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Zscaler price target lowered to $280 from $345 at Oppenheimer
+2026-02-28 06:07:30,955 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — PubMatic upgraded to Buy from Hold at Lake Street
+2026-02-28 06:07:31,445 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Butterfly Network price target raised to $6 from $4.50 at TD Cowen
+2026-02-28 06:07:31,687 [realtime_news] INFO: 🚨 ALERT: [high] SA — Sasol Limited (SSL): A Bull Case Theory
+2026-02-28 06:07:36,681 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:07:40,397 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:07:45,530 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:07:49,795 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 06:09:35,637 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin sets up potential short squeeze as 'funding rate' plunges to three month
+2026-02-28 06:09:40,772 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:09:50,994 [realtime_news] INFO: 🚨 ALERT: [critical] AAPL — Berkshire Hathaway Misses Projections As Abel Takes The Helm, Operating Earnings
+2026-02-28 06:09:56,478 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] AAPL
+2026-02-28 06:12:41,171 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — If You Like AGNC Investment, You Should Check Out These 2 Ultra-High-Yield Divid
+2026-02-28 06:12:49,243 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:16:48,063 [realtime_news] INFO: 🚨 ALERT: [high] ASTI — Elastic price target lowered to $85 from $100 at Oppenheimer
+2026-02-28 06:16:48,307 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AvePoint price target lowered to $16 from $17 at TD Cowen
+2026-02-28 06:16:48,546 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Gildan Activewear price target raised to $80 from $77 at TD Securities
+2026-02-28 06:16:54,068 [realtime_news] INFO: ✅ Agent notified: [HIGH] ASTI
+2026-02-28 06:16:57,588 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:17:01,544 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:18:45,164 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ‘Can’t sell house’ searches are higher now than during the 2008 housing crisis
+2026-02-28 06:18:50,038 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:20:55,068 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Any chance of a Fed interest-rate cut in 2026 is ‘evaporating before our very ey
+2026-02-28 06:21:00,965 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 06:26:47,351 [realtime_news] INFO: 🚨 ALERT: [high] SA — Buying Bitcoin? Hold for at least three years to avoid losses, data says
+2026-02-28 06:26:47,841 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018
+2026-02-28 06:26:52,201 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 06:26:55,766 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:27:05,561 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Berkshire Hathaway earnings slip on decline in insurance results
+2026-02-28 06:27:11,409 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 06:29:11,437 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,570.7 BTC ($101.7M) transferred
+2026-02-28 06:29:11,438 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,570.7 BTC ($101.7M) transferred
+2026-02-28 06:29:16,502 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 06:31:12,046 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 158.7 BTC ($10.3M) transferred
+2026-02-28 06:31:12,047 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 158.7 BTC ($10.3M) transferred
+2026-02-28 06:31:19,121 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 06:37:24,360 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — CoreWeave price target raised to $125 from $110 at DA Davidson
+2026-02-28 06:37:24,613 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cars.com price target lowered to $13 from $22 at B. Riley
+2026-02-28 06:37:24,848 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Xponential Fitness price target lowered to $7 from $10 at Northland
+2026-02-28 06:37:29,916 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:37:33,072 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:37:38,073 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 06:52:53,688 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in
+2026-02-28 06:52:59,664 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 06:59:04,927 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — KBR Q4 Earnings Call Highlights
+2026-02-28 06:59:05,192 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Joby Aviation Q4 Earnings Call Highlights
+2026-02-28 06:59:10,810 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 06:59:20,286 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:01:08,506 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — St. Joe Q4 Earnings Call Highlights
+2026-02-28 07:01:13,966 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:07:18,606 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Summit Hotel Properties Q4 Earnings Call Highlights
+2026-02-28 07:07:29,062 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:11:24,979 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ibotta Q4 Earnings Call Highlights
+2026-02-28 07:11:29,267 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:12:29,282 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Harbinger acquires autonomous-driving firm Phantom AI
+2026-02-28 07:12:33,650 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:25:26,077 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.1 BTC ($6.7M) transferred
+2026-02-28 07:25:26,078 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.1 BTC ($6.7M) transferred
+2026-02-28 07:25:34,801 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 07:45:30,845 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,556.5 BTC ($100.9M) transferred
+2026-02-28 07:45:30,855 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,556.5 BTC ($100.9M) transferred
+2026-02-28 07:45:30,935 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 573.2 BTC ($37.2M) transferred
+2026-02-28 07:45:30,937 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 573.2 BTC ($37.2M) transferred
+2026-02-28 07:45:38,134 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 07:45:44,163 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 07:53:07,953 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in
+2026-02-28 07:53:13,665 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 07:59:58,813 [realtime_news] INFO: 🚨 ALERT: [critical] AAPL — Greg Abel as Berkshire Earnings Fall: &#39;Warren Is Obviously a Very Hard Act T
+2026-02-28 08:00:04,787 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] AAPL
+2026-02-28 08:17:38,598 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 103.9 BTC ($6.7M) transferred
+2026-02-28 08:17:38,599 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 103.9 BTC ($6.7M) transferred
+2026-02-28 08:17:46,898 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 08:19:39,115 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 257.6 BTC ($16.7M) transferred
+2026-02-28 08:19:39,116 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 257.6 BTC ($16.7M) transferred
+2026-02-28 08:19:43,987 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 08:23:37,265 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Use This ETF to Earn Dividends From Berkshire Hathaway
+2026-02-28 08:23:42,925 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 08:31:51,819 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Banking Regulator Floats New Stablecoin Yield Rules—Do They Hurt Coinbase?
+2026-02-28 08:31:58,888 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 08:42:09,655 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil prices set for swings next week as US-Israel strikes raise supply uncertaint
+2026-02-28 08:42:14,924 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 08:47:45,180 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 147.1 BTC ($9.6M) transferred
+2026-02-28 08:47:45,181 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 147.1 BTC ($9.6M) transferred
+2026-02-28 08:47:54,971 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 08:54:31,023 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MBIA Q4 Earnings Call Highlights
+2026-02-28 08:54:31,273 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — LTC Properties Q4 Earnings Call Highlights
+2026-02-28 08:54:31,516 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — CS Disco Q4 Earnings Call Highlights
+2026-02-28 08:54:38,778 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 08:54:43,177 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 08:54:48,182 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:03:49,632 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 126.9 BTC ($8.3M) transferred
+2026-02-28 09:03:49,632 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 126.9 BTC ($8.3M) transferred
+2026-02-28 09:03:55,142 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 09:04:47,691 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — 2 Tariff-Proof Energy Stocks to Buy Now
+2026-02-28 09:04:48,931 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — LandBridge Q4 Earnings Call Highlights
+2026-02-28 09:04:53,105 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:04:57,890 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:17:12,841 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — They Asked What Owning Just 1 BTC Would Do For Someone's Financial Life. Some Ca
+2026-02-28 09:17:19,539 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 09:21:19,587 [realtime_news] INFO: 🚨 ALERT: [critical] AAPL — Stock Market Week: Reaction To Iran, Berkshire Earnings, Apple Event
+2026-02-28 09:21:27,343 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] AAPL
+2026-02-28 09:23:54,689 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 302.5 BTC ($19.6M) transferred
+2026-02-28 09:23:54,689 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 302.5 BTC ($19.6M) transferred
+2026-02-28 09:23:59,317 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 09:25:28,507 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran
+2026-02-28 09:25:33,877 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 09:34:46,363 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mining stocks are the new market darlings, fueled by geopolitical risks and AI d
+2026-02-28 09:34:47,103 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Jim Cramer Recommends Agnico Eagle Over Fortuna Mining
+2026-02-28 09:34:52,076 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 09:34:56,809 [realtime_news] INFO: ✅ Agent notified: [HIGH] MACRO
+2026-02-28 09:42:04,058 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Matador Resources Q4 Earnings Call Highlights
+2026-02-28 09:42:04,337 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MP Materials Q4 Earnings Call Highlights
+2026-02-28 09:42:04,592 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Miami International Q4 Earnings Call Highlights
+2026-02-28 09:42:30,949 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:42:35,446 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:42:39,890 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:53:23,204 [realtime_news] INFO: 🚨 ALERT: [high] SA — Judge blocks Binance from pushing class action suits over token sales into arbit
+2026-02-28 09:53:28,705 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 09:55:26,836 [realtime_news] INFO: 🚨 ALERT: [high] SA — UBS Raises Viatris (VTRS) Price Target as Cost Savings and Growth Outlook Improv
+2026-02-28 09:55:27,191 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — MasTec Q4 Earnings Call Highlights
+2026-02-28 09:55:33,425 [realtime_news] INFO: ✅ Agent notified: [HIGH] SA
+2026-02-28 09:55:37,743 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 09:56:28,963 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Millrose Properties Q4 Earnings Call Highlights
+2026-02-28 09:56:37,554 [realtime_news] INFO: ✅ Agent notified: [CRITICAL] MACRO
+2026-02-28 10:00:03,704 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 104.1 BTC ($6.8M) transferred
+2026-02-28 10:00:03,705 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 104.1 BTC ($6.8M) transferred
+2026-02-28 10:00:09,504 [realtime_news] INFO: ✅ Agent notified: [HIGH] BTC
+2026-02-28 10:00:36,204 [realtime_news] INFO: Finnhub polling stopped
+2026-02-28 10:00:36,204 [realtime_news] INFO: Whale monitor stopped
+2026-02-28 10:00:36,393 [realtime_news] INFO: RSS polling stopped
+2026-02-28 10:00:48,317 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=90934)
+2026-02-28 10:00:48,317 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-28 10:00:48,318 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 10:00:48,318 [realtime_news] INFO: RSS polling started (interval=60s, 9 feeds)
+2026-02-28 10:00:48,318 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-28 10:00:48,318 [realtime_news] INFO: 🐋 Whale monitor started (interval=120s, threshold=$5M / 100 BTC)
+2026-02-28 10:00:49,826 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iran strikes will likely boost defense stocks — but here’s what will keep the ca
+2026-02-28 10:00:51,033 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-28 10:00:51,278 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-28 10:00:51,669 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:51,765 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dow closes more than 500 points lower after hot inflation report, mounting conce
+2026-02-28 10:00:52,031 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin sets up potential short squeeze as funding plunges to -6%
+2026-02-28 10:00:52,523 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran
+2026-02-28 10:00:52,813 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin
+2026-02-28 10:00:53,058 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6
+2026-02-28 10:00:53,130 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:00:53,362 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 10:00:53,821 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-02-28 10:00:54,074 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:54,080 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-28 10:00:54,170 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-28 10:00:54,249 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-28 10:00:54,326 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-28 10:00:54,327 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-28 10:00:54,528 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:56,713 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:00:56,814 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018
+2026-02-28 10:00:57,059 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin could see further downside risks as Iran attacks U.S. bases across Middl
+2026-02-28 10:00:57,684 [realtime_news] INFO: 🚨 ALERT: [high] SA — Buying Bitcoin? Hold for at least three years to avoid losses, data says
+2026-02-28 10:00:57,940 [realtime_news] INFO: 🚨 ALERT: [critical] SA — 11 US senators request federal probe into Binance’s sanctions compliance
+2026-02-28 10:00:58,190 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bitcoin price drops to $63K as US, Israel bomb Iran
+2026-02-28 10:00:58,374 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:58,440 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Morgan Stanley applies for OCC bank charter to custody crypto
+2026-02-28 10:00:58,494 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 10:00:58,532 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:58,539 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:00:58,541 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:00:58,824 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 20
+2026-02-28 10:00:59,080 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid s
+2026-02-28 10:00:59,937 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran
+2026-02-28 10:01:00,746 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI
+2026-02-28 10:01:01,582 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO

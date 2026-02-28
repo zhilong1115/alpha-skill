@@ -194,10 +194,12 @@ def add_alert(alert: dict) -> None:
 
 
 def _notify_agent(alert: dict) -> None:
-    """Send breaking news to Alpha agent session via openclaw agent command.
+    """Send breaking news alert via two channels for reliability:
     
-    Runs in a background thread to avoid blocking the async event loop.
-    Breaking news is rare (1-5/day) so the cost per agent turn (~$0.05) is fine.
+    1. openclaw message send → posts directly to Telegram group (reliable, instant)
+    2. openclaw agent → triggers Alpha agent turn to evaluate and act
+    
+    Both run in a background thread to avoid blocking the async event loop.
     """
     import threading
 
@@ -210,33 +212,59 @@ def _notify_agent(alert: dict) -> None:
         action = alert.get("action_type", "monitor")
         tickers = ", ".join(alert.get("matched_tickers", [])) or "N/A"
         source = alert.get("source", "unknown")
+        is_crypto = alert.get("is_crypto", False)
 
+        # Format alert message
+        emoji = "🚨" if urgency == "CRITICAL" else "⚠️"
+        market = "CRYPTO" if is_crypto else "STOCK"
         msg = (
-            f"🚨 BREAKING NEWS [{urgency}]\n"
-            f"Headline: {headline}\n"
-            f"Tickers: {tickers} | Sentiment: {sentiment} | Suggested: {action}\n"
-            f"Source: {source}\n\n"
-            f"Review this and decide if any action is needed on our positions or watchlist."
+            f"{emoji} BREAKING [{urgency}] [{market}]\n"
+            f"{headline}\n"
+            f"Tickers: {tickers} | Sentiment: {sentiment} | Action: {action}\n"
+            f"Source: {source}"
         )
 
+        # Step 1: Post to Telegram group directly (reliable, instant visibility)
+        try:
+            result = subprocess.run(
+                [
+                    "openclaw", "message", "send",
+                    "--channel", "telegram",
+                    "--target", "-5119023195",
+                    "--message", msg,
+                ],
+                capture_output=True, text=True, timeout=15,
+            )
+            if result.returncode == 0:
+                logger.info("✅ Alert posted to Telegram: [%s] %s", urgency, alert.get("ticker", "MACRO"))
+            else:
+                logger.warning("Telegram post failed (rc=%d): %s", result.returncode, result.stderr[:200])
+        except Exception as e:
+            logger.warning("Failed to post to Telegram: %s", e)
+
+        # Step 2: Trigger Alpha agent turn to evaluate and potentially act
+        agent_msg = (
+            f"{msg}\n\n"
+            f"⚡ This is a real-time news interrupt. Check your positions immediately.\n"
+            f"Use agent_tools to assess impact and decide: hold, close, or adjust stops."
+        )
         try:
             result = subprocess.run(
                 [
                     "openclaw", "agent",
                     "--agent", "alpha",
                     "--session-id", "5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca",
-                    "--message", msg,
+                    "--message", agent_msg,
                     "--deliver",
                 ],
-                capture_output=True, text=True, timeout=60,
+                capture_output=True, text=True, timeout=120,
             )
             if result.returncode == 0:
-                logger.info("✅ Agent notified: [%s] %s", urgency, alert.get("ticker", "MACRO"))
+                logger.info("✅ Agent turn triggered: [%s] %s", urgency, alert.get("ticker", "MACRO"))
             else:
-                logger.warning("Agent notification failed (rc=%d): %s",
-                             result.returncode, result.stderr[:200])
+                logger.warning("Agent turn failed (rc=%d): %s", result.returncode, result.stderr[:200])
         except Exception as e:
-            logger.warning("Failed to notify agent: %s", e)
+            logger.warning("Failed to trigger agent turn: %s", e)
 
     # Run in thread to not block async loop
     t = threading.Thread(target=_send, daemon=True)

@@ -1,220 +1,8 @@
 [
   {
-    "source": "rss:CoinDesk",
-    "headline": "Punters want crypto: UK Gambling Commission explores how to keep bettors on licensed sites",
+    "source": "rss:Yahoo_Finance",
+    "headline": "Nu Holdings (NU) Falls 9.5% After Earnings",
     "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 15:15:37 +0000",
-    "url": "https://www.coindesk.com/policy/2026/02/27/uk-s-gambling-watchdog-explores-allowing-gamblers-to-pay-bets-with-crypto"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "CoinDesk 20 performance update: Solana (SOL) falls 4.2%, leading index lower",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "solana"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 14:17:41 +0000",
-    "url": "https://www.coindesk.com/coindesk-indices/2026/02/27/coindesk-20-performance-update-solana-sol-falls-4-2-leading-index-lower"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "The worst may lie ahead. Bitcoin chart revisits historic pattern.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 12:23:48 +0000",
-    "url": "https://www.coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin falls with ether, solana while decred, AI-linked tokens advance",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "solana"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 11:49:09 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-falls-with-ether-solana-while-decred-ai-linked-tokens-advance"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "U.S. spot bitcoin ETFs set for biggest week in 6 after adding $1.1 billion in three days",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 10:05:04 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/u-s-spot-bitcoin-etfs-set-for-biggest-week-in-6-after-adding-usd1-1-billion-in-three-days"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin ETF holders and treasury firms stack protection against price crash below $60,000, Deribit says",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 06:42:51 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-etf-holders-and-treasury-firms-stack-protection-against-price-crash-below-usd60-000-deribit-says"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin slides Friday as risk-off mood persists, but majors hold weekly gains",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MOOD",
-    "matched_tickers": [
-      "MOOD"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 05:05:29 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-slides-friday-as-risk-off-mood-persists-but-majors-hold-weekly-gains"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Traders may rotate into Bitcoin if UBS\u2019 bearish US stocks view comes true",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Traders may rotate into Bitcoin if UBS\u2019 bearish US stocks view comes true\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTIvMDE5Yjc2NDYtNzgzMS",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 20:27:43 +0000",
-    "url": "https://cointelegraph.com/news/traders-may-rotate-into-bitcoin-if-ubs-bearish-us-stocks-view-comes-true?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Here\u2019s what happened in crypto today",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Here\u2019s what happened in crypto today\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzY2NjktN2UxNi03ZmI0LTlmNjItOTIxNWU3YTcwZmIwLmpwZw=",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "crypto regulation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 20:24:17 +0000",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Crypto Biz: A Bitcoin treasury shareholder revolt",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto Biz: A Bitcoin treasury shareholder revolt\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmY2EtMGEzNi03OTBlLTkyODQtMDhiYzljMz",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 20:16:27 +0000",
-    "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-treasury-shareholder-revolt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDI",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 19:00:00 +0000",
-    "url": "https://cointelegraph.com/news/analysts-reject-jane-street-dump-claims-bitcoin-etf-inflows-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Y2EwMTMtNmE0",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:41:44 +0000",
-    "url": "https://cointelegraph.com/news/price-predictions-2-27-btc-eth-xrp-bnb-sol-doge-bch-ada-hype-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Figure Technology stock crashes 20% following mixed Q4 earnings",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Figure Technology stock crashes 20% following mixed Q4 earnings\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmZjEtNzhhMS03ZTc5LTg1",
     "symbols": [],
     "urgency": "critical",
     "is_macro": false,
@@ -225,13 +13,30 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 17:44:27 +0000",
-    "url": "https://cointelegraph.com/news/figure-technology-solutions-stock-post-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "2026-02-27T11:14:05Z",
+    "url": "https://finance.yahoo.com/news/nu-holdings-nu-falls-9-111405966.html"
   },
   {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin to $30K? Analysts debate when and at what price BTC will bottom",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin to $30K? Analysts debate when and at what price BTC will bottom\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmYTItNjRmOS03",
+    "source": "rss:Yahoo_Finance",
+    "headline": "Shift4 Payments (FOUR) Falls to 2-Year Low as Profits Plunge 65%",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T11:13:41Z",
+    "url": "https://finance.yahoo.com/news/shift4-payments-four-falls-2-111341290.html"
+  },
+  {
+    "source": "rss:CoinDesk",
+    "headline": "Bitcoin's five-month slide: Why BTC is set for worst losing streak since 2018",
+    "summary": "",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
@@ -243,54 +48,129 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 15:26:31 +0000",
-    "url": "https://cointelegraph.com/news/bitcoin-to-30k-analysts-debate-when-what-price-btc-price-will-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
+    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
   },
   {
-    "source": "rss:CoinTelegraph",
-    "headline": "Crypto taxes updated, BTC stuck below $70K: Month in charts",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Crypto taxes updated, BTC stuck below $70K: Month in charts\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmNWQtODJjNS03NTVmLTg1ODMt",
+    "source": "rss:MarketWatch",
+    "headline": "Can China just steal America\u2019s AI brain that\u2019s costing trillions to develop?",
+    "summary": "American companies are spending enormous sums to develop high-performing AI models. Distillation attacks are attempting to maliciously extract them \u2014 and nobody is doing much to stop it.",
     "symbols": [],
     "urgency": "high",
     "is_macro": true,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "inflation",
-      "bitcoin",
-      "btc "
+      "china"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 15:09:22 +0000",
-    "url": "https://cointelegraph.com/news/crypto-taxes-btc-stuck-70k-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "Sat, 28 Feb 2026 13:00:00 GMT",
+    "url": "https://www.marketwatch.com/story/can-china-just-steal-americas-ai-brain-thats-costing-trillions-to-develop-da126634?mod=mw_rss_topstories"
   },
   {
     "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin threatens new breakdown as US PPI sends gold to 1-month high",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin threatens new breakdown as US PPI sends gold to 1-month high\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmNjMtOTNkZC03MjJ",
+    "headline": "Why institutions still prefer Ethereum despite faster blockchains",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Why institutions still prefer Ethereum despite faster blockchains\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzk5ZWQtNjVhZi03NzE0LT",
     "symbols": [],
     "urgency": "high",
-    "is_macro": true,
-    "ticker": "META",
+    "is_macro": false,
+    "ticker": "SA",
     "matched_tickers": [
-      "META"
+      "SA"
     ],
     "keywords": [
-      "inflation",
-      "ppi ",
+      "ethereum"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
+    "url": "https://cointelegraph.com/news/institutions-prefer-eth-faster-blockchains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Can China just steal America\u2019s AI brain that\u2019s costing trillions to develop?",
+    "summary": "American companies are spending enormous sums to develop high-performing AI models. Distillation attacks are attempting to maliciously extract them \u2014 and nobody is doing much to stop it.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:00:00+00:00",
+    "url": "https://www.marketwatch.com/story/can-china-just-steal-americas-ai-brain-thats-costing-trillions-to-develop-da126634"
+  },
+  {
+    "source": "rss:CoinDesk",
+    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
       "bitcoin",
       "btc "
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 14:10:13 +0000",
-    "url": "https://cointelegraph.com/news/bitcoin-threatens-new-breakdown-us-ppi-gold-1-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
+    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "Block\u2019s Square unit stands to gain most from Dorsey\u2019s AI pivot, analysts say",
-    "summary": "<p>Block reported impressive financial results and guidance, illustrating building financial momentum, according to William Blair.</p>",
+    "source": "finnhub:crypto",
+    "headline": "Why institutions still prefer Ethereum despite faster blockchains",
+    "summary": "TPS breakthroughs get engineers excited, but TradFi is looking at Ethereum because that\u2019s where the liquidity is, says Kevin Lepsoe of ETHGas.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "ethereum"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:00:00+00:00",
+    "url": "https://cointelegraph.com/news/institutions-prefer-eth-faster-blockchains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 204.6 BTC ($13.1M) transferred",
+    "summary": "Transaction hash: c3dd2bcb732aeeb7e97c18054f37a324... | 204.62 BTC = $13,114,286",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:32:55.340659+00:00",
+    "url": "https://blockchain.info/tx/c3dd2bcb732aeeb7e97c18054f37a3241403d5993470a1f8477404309cd64c88"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Berkshire Hathaway operating earnings fell nearly 30% in Warren Buffett's final quarter as CEO",
+    "summary": "Berkshire Hathaway reported fourth-quarter and full-year 2025 earnings on Saturday.",
     "symbols": [],
     "urgency": "critical",
     "is_macro": false,
@@ -299,39 +179,45 @@
       "SA"
     ],
     "keywords": [
-      "guidance"
+      "earnings"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 14:10:10 -0500",
-    "url": "https://www.theblock.co/post/391612/blocks-square-unit-stands-gain-most-dorseys-ai-pivot-analysts?utm_source=rss&utm_medium=rss"
+    "timestamp": "Sat, 28 Feb 2026 13:31:55 GMT",
+    "url": "https://www.cnbc.com/2026/02/28/berkshire-hathaway-brka-q4-2025-earnings.html"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "The Daily: Jack Dorsey\u2019s Block cuts 40% of staff amid AI strategy, Barclays explores blockchain settlement, Senate Democrats urge Binance probe, and more",
-    "summary": "<p>The following article is adapted from The Block\u2019s newsletter, The Daily, which comes out on weekday afternoons.</p>",
-    "symbols": [],
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 138.2 BTC ($8.8M) transferred",
+    "summary": "Transaction hash: 840ce38e5ffab4c5e05b8c079a3b0d5b... | 138.24 BTC = $8,845,567",
+    "symbols": [
+      "BTC"
+    ],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
     "keywords": [
-      "binance"
+      "whale transfer"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 13:37:08 -0500",
-    "url": "https://www.theblock.co/post/391617/the-daily-jack-dorseys-block-cuts-40-of-staff-amid-ai-strategy-barclays-explores-blockchain-settlement-senate-democrats-urge-binance-probe-and-more?utm_source=rss&utm_medium=rss"
+    "timestamp": "2026-02-28T13:38:57.496485+00:00",
+    "url": "https://blockchain.info/tx/840ce38e5ffab4c5e05b8c079a3b0d5b36fc237ad7e07cd396d1d9e79fdbfa3c"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
-    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
+    "source": "rss:CoinTelegraph",
+    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
     "symbols": [],
     "urgency": "critical",
     "is_macro": true,
-    "ticker": "SA",
+    "ticker": "ROL",
     "matched_tickers": [
+      "ROL",
       "SA"
     ],
     "keywords": [
@@ -339,323 +225,221 @@
     ],
     "sentiment": "bearish",
     "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
-    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
+    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
+    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "Bitcoin options traders bet on $90K rebound as analysts flag early signs of market base forming",
-    "summary": "<p>Derive said options positioning and easing downside skew show traders cautiously preparing for a potential bitcoin recovery.</p>",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 08:00:52 -0500",
-    "url": "https://www.theblock.co/post/391560/bitcoin-options-traders-bet-on-90k-rebound-as-analysts-flag-early-signs-of-market-base-forming?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Minnesota introduces bill to ban crypto kiosks after wave of elder fraud cases",
-    "summary": "<p>Minnesota lawmakers considered bill to ban crypto kiosks after testimony detailed $80,000 elder fraud case and overseas transfers.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "fraud"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 05:36:32 -0500",
-    "url": "https://www.theblock.co/post/391541/minnesota-introduces-bill-to-ban-crypto-kiosks?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "\u2018We like it more,\u2019 Bernstein says after Figure posts 156% jump in Q4 profit",
-    "summary": "<p>Bernstein analysts said Figure delivered \"solid\" fourth-quarter results, backing their outperform rating and $72 price target.</p>",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target",
-      "profit"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 05:28:07 -0500",
-    "url": "https://www.theblock.co/post/391543/figure-posts-in-line-q4-revenue-higher-profit?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "TeraWulf posts higher revenue, wider loss in 2025 as AI, HPC pivot accelerates",
-    "summary": "<p>Nasdaq-listed TeraWulf said its total revenue reached $168.5 million in 2025, up 20.3% from the prior year.</p>",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Thu, 26 Feb 2026 22:28:57 -0500",
-    "url": "https://www.theblock.co/post/391539/terawulf-posts-higher-revenue-wider-loss-in-2025-as-ai-hpc-pivot-accelerates?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "MARA swings to $1.7 billion Q4 loss on bitcoin markdown, shares jump 15% after Starwood AI deal",
-    "summary": "<p>A steep accounting loss tied to bitcoin\u2019s price decline overshadowed gains, but MARA is betting its future on AI-driven revenue.</p>",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Thu, 26 Feb 2026 17:35:10 -0500",
-    "url": "https://www.theblock.co/post/391530/mara-swings-1-7-billion-q4-loss-bitcoin-markdown-shares-jump-15-starwood-ai-deal?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Bitcoin Rebound Stalls at $65K as Stocks Fall and Gold Rises",
-    "summary": "Bitcoin fell Friday after briefly topping $69K this week, while stocks like CoreWeave and BitMine tumbled amid broader market losses.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 19:33:35 +0000",
-    "url": "https://decrypt.co/359420/bitcoin-rebound-stalls-65k-stocks-fall-gold-rises"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Magic Eden Pulls Plug on Bitcoin and Ethereum Support, Doubles Down on Solana",
-    "summary": "Magic Eden is pulling support for Ethereum-compatible and Bitcoin-based assets, marking an end to its multi-chain approach to user adoption.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "ethereum",
-      "solana"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:58:22 +0000",
-    "url": "https://decrypt.co/359422/magic-eden-pulls-plug-bitcoin-ethereum-doubles-down-solana"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Trump Media Weighs Truth Social Spinoff Following Bitcoin, Crypto ETF Moves",
-    "summary": "Trump Media is considering spinning off its Truth Social platform into its own public entity.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 18:33:13 +0000",
-    "url": "https://decrypt.co/359421/trump-media-weighs-truth-social-spinoff-bitcoin-crypto"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Ethereum Tokens Swiped, Returned After South Korean Tax Service Publishes Wallet Seed Phrases",
-    "summary": "South Korea's tax service shared the seed phrases for seized wallets in a press release. The contents were then taken, but ultimately returned.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "ethereum"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 17:20:54 +0000",
-    "url": "https://decrypt.co/359404/ethereum-tokens-swiped-returned-south-korean-tax-service"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Minnesota Weighs Total Ban on Bitcoin and Crypto ATMs",
-    "summary": "Minnesota lawmakers are considering a ban on Bitcoin and crypto ATMs, with legislation introduced in response to a growing number of scams.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 16:39:17 +0000",
-    "url": "https://decrypt.co/359405/minnesota-weighs-total-ban-bitcoin-crypto-atms"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
-    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "layoff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
-    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Jane Street Lawsuit Fuels Late Double-Digit Pop in Terra Luna Classic",
-    "summary": "LUNC's price jump follows a lawsuit filed Monday by Terraform Labs\u2019 bankruptcy administrator, boosted by spot-buying and a short squeeze.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bankrupt"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 10:31:00 +0000",
-    "url": "https://decrypt.co/359367/jane-street-lawsuit-fuels-late-double-digit-pop-in-terra-luna-classic"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Elizabeth Warren, OCC Chief Spar Over Trump-Linked Crypto Bank Bid",
-    "summary": "Warren called WLFI's charter bid the \"most disgraceful\" corruption scandal, with the OCC's chief quick to defend the regulator's processes.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "crypto ban"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 05:41:57 +0000",
-    "url": "https://decrypt.co/359364/elizabeth-warren-occ-chief-spar-over-trump-linked-crypto-bank-bid"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "MARA Shares Rise After Bitcoin Miner Strikes AI Data Center Deal",
-    "summary": "The Bitcoin miner moved to convert U.S. sites into AI-ready campuses, though analysts say confirmed tenants will be key.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 03:00:57 +0000",
-    "url": "https://decrypt.co/359361/mara-shares-rise-bitcoin-miner-strikes-ai-data-center-deal"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact: Live updates",
-    "summary": "The S&amp;P 500 and the Nasdaq Composite slid on Thursday, dragged lower by Nvidia shares.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "NVDA",
-    "matched_tickers": [
-      "NVDA"
-    ],
-    "keywords": [
-      "inflation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:00:33 GMT",
-    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Crypto&#39;s New Contender? TSUI ETF Puts Sui On The Map",
-    "summary": "The 21Shares Sui ETF (NASDAQ:TSUI), a spot ETF offering direct exposure to the SUI token ",
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 171.9 BTC ($11.0M) transferred",
+    "summary": "Transaction hash: 0341237765f6cc5970a47ce27045fedc... | 171.90 BTC = $11,014,134",
     "symbols": [
-      "SUIUSD",
-      "TSUI",
-      "TXXS"
+      "BTC"
     ],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "offering"
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
     ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T21:02:06Z",
-    "url": "https://www.benzinga.com/etfs/new-etfs/26/02/50946034/cryptos-new-contender-tsui-etf-puts-sui-on-the-map"
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:46:59.137658+00:00",
+    "url": "https://blockchain.info/tx/0341237765f6cc5970a47ce27045fedc99c81282f0266a1b2cb45b18c37c48c3"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 153.8 BTC ($9.9M) transferred",
+    "summary": "Transaction hash: 852da23424576d7255e6244848136e1c... | 153.77 BTC = $9,852,735",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:46:59.231774+00:00",
+    "url": "https://blockchain.info/tx/852da23424576d7255e6244848136e1c6694db06df226284eb3ffca894799f8a"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 257.8 BTC ($16.6M) transferred",
+    "summary": "Transaction hash: 599a62ee21dd70c43a68000190a7477f... | 257.82 BTC = $16,553,812",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:48:59.821880+00:00",
+    "url": "https://blockchain.info/tx/599a62ee21dd70c43a68000190a7477f2444fd84c318d1ce75e7291cb8b98017"
   },
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "Relation Insurance Services acquires Thorn Creek Insurance assets",
+    "headline": "MercadoLibre Shares Sink. Is the Stock a Buy as Revenue Growth Remains Robust?",
     "summary": "",
     "symbols": [],
-    "urgency": "critical",
+    "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "acquire"
+      "revenue"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-26T11:19:34Z",
-    "url": "https://finance.yahoo.com/news/relation-insurance-services-acquires-thorn-111934739.html"
+    "timestamp": "2026-02-28T13:35:00Z",
+    "url": "https://finance.yahoo.com/news/mercadolibre-shares-sink-stock-buy-133500604.html"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Macquarie Maintains Outperform on Zscaler, Lowers Price Target to $210",
-    "summary": "Macquarie  analyst Steve Koenig   maintains Zscaler (NASDAQ:ZS) with a Outperform and lowers the price target from $320 to $210.",
+    "source": "finnhub:crypto",
+    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
+    "summary": "Lawmakers urge US regulators to review Binance\u2019s AML and sanctions controls after reports of Iran-linked transactions and potential evasion risks.",
     "symbols": [
-      "ZS"
+      ""
     ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "ROL",
+    "matched_tickers": [
+      "ROL",
+      "SA"
+    ],
+    "keywords": [
+      "sanction"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T13:37:23+00:00",
+    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 169.9 BTC ($11.0M) transferred",
+    "summary": "Transaction hash: be24a79ff38f81f9c1fafaec08cd19ed... | 169.87 BTC = $10,976,826",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:53:02.984310+00:00",
+    "url": "https://blockchain.info/tx/be24a79ff38f81f9c1fafaec08cd19edc72cc483a0d795252100e8a0c8f26db6"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 119.7 BTC ($7.7M) transferred",
+    "summary": "Transaction hash: a1ec3506c58f94200063eb69b39529c8... | 119.73 BTC = $7,736,643",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:53:03.072019+00:00",
+    "url": "https://blockchain.info/tx/a1ec3506c58f94200063eb69b39529c842e431eae9ad45e399a00d043ecdaf7e"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 258.2 BTC ($16.9M) transferred",
+    "summary": "Transaction hash: 9c635fb6f68a0772014a78cd42b976ee... | 258.24 BTC = $16,862,132",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:01:04.777231+00:00",
+    "url": "https://blockchain.info/tx/9c635fb6f68a0772014a78cd42b976ee7485a01a530f146a55ded4752bdd11ec"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "\u2018Can\u2019t sell house\u2019 searches are higher now than during the 2008 housing crisis",
+    "summary": "Here are some expert tips to help you sell your house in a slow market.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "housing"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 14:00:00 GMT",
+    "url": "https://www.marketwatch.com/story/cant-sell-house-searches-are-higher-now-than-during-the-2008-housing-crisis-1525fccd?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Buying Bitcoin? Hold for at least three years to avoid losses, data says\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMjctNjQ2MC0",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 14:00:56 +0000",
+    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Zscaler price target lowered to $280 from $345 at Oppenheimer",
+    "summary": "",
+    "symbols": [],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
@@ -665,45 +449,115 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T21:05:38Z",
-    "url": "https://www.benzinga.com/news/26/02/50946360/macquarie-maintains-outperform-on-zscaler-lowers-price-target-to-210"
+    "timestamp": "2026-02-28T14:00:30Z",
+    "url": "https://finance.yahoo.com/news/zscaler-price-target-lowered-280-140030816.html"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Deal Dispatch: Funko For Sale? Caesars Casino Weighs Offers, iPic Bankrupt",
-    "summary": "Major M&amp;A deals include Kinderhook&#39;s acquisition of Enhabit, Sompo closing its $3.5-billion deal for Aspen and Spirit Airlines&#39; bankruptcy.",
-    "symbols": [
-      "CAN",
-      "CZR",
-      "EQIX",
-      "FNKO",
-      "GSK",
-      "HPQ",
-      "NFLX",
-      "PGPHF",
-      "PSKY"
+    "source": "rss:Yahoo_Finance",
+    "headline": "PubMatic upgraded to Buy from Hold at Lake Street",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "upgrade",
+      "upgrade"
     ],
-    "urgency": "critical",
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:00:14Z",
+    "url": "https://finance.yahoo.com/news/pubmatic-upgraded-buy-hold-lake-140014230.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Butterfly Network price target raised to $6 from $4.50 at TD Cowen",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:59:43Z",
+    "url": "https://finance.yahoo.com/news/butterfly-network-price-target-raised-135943734.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Sasol Limited (SSL): A Bull Case Theory",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
     "is_macro": false,
     "ticker": "SA",
     "matched_tickers": [
       "SA"
     ],
     "keywords": [
-      "bankrupt"
+      "sol "
     ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:05:44Z",
-    "url": "https://www.benzinga.com/m-a/26/02/50946370/deal-dispatch-funko-caesars-casino-offers-ipic-bankruptcy"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:48:48Z",
+    "url": "https://finance.yahoo.com/news/sasol-limited-ssl-bull-case-134848446.html"
+  },
+  {
+    "source": "rss:CoinDesk",
+    "headline": "Bitcoin sets up potential short squeeze as 'funding rate' plunges to three month low",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin",
+      "funding rate"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 11:00:00 +0000",
+    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-sets-up-potential-short-squeeze-as-funding-plunges-to-6"
   },
   {
     "source": "alpaca:benzinga",
-    "headline": "Crown Holdings Increases Quarterly Dividend From $0.26 To $0.35",
-    "summary": "",
+    "headline": "Berkshire Hathaway Misses Projections As Abel Takes The Helm, Operating Earnings Down Nearly 25%",
+    "summary": "On Saturday, Berkshire Hathaway reported fourth-quarter and full-year 2025 results that showed net earnings attributable to shareholders slipping to $66,968 million for the year from $88,995 million in 2024.",
     "symbols": [
-      "CCK"
+      "AAPL",
+      "BRK",
+      "GOOGL",
+      "KHC",
+      "NYT",
+      "SPY",
+      "UNH"
     ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "AAPL",
+    "matched_tickers": [
+      "AAPL",
+      "GOOGL",
+      "SA"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T14:09:49Z",
+    "url": "https://www.benzinga.com/markets/earnings/26/02/50951965/berkshire-hathaway-misses-projections-as-abel-takes-the-helm-operating-earnings-down-nearly-25"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "If You Like AGNC Investment, You Should Check Out These 2 Ultra-High-Yield Dividend Stocks",
+    "summary": "",
+    "symbols": [],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
@@ -713,412 +567,105 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T21:06:40Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50946436/crown-holdings-increases-quarterly-dividend-from-0-26-to-0-35"
+    "timestamp": "2026-02-28T14:06:00Z",
+    "url": "https://finance.yahoo.com/news/agnc-investment-check-2-ultra-140600887.html"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Macquarie Maintains Outperform on Autodesk, Lowers Price Target to $310",
-    "summary": "Macquarie  analyst Steve Koenig   maintains Autodesk (NASDAQ:ADSK) with a Outperform and lowers the price target from $400 to $310.",
-    "symbols": [
-      "ADSK"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:08:00Z",
-    "url": "https://www.benzinga.com/news/26/02/50946526/macquarie-maintains-outperform-on-autodesk-lowers-price-target-to-310"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "This New ETF By Pictet Lets AI Choose Your Large-Cap US Stocks",
-    "summary": "The AI-powered PQUS ETF uses a data-driven strategy designed to beat the broader market while staying close to its benchmark.",
-    "symbols": [
-      "PBOT",
-      "PCLN",
-      "PQNT",
-      "PQUS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "PBOT",
-    "matched_tickers": [
-      "PBOT",
-      "PCLN",
-      "PQNT",
-      "PQUS"
-    ],
-    "keywords": [
-      "beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:08:59Z",
-    "url": "https://www.benzinga.com/etfs/new-etfs/26/02/50946574/this-new-etf-by-pictet-lets-ai-choose-your-large-cap-us-stocks"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Saul Centers Q4 FFO $0.61 Beats $0.50 Estimate, Sales $75.149M Beat $73.148M Estimate",
-    "summary": "Saul Centers (NYSE:BFS) reported quarterly earnings of $0.61 per share which beat the analyst consensus estimate of $0.50 by 22.98 percent. This is a 3.17 percent decrease over earnings of $0.63 per share from the same",
-    "symbols": [
-      "BFS"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:12:37Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50946733/saul-centers-q4-ffo-0-61-beats-0-50-estimate-sales-75-149m-beat-73-148m-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Macquarie Maintains Outperform on Flutter Entertainment, Lowers Price Target to $230",
-    "summary": "Macquarie  analyst Chad Beynon   maintains Flutter Entertainment (NYSE:FLUT) with a Outperform and lowers the price target from $325 to $230.",
-    "symbols": [
-      "FLUT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:12:54Z",
-    "url": "https://www.benzinga.com/news/26/02/50946743/macquarie-maintains-outperform-on-flutter-entertainment-lowers-price-target-to-230"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Amdocs Inks Multi-Year Partnership With Amazon Web Services To Enhance AI-Driven Modernization Across Telecommunications Sector, Beyond",
-    "summary": "Amdocs (NASDAQ:DOX), a leading provider of software and services to communications and media companies, today announced a multi-year strategic collaboration with Amazon Web Services (AWS) to advance AI-driven",
-    "symbols": [
-      "AMZN",
-      "DOX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "AMZN",
-    "matched_tickers": [
-      "AMZN"
-    ],
-    "keywords": [
-      "partnership"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:13:27Z",
-    "url": "https://www.benzinga.com/news/26/02/50946761/amdocs-inks-multi-year-partnership-with-amazon-web-services-to-enhance-ai-driven-modernization-acros"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Blue Moon Metals To Acquire Apex Mine From Teck American",
-    "summary": "Blue Moon is acquiring 100% of the Apex mine, consisting of 26 patented and 9 unpatented claims for a total 250 Ha (the &#34;Property&#34;), all subject to a royalty capped at US$1M free and clear of all other encumbrances for",
-    "symbols": [
-      "BMM"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "META",
-    "matched_tickers": [
-      "META"
-    ],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:14:26Z",
-    "url": "https://www.benzinga.com/m-a/26/02/50946822/blue-moon-metals-to-acquire-apex-mine-from-teck-american"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Options Corner: Why The Smart Money Is Suddenly Interested In Duolingo Stock",
-    "summary": "Although Duolingo suffered a severe drop following its Q4 earnings disclosure, the smart money seems intrigued by DUOL stock call options.",
-    "symbols": [
-      "DUOL"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:15:33Z",
-    "url": "https://www.benzinga.com/markets/options/26/02/50946908/duolingo-duol-stock-earnings-fallout-contrarian-play"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Prothena Announces $100M Share Buyback",
+    "source": "rss:Yahoo_Finance",
+    "headline": "Elastic price target lowered to $85 from $100 at Oppenheimer",
     "summary": "",
-    "symbols": [
-      "PRTA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "PRTA",
-    "matched_tickers": [
-      "PRTA"
-    ],
-    "keywords": [
-      "buyback"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:15:59Z",
-    "url": "https://www.benzinga.com/news/26/02/50946921/prothena-announces-100m-share-buyback"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "UPDATE: Blue Moon Metals To Acquire Apex Germanium And Gallium Mine From Teck Resources For 7.03M Shares",
-    "summary": "Blue Moon is acquiring 100% of the Apex mine, consisting of 26 patented and 9 unpatented claims for a total 250 Ha (the &#34;Property&#34;), all subject to a royalty capped at US$1M free and clear of all other encumbrances for",
-    "symbols": [
-      "BMM",
-      "TECK"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "META",
-    "matched_tickers": [
-      "META"
-    ],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:16:29Z",
-    "url": "https://www.benzinga.com/m-a/26/02/50946931/update-blue-moon-metals-to-acquire-apex-germanium-and-gallium-mine-from-teck-resources-for-7-03m-sha"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Prothena shares are trading higher after the company announced a $100 million share buyback.",
-    "summary": "",
-    "symbols": [
-      "PRTA"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "PRTA",
-    "matched_tickers": [
-      "PRTA"
-    ],
-    "keywords": [
-      "buyback"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:17:56Z",
-    "url": "https://www.benzinga.com/wiim/26/02/50947012/prothena-shares-are-trading-higher-after-the-company-announced-a-100-million-share-buyback"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Judge dismisses Trump officials\u2019 bid to end student loan repayment plan used by millions of borrowers",
-    "summary": "A federal judge on Friday dismissed the Trump administration's request to eliminate the Saving on a Valuable Education, or SAVE, student loan repayment plan.",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "SA",
+    "ticker": "ASTI",
     "matched_tickers": [
-      "SA"
+      "ASTI"
     ],
     "keywords": [
-      "miss"
+      "price target"
     ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 21:18:40 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/judge-dismisses-trump-officials-bid-to-end-save-plan.html"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:02:00Z",
+    "url": "https://finance.yahoo.com/news/elastic-price-target-lowered-85-140200164.html"
   },
   {
-    "source": "finnhub:general",
-    "headline": "Sweetgreen\u2019s disappointing sales offer a reality check for restaurants, after Cava\u2019s rally",
-    "summary": "A day after Cava\u2019s upbeat sales forecast raised hopes for the restaurant industry, rival fast-casual chain Sweetgreen is bringing them back to earth.",
-    "symbols": [
-      ""
-    ],
+    "source": "rss:Yahoo_Finance",
+    "headline": "AvePoint price target lowered to $16 from $17 at TD Cowen",
+    "summary": "",
+    "symbols": [],
     "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-26T23:34:00+00:00",
-    "url": "https://www.marketwatch.com/story/sweetgreens-disappointing-sales-offer-a-reality-check-for-restaurants-after-cavas-rally-1c2fe3d9"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Dell\u2019s stock soars, as record earnings signal the company is managing memory shortages well",
-    "summary": "The maker of servers and PCs is also boosting its dividend by 20%.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "earnings"
+      "price target"
     ],
-    "sentiment": "bullish",
+    "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-26T23:15:00+00:00",
-    "url": "https://www.marketwatch.com/story/dells-stock-soars-as-record-earnings-signal-the-company-is-managing-memory-shortages-well-41620e00"
+    "timestamp": "2026-02-28T14:01:43Z",
+    "url": "https://finance.yahoo.com/news/avepoint-price-target-lowered-16-140143325.html"
   },
   {
-    "source": "finnhub:general",
-    "headline": "Tech earnings, silver\u2019s rebound and a Cathie Wood ETF offer a high-stakes pivot for investors",
-    "summary": "S&P 500 is stuck in a trading range and the market is eager for a breakout \u2014 up or down.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
+    "source": "rss:Yahoo_Finance",
+    "headline": "Gildan Activewear price target raised to $80 from $77 at TD Securities",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "earnings"
+      "price target"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-26T22:55:00+00:00",
-    "url": "https://www.marketwatch.com/story/tech-earnings-silvers-rebound-and-a-cathie-wood-etf-offer-a-high-stakes-pivot-for-investors-e15b3e40"
+    "timestamp": "2026-02-28T14:01:06Z",
+    "url": "https://finance.yahoo.com/news/gildan-activewear-price-target-raised-140106123.html"
   },
   {
     "source": "finnhub:general",
-    "headline": "Why the S&P 500 was doomed to fall when Nvidia plunged after its earnings",
-    "summary": "Investors worry about Big Tech valuations being inflated relative to what they\u2019re actually worth, says strategist",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA",
-      "NVDA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T22:14:00+00:00",
-    "url": "https://www.marketwatch.com/story/why-the-s-p-500-was-doomed-to-fall-when-nvidia-plunged-after-its-earnings-0ef3599e"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "FanDuel parent Flutter reports disappointing fourth-quarter earnings",
-    "summary": "Flutter's 2026 revenue guidance of $17.75 billion to $19.05 billion was lower than analysts' projection.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings",
-      "guidance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T21:13:47+00:00",
-    "url": "https://www.cnbc.com/2026/02/26/fanduel-parent-flutter-flut-q4-2025-earnings.html"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Nvidia takes the market lower \u2014 but one area of beaten-up tech moves higher",
-    "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "NVDA",
-    "matched_tickers": [
-      "NVDA"
-    ],
-    "keywords": [
-      "beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-26T19:53:41+00:00",
-    "url": "https://www.cnbc.com/2026/02/26/nvidia-takes-the-market-lower-but-one-area-of-beaten-up-tech-moves-higher.html"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Musk, Altman and China are fighting to control a potential $320 billion market for brain implants",
-    "summary": "It\u2019s still very early days for brain chips that let people control devices with their thoughts \u2014 but the market opportunity has become increasingly intriguing to tech CEOs and politicians.",
+    "headline": "\u2018Can\u2019t sell house\u2019 searches are higher now than during the 2008 housing crisis",
+    "summary": "Here are some expert tips to help you sell your house in a slow market.",
     "symbols": [
       ""
     ],
     "urgency": "high",
     "is_macro": true,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL"
-    ],
+    "ticker": "MACRO",
+    "matched_tickers": [],
     "keywords": [
-      "china"
+      "housing"
     ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-26T19:21:00+00:00",
-    "url": "https://www.marketwatch.com/story/musk-altman-and-china-are-fighting-to-control-a-potential-320-billion-market-for-brain-implants-391ad0d8"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:00:00+00:00",
+    "url": "https://www.marketwatch.com/story/cant-sell-house-searches-are-higher-now-than-during-the-2008-housing-crisis-1525fccd"
   },
   {
-    "source": "finnhub:general",
-    "headline": "EBay to cut 800 jobs, joining other tech names in announcing layoffs as AI reshapes workforces",
-    "summary": "The layoff announcement comes a week after eBay agreed to buy secondhand-clothing site Depop and follows job cuts earlier this year by Amazon and Pinterest.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "AMZN",
-    "matched_tickers": [
-      "AMZN"
-    ],
+    "source": "rss:MarketWatch",
+    "headline": "Any chance of a Fed interest-rate cut in 2026 is \u2018evaporating before our very eyes\u2019 with Iran war set to stoke oil prices",
+    "summary": "U.S. and Israel strike several locations in Iran, which responds with missile attacks on Gulf nations.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
     "keywords": [
-      "layoff"
+      "rate cut",
+      "war "
     ],
     "sentiment": "bearish",
     "action_type": "sell",
-    "timestamp": "2026-02-26T18:09:00+00:00",
-    "url": "https://www.marketwatch.com/story/ebay-to-cut-800-jobs-joining-other-tech-names-in-announcing-layoffs-as-ai-reshapes-workforces-9131cacf"
+    "timestamp": "Sat, 28 Feb 2026 14:17:00 GMT",
+    "url": "https://www.marketwatch.com/story/any-chance-the-fed-cuts-rates-this-year-is-evaporating-before-our-very-eyes-as-iran-tensions-raise-oil-prices-18978691?mod=mw_rss_topstories"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "Fold Holdings Executes A Series Of Strategic Capital Transactions; The Transactions Resulted In The Extinguishment Of Two Convertible Note Obligations With A Combined Principal Value Of $66.3M",
-    "summary": "Fold Holdings, Inc. (NASDAQ:FLD) (&#34;Fold&#34; or the &#34;Company&#34;), a bitcoin financial services company making it easy for individuals to earn, save, and spend bitcoin through everyday financial tools, today announced the",
+    "source": "finnhub:crypto",
+    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
+    "summary": "Traders who bought Bitcoin three to five years ago are still up around 90% on average, even after the latest correction.",
     "symbols": [
-      "FLD"
+      ""
     ],
     "urgency": "high",
     "is_macro": false,
@@ -1131,172 +678,455 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T21:20:58Z",
-    "url": "https://www.benzinga.com/news/26/02/50947110/fold-holdings-executes-a-series-of-strategic-capital-transactions-the-transactions-resulted-in-the-e"
+    "timestamp": "2026-02-28T14:00:56+00:00",
+    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
-    "source": "alpaca:benzinga",
-    "headline": "CBRE Downgrades Flutter Entertainment to Hold, Announces $145 Price Target",
-    "summary": "CBRE  analyst John DeCree   downgrades Flutter Entertainment (NYSE:FLUT) from Buy to Hold and announces $145 price target.",
-    "symbols": [
-      "FLUT"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "downgrade",
-      "price target"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T21:21:03Z",
-    "url": "https://www.benzinga.com/news/26/02/50947117/cbre-downgrades-flutter-entertainment-to-hold-announces-145-price-target"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "CIBC Initiates Coverage On Brookfield Bus Partners with Outperformer Rating, Announces Price Target of $44",
-    "summary": "CIBC  analyst Scott Fletcher   initiates coverage on Brookfield Bus Partners (NYSE:BBU) with a Outperformer rating and announces Price Target of $44.",
-    "symbols": [
-      "BBU"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:23:31Z",
-    "url": "https://www.benzinga.com/news/26/02/50947210/cibc-initiates-coverage-on-brookfield-bus-partners-with-outperformer-rating-announces-price-target-o"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
-    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
-    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
-    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
-    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Sable Offshore Q4 EPS $(0.39) Beats $(0.52) Estimate",
-    "summary": "Sable Offshore (NYSE:SOC) reported quarterly losses of $(0.39) per share which beat the analyst consensus estimate of $(0.52) by 25 percent. This is a 160 percent decrease over earnings of $0.65 per share from the same",
-    "symbols": [
-      "SOC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-27T21:27:19Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50947367/sable-offshore-q4-eps-0-39-beats-0-52-estimate"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Insights into Sable Offshore Q4 Earnings",
-    "summary": " ",
-    "symbols": [
-      "SOC"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:28:08Z",
-    "url": "https://www.benzinga.com/insights/earnings/26/02/50947425/insights-into-sable-offshore-q4-earnings"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Maxim Group Initiates Coverage On Polaryx Therapeutics with Buy Rating, Announces Price Target of $10",
-    "summary": "Maxim Group  analyst Jason McCarthy   initiates coverage on Polaryx Therapeutics (NASDAQ:PLYX) with a Buy rating and announces Price Target of $10.",
-    "symbols": [
-      "PLYX"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:28:35Z",
-    "url": "https://www.benzinga.com/news/26/02/50947445/maxim-group-initiates-coverage-on-polaryx-therapeutics-with-buy-rating-announces-price-target-of-10"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "AMTD Digital Reports FY25 Revenue Up 565.7% YoY From $20.4M To $136.1M",
-    "summary": "AMTD IDEA (NYSE:AMTD, SGX: HKB))) subsidiary\u00a0AMTD Digital Inc. (NYSE:HKD), a NYSE\u2011listed company and subsidiary of AMTD Group Inc., today announced it has filed its annual report on Form 20\u2011F with the U.S.",
-    "symbols": [
-      "AMTD",
-      "HKD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:29:49Z",
-    "url": "https://www.benzinga.com/news/earnings/26/02/50947490/amtd-digital-reports-fy25-revenue-up-565-7-yoy-from-20-4m-to-136-1m"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Trump warns\u2018sometimes you have to\u2019 use force on Friday. Oil markets now see high odds of a U.S. strike on Iran.",
-    "summary": "Oil prices jolted higher on Friday, booking their biggest daily gains in over a week, after President Trump signaled the window for using diplomacy to end Tehran\u2019s nuclear program may be closing.",
+    "source": "finnhub:crypto",
+    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
+    "summary": "",
     "symbols": [
       ""
     ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin",
+      "btc "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:00:00+00:00",
+    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Berkshire Hathaway earnings slip on decline in insurance results",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T13:44:00Z",
+    "url": "https://finance.yahoo.com/news/berkshire-hathaway-earnings-slip-decline-134400333.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 1,570.7 BTC ($101.7M) transferred",
+    "summary": "Transaction hash: 6b4478e242b64e784260abc0d1a99c30... | 1,570.66 BTC = $101,749,110",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:29:11.434496+00:00",
+    "url": "https://blockchain.info/tx/6b4478e242b64e784260abc0d1a99c3078a5576812815df1a649efcf400d5e04"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 158.7 BTC ($10.3M) transferred",
+    "summary": "Transaction hash: 69e4e4460b8527adf753ce07f71ab9a5... | 158.73 BTC = $10,283,785",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:31:12.044885+00:00",
+    "url": "https://blockchain.info/tx/69e4e4460b8527adf753ce07f71ab9a52bdaf88e25cb4e41b9c8af5e33641b1b"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "CoreWeave price target raised to $125 from $110 at DA Davidson",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:28:13Z",
+    "url": "https://finance.yahoo.com/news/coreweave-price-target-raised-125-142813561.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Cars.com price target lowered to $13 from $22 at B. Riley",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:27:55Z",
+    "url": "https://finance.yahoo.com/news/cars-com-price-target-lowered-142755426.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Xponential Fitness price target lowered to $7 from $10 at Northland",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:27:37Z",
+    "url": "https://finance.yahoo.com/news/xponential-fitness-price-target-lowered-142737898.html"
+  },
+  {
+    "source": "rss:CoinDesk",
+    "headline": "Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in stolen funds. Gets quickly shutdown",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "mt. gox"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 14:51:29 +0000",
+    "url": "https://www.coindesk.com/tech/2026/02/28/former-mt-gox-ceo-proposed-a-rewrite-of-bitcoin-s-code-to-recover-usd5-billion-in-stolen-funds-gets-quickly-shutdown"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "KBR Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:38:09Z",
+    "url": "https://finance.yahoo.com/news/kbr-q4-earnings-call-highlights-143809247.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Joby Aviation Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:38:08Z",
+    "url": "https://finance.yahoo.com/news/joby-aviation-q4-earnings-call-143808031.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "St. Joe Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:38:08Z",
+    "url": "https://finance.yahoo.com/news/st-joe-q4-earnings-call-143808940.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Summit Hotel Properties Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:38:07Z",
+    "url": "https://finance.yahoo.com/news/summit-hotel-properties-q4-earnings-143807416.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Ibotta Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:38:06Z",
+    "url": "https://finance.yahoo.com/news/ibotta-q4-earnings-call-highlights-143806101.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Harbinger acquires autonomous-driving firm Phantom AI",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T15:00:00Z",
+    "url": "https://finance.yahoo.com/news/harbinger-acquires-autonomous-driving-firm-150000868.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 104.1 BTC ($6.7M) transferred",
+    "summary": "Transaction hash: ab0cf67a76a2213a0baa78bf7512cbb6... | 104.14 BTC = $6,719,001",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T15:25:26.074305+00:00",
+    "url": "https://blockchain.info/tx/ab0cf67a76a2213a0baa78bf7512cbb63d9945a58c485b671a0c440a361a82cf"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 1,556.5 BTC ($100.9M) transferred",
+    "summary": "Transaction hash: 59ded1bab7e88901acf1e3cf9f5b87b5... | 1,556.52 BTC = $100,900,482",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T15:45:30.840730+00:00",
+    "url": "https://blockchain.info/tx/59ded1bab7e88901acf1e3cf9f5b87b5995caa4d2fde1fe4fefa6dd6b28d435c"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 573.2 BTC ($37.2M) transferred",
+    "summary": "Transaction hash: 2e6c21385dd63cd74755dfbfa1fa4eab... | 573.17 BTC = $37,155,434",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T15:45:30.934691+00:00",
+    "url": "https://blockchain.info/tx/2e6c21385dd63cd74755dfbfa1fa4eab6b3e02bd23a55fbe1c49fc2aec67a6a3"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in stolen funds. Gets quickly shutdown",
+    "summary": "",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "mt. gox"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T14:51:29+00:00",
+    "url": "https://www.coindesk.com/tech/2026/02/28/former-mt-gox-ceo-proposed-a-rewrite-of-bitcoin-s-code-to-recover-usd5-billion-in-stolen-funds-gets-quickly-shutdown"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Greg Abel as Berkshire Earnings Fall: &#39;Warren Is Obviously a Very Hard Act To Follow&#39;",
+    "summary": "Greg Abel, calling Warren Buffett &#34;a very hard act to follow,&#34; signaled continuity at Berkshire as Q4 operating earnings fell about 30% and the cash hoard dipped despite no buybacks.",
+    "symbols": [
+      "AAPL",
+      "AXP",
+      "BRK",
+      "BRK/A",
+      "BRK/B",
+      "KO",
+      "MCO"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "AAPL",
+    "matched_tickers": [
+      "AAPL"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-02-28T15:59:57Z",
+    "url": "https://www.benzinga.com/markets/equities/26/02/50952147/greg-abel-as-berkshire-earnings-fall-warren-is-obviously-a-very-hard-act-to-follow"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 103.9 BTC ($6.7M) transferred",
+    "summary": "Transaction hash: e7dabb9b20d250295885d2dba9d24d64... | 103.86 BTC = $6,739,517",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:17:38.593745+00:00",
+    "url": "https://blockchain.info/tx/e7dabb9b20d250295885d2dba9d24d6432f900993a97c50e73e67cfde17ca658"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 257.6 BTC ($16.7M) transferred",
+    "summary": "Transaction hash: d6e3a596782383c5d291239f41267e84... | 257.59 BTC = $16,687,498",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:19:39.112202+00:00",
+    "url": "https://blockchain.info/tx/d6e3a596782383c5d291239f41267e844222c06d73711894ee5be3e06d749e2b"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Use This ETF to Earn Dividends From Berkshire Hathaway",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:05:00Z",
+    "url": "https://finance.yahoo.com/news/etf-earn-dividends-berkshire-hathaway-160500757.html"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "Banking Regulator Floats New Stablecoin Yield Rules\u2014Do They Hurt Coinbase?",
+    "summary": "The proposed rules would limit the ability of third parties to pass stablecoin rewards on to users, but experts are split on what the language could mean for America\u2019s top crypto firms.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "coinbase"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 16:30:16 +0000",
+    "url": "https://decrypt.co/359506/banking-occ-new-stablecoin-yield-rules-coinbase"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Oil prices set for swings next week as US-Israel strikes raise supply uncertainty",
+    "summary": "",
+    "symbols": [],
     "urgency": "high",
     "is_macro": true,
     "ticker": "MACRO",
@@ -1306,30 +1136,411 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T22:38:00+00:00",
-    "url": "https://www.marketwatch.com/story/trump-said-sometimes-you-have-to-use-force-on-friday-oil-markets-now-see-high-odds-of-the-u-s-striking-iran-abbaf88c"
+    "timestamp": "2026-02-28T16:02:16Z",
+    "url": "https://finance.yahoo.com/news/oil-prices-set-swings-next-160216789.html"
   },
   {
-    "source": "finnhub:general",
-    "headline": "10-year yield falls below 4% on stagflation risk following hot producer prices reading",
-    "summary": "U.S. Treasury yields were lower on Friday as investors reacted to wholesale inflation that came in above Wall Street estimates.",
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 147.1 BTC ($9.6M) transferred",
+    "summary": "Transaction hash: 4fd6c7402cf147a395ac903451840910... | 147.14 BTC = $9,575,127",
     "symbols": [
-      ""
+      "BTC"
     ],
     "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:47:45.177261+00:00",
+    "url": "https://blockchain.info/tx/4fd6c7402cf147a395ac90345184091000a756e29eb0574863f4d3278da2b39e"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "MBIA Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:41:34Z",
+    "url": "https://finance.yahoo.com/news/mbia-q4-earnings-call-highlights-164134665.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "LTC Properties Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:41:33Z",
+    "url": "https://finance.yahoo.com/news/ltc-properties-q4-earnings-call-164133892.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "CS Disco Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:41:31Z",
+    "url": "https://finance.yahoo.com/news/cs-disco-q4-earnings-call-164131997.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 126.9 BTC ($8.3M) transferred",
+    "summary": "Transaction hash: 427523d9f4ca589d7a88ffe6a233e414... | 126.93 BTC = $8,260,422",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:03:49.629034+00:00",
+    "url": "https://blockchain.info/tx/427523d9f4ca589d7a88ffe6a233e4140ccbe7c334c13c58969c2f0e517aa3df"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "2 Tariff-Proof Energy Stocks to Buy Now",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
     "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T16:53:00Z",
+    "url": "https://finance.yahoo.com/news/2-tariff-proof-energy-stocks-165300981.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "LandBridge Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T16:41:32Z",
+    "url": "https://finance.yahoo.com/news/landbridge-q4-earnings-call-highlights-164132758.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "They Asked What Owning Just 1 BTC Would Do For Someone's Financial Life. Some Called It Life-Changing, Others Joked, 'It Means I'm Down $30K'",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "btc "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:00:34Z",
+    "url": "https://finance.yahoo.com/news/asked-owning-just-1-btc-170034431.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Stock Market Week: Reaction To Iran, Berkshire Earnings, Apple Event",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "AAPL",
+    "matched_tickers": [
+      "AAPL"
+    ],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:00:09Z",
+    "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-reaction-to-iran-berkshire-earnings-apple-event/?src=A00220&yptr=yahoo"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 302.5 BTC ($19.6M) transferred",
+    "summary": "Transaction hash: d8e0731930d774ae33492736f53a5265... | 302.48 BTC = $19,639,554",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:23:54.686476+00:00",
+    "url": "https://blockchain.info/tx/d8e0731930d774ae33492736f53a5265a18543cd483dab8e41c625a06a5a9efd"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran",
+    "summary": "The price of Bitcoin plummeted to nearly $63,000 overnight amid U.S. and Israel strikes on Iran, but has mostly recovered in the hours since.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 17:24:59 +0000",
+    "url": "https://decrypt.co/359528/bitcoin-recovers-following-plunge-as-us-israel-begin-bombing-iran"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Mining stocks are the new market darlings, fueled by geopolitical risks and AI demand",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "mining"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:30:05Z",
+    "url": "https://finance.yahoo.com/news/mining-stocks-are-the-new-market-darlings-fueled-by-geopolitical-risks-and-ai-demand-173005780.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Jim Cramer Recommends Agnico Eagle Over Fortuna Mining",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "mining"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:20:49Z",
+    "url": "https://finance.yahoo.com/news/jim-cramer-recommends-agnico-eagle-172049162.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Matador Resources Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:48Z",
+    "url": "https://finance.yahoo.com/news/matador-resources-q4-earnings-call-173548755.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "MP Materials Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:47Z",
+    "url": "https://finance.yahoo.com/news/mp-materials-q4-earnings-call-173547466.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Miami International Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:47Z",
+    "url": "https://finance.yahoo.com/news/miami-international-q4-earnings-call-173547054.html"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Judge blocks Binance from pushing class action suits over token sales into arbitration",
+    "summary": "<p>The case traces back to a wave of class action lawsuits filed in April 2020 against major crypto exchanges and token issuers.</p>",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
     "ticker": "SA",
     "matched_tickers": [
       "SA"
     ],
     "keywords": [
-      "inflation",
-      "treasury yield"
+      "binance"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T18:39:35+00:00",
-    "url": "https://www.cnbc.com/2026/02/27/us-treasury-yields-investors-await-wholesale-inflation-reading.html"
+    "timestamp": "Sat, 28 Feb 2026 12:52:30 -0500",
+    "url": "https://www.theblock.co/post/391662/judge-blocks-binance-from-pushing-class-action-suits-over-token-sales-into-arbitration?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "UBS Raises Viatris (VTRS) Price Target as Cost Savings and Growth Outlook Improve",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:40:21Z",
+    "url": "https://finance.yahoo.com/news/ubs-raises-viatris-vtrs-price-174021058.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "MasTec Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:49Z",
+    "url": "https://finance.yahoo.com/news/mastec-q4-earnings-call-highlights-173549983.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Millrose Properties Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:48Z",
+    "url": "https://finance.yahoo.com/news/millrose-properties-q4-earnings-call-173548135.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 104.1 BTC ($6.8M) transferred",
+    "summary": "Transaction hash: f187a416ea631e58e4f0d81d50206786... | 104.09 BTC = $6,806,681",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:00:03.701355+00:00",
+    "url": "https://blockchain.info/tx/f187a416ea631e58e4f0d81d5020678698c3bebaa633c432bb34ca352cb7d22f"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
+    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "revenue",
+      "contract"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T10:12:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
   },
   {
     "source": "rss:CNBC_Top",
@@ -1347,40 +1558,6 @@
     "action_type": "monitor",
     "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
     "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
-    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
-    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "White House gives Democrats new DHS funding offer as partial government shutdown drags on",
-    "summary": "The Department of Homeland Security has been shut down since Feb. 14 as immigration enforcement negotiations drag on.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "government shutdown"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:46:33 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/white-house-dhs-ice-government-shutdown-democrats.html"
   },
   {
     "source": "rss:CNBC_Top",
@@ -1402,68 +1579,26 @@
     "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
   },
   {
-    "source": "finnhub:crypto",
-    "headline": "3 Solana data points highlight resilience, but is SOL undervalued?",
-    "summary": "SOL is down 72% from its all-time high, but several data points paint a compelling investment scenario. Is SOL trading at a deep discount?",
-    "symbols": [
-      ""
-    ],
+    "source": "rss:CNBC_Top",
+    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
+    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
+    "symbols": [],
     "urgency": "high",
-    "is_macro": false,
+    "is_macro": true,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "solana",
-      "sol "
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T21:30:00+00:00",
-    "url": "https://cointelegraph.com/news/3-solana-data-points-highlight-resilience-but-is-sol-undervalued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Traders may rotate into Bitcoin if UBS\u2019 bearish US stocks view comes true",
-    "summary": "A UBS report dinged US stocks for being \u201covervalued\u201d suggesting that better investment opportunities exist outside of US markets. Is this the next rally catalyst for Bitcoin?",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T20:27:43+00:00",
-    "url": "https://cointelegraph.com/news/traders-may-rotate-into-bitcoin-if-ubs-bearish-us-stocks-view-comes-true?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined",
-    "summary": "Analysts dispute claims of a daily Jane Street Bitcoin dump as spot Bitcoin ETFs post three days of inflows and DeFi debates shift to real revenue.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "revenue"
+      "inflation"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T19:00:00+00:00",
-    "url": "https://cointelegraph.com/news/analysts-reject-jane-street-dump-claims-bitcoin-etf-inflows-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
   },
   {
     "source": "finnhub:crypto",
-    "headline": "Price predictions 2/27: BTC, ETH, XRP, BNB, SOL, DOGE, BCH, ADA, HYPE, LINK",
-    "summary": "Bitcoin\u2019s attempt to top $70,000 stalled throughout the week, but analysts believe that the short-term downside will be limited. Will altcoins hold on to their weekly gains?",
+    "headline": "Bitcoin sets up potential short squeeze as funding plunges to -6%",
+    "summary": "",
     "symbols": [
       ""
     ],
@@ -1476,13 +1611,54 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T18:41:44+00:00",
-    "url": "https://cointelegraph.com/news/price-predictions-2-27-btc-eth-xrp-bnb-sol-doge-bch-ada-hype-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "2026-02-28T11:00:00+00:00",
+    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-sets-up-potential-short-squeeze-as-funding-plunges-to-6"
   },
   {
     "source": "finnhub:crypto",
-    "headline": "Bitcoin to $30K? Analysts debate when and at what price BTC will bottom",
-    "summary": "Several analysts forecast Bitcoin extending its bear market into late 2026, with potential cycle lows between $30,000 and $45,000 backed by rising exchange reserves.",
+    "headline": "Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran",
+    "summary": "",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T06:56:30+00:00",
+    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-under-usd64-000-as-u-s-and-israel-launch-strikes-on-iran"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
+    "summary": "Mark Karpel\u00e8s said it has been 12 years since the start of Mt. Gox\u2019s bankruptcy proceedings and \u201cthis is probably the last sore point on this whole case.\u201d",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "mt. gox",
+      "bankrupt"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T04:59:48+00:00",
+    "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6%",
+    "summary": "",
     "symbols": [
       ""
     ],
@@ -1492,12 +1668,12 @@
     "matched_tickers": [],
     "keywords": [
       "bitcoin",
-      "btc "
+      "solana"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T15:26:31+00:00",
-    "url": "https://cointelegraph.com/news/bitcoin-to-30k-analysts-debate-when-what-price-btc-price-will-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "2026-02-28T04:24:51+00:00",
+    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-to-usd65-000-in-weekend-sell-off-with-solana-xrp-dogecoin-down-6"
   },
   {
     "source": "rss:CNBC_Markets",
@@ -1536,258 +1712,9 @@
     "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
   },
   {
-    "source": "rss:MarketWatch",
-    "headline": "Trump warned \u2018sometimes you have to\u2019 use force on Friday. Oil markets now see high odds of a U.S. strike on Iran.",
-    "summary": "Oil prices jolted higher on Friday, booking their biggest daily gains in over a week, after President Trump signaled the window for using diplomacy to end Tehran\u2019s nuclear program may be closing.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:38:00 GMT",
-    "url": "https://www.marketwatch.com/story/trump-said-sometimes-you-have-to-use-force-on-friday-oil-markets-now-see-high-odds-of-the-u-s-striking-iran-abbaf88c?mod=mw_rss_topstories"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "United\u2019s stock had its worst day in months on rising oil prices, market jitters",
-    "summary": "United Airlines\u2019 stock on Friday suffered its worst drop in 10 months, with other airline stocks also seeing steep declines amid rising oil futures prices and increased market jitters.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:35:00 GMT",
-    "url": "https://www.marketwatch.com/story/uniteds-stock-and-other-airline-shares-get-a-reality-check-from-rising-oil-prices-market-jitters-2b6adfd0?mod=mw_rss_topstories"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Software stocks fall as Block\u2019s big job cuts stoke further AI fears",
-    "summary": "Block\u2019s layoffs exacerbated concerns that artificial-intelligence could decimate employee counts and hurt demand for software.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "layoff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 21:45:00 GMT",
-    "url": "https://www.marketwatch.com/story/software-stocks-fall-as-blocks-big-job-cuts-stoke-further-ai-fears-c66aef8e?mod=mw_rss_topstories"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "This High-Yield Dividend Stock Is Powering a New Generation of Data Centers",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T15:24:38Z",
-    "url": "https://finance.yahoo.com/news/high-yield-dividend-stock-powering-152438405.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "IonQ Earnings Beat, Guidance Above Views. Quantum Firm Targets Q4 2026 Milestone.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings",
-      "guidance"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-26T15:24:00Z",
-    "url": "https://www.investors.com/news/technology/quantum-computing-stocks-ionq-stock-ionq-earnings-news/?src=A00220&yptr=yahoo"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Zoom Posts a Rare Quarterly Earnings Miss, but Underlying Fundamentals Remain Strong",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-26T15:28:52Z",
-    "url": "https://finance.yahoo.com/news/zoom-posts-rare-quarterly-earnings-152852260.html"
-  },
-  {
     "source": "rss:CoinDesk",
-    "headline": "U.S. Senate Democrats asked Treasury, DOJ to probe Binance's illicit finance controls",
+    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
     "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL"
-    ],
-    "keywords": [
-      "binance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:08:38 +0000",
-    "url": "https://www.coindesk.com/policy/2026/02/27/u-s-senate-democrats-asked-treasury-doj-to-probe-binance-s-illicit-finance-controls"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Coinbase\u2019s head of litigation says states are \u201cgaslighting\u201d on prediction markets",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "coinbase"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:35:12 +0000",
-    "url": "https://www.coindesk.com/coindesk-news/2026/02/27/coinbase-s-head-of-litigation-says-states-are-gaslighting-on-prediction-markets"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "The worst may lie ahead. Bitcoin chart revisits historic pattern.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 12:23:48 +0000",
-    "url": "https://www.coindesk.com/daybook-us/2026/02/27/the-worst-may-lie-ahead-bitcoin-chart-revisits-historic-pattern"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin falls with ether, solana while decred, AI-linked tokens advance",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "solana"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 11:49:09 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-falls-with-ether-solana-while-decred-ai-linked-tokens-advance"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "U.S. spot bitcoin ETFs set for biggest week in 6 after adding $1.1 billion in three days",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 10:05:04 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/u-s-spot-bitcoin-etfs-set-for-biggest-week-in-6-after-adding-usd1-1-billion-in-three-days"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin price slump versus gold\u2019s gains highlights evolving crypto market",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price slump versus gold\u2019s gains highlights evolving crypto market\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTIvMDE5YjI2NGMtOTUxNC",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "GM",
-    "matched_tickers": [
-      "GM",
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 22:30:00 +0000",
-    "url": "https://cointelegraph.com/news/bitcoin-price-slump-versus-gold-s-gains-highlights-evolving-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Three Solana data points highlight resilience, but is SOL undervalued?",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Three Solana data points highlight resilience, but is SOL undervalued?\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMzEtZTAwZS03Y",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "solana",
-      "sol "
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:30:00 +0000",
-    "url": "https://cointelegraph.com/news/3-solana-data-points-highlight-resilience-but-is-sol-undervalued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDI",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 19:00:00 +0000",
-    "url": "https://cointelegraph.com/news/analysts-reject-jane-street-dump-claims-bitcoin-etf-inflows-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin to $30K? Analysts debate when and at what price BTC will bottom",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin to $30K? Analysts debate when and at what price BTC will bottom\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmYTItNjRmOS03",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
@@ -1799,13 +1726,30 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 15:26:31 +0000",
-    "url": "https://cointelegraph.com/news/bitcoin-to-30k-analysts-debate-when-what-price-btc-price-will-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
+    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "SEC is seeking to regain crypto ground following \u2018missed opportunity,\u2019 Chairman Atkins says",
-    "summary": "<p>The SEC is working to regain momentum on crypto after what Atkins described as a \u201cbig missed opportunity\u201d under the prior administration.</p>",
+    "source": "rss:CoinDesk",
+    "headline": "Bitcoin could see further downside risks as Iran attacks U.S. bases across Middle East",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 10:26:03 +0000",
+    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-could-see-further-downside-risks-as-iran-attacks-u-s-bases-across-middle-east"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Buying Bitcoin? Hold for at least three years to avoid losses, data says\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMjctNjQ2MC0",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
@@ -1814,12 +1758,68 @@
       "SA"
     ],
     "keywords": [
-      "miss"
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 14:00:56 +0000",
+    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA",
+      "ROL"
+    ],
+    "keywords": [
+      "sanction"
     ],
     "sentiment": "bearish",
     "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 17:40:40 -0500",
-    "url": "https://www.theblock.co/post/391646/sec-is-seeking-to-regain-crypto-ground-following-missed-opportunity-chairman-atkins-says?utm_source=rss&utm_medium=rss"
+    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
+    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Bitcoin price drops to $63K as US, Israel bomb Iran",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price drops to $63K as US, Israel bomb Iran\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Y2EzNTAtYzhkZS03MGNiLTgzZDQtOTBhMTZh",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 08:23:53 +0000",
+    "url": "https://cointelegraph.com/news/bitcoin-price-drops-63k-us-israel-bomb-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "solana etf"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
+    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
     "source": "rss:TheBlock",
@@ -1860,24 +1860,21 @@
     "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
   },
   {
-    "source": "rss:TheBlock",
-    "headline": "\u2018We like it more,\u2019 Bernstein says after Figure posts 156% jump in Q4 profit",
-    "summary": "<p>Bernstein analysts said Figure delivered \"solid\" fourth-quarter results, backing their outperform rating and $72 price target.</p>",
+    "source": "rss:Decrypt",
+    "headline": "Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran",
+    "summary": "The price of Bitcoin plummeted to nearly $63,000 overnight amid U.S. and Israel strikes on Iran, but has mostly recovered in the hours since.",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
+    "ticker": "MACRO",
+    "matched_tickers": [],
     "keywords": [
-      "price target",
-      "profit"
+      "bitcoin"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 05:28:07 -0500",
-    "url": "https://www.theblock.co/post/391543/figure-posts-in-line-q4-revenue-higher-profit?utm_source=rss&utm_medium=rss"
+    "timestamp": "Sat, 28 Feb 2026 17:24:59 +0000",
+    "url": "https://decrypt.co/359528/bitcoin-recovers-following-plunge-as-us-israel-begin-bombing-iran"
   },
   {
     "source": "rss:Decrypt",
