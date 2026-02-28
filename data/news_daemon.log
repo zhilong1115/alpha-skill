@@ -9590,3 +9590,69 @@
 2026-02-28 11:06:53,605 [realtime_news] INFO: ✅ Alpaca news stream connected
 2026-02-28 11:06:54,172 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
 2026-02-28 11:06:55,504 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:06:58,129 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — 11 US senators request federal probe into Binance’s sanctions compliance
+2026-02-28 11:06:58,611 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Morgan Stanley applies for OCC bank charter to custody crypto
+2026-02-28 11:06:58,681 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:06:58,966 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 20
+2026-02-28 11:06:59,212 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid s
+2026-02-28 11:07:00,058 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] ROL
+2026-02-28 11:07:00,573 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:07:00,741 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI
+2026-02-28 11:07:00,952 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 11:07:01,208 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 11:07:04,620 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 11:07:11,299 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 11:07:16,176 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:07:20,367 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] ROL
+2026-02-28 11:07:28,162 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:07:34,592 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 11:07:38,408 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 11:35:50,550 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ormat Technologies Q4 Earnings Call Highlights
+2026-02-28 11:35:51,068 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Natural Resource Partners Q4 Earnings Call Highlights
+2026-02-28 11:35:52,404 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:35:52,864 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:36:00,921 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:36:05,400 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:37:54,654 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — NexPoint Real Estate Finance Q4 Earnings Call Highlights
+2026-02-28 11:37:56,485 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:38:01,881 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:43:03,501 [realtime_news] INFO: 🚨 ALERT: [high] SA — Iran conflict raises talk of a return to $100-a-barrel oil
+2026-02-28 11:45:07,160 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Northwest Natural Gas Q4 Earnings Call Highlights
+2026-02-28 11:45:07,424 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Owens Corning Q4 Earnings Call Highlights
+2026-02-28 11:45:09,073 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:45:09,239 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:45:16,330 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:45:22,262 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:47:00,958 [realtime_news] INFO: 🚨 ALERT: [high] SA — Iran conflict raises talk of a return to $100-a-barrel oil
+2026-02-28 11:55:22,733 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — How the attack on Iran could impact the global oil market and economy
+2026-02-28 12:02:39,956 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Could Buying Oklo Stock Today Set You Up for Life in Dividend Income?
+2026-02-28 12:19:08,147 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Pebblebrook Hotel Trust Q4 Earnings Call Highlights
+2026-02-28 12:19:08,399 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — PACS Group Q4 Earnings Call Highlights
+2026-02-28 12:19:08,637 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — OUTFRONT Media Q4 Earnings Call Highlights
+2026-02-28 12:19:10,096 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 12:19:10,294 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 12:19:10,535 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 12:19:16,664 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 12:19:20,597 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 12:19:24,324 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 12:21:08,754 [realtime_news] INFO: Finnhub polling stopped
+2026-02-28 12:21:08,755 [realtime_news] INFO: RSS polling stopped
+2026-02-28 12:21:08,755 [realtime_news] INFO: Whale monitor stopped
+2026-02-28 12:21:21,158 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=3656)
+2026-02-28 12:21:21,159 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-28 12:21:21,159 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 12:21:21,159 [realtime_news] INFO: RSS polling started (interval=60s, 9 feeds)
+2026-02-28 12:21:21,159 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-28 12:21:21,159 [realtime_news] INFO: 🐋 Whale monitor started (interval=120s, threshold=$50M / 500 BTC)
+2026-02-28 12:21:21,627 [realtime_news] INFO: 🚨 ALERT: [high] SA — Iran conflict raises talk of a return to $100-a-barrel oil
+2026-02-28 12:21:22,658 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iran strikes will likely boost defense stocks — but here’s what will keep the ca
+2026-02-28 12:21:23,720 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-28 12:21:24,214 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-28 12:21:24,214 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-28 12:21:25,584 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 12:21:26,273 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-02-28 12:21:26,526 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-28 12:21:26,526 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-28 12:21:26,608 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-28 12:21:26,608 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-28 12:21:28,381 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO

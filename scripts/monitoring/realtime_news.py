@@ -108,7 +108,9 @@ CRYPTO_HIGH = [
 
 # Ticker-specific urgency keywords (stocks)
 TICKER_CRITICAL = [
-    "earnings", "guidance", "fda approv", "fda reject", "acquire",
+    "earnings beat", "earnings miss", "earnings blowout", "earnings shock",
+    "guidance raise", "guidance cut", "guidance lower",
+    "fda approv", "fda reject", "acquire",
     "merger", "bankrupt", "fraud", "sec investigat", "recall",
     "data breach", "ceo resign", "ceo fired",
 ]
@@ -189,8 +191,12 @@ def add_alert(alert: dict) -> None:
     logger.info("🚨 ALERT: [%s] %s — %s", alert.get("urgency", "?"), alert.get("ticker", "MACRO"), alert.get("headline", "")[:80])
 
     # Notify Alpha agent only for CRITICAL news (not high — too many false positives)
+    # On weekends: only notify for crypto or macro — stock news isn't actionable
     if alert.get("urgency") == "critical":
-        _notify_agent(alert)
+        is_weekend = datetime.now().weekday() >= 5  # Sat=5, Sun=6
+        is_crypto_or_macro = alert.get("is_crypto") or alert.get("is_macro")
+        if not is_weekend or is_crypto_or_macro:
+            _notify_agent(alert)
 
 
 def _notify_agent(alert: dict) -> None:

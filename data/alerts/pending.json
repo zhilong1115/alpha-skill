@@ -1,436 +1,5 @@
 [
   {
-    "source": "rss:CoinTelegraph",
-    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Buying Bitcoin? Hold for at least three years to avoid losses, data says\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMjctNjQ2MC0",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 14:00:56 +0000",
-    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Zscaler price target lowered to $280 from $345 at Oppenheimer",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:00:30Z",
-    "url": "https://finance.yahoo.com/news/zscaler-price-target-lowered-280-140030816.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "PubMatic upgraded to Buy from Hold at Lake Street",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "upgrade",
-      "upgrade"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:00:14Z",
-    "url": "https://finance.yahoo.com/news/pubmatic-upgraded-buy-hold-lake-140014230.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Butterfly Network price target raised to $6 from $4.50 at TD Cowen",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:59:43Z",
-    "url": "https://finance.yahoo.com/news/butterfly-network-price-target-raised-135943734.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Sasol Limited (SSL): A Bull Case Theory",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "sol "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:48:48Z",
-    "url": "https://finance.yahoo.com/news/sasol-limited-ssl-bull-case-134848446.html"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin sets up potential short squeeze as 'funding rate' plunges to three month low",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "funding rate"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 11:00:00 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-sets-up-potential-short-squeeze-as-funding-plunges-to-6"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Berkshire Hathaway Misses Projections As Abel Takes The Helm, Operating Earnings Down Nearly 25%",
-    "summary": "On Saturday, Berkshire Hathaway reported fourth-quarter and full-year 2025 results that showed net earnings attributable to shareholders slipping to $66,968 million for the year from $88,995 million in 2024.",
-    "symbols": [
-      "AAPL",
-      "BRK",
-      "GOOGL",
-      "KHC",
-      "NYT",
-      "SPY",
-      "UNH"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "AAPL",
-    "matched_tickers": [
-      "AAPL",
-      "GOOGL",
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T14:09:49Z",
-    "url": "https://www.benzinga.com/markets/earnings/26/02/50951965/berkshire-hathaway-misses-projections-as-abel-takes-the-helm-operating-earnings-down-nearly-25"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "If You Like AGNC Investment, You Should Check Out These 2 Ultra-High-Yield Dividend Stocks",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:06:00Z",
-    "url": "https://finance.yahoo.com/news/agnc-investment-check-2-ultra-140600887.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Elastic price target lowered to $85 from $100 at Oppenheimer",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "ASTI",
-    "matched_tickers": [
-      "ASTI"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:02:00Z",
-    "url": "https://finance.yahoo.com/news/elastic-price-target-lowered-85-140200164.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "AvePoint price target lowered to $16 from $17 at TD Cowen",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:01:43Z",
-    "url": "https://finance.yahoo.com/news/avepoint-price-target-lowered-16-140143325.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Gildan Activewear price target raised to $80 from $77 at TD Securities",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:01:06Z",
-    "url": "https://finance.yahoo.com/news/gildan-activewear-price-target-raised-140106123.html"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "\u2018Can\u2019t sell house\u2019 searches are higher now than during the 2008 housing crisis",
-    "summary": "Here are some expert tips to help you sell your house in a slow market.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "housing"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:00:00+00:00",
-    "url": "https://www.marketwatch.com/story/cant-sell-house-searches-are-higher-now-than-during-the-2008-housing-crisis-1525fccd"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Any chance of a Fed interest-rate cut in 2026 is \u2018evaporating before our very eyes\u2019 with Iran war set to stoke oil prices",
-    "summary": "U.S. and Israel strike several locations in Iran, which responds with missile attacks on Gulf nations.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "rate cut",
-      "war "
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Sat, 28 Feb 2026 14:17:00 GMT",
-    "url": "https://www.marketwatch.com/story/any-chance-the-fed-cuts-rates-this-year-is-evaporating-before-our-very-eyes-as-iran-tensions-raise-oil-prices-18978691?mod=mw_rss_topstories"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
-    "summary": "Traders who bought Bitcoin three to five years ago are still up around 90% on average, even after the latest correction.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:00:56+00:00",
-    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
-    "summary": "",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "btc "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:00:00+00:00",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Berkshire Hathaway earnings slip on decline in insurance results",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:44:00Z",
-    "url": "https://finance.yahoo.com/news/berkshire-hathaway-earnings-slip-decline-134400333.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 1,570.7 BTC ($101.7M) transferred",
-    "summary": "Transaction hash: 6b4478e242b64e784260abc0d1a99c30... | 1,570.66 BTC = $101,749,110",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:29:11.434496+00:00",
-    "url": "https://blockchain.info/tx/6b4478e242b64e784260abc0d1a99c3078a5576812815df1a649efcf400d5e04"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 158.7 BTC ($10.3M) transferred",
-    "summary": "Transaction hash: 69e4e4460b8527adf753ce07f71ab9a5... | 158.73 BTC = $10,283,785",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:31:12.044885+00:00",
-    "url": "https://blockchain.info/tx/69e4e4460b8527adf753ce07f71ab9a52bdaf88e25cb4e41b9c8af5e33641b1b"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "CoreWeave price target raised to $125 from $110 at DA Davidson",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:28:13Z",
-    "url": "https://finance.yahoo.com/news/coreweave-price-target-raised-125-142813561.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Cars.com price target lowered to $13 from $22 at B. Riley",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:27:55Z",
-    "url": "https://finance.yahoo.com/news/cars-com-price-target-lowered-142755426.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Xponential Fitness price target lowered to $7 from $10 at Northland",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:27:37Z",
-    "url": "https://finance.yahoo.com/news/xponential-fitness-price-target-lowered-142737898.html"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in stolen funds. Gets quickly shutdown",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 14:51:29 +0000",
-    "url": "https://www.coindesk.com/tech/2026/02/28/former-mt-gox-ceo-proposed-a-rewrite-of-bitcoin-s-code-to-recover-usd5-billion-in-stolen-funds-gets-quickly-shutdown"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "KBR Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:38:09Z",
-    "url": "https://finance.yahoo.com/news/kbr-q4-earnings-call-highlights-143809247.html"
-  },
-  {
     "source": "rss:Yahoo_Finance",
     "headline": "Joby Aviation Q4 Earnings Call Highlights",
     "summary": "",
@@ -1839,6 +1408,424 @@
     "action_type": "sell",
     "timestamp": "2026-02-28T04:59:48+00:00",
     "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
+    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation",
+      "gdp ",
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
+    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "ROL",
+    "matched_tickers": [
+      "ROL",
+      "SA"
+    ],
+    "keywords": [
+      "sanction"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
+    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "solana etf"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
+    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
+    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "mt. gox"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
+    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
+    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "sanction"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
+    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
+    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
+    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Ormat Technologies Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:28:12Z",
+    "url": "https://finance.yahoo.com/news/ormat-technologies-q4-earnings-call-192812554.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Natural Resource Partners Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:28:10Z",
+    "url": "https://finance.yahoo.com/news/natural-partners-q4-earnings-call-192810193.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "NexPoint Real Estate Finance Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:28:09Z",
+    "url": "https://finance.yahoo.com/news/nexpoint-real-estate-finance-q4-192809726.html"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
+    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price",
+      "crude oil"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 19:39:00 GMT",
+    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3?mod=mw_rss_topstories"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Northwest Natural Gas Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:28:11Z",
+    "url": "https://finance.yahoo.com/news/northwest-natural-gas-q4-earnings-192811252.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Owens Corning Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:28:11Z",
+    "url": "https://finance.yahoo.com/news/owens-corning-q4-earnings-call-192811664.html"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
+    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price",
+      "crude oil"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:39:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "How the attack on Iran could impact the global oil market and economy",
+    "summary": "The U.S.-Israeli attack raises the risk of major oil supply disruption. Iran is the fourth-largest OPEC producer and sits on the critical Strait of Hormuz.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "opec"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 19:53:52 GMT",
+    "url": "https://www.cnbc.com/2026/02/28/iran-us-attack-oil-market-economy.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Could Buying Oklo Stock Today Set You Up for Life in Dividend Income?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:50:00Z",
+    "url": "https://finance.yahoo.com/news/could-buying-oklo-stock-today-195000740.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Pebblebrook Hotel Trust Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T20:08:26Z",
+    "url": "https://finance.yahoo.com/news/pebblebrook-hotel-trust-q4-earnings-200826929.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "PACS Group Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T20:08:25Z",
+    "url": "https://finance.yahoo.com/news/pacs-group-q4-earnings-call-200825959.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "OUTFRONT Media Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T20:08:25Z",
+    "url": "https://finance.yahoo.com/news/outfront-media-q4-earnings-call-200825376.html"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
+    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "oil price",
+      "crude oil"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:39:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
+    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "revenue",
+      "contract"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T10:12:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
+    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
   },
   {
     "source": "rss:CNBC_Markets",
