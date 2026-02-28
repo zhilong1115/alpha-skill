@@ -9490,3 +9490,103 @@
 2026-02-28 10:00:59,937 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran
 2026-02-28 10:01:00,746 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI
 2026-02-28 10:01:01,582 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:01:04,088 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:01:04,178 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:01:04,182 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] SA
+2026-02-28 10:01:04,195 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 10:01:04,209 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] SA
+2026-02-28 10:01:07,250 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 10:01:09,392 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:01:09,526 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 10:01:09,835 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:01:09,932 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 10:01:10,151 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:01:11,142 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:14,743 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:18,552 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:21,060 [realtime_news] INFO: 🚨 ALERT: [high] SA — Michael Saylor Once Said You Should Master This Technology To Get Wealthy: Bitco
+2026-02-28 10:01:22,114 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:22,934 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] SA
+2026-02-28 10:01:26,486 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:01:32,896 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 10:01:39,372 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:43,269 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:47,509 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] SA
+2026-02-28 10:01:50,733 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:01:54,797 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 10:01:59,807 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] SA
+2026-02-28 10:02:04,272 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:02:08,646 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 10:02:12,632 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:02:17,035 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 10:02:25,635 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:02:30,684 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] SA
+2026-02-28 10:04:05,292 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Millrose Properties Q4 Earnings Call Highlights
+2026-02-28 10:04:07,130 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:04:14,223 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:04:52,802 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 454.0 BTC ($29.7M) transferred
+2026-02-28 10:04:52,803 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 454.0 BTC ($29.7M) transferred
+2026-02-28 10:04:54,656 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] BTC
+2026-02-28 10:05:10,865 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] BTC
+2026-02-28 10:09:13,569 [realtime_news] INFO: 🚨 ALERT: [high] SA — 'If Anybody Wants To Steal A House, Go To Mississippi' – Grant Cardone Says Chea
+2026-02-28 10:09:15,406 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] SA
+2026-02-28 10:09:23,081 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] SA
+2026-02-28 10:18:56,151 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 257.1 BTC ($16.8M) transferred
+2026-02-28 10:18:56,152 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 257.1 BTC ($16.8M) transferred
+2026-02-28 10:18:57,972 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] BTC
+2026-02-28 10:19:03,577 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] BTC
+2026-02-28 10:22:41,946 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bank of America revamps Dell stock target after earnings
+2026-02-28 10:22:43,864 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:22:49,464 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:24:57,543 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 170.0 BTC ($11.1M) transferred
+2026-02-28 10:24:57,544 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 170.0 BTC ($11.1M) transferred
+2026-02-28 10:24:59,403 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] BTC
+2026-02-28 10:25:05,718 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] BTC
+2026-02-28 10:36:07,365 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cava Shares Surge on Upbeat Outlook. Can the Stock's Momentum Continue?
+2026-02-28 10:36:07,636 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — 3 Investing Moves I'm Making Right Now to Prepare for a Recession
+2026-02-28 10:36:09,300 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] MACRO
+2026-02-28 10:36:09,470 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:36:15,609 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] MACRO
+2026-02-28 10:36:20,472 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:38:12,659 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ingevity Q4 Earnings Call Highlights
+2026-02-28 10:38:13,868 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Northern Oil and Gas Q4 Earnings Call Highlights
+2026-02-28 10:38:14,452 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:38:15,757 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:38:19,389 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:38:33,289 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 10:43:23,712 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nomad Foods Q4 Earnings Call Highlights
+2026-02-28 10:43:25,553 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 10:43:32,049 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 11:00:54,741 [realtime_news] INFO: 🚨 ALERT: [high] SA — Bitcoin is stuck in a rut but JPMorgan says new legislation could be the ultimat
+2026-02-28 11:00:56,634 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] SA
+2026-02-28 11:01:04,060 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] SA
+2026-02-28 11:01:05,453 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 123.8 BTC ($8.2M) transferred
+2026-02-28 11:01:05,454 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 123.8 BTC ($8.2M) transferred
+2026-02-28 11:01:07,285 [realtime_news] INFO: ✅ Alert posted to Telegram: [HIGH] BTC
+2026-02-28 11:01:11,886 [realtime_news] INFO: ✅ Agent turn triggered: [HIGH] BTC
+2026-02-28 11:06:39,161 [realtime_news] INFO: Whale monitor stopped
+2026-02-28 11:06:39,162 [realtime_news] INFO: Finnhub polling stopped
+2026-02-28 11:06:39,162 [realtime_news] INFO: RSS polling stopped
+2026-02-28 11:06:44,844 [realtime_news] INFO: Alpaca news stream stopped
+2026-02-28 11:06:44,847 [realtime_news] INFO: News daemon shut down
+2026-02-28 11:06:47,950 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=96701)
+2026-02-28 11:06:47,950 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-02-28 11:06:47,950 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-02-28 11:06:47,951 [realtime_news] INFO: RSS polling started (interval=60s, 9 feeds)
+2026-02-28 11:06:47,951 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-02-28 11:06:47,951 [realtime_news] INFO: 🐋 Whale monitor started (interval=120s, threshold=$50M / 500 BTC)
+2026-02-28 11:06:49,225 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Iran strikes will likely boost defense stocks — but here’s what will keep the ca
+2026-02-28 11:06:50,503 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to 
+2026-02-28 11:06:50,757 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump said tariffs could someday 'substantially replace' income taxes. What poli
+2026-02-28 11:06:51,246 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dow closes more than 500 points lower after hot inflation report, mounting conce
+2026-02-28 11:06:52,217 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin
+2026-02-28 11:06:52,408 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 11:06:52,570 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 11:06:53,197 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-02-28 11:06:53,448 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — UK inflation cools markedly in January, boosting odds of Bank of England rate cu
+2026-02-28 11:06:53,450 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-02-28 11:06:53,530 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-02-28 11:06:53,605 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-02-28 11:06:53,605 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-02-28 11:06:54,172 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 11:06:55,504 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO

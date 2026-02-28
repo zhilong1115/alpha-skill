@@ -95,15 +95,15 @@ CRYPTO_CRITICAL = [
     "bitcoin etf approv", "ethereum etf", "solana etf",
 ]
 CRYPTO_HIGH = [
-    "bitcoin", "btc ", "ethereum", "eth ", "solana", "sol ",
+    # Don't include generic terms like "bitcoin", "btc" — they match everything
     "crypto regulation", "crypto bill", "stablecoin bill",
     "whale alert", "whale transfer", "large transfer",
     "defi hack", "bridge hack", "protocol exploit",
-    "halving", "merge", "upgrade", "hard fork",
-    "binance", "coinbase", "kraken",
+    "halving", "hard fork",
     "blackrock crypto", "fidelity crypto", "grayscale",
-    "mining", "hashrate", "difficulty",
-    "funding rate", "liquidation", "open interest",
+    "bitcoin liquidation", "crypto liquidation", "mass liquidation",
+    "bitcoin plunge", "bitcoin crash", "crypto crash",
+    "bitcoin surge", "bitcoin rally", "crypto rally",
 ]
 
 # Ticker-specific urgency keywords (stocks)
@@ -188,8 +188,8 @@ def add_alert(alert: dict) -> None:
     _save_pending(pending)
     logger.info("🚨 ALERT: [%s] %s — %s", alert.get("urgency", "?"), alert.get("ticker", "MACRO"), alert.get("headline", "")[:80])
 
-    # Notify Alpha agent directly for actionable news
-    if alert.get("urgency") in ("critical", "high"):
+    # Notify Alpha agent only for CRITICAL news (not high — too many false positives)
+    if alert.get("urgency") == "critical":
         _notify_agent(alert)
 
 
@@ -741,8 +741,8 @@ def stop_daemon() -> bool:
 
 
 # Thresholds for whale alerts (in USD)
-WHALE_THRESHOLD_USD = 5_000_000  # $5M+ transactions trigger alert
-BTC_WHALE_THRESHOLD_BTC = 100    # or 100+ BTC
+WHALE_THRESHOLD_USD = 50_000_000  # $50M+ transactions trigger alert
+BTC_WHALE_THRESHOLD_BTC = 500     # or 500+ BTC
 
 
 async def whale_monitor_loop(

@@ -1,422 +1,5 @@
 [
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Nu Holdings (NU) Falls 9.5% After Earnings",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T11:14:05Z",
-    "url": "https://finance.yahoo.com/news/nu-holdings-nu-falls-9-111405966.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Shift4 Payments (FOUR) Falls to 2-Year Low as Profits Plunge 65%",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "profit"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T11:13:41Z",
-    "url": "https://finance.yahoo.com/news/shift4-payments-four-falls-2-111341290.html"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin's five-month slide: Why BTC is set for worst losing streak since 2018",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "btc "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Can China just steal America\u2019s AI brain that\u2019s costing trillions to develop?",
-    "summary": "American companies are spending enormous sums to develop high-performing AI models. Distillation attacks are attempting to maliciously extract them \u2014 and nobody is doing much to stop it.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "china"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:00:00 GMT",
-    "url": "https://www.marketwatch.com/story/can-china-just-steal-americas-ai-brain-thats-costing-trillions-to-develop-da126634?mod=mw_rss_topstories"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Why institutions still prefer Ethereum despite faster blockchains",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Why institutions still prefer Ethereum despite faster blockchains\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzk5ZWQtNjVhZi03NzE0LT",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "ethereum"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
-    "url": "https://cointelegraph.com/news/institutions-prefer-eth-faster-blockchains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Can China just steal America\u2019s AI brain that\u2019s costing trillions to develop?",
-    "summary": "American companies are spending enormous sums to develop high-performing AI models. Distillation attacks are attempting to maliciously extract them \u2014 and nobody is doing much to stop it.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "china"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:00:00+00:00",
-    "url": "https://www.marketwatch.com/story/can-china-just-steal-americas-ai-brain-thats-costing-trillions-to-develop-da126634"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "btc "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Why institutions still prefer Ethereum despite faster blockchains",
-    "summary": "TPS breakthroughs get engineers excited, but TradFi is looking at Ethereum because that\u2019s where the liquidity is, says Kevin Lepsoe of ETHGas.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "ethereum"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:00:00+00:00",
-    "url": "https://cointelegraph.com/news/institutions-prefer-eth-faster-blockchains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 204.6 BTC ($13.1M) transferred",
-    "summary": "Transaction hash: c3dd2bcb732aeeb7e97c18054f37a324... | 204.62 BTC = $13,114,286",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:32:55.340659+00:00",
-    "url": "https://blockchain.info/tx/c3dd2bcb732aeeb7e97c18054f37a3241403d5993470a1f8477404309cd64c88"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Berkshire Hathaway operating earnings fell nearly 30% in Warren Buffett's final quarter as CEO",
-    "summary": "Berkshire Hathaway reported fourth-quarter and full-year 2025 earnings on Saturday.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:31:55 GMT",
-    "url": "https://www.cnbc.com/2026/02/28/berkshire-hathaway-brka-q4-2025-earnings.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 138.2 BTC ($8.8M) transferred",
-    "summary": "Transaction hash: 840ce38e5ffab4c5e05b8c079a3b0d5b... | 138.24 BTC = $8,845,567",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:38:57.496485+00:00",
-    "url": "https://blockchain.info/tx/840ce38e5ffab4c5e05b8c079a3b0d5b36fc237ad7e07cd396d1d9e79fdbfa3c"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL",
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
-    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 171.9 BTC ($11.0M) transferred",
-    "summary": "Transaction hash: 0341237765f6cc5970a47ce27045fedc... | 171.90 BTC = $11,014,134",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:46:59.137658+00:00",
-    "url": "https://blockchain.info/tx/0341237765f6cc5970a47ce27045fedc99c81282f0266a1b2cb45b18c37c48c3"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 153.8 BTC ($9.9M) transferred",
-    "summary": "Transaction hash: 852da23424576d7255e6244848136e1c... | 153.77 BTC = $9,852,735",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:46:59.231774+00:00",
-    "url": "https://blockchain.info/tx/852da23424576d7255e6244848136e1c6694db06df226284eb3ffca894799f8a"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 257.8 BTC ($16.6M) transferred",
-    "summary": "Transaction hash: 599a62ee21dd70c43a68000190a7477f... | 257.82 BTC = $16,553,812",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:48:59.821880+00:00",
-    "url": "https://blockchain.info/tx/599a62ee21dd70c43a68000190a7477f2444fd84c318d1ce75e7291cb8b98017"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "MercadoLibre Shares Sink. Is the Stock a Buy as Revenue Growth Remains Robust?",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:35:00Z",
-    "url": "https://finance.yahoo.com/news/mercadolibre-shares-sink-stock-buy-133500604.html"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
-    "summary": "Lawmakers urge US regulators to review Binance\u2019s AML and sanctions controls after reports of Iran-linked transactions and potential evasion risks.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL",
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T13:37:23+00:00",
-    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 169.9 BTC ($11.0M) transferred",
-    "summary": "Transaction hash: be24a79ff38f81f9c1fafaec08cd19ed... | 169.87 BTC = $10,976,826",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:53:02.984310+00:00",
-    "url": "https://blockchain.info/tx/be24a79ff38f81f9c1fafaec08cd19edc72cc483a0d795252100e8a0c8f26db6"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 119.7 BTC ($7.7M) transferred",
-    "summary": "Transaction hash: a1ec3506c58f94200063eb69b39529c8... | 119.73 BTC = $7,736,643",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T13:53:03.072019+00:00",
-    "url": "https://blockchain.info/tx/a1ec3506c58f94200063eb69b39529c842e431eae9ad45e399a00d043ecdaf7e"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 258.2 BTC ($16.9M) transferred",
-    "summary": "Transaction hash: 9c635fb6f68a0772014a78cd42b976ee... | 258.24 BTC = $16,862,132",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:01:04.777231+00:00",
-    "url": "https://blockchain.info/tx/9c635fb6f68a0772014a78cd42b976ee7485a01a530f146a55ded4752bdd11ec"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "\u2018Can\u2019t sell house\u2019 searches are higher now than during the 2008 housing crisis",
-    "summary": "Here are some expert tips to help you sell your house in a slow market.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "housing"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 14:00:00 GMT",
-    "url": "https://www.marketwatch.com/story/cant-sell-house-searches-are-higher-now-than-during-the-2008-housing-crisis-1525fccd?mod=mw_rss_topstories"
-  },
-  {
     "source": "rss:CoinTelegraph",
     "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
     "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Buying Bitcoin? Hold for at least three years to avoid losses, data says\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMjctNjQ2MC0",
@@ -1892,5 +1475,405 @@
     "action_type": "sell",
     "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
     "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Michael Saylor Once Said You Should Master This Technology To Get Wealthy: Bitcoin Billionaire Wants People To Set Their Egos Aside To Achieve Success",
+    "summary": "Strategy Inc.",
+    "symbols": [
+      "BTCUSD",
+      "DOGEUSD",
+      "MSTR",
+      "ZECUSD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:01:19Z",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50952315/michael-saylor-once-said-you-should-master-this-technology-to-get-wealthy-bitcoin-billionaire-wants-people-to-set-their-egos-aside-to-achieve-success"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Millrose Properties Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T17:35:48Z",
+    "url": "https://finance.yahoo.com/news/millrose-properties-q4-earnings-call-173548135.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 454.0 BTC ($29.7M) transferred",
+    "summary": "Transaction hash: 4e982e684a4c03f7989f2afb633f8f9d... | 454.02 BTC = $29,695,814",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:04:52.800763+00:00",
+    "url": "https://blockchain.info/tx/4e982e684a4c03f7989f2afb633f8f9d579726a5dcbaca85dab83610bcbd1303"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "'If Anybody Wants To Steal A House, Go To Mississippi' \u2013 Grant Cardone Says Cheap Homes Still Exist. 'You Can Buy One For $8,000'",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T18:01:18Z",
+    "url": "https://finance.yahoo.com/news/anybody-wants-steal-house-mississippi-180118252.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 257.1 BTC ($16.8M) transferred",
+    "summary": "Transaction hash: 45eb1d5764c90c06eda03069f23529fc... | 257.10 BTC = $16,783,400",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:18:56.149612+00:00",
+    "url": "https://blockchain.info/tx/45eb1d5764c90c06eda03069f23529fcca12f8a47735a6cae5730931c08d8bbe"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Bank of America revamps Dell stock target after earnings",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:17:00Z",
+    "url": "https://finance.yahoo.com/news/bank-america-revamps-dell-stock-181700146.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 170.0 BTC ($11.1M) transferred",
+    "summary": "Transaction hash: 28e63ac4b9076c020ed4d2b85dd6d830... | 169.97 BTC = $11,081,458",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:24:57.540611+00:00",
+    "url": "https://blockchain.info/tx/28e63ac4b9076c020ed4d2b85dd6d8308606702e0d0355438c50d20ac607a8ee"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Cava Shares Surge on Upbeat Outlook. Can the Stock's Momentum Continue?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:25:00Z",
+    "url": "https://finance.yahoo.com/news/cava-shares-surge-upbeat-outlook-182500109.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "3 Investing Moves I'm Making Right Now to Prepare for a Recession",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "recession"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T18:20:00Z",
+    "url": "https://finance.yahoo.com/news/3-investing-moves-im-making-182000926.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Ingevity Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:32:11Z",
+    "url": "https://finance.yahoo.com/news/ingevity-q4-earnings-call-highlights-183211234.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Northern Oil and Gas Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:32:12Z",
+    "url": "https://finance.yahoo.com/news/northern-oil-gas-q4-earnings-183212751.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Nomad Foods Q4 Earnings Call Highlights",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T18:32:13Z",
+    "url": "https://finance.yahoo.com/news/nomad-foods-q4-earnings-call-183213362.html"
+  },
+  {
+    "source": "rss:CoinDesk",
+    "headline": "Bitcoin is stuck in a rut but JPMorgan says new legislation could be the ultimate spark",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "bitcoin"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 19:00:00 +0000",
+    "url": "https://www.coindesk.com/policy/2026/02/28/bitcoin-is-stuck-in-a-rut-but-jpmorgan-says-new-legislation-could-be-the-ultimate-spark"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 123.8 BTC ($8.2M) transferred",
+    "summary": "Transaction hash: b337172ba37dcded62713e31cec0456d... | 123.80 BTC = $8,160,537",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T19:01:05.452570+00:00",
+    "url": "https://blockchain.info/tx/b337172ba37dcded62713e31cec0456d2ade2c362153aa190c04213e1385ca23"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
+    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "revenue",
+      "contract"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T10:12:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
+    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
+    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
+    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
+    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
+    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
+  },
+  {
+    "source": "finnhub:crypto",
+    "headline": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
+    "summary": "Mark Karpel\u00e8s said it has been 12 years since the start of Mt. Gox\u2019s bankruptcy proceedings and \u201cthis is probably the last sore point on this whole case.\u201d",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "mt. gox",
+      "bankrupt"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T04:59:48+00:00",
+    "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
+    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "inflation",
+      "gdp ",
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
+    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
+  },
+  {
+    "source": "rss:CNBC_Markets",
+    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
+    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "rate cut"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
+    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
   }
 ]
