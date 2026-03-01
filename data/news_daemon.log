@@ -9656,3 +9656,27 @@
 2026-02-28 12:21:26,608 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
 2026-02-28 12:21:26,608 [realtime_news] INFO: ✅ Alpaca news stream connected
 2026-02-28 12:21:28,381 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 12:21:31,079 [realtime_news] INFO: 🚨 ALERT: [critical] SA — 11 US senators request federal probe into Binance’s sanctions compliance
+2026-02-28 12:21:31,574 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Morgan Stanley applies for OCC bank charter to custody crypto
+2026-02-28 12:21:31,903 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 20
+2026-02-28 12:21:32,151 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid s
+2026-02-28 12:21:32,918 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 12:21:33,709 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI
+2026-02-28 12:21:33,929 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 12:21:34,008 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 12:21:37,527 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 12:21:45,024 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 12:21:50,737 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 12:37:00,790 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AI Boom May Be Creating Hidden Risks In Housing Market
+2026-02-28 13:09:56,938 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — SM Energy (SM) Jumps 9.5% on Double-Digit Dividend Hike
+2026-02-28 13:19:13,883 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Crescent Energy (CRGY) Jumps 7.76% on Swing to Profits
+2026-02-28 13:39:48,430 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Luxury spa files for Chapter 11 bankruptcy
+2026-02-28 14:13:48,900 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lyft CFO Touts Record 2025, Europe Expansion and $1B New Buyback at Bernstein TM
+2026-02-28 14:37:54,805 [realtime_news] INFO: 🚨 ALERT: [high] SA — 10-year yield falls below 4% on stagflation risk following hot producer prices r
+2026-02-28 15:48:12,645 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 2,779.8 BTC ($186.3M) transferred
+2026-02-28 15:48:12,646 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 2,779.8 BTC ($186.3M) transferred
+2026-02-28 16:09:10,269 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Toymaker Hasbro joins wave of companies suing U.S. government over IEEPA tariff 
+2026-02-28 16:09:10,521 [realtime_news] INFO: 🚨 ALERT: [high] SA — Stock Market Today, Feb. 27: Stocks plummet after inflation disappointment
+2026-02-28 16:09:11,815 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Celsius double upgraded by Bank of America following strong fourth quarter earni
+2026-02-28 16:09:13,949 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 16:09:19,681 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO

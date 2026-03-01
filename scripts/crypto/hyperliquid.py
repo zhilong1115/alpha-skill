@@ -29,7 +29,7 @@ _PROJECT_ROOT = Path(__file__).resolve().parents[2]
 TRADE_LOG = _PROJECT_ROOT / "data" / "hl_trades.json"
 
 # Hard limits
-MAX_LEVERAGE = 3
+MAX_LEVERAGE = 5  # Hard safety cap — agent decides actual leverage (1-5x)
 SUPPORTED_SYMBOLS = ["BTC", "ETH", "SOL"]
 MAX_DRAWDOWN = 0.15  # 15% circuit breaker
 MAX_POSITION_MARGIN_PCT = 0.30  # 30% of account as margin per position

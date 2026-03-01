@@ -1,297 +1,5 @@
 [
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Joby Aviation Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:38:08Z",
-    "url": "https://finance.yahoo.com/news/joby-aviation-q4-earnings-call-143808031.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "St. Joe Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:38:08Z",
-    "url": "https://finance.yahoo.com/news/st-joe-q4-earnings-call-143808940.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Summit Hotel Properties Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:38:07Z",
-    "url": "https://finance.yahoo.com/news/summit-hotel-properties-q4-earnings-143807416.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Ibotta Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:38:06Z",
-    "url": "https://finance.yahoo.com/news/ibotta-q4-earnings-call-highlights-143806101.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Harbinger acquires autonomous-driving firm Phantom AI",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T15:00:00Z",
-    "url": "https://finance.yahoo.com/news/harbinger-acquires-autonomous-driving-firm-150000868.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 104.1 BTC ($6.7M) transferred",
-    "summary": "Transaction hash: ab0cf67a76a2213a0baa78bf7512cbb6... | 104.14 BTC = $6,719,001",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T15:25:26.074305+00:00",
-    "url": "https://blockchain.info/tx/ab0cf67a76a2213a0baa78bf7512cbb63d9945a58c485b671a0c440a361a82cf"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 1,556.5 BTC ($100.9M) transferred",
-    "summary": "Transaction hash: 59ded1bab7e88901acf1e3cf9f5b87b5... | 1,556.52 BTC = $100,900,482",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T15:45:30.840730+00:00",
-    "url": "https://blockchain.info/tx/59ded1bab7e88901acf1e3cf9f5b87b5995caa4d2fde1fe4fefa6dd6b28d435c"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 573.2 BTC ($37.2M) transferred",
-    "summary": "Transaction hash: 2e6c21385dd63cd74755dfbfa1fa4eab... | 573.17 BTC = $37,155,434",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T15:45:30.934691+00:00",
-    "url": "https://blockchain.info/tx/2e6c21385dd63cd74755dfbfa1fa4eab6b3e02bd23a55fbe1c49fc2aec67a6a3"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Former Mt. Gox CEO proposed a rewrite of bitcoin's code to recover $5 billion in stolen funds. Gets quickly shutdown",
-    "summary": "",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T14:51:29+00:00",
-    "url": "https://www.coindesk.com/tech/2026/02/28/former-mt-gox-ceo-proposed-a-rewrite-of-bitcoin-s-code-to-recover-usd5-billion-in-stolen-funds-gets-quickly-shutdown"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Greg Abel as Berkshire Earnings Fall: &#39;Warren Is Obviously a Very Hard Act To Follow&#39;",
-    "summary": "Greg Abel, calling Warren Buffett &#34;a very hard act to follow,&#34; signaled continuity at Berkshire as Q4 operating earnings fell about 30% and the cash hoard dipped despite no buybacks.",
-    "symbols": [
-      "AAPL",
-      "AXP",
-      "BRK",
-      "BRK/A",
-      "BRK/B",
-      "KO",
-      "MCO"
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "AAPL",
-    "matched_tickers": [
-      "AAPL"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "2026-02-28T15:59:57Z",
-    "url": "https://www.benzinga.com/markets/equities/26/02/50952147/greg-abel-as-berkshire-earnings-fall-warren-is-obviously-a-very-hard-act-to-follow"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 103.9 BTC ($6.7M) transferred",
-    "summary": "Transaction hash: e7dabb9b20d250295885d2dba9d24d64... | 103.86 BTC = $6,739,517",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:17:38.593745+00:00",
-    "url": "https://blockchain.info/tx/e7dabb9b20d250295885d2dba9d24d6432f900993a97c50e73e67cfde17ca658"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 257.6 BTC ($16.7M) transferred",
-    "summary": "Transaction hash: d6e3a596782383c5d291239f41267e84... | 257.59 BTC = $16,687,498",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:19:39.112202+00:00",
-    "url": "https://blockchain.info/tx/d6e3a596782383c5d291239f41267e844222c06d73711894ee5be3e06d749e2b"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Use This ETF to Earn Dividends From Berkshire Hathaway",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:05:00Z",
-    "url": "https://finance.yahoo.com/news/etf-earn-dividends-berkshire-hathaway-160500757.html"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Banking Regulator Floats New Stablecoin Yield Rules\u2014Do They Hurt Coinbase?",
-    "summary": "The proposed rules would limit the ability of third parties to pass stablecoin rewards on to users, but experts are split on what the language could mean for America\u2019s top crypto firms.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "coinbase"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 16:30:16 +0000",
-    "url": "https://decrypt.co/359506/banking-occ-new-stablecoin-yield-rules-coinbase"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Oil prices set for swings next week as US-Israel strikes raise supply uncertainty",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "oil price"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:02:16Z",
-    "url": "https://finance.yahoo.com/news/oil-prices-set-swings-next-160216789.html"
-  },
-  {
     "source": "whale:blockchain.info",
     "headline": "\ud83d\udc0b BTC Whale: 147.1 BTC ($9.6M) transferred",
     "summary": "Transaction hash: 4fd6c7402cf147a395ac903451840910... | 147.14 BTC = $9,575,127",
@@ -1862,5 +1570,279 @@
     "action_type": "monitor",
     "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
     "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA",
+      "ROL"
+    ],
+    "keywords": [
+      "sanction"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
+    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "solana etf"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
+    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
+    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "mt. gox"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
+    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
+    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "sanction"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
+    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
+    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "layoff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
+    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "AI Boom May Be Creating Hidden Risks In Housing Market",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "housing"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T20:30:59Z",
+    "url": "https://finance.yahoo.com/news/ai-boom-may-creating-hidden-203059810.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "SM Energy (SM) Jumps 9.5% on Double-Digit Dividend Hike",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T21:00:35Z",
+    "url": "https://finance.yahoo.com/news/sm-energy-sm-jumps-9-210035461.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Crescent Energy (CRGY) Jumps 7.76% on Swing to Profits",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T21:02:20Z",
+    "url": "https://finance.yahoo.com/news/crescent-energy-crgy-jumps-7-210220864.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Luxury spa files for Chapter 11 bankruptcy",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "bankrupt"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-28T21:27:25Z",
+    "url": "https://finance.yahoo.com/news/luxury-spa-files-chapter-11-212725287.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Lyft CFO Touts Record 2025, Europe Expansion and $1B New Buyback at Bernstein TMT Conference",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T22:05:42Z",
+    "url": "https://finance.yahoo.com/news/lyft-cfo-touts-record-2025-220542219.html"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "10-year yield falls below 4% on stagflation risk following hot producer prices reading",
+    "summary": "U.S. Treasury yields were lower on Friday as investors reacted to wholesale inflation that came in above Wall Street estimates.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "inflation",
+      "treasury yield"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:39:35+00:00",
+    "url": "https://www.cnbc.com/2026/02/27/us-treasury-yields-investors-await-wholesale-inflation-reading.html"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 2,779.8 BTC ($186.3M) transferred",
+    "summary": "Transaction hash: 86ccd049eca1ede6199e2f6ef2e8ca22... | 2,779.84 BTC = $186,311,682",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-28T23:48:12.641359+00:00",
+    "url": "https://blockchain.info/tx/86ccd049eca1ede6199e2f6ef2e8ca22397cb755b527b50c81d002381572bbe2"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Toymaker Hasbro joins wave of companies suing U.S. government over IEEPA tariff payments",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T17:57:29Z",
+    "url": "https://finance.yahoo.com/news/toymaker-hasbro-joins-wave-companies-175729230.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Stock Market Today, Feb. 27: Stocks plummet after inflation disappointment",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "inflation"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T17:51:02Z",
+    "url": "https://finance.yahoo.com/news/stock-market-today-feb-27-175102160.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Celsius double upgraded by Bank of America following strong fourth quarter earnings report",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "celsius"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T17:51:00Z",
+    "url": "https://finance.yahoo.com/news/celsius-double-upgraded-bank-america-175100563.html"
   }
 ]
