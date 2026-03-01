@@ -9680,3 +9680,17 @@
 2026-02-28 16:09:11,815 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Celsius double upgraded by Bank of America following strong fourth quarter earni
 2026-02-28 16:09:13,949 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
 2026-02-28 16:09:19,681 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 16:40:07,185 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Tariff refund? Major companies are getting in line
+2026-02-28 16:40:07,669 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 52 Massive Vol/OI Spikes Expire March 20—Profit Plays on Top 3
+2026-02-28 16:40:09,039 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] MACRO
+2026-02-28 16:40:15,566 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-02-28 16:50:26,170 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Do you pay taxes on unemployment? What to expect when you file your return.
+2026-02-28 17:01:48,307 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Sunrun Earnings Beat Expectations. Why the Stock Is Down 38%.
+2026-02-28 17:01:48,565 [realtime_news] INFO: 🚨 ALERT: [critical] SA — FedEx Moves to Recoup Tariffs, Says Shippers Would Get Money Back
+2026-02-28 17:01:48,826 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dorsey's blunt AI warning sharpens debate over jobs and profits
+2026-02-28 17:01:50,413 [realtime_news] INFO: ✅ Alert posted to Telegram: [CRITICAL] SA
+2026-02-28 17:01:57,129 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-02-28 17:03:53,246 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The Dow’s best dividend stocks: A shortlist for income investors
+2026-02-28 17:07:30,796 [realtime_news] INFO: Finnhub polling stopped
+2026-02-28 17:07:30,796 [realtime_news] INFO: Whale monitor stopped
+2026-02-28 17:07:30,796 [realtime_news] INFO: RSS polling stopped

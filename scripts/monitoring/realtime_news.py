@@ -191,11 +191,10 @@ def add_alert(alert: dict) -> None:
     logger.info("🚨 ALERT: [%s] %s — %s", alert.get("urgency", "?"), alert.get("ticker", "MACRO"), alert.get("headline", "")[:80])
 
     # Notify Alpha agent only for CRITICAL news (not high — too many false positives)
-    # On weekends: only notify for crypto or macro — stock news isn't actionable
+    # On weekends: only crypto alerts — can't trade stocks, macro can wait till Monday
     if alert.get("urgency") == "critical":
         is_weekend = datetime.now().weekday() >= 5  # Sat=5, Sun=6
-        is_crypto_or_macro = alert.get("is_crypto") or alert.get("is_macro")
-        if not is_weekend or is_crypto_or_macro:
+        if not is_weekend or alert.get("is_crypto"):
             _notify_agent(alert)
 
 

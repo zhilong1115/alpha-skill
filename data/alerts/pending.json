@@ -1,134 +1,5 @@
 [
   {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 147.1 BTC ($9.6M) transferred",
-    "summary": "Transaction hash: 4fd6c7402cf147a395ac903451840910... | 147.14 BTC = $9,575,127",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:47:45.177261+00:00",
-    "url": "https://blockchain.info/tx/4fd6c7402cf147a395ac90345184091000a756e29eb0574863f4d3278da2b39e"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "MBIA Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:41:34Z",
-    "url": "https://finance.yahoo.com/news/mbia-q4-earnings-call-highlights-164134665.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "LTC Properties Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:41:33Z",
-    "url": "https://finance.yahoo.com/news/ltc-properties-q4-earnings-call-164133892.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "CS Disco Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:41:31Z",
-    "url": "https://finance.yahoo.com/news/cs-disco-q4-earnings-call-164131997.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 126.9 BTC ($8.3M) transferred",
-    "summary": "Transaction hash: 427523d9f4ca589d7a88ffe6a233e414... | 126.93 BTC = $8,260,422",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:03:49.629034+00:00",
-    "url": "https://blockchain.info/tx/427523d9f4ca589d7a88ffe6a233e4140ccbe7c334c13c58969c2f0e517aa3df"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "2 Tariff-Proof Energy Stocks to Buy Now",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T16:53:00Z",
-    "url": "https://finance.yahoo.com/news/2-tariff-proof-energy-stocks-165300981.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "LandBridge Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T16:41:32Z",
-    "url": "https://finance.yahoo.com/news/landbridge-q4-earnings-call-highlights-164132758.html"
-  },
-  {
     "source": "rss:Yahoo_Finance",
     "headline": "They Asked What Owning Just 1 BTC Would Do For Someone's Financial Life. Some Called It Life-Changing, Others Joked, 'It Means I'm Down $30K'",
     "summary": "",
@@ -1844,5 +1715,126 @@
     "action_type": "monitor",
     "timestamp": "2026-02-27T17:51:00Z",
     "url": "https://finance.yahoo.com/news/celsius-double-upgraded-bank-america-175100563.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Tariff refund? Major companies are getting in line",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T18:20:46Z",
+    "url": "https://finance.yahoo.com/news/tariff-refund-major-companies-getting-182046601.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "52 Massive Vol/OI Spikes Expire March 20\u2014Profit Plays on Top 3",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:30:03Z",
+    "url": "https://finance.yahoo.com/news/52-massive-vol-oi-spikes-183003595.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Do you pay taxes on unemployment? What to expect when you file your return.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "unemployment"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2024-02-06T21:01:02Z",
+    "url": "https://finance.yahoo.com/personal-finance/taxes/article/do-you-pay-taxes-on-unemployment-210102160.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Sunrun Earnings Beat Expectations. Why the Stock Is Down 38%.",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "earnings beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:34:00Z",
+    "url": "https://www.barrons.com/articles/sunrun-earnings-stock-price-7c1ce42d?siteid=yhoof2&yptr=yahoo"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "FedEx Moves to Recoup Tariffs, Says Shippers Would Get Money Back",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "tariff"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-02-27T18:35:14Z",
+    "url": "https://finance.yahoo.com/news/fedex-moves-recoup-tariffs-says-183514200.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Dorsey's blunt AI warning sharpens debate over jobs and profits",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:56:17Z",
+    "url": "https://finance.yahoo.com/news/dorseys-blunt-ai-warning-sharpens-185617222.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "The Dow\u2019s best dividend stocks: A shortlist for income investors",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-02-27T18:45:00Z",
+    "url": "https://finance.yahoo.com/news/dow-best-dividend-stocks-shortlist-184500829.html"
   }
 ]
