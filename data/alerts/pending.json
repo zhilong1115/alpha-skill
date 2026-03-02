@@ -1,1542 +1,7 @@
 [
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "They Asked What Owning Just 1 BTC Would Do For Someone's Financial Life. Some Called It Life-Changing, Others Joked, 'It Means I'm Down $30K'",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "btc "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:00:34Z",
-    "url": "https://finance.yahoo.com/news/asked-owning-just-1-btc-170034431.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Stock Market Week: Reaction To Iran, Berkshire Earnings, Apple Event",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "AAPL",
-    "matched_tickers": [
-      "AAPL"
-    ],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:00:09Z",
-    "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-reaction-to-iran-berkshire-earnings-apple-event/?src=A00220&yptr=yahoo"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 302.5 BTC ($19.6M) transferred",
-    "summary": "Transaction hash: d8e0731930d774ae33492736f53a5265... | 302.48 BTC = $19,639,554",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:23:54.686476+00:00",
-    "url": "https://blockchain.info/tx/d8e0731930d774ae33492736f53a5265a18543cd483dab8e41c625a06a5a9efd"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran",
-    "summary": "The price of Bitcoin plummeted to nearly $63,000 overnight amid U.S. and Israel strikes on Iran, but has mostly recovered in the hours since.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 17:24:59 +0000",
-    "url": "https://decrypt.co/359528/bitcoin-recovers-following-plunge-as-us-israel-begin-bombing-iran"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Mining stocks are the new market darlings, fueled by geopolitical risks and AI demand",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "mining"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:30:05Z",
-    "url": "https://finance.yahoo.com/news/mining-stocks-are-the-new-market-darlings-fueled-by-geopolitical-risks-and-ai-demand-173005780.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Jim Cramer Recommends Agnico Eagle Over Fortuna Mining",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "mining"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:20:49Z",
-    "url": "https://finance.yahoo.com/news/jim-cramer-recommends-agnico-eagle-172049162.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Matador Resources Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:48Z",
-    "url": "https://finance.yahoo.com/news/matador-resources-q4-earnings-call-173548755.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "MP Materials Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:47Z",
-    "url": "https://finance.yahoo.com/news/mp-materials-q4-earnings-call-173547466.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Miami International Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:47Z",
-    "url": "https://finance.yahoo.com/news/miami-international-q4-earnings-call-173547054.html"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Judge blocks Binance from pushing class action suits over token sales into arbitration",
-    "summary": "<p>The case traces back to a wave of class action lawsuits filed in April 2020 against major crypto exchanges and token issuers.</p>",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "binance"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 12:52:30 -0500",
-    "url": "https://www.theblock.co/post/391662/judge-blocks-binance-from-pushing-class-action-suits-over-token-sales-into-arbitration?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "UBS Raises Viatris (VTRS) Price Target as Cost Savings and Growth Outlook Improve",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:40:21Z",
-    "url": "https://finance.yahoo.com/news/ubs-raises-viatris-vtrs-price-174021058.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "MasTec Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:49Z",
-    "url": "https://finance.yahoo.com/news/mastec-q4-earnings-call-highlights-173549983.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Millrose Properties Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:48Z",
-    "url": "https://finance.yahoo.com/news/millrose-properties-q4-earnings-call-173548135.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 104.1 BTC ($6.8M) transferred",
-    "summary": "Transaction hash: f187a416ea631e58e4f0d81d50206786... | 104.09 BTC = $6,806,681",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:00:03.701355+00:00",
-    "url": "https://blockchain.info/tx/f187a416ea631e58e4f0d81d5020678698c3bebaa633c432bb34ca352cb7d22f"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
-    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue",
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T10:12:00+00:00",
-    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
-    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
-    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
-    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
-    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Bitcoin sets up potential short squeeze as funding plunges to -6%",
-    "summary": "",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T11:00:00+00:00",
-    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-sets-up-potential-short-squeeze-as-funding-plunges-to-6"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Bitcoin nears $63,000 as U.S. and Israel launch strikes on Iran",
-    "summary": "",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T06:56:30+00:00",
-    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-under-usd64-000-as-u-s-and-israel-launch-strikes-on-iran"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
-    "summary": "Mark Karpel\u00e8s said it has been 12 years since the start of Mt. Gox\u2019s bankruptcy proceedings and \u201cthis is probably the last sore point on this whole case.\u201d",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox",
-      "bankrupt"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T04:59:48+00:00",
-    "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Bitcoin slides to $65,000 in weekend sell-off, with solana, XRP, dogecoin down 6%",
-    "summary": "",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "solana"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T04:24:51+00:00",
-    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-slides-to-usd65-000-in-weekend-sell-off-with-solana-xrp-dogecoin-down-6"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
-    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation",
-      "gdp ",
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
-    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
-    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "rate cut"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
-    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin's five-month slide: why BTC is set for worst losing streak since 2018",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin",
-      "btc "
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 13:00:00 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/27/bitcoin-set-for-worst-5-month-streak-since-2018-as-usd3-8-billion-etf-outflows-mount"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin could see further downside risks as Iran attacks U.S. bases across Middle East",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 10:26:03 +0000",
-    "url": "https://www.coindesk.com/markets/2026/02/28/bitcoin-could-see-further-downside-risks-as-iran-attacks-u-s-bases-across-middle-east"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Buying Bitcoin? Hold for at least three years to avoid losses, data says",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Buying Bitcoin? Hold for at least three years to avoid losses, data says\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5YzlmMjctNjQ2MC0",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 14:00:56 +0000",
-    "url": "https://cointelegraph.com/news/buying-bitcoin-hold-for-at-least-three-years-to-avoid-losses-data-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA",
-      "ROL"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
-    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Bitcoin price drops to $63K as US, Israel bomb Iran",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin price drops to $63K as US, Israel bomb Iran\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Y2EzNTAtYzhkZS03MGNiLTgzZDQtOTBhMTZh",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 08:23:53 +0000",
-    "url": "https://cointelegraph.com/news/bitcoin-price-drops-63k-us-israel-bomb-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "solana etf"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
-    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
-    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
-    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
-    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
-    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Bitcoin Recovers Following Plunge as US, Israel Begin Bombing Iran",
-    "summary": "The price of Bitcoin plummeted to nearly $63,000 overnight amid U.S. and Israel strikes on Iran, but has mostly recovered in the hours since.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 17:24:59 +0000",
-    "url": "https://decrypt.co/359528/bitcoin-recovers-following-plunge-as-us-israel-begin-bombing-iran"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
-    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "layoff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
-    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Michael Saylor Once Said You Should Master This Technology To Get Wealthy: Bitcoin Billionaire Wants People To Set Their Egos Aside To Achieve Success",
-    "summary": "Strategy Inc.",
-    "symbols": [
-      "BTCUSD",
-      "DOGEUSD",
-      "MSTR",
-      "ZECUSD"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:01:19Z",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50952315/michael-saylor-once-said-you-should-master-this-technology-to-get-wealthy-bitcoin-billionaire-wants-people-to-set-their-egos-aside-to-achieve-success"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Millrose Properties Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T17:35:48Z",
-    "url": "https://finance.yahoo.com/news/millrose-properties-q4-earnings-call-173548135.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 454.0 BTC ($29.7M) transferred",
-    "summary": "Transaction hash: 4e982e684a4c03f7989f2afb633f8f9d... | 454.02 BTC = $29,695,814",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:04:52.800763+00:00",
-    "url": "https://blockchain.info/tx/4e982e684a4c03f7989f2afb633f8f9d579726a5dcbaca85dab83610bcbd1303"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "'If Anybody Wants To Steal A House, Go To Mississippi' \u2013 Grant Cardone Says Cheap Homes Still Exist. 'You Can Buy One For $8,000'",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T18:01:18Z",
-    "url": "https://finance.yahoo.com/news/anybody-wants-steal-house-mississippi-180118252.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 257.1 BTC ($16.8M) transferred",
-    "summary": "Transaction hash: 45eb1d5764c90c06eda03069f23529fc... | 257.10 BTC = $16,783,400",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:18:56.149612+00:00",
-    "url": "https://blockchain.info/tx/45eb1d5764c90c06eda03069f23529fcca12f8a47735a6cae5730931c08d8bbe"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Bank of America revamps Dell stock target after earnings",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:17:00Z",
-    "url": "https://finance.yahoo.com/news/bank-america-revamps-dell-stock-181700146.html"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 170.0 BTC ($11.1M) transferred",
-    "summary": "Transaction hash: 28e63ac4b9076c020ed4d2b85dd6d830... | 169.97 BTC = $11,081,458",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:24:57.540611+00:00",
-    "url": "https://blockchain.info/tx/28e63ac4b9076c020ed4d2b85dd6d8308606702e0d0355438c50d20ac607a8ee"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Cava Shares Surge on Upbeat Outlook. Can the Stock's Momentum Continue?",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:25:00Z",
-    "url": "https://finance.yahoo.com/news/cava-shares-surge-upbeat-outlook-182500109.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "3 Investing Moves I'm Making Right Now to Prepare for a Recession",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "recession"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T18:20:00Z",
-    "url": "https://finance.yahoo.com/news/3-investing-moves-im-making-182000926.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Ingevity Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:32:11Z",
-    "url": "https://finance.yahoo.com/news/ingevity-q4-earnings-call-highlights-183211234.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Northern Oil and Gas Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:32:12Z",
-    "url": "https://finance.yahoo.com/news/northern-oil-gas-q4-earnings-183212751.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Nomad Foods Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T18:32:13Z",
-    "url": "https://finance.yahoo.com/news/nomad-foods-q4-earnings-call-183213362.html"
-  },
-  {
-    "source": "rss:CoinDesk",
-    "headline": "Bitcoin is stuck in a rut but JPMorgan says new legislation could be the ultimate spark",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "bitcoin"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 19:00:00 +0000",
-    "url": "https://www.coindesk.com/policy/2026/02/28/bitcoin-is-stuck-in-a-rut-but-jpmorgan-says-new-legislation-could-be-the-ultimate-spark"
-  },
-  {
-    "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 123.8 BTC ($8.2M) transferred",
-    "summary": "Transaction hash: b337172ba37dcded62713e31cec0456d... | 123.80 BTC = $8,160,537",
-    "symbols": [
-      "BTC"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "is_crypto": true,
-    "ticker": "BTC",
-    "matched_tickers": [
-      "BTC"
-    ],
-    "keywords": [
-      "whale transfer"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:01:05.452570+00:00",
-    "url": "https://blockchain.info/tx/b337172ba37dcded62713e31cec0456d2ade2c362153aa190c04213e1385ca23"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
-    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue",
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T10:12:00+00:00",
-    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
-    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
-    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Dow closes more than 500 points lower after hot inflation report, mounting concerns about AI impact",
-    "summary": "The S&amp;P 500 and Nasdaq finished in the red for February amid growing fears about the impact of artificial intelligence on the economy.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 21:22:51 GMT",
-    "url": "https://www.cnbc.com/2026/02/26/stock-market-today-live-updates.html"
-  },
-  {
-    "source": "finnhub:crypto",
-    "headline": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
-    "summary": "Mark Karpel\u00e8s said it has been 12 years since the start of Mt. Gox\u2019s bankruptcy proceedings and \u201cthis is probably the last sore point on this whole case.\u201d",
-    "symbols": [
-      ""
-    ],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox",
-      "bankrupt"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-28T04:59:48+00:00",
-    "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
-    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation",
-      "gdp ",
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
-    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
-    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "rate cut"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
-    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "ROL",
-    "matched_tickers": [
-      "ROL",
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
-    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "solana etf"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
-    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
-    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
-    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
-    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
-    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
-    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "layoff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
-    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Ormat Technologies Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:28:12Z",
-    "url": "https://finance.yahoo.com/news/ormat-technologies-q4-earnings-call-192812554.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Natural Resource Partners Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:28:10Z",
-    "url": "https://finance.yahoo.com/news/natural-partners-q4-earnings-call-192810193.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "NexPoint Real Estate Finance Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:28:09Z",
-    "url": "https://finance.yahoo.com/news/nexpoint-real-estate-finance-q4-192809726.html"
-  },
-  {
-    "source": "rss:MarketWatch",
-    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
-    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "oil price",
-      "crude oil"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 19:39:00 GMT",
-    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3?mod=mw_rss_topstories"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Northwest Natural Gas Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:28:11Z",
-    "url": "https://finance.yahoo.com/news/northwest-natural-gas-q4-earnings-192811252.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Owens Corning Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:28:11Z",
-    "url": "https://finance.yahoo.com/news/owens-corning-q4-earnings-call-192811664.html"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
-    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "oil price",
-      "crude oil"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:39:00+00:00",
-    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "How the attack on Iran could impact the global oil market and economy",
-    "summary": "The U.S.-Israeli attack raises the risk of major oil supply disruption. Iran is the fourth-largest OPEC producer and sits on the critical Strait of Hormuz.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "opec"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 19:53:52 GMT",
-    "url": "https://www.cnbc.com/2026/02/28/iran-us-attack-oil-market-economy.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Could Buying Oklo Stock Today Set You Up for Life in Dividend Income?",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:50:00Z",
-    "url": "https://finance.yahoo.com/news/could-buying-oklo-stock-today-195000740.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Pebblebrook Hotel Trust Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T20:08:26Z",
-    "url": "https://finance.yahoo.com/news/pebblebrook-hotel-trust-q4-earnings-200826929.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "PACS Group Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T20:08:25Z",
-    "url": "https://finance.yahoo.com/news/pacs-group-q4-earnings-call-200825959.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "OUTFRONT Media Q4 Earnings Call Highlights",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T20:08:25Z",
-    "url": "https://finance.yahoo.com/news/outfront-media-q4-earnings-call-200825376.html"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Iran conflict raises talk of a return to $100-a-barrel oil",
-    "summary": "The U.S. and Israel attacked Iran on Saturday, putting a key regional source of the world\u2019s crude oil at risk and raising talk of a return to $100-a-barrel oil prices.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "oil price",
-      "crude oil"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T19:39:00+00:00",
-    "url": "https://www.marketwatch.com/story/iran-conflict-raises-talk-of-a-return-to-100-a-barrel-oil-63bbc1b3"
-  },
-  {
-    "source": "finnhub:general",
-    "headline": "Iran strikes will likely boost defense stocks \u2014 but here\u2019s what will keep the cash flowing long after the conflict ends",
-    "summary": "A massive backlog of maintenance and software contracts will ensure recurring revenue.",
-    "symbols": [
-      ""
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "revenue",
-      "contract"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T10:12:00+00:00",
-    "url": "https://www.marketwatch.com/story/iran-strikes-will-likely-boost-defense-stocks-but-heres-what-will-keep-the-cash-flowing-long-after-the-conflict-ends-2fa929cf"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "Trump said tariffs could someday 'substantially replace' income taxes. What policy experts say",
-    "summary": "During his State of the Union address, President Donald Trump said tariffs could someday \"substantially replace\" the federal income tax system.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 13:14:41 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/trump-tariffs-income-taxes.html"
-  },
-  {
-    "source": "rss:CNBC_Top",
-    "headline": "WBD employees fear coming wave of job losses as Paramount tops Netflix's bid to acquire company",
-    "summary": "WBD employees fear potential job cuts, culture clashes and high debt loads as Paramount supplants Netflix as the company's acquirer.",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "acquire"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Fri, 27 Feb 2026 22:02:49 GMT",
-    "url": "https://www.cnbc.com/2026/02/27/warner-bros-employees-paramount.html"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at 3%",
-    "summary": "The core PCE price index was expected to increase 3% from a year ago in December. GDP was projected to rise at a 2.5% pace in Q4.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "inflation",
-      "gdp ",
-      "miss"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 20 Feb 2026 16:05:02 GMT",
-    "url": "https://www.cnbc.com/2026/02/20/pce-inflation-december-2025.html"
-  },
-  {
-    "source": "rss:CNBC_Markets",
-    "headline": "UK inflation cools markedly in January, boosting odds of Bank of England rate cut",
-    "summary": "The U.K. inflation rate cooled to 3% in January, according to\u00a0the latest figures\u00a0from the Office for National Statistics (ONS).",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "rate cut"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "Wed, 18 Feb 2026 07:32:35 GMT",
-    "url": "https://www.cnbc.com/2026/02/18/uk-inflation-cools-jan-2026-boe-cut.html"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "11 US senators request federal probe into Binance\u2019s sanctions compliance",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"11 US senators request federal probe into Binance\u2019s sanctions compliance\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDIvMDE5Yzg4YzUtZDg3OS0",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA",
-      "ROL"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Sat, 28 Feb 2026 13:37:23 +0000",
-    "url": "https://cointelegraph.com/news/11-us-senators-request-binance-sanctions-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:CoinTelegraph",
-    "headline": "Morgan Stanley applies for OCC bank charter to custody crypto",
-    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Morgan Stanley applies for OCC bank charter to custody crypto\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjYtMDEvMDE5YjkzM2QtMjNhZi03NzE0LThhMz",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "solana etf"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "Sat, 28 Feb 2026 02:05:40 +0000",
-    "url": "https://cointelegraph.com/news/morgan-stanley-applies-bank-charter-custody-trade-stake-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Former Mt. Gox CEO proposes hard fork to recover $5.2 billion in bitcoin from 2011 theft",
-    "summary": "<p>The proposal acknowledges it would require a coordinated network upgrade and could risk a chain split if parts refuse to adopt the change.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "mt. gox"
-    ],
-    "sentiment": "bullish",
-    "action_type": "buy",
-    "timestamp": "Fri, 27 Feb 2026 16:24:30 -0500",
-    "url": "https://www.theblock.co/post/391635/former-mt-gox-ceo-proposes-hard-fork-recover-5-2-billion-bitcoin-2011-theft?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:TheBlock",
-    "headline": "Senate Democrats urge AG Bondi and Treasury Sec. Bessent to probe Binance amid sanctions concerns",
-    "summary": "<p>Senate Democrats are urging AG Pam Bondi to investigate Binance following reports that the crypto giant may be violating sanctions laws.</p>",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "sanction"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 11:59:43 -0500",
-    "url": "https://www.theblock.co/post/391603/senate-democrats-urge-ag-bondi-and-treasury-sec-bessent-to-probe-binance-amid-sanctions-concerns?utm_source=rss&utm_medium=rss"
-  },
-  {
-    "source": "rss:Decrypt",
-    "headline": "Morning Minute: Jack Dorsey Slashes 40% of Block's Jobs Due to AI",
-    "summary": "Citrini warned everyone that these AI layoffs were coming, and it seems Jack Dorsey took their warning to heart and chose to act first.",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "layoff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "Fri, 27 Feb 2026 12:51:59 +0000",
-    "url": "https://decrypt.co/359395/morning-minute-jack-dorsey-slashes-40-of-blocks-jobs-due-to-ai"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "AI Boom May Be Creating Hidden Risks In Housing Market",
+    "headline": "These 15 housing markets have the most borrowers underwater",
     "summary": "",
     "symbols": [],
     "urgency": "high",
@@ -1548,64 +13,148 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-28T20:30:59Z",
-    "url": "https://finance.yahoo.com/news/ai-boom-may-creating-hidden-203059810.html"
+    "timestamp": "2026-03-01T11:00:00Z",
+    "url": "https://finance.yahoo.com/news/15-housing-markets-most-borrowers-110000119.html"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "SM Energy (SM) Jumps 9.5% on Double-Digit Dividend Hike",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "dividend"
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on Tecnoglass, Lowers Price Target to $70",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains Tecnoglass (NYSE:TGLS) with a Buy and lowers the price target from $80 to $70.",
+    "symbols": [
+      "TGLS"
     ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-28T21:00:35Z",
-    "url": "https://finance.yahoo.com/news/sm-energy-sm-jumps-9-210035461.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Crescent Energy (CRGY) Jumps 7.76% on Swing to Profits",
-    "summary": "",
-    "symbols": [],
     "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "profit"
+      "price target"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-28T21:02:20Z",
-    "url": "https://finance.yahoo.com/news/crescent-energy-crgy-jumps-7-210220864.html"
+    "timestamp": "2026-03-02T19:50:46Z",
+    "url": "https://www.benzinga.com/news/26/03/50980482/da-davidson-maintains-buy-on-tecnoglass-lowers-price-target-to-70"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Luxury spa files for Chapter 11 bankruptcy",
+    "source": "finnhub:crypto",
+    "headline": "Bitcoin company Fold pays off $66M debt, frees up BTC collateral",
+    "summary": "The Bitcoin financial services company retired $66.3 million in convertible debt, reducing dilution risk as it expands its BTC rewards business.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dilut"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T19:37:35+00:00",
+    "url": "https://cointelegraph.com/news/bitcoin-company-fold-pays-off-66m-debt-frees-up-btc-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on NWPX Infrastructure, Raises Price Target to $90",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains NWPX Infrastructure (NASDAQ:NWPX) with a Buy and raises the price target from $70 to $90.",
+    "symbols": [
+      "NWPX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T19:54:38Z",
+    "url": "https://www.benzinga.com/news/26/03/50980593/da-davidson-maintains-buy-on-nwpx-infrastructure-raises-price-target-to-90"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Hudbay Minerals shares are trading lower. The company agreed to acquire Arizona Sonoran Copper in $1.48 billion all-stock deal, offering C$9.35 per share.",
     "summary": "",
-    "symbols": [],
+    "symbols": [
+      "HBM"
+    ],
     "urgency": "critical",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "bankrupt"
+      "acquire"
     ],
     "sentiment": "bearish",
     "action_type": "sell",
-    "timestamp": "2026-02-28T21:27:25Z",
-    "url": "https://finance.yahoo.com/news/luxury-spa-files-chapter-11-212725287.html"
+    "timestamp": "2026-03-02T19:56:27Z",
+    "url": "https://www.benzinga.com/wiim/26/03/50980631/hudbay-minerals-shares-are-trading-lower-the-company-agreed-to-acquire-arizona-sonoran-copper-in-1-4"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Lyft CFO Touts Record 2025, Europe Expansion and $1B New Buyback at Bernstein TMT Conference",
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on MasTec, Raises Price Target to $350",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains MasTec (NYSE:MTZ) with a Buy and raises the price target from $250 to $350.",
+    "symbols": [
+      "MTZ"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T19:57:26Z",
+    "url": "https://www.benzinga.com/news/26/03/50980665/da-davidson-maintains-buy-on-mastec-raises-price-target-to-350"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Exelixis shares are trading lower after RBC Capital lowered its price target on the stock from $46 to $43.",
     "summary": "",
+    "symbols": [
+      "EXEL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T19:58:41Z",
+    "url": "https://www.benzinga.com/wiim/26/03/50980691/exelixis-shares-are-trading-lower-after-rbc-capital-lowered-its-price-target-on-the-stock-from-46-to"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "DA Davidson Maintains Buy on Arcosa, Raises Price Target to $125",
+    "summary": "DA Davidson  analyst Brent Thielman   maintains Arcosa (NYSE:ACA) with a Buy and raises the price target from $120 to $125.",
+    "symbols": [
+      "ACA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T19:58:51Z",
+    "url": "https://www.benzinga.com/news/26/03/50980702/da-davidson-maintains-buy-on-arcosa-raises-price-target-to-125"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "Bitcoin Treasury Firm ProCap Adds $31 Million in BTC as Stock Buybacks Grow",
+    "summary": "Publicly traded Bitcoin treasury ProCap Financial boosted its BTC stash to $376 million as it continues buying back its own shares.",
     "symbols": [],
     "urgency": "high",
     "is_macro": false,
@@ -1616,35 +165,170 @@
     ],
     "sentiment": "bullish",
     "action_type": "monitor",
-    "timestamp": "2026-02-28T22:05:42Z",
-    "url": "https://finance.yahoo.com/news/lyft-cfo-touts-record-2025-220542219.html"
+    "timestamp": "Mon, 02 Mar 2026 19:57:49 +0000",
+    "url": "https://decrypt.co/359646/bitcoin-treasury-firm-procap-adds-31-million-stock-buybacks-grow"
   },
   {
-    "source": "finnhub:general",
-    "headline": "10-year yield falls below 4% on stagflation risk following hot producer prices reading",
-    "summary": "U.S. Treasury yields were lower on Friday as investors reacted to wholesale inflation that came in above Wall Street estimates.",
+    "source": "alpaca:benzinga",
+    "headline": "Jefferies Maintains Buy on Okta, Lowers Price Target to $105",
+    "summary": "Jefferies  analyst Joseph Gallo   maintains Okta (NASDAQ:OKTA) with a Buy and lowers the price target from $125 to $105.",
     "symbols": [
-      ""
+      "OKTA"
     ],
     "urgency": "high",
-    "is_macro": true,
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:05:58Z",
+    "url": "https://www.benzinga.com/news/26/03/50981009/jefferies-maintains-buy-on-okta-lowers-price-target-to-105"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Prosecutors seek forfeiture of $327K in Tether after alleged dating app crypto fraud",
+    "summary": "<p>Prosecutors are looking to seize $327,829 worth of Tether after prosecutors say a person in Massachusetts was duped on a dating app.</p>",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
     "ticker": "SA",
     "matched_tickers": [
       "SA"
     ],
     "keywords": [
-      "inflation",
-      "treasury yield"
+      "fraud"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Mon, 02 Mar 2026 15:04:49 -0500",
+    "url": "https://www.theblock.co/post/391838/prosecutors-seek-forfeiture-of-327k-in-tether-after-alleged-dating-app-crypto-fraud?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Jefferies Maintains Hold on Hilton Grand Vacations, Raises Price Target to $50",
+    "summary": "Jefferies  analyst David Katz   maintains Hilton Grand Vacations (NYSE:HGV) with a Hold and raises the price target from $46 to $50.",
+    "symbols": [
+      "HGV"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T18:39:35+00:00",
-    "url": "https://www.cnbc.com/2026/02/27/us-treasury-yields-investors-await-wholesale-inflation-reading.html"
+    "timestamp": "2026-03-02T20:09:06Z",
+    "url": "https://www.benzinga.com/news/26/03/50981098/jefferies-maintains-hold-on-hilton-grand-vacations-raises-price-target-to-50"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Should You Forget Eli Lilly and Buy This Magnificent High-Yield Dividend Stock Instead?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-01T11:05:00Z",
+    "url": "https://finance.yahoo.com/news/forget-eli-lilly-buy-magnificent-110500813.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on MercadoLibre, Lowers Price Target to $2650",
+    "summary": "JP Morgan  analyst Marcelo Santos   maintains MercadoLibre (NASDAQ:MELI) with a Overweight and lowers the price target from $2800 to $2650.",
+    "symbols": [
+      "MELI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:13:03Z",
+    "url": "https://www.benzinga.com/news/26/03/50981252/jp-morgan-maintains-overweight-on-mercadolibre-lowers-price-target-to-2650"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Opendoor Stock Is Sliding Monday: What&#39;s Driving The Action?",
+    "summary": "Opendoor Technologies shares are trading lower Monday, trimming last month&#39;s post-earnings surge as investors reassess its profit path.",
+    "symbols": [
+      "OPEN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "OPEN",
+    "matched_tickers": [
+      "OPEN"
+    ],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T20:15:46Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/03/50981347/opendoor-stock-is-sliding-monday-whats-driving-the-action"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "JP Morgan Maintains Overweight on Ciena, Raises Price Target to $380",
+    "summary": "JP Morgan  analyst Samik Chatterjee   maintains Ciena (NYSE:CIEN) with a Overweight and raises the price target from $250 to $380.",
+    "symbols": [
+      "CIEN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:16:26Z",
+    "url": "https://www.benzinga.com/news/26/03/50981377/jp-morgan-maintains-overweight-on-ciena-raises-price-target-to-380"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "KGI Securities Downgrades PayPal Holdings to Neutral, Announces $55 Price Target",
+    "summary": "KGI Securities  analyst Andrew Cheng   downgrades PayPal Holdings (NASDAQ:PYPL) from Outperform to Neutral and announces $55 price target.",
+    "symbols": [
+      "PYPL"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "downgrade",
+      "price target"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T20:18:50Z",
+    "url": "https://www.benzinga.com/news/26/03/50981457/kgi-securities-downgrades-paypal-holdings-to-neutral-announces-55-price-target"
   },
   {
     "source": "whale:blockchain.info",
-    "headline": "\ud83d\udc0b BTC Whale: 2,779.8 BTC ($186.3M) transferred",
-    "summary": "Transaction hash: 86ccd049eca1ede6199e2f6ef2e8ca22... | 2,779.84 BTC = $186,311,682",
+    "headline": "\ud83d\udc0b BTC Whale: 1,179.4 BTC ($81.3M) transferred",
+    "summary": "Transaction hash: 5a80db1074bb4483e7a3544e86c60b0b... | 1,179.39 BTC = $81,337,244",
     "symbols": [
       "BTC"
     ],
@@ -1660,30 +344,129 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-28T23:48:12.641359+00:00",
-    "url": "https://blockchain.info/tx/86ccd049eca1ede6199e2f6ef2e8ca22397cb755b527b50c81d002381572bbe2"
+    "timestamp": "2026-03-02T20:19:31.788034+00:00",
+    "url": "https://blockchain.info/tx/5a80db1074bb4483e7a3544e86c60b0b8dfcc426e95228d2da817165689e82fc"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Toymaker Hasbro joins wave of companies suing U.S. government over IEEPA tariff payments",
-    "summary": "",
-    "symbols": [],
+    "source": "alpaca:benzinga",
+    "headline": "At TD Cowen 46th Annual Healthcare Conf, Eli Lilly CFO Says Orforglipron Pill Could Potentially Come To The U.S. Market As Early As Q2 Following Expected April Approval; Says Orforglipron Can Be Shipped To Customers And Patients Within A Week Or So After FDA Approval",
+    "summary": "https://event.summitcast.com/view/9z5g2VrV6e6rbCqQgDRoHA/guest_book?session_id=BPUtWbFPmha2ou8XY2i42o",
+    "symbols": [
+      "LLY"
+    ],
     "urgency": "critical",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "fda approv"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T20:22:27Z",
+    "url": "https://www.benzinga.com/general/biotech/26/03/50981625/at-td-cowen-46th-annual-healthcare-conf-eli-lilly-cfo-says-orforglipron-pill-could-potentially-co"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Leerink Partners Maintains Outperform on Arcus Biosciences, Raises Price Target to $49",
+    "summary": "Leerink Partners  analyst Geoffrey Porges   maintains Arcus Biosciences (NYSE:RCUS) with a Outperform and raises the price target from $36 to $49.",
+    "symbols": [
+      "RCUS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:23:51Z",
+    "url": "https://www.benzinga.com/news/26/03/50981651/leerink-partners-maintains-outperform-on-arcus-biosciences-raises-price-target-to-49"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Lake Street Initiates Coverage On Cognyte Software with Buy Rating, Announces Price Target of $13",
+    "summary": "Lake Street  analyst Eric Martinuzzi   initiates coverage on Cognyte Software (NASDAQ:CGNT) with a Buy rating and announces Price Target of $13.",
+    "symbols": [
+      "CGNT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:27:57Z",
+    "url": "https://www.benzinga.com/news/26/03/50981805/lake-street-initiates-coverage-on-cognyte-software-with-buy-rating-announces-price-target-of-13"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Vitalik Buterin eyes \u2018big FOCIL\u2019 and encrypted mempools to prevent centralization in \u2018block building pipeline\u2019",
+    "summary": "<p>The Glamsterdam upgrade will boost Ethereum's censorship-resistance, but a proposed mechanism called ePBS could cause centralization.</p>",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "upgrade"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Mon, 02 Mar 2026 15:28:30 -0500",
+    "url": "https://www.theblock.co/post/391840/vitalik-buterin-eyes-big-focil-and-encrypted-mempools-to-prevent-centralization-in-block-building-pipeline?utm_source=rss&utm_medium=rss"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Lake Street Maintains Buy on inTest, Raises Price Target to $19",
+    "summary": "Lake Street  analyst Max Michaelis   maintains inTest (AMEX:INTT) with a Buy and raises the price target from $10 to $19.",
+    "symbols": [
+      "INTT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:30:28Z",
+    "url": "https://www.benzinga.com/news/26/03/50981864/lake-street-maintains-buy-on-intest-raises-price-target-to-19"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Carnival Shares Drop 8% As Geopolitics, Oil Prices Bite",
+    "summary": "Carnival shares are trading lower Monday as cruise operators slid after US-Israel strikes on Iran targets raised geopolitical and fuel risk.",
+    "symbols": [
+      "CCL",
+      "NCLH",
+      "RCL"
+    ],
+    "urgency": "high",
     "is_macro": true,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "tariff"
+      "oil price"
     ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T17:57:29Z",
-    "url": "https://finance.yahoo.com/news/toymaker-hasbro-joins-wave-companies-175729230.html"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:31:44Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/03/50981935/carnival-shares-drop-8-as-geopolitics-oil-prices-bite"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Stock Market Today, Feb. 27: Stocks plummet after inflation disappointment",
-    "summary": "",
+    "source": "rss:CNBC_Top",
+    "headline": "Oil prices are jumping again after Iran reportedly says it closed the Strait of Hormuz",
+    "summary": "It is unclear who will ultimately govern Iran, the fourth-largest oil producer in OPEC, after U.S.-Israel strikes killed Ayatollah Ali Khamenei.",
     "symbols": [],
     "urgency": "high",
     "is_macro": true,
@@ -1692,33 +475,738 @@
       "SA"
     ],
     "keywords": [
-      "inflation"
+      "oil price",
+      "opec"
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T17:51:02Z",
-    "url": "https://finance.yahoo.com/news/stock-market-today-feb-27-175102160.html"
+    "timestamp": "Mon, 02 Mar 2026 20:31:30 GMT",
+    "url": "https://www.cnbc.com/2026/03/01/crude-oil-futures-iran.html"
   },
   {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Celsius double upgraded by Bank of America following strong fourth quarter earnings report",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
+    "source": "alpaca:benzinga",
+    "headline": "Lake Street Maintains Buy on Treace Medical Concepts, Lowers Price Target to $7",
+    "summary": "Lake Street  analyst Ben Haynor   maintains Treace Medical Concepts (NASDAQ:TMCI) with a Buy and lowers the price target from $7.5 to $7.",
+    "symbols": [
+      "TMCI"
+    ],
+    "urgency": "high",
     "is_macro": false,
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "celsius"
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:32:15Z",
+    "url": "https://www.benzinga.com/news/26/03/50981953/lake-street-maintains-buy-on-treace-medical-concepts-lowers-price-target-to-7"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Maxim Group Initiates Coverage On Micropolis AI Robotics with Buy Rating, Announces Price Target of $8",
+    "summary": "Maxim Group   initiates coverage on Micropolis AI Robotics (AMEX:MCRP) with a Buy rating and announces Price Target of $8.",
+    "symbols": [
+      "MCRP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:34:43Z",
+    "url": "https://www.benzinga.com/news/26/03/50982021/maxim-group-initiates-coverage-on-micropolis-ai-robotics-with-buy-rating-announces-price-target-of-8"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Maxim Group Downgrades Whitestone REIT to Hold",
+    "summary": "Maxim Group  analyst Michael Diana   downgrades Whitestone REIT (NYSE:WSR) from Buy to Hold.",
+    "symbols": [
+      "WSR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "downgrade"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T20:37:09Z",
+    "url": "https://www.benzinga.com/news/26/03/50982081/maxim-group-downgrades-whitestone-reit-to-hold"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on HASI, Raises Price Target to $44",
+    "summary": "UBS  analyst Jon Windham   maintains HASI (NYSE:HASI) with a Buy and raises the price target from $40 to $44.",
+    "symbols": [
+      "HASI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:39:24Z",
+    "url": "https://www.benzinga.com/news/26/03/50982129/ubs-maintains-buy-on-hasi-raises-price-target-to-44"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "UBS Maintains Buy on Micron Technology, Raises Price Target to $475",
+    "summary": "UBS  analyst Timothy Arcuri   maintains Micron Technology (NASDAQ:MU) with a Buy and raises the price target from $450 to $475.",
+    "symbols": [
+      "MU"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:41:04Z",
+    "url": "https://www.benzinga.com/news/26/03/50982220/ubs-maintains-buy-on-micron-technology-raises-price-target-to-475"
+  },
+  {
+    "source": "rss:CNBC_Top",
+    "headline": "Dividend Aristocrats are outperforming this year in a volatile market. These stocks are Wall Street\u2019s favorites",
+    "summary": "CNBC Pro screened for dividend aristocrats that are rated a buy by the majority of analysts covering the stock.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Mon, 02 Mar 2026 20:29:40 GMT",
+    "url": "https://www.cnbc.com/2026/03/02/these-dividend-aristocrat-stocks-are-wall-streets-favorites.html"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Iran conflict hits a market that\u2019s more overvalued than during the 1973 oil shock",
+    "summary": "Arab\u2013Israeli war in 1973 and the oil embargo that followed shows that stocks don\u2019t always rebound quickly.",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Mon, 02 Mar 2026 20:43:00 GMT",
+    "url": "https://www.marketwatch.com/story/iran-conflict-hits-a-market-thats-more-overvalued-than-during-the-1973-oil-shock-f9035d9d?mod=mw_rss_topstories"
+  },
+  {
+    "source": "finnhub:general",
+    "headline": "Iran conflict hits a market that\u2019s more overvalued than during the 1973 oil shock",
+    "summary": "Arab\u2013Israeli war in 1973 and the oil embargo that followed shows that stocks don\u2019t always rebound quickly.",
+    "symbols": [
+      ""
+    ],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T20:43:00+00:00",
+    "url": "https://www.marketwatch.com/story/iran-conflict-hits-a-market-thats-more-overvalued-than-during-the-1973-oil-shock-f9035d9d"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Chardan Capital Maintains Buy on Intellia Therapeutics, Raises Price Target to $27",
+    "summary": "Chardan Capital  analyst Geulah Livshits   maintains Intellia Therapeutics (NASDAQ:NTLA) with a Buy and raises the price target from $26 to $27.",
+    "symbols": [
+      "NTLA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:50:05Z",
+    "url": "https://www.benzinga.com/news/26/03/50982520/chardan-capital-maintains-buy-on-intellia-therapeutics-raises-price-target-to-27"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Barrington Research Maintains Outperform on CRA Intl, Maintains $245 Price Target",
+    "summary": "Barrington Research  analyst Kevin Steinke   maintains CRA Intl (NASDAQ:CRAI) with a Outperform and maintains $245 price target.",
+    "symbols": [
+      "CRAI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:51:34Z",
+    "url": "https://www.benzinga.com/news/26/03/50982574/barrington-research-maintains-outperform-on-cra-intl-maintains-245-price-target"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BWS Financial Maintains Buy on TriMas, Maintains $45 Price Target",
+    "summary": "BWS Financial  analyst Hamed Khorsand   maintains TriMas (NASDAQ:TRS) with a Buy and maintains $45 price target.",
+    "symbols": [
+      "TRS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:56:24Z",
+    "url": "https://www.benzinga.com/news/26/03/50982734/bws-financial-maintains-buy-on-trimas-maintains-45-price-target"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BWS Financial Maintains Buy on Ecovyst, Raises Price Target to $16",
+    "summary": "BWS Financial  analyst Hamed Khorsand   maintains Ecovyst (NYSE:ECVT) with a Buy and raises the price target from $12 to $16.",
+    "symbols": [
+      "ECVT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T20:59:00Z",
+    "url": "https://www.benzinga.com/news/26/03/50982809/bws-financial-maintains-buy-on-ecovyst-raises-price-target-to-16"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Here&#39;s Why Income Investors Should Pay Attention To State Street&#39;s New High-Yield ETF Suite",
+    "summary": "State Street debuts five high-yield bond ETFs with set maturities from 2027 to 2031, offering income investors defined exit timelines.",
+    "symbols": [
+      "MYCH",
+      "MYHA",
+      "MYHB",
+      "MYHC",
+      "MYHD",
+      "MYHE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:00:57Z",
+    "url": "https://www.benzinga.com/etfs/new-etfs/26/03/50982950/state-street-new-high-yield-etf-2026"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "iHeartMedia Q4 Sales $1.127B Beat $1.099B Estimate",
+    "summary": "iHeartMedia (NASDAQ:IHRT) reported quarterly sales of $1.127 billion which beat the analyst consensus estimate of $1.099 billion by 2.51 percent.  This is a 0.81 percent increase over sales of $1.118 billion the same",
+    "symbols": [
+      "IHRT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
     ],
     "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:01:34Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983000/iheartmedia-q4-sales-1-127b-beat-1-099b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BWS Financial Maintains Buy on Shenandoah, Maintains $26 Price Target",
+    "summary": "BWS Financial  analyst Hamed Khorsand   maintains Shenandoah (NASDAQ:SHEN) with a Buy and maintains $26 price target.",
+    "symbols": [
+      "SHEN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "price target"
+    ],
+    "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T17:51:00Z",
-    "url": "https://finance.yahoo.com/news/celsius-double-upgraded-bank-america-175100563.html"
+    "timestamp": "2026-03-02T21:01:36Z",
+    "url": "https://www.benzinga.com/news/26/03/50983003/bws-financial-maintains-buy-on-shenandoah-maintains-26-price-target"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Gaia Q4 EPS $(0.02), Inline, Sales $25.498M Beat $25.350M Estimate",
+    "summary": "Gaia (NASDAQ:GAIA) reported quarterly losses of $(0.02) per share which met the analyst consensus estimate. This is a 33.33 percent increase over losses of $(0.03) per share from the same period last year.  The company",
+    "symbols": [
+      "GAIA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:01:59Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983026/gaia-q4-eps-0-02-inline-sales-25-498m-beat-25-350m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "CPS Technologies Q4 Sales $8.208M Beat $7.890M Estimate",
+    "summary": "CPS Technologies (NASDAQ:CPSH) reported quarterly sales of $8.208 million which beat the analyst consensus estimate of $7.890 million by 4.03 percent.  This is a 38.34 percent increase over sales of $5.933 million the",
+    "symbols": [
+      "CPSH"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:02:14Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983041/cps-technologies-q4-sales-8-208m-beat-7-890m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Cerus Q4 EPS $(0.01), Inline, Sales $57.751M Miss $58.075M Estimate",
+    "summary": "Cerus (NASDAQ:CERS) reported quarterly losses of $(0.01) per share which met the analyst consensus estimate. This is unchanged from the same period last year.  The company reported quarterly sales of $57.751 million",
+    "symbols": [
+      "CERS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:02:26Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983053/cerus-q4-eps-0-01-inline-sales-57-751m-miss-58-075m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Senseonics Holdings Q4 EPS $(0.46) Misses $(0.44) Estimate, Sales $14.300M Miss $14.337M Estimate",
+    "summary": "Senseonics Holdings (AMEX:SENS) reported quarterly losses of $(0.46) per share which missed the analyst consensus estimate of $(0.44) by 4.55 percent. This is a 23.33 percent increase over losses of $(0.60) per share",
+    "symbols": [
+      "SENS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:02:33Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983063/senseonics-holdings-q4-eps-0-46-misses-0-44-estimate-sales-14-300m-miss-14-337m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Plug Power Q4 EPS $(0.63) Misses $(0.10) Estimate, Sales $225.200M Beat $217.767M Estimate",
+    "summary": "",
+    "symbols": [
+      "PLUG"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:03:44Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983134/plug-power-q4-eps-0-63-misses-0-10-estimate-sales-225-200m-beat-217-767m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Pampa Energia Q4 EPS $3.00 Beats $1.05 Estimate, Sales $507.000M Miss $407.778B Estimate",
+    "summary": "Pampa Energia (NYSE:PAM) reported quarterly earnings of $3.00 per share which beat the analyst consensus estimate of $1.05 by 185.71 percent. This is a 57.89 percent increase over earnings of $1.90 per share from the",
+    "symbols": [
+      "PAM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:04:17Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983190/pampa-energia-q4-eps-3-00-beats-1-05-estimate-sales-507-000m-miss-407-778b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Lockheed Martin, RTX Corp Stocks Hit All-Time Highs On Iran Attack: Here&#39;s The Congress Members Who Own Shares",
+    "summary": "Members of Congress who own defense stocks could profit from a prolonged attack against Iran. Here&#39;s the members who own LMT, RTX and PLTR shares.",
+    "symbols": [
+      "LMT",
+      "PLTR",
+      "RTX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "ROL",
+    "matched_tickers": [
+      "ROL"
+    ],
+    "keywords": [
+      "profit"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:04:19Z",
+    "url": "https://www.benzinga.com/news/politics/26/03/50983194/lockheed-martin-rtx-corp-stocks-hit-all-time-highs-on-iran-attack-heres-the-congress-members-who-own-shares"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Performance Shipping Signs Shipbuilding Contracts For Two Suezmax Tankers With China Shipbuilding And Shanghai Waigaoqiao Shipbuilding For $81.5M Each",
+    "summary": "The vessels are expected to be delivered in October 2028 and May 2029, respectively, at a contract price of US$81.5 million per vessel. 15% of the purchase price is payable upon receipt of a refund guarantee; 10% of the",
+    "symbols": [
+      "PSHG"
+    ],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "china",
+      "contract"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:05:25Z",
+    "url": "https://www.benzinga.com/news/26/03/50983335/performance-shipping-signs-shipbuilding-contracts-for-two-suezmax-tankers-with-china-shipbuilding-an"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Asana Q4 Adj. EPS $0.08 Beats $0.07 Estimate, Sales $205.570M Beat $205.126M Estimate",
+    "summary": "Asana (NYSE:ASAN) reported quarterly earnings of $0.08 per share which beat the analyst consensus estimate of $0.07 by 14.29 percent.  The company reported quarterly sales of $205.570 million which beat the analyst",
+    "symbols": [
+      "ASAN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:05:55Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983364/asana-q4-adj-eps-0-08-beats-0-07-estimate-sales-205-570m-beat-205-126m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ameresco Q4 Adj. EPS $0.39 Beats $0.31 Estimate, Sales $581.026M Beat $556.086M Estimate",
+    "summary": "Ameresco (NYSE:AMRC) reported quarterly earnings of $0.39 per share which beat the analyst consensus estimate of $0.31 by 25 percent. This is a 55.68 percent decrease over earnings of $0.88 per share from the same period",
+    "symbols": [
+      "AMRC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:06:01Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983388/ameresco-q4-adj-eps-0-39-beats-0-31-estimate-sales-581-026m-beat-556-086m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "James River Gr Hldgs Q4 Adj. EPS $0.30 Misses $0.42 Estimate, Sales $147.326M Miss $171.985M Estimate",
+    "summary": "James River Gr Hldgs (NASDAQ:JRVR) reported quarterly earnings of $0.30 per share which missed the analyst consensus estimate of $0.42 by 29.08 percent. This is a 130.3 percent increase over losses of $(0.99) per share",
+    "symbols": [
+      "JRVR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:06:13Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983412/james-river-gr-hldgs-q4-adj-eps-0-30-misses-0-42-estimate-sales-147-326m-miss-171-985m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Credo Technology Group Q3 Adj. EPS $1.07 Beats $0.95 Estimate, Sales $407.012M Beat $400.232M Estimate",
+    "summary": "",
+    "symbols": [
+      "CRDO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:06:17Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983417/credo-technology-group-q3-adj-eps-1-07-beats-0-95-estimate-sales-407-012m-beat-400-232m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Surgery Partners Q4 Adj. EPS $0.12 Misses $0.30 Estimate, Sales $885.000M Beat $866.469M Estimate",
+    "summary": "Surgery Partners (NASDAQ:SGRY) reported quarterly earnings of $0.12 per share which missed the analyst consensus estimate of $0.30 by 60 percent. This is a 72.73 percent decrease over earnings of $0.44 per share from the",
+    "symbols": [
+      "SGRY"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:06:30Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983437/surgery-partners-q4-adj-eps-0-12-misses-0-30-estimate-sales-885-000m-beat-866-469m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Quantum Computing Q4 EPS $(0.01) Beats $(0.04) Estimate, Sales $198.000K Miss $332.500K Estimate",
+    "summary": "Quantum Computing (NASDAQ:QUBT) reported quarterly losses of $(0.01) per share which beat the analyst consensus estimate of $(0.04) by 75 percent. This is a 97.87 percent increase over losses of $(0.47) per share from",
+    "symbols": [
+      "QUBT"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:06:34Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983445/quantum-computing-q4-eps-0-01-beats-0-04-estimate-sales-198-000k-miss-332-500k-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "ThredUp Q4 EPS $(0.04), Inline, Sales $79.704M Beat $77.200M Estimate",
+    "summary": "ThredUp (NASDAQ:TDUP) reported quarterly losses of $(0.04) per share which met the analyst consensus estimate. This is a 42.86 percent increase over losses of $(0.07) per share from the same period last year.  The",
+    "symbols": [
+      "TDUP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:06:42Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983458/thredup-q4-eps-0-04-inline-sales-79-704m-beat-77-200m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Sturm Ruger Q4 Adj. EPS $0.26 Misses $0.32 Estimate, Sales $151.100M Beat $139.243M Estimate",
+    "summary": "Sturm Ruger (NYSE:RGR) reported quarterly earnings of $0.26 per share which missed the analyst consensus estimate of $0.32 by 17.46 percent. This is a 58.06 percent decrease over earnings of $0.62 per share from the same",
+    "symbols": [
+      "RGR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:06:43Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983464/sturm-ruger-q4-adj-eps-0-26-misses-0-32-estimate-sales-151-100m-beat-139-243m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Nuvation Bio Q4 EPS $(0.11) Misses $(0.09) Estimate, Sales $41.865M Beat $37.326M Estimate",
+    "summary": "Nuvation Bio (NYSE:NUVB) reported quarterly losses of $(0.11) per share which missed the analyst consensus estimate of $(0.09) by 22.22 percent. This is a 26.67 percent increase over losses of $(0.15) per share from the",
+    "symbols": [
+      "NUVB"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:07:22Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983519/nuvation-bio-q4-eps-0-11-misses-0-09-estimate-sales-41-865m-beat-37-326m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Archer Aviation Q4 EPS $(0.26) Misses $(0.24) Estimate, Sales $300.000K Miss $666.670K Estimate",
+    "summary": "Archer Aviation (NYSE:ACHR) reported quarterly losses of $(0.26) per share which missed the analyst consensus estimate of $(0.24) by 7.44 percent. This is a 42.22 percent increase over losses of $(0.45) per share from",
+    "symbols": [
+      "ACHR"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:08:11Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983567/archer-aviation-q4-eps-0-26-misses-0-24-estimate-sales-300-000k-miss-666-670k-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Life360 Q4 EPS $1.51 Beats $0.11 Estimate, Sales $145.979M Beat $139.488M Estimate",
+    "summary": "Life360 (NASDAQ:LIF) reported quarterly earnings of $1.51 per share which beat the analyst consensus estimate of $0.11 by 1236.28 percent. This is a 1410 percent increase over earnings of $0.10 per share from the same",
+    "symbols": [
+      "LIF"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:08:27Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983591/life360-q4-eps-1-51-beats-0-11-estimate-sales-145-979m-beat-139-488m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "MongoDB Q4 Adj. EPS $1.65 Beats $1.45 Estimate, Sales $695.072M Beat $667.150M Estimate",
+    "summary": "MongoDB (NASDAQ:MDB) reported quarterly earnings of $1.65 per share which beat the analyst consensus estimate of $1.45 by 13.79 percent. This is a 28.91 percent increase over earnings of $1.28 per share from the same",
+    "symbols": [
+      "MDB"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:08:58Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983626/mongodb-q4-adj-eps-1-65-beats-1-45-estimate-sales-695-072m-beat-667-150m-estimate"
   },
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "Tariff refund? Major companies are getting in line",
+    "headline": "Why is Hyperliquid Price Rallying Amid the US-Iran War",
     "summary": "",
     "symbols": [],
     "urgency": "critical",
@@ -1726,16 +1214,508 @@
     "ticker": "MACRO",
     "matched_tickers": [],
     "keywords": [
-      "tariff"
+      "war "
     ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:20:46Z",
-    "url": "https://finance.yahoo.com/news/tariff-refund-major-companies-getting-182046601.html"
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-01T12:10:55Z",
+    "url": "https://finance.yahoo.com/news/why-hyperliquid-price-rallying-amid-121055072.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ingram Micro Holding Q4 Adj. EPS $0.96 Beats $0.88 Estimate, Sales $14.878M Miss $14.073B Estimate",
+    "summary": "Ingram Micro Holding (NYSE:INGM) reported quarterly earnings of $0.96 per share which beat the analyst consensus estimate of $0.88 by 8.72 percent. This is a 4.35 percent increase over earnings of $0.92 per share from",
+    "symbols": [
+      "INGM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA",
+      "GM"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:09:34Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983677/ingram-micro-holding-q4-adj-eps-0-96-beats-0-88-estimate-sales-14-878m-miss-14-073b-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Mobile Infrastructure Q4 Adj. EPS $(0.10) Beats $(0.11) Estimate, Sales $8.762M Beat $8.634M Estimate. Adj. EPS excludes a loss on extinguishment of debt of $2.6 million and a non-cash impairment charge of $1.2 million.",
+    "summary": "Mobile Infrastructure (AMEX:BEEP) reported quarterly losses of $(0.10) per share which beat the analyst consensus estimate of $(0.11) by 9.09 percent. This is a 233.33 percent decrease over losses of $(0.03) per share",
+    "symbols": [
+      "BEEP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:10:09Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983721/mobile-infrastructure-q4-adj-eps-0-10-beats-0-11-estimate-sales-8-762m-beat-8-634m-estimate-adj-eps"
   },
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "52 Massive Vol/OI Spikes Expire March 20\u2014Profit Plays on Top 3",
+    "headline": "NWPX Infrastructure, Inc. (NWPX) Acquires Boughton\u2019s Precast",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-01T12:44:49Z",
+    "url": "https://finance.yahoo.com/news/nwpx-infrastructure-inc-nwpx-acquires-124449663.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Vitesse Energy  Entered Into A Definitive Agreement To Acquire Non-Operated Assets In Campbell And Converse Counties, WY For $35M Of Vitesse Common Stock",
+    "summary": "",
+    "symbols": [
+      "VTS"
+    ],
+    "urgency": "critical",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "acquire"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:10:25Z",
+    "url": "https://www.benzinga.com/m-a/26/03/50983782/vitesse-energy-entered-into-a-definitive-agreement-to-acquire-non-operated-assets-in-campbell-and-co"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ouster Q4 EPS $(0.06) Beats $(0.35) Estimate, Sales $62.178M Beat $41.100M Estimate",
+    "summary": "",
+    "symbols": [
+      "OUST"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:11:30Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983862/ouster-q4-eps-0-06-beats-0-35-estimate-sales-62-178m-beat-41-100m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Dave Q4 Adj. EPS $3.69 Beats $3.19 Estimate, Sales $163.700M Beat $157.200M Estimate",
+    "summary": "Dave (NASDAQ:DAVE) reported quarterly earnings of $3.69 per share which beat the analyst consensus estimate of $3.19 by 15.6 percent. This is a 93.19 percent increase over earnings of $1.91 per share from the same period",
+    "symbols": [
+      "DAVE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:11:30Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983863/dave-q4-adj-eps-3-69-beats-3-19-estimate-sales-163-700m-beat-157-200m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "StoneCo Q4 Adj. EPS $0.51 Beats $0.48 Estimate, Sales $690.086M Miss $717.930M Estimate",
+    "summary": "StoneCo (NASDAQ:STNE) reported quarterly earnings of $0.51 per share which beat the analyst consensus estimate of $0.48 by 6.25 percent. This is a 31.44 percent increase over earnings of $0.39 per share from the same",
+    "symbols": [
+      "STNE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:11:43Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983884/stoneco-q4-adj-eps-0-51-beats-0-48-estimate-sales-690-086m-miss-717-930m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Limbach Holdings Q4 Adj. EPS $1.40 Beats $1.03 Estimate, Sales $186.872M Miss $197.561M Estimate",
+    "summary": "Limbach Holdings (NASDAQ:LMB) reported quarterly earnings of $1.40 per share which beat the analyst consensus estimate of $1.03 by 35.27 percent. This is a 21.74 percent increase over earnings of $1.15 per share from the",
+    "symbols": [
+      "LMB"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:13:16Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50983977/limbach-holdings-q4-adj-eps-1-40-beats-1-03-estimate-sales-186-872m-miss-197-561m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Applied Digital Subsidiary Plans To Commence $2.15B Senior Notes Due 2031 Offering",
+    "summary": "Applied Digital Corporation (NASDAQ: APLD) (&#34;Applied Digital&#34; or the &#34;Company&#34;), a leading designer, builder and operator of high-performance, sustainably engineered data centers and colocation services for Artificial",
+    "symbols": [
+      "APLD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:14:45Z",
+    "url": "https://www.benzinga.com/news/26/03/50984103/applied-digital-subsidiary-plans-to-commence-2-15b-senior-notes-due-2031-offering"
+  },
+  {
+    "source": "rss:MarketWatch",
+    "headline": "Bonds log biggest selloff in 9 months as Iran conflict sparks unusual Treasury moves",
+    "summary": "Mortgage rates and more will be vulnerable to the surge in the 10-year Treasury yield.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": true,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "treasury yield"
+    ],
+    "sentiment": "bullish",
+    "action_type": "monitor",
+    "timestamp": "Mon, 02 Mar 2026 21:12:00 GMT",
+    "url": "https://www.marketwatch.com/story/bonds-head-for-biggest-selloff-in-nine-months-as-iran-conflict-sparks-unusual-treasury-moves-c40aed49?mod=mw_rss_topstories"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Climb Global Announces 4-For-1 Forward Stock Split, Effective March 23",
+    "summary": "Climb Global Solutions, Inc. (NASDAQ:CLMB) (&#34;Climb&#34; or the &#34;Company&#34;), announced today that its Board of Directors has approved a four-for-one forward stock split of the Company&#39;s common stock. The forward stock split",
+    "symbols": [
+      "CLMB"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "CLMB",
+    "matched_tickers": [
+      "CLMB"
+    ],
+    "keywords": [
+      "stock split"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:15:40Z",
+    "url": "https://www.benzinga.com/news/26/03/50984155/climb-global-announces-4-for-1-forward-stock-split-effective-march-23"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Helios Technologies Q4 Adj. EPS $0.81 Beats $0.72 Estimate, Sales $210.700M Beat $197.006M Estimate",
+    "summary": "Helios Technologies (NYSE:HLIO) reported quarterly earnings of $0.81 per share which beat the analyst consensus estimate of $0.72 by 12.81 percent. This is a 145.45 percent increase over earnings of $0.33 per share from",
+    "symbols": [
+      "HLIO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:16:05Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984169/helios-technologies-q4-adj-eps-0-81-beats-0-72-estimate-sales-210-700m-beat-197-006m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BRC Q4 EPS $(0.03) Misses $0.01 Estimate, Sales $112.739M Beat $109.861M Estimate",
+    "summary": "",
+    "symbols": [
+      "BRCC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:16:33Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984192/brc-q4-eps-0-03-misses-0-01-estimate-sales-112-739m-beat-109-861m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Alamo Group Q4 Adj. EPS $1.70 Misses $2.12 Estimate, Sales $373.650M Miss $399.610M Estimate",
+    "summary": "Alamo Group (NYSE:ALG) reported quarterly earnings of $1.70 per share which missed the analyst consensus estimate of $2.12 by 19.92 percent. This is a 28.87 percent decrease over earnings of $2.39 per share from the same",
+    "symbols": [
+      "ALG"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:16:41Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984201/alamo-group-q4-adj-eps-1-70-misses-2-12-estimate-sales-373-650m-miss-399-610m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Biohaven Q4 Adj. EPS $(1.21) Misses $(1.06) Estimate",
+    "summary": "Biohaven (NYSE:BHVN) reported quarterly losses of $(1.21) per share which missed the analyst consensus estimate of $(1.06) by 14.15 percent. This is a 29.24 percent increase over losses of $(1.71) per share from the same",
+    "symbols": [
+      "BHVN"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:16:48Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984207/biohaven-q4-adj-eps-1-21-misses-1-06-estimate"
+  },
+  {
+    "source": "rss:Decrypt",
+    "headline": "OpenAI Claims Safety 'Red Lines' in Pentagon Deal\u2014But Users Aren't Buying It",
+    "summary": "The Pentagon deal sparked a mass exodus from ChatGPT\u2014and pushed Anthropic's Claude to the top of the App Store. But the bigger story is in the contract language.",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "contract"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "Mon, 02 Mar 2026 21:16:39 +0000",
+    "url": "https://decrypt.co/359649/openai-claims-safety-red-lines-pentagon-deal"
+  },
+  {
+    "source": "whale:blockchain.info",
+    "headline": "\ud83d\udc0b BTC Whale: 1,126.8 BTC ($78.1M) transferred",
+    "summary": "Transaction hash: 1cd7aca54c5b32fae4e520ae6295e20e... | 1,126.77 BTC = $78,060,615",
+    "symbols": [
+      "BTC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "is_crypto": true,
+    "ticker": "BTC",
+    "matched_tickers": [
+      "BTC"
+    ],
+    "keywords": [
+      "whale transfer"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:17:50.626168+00:00",
+    "url": "https://blockchain.info/tx/1cd7aca54c5b32fae4e520ae6295e20eef113b0028fb8f3169470b2819fd54fe"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Ingram Micro Announces $100M Buyback Plan",
+    "summary": "Ingram Micro Holding Corporation (NYSE:INGM) authorized share repurchase plan of up to $100 million",
+    "symbols": [
+      "INGM"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "GM",
+    "matched_tickers": [
+      "GM"
+    ],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:18:05Z",
+    "url": "https://www.benzinga.com/news/26/03/50984262/ingram-micro-announces-100m-buyback-plan"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Capstone Copper Q4 Adj. EPS $0.10 Misses $0.16 Estimate, Sales $685.000M Beat $657.122M Estimate",
+    "summary": "Capstone Copper (TSX:CS) reported quarterly earnings of $0.10 per share which missed the analyst consensus estimate of $0.16 by 37.5 percent. This is a 150 percent increase over earnings of $0.04 per share from the same",
+    "symbols": [
+      "TSX:CS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:18:32Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984313/capstone-copper-q4-adj-eps-0-10-misses-0-16-estimate-sales-685-000m-beat-657-122m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Tyra Biosciences Q4 EPS $(0.57) Misses $(0.55) Estimate",
+    "summary": "Tyra Biosciences (NASDAQ:TYRA) reported quarterly losses of $(0.57) per share which missed the analyst consensus estimate of $(0.55) by 4.2 percent. This is a 32.56 percent decrease over losses of $(0.43) per share from",
+    "symbols": [
+      "TYRA"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:18:38Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984318/tyra-biosciences-q4-eps-0-57-misses-0-55-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Power Solutions Intl Q4 Adj. EPS $0.71 Beats $0.64 Estimate, Sales $191.223M Beat $169.200M Estimate",
+    "summary": "Power Solutions Intl (NASDAQ:PSIX) reported quarterly earnings of $0.71 per share which beat the analyst consensus estimate of $0.64 by 10.94 percent. This is a 31.07 percent decrease over earnings of $1.03 per share",
+    "symbols": [
+      "PSIX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:18:43Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984335/power-solutions-intl-q4-adj-eps-0-71-beats-0-64-estimate-sales-191-223m-beat-169-200m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "American Express Raises Quarterly Dividend From $0.82 To $0.93/Share",
+    "summary": "American Express (NYSE: AXP) has approved a $0.13, or 16 percent, increase in the quarterly dividend on the company&#39;s common shares, consistent with the planned increase discussed in the company&#39;s fourth-quarter 2025",
+    "symbols": [
+      "AXP"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "dividend"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:19:14Z",
+    "url": "https://www.benzinga.com/news/26/03/50984356/american-express-raises-quarterly-dividend-from-0-82-to-0-93share"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BRC FY2026  Revenue expected to be more than $426.181M vs $436.150M Est",
+    "summary": "",
+    "symbols": [
+      "BRCC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "revenue"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:19:22Z",
+    "url": "https://www.benzinga.com/news/26/03/50984370/brc-fy2026-revenue-expected-to-be-more-than-426-181m-vs-436-150m-est"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "LendingTree Q4 Adj. EPS $(0.39) Misses $0.87 Estimate, Sales $319.700M Beat $286.487M Estimate",
+    "summary": "LendingTree (NASDAQ:TREE) reported quarterly losses of $(0.39) per share which missed the analyst consensus estimate of $0.87 by 144.83 percent. This is a 133.62 percent decrease over earnings of $1.16 per share from the",
+    "symbols": [
+      "TREE"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:19:56Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984395/lendingtree-q4-adj-eps-0-39-misses-0-87-estimate-sales-319-700m-beat-286-487m-estimate"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Enterprises Are Spending 15% More on Software in 2026, Thanks to AI. Here's How to Profit.",
     "summary": "",
     "symbols": [],
     "urgency": "high",
@@ -1747,82 +1727,12 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T18:30:03Z",
-    "url": "https://finance.yahoo.com/news/52-massive-vol-oi-spikes-183003595.html"
+    "timestamp": "2026-03-01T12:35:00Z",
+    "url": "https://finance.yahoo.com/news/enterprises-spending-15-more-software-123500919.html"
   },
   {
     "source": "rss:Yahoo_Finance",
-    "headline": "Do you pay taxes on unemployment? What to expect when you file your return.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": true,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "unemployment"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2024-02-06T21:01:02Z",
-    "url": "https://finance.yahoo.com/personal-finance/taxes/article/do-you-pay-taxes-on-unemployment-210102160.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Sunrun Earnings Beat Expectations. Why the Stock Is Down 38%.",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "earnings beat"
-    ],
-    "sentiment": "bullish",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:34:00Z",
-    "url": "https://www.barrons.com/articles/sunrun-earnings-stock-price-7c1ce42d?siteid=yhoof2&yptr=yahoo"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "FedEx Moves to Recoup Tariffs, Says Shippers Would Get Money Back",
-    "summary": "",
-    "symbols": [],
-    "urgency": "critical",
-    "is_macro": true,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "tariff"
-    ],
-    "sentiment": "bearish",
-    "action_type": "sell",
-    "timestamp": "2026-02-27T18:35:14Z",
-    "url": "https://finance.yahoo.com/news/fedex-moves-recoup-tariffs-says-183514200.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "Dorsey's blunt AI warning sharpens debate over jobs and profits",
-    "summary": "",
-    "symbols": [],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "profit"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-02-27T18:56:17Z",
-    "url": "https://finance.yahoo.com/news/dorseys-blunt-ai-warning-sharpens-185617222.html"
-  },
-  {
-    "source": "rss:Yahoo_Finance",
-    "headline": "The Dow\u2019s best dividend stocks: A shortlist for income investors",
+    "headline": "Steel Dynamics, Inc. (STLD) Increases Its Quarterly Cash Dividend by 6% to $0.53 Per Share",
     "summary": "",
     "symbols": [],
     "urgency": "high",
@@ -1834,7 +1744,272 @@
     ],
     "sentiment": "neutral",
     "action_type": "monitor",
-    "timestamp": "2026-02-27T18:45:00Z",
-    "url": "https://finance.yahoo.com/news/dow-best-dividend-stocks-shortlist-184500829.html"
+    "timestamp": "2026-03-01T12:44:36Z",
+    "url": "https://finance.yahoo.com/news/steel-dynamics-inc-stld-increases-124436566.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Gloo Reports Q4 Preliminary Revenue Of ~$32M; Raises FY26 Revenue Guidance From $180M To $185M, Expects Q1 Revenue Of ~$36M",
+    "summary": "Gloo (NASDAQ:GLOO), a leading technology platform for the faith and flourishing ecosystem, today announced preliminary financial results for the fourth quarter 2025 ended January 31, 2026. Building on its leadership in",
+    "symbols": [
+      "GLOO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "revenue"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:21:37Z",
+    "url": "https://www.benzinga.com/news/26/03/50984428/gloo-reports-q4-preliminary-revenue-of-32m-raises-fy26-revenue-guidance-from-180m-to-185m-expects-q1"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Vitesse Energy Q4 Sales $58.620M Miss $67.100M Estimate.",
+    "summary": "Vitesse Energy (NYSE:VTS) reported quarterly sales of $58.620 million which missed the analyst consensus estimate of $67.100 million by 12.64 percent.  This is a 4.82 percent increase over sales of $55.926 million the",
+    "symbols": [
+      "VTS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:22:26Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984448/vitesse-energy-q4-sales-58-620m-miss-67-100m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "H2O America Commences $550M Common Stock Offering",
+    "summary": "H2O America (NASDAQ: HTO) (&#34;HTO&#34; or the &#34;Company&#34;) announced today that it has commenced an underwritten public offering of $550 million in shares of its common stock, par value $0.001 per share (the &#34;Offering&#34;), subject",
+    "symbols": [
+      "HTO"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:22:29Z",
+    "url": "https://www.benzinga.com/news/26/03/50984449/h2o-america-commences-550m-common-stock-offering"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Quanterix Q4 Adj. EPS $(0.47) Misses $(0.45) Estimate, Sales $43.855M Beat $38.139M Estimate",
+    "summary": "Quanterix (NASDAQ:QTRX) reported quarterly losses of $(0.47) per share which missed the analyst consensus estimate of $(0.45) by 4.44 percent. This is a 56.67 percent decrease over losses of $(0.30) per share from the",
+    "symbols": [
+      "QTRX"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T21:22:46Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984467/quanterix-q4-adj-eps-0-47-misses-0-45-estimate-sales-43-855m-beat-38-139m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Amer Sports Announces Launch Of $750M Public Offering",
+    "summary": "In connection with the proposed offering, Amer Sports has granted the underwriters a 30-day option to purchase up to an additional $112.5 million of ordinary shares. Amer Sports intends to use the net proceeds it",
+    "symbols": [
+      "AS"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:23:31Z",
+    "url": "https://www.benzinga.com/news/26/03/50984478/amer-sports-announces-launch-of-750m-public-offering"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Crawford Q4 Adj. EPS $0.15 Misses $0.23 Estimate, Sales $308.521M Miss $336.130M Estimate",
+    "summary": "Crawford (NYSE:CRD) reported quarterly earnings of $0.15 per share which missed the analyst consensus estimate of $0.23 by 33.92 percent. This is a 21.05 percent decrease over earnings of $0.19 per share from the same",
+    "symbols": [
+      "CRD",
+      "CRD/A",
+      "TSX:CRD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:23:59Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984506/crawford-q4-adj-eps-0-15-misses-0-23-estimate-sales-308-521m-miss-336-130m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Crawford &amp; Company Common Stock Q4 Adj. EPS $0.15 Misses $0.28 Estimate, Sales $308.521M Miss $365.585M Estimate",
+    "summary": "Crawford &amp; Company Common Stock (NYSE:CRD) reported quarterly earnings of $0.15 per share which missed the analyst consensus estimate of $0.28 by 45.45 percent. This is a 21.05 percent decrease over earnings of $0.19 per",
+    "symbols": [
+      "CRD",
+      "CRD/B",
+      "TSX:CRD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:27:17Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984583/crawford-company-common-stock-q4-adj-eps-0-15-misses-0-28-estimate-sales-308-521m-miss-365-585m-est"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "BigBear.ai Hldgs Q4 EPS $(0.01) Beats $(0.06) Estimate, Sales $27.300M Miss $33.309M Estimate",
+    "summary": "BigBear.ai Hldgs (NYSE:BBAI) reported quarterly losses of $(0.01) per share which beat the analyst consensus estimate of $(0.06) by 83.33 percent. This is a 97.62 percent increase over losses of $(0.42) per share from",
+    "symbols": [
+      "BBAI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat",
+      "miss"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:27:38Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984601/bigbear-ai-hldgs-q4-eps-0-01-beats-0-06-estimate-sales-27-300m-miss-33-309m-estimate"
+  },
+  {
+    "source": "rss:CoinTelegraph",
+    "headline": "Bitfinex revives tokenized bonds targeting crypto-native yield seekers",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitfinex revives tokenized bonds targeting crypto-native yield seekers\" class=\"type:primaryImage\" src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTIvMDE5YjM0MDAtNDAxYy03Z",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Mon, 02 Mar 2026 21:23:24 +0000",
+    "url": "https://cointelegraph.com/news/bitfinex-relaunches-tokenized-bond-program-on-bitcoin-s-liquid-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Banc Of California Files Prospectus For Offering Mixed Shelf; Terms Undisclosed",
+    "summary": "SEC.\u00a0",
+    "symbols": [
+      "BANC"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T21:28:44Z",
+    "url": "https://www.benzinga.com/news/26/03/50984639/banc-of-california-files-prospectus-for-offering-mixed-shelf-terms-undisclosed"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Tidewater Q4 EPS $4.41 Beats $0.83 Estimate, Sales $336.800M Beat $334.418M Estimate",
+    "summary": "Tidewater (NYSE:TDW) reported quarterly earnings of $4.41 per share which beat the analyst consensus estimate of $0.83 by 428.78 percent. This is a 530 percent increase over earnings of $0.70 per share from the same",
+    "symbols": [
+      "TDW"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:28:54Z",
+    "url": "https://www.benzinga.com/news/earnings/26/03/50984641/tidewater-q4-eps-4-41-beats-0-83-estimate-sales-336-800m-beat-334-418m-estimate"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "Tidewater Authorizes $500M Buyback",
+    "summary": "",
+    "symbols": [
+      "TDW"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "TDW",
+    "matched_tickers": [
+      "TDW"
+    ],
+    "keywords": [
+      "buyback"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-02T21:29:41Z",
+    "url": "https://www.benzinga.com/news/26/03/50984678/tidewater-authorizes-500m-buyback"
+  },
+  {
+    "source": "rss:TheBlock",
+    "headline": "Uniswap wins full dismissal in long-running scam token class action",
+    "summary": "<p>The judge said plaintiffs had multiple chances to amend their complaint but still failed to state a viable claim against Uniswap.</p>",
+    "symbols": [],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "miss"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "Mon, 02 Mar 2026 16:29:02 -0500",
+    "url": "https://www.theblock.co/post/391858/uniswap-wins-dismissal-scam-token-class-action?utm_source=rss&utm_medium=rss"
   }
 ]

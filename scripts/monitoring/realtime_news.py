@@ -229,25 +229,8 @@ def _notify_agent(alert: dict) -> None:
             f"Source: {source}"
         )
 
-        # Step 1: Post to Telegram group directly (reliable, instant visibility)
-        try:
-            result = subprocess.run(
-                [
-                    "openclaw", "message", "send",
-                    "--channel", "telegram",
-                    "--target", "-5119023195",
-                    "--message", msg,
-                ],
-                capture_output=True, text=True, timeout=15,
-            )
-            if result.returncode == 0:
-                logger.info("✅ Alert posted to Telegram: [%s] %s", urgency, alert.get("ticker", "MACRO"))
-            else:
-                logger.warning("Telegram post failed (rc=%d): %s", result.returncode, result.stderr[:200])
-        except Exception as e:
-            logger.warning("Failed to post to Telegram: %s", e)
-
-        # Step 2: Trigger Alpha agent turn to evaluate and potentially act
+        # Inject into Alpha agent session only (no direct Telegram post)
+        # Agent will report to group only if news triggers a trade
         agent_msg = (
             f"{msg}\n\n"
             f"⚡ This is a real-time news interrupt. Check your positions immediately.\n"
