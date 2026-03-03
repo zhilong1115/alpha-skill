@@ -313,6 +313,76 @@ def hl_open_orders(testnet: bool = False) -> list[dict]:
     return info.open_orders(addr)
 
 
+def suggest_stop(symbol: str, entry_price: float, side: str = "long", atr_multiple: float = 1.5) -> dict:
+    """Calculate ATR-based stop-loss price.
+
+    Uses 1.5x ATR below entry (long) or above entry (short).
+    This is the MINIMUM stop distance — agent should move it further
+    if a structural support level exists below.
+
+    Returns: {stop_price, atr, atr_pct, distance_pct, note}
+    """
+    ind = get_indicators(symbol)
+    atr = ind.get("atr_14", 0)
+    atr_pct = ind.get("atr_pct", 0)
+
+    if side == "long":
+        stop_price = entry_price - (atr * atr_multiple)
+    else:
+        stop_price = entry_price + (atr * atr_multiple)
+
+    distance_pct = abs(stop_price - entry_price) / entry_price * 100
+
+    return {
+        "symbol": symbol,
+        "entry": entry_price,
+        "stop_price": round(stop_price, 2),
+        "atr": round(atr, 2),
+        "atr_pct": round(atr_pct, 2),
+        "distance_pct": round(distance_pct, 2),
+        "note": f"{atr_multiple}x ATR = ${atr*atr_multiple:,.0f} below entry"
+    }
+
+
+def hl_recent_fills(hours: int = 2, testnet: bool = False) -> list[dict]:
+    """Get recent fills from Hyperliquid to detect stop triggers or manual closes.
+
+    Returns list of fills in the last N hours, sorted newest first.
+    Use to detect if a position was closed unexpectedly (stop hit).
+    """
+    from scripts.crypto.hyperliquid import connect, _ensure_connected, _get_master_address
+    from scripts.crypto.hyperliquid import _master_address, _account_address
+    import datetime
+
+    connect(testnet=testnet)
+    info, _ = _ensure_connected()
+    addr = _master_address or _account_address
+
+    try:
+        fills = info.user_fills(addr)
+        cutoff_ms = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=hours)).timestamp() * 1000
+        recent = [f for f in fills if f.get("time", 0) >= cutoff_ms]
+        recent.sort(key=lambda x: x.get("time", 0), reverse=True)
+
+        result = []
+        for f in recent:
+            ts = datetime.datetime.fromtimestamp(f["time"] / 1000, tz=datetime.timezone.utc)
+            ts_pst = ts.astimezone(ZoneInfo("America/Los_Angeles"))
+            result.append({
+                "time": ts_pst.strftime("%H:%M:%S PST"),
+                "symbol": f.get("coin", ""),
+                "side": "buy" if f.get("side") == "B" else "sell",
+                "size": f.get("sz", ""),
+                "price": f.get("px", ""),
+                "direction": f.get("dir", ""),
+                "closed_pnl": float(f.get("closedPnl", 0)),
+                "fee": float(f.get("fee", 0)),
+            })
+        return result
+    except Exception as e:
+        return [{"error": str(e)}]
+
+
 # ── Market Data & Indicators ──────────────────────────────────────────────
 
 def get_ohlcv(symbol: str, timeframe: str = "1d", days: int = 250) -> pd.DataFrame:

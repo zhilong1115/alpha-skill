@@ -10890,3 +10890,591 @@
 2026-03-02 13:30:04,614 [realtime_news] INFO: RSS polling stopped
 2026-03-02 13:30:05,050 [realtime_news] INFO: Alpaca news stream stopped
 2026-03-02 13:30:05,051 [realtime_news] INFO: News daemon shut down
+2026-03-03 05:50:03,831 [realtime_news] INFO: 🚀 Real-time news daemon started (PID=66930)
+2026-03-03 05:50:03,831 [realtime_news] INFO:    Watching: AAPL, ALB, AMZN, ASTI, CHRW, CSCO, DTREF, EXPD, GM, GOOG, GOOGL, GPC, IBKR, INTC, KLAC, LUFFF, MDT, META, MOOD, MSFT, NVDA, ROL, SA, SLV, SNDK, TSLA
+2026-03-03 05:50:03,831 [realtime_news] INFO: Connecting to Alpaca news WebSocket: wss://stream.data.alpaca.markets/v1beta1/news
+2026-03-03 05:50:03,831 [realtime_news] INFO: RSS polling started (interval=60s, 9 feeds)
+2026-03-03 05:50:03,831 [realtime_news] INFO: Finnhub polling started (interval=120s)
+2026-03-03 05:50:03,832 [realtime_news] INFO: 🐋 Whale monitor started (interval=120s, threshold=$50M / 500 BTC)
+2026-03-03 05:50:04,390 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Why Best Buy’s stock is soaring, even as sales and full-year outlook disappoint
+2026-03-03 05:50:04,641 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Forget the oil spike — the Iran conflict could unlock a generational Middle East
+2026-03-03 05:50:04,876 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Trump has less than 30 days to end the Iran conflict or he’ll lose his inflation
+2026-03-03 05:50:05,586 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Treasury yields rise as oil prices spike
+2026-03-03 05:50:06,299 [realtime_news] INFO: 🚨 ALERT: [critical] SA — The global economy is facing untold damages even if the Iran war ends tomorrow, 
+2026-03-03 05:50:06,783 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil prices surge to highest in a year as fears of Middle East supply crunch grow
+2026-03-03 05:50:08,283 [realtime_news] INFO: 🚨 ALERT: [high] SA — Gold can be called many things — just don’t say it’s an inflation hedge
+2026-03-03 05:50:08,810 [realtime_news] INFO: 🚨 ALERT: [high] SA — Opendoor CEO says his firm is offering mortgages at 4.99%. Some are puzzled how.
+2026-03-03 05:50:09,599 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Iran war live updates: Israel boosts southern Lebanon forces; drones hit U.S. em
+2026-03-03 05:50:11,082 [realtime_news] INFO: 🚨 ALERT: [high] SA — Best Buy’s holiday sales disappoint, but retailer shows progress in growing prof
+2026-03-03 05:50:11,855 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Next phase of Iran war ‘will be even more punishing’: Rubio, Trump officials bri
+2026-03-03 05:50:12,833 [realtime_news] INFO: Init: [{"T":"success","msg":"connected"}]
+2026-03-03 05:50:13,613 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Bybit claims new fraud system stopped $300M of risky withdrawals in Q4 2025
+2026-03-03 05:50:13,865 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil shock and inflation fears drag down bitcoin
+2026-03-03 05:50:14,334 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stablecoins weaken bank lending and monetary policy in Europe: ECB
+2026-03-03 05:50:14,825 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ‘Scam token’ case against Uniswap dismissed by U.S. district judge in NYC
+2026-03-03 05:50:15,336 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Kalshi, Polymarket face trading halt in Nevada after court ruling
+2026-03-03 05:50:15,851 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Riot reports record $647M revenue in 2025 as other Bitcoin miners struggle
+2026-03-03 05:50:18,654 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Fourth-quarter U.S. GDP up just 1.4%, badly missing estimate; inflation firms at
+2026-03-03 05:50:18,654 [realtime_news] INFO: Auth: [{"T":"success","msg":"authenticated"}]
+2026-03-03 05:50:18,729 [realtime_news] INFO: Subscribe: [{"T":"subscription","news":["*"]}]
+2026-03-03 05:50:18,729 [realtime_news] INFO: ✅ Alpaca news stream connected
+2026-03-03 05:50:19,439 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Why Best Buy’s stock is soaring, even as sales and full-year outlook disappoint
+2026-03-03 05:50:19,691 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Forget the oil spike — the Iran conflict could unlock a generational Middle East
+2026-03-03 05:50:19,924 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Trump has less than 30 days to end the Iran conflict or he’ll lose his inflation
+2026-03-03 05:50:20,921 [realtime_news] INFO: 🚨 ALERT: [critical] SA — The global economy is facing untold damages even if the Iran war ends tomorrow, 
+2026-03-03 05:50:21,169 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Treasury yields rise as oil prices spike
+2026-03-03 05:50:22,833 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — AutoZone's second-quarter profit falls after inflationary headwinds
+2026-03-03 05:50:24,105 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Alabama family-owned carrier files for Chapter 11 bankruptcy
+2026-03-03 05:50:25,085 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — What an extended war with Iran could mean for gas prices
+2026-03-03 05:50:25,328 [realtime_news] INFO: 🚨 ALERT: [high] GOOGL — Google searches for ‘can’t sell house’ at all-time high — expert warns of housin
+2026-03-03 05:50:26,503 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil shock and inflation fears drag down bitcoin
+2026-03-03 05:50:27,011 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ‘Scam token’ case against Uniswap dismissed by U.S. district judge in NYC
+2026-03-03 05:50:29,299 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — U.S. Senate housing bill includes CBDC ban
+2026-03-03 05:50:31,116 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Bybit claims new fraud system stopped $300M of risky withdrawals in Q4 2025
+2026-03-03 05:50:31,606 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stablecoins could weaken bank lending and monetary policy in Europe: ECB
+2026-03-03 05:50:32,084 [realtime_news] INFO: 🚨 ALERT: [high] INTC — Kalshi, Polymarket face trading halt in Nevada after court rulings
+2026-03-03 05:50:32,341 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Riot reports record $647M revenue in 2025 as other Bitcoin miners struggle
+2026-03-03 05:50:33,611 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Core Scientific shares move lower as Q4 earnings miss estimates
+2026-03-03 05:50:36,013 [realtime_news] INFO: 🚨 ALERT: [high] SA — Iran’s crypto volume plunges 80% but remains structurally sound: TRM Labs
+2026-03-03 05:50:36,274 [realtime_news] INFO: 🚨 ALERT: [critical] SA — US Senate’s anti-CBDC housing bill advances with bipartisan support
+2026-03-03 05:50:36,527 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Core Scientific revenue drops in Q4 as bitcoin miner pushes into supplying data 
+2026-03-03 05:50:36,773 [realtime_news] INFO: 🚨 ALERT: [high] SA — Riot Platforms reports record annual revenue of $647 million amid AI and HPC pus
+2026-03-03 05:50:37,006 [realtime_news] INFO: 🚨 ALERT: [high] SA — Uniswap wins full dismissal in long-running scam token class action
+2026-03-03 05:50:37,508 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Vitalik Buterin eyes ‘big FOCIL’ and encrypted mempools to prevent centralizatio
+2026-03-03 05:50:38,769 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Circle Stock Extends Double-Digit Gains Amid Broader Crypto Rally
+2026-03-03 05:50:39,791 [realtime_news] INFO: 🚨 ALERT: [high] SA — Senate Advances Housing Bill With CBDC Ban, Draws White House Backing
+2026-03-03 05:50:40,827 [realtime_news] INFO: 🚨 ALERT: [high] SA — OpenAI Claims Safety 'Red Lines' in Pentagon Deal—But Users Aren't Buying It
+2026-03-03 05:50:41,081 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin Treasury Firm ProCap Adds $31 Million in BTC as Stock Buybacks Grow
+2026-03-03 05:50:41,343 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Best Buy CEO: Recent Supreme Court Ruling Led To A Lower Effective Tariff Rate F
+2026-03-03 05:50:53,561 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 05:51:32,127 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 05:52:09,647 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nIran war live updates: Israel boosts southern Lebanon forces; drones hit U.S. embassy in Riyadh as oil, dollar rise\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:CNBC_Top\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:11,901 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nNext phase of Iran war ‘will be even more punishing’: Rubio, Trump officials brief Congress\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:CNBC_Top\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:13,664 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nBybit claims new fraud system stopped $300M of risky withdrawals in Q4 2025\nTickers: SA | Sentiment: bearish | Action: sell\nSource: finnhub:crypto\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:19,485 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nWhy Best Buy’s stock is soaring, even as sales and full-year outlook disappoint\nTickers: SA | Sentiment: bullish | Action: buy\nSource: rss:MarketWatch\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:20,968 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nThe global economy is facing untold damages even if the Iran war ends tomorrow, warns this energy expert\nTickers: SA | Sentiment: bearish | Action: sell\nSource: rss:MarketWatch\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:24,129 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nAlabama family-owned carrier files for Chapter 11 bankruptcy\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:Yahoo_Finance\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:25,112 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nWhat an extended war with Iran could mean for gas prices\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:Yahoo_Finance\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:31,149 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nBybit claims new fraud system stopped $300M of risky withdrawals in Q4 2025\nTickers: SA | Sentiment: bearish | Action: sell\nSource: rss:CoinTelegraph\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:33,653 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nCore Scientific shares move lower as Q4 earnings miss estimates\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:CoinTelegraph\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:36,313 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nUS Senate’s anti-CBDC housing bill advances with bipartisan support\nTickers: SA | Sentiment: neutral | Action: monitor\nSource: rss:TheBlock\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:37,559 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Initiates Coverage On Once Upon a Farm with Outperform Rating, Annou
+2026-03-03 05:52:41,386 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nBest Buy CEO: Recent Supreme Court Ruling Led To A Lower Effective Tariff Rate For Our Products At This Point\nTickers: SA | Sentiment: bearish | Action: sell\nSource: alpaca:benzinga\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:52:43,985 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Air Freight Shockwave: US-Iran War Grounds Flights Across Middle East
+2026-03-03 05:53:26,201 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — This Unity Software Analyst Is No Longer Bearish; Here Are Top 4 Upgrades For Tu
+2026-03-03 05:54:44,026 [realtime_news] WARNING: Failed to trigger agent turn: Command '['openclaw', 'agent', '--agent', 'alpha', '--session-id', '5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca', '--message', '🚨 BREAKING [CRITICAL] [STOCK]\nAir Freight Shockwave: US-Iran War Grounds Flights Across Middle East\nTickers: N/A | Sentiment: bearish | Action: sell\nSource: rss:Yahoo_Finance\n\n⚡ This is a real-time news interrupt. Check your positions immediately.\nUse agent_tools to assess impact and decide: hold, close, or adjust stops.', '--deliver']' timed out after 120 seconds
+2026-03-03 05:57:46,706 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Best Buy shares are trading higher after the company reported better-than-expect
+2026-03-03 05:58:50,820 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on MongoDB, Lowers Price Target to $375
+2026-03-03 05:58:53,416 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Nasdaq futures plunge as market takes Iran war more seriously
+2026-03-03 05:58:53,672 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Is It Time to Buy Celsius Stock as Alani Nu Reinvigorates Growth?
+2026-03-03 05:59:05,810 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 05:59:07,564 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 05:59:22,378 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — NRG Energy shares are trading lower after the company announced a $300 million o
+2026-03-03 05:59:41,052 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — These Analysts Slash Their Forecasts On MongoDB Following Q4 Earnings
+2026-03-03 05:59:58,806 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Medline shares are trading lower after the company announced an offering of 75 m
+2026-03-03 06:01:52,078 [realtime_news] INFO: 🚨 ALERT: [high] SA — Upland Software Q4 Adj. EPS $0.24 Beats $0.19 Estimate, Sales $49.312M Miss $50.
+2026-03-03 06:01:58,225 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Middle East war sends natural gas prices soaring, raising growth shock risk for 
+2026-03-03 06:02:01,099 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:04:25,041 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keybanc Maintains Overweight on Helios Technologies, Raises Price Target to $82
+2026-03-03 06:05:04,998 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — March 2026 housing market forecast: Key factors impacting home buyers and seller
+2026-03-03 06:05:05,275 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why MongoDB Stock Is Tumbling Despite A Q4 Earnings Beat
+2026-03-03 06:05:05,582 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Thoma Bravo to acquire WWEX Group, combine with Auctane
+2026-03-03 06:05:10,025 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:05:14,119 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keybanc Maintains Overweight on Cava Group, Raises Price Target to $95
+2026-03-03 06:05:15,167 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:05:35,948 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Norwegian Cruise Line Analysts Cut Their Forecasts After Q4 Results
+2026-03-03 06:05:37,177 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Jaguar Health&#39;s Napo Pharma Receives $3M Payment From Future Pak Following T
+2026-03-03 06:05:41,429 [realtime_news] INFO: 🚨 ALERT: [high] TREX — Trex Announces $1000M Buyback Plan
+2026-03-03 06:07:02,730 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Planet Labs Selected As Prime Contractor By Missile Defense Agency Under $151B S
+2026-03-03 06:07:16,763 [realtime_news] INFO: 🚨 ALERT: [high] SA — Keybanc Maintains Overweight on Asana, Lowers Price Target to $15
+2026-03-03 06:07:28,015 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on Teladoc Health, Lowers Price Target to $7
+2026-03-03 06:07:34,994 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RCI Hospitality Raises Quarterly Dividend From $0.07 To $0.08/Share
+2026-03-03 06:07:50,735 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Affirm Expands Collaboration With Stripe To Support Shares Payment Tokens
+2026-03-03 06:08:19,401 [realtime_news] INFO: 🚨 ALERT: [high] SA — Wells Fargo Initiates Coverage On SailPoint with Overweight Rating, Announces Pr
+2026-03-03 06:09:36,858 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Varonis Systems with Overweight Rating, Announ
+2026-03-03 06:10:32,963 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Host Hotels &amp; Resorts, Raises Price T
+2026-03-03 06:11:03,695 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Palo Alto Networks with Overweight Rating, Ann
+2026-03-03 06:11:23,530 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Pebblebrook Hotel, Raises Price Target to
+2026-03-03 06:12:00,956 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Canaan Announces CEO And CFO  Open Market Stock Purchases For 1.456M Shares
+2026-03-03 06:12:04,433 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:12:18,069 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Park Hotels &amp; Resorts, Raises Price T
+2026-03-03 06:12:50,892 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On CrowdStrike Holdings with Overweight Rating, A
+2026-03-03 06:13:11,277 [realtime_news] INFO: 🚨 ALERT: [high] ROL — Susquehanna Maintains Positive on Credo Technology Group, Lowers Price Target to
+2026-03-03 06:13:27,218 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Ryman Hospitality Props, Raises Price 
+2026-03-03 06:14:07,630 [realtime_news] INFO: 🚨 ALERT: [high] AAPL — Cantor Fitzgerald Reiterates Overweight on Apple Hospitality REIT, Maintains $14
+2026-03-03 06:14:38,654 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Fortinet with Underweight Rating, Announces Pr
+2026-03-03 06:14:52,454 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Susquehanna Maintains Neutral on Norwegian Cruise Line, Lowers Price Target to $
+2026-03-03 06:15:48,613 [realtime_news] INFO: 🚨 ALERT: [high] SA — Target Defies Retail Gloom With Profit Beat, Margin Gains
+2026-03-03 06:16:27,891 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Susquehanna Initiates Coverage On Carpenter Technology with Positive Rating, Ann
+2026-03-03 06:16:29,106 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on MongoDB, Lowers Price Target to $378
+2026-03-03 06:17:28,379 [realtime_news] INFO: 🚨 ALERT: [high] SA — Asana Analysts Lower Their Forecasts After Q4 Results
+2026-03-03 06:17:52,919 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on HubSpot, Raises Price Target to $325
+2026-03-03 06:18:11,727 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On SentinelOne with Equal-Weight Rating, Announce
+2026-03-03 06:18:32,124 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Jim Cramer's top 10 things to watch in the stock market Tuesday
+2026-03-03 06:19:26,164 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on BigBear.ai Hldgs, Lowers Price Target to 
+2026-03-03 06:19:41,024 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Okta with Equal-Weight Rating, Announces Price
+2026-03-03 06:21:40,830 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Gen Digital with Equal-Weight Rating, Announce
+2026-03-03 06:22:31,874 [realtime_news] INFO: 🚨 ALERT: [high] CRDO — These Analysts Slash Their Forecasts On Credo Technology Following Q3 Results
+2026-03-03 06:23:34,169 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Netskope with Overweight Rating, Announces Pri
+2026-03-03 06:24:24,074 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on DraftKings, Raises Price Target to $50
+2026-03-03 06:24:58,285 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Zscaler with Overweight Rating, Announces Pric
+2026-03-03 06:26:03,514 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Boston Scientific Exec Says Regions Impacted By U.S.-Israel War Against Iran Bri
+2026-03-03 06:26:03,767 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Initiates Coverage On Check Point Software with Equal-Weight Rating,
+2026-03-03 06:26:06,885 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 06:26:20,490 [realtime_news] INFO: 🚨 ALERT: [high] GRRR — Gorilla Technology Pulls Back As Investors Digest Strong Profit Turnaround, Cash
+2026-03-03 06:26:48,591 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Riot Platforms, Lowers Price Target to
+2026-03-03 06:27:06,457 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BigBear.AI Analysts Cut Their Forecasts After Q4 Results
+2026-03-03 06:27:33,832 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Jamie Dimon Warns Credit Cycle Will Be &#39;Worse Than Normal&#39; — What Predic
+2026-03-03 06:28:04,387 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Quantum Computing, Lowers Price Target to
+2026-03-03 06:28:35,907 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:28:49,552 [realtime_news] INFO: 🚨 ALERT: [high] SA — Salesforce, Formula 1 Launch AI Fan Agent
+2026-03-03 06:29:33,460 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Core Scientific, Lowers Price Target t
+2026-03-03 06:30:35,423 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Belite Bio, Raises Price Target to $26
+2026-03-03 06:31:42,437 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Modular Medical Prices $12M Public Offering Of 68,098,000 Shares And Accompanyin
+2026-03-03 06:32:54,654 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on BankUnited, Raises Price Target to $56
+2026-03-03 06:32:56,975 [realtime_news] INFO: 🚨 ALERT: [high] SA — The York Water Q4 EPS $0.36 Beats $0.32 Estimate, Sales $19.472M Miss $20.000M E
+2026-03-03 06:33:39,565 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Reiterates Overweight on Citizens Financial Group, Maintains $
+2026-03-03 06:34:27,059 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Cullen/Frost Bankers, Raises Price Target
+2026-03-03 06:34:35,828 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BMO Capital Maintains Outperform on MongoDB, Lowers Price Target to $340
+2026-03-03 06:35:46,863 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Neutral on Home BancShares, Lowers Price Target to $
+2026-03-03 06:37:11,057 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on M&amp;T Bank, Raises Price Target to $
+2026-03-03 06:39:35,658 [realtime_news] INFO: 🚨 ALERT: [high] DAVE — Dave Analysts Boost Their Forecasts After Better-Than-Expected Q4 Results
+2026-03-03 06:39:57,534 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Prosperity Bancshares, Raises Price Ta
+2026-03-03 06:40:08,475 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — FCC chief tells CNBC WBD-Paramount merger deal is ‘cleaner’ than Netflix's, will
+2026-03-03 06:40:10,769 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:41:10,992 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Reiterates Overweight on Regions Financial, Maintains $32 Pric
+2026-03-03 06:42:00,005 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Cantor Fitzgerald Maintains Overweight on Valley Ntl, Raises Price Target to $16
+2026-03-03 06:42:12,740 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — How the Iran conflict could ultimately unlock a generational Middle East peace d
+2026-03-03 06:43:46,103 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Maintains Neutral on Paramount Skydance, Raises Price Target to $14
+2026-03-03 06:45:04,131 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Maintains Buy on Sionna Therapeutics, Raises Price Target to $50
+2026-03-03 06:45:06,281 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Craig-Hallum Maintains Buy on Eton Pharmaceuticals, Raises Price Target to $30
+2026-03-03 06:46:04,331 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Maintains Buy on United Parks &amp; Resorts, Lowers Price Target to $
+2026-03-03 06:47:32,457 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Guggenheim Reiterates Buy on MongoDB, Maintains $475 Price Target
+2026-03-03 06:49:26,598 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — &#39;FCC chief tells CNBC WBD-Paramount merger deal is &#39;cleaner&#39; than Ne
+2026-03-03 06:49:28,953 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 06:55:26,200 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Maintains Outperform on MongoDB, Lowers Price Target to $380
+2026-03-03 06:56:16,971 [realtime_news] INFO: 🚨 ALERT: [high] BATL — Dow Dips 900 Points; Best Buy Posts Upbeat Earnings
+2026-03-03 06:56:52,470 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Maintains Neutral on Protagonist Therapeutics, Raises Price Target
+2026-03-03 06:57:41,388 [realtime_news] INFO: 🚨 ALERT: [critical] SA — New York Fed's Williams says tariff burden falls 'overwhelmingly' on U.S. busine
+2026-03-03 06:57:44,170 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 06:57:58,474 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Wedbush Maintains Outperform on NVIDIA, Raises Price Target to $300
+2026-03-03 06:58:29,059 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Maintains Neutral on uniQure, Lowers Price Target to $9
+2026-03-03 06:59:59,550 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fed&#39;s Williams Expects The Unemployement Rate To Edge Down This Year And Nex
+2026-03-03 07:00:02,375 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:00:25,681 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on ThredUp, Lowers Price Target to $10
+2026-03-03 07:02:27,404 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Norwegian Cruise Line, Lowers Price Target t
+2026-03-03 07:02:42,977 [realtime_news] INFO: 🚨 ALERT: [critical] SA — New York Fed's Williams says tariff burden falls 'overwhelmingly' on U.S. busine
+2026-03-03 07:02:45,013 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:03:32,189 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Maintains Outperform on Apogee Therapeutics, Raises Price Target to $95
+2026-03-03 07:03:50,786 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Tomahawk Economics: Missile Strikes Ignite Defense ETF Rally
+2026-03-03 07:03:52,507 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on The Campbell&#39;s, Lowers Price Target to
+2026-03-03 07:04:10,403 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Maintains Neutral on MYR Group, Raises Price Target to $296
+2026-03-03 07:04:56,036 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Why Best Buy’s stock is surging, even as sales and full-year outlook disappoint
+2026-03-03 07:04:58,412 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:05:14,528 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wedbush Maintains Outperform on Larimar Therapeutics, Raises Price Target to $12
+2026-03-03 07:05:26,593 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Bain Capital Specialty, Lowers Price Targe
+2026-03-03 07:07:00,584 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock market today: Dow plunges over 1,000 points, S&P 500 and Nasdaq sink as oi
+2026-03-03 07:07:01,338 [realtime_news] INFO: 🚨 ALERT: [high] SA — Oil prices surge as analysts say Iran conflict 'may be different' from previous 
+2026-03-03 07:07:01,847 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Mortgage and refinance interest rates today, March 3, 2026: War worries pressure
+2026-03-03 07:07:03,194 [realtime_news] INFO: 🚨 ALERT: [critical] NVDA — Nvidia Tumbles As War Fears Escalate; Is Nvidia A Sell Now?
+2026-03-03 07:07:03,971 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Underweight on SLR Investment, Lowers Price Target to $12
+2026-03-03 07:07:17,492 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:07:20,223 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:07:22,851 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] NVDA
+2026-03-03 07:08:35,954 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Septerna, Raises Price Target to $48
+2026-03-03 07:09:24,966 [realtime_news] INFO: 🚨 ALERT: [high] SA — Goldman Sachs Maintains Neutral on PAR Technology, Lowers Price Target to $18
+2026-03-03 07:09:35,279 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Equal-Weight on Intellia Therapeutics, Raises Price Target
+2026-03-03 07:10:55,769 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Williams Says AI Will Change Productivity Growth, Demand For Labor; On
+2026-03-03 07:11:17,618 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid: No Room To Be Complacent On Inflation; Demand Is Outpacing Sup
+2026-03-03 07:11:21,627 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:11:24,317 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on Acuity, Lowers Price Target to $370
+2026-03-03 07:13:28,594 [realtime_news] INFO: 🚨 ALERT: [high] META — Wells Fargo Maintains Overweight on Commercial Metals, Raises Price Target to $8
+2026-03-03 07:17:20,033 [realtime_news] INFO: 🚨 ALERT: [high] ASTS — AST Stock Moves Higher Following Fourth-Quarter Revenue Beat
+2026-03-03 07:18:07,524 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid Says Growth Trajectory Remains Strong, Helped By Fiscal Policy;
+2026-03-03 07:18:10,315 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:18:23,190 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Iran war live updates: U.S. closes embassies in Saudi Arabia, Kuwait
+2026-03-03 07:18:46,566 [realtime_news] INFO: 🚨 ALERT: [high] CORZ — Needham Upgrades Core Scientific to Buy, Announces $23 Price Target
+2026-03-03 07:18:50,310 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:19:06,544 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Maintains Overweight on MongoDB, Lowers Price Target to $375
+2026-03-03 07:19:26,090 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Gas prices to rise 'very quickly' as oil surges amid Iran war
+2026-03-03 07:19:28,583 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:19:38,044 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Initiates Coverage On Healthcare Services Group with Sector Perform 
+2026-03-03 07:19:51,082 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on AAON, Raises Price Target to $118
+2026-03-03 07:20:35,929 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Acadia Healthcare Co, Raises Price Target to 
+2026-03-03 07:21:43,490 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oppenheimer Maintains Outperform on XPO, Raises Price Target to $228
+2026-03-03 07:22:17,285 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Initiates Coverage On IQVIA Holdings with Outperform Rating, Announc
+2026-03-03 07:23:22,734 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mobix Labs Stock Surges After U.S. Navy Tomahawk Component Order
+2026-03-03 07:23:43,249 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Initiates Coverage On Medpace Holdings with Outperform Rating, Annou
+2026-03-03 07:25:00,968 [realtime_news] INFO: 🚨 ALERT: [high] AAPL — Barclays Maintains Underweight on Apple, Raises Price Target to $248
+2026-03-03 07:26:21,186 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Initiates Coverage On Ormat Technologies with Outperform Rating, Ann
+2026-03-03 07:26:42,338 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on California Resources, Raises Price Target to $6
+2026-03-03 07:27:48,380 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on CF Industries Holdings, Raises Price Target to 
+2026-03-03 07:28:12,863 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Downgrades Select Medical Hldgs to Sector Perform, Lowers Price Targ
+2026-03-03 07:29:41,395 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on AeroVironment, Lowers Price Target to $325
+2026-03-03 07:29:46,953 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Cirrus Logic, Raises Price Target to $120
+2026-03-03 07:30:44,982 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Sector Perform on Apogee Therapeutics, Lowers Price Target
+2026-03-03 07:30:48,899 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Jakks Pacific (JAKK) Reports Strategic Resilience Amid Tariff-Related Revenue De
+2026-03-03 07:30:49,175 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — EVI Industries (EVI) Revenue Jumps 24% Following Strategic Acquisitions
+2026-03-03 07:30:49,411 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Twin Disc (TWIN) Reports FQ2 2026 Profit Boost from Non-Recurring Tax Benefit
+2026-03-03 07:30:49,931 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bank on the Buyback Binge With This ETF
+2026-03-03 07:30:50,202 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Gas prices jump over 10 cents in a day, set to rise 'very quickly' as oil surges
+2026-03-03 07:30:50,456 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Prenetics Global (PRE) Reports 480% Revenue Surge Driven by IM8 Brand Launch
+2026-03-03 07:30:50,964 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Should You Buy Altria Group Stock for Its 6.1%-Yielding Dividend?
+2026-03-03 07:31:41,789 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:31:43,639 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 07:33:09,497 [realtime_news] INFO: 🚨 ALERT: [high] SA — Barclays Maintains Equal-Weight on Coca-Cola Femsa SAB de, Raises Price Target t
+2026-03-03 07:33:43,983 [realtime_news] INFO: 🚨 ALERT: [high] SA — RBC Capital Maintains Underperform on Asana, Lowers Price Target to $7
+2026-03-03 07:34:42,463 [realtime_news] INFO: 🚨 ALERT: [high] SA — Reported March 2, 2026: Grupo Supervielle Q4 EPS $(0.16) Misses $(0.11) Estimate
+2026-03-03 07:34:58,143 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Ascendis Pharma, Raises Price Target to $275
+2026-03-03 07:35:03,855 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on Coherent, Raises Price Target to $350
+2026-03-03 07:35:59,625 [realtime_news] INFO: 🚨 ALERT: [high] MSFT — Playing a mean-reversion setup in beaten up Mag 7 stocks, especially Microsoft
+2026-03-03 07:36:15,210 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Biohaven, Raises Price Target to $23
+2026-03-03 07:36:50,047 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Fomento Economico, Raises Price Target to $11
+2026-03-03 07:37:25,025 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Blackstone Secured, Lowers Price Target to $
+2026-03-03 07:38:05,032 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Electromed (ELMD) Reports 13th Consecutive Quarter of Revenue and Profit Growth
+2026-03-03 07:39:44,869 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Sector Perform on Intellia Therapeutics, Raises Price Targ
+2026-03-03 07:40:43,544 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on First Solar, Lowers Price Target to $228
+2026-03-03 07:41:00,011 [realtime_news] INFO: 🚨 ALERT: [high] ROL — RBC Capital Maintains Outperform on Kilroy Realty, Lowers Price Target to $40
+2026-03-03 07:42:18,239 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on MongoDB, Lowers Price Target to $395
+2026-03-03 07:43:11,561 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Underweight on Heartland Express, Raises Price Target to $10
+2026-03-03 07:43:33,039 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Nuvation Bio, Raises Price Target to $13
+2026-03-03 07:45:10,099 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Sector Perform on Evertz Technologies, Raises Price Target
+2026-03-03 07:45:34,790 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Innovex International, Raises Price Target to
+2026-03-03 07:46:32,637 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — RBC Capital Maintains Outperform on Extendicare, Raises Price Target to C$30
+2026-03-03 07:46:43,844 [realtime_news] INFO: 🚨 ALERT: [critical] META — Precious metals stocks are trading lower as the commodity pulls back in response
+2026-03-03 07:46:46,546 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] META
+2026-03-03 07:47:12,613 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Lumentum Holdings, Raises Price Target to $75
+2026-03-03 07:47:27,161 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin dives 3% on global asset rout as $5K gold 'smashed' on oil fears
+2026-03-03 07:47:48,900 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Reiterates Buy on On Holding, Maintains $52 Price Target
+2026-03-03 07:47:57,879 [realtime_news] INFO: 🚨 ALERT: [high] SA — Ingram Micro Posts Upbeat Q4 Earnings, Joins Ziff Davis, Kontoor Brands, Lending
+2026-03-03 07:48:14,416 [realtime_news] INFO: 🚨 ALERT: [high] AAOI — Applied Optoelectronics Stock Retreats After Monster Rally
+2026-03-03 07:48:48,953 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,890.1 BTC ($128.0M) transferred
+2026-03-03 07:48:48,953 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,890.1 BTC ($128.0M) transferred
+2026-03-03 07:48:49,503 [realtime_news] INFO: 🚨 ALERT: [critical] AMZN — Elon Musk&#39;s Starlink Escalates The 5G War In Space As Amazon Locks In Vodafo
+2026-03-03 07:49:08,682 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] AMZN
+2026-03-03 07:50:07,472 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Overweight on MongoDB, Lowers Price Target to $370
+2026-03-03 07:50:10,313 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on COPT Defense Props, Raises Price Target to $
+2026-03-03 07:50:56,032 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Bitcoin dives 3% on global asset rout as $5K gold 'smashed' on oil fears
+2026-03-03 07:51:35,144 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid Says I&#39;ll Miss Chair Powell; We&#39;re Positioned Pretty We
+2026-03-03 07:51:46,579 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:52:31,104 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Maintains Buy on US Goldmining, Raises Price Target to $
+2026-03-03 07:52:34,873 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Norwegian Cruise Line, Lowers Price Target to
+2026-03-03 07:53:22,195 [realtime_news] INFO: 🚨 ALERT: [high] SA — Visa Enhances Digital Payments with Bridge Partnership
+2026-03-03 07:53:37,833 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — JPMorgan revamps Nvidia stock price target for rest of 2026
+2026-03-03 07:53:50,860 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid Says Demographics Accommodating Hiring Pause; Don&#39;t Have A 
+2026-03-03 07:53:53,848 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 07:54:16,768 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Hold on Fidelity National Info, Lowers Price Target 
+2026-03-03 07:54:35,262 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Nutrien, Raises Price Target to $80
+2026-03-03 07:55:46,285 [realtime_news] INFO: 🚨 ALERT: [high] SA — Barclays Maintains Overweight on Omada Health, Lowers Price Target to $17
+2026-03-03 07:58:07,013 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Truist Securities Maintains Buy on Flywire, Lowers Price Target to $16
+2026-03-03 08:00:05,871 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Barclays Maintains Equal-Weight on Qorvo, Raises Price Target to $95
+2026-03-03 08:00:52,056 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Thor Industries Q2 Margins Squeeze Despite Strong Sales: &#39;Geopolitical Event
+2026-03-03 08:01:13,347 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:01:52,354 [realtime_news] INFO: 🚨 ALERT: [high] SA — Barclays Maintains Overweight on Rubrik, Lowers Price Target to $70
+2026-03-03 08:04:47,758 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid Says There&#39;s A Lot Of Fiscal Stimulus Coming In 2026; We&#3
+2026-03-03 08:04:55,276 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:05:05,187 [realtime_news] INFO: 🚨 ALERT: [high] SGRY — Barclays Maintains Equal-Weight on Surgery Partners, Lowers Price Target to $14
+2026-03-03 08:05:27,911 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Orangekloud Technology Regains Nasdaq Compliance, Delisting Hearing Cancelled
+2026-03-03 08:06:02,019 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bitcoin attempting to make a stand as global stock markets melt down on Iran war
+2026-03-03 08:06:23,975 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 08:07:48,576 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Schmid Says There&#39;s More Anxiety Around Uncertainty Of Jobs And Ai
+2026-03-03 08:08:03,223 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Norwegian Cruise Line Posts Q4 Earnings Beat, Analysts Cut Price Target On Execu
+2026-03-03 08:08:06,087 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock market today: Dow plunges over 1,100 points, S&P 500 and Nasdaq sink as oi
+2026-03-03 08:08:07,404 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:08:09,686 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 08:08:31,443 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 08:09:01,525 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on Compass Diversified Hldgs, Lowers Price
+2026-03-03 08:10:10,087 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Iran war live updates: U.S. closes embassies in Saudi Arabia, Kuwait; prices at 
+2026-03-03 08:10:18,548 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:11:12,935 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Target climbs after earnings beating forecasts despite softer sales
+2026-03-03 08:11:15,962 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:12:28,730 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Buy on Dave, Raises Price Target to $303
+2026-03-03 08:12:35,179 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Leerink Partners Maintains Outperform on Ionis Pharmaceuticals, Raises Price Tar
+2026-03-03 08:13:38,224 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Williams Says Impact Of Iran Conflict Right Now Would Be Through Oil P
+2026-03-03 08:14:09,873 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Williams Does Not See Recent Adjustments In Private Credit As A Fundam
+2026-03-03 08:14:15,749 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:14:52,196 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Williams Says It Is Early Days To Make A Broader Assessment Of How Ira
+2026-03-03 08:15:37,809 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Williams Says Inflation Persistently Away From Target Does Pose The Ri
+2026-03-03 08:15:40,666 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:16:17,651 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Leerink Partners Maintains Outperform on Intellia Therapeutics, Raises Price Tar
+2026-03-03 08:16:22,238 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Software Stocks Are Beating the Market. Be Careful What You Wish For.
+2026-03-03 08:17:32,401 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Buy on Diversified Healthcare, Raises Price Target
+2026-03-03 08:17:57,693 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — GLJ Research Reiterates Sell on Sunrun, Announces $6.73 Price Target
+2026-03-03 08:19:09,511 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on FS KKR Capital, Lowers Price Target to 
+2026-03-03 08:19:59,810 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Leerink Partners Maintains Outperform on Zymeworks, Raises Price Target to $58
+2026-03-03 08:20:30,886 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Micron and other memory stocks see outsized losses. What’s behind the big moves?
+2026-03-03 08:20:45,069 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — B. Riley Securities Maintains Neutral on New Mountain Finance, Lowers Price Targ
+2026-03-03 08:22:43,813 [realtime_news] INFO: 🚨 ALERT: [high] ONMD — What&#39;s Going On With Penny Stock OneMedNet On Tuesday?
+2026-03-03 08:26:44,728 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — I was on an Emirates flight to Dubai that turned around because of Iranian missi
+2026-03-03 08:32:34,593 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Maintains Sector Outperform on Abrasilver Resource, Raises Price Targ
+2026-03-03 08:33:09,135 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Micron and other memory stocks see outsized losses. What’s behind the big moves?
+2026-03-03 08:34:15,861 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Keefe, Bruyette &amp; Woods Maintains Outperform on Bain Capital Specialty, Lowe
+2026-03-03 08:34:46,072 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Scotiabank Maintains Sector Outperform on Propel Holdings, Lowers Price Target t
+2026-03-03 08:35:50,880 [realtime_news] INFO: 🚨 ALERT: [high] ARKQ — Why Is AeroVironment Stock Soaring Tuesday?
+2026-03-03 08:38:11,300 [realtime_news] INFO: 🚨 ALERT: [high] SA — Abbvie Exec Says Will Evaluate Subcutaneous Skyrizi In Induction Phase For Ulcer
+2026-03-03 08:38:26,247 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on ADT, Lowers Price Target to $7
+2026-03-03 08:39:19,966 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Agilent Technologies, Lowers Price Target
+2026-03-03 08:40:37,440 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Maintains Buy on NRX Pharmaceuticals, Raises Price Targe
+2026-03-03 08:40:39,244 [realtime_news] INFO: 🚨 ALERT: [high] SA — Morgan Stanley Maintains Underweight on Asana, Lowers Price Target to $8
+2026-03-03 08:41:54,231 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Belite Bio, Raises Price Target to $201
+2026-03-03 08:43:33,134 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Corebridge Financial, Lowers Price Targ
+2026-03-03 08:44:34,052 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Buy on Scholar Rock Holding, Maintains $58 Pr
+2026-03-03 08:44:41,230 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Rocket Companies Stock Falls As Rising Yields Pressure Mortgage Demand
+2026-03-03 08:45:26,659 [realtime_news] INFO: 🚨 ALERT: [high] SA — Pinterest’s stock is rising. Here’s why investors are cheering a big boost to th
+2026-03-03 08:45:35,592 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Dyne Therapeutics, Lowers Price Target to
+2026-03-03 08:48:29,721 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Reiterates Buy on Pharvaris, Maintains $60 Price Target
+2026-03-03 08:50:32,495 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — BTIG Maintains Buy on Theravance Biopharma, Lowers Price Target to $21
+2026-03-03 08:51:13,740 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Bitcoin attempting to make a stand as global stock markets melt down on Iran war
+2026-03-03 08:51:23,785 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 08:51:36,189 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Equitable Holdings, Lowers Price Target t
+2026-03-03 08:52:26,319 [realtime_news] INFO: 🚨 ALERT: [high] GM — Morgan Stanley Maintains Equal-Weight on Ingram Micro Holding, Raises Price Targ
+2026-03-03 08:52:53,973 [realtime_news] INFO: 🚨 ALERT: [high] HUM — Humana Collaborates With Karoo Health, US Heart, Vascular, And Chamber Cardio To
+2026-03-03 08:53:42,304 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Kinder Morgan, Raises Price Target to $
+2026-03-03 08:54:42,132 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Lincoln National, Lowers Price Target to 
+2026-03-03 08:55:47,085 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Fed&#39;s Kashkari: Iran War Could Have Monetary Policy Impact; Fed Needs To See
+2026-03-03 08:56:03,451 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 08:57:54,206 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — 2 High-Yield Dividend Stocks I Wouldn't Hesitate To Buy For Passive Income in Ma
+2026-03-03 08:58:24,951 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Fed&#39;s Kashkari Says Ahead Of Iran Attack, Fed Job And Inflation Mandates Fel
+2026-03-03 08:58:29,510 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 08:59:49,554 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Kashkari Says Elevated Headline Inflation Bears Watching Given Recent 
+2026-03-03 09:01:25,752 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Kashkari Says Fed Has To Hit 2% Inflation Target; There Is Not A Lot O
+2026-03-03 09:01:48,124 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Kashkari Says Not Hearing A Lot From Business That More Inflation Is C
+2026-03-03 09:02:43,089 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on MetLife, Lowers Price Target to $93
+2026-03-03 09:03:09,559 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Principal Financial Group Agrees With Southland Benefit Solutions To Acquire Its
+2026-03-03 09:03:16,194 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 09:03:17,935 [realtime_news] INFO: 🚨 ALERT: [high] SA — Pinterest’s stock is rising. Here’s why investors are cheering a big boost to th
+2026-03-03 09:03:19,263 [realtime_news] INFO: 🚨 ALERT: [high] SA — Why Is AutoZone Stock Falling Tuesday?
+2026-03-03 09:04:07,165 [realtime_news] INFO: 🚨 ALERT: [high] SA — Morgan Stanley Maintains Overweight on Natera, Lowers Price Target to $250
+2026-03-03 09:04:08,428 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The currency market is pricing in a supply-side inflation shock
+2026-03-03 09:04:08,717 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Europe’s pharma trade with the US remains critical despite tariff turmoil
+2026-03-03 09:04:12,217 [realtime_news] INFO: 🚨 ALERT: [high] CRDO — Credo Tech&#39;s Strong Quarter Can&#39;t Lift Shares, Analysts Expect Rising AI
+2026-03-03 09:04:15,761 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 09:08:18,200 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Gold prices fall amid inflation risks
+2026-03-03 09:08:52,485 [realtime_news] INFO: 🚨 ALERT: [high] SA — ASM International Q4 Adj. EPS US$4.02 Beats US$3.14 Estimate, Sales US$812.927M 
+2026-03-03 09:09:13,584 [realtime_news] INFO: 🚨 ALERT: [high] SA — President Trump Says You Could Have Oil Prices For A Little While But Will Drop;
+2026-03-03 09:11:25,445 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — How the Iran conflict could ultimately unlock a Middle East ‘peace dividend’ for
+2026-03-03 09:11:33,434 [realtime_news] INFO: 🚨 ALERT: [high] SA — Fed&#39;s Kashkari Says March Fed Forecasts Will Have More Uncertainty About Out
+2026-03-03 09:13:42,825 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Shares of airline stocks are trading lower amid growing concerns over escalating
+2026-03-03 09:13:57,188 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Primerica, Lowers Price Target to $285
+2026-03-03 09:14:07,981 [realtime_news] INFO: 🚨 ALERT: [high] BATL — Crude Oil Surges Over 6%; Target Profit Tops Views
+2026-03-03 09:14:31,157 [realtime_news] INFO: 🚨 ALERT: [high] SA — President Trump Says We&#39;ll Be Talking About China With Germany&#39;s Merz
+2026-03-03 09:15:02,619 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Principal Financial Group, Raises Price
+2026-03-03 09:16:30,940 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Broadcom Q1 Preview: Record Revenue Expected, But Stock Is Looking &#39;On the R
+2026-03-03 09:16:46,495 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Prudential Financial, Lowers Price Targ
+2026-03-03 09:18:16,657 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Reinsurance Group, Raises Price Target 
+2026-03-03 09:19:20,807 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 2,345.5 BTC ($159.4M) transferred
+2026-03-03 09:19:20,807 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 2,345.5 BTC ($159.4M) transferred
+2026-03-03 09:19:58,928 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Restaurant Brands Intl, Raises Price Ta
+2026-03-03 09:22:50,003 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — I was on an Emirates flight to Dubai that turned around twice because of Iranian
+2026-03-03 09:24:10,394 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Targa Resources, Raises Price Target to $
+2026-03-03 09:25:29,035 [realtime_news] INFO: 🚨 ALERT: [high] SA — Morgan Stanley Maintains Overweight on Tempus AI, Lowers Price Target to $70
+2026-03-03 09:27:21,574 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Blackstone, Carlyle, Hellman &amp; Friedman Offer 75M Shares For Medline
+2026-03-03 09:27:51,281 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on Unum Gr, Lowers Price Target to $80
+2026-03-03 09:28:39,444 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — What&#39;s Going On With PayPal Stock Today?
+2026-03-03 09:29:05,463 [realtime_news] INFO: 🚨 ALERT: [high] AAPL — Apple raises MacBook prices across the board as M5 chips, new displays signal AI
+2026-03-03 09:29:34,631 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Overweight on Voya Financial, Lowers Price Target to $8
+2026-03-03 09:31:13,581 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Equal-Weight on W.W. Grainger, Raises Price Target to $
+2026-03-03 09:32:12,927 [realtime_news] INFO: 🚨 ALERT: [critical] AVAL — Shares of banks are trading lower amid overall market weakness due to concerns o
+2026-03-03 09:32:19,028 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] AVAL
+2026-03-03 09:32:49,522 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Morgan Stanley Maintains Underweight on World Kinect, Lowers Price Target to $25
+2026-03-03 09:34:17,765 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Paramount’s debt downgraded to junk following Warner Bros. purchase deal
+2026-03-03 09:34:18,388 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Most shorted U.S. company surprises with dividend increase
+2026-03-03 09:35:11,093 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Sea Ltd.&#39;s Q4 Earnings Miss Shadows Massive 38% Revenue Surge For Shopee, Ga
+2026-03-03 09:35:13,817 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 09:35:18,158 [realtime_news] INFO: 🚨 ALERT: [high] AAPL — 10 Information Technology Stocks With Whale Alerts In Today&#39;s Session
+2026-03-03 09:38:00,689 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on DMC Global, Lowers Price Target to $7
+2026-03-03 09:41:19,649 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on MongoDB, Lowers Price Target to $330
+2026-03-03 09:43:25,745 [realtime_news] INFO: 🚨 ALERT: [critical] AAPL — Unsustainable War Math - $20K Drones Vs. $4M Patriot Missiles; South Korean Rout
+2026-03-03 09:43:28,664 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] AAPL
+2026-03-03 09:43:31,345 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Zymeworks, Raises Price Target to $47
+2026-03-03 09:43:37,358 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Trump administration offers shifting narrative for U.S. war in Iran as Democrats
+2026-03-03 09:43:37,608 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Wall Street playbook says buy when war breaks out. How this time could be differ
+2026-03-03 09:43:37,877 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil surges for second day, Brent tops $83 after Iran orders Strait of Hormuz clo
+2026-03-03 09:43:38,181 [realtime_news] INFO: 🚨 ALERT: [critical] AMZN — &#39;Anthropic&#39;s Claude AI Being Used In Iran War By U.S. Military, Sources 
+2026-03-03 09:43:47,693 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 09:43:50,860 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 09:43:58,108 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] AMZN
+2026-03-03 09:44:36,829 [realtime_news] INFO: 🚨 ALERT: [high] NVDA — Taiwan Semiconductor&#39;s AI Breakthroughs Don&#39;t Calm Wall Street—Profits A
+2026-03-03 09:44:56,441 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Norwegian Cruise Line, Lowers Price Target to $30
+2026-03-03 09:46:03,838 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Proficient Auto Logistics, Lowers Price Target to $10
+2026-03-03 09:47:58,114 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Hold on Whirlpool, Lowers Price Target to $68
+2026-03-03 09:48:56,740 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Why Is Eye-Disease-Focused Harrow Stock Falling Today?
+2026-03-03 09:49:02,196 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 09:49:26,633 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on Scotts Miracle Gro, Raises Price Target to $79
+2026-03-03 09:50:52,167 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on MYR Group, Raises Price Target to $305
+2026-03-03 09:51:58,780 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Circle shares boosted by Middle East tensions, rising oil, fading rate cut hopes
+2026-03-03 09:52:02,029 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 09:52:59,575 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Stifel Maintains Buy on EMCOR Group, Raises Price Target to $814
+2026-03-03 09:53:01,412 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stock market today: Dow falls by 700 points, S&P 500 and Nasdaq sink as oil surg
+2026-03-03 09:53:04,895 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 09:56:03,337 [realtime_news] INFO: 🚨 ALERT: [high] SA — Piper Sandler Reiterates Overweight on Cigna Group, Lowers Price Target to $370
+2026-03-03 09:57:10,088 [realtime_news] INFO: 🚨 ALERT: [critical] SA — International finance watchdog warns stablecoins are increasingly used in sancti
+2026-03-03 09:57:13,668 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 09:59:02,207 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on MongoDB, Lowers Price Target to $400
+2026-03-03 09:59:09,015 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lake Street Initiates Coverage On Femasys with Buy Rating, Announces Price Targe
+2026-03-03 09:59:34,761 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,102.7 BTC ($75.3M) transferred
+2026-03-03 09:59:34,761 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,102.7 BTC ($75.3M) transferred
+2026-03-03 10:00:27,955 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lake Street Maintains Buy on Dave, Raises Price Target to $326
+2026-03-03 10:00:48,864 [realtime_news] INFO: 🚨 ALERT: [high] SA — Citigroup Maintains Buy on Catalyst Pharmaceuticals, Raises Price Target to $35
+2026-03-03 10:01:02,797 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Capital Group Launches Its First Public‑Private Equity Strategy With KKR
+2026-03-03 10:01:17,648 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lake Street Maintains Buy on Crexendo, Raises Price Target to $9
+2026-03-03 10:02:44,412 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Lake Street Maintains Buy on Sturm Ruger &amp; Co, Raises Price Target to $43
+2026-03-03 10:03:23,461 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Brent Crude Oil Analysis: $95 Target Reinforced, Double Bottom Intact
+2026-03-03 10:03:24,612 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Vertex Gets Rating Upgrade, Earnings Rose Every Quarter This Past Year
+2026-03-03 10:03:25,215 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Schrödinger, Inc. (SDGR) Transition to Licensing Model Triggers Robust Revenue G
+2026-03-03 10:03:38,270 [realtime_news] INFO: 🚨 ALERT: [high] SA — Citigroup Maintains Buy on Asana, Lowers Price Target to $13
+2026-03-03 10:04:50,424 [realtime_news] INFO: 🚨 ALERT: [high] SA — Piper Sandler Maintains Overweight on MongoDB, Lowers Price Target to $330
+2026-03-03 10:05:15,224 [realtime_news] INFO: 🚨 ALERT: [high] VEON — VEON Announces Expansion Of Partnership With MeetKai To Explore Sovereign AI Inf
+2026-03-03 10:05:24,128 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Newmont, Raises Price Target to $150
+2026-03-03 10:06:52,727 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Agilon Health, Lowers Price Target to $0.75
+2026-03-03 10:07:35,647 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Hard cider and spiked soda brand files Chapter 11 bankruptcy
+2026-03-03 10:07:41,160 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 10:07:56,038 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on GoodRx Holdings, Lowers Price Target to $3.5
+2026-03-03 10:08:05,423 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — HC Wainwright &amp; Co. Maintains Buy on Belite Bio, Raises Price Target to $200
+2026-03-03 10:08:32,018 [realtime_news] INFO: 🚨 ALERT: [high] XCH — XCharge shares are trading higher. The company announced a long-term e-mobility 
+2026-03-03 10:09:27,789 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Privia Health Gr, Lowers Price Target to $32
+2026-03-03 10:09:35,983 [realtime_news] INFO: 🚨 ALERT: [high] SA — BTIG Maintains Buy on Paysafe, Lowers Price Target to $10
+2026-03-03 10:11:24,835 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Why Palantir Is Back In Wall Street&#39;s Good Graces
+2026-03-03 10:11:44,378 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says when he’s done with Iran, oil prices will drop even lower than they w
+2026-03-03 10:14:51,027 [realtime_news] INFO: 🚨 ALERT: [critical] ROL — These U.S. natural gas exporters benefit from disruption to Qatar LNG supply in 
+2026-03-03 10:14:54,522 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] ROL
+2026-03-03 10:15:02,923 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — ThredUp shares are trading lower after the company reported Q4 financial results
+2026-03-03 10:15:19,516 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Neutral on Teladoc Health, Lowers Price Target to $6
+2026-03-03 10:15:42,593 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Gaxos.ai shares are trading higher after the company announced it acquired a 19.
+2026-03-03 10:15:45,176 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 10:15:54,027 [realtime_news] INFO: 🚨 ALERT: [high] SA — Oil Prices in Focus Following Iran Strikes, Goldman Sachs Says
+2026-03-03 10:17:43,700 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Agilon Health shares are trading lower after Citigroup lowered its price target 
+2026-03-03 10:19:38,853 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says when he’s done with Iran, oil prices will drop even lower than they w
+2026-03-03 10:19:44,627 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Citigroup Maintains Buy on Cactus, Raises Price Target to $63
+2026-03-03 10:24:37,700 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Insight Molecular shares are trading higher after the company announced it compl
+2026-03-03 10:31:44,121 [realtime_news] INFO: 🚨 ALERT: [high] SA — EchoStar Defies Critics With Strong Quarter: DISH And Sling TV Losses Slow As Re
+2026-03-03 10:32:55,668 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Needham Maintains Buy on Esperion Therapeutics, Raises Price Target to $5
+2026-03-03 10:33:30,115 [realtime_news] INFO: 🚨 ALERT: [high] AEHL — Antelope Enterprise Holdings shares are trading lower after the company announce
+2026-03-03 10:34:03,681 [realtime_news] INFO: 🚨 ALERT: [critical] SLV — Silver Slips Amid Strong Dollar, Middle East Tensions
+2026-03-03 10:34:07,011 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SLV
+2026-03-03 10:34:32,244 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — The Inflation Debate That Will Shape the Fed’s Plans for Rates
+2026-03-03 10:34:32,507 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil prices surge to cross $80 after US-Iran conflict engulfs Middle East and Str
+2026-03-03 10:35:42,871 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Short Squeeze And Earnings: Why Paysafe Stock Spiked Tuesday
+2026-03-03 10:35:45,106 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 10:36:08,192 [realtime_news] INFO: 🚨 ALERT: [critical] META — Power Solutions International shares are trading lower after the company reporte
+2026-03-03 10:36:11,499 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] META
+2026-03-03 10:38:41,125 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Mobix Labs shares are trading higher after the company announced the receipt of 
+2026-03-03 10:38:56,307 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UniQure shares are trading lower after multiple firms lowered their respective p
+2026-03-03 10:42:28,667 [realtime_news] INFO: 🚨 ALERT: [high] U — Unity Software shares are trading higher after B of A Securities upgraded the st
+2026-03-03 10:44:17,980 [realtime_news] INFO: 🚨 ALERT: [high] VEON — VEON shares are trading lower. The company announced the expansion of its partne
+2026-03-03 10:45:57,929 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Ormat Technologies, Lowers Price Target to $143
+2026-03-03 10:48:31,350 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — MongoDB shares are trading lower after the company reported Q4 financial results
+2026-03-03 10:49:21,262 [realtime_news] INFO: 🚨 ALERT: [high] SA — UBS Maintains Neutral on Asana, Lowers Price Target to $9
+2026-03-03 10:50:28,167 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Dyne Therapeutics shares are trading lower after multiple analyst firms lowered 
+2026-03-03 10:50:30,157 [realtime_news] INFO: 🚨 ALERT: [high] MA — SoFi Stock Rises On Million-Dollar Insider Buy, Mastercard Stablecoin Deal
+2026-03-03 10:52:25,643 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Archer Aviation shares are trading lower after Needham lowered its price target 
+2026-03-03 10:54:09,996 [realtime_news] INFO: 🚨 ALERT: [high] SA — On Holding Shares Slide Despite Q4 Beat, Weak 2026 Revenue Outlook Rattles Trade
+2026-03-03 10:54:27,234 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Wells Fargo Downgrades Webster Financial to Underweight, Maintains Price Target 
+2026-03-03 10:54:49,424 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Iran Shock Is 3x Bigger Than Ukraine Invasion, Robin Brooks Says Wall Street Ten
+2026-03-03 10:54:53,292 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 10:55:55,869 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ingram Micro Holding shares are trading higher after Morgan Stanley raised its p
+2026-03-03 10:56:18,577 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — How Could Oil Prices Over the Next 4 Weeks Pressure Bitcoin?
+2026-03-03 10:56:52,883 [realtime_news] INFO: 🚨 ALERT: [high] SA — Iraq Says Reduction In Crude Oil Production After Decreasing, Halting Exports Du
+2026-03-03 10:57:22,087 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Ex-LAPD Officer Found Guilty of $350K ‘Wrench Attack’ Bitcoin Robbery
+2026-03-03 10:57:24,696 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 10:58:23,143 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Akamai Technologies shares are trading higher after the company announced it acq
+2026-03-03 10:58:24,974 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 11:01:30,592 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Why Blue Owl’s private-credit shocker has investors seeing shadows of Bear Stear
+2026-03-03 11:02:11,624 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Life360, Lowers Price Target to $75
+2026-03-03 11:03:18,070 [realtime_news] INFO: 🚨 ALERT: [high] SA — UBS Maintains Neutral on EchoStar, Raises Price Target to $127
+2026-03-03 11:05:18,352 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on MongoDB, Lowers Price Target to $275
+2026-03-03 11:06:43,997 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Stitch Fix, Lowers Price Target to $4
+2026-03-03 11:07:56,305 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 4,528.4 BTC ($310.7M) transferred
+2026-03-03 11:07:56,305 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 4,528.4 BTC ($310.7M) transferred
+2026-03-03 11:15:01,987 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Buy on Kymera Therapeutics, Raises Price Target to $128
+2026-03-03 11:15:52,743 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Why Blue Owl’s private-credit shocker has investors seeing shadows of Bear Stear
+2026-03-03 11:18:44,351 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — UBS Maintains Neutral on Nuvation Bio, Lowers Price Target to $7
+2026-03-03 11:22:11,530 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil Prices Jump as U.S.-Iran Conflict Stokes Supply Fears
+2026-03-03 11:23:47,380 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ladenburg Thalmann Maintains Buy on Core Scientific, Lowers Price Target to $23.
+2026-03-03 11:26:52,121 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ladenburg Thalmann Maintains Buy on Red Cat Holdings, Raises Price Target to $20
+2026-03-03 11:27:24,257 [realtime_news] INFO: 🚨 ALERT: [critical] PLUG — Highly Short Stock Plug Power Soars After Earnings Beat
+2026-03-03 11:27:27,747 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] PLUG
+2026-03-03 11:28:37,701 [realtime_news] INFO: 🚨 ALERT: [high] SA — Core Scientific&#39;s Bitcoin Mining Revenue Slides, But CoreWeave Deal Ahead of
+2026-03-03 11:29:50,623 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Circle Internet Group shares are trading higher after Mizuho maintained its Neut
+2026-03-03 11:35:01,494 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Zscaler shares are trading higher after Wells Fargo initiated its coverage on th
+2026-03-03 11:35:29,096 [realtime_news] INFO: 🚨 ALERT: [high] SA — What&#39;s Going On With MongoDB Stock Today?
+2026-03-03 11:35:43,469 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on Ferrari, Raises Price Target to $447
+2026-03-03 11:39:04,748 [realtime_news] INFO: 🚨 ALERT: [high] ERIC — Keysight Expands 6G Push With Qualcomm Partnership
+2026-03-03 11:40:19,990 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Overweight on CRH, Raises Price Target to $140
+2026-03-03 11:40:39,644 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — MDJM shares are trading higher after the company announced it completed an aggre
+2026-03-03 11:43:31,181 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Riot Platforms shares are trading lower after multiple analyst firms lowered the
+2026-03-03 11:43:44,125 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — JP Morgan Maintains Neutral on Blackstone, Lowers Price Target to $122
+2026-03-03 11:44:56,916 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Whirlpool shares are trading lower after Stifel lowered its price target on the 
+2026-03-03 11:45:00,575 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Oil Prices Surge, Stock Futures Fall
+2026-03-03 11:45:00,836 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Stocks enter global selloff, but some on Wall Street are looking for assets that
+2026-03-03 11:45:04,222 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 11:49:09,359 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says when he’s done with Iran oil prices will drop lower than they were be
+2026-03-03 11:53:44,166 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Freedom Capital Markets Downgrades Sunrun to Hold, Lowers Price Target to $12
+2026-03-03 11:54:18,132 [realtime_news] INFO: 🚨 ALERT: [high] SA — Oil prices ease after Trump says U.S. will insure tankers transiting Strait of H
+2026-03-03 11:54:18,913 [realtime_news] INFO: 🚨 ALERT: [high] SNDK — Sandisk Dips Amid Memory Stock Selloff: What&#39;s Going On?
+2026-03-03 11:55:56,213 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Freedom Capital Markets Downgrades Douglas Dynamics to Hold, Raises Price Target
+2026-03-03 11:56:21,566 [realtime_news] INFO: 🚨 ALERT: [high] SA — Never mind the AI fears. This beat-up cybersecurity play is a 'screamer,' Josh B
+2026-03-03 11:59:51,047 [realtime_news] INFO: 🚨 ALERT: [high] IIPR — Compass Point Upgrades Innovative Ind Props to Neutral, Announces $45 Price Targ
+2026-03-03 12:02:12,603 [realtime_news] INFO: 🚨 ALERT: [critical] SA — International finance watchdog warns stablecoins are increasingly used in sancti
+2026-03-03 12:02:12,851 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Circle shares boosted by Middle East tensions, rising oil, fading rate cut hopes
+2026-03-03 12:02:16,790 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 12:02:18,498 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 12:02:53,293 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Canaccord Genuity Maintains Buy on Ameresco, Raises Price Target to $50
+2026-03-03 12:03:35,948 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Survey: Nearly 70% of Individual Investors Expect Stock Market Gains in 2026, De
+2026-03-03 12:03:39,204 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 12:05:39,143 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Iran war live updates: Trump says U.S. to offer insurance for Gulf shipping and 
+2026-03-03 12:05:41,471 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 12:06:42,920 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ripple expands stablecoin payments stack for banks, fintechs
+2026-03-03 12:07:24,106 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Canaccord Genuity Maintains Buy on Life360, Lowers Price Target to $94
+2026-03-03 12:08:31,794 [realtime_news] INFO: 🚨 ALERT: [high] AMZN — Amazon&#39;s $8B Anthropic Bet Looks Even Better As Claude Dethrones ChatGPT On 
+2026-03-03 12:13:54,207 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Do You Need War Insurance?
+2026-03-03 12:13:56,615 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 12:16:18,810 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 1,485.9 BTC ($101.5M) transferred
+2026-03-03 12:16:18,811 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 1,485.9 BTC ($101.5M) transferred
+2026-03-03 12:17:53,181 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Resevoir Media Receives Non-Binding Letter Of Interest To Acquire Company&#39;s 
+2026-03-03 12:17:56,458 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 12:19:06,171 [realtime_news] INFO: 🚨 ALERT: [high] DKNG — DraftKings Stock Is Surging Among A Weaker Market
+2026-03-03 12:22:09,739 [realtime_news] INFO: 🚨 ALERT: [high] SA — Trump says when he’s done with Iran, oil prices will drop lower than they were b
+2026-03-03 12:22:20,993 [realtime_news] INFO: 🚨 ALERT: [high] BTC — 🐋 BTC Whale: 2,628.4 BTC ($179.7M) transferred
+2026-03-03 12:22:20,993 [realtime_news] INFO: 🐋 Whale detected: 🐋 BTC Whale: 2,628.4 BTC ($179.7M) transferred
+2026-03-03 12:23:22,545 [realtime_news] INFO: 🚨 ALERT: [critical] ASTS — Iran War Escalation, Oil Spike Rattle Wall Street: What&#39;s Moving Markets Tue
+2026-03-03 12:23:25,592 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] ASTS
+2026-03-03 12:24:13,373 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Blue Owl’s private-credit stumble revives fears of another Bear Stearns moment
+2026-03-03 12:26:17,694 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Ripple expands stablecoin payments stack for banks, fintechs
+2026-03-03 12:29:49,732 [realtime_news] INFO: 🚨 ALERT: [high] SA — Best Buy&#39;s Operating Income Triples As Margin Expansion Lifts Shares
+2026-03-03 12:34:31,773 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — Are Crypto Traders Betting on US-Iran Strike Breaking The Law? Lawmakers Call Fo
+2026-03-03 12:34:33,052 [realtime_news] INFO: 🚨 ALERT: [high] SA — TD Cowen says banks likely to lose stablecoin yield fight, but prolonged dispute
+2026-03-03 12:34:38,591 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 12:37:36,899 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Quantum Computing shares are trading lower after Cantor Fitzgerald lowered its p
+2026-03-03 12:40:43,897 [realtime_news] INFO: 🚨 ALERT: [high] SA — Analysts lift Circle’s price target as oil spike and rate outlook buoy stablecoi
+2026-03-03 12:44:13,956 [realtime_news] INFO: 🚨 ALERT: [critical] ASTI — Germany&#39;s Merz Says He Told Trump That EU Should Sign And Implement Trade Ag
+2026-03-03 12:44:16,843 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] ASTI
+2026-03-03 12:44:45,635 [realtime_news] INFO: 🚨 ALERT: [critical] ASTI — Germany&#39;s Merz Says Discussed Ukraine-Russia War With Trump. Says More Than 
+2026-03-03 12:44:48,764 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] ASTI
+2026-03-03 12:51:11,382 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — Macquarie Maintains Neutral on MongoDB, Lowers Price Target to $300
+2026-03-03 12:52:16,488 [realtime_news] INFO: 🚨 ALERT: [critical] SA — &#39;Iran War Won&#39;t Affect Its $20 Billion Qatar Deal, Brookfield Says&#39; 
+2026-03-03 12:52:19,433 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
+2026-03-03 12:52:51,315 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — D. Boral Capital Maintains Buy on Tevogen Bio Holdings, Lowers Price Target to $
+2026-03-03 12:55:11,050 [realtime_news] INFO: 🚨 ALERT: [critical] MACRO — At a divided Fed, doves likely to rule the roost and push for more rate cuts thi
+2026-03-03 12:55:13,523 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] MACRO
+2026-03-03 12:58:18,117 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — US bank downgrades Centrica, citing lack of near-term catalysts
+2026-03-03 13:02:04,125 [realtime_news] INFO: 🚨 ALERT: [high] SA — Arcturus Therapeutics Q4 EPS $(1.03) Misses $(0.98) Estimate, Sales $7.196M Miss
+2026-03-03 13:02:10,083 [realtime_news] INFO: 🚨 ALERT: [high] SA — Crexendo Q4 Adj. EPS $0.09 Beats $0.08 Estimate, Sales $18.100M Miss $18.128M Es
+2026-03-03 13:02:55,423 [realtime_news] INFO: 🚨 ALERT: [high] SA — Ross Stores Q4 EPS $2.00 Beats $1.89 Estimate, Sales $6.635B Beat $6.410B Estima
+2026-03-03 13:05:56,692 [realtime_news] INFO: 🚨 ALERT: [high] SA — B&amp;G Foods Q4 Adj. EPS $0.28 Misses $0.30 Estimate, Sales $539.556M Beat $536
+2026-03-03 13:05:59,373 [realtime_news] INFO: 🚨 ALERT: [high] SA — Cricut Q4 EPS $0.04 Beats $0.02 Estimate, Sales $203.597M Beat $199.675M Estimat
+2026-03-03 13:06:11,147 [realtime_news] INFO: 🚨 ALERT: [high] SA — Quantum-Si Q4 EPS $(0.08) Beats $(0.12) Estimate, Sales $451.000K Miss $762.000K
+2026-03-03 13:06:17,376 [realtime_news] INFO: 🚨 ALERT: [high] SA — Evolus Q4 Adj. EPS $0.00 Misses $0.05 Estimate, Sales $90.300M Beat $89.667M Est
+2026-03-03 13:06:17,701 [realtime_news] INFO: 🚨 ALERT: [high] SA — Superior Gr of Cos Q4 EPS $0.23 Beats $0.21 Estimate, Sales $146.600M Beat $144.
+2026-03-03 13:06:21,544 [realtime_news] INFO: 🚨 ALERT: [high] SA — SoundThinking Q4 Adj. EPS $(0.20) Misses $(0.15) Estimate, Sales $24.789M Beat $
+2026-03-03 13:06:43,902 [realtime_news] INFO: 🚨 ALERT: [high] SA — CrowdStrike Holdings Q4 Adj. EPS $1.12 Beats $1.10 Estimate, Sales $1.305B Beat 
+2026-03-03 13:07:30,164 [realtime_news] INFO: 🚨 ALERT: [high] SA — Black Rock Coffee Bar Q4 EPS $0.04 Beats $0.02 Estimate, Sales $53.639M Beat $53
+2026-03-03 13:07:36,224 [realtime_news] INFO: 🚨 ALERT: [high] SA — NeuroPace Q4 EPS $(0.08) Beats $(0.17) Estimate, Sales $26.588M Beat $24.791M Es
+2026-03-03 13:07:43,293 [realtime_news] INFO: 🚨 ALERT: [high] SA — Latham Group Q4 EPS $(0.06) Beats $(0.10) Estimate, Sales $99.950M Beat $96.786M
+2026-03-03 13:08:10,039 [realtime_news] INFO: 🚨 ALERT: [high] SA — GitLab Q4 Adj. EPS $0.30 Beats $0.23 Estimate, Sales $260.400M Beat $252.211M Es
+2026-03-03 13:09:10,933 [realtime_news] INFO: 🚨 ALERT: [high] MACRO — SentinelOne Appoints Sonalee Parekh As CFO, Effective March 24
+2026-03-03 13:09:58,072 [realtime_news] INFO: 🚨 ALERT: [high] SA — Box Q4 Adj. EPS $0.49 Beats $0.34 Estimate, Sales $305.875M Beat $304.283M Estim
+2026-03-03 13:10:01,135 [realtime_news] INFO: 🚨 ALERT: [high] SA — Orion Gr Hldgs Q4 Adj. EPS $0.08 Beats $0.06 Estimate, Sales $233.223M Beat $221
+2026-03-03 13:10:10,568 [realtime_news] INFO: 🚨 ALERT: [high] SA — Webtoon Entertainment Q4 Adj EPS $0.00 Beats $(0.152) Estimate, Sales $330.686M 
+2026-03-03 13:10:29,821 [realtime_news] INFO: 🚨 ALERT: [critical] SA — Orangekloud Technology Announces Update On Proposed Merger With VeVe; Co Says Wh
+2026-03-03 13:10:32,587 [realtime_news] INFO: ✅ Agent turn triggered: [CRITICAL] SA
