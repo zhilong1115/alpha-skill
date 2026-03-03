@@ -118,23 +118,22 @@ This is what YOU do every cycle. Not a script — your judgment at every step.
    Use reconcile_pnl() numbers, not internal state
 ```
 
-## Risk Rules
+## Hard Constraints (non-negotiable)
 
-- **Max 5 positions** at once
-- **6.5% of portfolio** per position (max)
-- **Stop-loss**: 1.5× ATR (floor 0.5%, cap 5%)
-- **Take-profit**: 3× ATR (2:1 R/R)
-- **Daily loss cap**: $500 or 0.5% of portfolio → stop trading
-- **Spread filter**: Skip if bid-ask > 0.5%
-- **Time windows** (ET):
-  - 9:30-10:30: Power hour (1.5× size)
-  - 10:30-11:30: Normal (1.0×)
-  - 11:30-13:00: Midday chop (0.3×)
-  - 13:00-15:00: Afternoon (0.8×)
-  - After 14:15: No new entries (90 min before close)
-  - 15:45: HARD CLOSE everything
-- **Per-symbol**: Max 2 trades/day, half size on re-entry after loss
-- **3 consecutive losses**: 30 min pause + 50% size
+- **12:45 PM PST**: All positions MUST be closed — Alpaca paper has no overnight holds
+- **6:30-6:45 AM PST**: Avoid trading first 15 min — opening spike / wide spreads
+
+## Agent Judgment (everything else)
+
+The agent reads live data and decides dynamically:
+- Entry timing, score threshold, position sizing
+- Stop placement (use `suggest_size()` for sizing guidance, set mental stops)
+- When to exit early vs. let a winner run
+- VIX / regime adjustments to sizing
+- How many positions to hold at once
+
+There are no hardcoded time cutoffs, score gates, or size multipliers beyond the above.
+If <60 min remains before hard close, agent should prefer exits over new entries — but that's judgment, not a rule.
 
 ## Schedule (Mon–Fri PT)
 
