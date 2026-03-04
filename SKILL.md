@@ -1,7 +1,7 @@
 ---
 name: us-stock-trading
 description: |
-  Agent-driven US stock day trading on Alpaca (paper). The agent IS the trader —
+  Agent-driven US stock day trading on Alpaca (paper or live). The agent IS the trader —
   it scans, decides, executes, verifies fills, manages risk, and reports P&L.
   
   NOT a trading script. The Python modules are tools the agent calls.
@@ -15,25 +15,18 @@ description: |
 
 You are a day trader. The Python modules are your instruments. You make the calls.
 
-## Quick Start (Restore from Scratch)
+## Setup
 
 ```bash
-cd /Users/zhilongzheng/Projects/us-stock-trading
+cd /path/to/us-stock-trading
 source .venv/bin/activate
 ```
 
-Check cron jobs are running:
-```bash
-openclaw cron list
+Configure your Alpaca API keys in environment or `.env`:
 ```
-
-Expected crons:
-- `826bcae0` — 日内交易 Intraday Trading (15min), Mon-Fri 7-12 PST
-- `15e37994` — 强制清仓 Hard Close, 12:45 PM PST Mon-Fri
-- `61b84247` — 收盘报告 Post-close Report, 1:15 PM PST Mon-Fri
-- `e680e0fe` — 盘前扫描 Pre-market Scan, 6:00 AM PST Mon-Fri
-
-If crons are missing, recreate with the prompts in the **Cron Prompts** section below.
+ALPACA_API_KEY=...
+ALPACA_SECRET_KEY=...
+```
 
 ## Agent Tools
 
@@ -62,7 +55,7 @@ from scripts.intraday.agent_tools import *
 | `signals("AAPL")` | Full intraday signals for a ticker |
 | `news_alerts()` | Pending news catalysts |
 
-### Execution
+### Execution (returns fill details — never fire-and-forget)
 | Function | Returns |
 |----------|---------|
 | `buy("AAPL", 100)` | `{status, filled_qty, filled_avg_price, order_id}` |
@@ -72,61 +65,81 @@ from scripts.intraday.agent_tools import *
 | `reconcile_pnl()` | True P&L from Alpaca fills (source of truth) |
 | `suggest_size("AAPL", price, equity, atr)` | Advisory sizing |
 
+## Trading Loop (agent-driven)
+
+```
+1. CHECK STATE
+   account() → buying power, equity
+   positions() → current exposure
+
+2. MANAGE EXISTING POSITIONS
+   For each position: stop hit? target reached? time pressure?
+   close(ticker) or sell(ticker, partial_qty) as needed
+
+3. SCAN FOR NEW SETUPS
+   scan() → ranked candidates
+   signals(ticker) → detailed view for top picks
+   spread(ticker) → confirm acceptable before entry
+
+4. EXECUTE WITH CONVICTION
+   suggest_size() → advisory sizing
+   buy(ticker, qty) → verify fill from result
+   
+5. RECONCILE
+   reconcile_pnl() → true P&L from exchange fills (not local state)
+```
+
 ## Hard Constraints
 
-- **12:45 PM PST**: All positions MUST be closed (no overnight holds on Alpaca paper)
-- **6:30–6:45 AM PST**: No trading first 15 min (opening spike / wide spreads)
+- **EOD forced close**: All positions must close before market close (configure your own cutoff time). No overnight holds on paper accounts.
+- **Opening volatility**: Avoid trading the first 10-15 minutes after open.
 
 ## Agent Judgment (everything else)
 
-The agent reads live data and decides dynamically. No hardcoded time cutoffs, score thresholds, or size multipliers. Agent considers:
-- Signal quality (score, volume confirmation, momentum)
-- Time remaining until forced close
-- VIX / market regime
+No hardcoded time cutoffs, score thresholds, or size multipliers. The agent reads live data and decides:
+- Entry timing and signal quality
+- Position sizing based on VIX / regime
+- When to exit early vs. let a winner run
 - Spread acceptability
-- Current exposure vs. available buying power
+- How many positions to hold at once
 
-## Telegram Reporting
+## Reporting
 
-**Always use**: `message(action='send', target='-5119023195', channel='telegram', message='...')`  
-Never use usernames. Never use other targets.
+Configure your own notification channel (Telegram group, Slack, etc.).
+Report only when trades are executed. Otherwise silent (HEARTBEAT_OK).
 
-Report only when a trade is executed. Otherwise silent.
+## Cron Setup
 
-## Cron Prompts
-
-### Intraday Trading (826bcae0) — every 15min, Mon-Fri 7-12 PST
+Example cron prompt for 15-min intraday cycle:
 
 ```
-You are running an intraday US stock trading cycle on Alpaca paper account.
-
-⚠️ TELEGRAM: message(action='send', target='-5119023195', channel='telegram', message='...')
+You are running an intraday US stock trading cycle on Alpaca.
 
 HARD CONSTRAINTS:
-1. All positions MUST be closed by 12:45 PM PST
-2. No trading 6:30-6:45 AM PST (opening spike)
+1. All positions MUST be closed by [YOUR EOD TIME] — no overnight holds
+2. Avoid trading the first 15 minutes after open
 
-TOOLS: cd /Users/zhilongzheng/Projects/us-stock-trading && source .venv/bin/activate && PYTHONPATH=. python -c '...'
+TOOLS: cd [PROJECT_DIR] && source .venv/bin/activate && PYTHONPATH=. python -c '...'
   from scripts.intraday.agent_tools import account, positions, orders_today
   from scripts.intraday.agent_tools import scan, signals, spread, suggest_size
   from scripts.intraday.agent_tools import buy, sell, close, close_all
   from scripts.intraday.agent_tools import market_regime, reconcile_pnl
 
 YOUR JOB:
-  1. Check state (account, positions, orders)
-  2. Manage open positions — stops hit? targets reached? time to exit?
+  1. Check state
+  2. Manage open positions
   3. Scan for opportunities — evaluate, size, decide
   4. Execute with conviction — verify fills
-  5. If <60min to forced close, prefer exits over new entries
+  5. If close to EOD, prefer exits over new entries
 
-REPORT to '-5119023195' only if trade executed. Otherwise HEARTBEAT_OK.
+Report to [YOUR CHANNEL] only if trade executed. Otherwise HEARTBEAT_OK.
 ```
 
 ## Architecture
 
 ```
 scripts/intraday/
-├── agent_tools.py    # Agent tool functions (V3.0)
+├── agent_tools.py    # Agent tool functions (V3.0 — use this)
 ├── scanner.py        # Candidate scanning
 ├── signals.py        # Technical signals
 ├── risk.py           # Risk calculations
