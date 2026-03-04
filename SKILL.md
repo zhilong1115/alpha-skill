@@ -15,154 +15,120 @@ description: |
 
 You are a day trader. The Python modules are your instruments. You make the calls.
 
-## Setup
+## Quick Start (Restore from Scratch)
 
 ```bash
 cd /Users/zhilongzheng/Projects/us-stock-trading
 source .venv/bin/activate
 ```
 
+Check cron jobs are running:
+```bash
+openclaw cron list
+```
+
+Expected crons:
+- `826bcae0` — 日内交易 Intraday Trading (15min), Mon-Fri 7-12 PST
+- `15e37994` — 强制清仓 Hard Close, 12:45 PM PST Mon-Fri
+- `61b84247` — 收盘报告 Post-close Report, 1:15 PM PST Mon-Fri
+- `e680e0fe` — 盘前扫描 Pre-market Scan, 6:00 AM PST Mon-Fri
+
+If crons are missing, recreate with the prompts in the **Cron Prompts** section below.
+
 ## Agent Tools
 
-All tools are in `scripts/intraday/agent_tools.py`. Import and call from Python:
+All tools in `scripts/intraday/agent_tools.py`:
 
 ```python
 from scripts.intraday.agent_tools import *
 ```
 
-### Account & Positions (check these first, always)
+### Account & Positions
 | Function | Returns |
 |----------|---------|
 | `account()` | `{equity, cash, buying_power, portfolio_value}` |
-| `positions()` | All Alpaca positions with real-time P&L |
+| `positions()` | All positions with real-time P&L |
 | `position("AAPL")` | Single position or None |
+| `orders_today()` | All filled orders today |
 
-### Market Data
+### Market Data & Signals
 | Function | Returns |
 |----------|---------|
-| `price("AAPL")` | Latest price (float) |
+| `price("AAPL")` | Latest price |
 | `prices(["AAPL","NVDA"])` | `{ticker: price}` dict |
 | `spread("AAPL")` | `{bid, ask, spread_pct, acceptable}` |
 | `market_regime()` | `{vix, size_multiplier}` |
-
-### Scanning & Signals
-| Function | Returns |
-|----------|---------|
 | `scan(top_n=15)` | Ranked candidates with scores + signals |
-| `signals("AAPL")` | Intraday signals for a specific ticker |
+| `signals("AAPL")` | Full intraday signals for a ticker |
 | `news_alerts()` | Pending news catalysts |
 
-### Order Execution (returns fill details, never fire-and-forget)
+### Execution
 | Function | Returns |
 |----------|---------|
 | `buy("AAPL", 100)` | `{status, filled_qty, filled_avg_price, order_id}` |
 | `sell("AAPL", 50)` | `{status, filled_qty, filled_avg_price, order_id}` |
-| `close("AAPL")` | Close entire position, returns `{pnl, filled_avg_price}` |
-| `close_all()` | Close everything — hard EOD |
+| `close("AAPL")` | Close entire position |
+| `close_all()` | Close everything — EOD hard close |
+| `reconcile_pnl()` | True P&L from Alpaca fills (source of truth) |
+| `suggest_size("AAPL", price, equity, atr)` | Advisory sizing |
 
-### P&L Reconciliation (source of truth = Alpaca, not local state)
-| Function | Returns |
-|----------|---------|
-| `orders_today()` | All filled orders from Alpaca today |
-| `reconcile_pnl()` | True P&L per symbol from actual fills |
+## Hard Constraints
 
-### Risk Sizing (advisory — you decide)
-| Function | Returns |
-|----------|---------|
-| `suggest_size("AAPL", price, equity, atr)` | `{qty, stop_price, target_price, notes}` |
-
-## Trading Loop (agent-driven)
-
-This is what YOU do every cycle. Not a script — your judgment at every step.
-
-```
-1. CHECK STATE
-   acct = account()
-   pos = positions()
-   → Do I have buying power? Any positions to manage?
-
-2. MANAGE EXISTING POSITIONS
-   For each position:
-   - Check current price vs my stop / target
-   - Has it hit my stop? → close(ticker), verify fill, record loss
-   - Has it hit target? → close(ticker) or partial sell, verify fill
-   - Has it been open too long with no movement? → consider closing
-   - Should I move my stop (trail)? → that's a mental note, not an order
-
-3. SCAN FOR NEW SETUPS (if I have capacity)
-   candidates = scan()
-   → Filter: direction=long, score>0.3, signal_score>0.1
-   → Check spread for each: spread(ticker)
-   → Check signals(ticker) for more detail if needed
-
-4. DECIDE AND EXECUTE
-   For each pick:
-   - suggest_size(ticker, px, equity, atr) → advisory
-   - I decide final qty (maybe less, maybe staged)
-   - result = buy(ticker, qty)
-   - VERIFY: result["status"] == "filled"?
-     - Yes → record entry price from result["filled_avg_price"]
-     - No → decide: retry? skip? adjust qty?
-
-5. MONITOR FILLS
-   After any sell:
-   - Verify with position(ticker) that it's actually closed
-   - Record P&L from fill price, not snapshot
-
-6. RECONCILE
-   At end of day: reconcile_pnl() → true P&L from Alpaca fills
-   This is what you report. Not local state.
-
-7. REPORT
-   Post to Telegram: trades, P&L, win rate
-   Use reconcile_pnl() numbers, not internal state
-```
-
-## Hard Constraints (non-negotiable)
-
-- **12:45 PM PST**: All positions MUST be closed — Alpaca paper has no overnight holds
-- **6:30-6:45 AM PST**: Avoid trading first 15 min — opening spike / wide spreads
+- **12:45 PM PST**: All positions MUST be closed (no overnight holds on Alpaca paper)
+- **6:30–6:45 AM PST**: No trading first 15 min (opening spike / wide spreads)
 
 ## Agent Judgment (everything else)
 
-The agent reads live data and decides dynamically:
-- Entry timing, score threshold, position sizing
-- Stop placement (use `suggest_size()` for sizing guidance, set mental stops)
-- When to exit early vs. let a winner run
-- VIX / regime adjustments to sizing
-- How many positions to hold at once
+The agent reads live data and decides dynamically. No hardcoded time cutoffs, score thresholds, or size multipliers. Agent considers:
+- Signal quality (score, volume confirmation, momentum)
+- Time remaining until forced close
+- VIX / market regime
+- Spread acceptability
+- Current exposure vs. available buying power
 
-There are no hardcoded time cutoffs, score gates, or size multipliers beyond the above.
-If <60 min remains before hard close, agent should prefer exits over new entries — but that's judgment, not a rule.
+## Telegram Reporting
 
-## Schedule (Mon–Fri PT)
+**Always use**: `message(action='send', target='-5119023195', channel='telegram', message='...')`  
+Never use usernames. Never use other targets.
 
-| Time | Action |
-|------|--------|
-| 6:00 AM | Pre-market scan, plan the day |
-| 6:30 AM | Market open — start trading loop |
-| 6:30 AM – 12:30 PM | Active trading (every 15 min or as needed) |
-| 12:45 PM | Hard close all positions |
-| 1:00 PM | Reconcile P&L, post daily report |
+Report only when a trade is executed. Otherwise silent.
 
-## Legacy CLI (still works, but prefer agent_tools)
+## Cron Prompts
 
-```bash
-python cli.py day-scan          # Scan for candidates
-python cli.py day-trade         # Dry run
-python cli.py day-trade --execute  # Execute (old script mode)
-python cli.py day-status        # Today's status
-python cli.py day-close         # Force close all
-python cli.py pulse             # Market dashboard
+### Intraday Trading (826bcae0) — every 15min, Mon-Fri 7-12 PST
+
+```
+You are running an intraday US stock trading cycle on Alpaca paper account.
+
+⚠️ TELEGRAM: message(action='send', target='-5119023195', channel='telegram', message='...')
+
+HARD CONSTRAINTS:
+1. All positions MUST be closed by 12:45 PM PST
+2. No trading 6:30-6:45 AM PST (opening spike)
+
+TOOLS: cd /Users/zhilongzheng/Projects/us-stock-trading && source .venv/bin/activate && PYTHONPATH=. python -c '...'
+  from scripts.intraday.agent_tools import account, positions, orders_today
+  from scripts.intraday.agent_tools import scan, signals, spread, suggest_size
+  from scripts.intraday.agent_tools import buy, sell, close, close_all
+  from scripts.intraday.agent_tools import market_regime, reconcile_pnl
+
+YOUR JOB:
+  1. Check state (account, positions, orders)
+  2. Manage open positions — stops hit? targets reached? time to exit?
+  3. Scan for opportunities — evaluate, size, decide
+  4. Execute with conviction — verify fills
+  5. If <60min to forced close, prefer exits over new entries
+
+REPORT to '-5119023195' only if trade executed. Otherwise HEARTBEAT_OK.
 ```
 
 ## Architecture
 
 ```
 scripts/intraday/
-├── agent_tools.py    # ← Agent tool functions (V3.0 — use this)
-├── scanner.py        # Pre-market scanning (called by agent_tools.scan)
-├── signals.py        # Technical signals (called by agent_tools.signals)
-├── risk.py           # Risk calculations (called by agent_tools.suggest_size)
-└── trader.py         # Legacy V2.x trader class (deprecated for agent use)
+├── agent_tools.py    # Agent tool functions (V3.0)
+├── scanner.py        # Candidate scanning
+├── signals.py        # Technical signals
+├── risk.py           # Risk calculations
+└── trader.py         # Legacy (deprecated for agent use)
 ```
