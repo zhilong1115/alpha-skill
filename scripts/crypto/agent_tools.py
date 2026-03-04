@@ -313,34 +313,75 @@ def hl_open_orders(testnet: bool = False) -> list[dict]:
     return info.open_orders(addr)
 
 
-def suggest_stop(symbol: str, entry_price: float, side: str = "long", atr_multiple: float = 1.5) -> dict:
-    """Calculate ATR-based stop-loss price.
+def suggest_stop(symbol: str, entry_price: float, side: str = "long",
+                 current_price: Optional[float] = None, atr_multiple: float = 1.5) -> dict:
+    """Calculate dynamic stop-loss recommendation based on position state.
 
-    Uses 1.5x ATR below entry (long) or above entry (short).
-    This is the MINIMUM stop distance — agent should move it further
-    if a structural support level exists below.
+    Initial stop: 1.5x ATR from entry (minimum floor).
+    Trailing stop: as position profits, stop moves up to lock in gains.
 
-    Returns: {stop_price, atr, atr_pct, distance_pct, note}
+    Trailing tiers (for longs):
+      ROE < 10%:  stop = entry - 1.5x ATR  (initial, protect capital)
+      ROE 10-20%: stop = entry - 0.5x ATR  (near breakeven, let it breathe)
+      ROE 20-40%: stop = entry + 0.5x ATR  (lock in some profit)
+      ROE > 40%:  stop = entry + 1.0x ATR  (trail aggressively)
+
+    Always returns the HIGHER of initial stop and trailing stop (never move stop down).
+
+    Returns: {stop_price, atr, atr_pct, roe_pct, tier, note, action}
     """
     ind = get_indicators(symbol)
     atr = ind.get("atr_14", 0)
     atr_pct = ind.get("atr_pct", 0)
+    mark = current_price or ind.get("price", entry_price)
 
+    # Calculate ROE (simplified: price change / entry, not margin-adjusted)
+    price_change_pct = (mark - entry_price) / entry_price * 100 if side == "long" else (entry_price - mark) / entry_price * 100
+
+    # Initial stop (capital protection floor)
     if side == "long":
-        stop_price = entry_price - (atr * atr_multiple)
+        initial_stop = entry_price - (atr * atr_multiple)
     else:
-        stop_price = entry_price + (atr * atr_multiple)
+        initial_stop = entry_price + (atr * atr_multiple)
 
-    distance_pct = abs(stop_price - entry_price) / entry_price * 100
+    # Trailing stop based on profit tier
+    if price_change_pct < 10:
+        trailing_stop = initial_stop
+        tier = "initial"
+        note = "below breakeven threshold — hold at initial stop"
+    elif price_change_pct < 20:
+        trailing_stop = entry_price - (atr * 0.5) if side == "long" else entry_price + (atr * 0.5)
+        tier = "near_breakeven"
+        note = "move stop near breakeven, protect against reversal"
+    elif price_change_pct < 40:
+        trailing_stop = entry_price + (atr * 0.5) if side == "long" else entry_price - (atr * 0.5)
+        tier = "lock_profit"
+        note = "lock in partial profit, stop above entry"
+    else:
+        trailing_stop = entry_price + (atr * 1.0) if side == "long" else entry_price - (atr * 1.0)
+        tier = "trail_aggressive"
+        note = "strong profit — trail stop aggressively"
+
+    # Never move stop in wrong direction
+    if side == "long":
+        recommended_stop = max(initial_stop, trailing_stop)
+    else:
+        recommended_stop = min(initial_stop, trailing_stop)
+
+    distance_pct = abs(recommended_stop - entry_price) / entry_price * 100
 
     return {
         "symbol": symbol,
         "entry": entry_price,
-        "stop_price": round(stop_price, 2),
+        "current_price": round(mark, 2),
+        "price_change_pct": round(price_change_pct, 2),
+        "stop_price": round(recommended_stop, 2),
         "atr": round(atr, 2),
         "atr_pct": round(atr_pct, 2),
-        "distance_pct": round(distance_pct, 2),
-        "note": f"{atr_multiple}x ATR = ${atr*atr_multiple:,.0f} below entry"
+        "distance_from_entry_pct": round(distance_pct, 2),
+        "tier": tier,
+        "note": note,
+        "action": "raise_stop" if trailing_stop > initial_stop and side == "long" else "maintain_stop",
     }
 
 

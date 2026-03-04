@@ -1,107 +1,6 @@
 [
   {
     "source": "alpaca:benzinga",
-    "headline": "Core Scientific&#39;s Bitcoin Mining Revenue Slides, But CoreWeave Deal Ahead of Schedule",
-    "summary": "Core Scientific reports wider loss and lower sales as bitcoin mining drops, but CoreWeave expansion stays on track.",
-    "symbols": [
-      "BTCUSD",
-      "CORZ",
-      "CRWV"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "revenue"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-03-03T19:28:35Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/03/51014475/core-scientifics-bitcoin-mining-revenue-slides-but-coreweave-deal-ahead-of-schedule"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Circle Internet Group shares are trading higher after Mizuho maintained its Neutral rating and raised the price target on the stock from $90 to $100.",
-    "summary": "",
-    "symbols": [
-      "CRCL"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-03-03T19:29:48Z",
-    "url": "https://www.benzinga.com/wiim/26/03/51014513/circle-internet-group-shares-are-trading-higher-after-mizuho-maintained-its-neutral-rating-and-raise"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "Zscaler shares are trading higher after Wells Fargo initiated its coverage on the stock with an Overweight rating and announced a price target of $200.",
-    "summary": "",
-    "symbols": [
-      "ZS"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-03-03T19:34:59Z",
-    "url": "https://www.benzinga.com/wiim/26/03/51014680/zscaler-shares-are-trading-higher-after-wells-fargo-initiated-its-coverage-on-the-stock-with-an-over"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "What&#39;s Going On With MongoDB Stock Today?",
-    "summary": "MongoDB shares sank after a strong quarter as investors zeroed in on softer near-term guidance and analysts cut price targets.",
-    "symbols": [
-      "MDB"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "SA",
-    "matched_tickers": [
-      "SA"
-    ],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-03-03T19:35:27Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/03/51014710/whats-going-on-with-mongodb-stock-today"
-  },
-  {
-    "source": "alpaca:benzinga",
-    "headline": "JP Morgan Maintains Overweight on Ferrari, Raises Price Target to $447",
-    "summary": "JP Morgan  analyst Jose Asumendi   maintains Ferrari (NYSE:RACE) with a Overweight and raises the price target from $407 to $447.",
-    "symbols": [
-      "RACE"
-    ],
-    "urgency": "high",
-    "is_macro": false,
-    "ticker": "MACRO",
-    "matched_tickers": [],
-    "keywords": [
-      "price target"
-    ],
-    "sentiment": "neutral",
-    "action_type": "monitor",
-    "timestamp": "2026-03-03T19:35:41Z",
-    "url": "https://www.benzinga.com/news/26/03/51014720/jp-morgan-maintains-overweight-on-ferrari-raises-price-target-to-447"
-  },
-  {
-    "source": "alpaca:benzinga",
     "headline": "Keysight Expands 6G Push With Qualcomm Partnership",
     "summary": "Keysight Technologies announces collaboration with Qualcomm Technologies to enhance RF digital twins and optimize 5G/6G networks.",
     "symbols": [
@@ -2092,5 +1991,102 @@
     "action_type": "sell",
     "timestamp": "2026-03-03T21:25:27Z",
     "url": "https://www.benzinga.com/wiim/26/03/51019956/indie-semiconductor-shares-are-trading-lower-after-the-company-announced-a-150-million-mixed-shelf-o"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "CrowdStrike Beats Q4 Estimates, Sees &#39;Massive&#39; Growth Opportunity Ahead",
+    "summary": "CrowdStrike Holdings Inc (NASDAQ:CRWD) reports financial results for the fourth quarter after the market close on Tuesday.",
+    "symbols": [
+      "CRWD"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "CRWD",
+    "matched_tickers": [
+      "CRWD"
+    ],
+    "keywords": [
+      "beat"
+    ],
+    "sentiment": "bullish",
+    "action_type": "buy",
+    "timestamp": "2026-03-03T21:25:44Z",
+    "url": "https://www.benzinga.com/markets/earnings/26/03/51019980/crowdstrike-beats-q4-estimates-sees-massive-growth-opportunity-ahead"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Iran War and Oil Price Surge: Bitcoin Is Falling, But Is Crypto Safe?",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "neutral",
+    "action_type": "monitor",
+    "timestamp": "2026-03-02T13:10:45Z",
+    "url": "https://finance.yahoo.com/news/iran-war-oil-price-surge-131045129.html"
+  },
+  {
+    "source": "rss:Yahoo_Finance",
+    "headline": "Breaking: Michael Saylor\u2019s Strategy Adds 3,015 BTC as Bitcoin Holds Steady Despite U.S.-Iran War",
+    "summary": "",
+    "symbols": [],
+    "urgency": "critical",
+    "is_macro": true,
+    "ticker": "SA",
+    "matched_tickers": [
+      "SA"
+    ],
+    "keywords": [
+      "war "
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-02T13:07:10Z",
+    "url": "https://finance.yahoo.com/news/breaking-michael-saylor-strategy-adds-130710212.html"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "CORRECTION: indie Semiconductor, Inc. Plans $150M Convertible Notes Offering Due 2031",
+    "summary": "",
+    "symbols": [
+      "INDI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-03T21:28:28Z",
+    "url": "https://www.benzinga.com/news/26/03/51020124/correction-indie-semiconductor-inc-plans-150m-convertible-notes-offering-due-2031"
+  },
+  {
+    "source": "alpaca:benzinga",
+    "headline": "indie Semiconductor shares are trading lower after the company announced a $150 million Convertible Notes offering.",
+    "summary": "",
+    "symbols": [
+      "INDI"
+    ],
+    "urgency": "high",
+    "is_macro": false,
+    "ticker": "MACRO",
+    "matched_tickers": [],
+    "keywords": [
+      "offering"
+    ],
+    "sentiment": "bearish",
+    "action_type": "sell",
+    "timestamp": "2026-03-03T21:29:13Z",
+    "url": "https://www.benzinga.com/wiim/26/03/51020153/indie-semiconductor-shares-are-trading-lower-after-the-company-announced-a-150-million-convertible-n"
   }
 ]
