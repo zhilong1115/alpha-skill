@@ -1618,5 +1618,245 @@
     },
     "timestamp": "2026-03-04T02:28:01.349367-08:00",
     "logged_at": "2026-03-04T02:28:01.350764-08:00"
+  },
+  {
+    "symbol": "ETH",
+    "action": "close",
+    "side": "sell",
+    "size": 0.0245,
+    "price": 1931.9,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0245",
+                "avgPx": "1971.3",
+                "oid": 340614516678
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-06T08:59:04.962842-08:00",
+    "logged_at": "2026-03-06T08:59:04.964635-08:00"
+  },
+  {
+    "symbol": "SOL",
+    "action": "close",
+    "side": "sell",
+    "size": 0.76,
+    "price": 82.59,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.76",
+                "avgPx": "84.2707",
+                "oid": 340614605785
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-06T08:59:12.589256-08:00",
+    "logged_at": "2026-03-06T08:59:12.590089-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00066,
+    "price": 68883.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00066",
+                "avgPx": "68202.2",
+                "oid": 340746847012
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-06T11:27:23.720987-08:00",
+    "logged_at": "2026-03-06T11:27:23.723645-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "action": "close",
+    "side": "sell",
+    "size": 0.00066,
+    "price": 65658.0,
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00066",
+                "avgPx": "66997.0",
+                "oid": 341795753358
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-07T20:11:36.517293-08:00",
+    "logged_at": "2026-03-07T20:11:36.520286-08:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00043,
+    "price": 70888.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00043",
+                "avgPx": "70177.0",
+                "oid": 343909932836
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-09T20:11:25.148264-07:00",
+    "logged_at": "2026-03-09T20:11:25.151795-07:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0147,
+    "price": 2063.4,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0147",
+                "avgPx": "2042.6",
+                "oid": 343910073190
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-09T20:11:35.763310-07:00",
+    "logged_at": "2026-03-09T20:11:35.764707-07:00"
+  },
+  {
+    "symbol": "BTC",
+    "side": "buy",
+    "size": 0.00042,
+    "price": 71782.0,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.00042",
+                "avgPx": "71072.0",
+                "oid": 344207905680
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-10T02:39:18.456352-07:00",
+    "logged_at": "2026-03-10T02:39:18.458807-07:00"
+  },
+  {
+    "symbol": "ETH",
+    "side": "buy",
+    "size": 0.0147,
+    "price": 2088.3,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.0147",
+                "avgPx": "2067.7",
+                "oid": 344207980404
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-10T02:39:26.035160-07:00",
+    "logged_at": "2026-03-10T02:39:26.036753-07:00"
+  },
+  {
+    "symbol": "SOL",
+    "side": "buy",
+    "size": 0.52,
+    "price": 88.14,
+    "leverage": 3,
+    "order_type": "market",
+    "result": {
+      "status": "ok",
+      "response": {
+        "type": "order",
+        "data": {
+          "statuses": [
+            {
+              "filled": {
+                "totalSz": "0.52",
+                "avgPx": "87.267",
+                "oid": 344208036120
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timestamp": "2026-03-10T02:39:32.406268-07:00",
+    "logged_at": "2026-03-10T02:39:32.408002-07:00"
   }
 ]

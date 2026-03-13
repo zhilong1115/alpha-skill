@@ -184,77 +184,72 @@ def _save_pending(alerts: list[dict]) -> None:
 
 
 def add_alert(alert: dict) -> None:
-    """Add a new alert to the pending queue and notify the agent for critical/high."""
+    """Add alert to pending queue, write to intraday journal, and trigger agent for critical news."""
     pending = _load_pending()
     pending.append(alert)
     _save_pending(pending)
     logger.info("🚨 ALERT: [%s] %s — %s", alert.get("urgency", "?"), alert.get("ticker", "MACRO"), alert.get("headline", "")[:80])
 
-    # Notify Alpha agent only for CRITICAL news (not high — too many false positives)
-    # On weekends: only crypto alerts — can't trade stocks, macro can wait till Monday
+    # Write every alert to intraday journal for cross-cycle context
+    _write_to_journal(alert)
+
+    # Trigger immediate trading cycle for CRITICAL news
+    # On weekends: only crypto alerts — can't trade stocks
     if alert.get("urgency") == "critical":
-        is_weekend = datetime.now().weekday() >= 5  # Sat=5, Sun=6
+        is_weekend = datetime.now().weekday() >= 5
         if not is_weekend or alert.get("is_crypto"):
             _notify_agent(alert)
 
 
+def _write_to_journal(alert: dict) -> None:
+    """Write news alert to intraday journal for trading agent context."""
+    try:
+        from scripts.intraday.agent_tools import write_journal
+        write_journal("news", {
+            "note": f"[{alert.get('urgency', 'normal').upper()}] {alert.get('headline', '')[:200]}",
+            "ticker": alert.get("ticker", "MACRO"),
+            "tickers": alert.get("matched_tickers", []),
+            "sentiment": alert.get("sentiment", "neutral"),
+            "action_type": alert.get("action_type", "monitor"),
+            "urgency": alert.get("urgency", "normal"),
+            "source": alert.get("source", "unknown"),
+        })
+    except Exception as e:
+        logger.warning("Failed to write journal: %s", e)
+
+
 def _notify_agent(alert: dict) -> None:
-    """Send breaking news alert via two channels for reliability:
-    
-    1. openclaw message send → posts directly to Telegram group (reliable, instant)
-    2. openclaw agent → triggers Alpha agent turn to evaluate and act
-    
-    Both run in a background thread to avoid blocking the async event loop.
+    """Trigger an immediate trading cycle via `openclaw cron run` for breaking news.
+
+    This fires the intraday trading cron job right now, so the agent wakes up
+    and can react to the news within seconds instead of waiting up to 15 minutes.
     """
     import threading
+
+    INTRADAY_CRON_ID = "826bcae0-34a2-4f24-a0ae-913f86a39385"
 
     def _send():
         import subprocess
 
         urgency = alert.get("urgency", "unknown").upper()
         headline = alert.get("headline", "")[:200]
-        sentiment = alert.get("sentiment", "neutral")
-        action = alert.get("action_type", "monitor")
         tickers = ", ".join(alert.get("matched_tickers", [])) or "N/A"
-        source = alert.get("source", "unknown")
-        is_crypto = alert.get("is_crypto", False)
 
-        # Format alert message
-        emoji = "🚨" if urgency == "CRITICAL" else "⚠️"
-        market = "CRYPTO" if is_crypto else "STOCK"
-        msg = (
-            f"{emoji} BREAKING [{urgency}] [{market}]\n"
-            f"{headline}\n"
-            f"Tickers: {tickers} | Sentiment: {sentiment} | Action: {action}\n"
-            f"Source: {source}"
-        )
+        logger.info("⚡ Triggering immediate trading cycle for: [%s] %s — %s",
+                     urgency, tickers, headline[:80])
 
-        # Inject into Alpha agent session only (no direct Telegram post)
-        # Agent will report to group only if news triggers a trade
-        agent_msg = (
-            f"{msg}\n\n"
-            f"⚡ This is a real-time news interrupt. Check your positions immediately.\n"
-            f"Use agent_tools to assess impact and decide: hold, close, or adjust stops."
-        )
         try:
             result = subprocess.run(
-                [
-                    "openclaw", "agent",
-                    "--agent", "alpha",
-                    "--session-id", "5c56ab91-c23f-4a8b-8f6f-92f4a6c50cca",
-                    "--message", agent_msg,
-                    "--deliver",
-                ],
-                capture_output=True, text=True, timeout=120,
+                ["openclaw", "cron", "run", INTRADAY_CRON_ID],
+                capture_output=True, text=True, timeout=30,
             )
             if result.returncode == 0:
-                logger.info("✅ Agent turn triggered: [%s] %s", urgency, alert.get("ticker", "MACRO"))
+                logger.info("✅ Trading cycle triggered for breaking news: [%s] %s", urgency, tickers)
             else:
-                logger.warning("Agent turn failed (rc=%d): %s", result.returncode, result.stderr[:200])
+                logger.warning("Cron run failed (rc=%d): %s", result.returncode, result.stderr[:200])
         except Exception as e:
-            logger.warning("Failed to trigger agent turn: %s", e)
+            logger.warning("Failed to trigger trading cycle: %s", e)
 
-    # Run in thread to not block async loop
     t = threading.Thread(target=_send, daemon=True)
     t.start()
 

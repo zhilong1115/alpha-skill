@@ -25,11 +25,11 @@ ET = ZoneInfo("America/New_York")
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 STATE_FILE = DATA_DIR / "intraday_state.json"
 
-# Risk parameters
-MAX_POSITIONS = 5
-MAX_POSITION_PCT = 6.5         # % of portfolio per trade
-MAX_DAILY_LOSS_DOLLARS = 500
-MAX_DAILY_LOSS_PCT = 0.5       # % of portfolio
+# Risk parameters — V3: agent-driven, no hard caps on sizing
+MAX_POSITIONS = 99             # effectively unlimited — agent decides
+MAX_POSITION_PCT = 50.0        # generous ceiling — agent sizes based on conviction
+MAX_DAILY_LOSS_DOLLARS = 2000  # safety net only
+MAX_DAILY_LOSS_PCT = 2.0       # % of portfolio — last resort circuit breaker
 HARD_CLOSE_HOUR_ET = 15        # V2.2: 15:45 ET (was 12:45 PT)
 HARD_CLOSE_MINUTE_ET = 45
 

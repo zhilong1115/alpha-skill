@@ -1,0 +1,13 @@
+{
+  "date": "2026-03-13",
+  "trades": [],
+  "open_positions": {},
+  "realized_pnl": 0.0,
+  "total_trades": 0,
+  "stopped_trading": false,
+  "stop_reason": null,
+  "symbol_trade_counts": {},
+  "symbol_last_result": {},
+  "consecutive_losses": 0,
+  "loss_pause_until": null
+}

@@ -4,13 +4,16 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 
 ## Architecture: Two Independent Modes
 
-### Mode A: Intraday Day Trading (Alpaca, Automated)
-- **Full market scanning** via Alpaca Screener API — top gainers, losers, most active stocks across entire market
+### Mode A: Intraday Day Trading (Alpaca, Agent-Driven)
+- **Agent-driven**: LLM agent owns the decision loop — no hardcoded rules for sizing or entry
+- **Full market scanning** via Alpaca Screener API — top gainers, losers, most active stocks
 - **5-minute candle signals**: VWAP, Opening Range Breakout, momentum slope, RSI, volume profile
-- **Catalyst-driven**: gaps >2%, unusual volume, breaking news
-- **Strict risk**: max 5 positions, 2% stop-loss, 4% take-profit, 1% daily loss cap
+- **Catalyst-driven**: gaps >3%, unusual volume, breaking news
+- **News interrupt system**: Critical news triggers immediate trading cycle (not just next 15-min cron)
+- **Intraday journal**: Cross-cycle memory via JSONL — agent remembers earlier trades, news, observations
+- **Aggressive sizing**: Agent sizes based on conviction (20-30% per position on high conviction)
+- **Safety net**: $2K daily loss circuit breaker
 - **12:45 PM PT hard close** — all positions liquidated, no overnight holds
-- Target: 3-8 selective trades/day
 
 ### Mode C: Crypto Trading (Alpaca Paper, Conservative)
 - **Symbols**: BTC/USD, ETH/USD, SOL/USD on Alpaca paper trading
@@ -48,16 +51,13 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 #### Intraday Risk (V2.1)
 | Control | Value |
 |---------|-------|
-| Max positions | 5 |
-| Position size | 5-8% of portfolio (6.5% default) |
-| Stop-loss | 2% per trade |
-| Take-profit | 4% per trade (2:1 R/R) |
-| Daily loss cap | -$500 (or 0.5% of portfolio) |
-| Dead zone | No entries 10:30-11:30 AM ET |
-| Staged entry | Buy 1/2, add 1/2 at +0.5% |
-| Trailing stop | Move to breakeven at +1.5% |
-| Time exit | Close after 2h if <1% gain |
-| Hard close | 12:45 PM PT |
+| Sizing | Agent-driven, ~25% default suggestion, no hard cap |
+| Stop-loss | ATR-based (1.5× ATR), agent can override |
+| Take-profit | ATR-based (3.0× ATR, 1:2 R/R), agent decides |
+| Daily loss cap | $2,000 circuit breaker (safety net) |
+| Hard close | 12:45 PM PT — no overnight holds |
+| News interrupt | Critical news triggers immediate cycle |
+| Journal | Cross-cycle memory via `data/journal/` |
 
 #### Swing Risk (Recommendation-level)
 | Control | Value |

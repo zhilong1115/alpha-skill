@@ -1,6 +1,6 @@
 """Intraday Agent Tools — atomic functions for agent-driven day trading.
 
-V3.0: Replaces the monolithic IntradayTrader class with composable tool functions.
+V3.1: Adds intraday journal for cross-cycle context persistence.
 The agent (not a script) owns the decision loop: scan → decide → execute → verify → adapt.
 
 Key principles:
@@ -8,21 +8,22 @@ Key principles:
 2. Order execution always returns fill status — no fire-and-forget
 3. P&L comes from Alpaca fills, not local snapshots
 4. State is truth-synced with Alpaca, not tracked independently
+5. Journal provides intraday memory across 15-min cycles
 
 Usage by agent:
-    1. account() → get cash, equity, buying power
-    2. positions() → get all Alpaca positions with real P&L
-    3. scan() → get ranked candidates with signals
-    4. Agent decides which to trade, how much
-    5. buy(ticker, qty) → returns fill price, qty, order_id
-    6. Agent verifies fill, records position
-    7. sell(ticker, qty) or close(ticker) → returns fill details
-    8. Agent computes P&L from actual fills
-    9. orders_today() → full audit trail from Alpaca
+    1. read_journal() → get today's context (news, trades, observations)
+    2. account() → get cash, equity, buying power
+    3. positions() → get all Alpaca positions with real P&L
+    4. scan() → get ranked candidates with signals
+    5. Agent decides which to trade, how much
+    6. buy(ticker, qty) → returns fill price, qty, order_id
+    7. write_journal(entry) → record decision/observation for future cycles
+    8. reconcile_pnl() → true P&L from Alpaca fills
 """
 
 from __future__ import annotations
 
+import json as _json
 import logging
 import time as _time
 from datetime import datetime, date, timezone
@@ -30,6 +31,72 @@ from pathlib import Path
 from typing import Optional
 
 logger = logging.getLogger(__name__)
+
+DATA_DIR = Path(__file__).resolve().parents[2] / "data"
+JOURNAL_DIR = DATA_DIR / "journal"
+
+
+# ── Intraday Journal (cross-cycle memory) ──────────────────────────────────
+
+def read_journal(date_str: str = "") -> list[dict]:
+    """Read today's intraday journal — news alerts, trades, observations.
+
+    The journal persists across 15-min cron cycles, giving the agent
+    memory of what happened earlier in the trading day.
+
+    Args:
+        date_str: ISO date (default: today). Format: YYYY-MM-DD.
+
+    Returns: List of journal entries sorted by timestamp.
+    """
+    if not date_str:
+        date_str = date.today().isoformat()
+
+    journal_file = JOURNAL_DIR / f"{date_str}.jsonl"
+    if not journal_file.exists():
+        return []
+
+    entries = []
+    for line in journal_file.read_text().strip().split("\n"):
+        if line.strip():
+            try:
+                entries.append(_json.loads(line))
+            except Exception:
+                continue
+    return entries
+
+
+def write_journal(entry_type: str, content: dict) -> dict:
+    """Append an entry to today's intraday journal.
+
+    Use this to record trades, observations, and decisions so future
+    cycles within the same trading day have context.
+
+    Args:
+        entry_type: One of "trade", "observation", "decision", "news", "alert"
+        content: Dict with relevant details. Always include a human-readable "note".
+
+    Returns: The written entry with timestamp.
+
+    Example:
+        write_journal("observation", {"note": "Market turning bullish after 10AM, SPY reclaiming VWAP"})
+        write_journal("trade", {"note": "Bought 500 DOW@37.2, strong ORB breakout + volume confirmed"})
+        write_journal("decision", {"note": "Avoiding NVDA today — spread too wide pre-10AM"})
+    """
+    JOURNAL_DIR.mkdir(parents=True, exist_ok=True)
+    journal_file = JOURNAL_DIR / f"{date.today().isoformat()}.jsonl"
+
+    entry = {
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "type": entry_type,
+        **content,
+    }
+
+    with open(journal_file, "a") as f:
+        f.write(_json.dumps(entry, default=str) + "\n")
+
+    logger.info("📝 Journal [%s]: %s", entry_type, content.get("note", "")[:80])
+    return entry
 
 
 # ── Account & Positions ────────────────────────────────────────────────────
@@ -405,7 +472,7 @@ def suggest_size(ticker: str, current_price: float, portfolio_value: float,
     target_price = round(current_price + target_distance, 2)
 
     # Size
-    max_value = portfolio_value * 0.065  # 6.5% max
+    max_value = portfolio_value * 0.25  # 25% default suggestion — agent can override
     qty = int(max_value / current_price) if current_price > 0 else 0
 
     # Time weight
