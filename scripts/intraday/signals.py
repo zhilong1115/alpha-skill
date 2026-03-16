@@ -3,17 +3,28 @@
 from __future__ import annotations
 
 import logging
+import os
+from pathlib import Path
 from typing import Optional
 
 import pandas as pd
 import numpy as np
-import yfinance as yf
 
 logger = logging.getLogger(__name__)
 
+# Load .env for Alpaca credentials (needed when running from cron)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parents[2] / ".env")
+except ImportError:
+    pass
+
+_ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "")
+_ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "")
+
 
 def get_intraday_data(ticker: str, period: str = "1d", interval: str = "5m") -> pd.DataFrame:
-    """Fetch intraday candle data.
+    """Fetch intraday candle data from Alpaca (primary) with yfinance fallback.
 
     Args:
         ticker: Stock symbol.
@@ -21,8 +32,75 @@ def get_intraday_data(ticker: str, period: str = "1d", interval: str = "5m") -> 
         interval: Candle interval (1m, 5m, 15m).
 
     Returns:
-        DataFrame with OHLCV data.
+        DataFrame with OHLCV columns: Open, High, Low, Close, Volume.
     """
+    # Try Alpaca first (more reliable volume data)
+    if _ALPACA_KEY and _ALPACA_SECRET:
+        try:
+            df = _get_alpaca_bars(ticker, interval)
+            if not df.empty:
+                return df
+        except Exception as e:
+            logger.warning("Alpaca bars failed for %s: %s, falling back to yfinance", ticker, e)
+
+    # Fallback to yfinance
+    return _get_yfinance_bars(ticker, period, interval)
+
+
+def _get_alpaca_bars(ticker: str, interval: str = "5m") -> pd.DataFrame:
+    """Fetch today's intraday bars from Alpaca."""
+    from alpaca.data.historical import StockHistoricalDataClient
+    from alpaca.data.requests import StockBarsRequest
+    from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
+    from datetime import datetime
+    import pytz
+
+    client = StockHistoricalDataClient(_ALPACA_KEY, _ALPACA_SECRET)
+
+    # Map interval string to Alpaca TimeFrame
+    tf_map = {
+        "1m": TimeFrame.Minute,
+        "5m": TimeFrame(5, TimeFrameUnit.Minute),
+        "15m": TimeFrame(15, TimeFrameUnit.Minute),
+    }
+    tf = tf_map.get(interval, TimeFrame(5, TimeFrameUnit.Minute))
+
+    # Get today's bars from market open (9:30 ET)
+    et = pytz.timezone("US/Eastern")
+    now = datetime.now(et)
+    start = now.replace(hour=9, minute=30, second=0, microsecond=0)
+
+    req = StockBarsRequest(
+        symbol_or_symbols=ticker,
+        timeframe=tf,
+        start=start.isoformat(),
+        limit=500,
+    )
+    bars = client.get_stock_bars(req)
+
+    if ticker not in bars.data or not bars.data[ticker]:
+        return pd.DataFrame()
+
+    rows = []
+    for b in bars.data[ticker]:
+        rows.append({
+            "Datetime": b.timestamp,
+            "Open": float(b.open),
+            "High": float(b.high),
+            "Low": float(b.low),
+            "Close": float(b.close),
+            "Volume": int(b.volume),
+        })
+
+    df = pd.DataFrame(rows)
+    df.set_index("Datetime", inplace=True)
+    df.index = pd.to_datetime(df.index, utc=True)
+    return df
+
+
+def _get_yfinance_bars(ticker: str, period: str = "1d", interval: str = "5m") -> pd.DataFrame:
+    """Fetch intraday candle data from yfinance (legacy fallback)."""
+    import yfinance as yf
     try:
         data = yf.download(ticker, period=period, interval=interval, progress=False)
         if data.empty:
@@ -32,7 +110,7 @@ def get_intraday_data(ticker: str, period: str = "1d", interval: str = "5m") -> 
             data.columns = data.columns.get_level_values(0)
         return data
     except Exception as e:
-        logger.error("Failed to fetch intraday data for %s: %s", ticker, e)
+        logger.error("Failed to fetch yfinance data for %s: %s", ticker, e)
         return pd.DataFrame()
 
 
