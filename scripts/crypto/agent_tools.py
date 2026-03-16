@@ -313,75 +313,94 @@ def hl_open_orders(testnet: bool = False) -> list[dict]:
     return info.open_orders(addr)
 
 
-def suggest_stop(symbol: str, entry_price: float, side: str = "long",
-                 current_price: Optional[float] = None, atr_multiple: float = 1.5) -> dict:
-    """Calculate dynamic stop-loss recommendation based on position state.
+def stop_context(symbol: str, entry_price: float, side: str = "long",
+                 current_price: Optional[float] = None,
+                 current_stop: Optional[float] = None) -> dict:
+    """Provide raw data for agent to decide stop-loss placement.
 
-    Initial stop: 1.5x ATR from entry (minimum floor).
-    Trailing stop: as position profits, stop moves up to lock in gains.
+    No hardcoded tiers or rules — the agent uses this data plus its own
+    judgment (indicators, regime, news, position sizing) to set stops.
 
-    Trailing tiers (for longs):
-      ROE < 10%:  stop = entry - 1.5x ATR  (initial, protect capital)
-      ROE 10-20%: stop = entry - 0.5x ATR  (near breakeven, let it breathe)
-      ROE 20-40%: stop = entry + 0.5x ATR  (lock in some profit)
-      ROE > 40%:  stop = entry + 1.0x ATR  (trail aggressively)
-
-    Always returns the HIGHER of initial stop and trailing stop (never move stop down).
-
-    Returns: {stop_price, atr, atr_pct, roe_pct, tier, note, action}
+    Returns raw context: prices, ATR, PnL, key levels, current stop info.
+    The agent decides what stop price to use via hl_set_stop().
     """
     ind = get_indicators(symbol)
     atr = ind.get("atr_14", 0)
     atr_pct = ind.get("atr_pct", 0)
     mark = current_price or ind.get("price", entry_price)
 
-    # Calculate ROE (simplified: price change / entry, not margin-adjusted)
-    price_change_pct = (mark - entry_price) / entry_price * 100 if side == "long" else (entry_price - mark) / entry_price * 100
-
-    # Initial stop (capital protection floor)
+    # PnL calculation
     if side == "long":
-        initial_stop = entry_price - (atr * atr_multiple)
+        pnl_pct = (mark - entry_price) / entry_price * 100
     else:
-        initial_stop = entry_price + (atr * atr_multiple)
+        pnl_pct = (entry_price - mark) / entry_price * 100
 
-    # Trailing stop based on profit tier
-    if price_change_pct < 10:
-        trailing_stop = initial_stop
-        tier = "initial"
-        note = "below breakeven threshold — hold at initial stop"
-    elif price_change_pct < 20:
-        trailing_stop = entry_price - (atr * 0.5) if side == "long" else entry_price + (atr * 0.5)
-        tier = "near_breakeven"
-        note = "move stop near breakeven, protect against reversal"
-    elif price_change_pct < 40:
-        trailing_stop = entry_price + (atr * 0.5) if side == "long" else entry_price - (atr * 0.5)
-        tier = "lock_profit"
-        note = "lock in partial profit, stop above entry"
-    else:
-        trailing_stop = entry_price + (atr * 1.0) if side == "long" else entry_price - (atr * 1.0)
-        tier = "trail_aggressive"
-        note = "strong profit — trail stop aggressively"
-
-    # Never move stop in wrong direction
+    # Reference levels for agent context (not prescriptive)
+    ref_levels = {}
     if side == "long":
-        recommended_stop = max(initial_stop, trailing_stop)
+        ref_levels["breakeven"] = round(entry_price, 2)
+        ref_levels["entry_minus_1atr"] = round(entry_price - atr, 2)
+        ref_levels["entry_minus_1_5atr"] = round(entry_price - atr * 1.5, 2)
+        ref_levels["entry_minus_2atr"] = round(entry_price - atr * 2, 2)
+        ref_levels["entry_plus_0_5atr"] = round(entry_price + atr * 0.5, 2)
+        ref_levels["entry_plus_1atr"] = round(entry_price + atr, 2)
+        ref_levels["current_minus_1atr"] = round(mark - atr, 2)
+        ref_levels["current_minus_1_5atr"] = round(mark - atr * 1.5, 2)
     else:
-        recommended_stop = min(initial_stop, trailing_stop)
+        ref_levels["breakeven"] = round(entry_price, 2)
+        ref_levels["entry_plus_1atr"] = round(entry_price + atr, 2)
+        ref_levels["entry_plus_1_5atr"] = round(entry_price + atr * 1.5, 2)
+        ref_levels["entry_plus_2atr"] = round(entry_price + atr * 2, 2)
+        ref_levels["entry_minus_0_5atr"] = round(entry_price - atr * 0.5, 2)
+        ref_levels["entry_minus_1atr"] = round(entry_price - atr, 2)
+        ref_levels["current_plus_1atr"] = round(mark + atr, 2)
+        ref_levels["current_plus_1_5atr"] = round(mark + atr * 1.5, 2)
 
-    distance_pct = abs(recommended_stop - entry_price) / entry_price * 100
+    # Current stop info
+    stop_info = {}
+    if current_stop:
+        stop_info["current_stop"] = current_stop
+        stop_info["stop_distance_pct"] = round(abs(mark - current_stop) / mark * 100, 2)
+        stop_info["stop_from_entry_pct"] = round((current_stop - entry_price) / entry_price * 100, 2)
 
     return {
         "symbol": symbol,
+        "side": side,
         "entry": entry_price,
         "current_price": round(mark, 2),
-        "price_change_pct": round(price_change_pct, 2),
-        "stop_price": round(recommended_stop, 2),
+        "pnl_pct": round(pnl_pct, 2),
         "atr": round(atr, 2),
         "atr_pct": round(atr_pct, 2),
-        "distance_from_entry_pct": round(distance_pct, 2),
-        "tier": tier,
-        "note": note,
-        "action": "raise_stop" if trailing_stop > initial_stop and side == "long" else "maintain_stop",
+        "reference_levels": ref_levels,
+        "current_stop_info": stop_info,
+        "indicators": {
+            "tsi": ind.get("tsi"),
+            "tsi_signal": ind.get("tsi_signal"),
+            "wavetrend": ind.get("wavetrend_wt1"),
+            "rsi": ind.get("rsi_14"),
+            "sma200_distance_pct": ind.get("sma200_distance_pct"),
+        },
+    }
+
+
+# Keep old name as alias for backward compat
+def suggest_stop(symbol: str, entry_price: float, side: str = "long",
+                 current_price: Optional[float] = None, atr_multiple: float = 1.5) -> dict:
+    """DEPRECATED: Use stop_context() instead. Agent should decide stop placement.
+
+    This wrapper calls stop_context() and returns compatible format.
+    """
+    ctx = stop_context(symbol, entry_price, side, current_price)
+    # Return a minimal compat response — agent should use stop_context() directly
+    return {
+        "symbol": symbol,
+        "entry": entry_price,
+        "current_price": ctx["current_price"],
+        "price_change_pct": ctx["pnl_pct"],
+        "atr": ctx["atr"],
+        "atr_pct": ctx["atr_pct"],
+        "reference_levels": ctx["reference_levels"],
+        "note": "DEPRECATED: Use stop_context() for full data. Agent decides stop placement.",
     }
 
 
