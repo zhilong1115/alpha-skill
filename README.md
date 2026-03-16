@@ -20,7 +20,7 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 - **Strategy**: Conservative E+G Hybrid — TSI, OBV+EMA9, WaveTrend, USDT.D TSI scored against SMA200 regime
 - **Position sizing**: Bull regime 4/4=50%, 3/4=30%, 2/4=15% | Bear regime 4/4=30%, 3/4=15%, 2/4=0%
 - **Capital**: $50K allocation (of $100K paper account), max $25K per coin
-- **Risk**: 5% stop-loss, 4H MA120 hard stop, no leverage
+- **Stops**: Agent-driven — `stop_context()` provides raw data (ATR, PnL%, reference levels); agent decides placement. No hardcoded tiers.
 - **Commands**: `crypto-scan`, `crypto-trade`, `crypto-status`, `crypto-close`
 - 24/7 trading (crypto markets never close)
 
@@ -39,7 +39,7 @@ AI-powered **dual-mode** US stock trading system: **Intraday day-trading** (auto
 
 ### Signal Engines
 - **Daily Signals** — RSI, MACD, Bollinger Bands, SMA crossover, volume anomaly (for swing)
-- **Intraday Signals** — VWAP deviation, ORB breakout, 5-min momentum, RSI(14), relative volume (for day trading)
+- **Intraday Signals** — VWAP deviation, ORB breakout, 5-min momentum, RSI(14), relative volume (for day trading). Data via **Alpaca API** (primary); yfinance as fallback (yfinance 5-min volume data was unreliable).
 
 ### LLM Judgment Layer
 - Rule-based heuristics: macro shocks, catalysts, falling knives, volume confirmation
@@ -174,7 +174,7 @@ us-stock-trading/
 │
 ├── tests/                          # 24 tests
 └── data/
-    ├── intraday_state.json         # Today's day trades
+    ├── journal/                    # Intraday journal (YYYY-MM-DD.jsonl) — only intraday state
     ├── intraday_history/           # Daily archives
     ├── swing_portfolio.json        # Robinhood position tracking
     ├── alerts/pending.json         # News daemon alerts

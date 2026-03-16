@@ -66,7 +66,7 @@ Always read the journal first to know what happened earlier in the day.
 | `spread("AAPL")` | `{bid, ask, spread_pct, acceptable}` |
 | `market_regime()` | `{vix, size_multiplier}` |
 | `scan(top_n=15)` | Ranked candidates with scores + signals |
-| `signals("AAPL")` | Full intraday signals for a ticker |
+| `signals("AAPL")` | Full intraday signals for a ticker (5-min data via Alpaca API primary, yfinance fallback) |
 | `news_alerts()` | Pending news catalysts from daemon |
 
 ### Execution (returns fill details — never fire-and-forget)
@@ -165,6 +165,6 @@ scripts/monitoring/
 └── news_monitor.py   # News analysis
 
 data/
-├── journal/          # Intraday journal (YYYY-MM-DD.jsonl) — cross-cycle memory
+├── journal/          # Intraday journal (YYYY-MM-DD.jsonl) — only intraday state (cross-cycle memory)
 └── alerts/           # News daemon pending alerts
 ```
