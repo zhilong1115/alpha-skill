@@ -132,6 +132,8 @@ def is_ai_worthy(alert: dict) -> bool:
     symbols = [s for s in alert.get("symbols", []) if s]
     keywords = set(alert.get("keywords", []))
 
+    if source.startswith("jin10:") and alert.get("source_important"):
+        return True  # Jin10's editor-curated important flash flag
     if source.startswith("whale:") and alert.get("sentiment") == "neutral":
         return False  # directionless on-chain transfer without attribution
     if len(headline) < 18:

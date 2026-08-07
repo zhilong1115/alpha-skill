@@ -3,7 +3,8 @@
 Architecture:
   1. Alpaca News WebSocket (primary) — sub-second latency, Benzinga source
   2. RSS feeds (secondary) — CNBC, Reuters, MarketWatch, polled every 60s
-  3. Finnhub REST API (tertiary) — general market news, polled every 120s
+  3. Jin10 Flash API — curated Chinese macro/commodity/FX breaking news
+  4. Finnhub REST API (tertiary) — general market news, polled every 120s
 
 When a critical/high-urgency news item is detected:
   1. Classify urgency (critical/high/medium/low)
@@ -18,15 +19,18 @@ from __future__ import annotations
 
 import asyncio
 import hashlib
+import html
 import json
 import logging
 import os
+import re
 import signal
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
+from zoneinfo import ZoneInfo
 
 import feedparser
 
@@ -79,11 +83,15 @@ MACRO_CRITICAL = [
     "tariff", "trade war", "sanction", "war ", "invasion",
     "recession", "default", "debt ceiling", "government shutdown",
     "banking crisis", "bank failure", "emergency",
+    "美联储", "加息", "降息", "关税", "制裁", "战争", "入侵",
+    "债务违约", "政府停摆", "银行危机", "紧急降息",
 ]
 MACRO_HIGH = [
     "inflation", "cpi ", "ppi ", "jobs report", "nonfarm", "unemployment",
     "gdp ", "housing", "consumer confidence", "retail sales",
     "oil price", "crude oil", "opec", "china", "treasury yield",
+    "通胀", "消费者物价", "生产者物价", "非农", "失业率", "国内生产总值",
+    "零售销售", "原油", "欧佩克", "国债收益率", "人民币", "央行",
 ]
 
 # Crypto-specific urgency keywords
@@ -93,6 +101,7 @@ CRYPTO_CRITICAL = [
     "rug pull", "exploit", "flash crash", "bitcoin etf reject",
     "bitcoin ban", "crypto ban", "mt. gox", "ftx", "celsius",
     "bitcoin etf approv", "ethereum etf", "solana etf",
+    "交易所被黑", "稳定币脱锚", "加密货币禁令", "比特币etf获批",
 ]
 CRYPTO_HIGH = [
     # Don't include generic terms like "bitcoin", "btc" — they match everything
@@ -104,6 +113,7 @@ CRYPTO_HIGH = [
     "bitcoin liquidation", "crypto liquidation", "mass liquidation",
     "bitcoin plunge", "bitcoin crash", "crypto crash",
     "bitcoin surge", "bitcoin rally", "crypto rally",
+    "加密货币监管", "加密法案", "稳定币法案", "大规模清算",
 ]
 
 # Ticker-specific urgency keywords (stocks)
@@ -405,6 +415,117 @@ def classify_news(headline: str, summary: str = "", symbols: list[str] | None = 
 def _news_id(headline: str, source: str = "") -> str:
     """Generate a dedup ID for a news item."""
     return hashlib.md5(f"{source}:{headline}".encode()).hexdigest()[:16]
+
+
+# ── Jin10 Flash polling ───────────────────────────────────────────
+
+JIN10_FLASH_URL = "https://flash-api.jin10.com/get_flash_list?channel=-8200&vip=1"
+JIN10_DEFAULT_APP_ID = "bVBF4FyRTn5NJF5n"
+
+
+def _jin10_timestamp(value: str) -> str:
+    """Convert Jin10's Asia/Shanghai wall time to an ISO UTC timestamp."""
+    try:
+        parsed = datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
+        return parsed.replace(tzinfo=ZoneInfo("Asia/Shanghai")).astimezone(timezone.utc).isoformat()
+    except (TypeError, ValueError):
+        return datetime.now(timezone.utc).isoformat()
+
+
+def parse_jin10_item(item: dict, *, important_only: bool = True) -> dict | None:
+    """Normalize one Jin10 flash item into the daemon's alert schema."""
+    data = item.get("data") if isinstance(item.get("data"), dict) else {}
+    extras = item.get("extras") if isinstance(item.get("extras"), dict) else {}
+    if extras.get("ad") or item.get("type") == 1:
+        return None
+
+    raw_content = data.get("content") or data.get("vip_title") or data.get("title") or ""
+    content = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(str(raw_content)))).strip()
+    if not content:
+        return None
+
+    is_important = bool(item.get("important"))
+    if important_only and not is_important:
+        return None
+    classification = classify_news(content)
+    if not is_important and classification["urgency"] not in ("critical", "high"):
+        return None
+
+    urgency = classification["urgency"]
+    if is_important and urgency not in ("critical", "high"):
+        urgency = "high"
+    keywords = classification["keywords_hit"] or (["jin10-important"] if is_important else [])
+    item_id = str(item.get("id") or _news_id(content, "jin10:flash"))
+
+    return {
+        "id": f"jin10:{item_id}",
+        "source": "jin10:flash",
+        "source_important": is_important,
+        "headline": content[:500],
+        "summary": str(data.get("title") or data.get("source") or "")[:300],
+        "symbols": [],
+        "urgency": urgency,
+        "is_macro": classification["is_macro"],
+        "is_crypto": classification.get("is_crypto", False),
+        "ticker": classification["matched_tickers"][0] if classification["matched_tickers"] else "MACRO",
+        "matched_tickers": classification["matched_tickers"],
+        "keywords": keywords,
+        "sentiment": classification["sentiment"],
+        "action_type": classification["action_type"],
+        "timestamp": _jin10_timestamp(str(item.get("time", ""))),
+        "url": str(data.get("link") or data.get("source_link") or "https://www.jin10.com/")[:500],
+    }
+
+
+async def jin10_poll_loop(
+    seen: set[str],
+    stop_event: asyncio.Event,
+    interval: int = 20,
+) -> None:
+    """Poll Jin10's real-time Chinese flash feed."""
+    if os.getenv("JIN10_ENABLED", "1") != "1":
+        logger.info("Jin10 polling disabled")
+        return
+
+    import urllib.request
+
+    important_only = os.getenv("JIN10_IMPORTANT_ONLY", "1") == "1"
+    app_id = os.getenv("JIN10_APP_ID", JIN10_DEFAULT_APP_ID)
+    logger.info("Jin10 polling started (interval=%ds, important_only=%s)", interval, important_only)
+
+    while not stop_event.is_set():
+        try:
+            request = urllib.request.Request(
+                JIN10_FLASH_URL,
+                headers={
+                    "User-Agent": "Friday-Market-News/1.0",
+                    "x-app-id": app_id,
+                    "x-version": "1.0.0",
+                },
+            )
+            response = await asyncio.get_event_loop().run_in_executor(
+                None, lambda: urllib.request.urlopen(request, timeout=15)
+            )
+            payload = json.loads(response.read())
+            if payload.get("status") != 200 or not isinstance(payload.get("data"), list):
+                raise ValueError(f"unexpected Jin10 response: {payload.get('status')}")
+
+            for item in reversed(payload["data"][:30]):
+                alert = parse_jin10_item(item, important_only=important_only)
+                if not alert or alert["id"] in seen:
+                    continue
+                seen.add(alert["id"])
+                add_alert(alert)
+        except Exception as exc:
+            logger.warning("Jin10 poll error: %s", exc)
+
+        _save_seen(seen)
+        try:
+            await asyncio.wait_for(stop_event.wait(), timeout=interval)
+        except asyncio.TimeoutError:
+            pass
+
+    logger.info("Jin10 polling stopped")
 
 
 # ── Alpaca WebSocket ───────────────────────────────────────────────
@@ -851,6 +972,11 @@ async def run_daemon(watchlist: Optional[list[str]] = None) -> None:
     tasks = [
         asyncio.create_task(alpaca_news_stream(watchlist, seen, stop_event)),
         asyncio.create_task(rss_poll_loop(watchlist, seen, stop_event, interval=60)),
+        asyncio.create_task(jin10_poll_loop(
+            seen,
+            stop_event,
+            interval=int(os.getenv("JIN10_POLL_SECONDS", "20")),
+        )),
         asyncio.create_task(finnhub_poll_loop(watchlist, seen, stop_event, interval=120)),
         asyncio.create_task(whale_monitor_loop(seen, stop_event, interval=120)),
     ]

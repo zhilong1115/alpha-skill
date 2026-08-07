@@ -29,6 +29,15 @@ class NewsBriefingTests(unittest.TestCase):
         alert = {"source": "rss:Reuters", "headline": "Federal Reserve announces emergency rate cut", "urgency": "critical"}
         self.assertTrue(briefing.is_ai_worthy(alert))
 
+    def test_jin10_important_flash_is_ai_worthy(self):
+        alert = {
+            "source": "jin10:flash",
+            "source_important": True,
+            "headline": "日本央行公布最新利率决定",
+            "urgency": "high",
+        }
+        self.assertTrue(briefing.is_ai_worthy(alert))
+
     def test_legacy_alert_without_received_at_is_not_recent(self):
         self.assertFalse(briefing.is_recent({"headline": "old"}))
 
