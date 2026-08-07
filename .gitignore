@@ -6,3 +6,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 *.skill
+.news-venv/
+data/alerts/briefing_state.json
+data/alerts/briefing_prompt.txt
+data/news_briefing.log
+data/news_daemon.launch.log
+data/news_daemon.launch.err.log
+data/news_daemon.pid

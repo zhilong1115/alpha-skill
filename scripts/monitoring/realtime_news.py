@@ -185,6 +185,8 @@ def _save_pending(alerts: list[dict]) -> None:
 
 def add_alert(alert: dict) -> None:
     """Add alert to pending queue, write to intraday journal, and trigger agent for critical news."""
+    alert.setdefault("id", _news_id(alert.get("headline", ""), alert.get("source", "unknown")))
+    alert.setdefault("received_at", datetime.now(timezone.utc).isoformat())
     pending = _load_pending()
     pending.append(alert)
     _save_pending(pending)
@@ -195,7 +197,11 @@ def add_alert(alert: dict) -> None:
 
     # Trigger immediate trading cycle for CRITICAL news
     # On weekends: only crypto alerts — can't trade stocks
-    if alert.get("urgency") == "critical":
+    # Financial actions must never be triggered merely because the news daemon
+    # saw a headline. The legacy trading interrupt remains opt-in for backwards
+    # compatibility, but is disabled by default.
+    trading_interrupt_enabled = os.getenv("NEWS_ENABLE_TRADING_INTERRUPT", "0") == "1"
+    if trading_interrupt_enabled and alert.get("urgency") == "critical":
         is_weekend = datetime.now().weekday() >= 5
         if not is_weekend or alert.get("is_crypto"):
             _notify_agent(alert)
@@ -848,6 +854,15 @@ async def run_daemon(watchlist: Optional[list[str]] = None) -> None:
         asyncio.create_task(finnhub_poll_loop(watchlist, seen, stop_event, interval=120)),
         asyncio.create_task(whale_monitor_loop(seen, stop_event, interval=120)),
     ]
+
+    # AI briefing is intentionally decoupled from collection. Collection keeps
+    # running even when the model or Telegram is temporarily unavailable.
+    if os.getenv("NEWS_BRIEFING_ENABLED", "1") == "1":
+        try:
+            from scripts.monitoring.news_briefing import news_briefing_loop
+            tasks.append(asyncio.create_task(news_briefing_loop(stop_event)))
+        except Exception as exc:
+            logger.exception("Failed to start AI news briefing loop: %s", exc)
 
     try:
         await asyncio.gather(*tasks)
