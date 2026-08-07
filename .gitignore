@@ -9,6 +9,8 @@ __pycache__/
 .news-venv/
 data/alerts/briefing_state.json
 data/alerts/briefing_prompt.txt
+data/alerts/briefing_prompt_*.txt
+data/alerts/event_log/
 data/news_briefing.log
 data/news_daemon.launch.log
 data/news_daemon.launch.err.log

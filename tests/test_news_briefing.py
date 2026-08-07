@@ -1,4 +1,5 @@
 import json
+import os
 import tempfile
 import unittest
 from datetime import datetime, timezone
@@ -38,6 +39,53 @@ class NewsBriefingTests(unittest.TestCase):
         }
         self.assertTrue(briefing.is_ai_worthy(alert))
 
+    def test_cross_source_macro_event_deduplicates_within_five_minutes(self):
+        state = briefing._empty_state()
+        first = {
+            "source": "alpaca:benzinga",
+            "headline": "US nonfarm payrolls rise 50,000, below expectations",
+            "summary": "Actual 50K versus consensus 90K",
+        }
+        second = {
+            "source": "jin10:flash",
+            "headline": "美国非农就业人数增加5万人，不及预期",
+            "summary": "市场预期增加9万人",
+        }
+        briefing.record_events(state, [first])
+        self.assertTrue(briefing.is_duplicate_event(second, state))
+
+    def test_materially_revised_macro_data_can_be_an_update_after_window(self):
+        state = briefing._empty_state()
+        first = {
+            "source": "rss:Reuters",
+            "headline": "US nonfarm payrolls rise 50,000",
+            "summary": "Actual 50K",
+        }
+        record = briefing.event_record(first, recorded_at="2020-01-01T00:00:00+00:00")
+        state["event_log"][datetime.now().strftime("%Y-%m-%d")] = [record]
+        revised = {
+            "source": "jin10:flash",
+            "headline": "美国非农就业人数修正为增加3万人",
+            "summary": "修正值30K",
+        }
+        self.assertFalse(briefing.is_duplicate_event(revised, state))
+
+    def test_same_cross_language_numbers_deduplicate_after_window(self):
+        state = briefing._empty_state()
+        first = {
+            "source": "rss:Reuters",
+            "headline": "US nonfarm payrolls rise 50,000 versus consensus 90K",
+            "summary": "Actual 50K",
+        }
+        record = briefing.event_record(first, recorded_at="2020-01-01T00:00:00+00:00")
+        state["event_log"][datetime.now().strftime("%Y-%m-%d")] = [record]
+        duplicate = {
+            "source": "jin10:flash",
+            "headline": "美国非农就业人数增加5万人，预期增加9万人",
+            "summary": "实际增加5万人",
+        }
+        self.assertTrue(briefing.is_duplicate_event(duplicate, state))
+
     def test_legacy_alert_without_received_at_is_not_recent(self):
         self.assertFalse(briefing.is_recent({"headline": "old"}))
 
@@ -65,6 +113,23 @@ class NewsBriefingTests(unittest.TestCase):
         self.assertEqual(result["status"], "suppressed")
         send.assert_not_called()
         self.assertIn("x", save_state.call_args.args[0]["processed_ids"])
+
+    def test_analysis_uses_ephemeral_headless_exec(self):
+        alert = {"id": "batch-unique", "headline": "Federal Reserve announces emergency rate cut"}
+        payload = {"type": "item.completed", "item": {"type": "agent_message", "text": "NO_REPLY"}}
+        completed = type("Completed", (), {"returncode": 0, "stdout": json.dumps(payload), "stderr": ""})()
+        with tempfile.TemporaryDirectory() as tmp:
+            codex = Path(tmp) / "codex"
+            codex.write_text("")
+            with patch.dict(os.environ, {"NEWS_CODEX_BIN": str(codex)}), \
+                 patch.object(briefing.subprocess, "run", return_value=completed) as run:
+                result = briefing.analyze_with_friday([alert])
+        self.assertEqual(result, "NO_REPLY")
+        command = run.call_args.args[0]
+        self.assertIn("exec", command)
+        self.assertIn("--ephemeral", command)
+        self.assertIn("read-only", command)
+        self.assertIn("Federal Reserve", run.call_args.kwargs["input"])
 
     def test_claim_batch_marks_alert_before_returning_prompt(self):
         alert = {

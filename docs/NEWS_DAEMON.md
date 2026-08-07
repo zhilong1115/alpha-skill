@@ -5,32 +5,32 @@
 1. Collects real-time market news from Alpaca/Benzinga, Jin10 (金十数据),
    CNBC, MarketWatch, Reuters, Yahoo Finance, CoinDesk, CoinTelegraph,
    The Block, Decrypt, and Finnhub.
-2. Applies a cheap rule filter, de-duplicates syndicated headlines, and batches
-   related items.
-3. A no-model OpenClaw trigger reads a signed, read-only batch and wakes an
-   isolated tool-free Friday analysis task only when the material batch changes.
-   The task decides whether the batch is materially market
-   moving and, if so, produces a concise Chinese impact brief.
-4. Maps first- and second-order effects to stocks/ETFs, futures/commodities/FX,
-   and crypto, including direction, horizon, confidence, and invalidation.
+2. Applies a cheap rule filter, de-duplicates syndicated headlines, and keeps a
+   daily event ledger under `data/alerts/event_log/`. Cross-source versions of
+   the same event are sent once; materially revised numbers can become updates.
+3. The daemon wakes the isolated, tool-free Friday Flash agent only when a new
+   material batch is ready.
+4. For scheduled releases, Friday Flash compares actual/consensus/prior values,
+   traces the Fed/yields/USD/risk-appetite transmission chain, and maps first-
+   and second-order effects to stocks/ETFs, futures/commodities/FX, gold/silver,
+   and crypto. Each view includes direction, horizon, confidence, catalyst,
+   invalidation, and scenario-based strategy references.
 5. Delivers the brief to Telegram. It never places a trade.
 
 ## Safety and cost controls
 
 - Trading interrupts are disabled unless `NEWS_ENABLE_TRADING_INTERRUPT=1`.
 - Neutral, unattributed whale transfers are suppressed.
-- AI analysis batches have a ten-minute cooldown and are capped at 16 per day
-  by the scheduler trigger.
-- Telegram delivery therefore cannot exceed 16 material briefings per day.
+- AI analysis batches have a five-minute cooldown and are capped at 40 per day.
+- The five-minute hard event window and daily ledger suppress duplicates across
+  Alpaca, Jin10, RSS, and Finnhub without hiding genuinely revised data.
 - A model may return `NO_REPLY`; nothing is sent in that case.
 - External news is explicitly treated as untrusted content.
 
 ## Runtime
 
-The macOS LaunchAgent `com.friday.market-news-daemon` keeps collection running
-24/7, including weekends for crypto coverage. An OpenClaw automation named
-`Friday AI Market News Briefing` checks the local queue every five minutes with
-a zero-token trigger and starts analysis only when needed.
+The macOS LaunchAgent `com.friday.market-news-daemon` keeps collection and the
+Friday Flash briefing loop running 24/7, including weekends for crypto coverage.
 
 Useful commands:
 
